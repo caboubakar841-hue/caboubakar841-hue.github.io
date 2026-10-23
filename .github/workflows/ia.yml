@@ -5,8 +5,8 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'  # Tourne toutes les 15 min pour le LIVE
-    - cron: '0 6 * * *'      # Tourne à 6h pour les pronos du jour
+    - cron: '*/15 * * * *'
+    - cron: '0 6 * * *'
 
 jobs:
   build:
@@ -26,12 +26,12 @@ jobs:
       - name: Run IA V9
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python ia.py
+        run: python scripts/ia.py
 
       - name: Commit
         run: |
           git config --global user.name "Prono70-Bot"
           git config --global user.email "bot@prono70.com"
-          git add data/matches.json
-          git commit -m "V9 LIVE update $(date)" || echo "No changes"
+          git add .
+          git commit -m "V9 LIVE update" || echo "No changes"
           git push
