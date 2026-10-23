@@ -1,22 +1,28 @@
 name: PRONO70 VRAIE IA
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
 permissions:
   contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-      - run: pip install requests
-      - run: python scripts/ia.py
+          python-version: '3.11'
+      - name: Génère les pronos
         env:
           API_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-      - run: |
-          git config --global user.name "IA"
-          git config --global user.email "ia@prono70.com"
+        run: |
+          mkdir -p data
+          python scripts/generate_ia.py
+      - name: Sauvegarde
+        run: |
+          git config user.name "PRONO70 Bot"
+          git config user.email "bot@prono70.com"
           git add data/matches.json
-          git commit -m "update" || true
+          git commit -m "Mise à jour IA" || echo "Pas de changement"
           git push
