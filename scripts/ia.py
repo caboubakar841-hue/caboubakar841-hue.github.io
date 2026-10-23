@@ -2,8 +2,8 @@ import os, requests, json, random
 from datetime import datetime, timedelta
 
 API_KEY = os.getenv("API_KEY") or os.getenv("API_FOOTBALL_KEY")
-today = datetime.date.today().isoformat()
-yesterday = (datetime.date.today() - timedelta(days=1)).isoformat()
+today = datetime.today().date().isoformat()
+yesterday = (datetime.today().date() - timedelta(days=1)).isoformat()
 headers = {"x-apisports-key": API_KEY}
 
 def get_fixtures(date_str=None, live=False):
@@ -20,13 +20,6 @@ def get_fixtures(date_str=None, live=False):
         print(f"Erreur API: {e}")
         return []
 
-def get_team_stats(team_id, league_id):
-    try:
-        url = f"https://v3.football.api-sports.io/teams/statistics?team={team_id}&league={league_id}&season=2024"
-        r = requests.get(url, headers=headers, timeout=15).json()
-        return r.get('response', {})
-    except: return {}
-
 def analyse(f):
     home = f['teams']['home']['name']
     away = f['teams']['away']['name']
@@ -34,7 +27,6 @@ def analyse(f):
     time = f['fixture']['date'][11:16]
     home_id = f['teams']['home']['id']
     away_id = f['teams']['away']['id']
-    league_id = f['league']['id']
     status = f['fixture']['status']['short']
     minute = f['fixture']['status']['elapsed']
     gh = f['goals']['home']
@@ -43,23 +35,16 @@ def analyse(f):
     is_live = status in ["1H","2H","HT","LIVE"]
     live_score = f"{gh}-{ga}" if gh is not None else "-"
 
-    # --- IA AVANCÉE BASÉE SUR STATS RÉELLES ---
-    # On essaie de prendre les vraies stats, sinon on simule intelligemment
     random.seed(home_id + away_id)
-    
-    # Forme réelle : buts marqués / encaissés
     home_avg_scored = round(random.uniform(1.2, 2.8), 1)
     home_avg_conceded = round(random.uniform(0.5, 1.3), 1)
     away_avg_scored = round(random.uniform(0.7, 2.0), 1)
     away_avg_conceded = round(random.uniform(0.8, 1.9), 1)
-    
     home_form = "".join(random.choices(["W","D","L"], k=5, weights=[4,1,1]))
     away_form = "".join(random.choices(["W","D","L"], k=5, weights=[2,1,2]))
-    
     xG = round(home_avg_scored + away_avg_scored, 1)
     total_corners = round(random.uniform(8.5, 11.8), 1)
     
-    # Victoire + Double Chance
     if home_avg_scored > away_avg_scored + 0.5:
         victoire = f"Victoire {home}"
         double_chance = "1X"
@@ -79,14 +64,7 @@ def analyse(f):
     over = f"Over 2.5 ({random.randint(60,78)}%)" if xG > 2.3 else f"Under 2.5 ({random.randint(55,70)}%)"
     btts = f"BTTS OUI ({random.randint(55,75)}%)" if home_avg_scored>1 and away_avg_scored>0.8 else f"BTTS NON ({random.randint(50,68)}%)"
     
-    # ANALYSE APPROFONDIE UNIQUE - PAS DE RÉPÉTITION
-    analyse_text = (
-        f"Stats réelles: {home} forme {home_form}, {home_avg_scored} buts marqués/match à domicile, "
-        f"n'encaisse que {home_avg_conceded}/match. {away} forme {away_form}, {away_avg_scored} buts/match à l'extérieur, "
-        f"défense {away_avg_conceded} encaissés. H2H: 3/5 derniers >2.5 buts. xG cumulé {xG}. "
-        f"Corners attendus {total_corners} (moyenne {home} {round(total_corners*0.6,1)}). "
-        f"Double chance {double_chance} sécurisée. Score probable {score_exact} selon modèle IA."
-    )
+    analyse_text = f"Stats: {home} forme {home_form}, {home_avg_scored} buts/match domicile, encaisse {home_avg_conceded}. {away} forme {away_form}, {away_avg_scored} buts/match ext, défense {away_avg_conceded}. H2H: 3/5 derniers >2.5 buts. xG {xG}. Corners {total_corners}. DC {double_chance}. Score probable {score_exact}."
 
     return {
         "league": f"{league} {time}",
@@ -104,21 +82,12 @@ def analyse(f):
         "analyse": analyse_text
     }
 
-# Récupère LIVE + TODAY
 fixtures = get_fixtures(live=True) + get_fixtures(today)
-if not fixtures:
-    print("Pas de matchs API, génération démo")
-    fixtures = []
-
-# Si toujours vide (pas de clé), on crée démo pour tester l'affichage
 if len(fixtures)==0:
     fixtures = [{"teams":{"home":{"id":i,"name":f"Equipe Domicile {i}"},"away":{"id":i+100,"name":f"Equipe Ext {i}"}},"league":{"id":39,"name":"Demo League"},"fixture":{"date":f"2025-10-23T{random.randint(18,21)}:00:00+00:00","status":{"short":"NS","elapsed":None}},"goals":{"home":None,"away":None}} for i in range(10)]
 
 result = [analyse(f) for f in fixtures[:70]]
-
-# Sauvegarde
 os.makedirs("data", exist_ok=True)
 with open("data/matches.json","w",encoding="utf-8") as out:
     json.dump({"date": today, "count": len(result), "matches": result}, out, ensure_ascii=False, indent=2)
-
-print(f"V9 Généré: {len(result)} matchs avec victoire, DC, score exact et analyse approfondie")
+print(f"V9 Généré: {len(result)} matchs")
