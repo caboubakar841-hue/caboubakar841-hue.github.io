@@ -18,7 +18,7 @@ jobs:
           API_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           mkdir -p data
-          python scripts/generate_ia.py
+          python scripts/ia.py
       - name: Sauvegarde
         run: |
           git config user.name "PRONO70 Bot"
