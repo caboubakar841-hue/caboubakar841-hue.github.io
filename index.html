@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PRONO70 V9.4 IA REELLE</title>
-<style>*{margin:0;padding:0;box-sizing:border-box;font-family:Arial Black,Arial,sans-serif}body{background:#070707;color:#fff}.hero{text-align:center;padding:50px 15px 20px;background:radial-gradient(circle at 50% 0%,#1e3a0a,#070707 70%)}.big{font-size:clamp(60px,18vw,130px);line-height:.85;letter-spacing:-4px}.big span{color:#a3ff12}.sub{font-family:Arial;font-size:12px;color:#888;margin-top:10px}.live{background:#a3ff12;color:#000;padding:12px 22px;border-radius:100px;display:inline-block;margin-top:15px;font-size:14px;font-weight:900}.container{max-width:1000px;margin:0 auto;padding:15px 15px 40px}.match{background:#141414;border:2px solid #222;border-radius:20px;padding:18px;margin-bottom:14px}.head{display:flex;justify-content:space-between;margin-bottom:8px}.league{font-family:Arial;font-size:10px;color:#a3ff12}.badge{background:#222;padding:5px 10px;border-radius:100px;font-size:10px;color:#aaa;font-family:Arial}.teams{font-size:clamp(18px,5vw,26px)}.vs{font-size:11px;color:#555;display:block;margin:3px 0;font-family:Arial}.stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:12px 0}.s{background:#1e1e1e;border-radius:12px;padding:10px;text-align:center}.s span{font-family:Arial;font-size:9px;color:#777;display:block}.s b{font-size:14px}.green{color:#a3ff12}.prono-main{background:#a3ff12;color:#000;padding:12px;border-radius:12px;text-align:center;font-size:16px;margin:10px 0}.analyse{font-family:Arial;font-size:13px;color:#aaa;line-height:1.4;background:#0f0f0f;padding:12px;border-radius:12px;border-left:3px solid #a3ff12}.bar{height:4px;background:#222;border-radius:10px;margin-top:10px;overflow:hidden}.fill{height:100%;background:#a3ff12}</style></head><body>
-<div class="hero"><div class="big">PRONO<br><span>70</span></div><div class="sub">V9.4 IA REELLE - 1 APPEL/JOUR</div><div class="live" id="live">IA EN COURS...</div></div>
-<div class="container" id="list">Chargement de l'analyse IA...</div>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRONO70 - IA Football</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body{background:#0f0f0f;color:#fff;font-family:system-ui}
+.card{background:#1a1a1a;border:1px solid #2a2a2a;border-radius:16px;padding:16px;margin-bottom:12px}
+.badge{background:#00ff88;color:#000;padding:2px 8px;border-radius:20px;font-size:12px;font-weight:700}
+</style>
+</head>
+<body class="p-4 max-w-lg mx-auto">
+<h1 class="text-3xl font-black text-center mt-4">PRONO<span style="color:#00ff88">70</span></h1>
+<p class="text-center text-zinc-500 text-sm mb-6">IA Football • Mise à jour auto à 6h</p>
+
+<div id="status" class="text-center text-zinc-400 text-sm py-10">Chargement des pronos IA...</div>
+<div id="matches"></div>
+
 <script>
-async function load(){
- try{
-  const r = await fetch('data/matches.json?t='+Date.now());
-  if(!r.ok) throw new Error("Fichier data/matches.json pas encore cree. Lance le workflow dans Actions.");
-  const data = await r.json();
-  const ms = data.matches;
-  if(!ms || ms.length===0){
-    document.getElementById('live').innerText = "AUCUN MATCH AUJOURD'HUI - IA EN ATTENTE";
-    document.getElementById('list').innerHTML = "<div style='text-align:center;padding:30px;font-family:Arial;color:#888'>L'IA a cherche mais il n'y a pas de matchs aujourd'hui.<br><br>Elle reessayera demain a 6h automatiquement.<br><br>Utilisation cle API: 1/100</div>";
-    return;
-  }
-  document.getElementById('live').innerText = `${ms.length} MATCHS ANALYSES PAR IA LE ${data.date} - 1 SEULE CLE UTILISEE`;
-  let h='';
-  ms.forEach(m=>{
-   h+=`<div class="match"><div class="head"><div class="league">${m.league}</div><div class="badge">MOY ${m.cornerM} CORN</div></div><div class="teams">${m.home}<span class="vs">VS</span>${m.away}</div><div class="stats"><div class="s"><span>CORNERS</span><b class="green">${m.corner}</b></div><div class="s"><span>BUTS</span><b>${m.over}</b></div><div class="s"><span>PRONO</span><b class="green">${m.btts}</b></div></div><div class="prono-main">IA: ${m.corner} + ${m.btts}</div><div class="analyse"><b>ANALYSE IA REELLE:</b> ${m.analyse}</div><div class="bar"><div class="fill" style="width:${m.conf}%"></div></div><div style="font-family:Arial;font-size:10px;color:#666;margin-top:5px">CONFIANCE IA: ${m.conf}% - Calcul 5 derniers matchs</div></div>`;
-  });
-  document.getElementById('list').innerHTML=h;
- }catch(e){
-  document.getElementById('list').innerHTML = "<div style='padding:20px;font-family:Arial'>Erreur: "+e.message+"<br><br>1. Va dans Actions<br>2. Clique PRONO70 VRAIE IA<br>3. Run workflow</div>";
-  document.getElementById('live').innerText = "EN ATTENTE DU 1er LANCEMENT IA";
- }
-}
-load();
-</script></body></html>
+async function load() {
+  try {
+    // CACHE BUSTER pour éviter le vieux fichier
+    const res = await fetch('./data/matches.json?t=' + Date.now());
+    if (!res.ok) throw new Error("Pas de fichier");
+    const data = await res.json();
+    
+    const list = Array.isArray(data) ? data : data.matches || data.response || [];
+    
+    if(list.length ===
