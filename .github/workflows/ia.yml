@@ -1,29 +1,37 @@
-name: PRONO70 VRAIE IA
-on: 
+name: PRONO70 V9 LIVE
+
+on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
-permissions:
-  contents: write
+    - cron: '*/15 * * * *'  # Tourne toutes les 15 min pour le LIVE
+    - cron: '0 6 * * *'      # Tourne à 6h pour les pronos du jour
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
-      - name: Génère les pronos
+          python-version: '3.10'
+
+      - name: Install
+        run: pip install requests
+
+      - name: Run IA V9
         env:
-          API_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python ia.py
+
+      - name: Commit
         run: |
-          pip install requests
-          mkdir -p data
-          python scripts/ia.py
-      - name: Sauvegarde
-        run: |
-          git config user.name "PRONO70 Bot"
-          git config user.email "bot@prono70.com"
+          git config --global user.name "Prono70-Bot"
+          git config --global user.email "bot@prono70.com"
           git add data/matches.json
-          git commit -m "Mise à jour IA" || echo "Pas de changement"
+          git commit -m "V9 LIVE update $(date)" || echo "No changes"
           git push
