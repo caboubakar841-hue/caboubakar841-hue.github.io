@@ -1,71 +1,74 @@
-<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PRONO70 V11 - 120 TODAY</title><style>
-body{background:#0b0f14;color:#fff;font-family:Arial;margin:0;padding:10px}
-.header{background:#111a24;padding:15px;border-radius:12px;text-align:center;border:1px solid #1e3a5f}
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PRONO70 V13.3 - REAL xG</title>
+<style>
+body{background:#0b0f14;color:#fff;font-family:system-ui;margin:0;padding:0}
+.header{background:#111a24;padding:15px;border-bottom:2px solid #00ff88;text-align:center;position:sticky;top:0;z-index:10}
 .logo{font-size:20px;font-weight:bold;color:#00ff88}
-.tabs{display:flex;gap:6px;margin:12px 0;overflow-x:auto}
-.tab{padding:10px 14px;background:#1e2a38;border-radius:20px;font-size:13px;cursor:pointer;white-space:nowrap;border:1px solid #2a3a50}
+.sub{font-size:12px;color:#aaa;margin-top:4px}
+.tabs{display:flex;gap:6px;margin:12px 10px;overflow:auto}
+.tab{padding:10px 14px;background:#1e2a38;border-radius:20px;border:none;color:#fff;font-size:13px;white-space:nowrap}
 .tab.active{background:#00ff88;color:#000;font-weight:bold}
 .badge{background:#ff3b30;color:#fff;padding:2px 7px;border-radius:10px;font-size:10px;animation:blink 1s infinite}
 @keyframes blink{50%{opacity:.3}}
-.card{background:#151c25;margin:10px 0;padding:14px;border-radius:12px;border-left:4px solid #00ff88}
-.card.live{border-left-color:#ff3b30;box-shadow:0 0 15px rgba(255,59,48,.25)}
-.card.finished{border-left-color:#555;opacity:.7}
-.top{display:flex;justify-content:space-between;font-size:11px;color:#8a9bb0}
+.card{background:#151c25;margin:10px;padding:12px;border-radius:12px;border-left:4px solid #00ff88}
+.top{display:flex;justify-content:space-between;font-size:11px;color:#8aa}
 .teams{font-size:15px;font-weight:bold;margin:8px 0}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0}
-.p{background:#1e2a38;padding:8px;border-radius:8px;font-size:11px;text-align:center}
-.p b{color:#00ff88;display:block;font-size:12px}
-.p.v{background:#003d26;border:1px solid #00ff88}
-.p.s{background:#2a1e00;border:1px solid #ffaa00}.p.s b{color:#ffaa00}
-.analyse{font-size:11px;color:#9fb0c5;background:#0f1720;padding:8px;border-radius:6px;margin-top:6px}
-.conf{float:right;background:#00ff88;color:#000;padding:2px 6px;border-radius:10px;font-size:10px;font-weight:bold}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
+.p{background:#1e2a38;padding:8px;border-radius:8px;text-align:center;font-size:12px}
+.p b{color:#00ff88;display:block;font-size:12px;margin-top:2px}
+.analyse{font-size:10px;color:#7aa;background:#0e1520;padding:6px;border-radius:6px;margin-top:8px;word-break:break-word}
 </style></head><body>
-<div class="header"><div class="logo">PRONO70 V11 <span style="font-size:12px" id="counts">120 TODAY</span></div><div style="font-size:12px;color:#8a9bb0;margin-top:5px" id="info">Chargement...</div></div>
+<div class="header"><div class="logo" id="logo">PRONO70 V13.3 REAL xG</div><div class="sub" id="sub">Chargement...</div></div>
 <div class="tabs">
-<div class="tab active" onclick="filterTab('upcoming',this)" id="tabToday">Aujourd'hui (0)</div>
-<div class="tab" onclick="filterTab('live',this)" id="tabLive">🔴 LIVE (0)</div>
-<div class="tab" onclick="filterTab('finished',this)" id="tabFin">Terminés (0)</div>
-<div class="tab" onclick="filterTab('all',this)">Tous (120)</div>
-<div class="tab" onclick="filterTab('history',this)">Historique</div>
+<button class="tab active" onclick="filterTab('all')" id="tab-all">Aujourd'hui (0)</button>
+<button class="tab" onclick="filterTab('live')" id="tab-live">LIVE (0)</button>
+<button class="tab" onclick="filterTab('finished')" id="tab-fin">Terminés (0)</button>
 </div>
-<div id="list">Chargement IA...</div>
+<div id="list"></div>
 <script>
-let ALL=[],HIST=[],TODAY="";
+let allData=[];
 async function load(){
- const r1=await fetch('data/matches.json?v='+Date.now()); const d1=await r1.json();
- ALL=d1.matches; TODAY=d1.date;
- document.getElementById('info').innerHTML=`${TODAY} • ${d1.count} matchs du jour • Auto 15min`;
- document.getElementById('tabToday').innerHTML=`Aujourd'hui (${d1.upcoming})`;
- document.getElementById('tabLive').innerHTML=`🔴 LIVE (${d1.live})`;
- document.getElementById('tabFin').innerHTML=`Terminés (${d1.finished})`;
- document.getElementById('counts').innerHTML=`${d1.upcoming} + ${d1.live} LIVE + ${d1.finished} FIN = ${d1.count}`;
- try{ const r2=await fetch('data/history.json?v='+Date.now()); const d2=await r2.json(); HIST=d2.matches; }catch(e){}
- filterTab('upcoming');
+  try{
+    const r=await fetch('data/matches.json?t='+Date.now());
+    const j=await r.json();
+    allData=j.matches||[];
+    document.getElementById('logo').innerText=`PRONO70 V13.3 • ${j.count} matchs • xG Reel`;
+    document.getElementById('sub').innerText=`${j.date||''} • Scores bases sur vrais buts marques/encaisses • Auto 15min`;
+    document.getElementById('tab-all').innerText=`Aujourd'hui (${allData.length})`;
+    document.getElementById('tab-live').innerText=`LIVE (${allData.filter(m=>m.status==='live').length})`;
+    document.getElementById('tab-fin').innerText=`Termines (${allData.filter(m=>m.status==='finished').length})`;
+    render('all');
+  }catch(e){document.getElementById('sub').innerText='Erreur chargement matches.json '+e}
 }
-function render(arr){
- if(!arr.length){document.getElementById('list').innerHTML='<div style="text-align:center;padding:30px;color:#8a9bb0">Aucun match ici</div>';return;}
- let h=''; arr.forEach(m=>{
-  h+=`<div class="card ${m.status}">
-  <div class="top"><span>${m.league} ${m.status=='live'?`<span class="badge">LIVE ${m.minute?m.minute+"'":''} ${m.live_score}</span>`:m.status=='finished'?`<span style="background:#555;padding:2px 6px;border-radius:10px;color:#fff">FT ${m.live_score}</span>`:''} ${m.date}</span><span class="conf">${m.conf}%</span></div>
-  <div class="teams">${m.home} vs ${m.away}</div>
-  <div class="grid">
-   <div class="p v"><span>Victoire</span><b>${m.victoire}</b></div>
-   <div class="p s"><span>Score Exact</span><b>${m.score_exact}</b></div>
-   <div class="p"><span>Double Chance</span><b>${m.double_chance}</b></div>
-   <div class="p"><span>Corners</span><b>${m.cornerM} | ${m.corner}</b></div>
-   <div class="p"><span>${m.over.split('(')[0]}</span><b>(${m.over.split('(')[1]||''}</b></div>
-   <div class="p"><span>BTTS</span><b>${m.btts}</b></div>
-  </div><div class="analyse">🤖 ${m.analyse}</div></div>`;
- }); document.getElementById('list').innerHTML=h;
+function render(filter){
+  const list=document.getElementById('list');
+  let data=allData;
+  if(filter==='live') data=allData.filter(m=>m.status==='live');
+  if(filter==='finished') data=allData.filter(m=>m.status==='finished');
+  if(data.length===0){list.innerHTML='<div style="padding:20px;text-align:center;color:#888">Aucun match</div>';return}
+  list.innerHTML=data.map(m=>`
+    <div class="card">
+      <div class="top"><span>${m.league}</span><span style="background:#00ff88;color:#000;padding:2px 6px;border-radius:10px;font-weight:bold">${m.conf||70}%</span></div>
+      <div class="teams">${m.home} vs ${m.away}</div>
+      <div class="grid">
+        <div class="p">Victoire<b>${m.victoire}</b></div>
+        <div class="p" style="background:#332a00">Score Exact<b style="color:#ffcc00">${m.score_exact}</b></div>
+        <div class="p">Double Chance<b>${m.double_chance}</b></div>
+        <div class="p">Corners<b>${m.corner}</b></div>
+        <div class="p">Over/Under<b>${m.over}</b></div>
+        <div class="p">BTTS<b>${m.btts}</b></div>
+      </div>
+      <div class="analyse">🤖 ${m.analyse||''}</div>
+    </div>
+  `).join('');
 }
-function filterTab(type,el){
- if(el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));el.classList.add('active');}
- if(type=='upcoming') render(ALL.filter(m=>m.status=='upcoming'));
- else if(type=='live') render(ALL.filter(m=>m.status=='live'));
- else if(type=='finished') render(ALL.filter(m=>m.status=='finished'));
- else if(type=='all') render(ALL);
- else if(type=='history') render(HIST.slice(0,50));
+function filterTab(t){
+  document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+  if(t==='all') document.getElementById('tab-all').classList.add('active');
+  if(t==='live') document.getElementById('tab-live').classList.add('active');
+  if(t==='finished') document.getElementById('tab-fin').classList.add('active');
+  render(t);
 }
-load(); setInterval(load,60000);
+load();
+setInterval(load, 15*60*1000);
 </script></body></html>
