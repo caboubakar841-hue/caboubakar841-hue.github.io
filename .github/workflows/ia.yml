@@ -1,37 +1,22 @@
-name: PRONO70 V9 LIVE
-
+name: PRONO70 V12 REAL
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
-    - cron: '0 6 * * *'
-
+    - cron: '*/30 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-
-      - name: Install
-        run: pip install requests
-
-      - name: Run IA V9
+      - run: pip install requests
+      - run: python scripts/ia.py
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/ia.py
-
-      - name: Commit
-        run: |
-          git config --global user.name "Prono70-Bot"
-          git config --global user.email "bot@prono70.com"
-          git add .
-          git commit -m "V9 LIVE update" || echo "No changes"
-          git push
+          API_KEY: ${{ secrets.API_KEY }}
+      - run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@bot.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "V12 REAL" && git push)
