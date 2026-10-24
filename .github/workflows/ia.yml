@@ -1,14 +1,21 @@
-name: PRONO70 V14.1 REAL
+name: PRONO70 V14.3 REAL
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'data/matches.json'
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 */3 * * *"
+
+concurrency:
+  group: prono70
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 2
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -20,5 +27,5 @@ jobs:
           git config --global user.name "bot"
           git config --global user.email "bot@bot.com"
           git add data/matches.json
-          git commit -m "V14.1 real ESPN" || exit 0
+          git commit -m "V14.3 real [skip ci]" || exit 0
           git push
