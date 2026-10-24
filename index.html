@@ -1,58 +1,66 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PRONO70 - V9 LIVE PRO</title>
-<style>
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PRONO70 V10.1 FINAL</title><style>
 body{background:#0b0f14;color:#fff;font-family:Arial;margin:0;padding:10px}
 .header{background:#111a24;padding:15px;border-radius:12px;text-align:center;border:1px solid #1e3a5f}
-.logo{font-size:22px;font-weight:bold;color:#00ff88}
-.badge{display:inline-block;background:#ff3b30;color:#fff;padding:3px 8px;border-radius:10px;font-size:11px;margin-left:5px;animation:blink 1s infinite}
-@keyframes blink{50%{opacity:0.3}}
-.card{background:#151c25;margin:12px 0;padding:14px;border-radius:12px;border-left:4px solid #00ff88}
-.live{border-left-color:#ff3b30 !important;box-shadow:0 0 15px rgba(255,59,48,0.3)}
-.top{display:flex;justify-content:space-between;font-size:12px;color:#8a9bb0}
-.teams{font-size:16px;font-weight:bold;margin:8px 0}
-.prono-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0}
-.prono{background:#1e2a38;padding:8px;border-radius:8px;font-size:12px;text-align:center}
-.prono b{color:#00ff88;display:block;font-size:13px}
-.victoire{background:#003d26 !important;border:1px solid #00ff88}
-.score-exact{background:#2a1e00 !important;border:1px solid #ffaa00}
+.logo{font-size:20px;font-weight:bold;color:#00ff88}
+.tabs{display:flex;gap:6px;margin:12px 0;overflow-x:auto;padding-bottom:5px}
+.tab{padding:10px 14px;background:#1e2a38;border-radius:20px;font-size:13px;cursor:pointer;white-space:nowrap;border:1px solid #2a3a50}
+.tab.active{background:#00ff88;color:#000;font-weight:bold}
+.badge{background:#ff3b30;color:#fff;padding:2px 7px;border-radius:10px;font-size:10px;animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.3}}
+.card{background:#151c25;margin:10px 0;padding:14px;border-radius:12px;border-left:4px solid #00ff88}
+.card.live{border-left-color:#ff3b30;box-shadow:0 0 15px rgba(255,59,48,.25)}
+.top{display:flex;justify-content:space-between;font-size:11px;color:#8a9bb0}
+.teams{font-size:15px;font-weight:bold;margin:8px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0}
+.p{background:#1e2a38;padding:8px;border-radius:8px;font-size:11px;text-align:center}
+.p b{color:#00ff88;display:block;font-size:12px}
+.p.v{background:#003d26;border:1px solid #00ff88}
+.p.s{background:#2a1e00;border:1px solid #ffaa00}.p.s b{color:#ffaa00}
 .analyse{font-size:11px;color:#9fb0c5;background:#0f1720;padding:8px;border-radius:6px;margin-top:6px}
 .conf{float:right;background:#00ff88;color:#000;padding:2px 6px;border-radius:10px;font-size:10px;font-weight:bold}
-</style>
-</head>
-<body>
-<div class="header">
-<div class="logo">PRONO70 V9 LIVE PRO <span class="badge">LIVE</span></div>
-<div style="font-size:12px;color:#8a9bb0;margin-top:5px" id="date">Chargement...</div>
+</style></head><body>
+<div class="header"><div class="logo">PRONO70 V10.1 FINAL <span class="badge">LIVE</span></div><div style="font-size:12px;color:#8a9bb0;margin-top:5px" id="info">Chargement IA...</div></div>
+<div class="tabs">
+<div class="tab active" onclick="filterTab('live',this)">🔴 LIVE</div>
+<div class="tab" onclick="filterTab('today',this)">Aujourd'hui</div>
+<div class="tab" onclick="filterTab('tomorrow',this)">Demain</div>
+<div class="tab" onclick="filterTab('all',this)">Tous (120)</div>
+<div class="tab" onclick="filterTab('history',this)">Historique</div>
 </div>
-<div id="list">Chargement des pronos...</div>
+<div id="list">Chargement...</div>
 <script>
+let ALL=[],HIST=[],TODAY="",TOMORROW="";
 async function load(){
- const res = await fetch('data/matches.json?v='+Date.now());
- const data = await res.json();
- document.getElementById('date').innerHTML = data.date + ' • ' + data.count + ' matchs • Auto-refresh 15min';
- let html='';
- data.matches.forEach(m=>{
-  html+=`<div class="card ${m.status=='live'?'live':''}">
-   <div class="top"><span>${m.league} ${m.status=='live'?'<span class="badge">LIVE '+ (m.minute?m.minute+"'":'') +' '+m.live_score+'</span>':''}</span><span class="conf">${m.conf}%</span></div>
-   <div class="teams">${m.home} vs ${m.away} ${m.status=='live'?'🔴':''}</div>
-   <div class="prono-grid">
-     <div class="prono victoire"><span>Victoire</span><b>${m.victoire}</b></div>
-     <div class="prono score-exact"><span>Score Exact</span><b>${m.score_exact}</b></div>
-     <div class="prono"><span>Double Chance</span><b>${m.double_chance}</b></div>
-     <div class="prono"><span>Corners</span><b>${m.cornerM} | ${m.corner}</b></div>
-     <div class="prono"><span>${m.over.split('(')[0]}</span><b>${m.over.match(/\(.*\)/)||''}</b></div>
-     <div class="prono"><span>BTTS</span><b>${m.btts}</b></div>
-   </div>
-   <div class="analyse">🤖 ${m.analyse}<br>Forme: ${m.home_form} vs ${m.away_form}</div>
-  </div>`;
- });
- document.getElementById('list').innerHTML=html;
+ const r1=await fetch('data/matches.json?v='+Date.now()); const d1=await r1.json();
+ ALL=d1.matches; TODAY=d1.date; TOMORROW=d1.tomorrow;
+ try{ const r2=await fetch('data/history.json?v='+Date.now()); const d2=await r2.json(); HIST=d2.matches; }catch(e){}
+ document.getElementById('info').innerHTML=`${TODAY} → ${TOMORROW} • ${ALL.length} matchs • Auto 15min • IA PRO`;
+ filterTab('today');
 }
-load();
-setInterval(load, 60000);
-</script>
-</body>
-</html>
+function render(arr){
+ if(!arr.length){document.getElementById('list').innerHTML='<div style="text-align:center;padding:30px;color:#8a9bb0">Aucun match ici, clique sur Tous</div>';return;}
+ let h=''; arr.forEach(m=>{
+  h+=`<div class="card ${m.status=='live'?'live':''}">
+  <div class="top"><span>${m.league} ${m.status=='live'?'<span class="badge">LIVE '+(m.minute?m.minute+"'":'')+' '+m.live_score+'</span>':''} ${m.date}</span><span class="conf">${m.conf}%</span></div>
+  <div class="teams">${m.home} vs ${m.away}</div>
+  <div class="grid">
+   <div class="p v"><span>Victoire</span><b>${m.victoire}</b></div>
+   <div class="p s"><span>Score Exact</span><b>${m.score_exact}</b></div>
+   <div class="p"><span>Double Chance</span><b>${m.double_chance}</b></div>
+   <div class="p"><span>Corners</span><b>${m.cornerM} | ${m.corner}</b></div>
+   <div class="p"><span>${m.over.split('(')[0]}</span><b>(${m.over.split('(')[1]||''}</b></div>
+   <div class="p"><span>BTTS</span><b>${m.btts}</b></div>
+  </div><div class="analyse">🤖 ${m.analyse}</div></div>`;
+ }); document.getElementById('list').innerHTML=h;
+}
+function filterTab(type,el){
+ if(el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));el.classList.add('active');}
+ if(type=='live') render(ALL.filter(m=>m.status=='live'));
+ else if(type=='today') render(ALL.filter(m=>m.date==TODAY));
+ else if(type=='tomorrow') render(ALL.filter(m=>m.date==TOMORROW));
+ else if(type=='all') render(ALL);
+ else if(type=='history') render(HIST.slice(0,50));
+}
+load(); setInterval(load,60000);
+</script></body></html>
