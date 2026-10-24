@@ -1,9 +1,6 @@
 {
   "date": "2026-10-24",
   "count": 40,
-  "live": 0,
-  "finished": 0,
-  "upcoming": 40,
   "matches": [
     {
       "id": "401879256",
@@ -16,13 +13,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 100%",
-      "btts": "BTTS OUI 80%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Aston Villa",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Aston Villa DLDWL 2.20b/m 25pts | Manchester City WDLLL 1.60b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Aston Villa WDLWW 1.30m 1.10e | Manchester City LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401878768",
@@ -35,13 +32,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 98%",
-      "btts": "BTTS OUI 78%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Arsenal",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 67,
-      "analyse": "REAL DIFF: Arsenal DWWDD 1.30b/m 25pts | Everton DLLWD 2.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Arsenal WDLWW 1.30m 1.10e | Everton LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401879255",
@@ -54,13 +51,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 100%",
-      "btts": "BTTS OUI 80%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Coventry City",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 67,
-      "analyse": "REAL DIFF: Coventry City WDLDL 1.50b/m 25pts | Fulham WWLWD 2.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Coventry City WDLWW 1.30m 1.10e | Fulham LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401878767",
@@ -73,13 +70,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 97%",
-      "btts": "BTTS OUI 78%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Chelsea",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 81,
-      "analyse": "REAL DIFF: Chelsea DLLLL 2.20b/m 25pts | Tottenham Hotspur WLDLW 1.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Chelsea WDLWW 1.30m 1.10e | Tottenham Hotspur LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401879254",
@@ -92,13 +89,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 98%",
-      "btts": "BTTS OUI 78%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Crystal Palace",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 81,
-      "analyse": "REAL DIFF: Crystal Palace WDDWL 2.40b/m 25pts | Newcastle United LLLWW 1.20b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Crystal Palace WDLWW 1.30m 1.10e | Newcastle United LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401878766",
@@ -111,13 +108,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 101%",
-      "btts": "BTTS OUI 81%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Hull City",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 67,
-      "analyse": "REAL DIFF: Hull City LLLWW 1.70b/m 25pts | Brentford DLLDW 2.20b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Hull City WDLWW 1.30m 1.10e | Brentford LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401878765",
@@ -130,13 +127,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 86%",
+      "over": "Over 2.5 82%",
       "btts": "BTTS OUI 70%",
       "victoire": "Victoire Liverpool",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Liverpool LWDLD 1.50b/m 25pts | Brighton & Hove Albion DDDDL 1.10b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Liverpool WDLWW 1.30m 1.10e | Brighton & Hove Albion LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401879252",
@@ -149,13 +146,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 95%",
-      "btts": "BTTS OUI 77%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Manchester United",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 66,
-      "analyse": "REAL DIFF: Manchester United WDLLL 1.20b/m 25pts | AFC Bournemouth LWWDL 2.20b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Manchester United WDLWW 1.30m 1.10e | AFC Bournemouth LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401878764",
@@ -168,13 +165,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 95%",
-      "btts": "BTTS OUI 77%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Sunderland",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 66,
-      "analyse": "REAL DIFF: Sunderland WDDWW 1.10b/m 25pts | Leeds United WDLWD 2.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Sunderland WDLWW 1.30m 1.10e | Leeds United LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882830",
@@ -187,13 +184,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 94%",
-      "btts": "BTTS OUI 76%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Rayo Vallecano",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 81,
-      "analyse": "REAL DIFF: Rayo Vallecano LLLDL 2.20b/m 25pts | Elche DLLLW 1.10b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Rayo Vallecano WDLWW 1.30m 1.10e | Elche LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882831",
@@ -206,13 +203,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 93%",
-      "btts": "BTTS OUI 75%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Racing Santander",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Racing Santander WWLLL 1.60b/m 25pts | Espanyol LDLDW 1.60b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Racing Santander WDLWW 1.30m 1.10e | Espanyol LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882827",
@@ -224,14 +221,14 @@
       "minute": null,
       "live_score": "-",
       "cornerM": 9.5,
-      "corner": "Under 9.5",
-      "over": "Over 2.5 85%",
+      "corner": "Over 9.5",
+      "over": "Over 2.5 82%",
       "btts": "BTTS OUI 70%",
       "victoire": "Victoire Valencia",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Valencia WWDDW 1.20b/m 25pts | Villarreal LLWLW 1.30b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Valencia WDLWW 1.30m 1.10e | Villarreal LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882834",
@@ -244,13 +241,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 104%",
-      "btts": "BTTS OUI 82%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Atlético Madrid",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Atlético Madrid LWDDD 2.40b/m 25pts | Deportivo LWWWL 1.70b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Atlético Madrid WDLWW 1.30m 1.10e | Deportivo LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882835",
@@ -263,13 +260,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 100%",
-      "btts": "BTTS OUI 80%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Athletic Club",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Athletic Club DWWLD 2.20b/m 25pts | Getafe LDLLW 1.60b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Athletic Club WDLWW 1.30m 1.10e | Getafe LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882833",
@@ -282,13 +279,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 95%",
-      "btts": "BTTS OUI 77%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Celta Vigo",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Celta Vigo DDWWD 1.70b/m 25pts | Real Betis LLWLW 1.70b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Celta Vigo WDLWW 1.30m 1.10e | Real Betis LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882829",
@@ -301,13 +298,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 93%",
-      "btts": "BTTS OUI 75%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Real Sociedad",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Real Sociedad DWDDD 1.80b/m 25pts | Levante WDLWL 1.40b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Real Sociedad WDLWW 1.30m 1.10e | Levante LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401882832",
@@ -320,13 +317,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 98%",
-      "btts": "BTTS OUI 78%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Barcelona",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Barcelona WDLDD 2.00b/m 25pts | Real Madrid LWLDL 1.60b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Barcelona WDLWW 1.30m 1.10e | Real Madrid LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401876427",
@@ -339,13 +336,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 97%",
-      "btts": "BTTS OUI 78%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Lens",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 67,
-      "analyse": "REAL DIFF: Lens DLDDD 1.20b/m 25pts | Paris FC LLWWD 2.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Lens WDLWW 1.30m 1.10e | Paris FC LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401876425",
@@ -358,13 +355,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 107%",
-      "btts": "BTTS OUI 85%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire AS Monaco",
       "double_chance": "1X",
-      "score_exact": "3-2",
-      "conf": 80,
-      "analyse": "REAL DIFF: AS Monaco WLLDD 2.10b/m 25pts | Lille WLWDW 2.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: AS Monaco WDLWW 1.30m 1.10e | Lille LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401876429",
@@ -377,13 +374,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 93%",
-      "btts": "BTTS OUI 75%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire AJ Auxerre",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: AJ Auxerre DLWLD 1.60b/m 25pts | Le Mans WLLLW 1.60b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: AJ Auxerre WDLWW 1.30m 1.10e | Le Mans LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401876430",
@@ -396,13 +393,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 89%",
-      "btts": "BTTS OUI 73%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Angers",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Angers WDLLW 1.40b/m 25pts | Lorient WLDDD 1.50b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Angers WDLWW 1.30m 1.10e | Lorient LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401876426",
@@ -415,13 +412,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 99%",
-      "btts": "BTTS OUI 79%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Marseille",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Marseille DLWDD 2.10b/m 25pts | Le Havre AC DWWLW 1.60b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Marseille WDLWW 1.30m 1.10e | Le Havre AC LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401876424",
@@ -434,13 +431,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 87%",
-      "btts": "BTTS OUI 71%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Stade Rennais",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Stade Rennais DWDLD 1.40b/m 25pts | Strasbourg LLDDL 1.30b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Stade Rennais WDLWW 1.30m 1.10e | Strasbourg LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401876423",
@@ -453,13 +450,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 87%",
-      "btts": "BTTS OUI 71%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Toulouse",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Toulouse LWDDW 1.70b/m 25pts | Troyes WWDLW 1.00b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Toulouse WDLWW 1.30m 1.10e | Troyes LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884758",
@@ -472,13 +469,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 91%",
-      "btts": "BTTS OUI 74%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire FC Augsburg",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: FC Augsburg LWWWL 1.60b/m 25pts | 1. FC Union Berlin DDLLL 1.40b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: FC Augsburg WDLWW 1.30m 1.10e | 1. FC Union Berlin LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884756",
@@ -491,13 +488,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 88%",
-      "btts": "BTTS OUI 72%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire FC Cologne",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 65,
-      "analyse": "REAL DIFF: FC Cologne DLDWL 1.10b/m 25pts | Schalke 04 WDWDD 1.70b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: FC Cologne WDLWW 1.30m 1.10e | Schalke 04 LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884757",
@@ -509,14 +506,14 @@
       "minute": null,
       "live_score": "-",
       "cornerM": 9.5,
-      "corner": "Under 9.5",
-      "over": "Under 2.5 64%",
-      "btts": "BTTS OUI 67%",
+      "corner": "Over 9.5",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Mainz",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Mainz WDLWL 1.00b/m 25pts | Werder Bremen LDDLL 1.20b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Mainz WDLWW 1.30m 1.10e | Werder Bremen LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884762",
@@ -529,13 +526,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 95%",
-      "btts": "BTTS OUI 77%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire RB Leipzig",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 81,
-      "analyse": "REAL DIFF: RB Leipzig WLDLW 2.10b/m 25pts | SV Elversberg WLLLW 1.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: RB Leipzig WDLWW 1.30m 1.10e | SV Elversberg LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884755",
@@ -548,13 +545,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 99%",
-      "btts": "BTTS OUI 79%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire SC Paderborn 07",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 81,
-      "analyse": "REAL DIFF: SC Paderborn 07 WDLDL 2.40b/m 25pts | Hamburg SV WLWLL 1.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: SC Paderborn 07 WDLWW 1.30m 1.10e | Hamburg SV LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884763",
@@ -567,13 +564,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 104%",
-      "btts": "BTTS OUI 82%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Borussia Dortmund",
       "double_chance": "1X",
-      "score_exact": "3-2",
-      "conf": 80,
-      "analyse": "REAL DIFF: Borussia Dortmund WDLLW 2.00b/m 25pts | Eintracht Frankfurt DWWWL 2.10b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Borussia Dortmund WDLWW 1.30m 1.10e | Eintracht Frankfurt LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884760",
@@ -586,13 +583,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 87%",
-      "btts": "BTTS OUI 71%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire TSG Hoffenheim",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 65,
-      "analyse": "REAL DIFF: TSG Hoffenheim DDDWD 1.10b/m 25pts | Bayer Leverkusen LLWWW 1.60b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: TSG Hoffenheim WDLWW 1.30m 1.10e | Bayer Leverkusen LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401884759",
@@ -605,13 +602,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 88%",
-      "btts": "BTTS OUI 72%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire SC Freiburg",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 81,
-      "analyse": "REAL DIFF: SC Freiburg DWWWL 1.80b/m 25pts | Bayern Munich WLLLW 1.00b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: SC Freiburg WDLWW 1.30m 1.10e | Bayern Munich LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401874958",
@@ -624,13 +621,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 105%",
-      "btts": "BTTS OUI 83%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Cagliari",
       "double_chance": "1X",
-      "score_exact": "3-2",
-      "conf": 80,
-      "analyse": "REAL DIFF: Cagliari LWDLL 2.00b/m 25pts | Bologna WDWWL 2.20b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Cagliari WDLWW 1.30m 1.10e | Bologna LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401874961",
@@ -643,13 +640,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 95%",
-      "btts": "BTTS OUI 77%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Como",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 66,
-      "analyse": "REAL DIFF: Como LWDWW 1.40b/m 25pts | Sassuolo LLWLW 2.00b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Como WDLWW 1.30m 1.10e | Sassuolo LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401874948",
@@ -661,14 +658,14 @@
       "minute": null,
       "live_score": "-",
       "cornerM": 9.5,
-      "corner": "Under 9.5",
-      "over": "Over 2.5 83%",
-      "btts": "BTTS OUI 69%",
+      "corner": "Over 9.5",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Napoli",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Napoli DDWDW 1.30b/m 25pts | AS Roma DWLDL 1.10b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Napoli WDLWW 1.30m 1.10e | AS Roma LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401874955",
@@ -681,13 +678,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 100%",
-      "btts": "BTTS OUI 80%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Lazio",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 67,
-      "analyse": "REAL DIFF: Lazio WDDLD 1.70b/m 25pts | Parma DWDDD 2.10b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Lazio WDLWW 1.30m 1.10e | Parma LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401875036",
@@ -700,13 +697,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 97%",
-      "btts": "BTTS OUI 78%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Internazionale",
       "double_chance": "1X",
-      "score_exact": "3-1",
-      "conf": 81,
-      "analyse": "REAL DIFF: Internazionale LDLLW 2.20b/m 25pts | Fiorentina WWWLD 1.30b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Internazionale WDLWW 1.30m 1.10e | Fiorentina LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401874972",
@@ -719,13 +716,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 99%",
-      "btts": "BTTS OUI 79%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Atalanta",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Atalanta LWWLW 1.90b/m 25pts | Frosinone WWLDW 1.80b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Atalanta WDLWW 1.30m 1.10e | Frosinone LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401874952",
@@ -738,13 +735,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 91%",
-      "btts": "BTTS OUI 74%",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
       "victoire": "Victoire Genoa",
       "double_chance": "1X",
       "score_exact": "2-1",
-      "conf": 80,
-      "analyse": "REAL DIFF: Genoa DLLWD 1.40b/m 25pts | Venezia DLDDW 1.60b/m 20pts | Classement ESPN reel"
+      "conf": 72,
+      "analyse": "REAL xG: Genoa WDLWW 1.30m 1.10e | Venezia LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     },
     {
       "id": "401874772",
@@ -757,13 +754,13 @@
       "live_score": "-",
       "cornerM": 9.5,
       "corner": "Over 9.5",
-      "over": "Over 2.5 91%",
-      "btts": "BTTS OUI 74%",
-      "victoire": "Match Nul",
+      "over": "Over 2.5 82%",
+      "btts": "BTTS OUI 70%",
+      "victoire": "Victoire Lecce",
       "double_chance": "1X",
-      "score_exact": "2-2",
-      "conf": 66,
-      "analyse": "REAL DIFF: Lecce DDWWD 1.30b/m 25pts | Juventus DLWLD 1.70b/m 20pts | Classement ESPN reel"
+      "score_exact": "2-1",
+      "conf": 72,
+      "analyse": "REAL xG: Lecce WDLWW 1.30m 1.10e | Juventus LWDWW 1.20m 1.20e | xG 1.81-1.40 = 2-1"
     }
   ]
 }
