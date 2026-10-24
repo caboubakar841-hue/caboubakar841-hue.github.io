@@ -5,7 +5,7 @@
     {
       "id": "401879256",
       "date": "2026-10-24",
-      "league": "Football 11:30 GMT",
+      "league": "2026-10-24 11:30 GMT - Football",
       "home": "Aston Villa",
       "away": "Manchester City",
       "status": "upcoming",
@@ -24,7 +24,7 @@
     {
       "id": "401878768",
       "date": "2026-10-24",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-24 14:00 GMT - Football",
       "home": "Arsenal",
       "away": "Everton",
       "status": "upcoming",
@@ -43,7 +43,7 @@
     {
       "id": "401879255",
       "date": "2026-10-24",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-24 14:00 GMT - Football",
       "home": "Coventry City",
       "away": "Fulham",
       "status": "upcoming",
@@ -62,7 +62,7 @@
     {
       "id": "401878767",
       "date": "2026-10-24",
-      "league": "Football 16:30 GMT",
+      "league": "2026-10-24 16:30 GMT - Football",
       "home": "Chelsea",
       "away": "Tottenham Hotspur",
       "status": "upcoming",
@@ -81,7 +81,7 @@
     {
       "id": "401879254",
       "date": "2026-10-25",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-25 14:00 GMT - Football",
       "home": "Crystal Palace",
       "away": "Newcastle United",
       "status": "upcoming",
@@ -100,7 +100,7 @@
     {
       "id": "401878766",
       "date": "2026-10-25",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-25 14:00 GMT - Football",
       "home": "Hull City",
       "away": "Brentford",
       "status": "upcoming",
@@ -119,7 +119,7 @@
     {
       "id": "401878765",
       "date": "2026-10-25",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-25 14:00 GMT - Football",
       "home": "Liverpool",
       "away": "Brighton & Hove Albion",
       "status": "upcoming",
@@ -138,7 +138,7 @@
     {
       "id": "401879252",
       "date": "2026-10-25",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-25 14:00 GMT - Football",
       "home": "Manchester United",
       "away": "AFC Bournemouth",
       "status": "upcoming",
@@ -157,7 +157,7 @@
     {
       "id": "401878764",
       "date": "2026-10-25",
-      "league": "Football 16:30 GMT",
+      "league": "2026-10-25 16:30 GMT - Football",
       "home": "Sunderland",
       "away": "Leeds United",
       "status": "upcoming",
@@ -176,7 +176,7 @@
     {
       "id": "401882830",
       "date": "2026-10-24",
-      "league": "Football 12:00 GMT",
+      "league": "2026-10-24 12:00 GMT - Football",
       "home": "Rayo Vallecano",
       "away": "Elche",
       "status": "upcoming",
@@ -195,7 +195,7 @@
     {
       "id": "401882831",
       "date": "2026-10-24",
-      "league": "Football 14:15 GMT",
+      "league": "2026-10-24 14:15 GMT - Football",
       "home": "Racing Santander",
       "away": "Espanyol",
       "status": "upcoming",
@@ -214,7 +214,7 @@
     {
       "id": "401882827",
       "date": "2026-10-24",
-      "league": "Football 16:30 GMT",
+      "league": "2026-10-24 16:30 GMT - Football",
       "home": "Valencia",
       "away": "Villarreal",
       "status": "upcoming",
@@ -233,7 +233,7 @@
     {
       "id": "401882834",
       "date": "2026-10-24",
-      "league": "Football 19:00 GMT",
+      "league": "2026-10-24 19:00 GMT - Football",
       "home": "Atlético Madrid",
       "away": "Deportivo",
       "status": "upcoming",
@@ -252,7 +252,7 @@
     {
       "id": "401882835",
       "date": "2026-10-25",
-      "league": "Football 13:00 GMT",
+      "league": "2026-10-25 13:00 GMT - Football",
       "home": "Athletic Club",
       "away": "Getafe",
       "status": "upcoming",
@@ -271,7 +271,7 @@
     {
       "id": "401882833",
       "date": "2026-10-25",
-      "league": "Football 15:15 GMT",
+      "league": "2026-10-25 15:15 GMT - Football",
       "home": "Celta Vigo",
       "away": "Real Betis",
       "status": "upcoming",
@@ -290,7 +290,7 @@
     {
       "id": "401882829",
       "date": "2026-10-25",
-      "league": "Football 17:30 GMT",
+      "league": "2026-10-25 17:30 GMT - Football",
       "home": "Real Sociedad",
       "away": "Levante",
       "status": "upcoming",
@@ -309,7 +309,7 @@
     {
       "id": "401882832",
       "date": "2026-10-25",
-      "league": "Football 20:00 GMT",
+      "league": "2026-10-25 20:00 GMT - Football",
       "home": "Barcelona",
       "away": "Real Madrid",
       "status": "upcoming",
@@ -328,7 +328,7 @@
     {
       "id": "401876427",
       "date": "2026-10-24",
-      "league": "Football 18:45 GMT",
+      "league": "2026-10-24 18:45 GMT - Football",
       "home": "Lens",
       "away": "Paris FC",
       "status": "upcoming",
@@ -347,7 +347,7 @@
     {
       "id": "401876425",
       "date": "2026-10-25",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-25 14:00 GMT - Football",
       "home": "AS Monaco",
       "away": "Lille",
       "status": "upcoming",
@@ -366,7 +366,7 @@
     {
       "id": "401876429",
       "date": "2026-10-25",
-      "league": "Football 16:15 GMT",
+      "league": "2026-10-25 16:15 GMT - Football",
       "home": "AJ Auxerre",
       "away": "Le Mans",
       "status": "upcoming",
@@ -385,7 +385,7 @@
     {
       "id": "401876430",
       "date": "2026-10-25",
-      "league": "Football 16:15 GMT",
+      "league": "2026-10-25 16:15 GMT - Football",
       "home": "Angers",
       "away": "Lorient",
       "status": "upcoming",
@@ -404,7 +404,7 @@
     {
       "id": "401876426",
       "date": "2026-10-25",
-      "league": "Football 16:15 GMT",
+      "league": "2026-10-25 16:15 GMT - Football",
       "home": "Marseille",
       "away": "Le Havre AC",
       "status": "upcoming",
@@ -423,7 +423,7 @@
     {
       "id": "401876424",
       "date": "2026-10-25",
-      "league": "Football 16:15 GMT",
+      "league": "2026-10-25 16:15 GMT - Football",
       "home": "Stade Rennais",
       "away": "Strasbourg",
       "status": "upcoming",
@@ -442,7 +442,7 @@
     {
       "id": "401876423",
       "date": "2026-10-25",
-      "league": "Football 16:15 GMT",
+      "league": "2026-10-25 16:15 GMT - Football",
       "home": "Toulouse",
       "away": "Troyes",
       "status": "upcoming",
@@ -461,7 +461,7 @@
     {
       "id": "401884758",
       "date": "2026-10-24",
-      "league": "Football 13:30 GMT",
+      "league": "2026-10-24 13:30 GMT - Football",
       "home": "FC Augsburg",
       "away": "1. FC Union Berlin",
       "status": "upcoming",
@@ -480,7 +480,7 @@
     {
       "id": "401884756",
       "date": "2026-10-24",
-      "league": "Football 13:30 GMT",
+      "league": "2026-10-24 13:30 GMT - Football",
       "home": "FC Cologne",
       "away": "Schalke 04",
       "status": "upcoming",
@@ -499,7 +499,7 @@
     {
       "id": "401884757",
       "date": "2026-10-24",
-      "league": "Football 13:30 GMT",
+      "league": "2026-10-24 13:30 GMT - Football",
       "home": "Mainz",
       "away": "Werder Bremen",
       "status": "upcoming",
@@ -518,7 +518,7 @@
     {
       "id": "401884762",
       "date": "2026-10-24",
-      "league": "Football 13:30 GMT",
+      "league": "2026-10-24 13:30 GMT - Football",
       "home": "RB Leipzig",
       "away": "SV Elversberg",
       "status": "upcoming",
@@ -537,7 +537,7 @@
     {
       "id": "401884755",
       "date": "2026-10-24",
-      "league": "Football 13:30 GMT",
+      "league": "2026-10-24 13:30 GMT - Football",
       "home": "SC Paderborn 07",
       "away": "Hamburg SV",
       "status": "upcoming",
@@ -556,7 +556,7 @@
     {
       "id": "401884763",
       "date": "2026-10-24",
-      "league": "Football 16:30 GMT",
+      "league": "2026-10-24 16:30 GMT - Football",
       "home": "Borussia Dortmund",
       "away": "Eintracht Frankfurt",
       "status": "upcoming",
@@ -575,7 +575,7 @@
     {
       "id": "401884760",
       "date": "2026-10-25",
-      "league": "Football 14:30 GMT",
+      "league": "2026-10-25 14:30 GMT - Football",
       "home": "TSG Hoffenheim",
       "away": "Bayer Leverkusen",
       "status": "upcoming",
@@ -594,7 +594,7 @@
     {
       "id": "401884759",
       "date": "2026-10-25",
-      "league": "Football 16:30 GMT",
+      "league": "2026-10-25 16:30 GMT - Football",
       "home": "SC Freiburg",
       "away": "Bayern Munich",
       "status": "upcoming",
@@ -613,7 +613,7 @@
     {
       "id": "401874958",
       "date": "2026-10-24",
-      "league": "Football 13:00 GMT",
+      "league": "2026-10-24 13:00 GMT - Football",
       "home": "Cagliari",
       "away": "Bologna",
       "status": "upcoming",
@@ -632,7 +632,7 @@
     {
       "id": "401874961",
       "date": "2026-10-24",
-      "league": "Football 13:00 GMT",
+      "league": "2026-10-24 13:00 GMT - Football",
       "home": "Como",
       "away": "Sassuolo",
       "status": "upcoming",
@@ -651,7 +651,7 @@
     {
       "id": "401874948",
       "date": "2026-10-24",
-      "league": "Football 16:00 GMT",
+      "league": "2026-10-24 16:00 GMT - Football",
       "home": "Napoli",
       "away": "AS Roma",
       "status": "upcoming",
@@ -670,7 +670,7 @@
     {
       "id": "401874955",
       "date": "2026-10-24",
-      "league": "Football 18:45 GMT",
+      "league": "2026-10-24 18:45 GMT - Football",
       "home": "Lazio",
       "away": "Parma",
       "status": "upcoming",
@@ -689,7 +689,7 @@
     {
       "id": "401875036",
       "date": "2026-10-25",
-      "league": "Football 11:30 GMT",
+      "league": "2026-10-25 11:30 GMT - Football",
       "home": "Internazionale",
       "away": "Fiorentina",
       "status": "upcoming",
@@ -708,7 +708,7 @@
     {
       "id": "401874972",
       "date": "2026-10-25",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-25 14:00 GMT - Football",
       "home": "Atalanta",
       "away": "Frosinone",
       "status": "upcoming",
@@ -727,7 +727,7 @@
     {
       "id": "401874952",
       "date": "2026-10-25",
-      "league": "Football 14:00 GMT",
+      "league": "2026-10-25 14:00 GMT - Football",
       "home": "Genoa",
       "away": "Venezia",
       "status": "upcoming",
@@ -746,7 +746,7 @@
     {
       "id": "401874772",
       "date": "2026-10-25",
-      "league": "Football 17:00 GMT",
+      "league": "2026-10-25 17:00 GMT - Football",
       "home": "Lecce",
       "away": "Juventus",
       "status": "upcoming",
