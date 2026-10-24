@@ -1,13 +1,12 @@
 import requests, json, os, time, hashlib
 from datetime import datetime, timedelta
-print("V13.4 REAL VARIED - FIX 2-1")
+print("V13.5 REAL VARIED - FIX DATE")
 
 today = datetime.today().date()
 today_str = today.strftime("%Y%m%d")
 tomorrow_str = (today + timedelta(days=1)).strftime("%Y%m%d")
 LEAGUES = ["eng.1","esp.1","fra.1","ger.1","ita.1","ned.1","por.1","uefa.champions"]
 
-# NOMS EXACTS ESPN - pour ne plus avoir Bayern à 1.1m
 TOP_TEAMS = {
     "Manchester City":2.2, "Man City":2.2, "Arsenal":1.9, "Liverpool":2.0, "Aston Villa":1.6,
     "Tottenham Hotspur":1.6, "Tottenham":1.6, "Chelsea":1.5, "Newcastle United":1.5, "Newcastle":1.5,
@@ -24,7 +23,7 @@ def team_profile(name):
     h2 = int(hashlib.md5((name+"def").encode()).hexdigest()[:4], 16)
     h3 = int(hashlib.md5((name+"form").encode()).hexdigest()[:4], 16)
     if base is None:
-        base = 0.9 + (h1 % 14)/10  # 0.9 à 2.2
+        base = 0.9 + (h1 % 14)/10
     scored = round(base,2)
     conceded = round(0.7 + (h2 % 14)/10,2)
     form = "".join(["W" if (h3+i*7)%3==0 else "L" if (h3+i*7)%3==1 else "D" for i in range(5)])
@@ -96,7 +95,10 @@ for ev in all_events:
 
         analyse=f"xG VARIE: {home} {hs['form']} {hs['scored']}m {hs['conceded']}e | {away} {aw['form']} {aw['scored']}m {aw['conceded']}e | xG {home_xG:.2f}-{away_xG:.2f}={score_exact}"
 
-        result.append({"id":ev['id'],"date":date_iso[:10],"league":f"{league_name} {date_iso[11:16]} GMT",
+        # FIX DATE ICI
+        league_display = f"{date_iso[:10]} {date_iso[11:16]} GMT - {league_name}"
+
+        result.append({"id":ev['id'],"date":date_iso[:10],"league":league_display,
                        "home":home,"away":away,"status":"upcoming","minute":None,"live_score":"-",
                        "cornerM":9.5,"corner":corners,"over":over,"btts":btts,"victoire":victoire,
                        "double_chance":dc,"score_exact":score_exact,"conf":min(conf,90),"analyse":analyse})
@@ -106,4 +108,4 @@ for ev in all_events:
 os.makedirs("data",exist_ok=True)
 with open("data/matches.json","w",encoding="utf-8") as f:
     json.dump({"date":today.isoformat(),"count":len(result),"matches":result},f,ensure_ascii=False,indent=2)
-print(f"V13.4 OK {len(result)} VARIES - ex: {[r['score_exact'] for r in result[:6]]}")
+print(f"V13.5 OK {len(result)} avec DATES")
