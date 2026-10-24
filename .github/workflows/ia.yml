@@ -1,8 +1,11 @@
-name: PRONO70 V13 NO-KEY
+name: PRONO70 V14.1 REAL
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: "0 */2 * * *"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,5 +19,6 @@ jobs:
       - run: |
           git config --global user.name "bot"
           git config --global user.email "bot@bot.com"
-          git add data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "V13 NO-KEY REAL FORM" && git push)
+          git add data/matches.json
+          git commit -m "V14.1 real ESPN" || exit 0
+          git push
