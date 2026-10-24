@@ -1,40 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PRONO70 - IA Football</title>
-<script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PRONO70 - V9 LIVE PRO</title>
+<style>
+body{background:#0b0f14;color:#fff;font-family:Arial;margin:0;padding:10px}
+.header{background:#111a24;padding:15px;border-radius:12px;text-align:center;border:1px solid #1e3a5f}
+.logo{font-size:22px;font-weight:bold;color:#00ff88}
+.badge{display:inline-block;background:#ff3b30;color:#fff;padding:3px 8px;border-radius:10px;font-size:11px;margin-left:5px;animation:blink 1s infinite}
+@keyframes blink{50%{opacity:0.3}}
+.card{background:#151c25;margin:12px 0;padding:14px;border-radius:12px;border-left:4px solid #00ff88}
+.live{border-left-color:#ff3b30 !important;box-shadow:0 0 15px rgba(255,59,48,0.3)}
+.top{display:flex;justify-content:space-between;font-size:12px;color:#8a9bb0}
+.teams{font-size:16px;font-weight:bold;margin:8px 0}
+.prono-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0}
+.prono{background:#1e2a38;padding:8px;border-radius:8px;font-size:12px;text-align:center}
+.prono b{color:#00ff88;display:block;font-size:13px}
+.victoire{background:#003d26 !important;border:1px solid #00ff88}
+.score-exact{background:#2a1e00 !important;border:1px solid #ffaa00}
+.analyse{font-size:11px;color:#9fb0c5;background:#0f1720;padding:8px;border-radius:6px;margin-top:6px}
+.conf{float:right;background:#00ff88;color:#000;padding:2px 6px;border-radius:10px;font-size:10px;font-weight:bold}
+</style>
 </head>
-<body class="bg-[#0a0a0a] text-white font-sans">
-<div class="max-w-lg mx-auto p-4">
-<h1 class="text-3xl font-black text-center mt-3">PRONO<span class="text-[#00ff88]">70</span></h1>
-<p id="date" class="text-center text-zinc-500 text-sm mb-5"></p>
-<div id="matches" class="space-y-3"></div>
+<body>
+<div class="header">
+<div class="logo">PRONO70 V9 LIVE PRO <span class="badge">LIVE</span></div>
+<div style="font-size:12px;color:#8a9bb0;margin-top:5px" id="date">Chargement...</div>
 </div>
-
+<div id="list">Chargement des pronos...</div>
 <script>
 async function load(){
- const r = await fetch('./data/matches.json?t='+Date.now());
- const data = await r.json();
- document.getElementById('date').innerText = `IA Football • ${data.date} • ${data.count} pronos • Auto à 6h`;
- document.getElementById('matches').innerHTML = data.matches.map(m=>`
-  <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4">
-    <div class="flex justify-between items-center mb-2">
-      <span class="text-[11px] text-zinc-500 uppercase">${m.league}</span>
-      <span class="bg-[#00ff88] text-black text-xs font-bold px-2 py-0.5 rounded-full">${m.conf}% CONF</span>
-    </div>
-    <div class="font-bold text-lg flex justify-between"><span>${m.home}</span><span class="text-zinc-600">vs</span><span>${m.away}</span></div>
-    <div class="grid grid-cols-3 gap-2 mt-3">
-      <div class="bg-black rounded-xl p-2 text-center"><div class="text-[10px] text-zinc-500">CORNERS</div><div class="font-bold text-[#00ff88] text-sm">${m.corner}</div><div class="text-[10px] text-zinc-400">${m.cornerM} moy</div></div>
-      <div class="bg-black rounded-xl p-2 text-center"><div class="text-[10px] text-zinc-500">BUTS</div><div class="font-bold text-sm">${m.over}</div></div>
-      <div class="bg-black rounded-xl p-2 text-center"><div class="text-[10px] text-zinc-500">BTTS</div><div class="font-bold text-sm">${m.btts}</div></div>
-    </div>
-    <div class="mt-2 text-xs text-zinc-400 bg-zinc-950 p-2 rounded-lg">${m.analyse}</div>
-  </div>
- `).join('');
+ const res = await fetch('data/matches.json?v='+Date.now());
+ const data = await res.json();
+ document.getElementById('date').innerHTML = data.date + ' • ' + data.count + ' matchs • Auto-refresh 15min';
+ let html='';
+ data.matches.forEach(m=>{
+  html+=`<div class="card ${m.status=='live'?'live':''}">
+   <div class="top"><span>${m.league} ${m.status=='live'?'<span class="badge">LIVE '+ (m.minute?m.minute+"'":'') +' '+m.live_score+'</span>':''}</span><span class="conf">${m.conf}%</span></div>
+   <div class="teams">${m.home} vs ${m.away} ${m.status=='live'?'🔴':''}</div>
+   <div class="prono-grid">
+     <div class="prono victoire"><span>Victoire</span><b>${m.victoire}</b></div>
+     <div class="prono score-exact"><span>Score Exact</span><b>${m.score_exact}</b></div>
+     <div class="prono"><span>Double Chance</span><b>${m.double_chance}</b></div>
+     <div class="prono"><span>Corners</span><b>${m.cornerM} | ${m.corner}</b></div>
+     <div class="prono"><span>${m.over.split('(')[0]}</span><b>${m.over.match(/\(.*\)/)||''}</b></div>
+     <div class="prono"><span>BTTS</span><b>${m.btts}</b></div>
+   </div>
+   <div class="analyse">🤖 ${m.analyse}<br>Forme: ${m.home_form} vs ${m.away_form}</div>
+  </div>`;
+ });
+ document.getElementById('list').innerHTML=html;
 }
 load();
+setInterval(load, 60000);
 </script>
 </body>
 </html>
