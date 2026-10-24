@@ -24,10 +24,9 @@ def analyse(f):
     minute = f['fixture']['status']['elapsed']
     gh = f['goals']['home']; ga = f['goals']['away']; date_match = f['fixture']['date'][:10]
     
-    # LOGIQUE QUE TU VEUX
     if status_short in ["1H","2H","HT","ET","P","LIVE","BT"]:
         real_status = "live"
-    elif status_short in ["FT","AET","PEN","FT_PEN"]:
+    elif status_short in ["FT","AET","PEN"]:
         real_status = "finished"
     else:
         real_status = "upcoming"
@@ -48,11 +47,9 @@ def analyse(f):
     btts = f"BTTS OUI ({random.randint(55,75)}%)" if hs>1 and aus>0.8 else f"BTTS NON ({random.randint(50,68)}%)"
     return {"id":fid,"date":date_match,"league":f"{league} {time} GMT","home":home,"away":away,"status":real_status,"status_short":status_short,"minute":minute,"live_score":live_score,"cornerM":corners,"corner":f"Over {9.5 if corners>9.5 else 8.5}","over":over,"btts":btts,"victoire":victoire,"double_chance":dc,"score_exact":score,"conf":conf,"analyse":f"{home} {hs} buts/match ({home_form}), {away} {aus} buts/match ({away_form}). xG {xG}, Corners {corners}."}
 
-# RECUPERE UNIQUEMENT AUJOURD'HUI + LIVE
 fixtures_today = get_fixtures(today)
 fixtures_live = get_fixtures(live=True)
 
-# Fusion + deduplication par ID pour avoir 120 matchs DU JOUR
 all_dict = {}
 for f in fixtures_today + fixtures_live:
     all_dict[f['fixture']['id']] = f
@@ -61,7 +58,6 @@ all_fixtures = sorted(all_fixtures, key=lambda x: x['fixture']['date'])
 
 result = [analyse(f) for f in all_fixtures[:120]]
 
-# Compte pour toi
 live_count = len([m for m in result if m['status']=='live'])
 finished_count = len([m for m in result if m['status']=='finished'])
 upcoming_count = len([m for m in result if m['status']=='upcoming'])
@@ -72,15 +68,23 @@ try:
         d=json.load(old); history=d.get('matches',[]) if isinstance(d,dict) else d
 except: history=[]
 
-# Historique = les matchs terminés d'aujourd'hui + ancien historique
+# FIX pour l'ancien historique sans ID
+clean_history = []
+for m in history:
+    if 'id' not in m:
+        m['id'] = hash(m.get('home','')+m.get('away','')+m.get('date','')) % 1000000
+    clean_history.append(m)
+history = clean_history
+
 finished_today = [m for m in result if m['status']=='finished']
 history = finished_today + history
-# Deduplicate historique par ID
+
 seen={}
 new_hist=[]
 for m in history:
-    if m['id'] not in seen:
-        seen[m['id']]=True
+    mid = m.get('id')
+    if mid not in seen:
+        seen[mid]=True
         new_hist.append(m)
 history = new_hist[:300]
 
@@ -89,4 +93,4 @@ with open("data/matches.json","w",encoding="utf-8") as out:
 with open("data/history.json","w",encoding="utf-8") as out:
     json.dump({"count":len(history),"matches":history}, out, ensure_ascii=False, indent=2)
 
-print(f"V11 OK: TOTAL {len(result)} = {upcoming_count} aujourd'hui + {live_count} live + {finished_count} finished | Hist {len(history)}")
+print(f"V11.1 OK: TOTAL {len(result)} = {upcoming_count} aujourd'hui + {live_count} live + {finished_count} finished")
