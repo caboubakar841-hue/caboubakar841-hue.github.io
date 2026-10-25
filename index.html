@@ -3,85 +3,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PRONO70 V14.6 • xG Réel Varié + LIVE</title>
+<title>PRONO70 V17</title>
 <style>
 body{background:#0f1115;color:#e0e0e0;font-family:Arial,sans-serif;margin:0;padding:10px}
 .header{background:#161a22;padding:12px;border-radius:12px;text-align:center;margin-bottom:12px;border:1px solid #00ff88}
-.header h1{color:#00ff88;margin:0;font-size:18px}
-.header p{margin:4px 0 0 0;font-size:11px;color:#aaa}
-.filters{display:flex;gap:8px;margin-bottom:12px;justify-content:center}
-.filters button{padding:8px 14px;border-radius:20px;border:none;background:#222;color:#aaa;font-weight:bold;cursor:pointer}
+.header h1{color:#00ff88;margin:0;font-size:18px}.header p{margin:4px 0 0;font-size:11px;color:#aaa}
+.filters{display:flex;gap:6px;margin-bottom:12px;justify-content:center;flex-wrap:wrap}
+.filters button{padding:8px 12px;border-radius:20px;border:none;background:#222;color:#aaa;font-weight:bold}
 .filters button.active{background:#00ff88;color:#000}
 .card{background:#1a1e29;border:1px solid #2a2f3f;border-left:4px solid #00ff88;border-radius:12px;padding:10px;margin-bottom:10px}
-.card.live{border-left:4px solid #ff0000;box-shadow:0 0 12px rgba(255,0,0,0.3)}
-.card-header{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:#888;margin-bottom:6px}
-.card-header .conf{background:#00ff88;color:#000;padding:2px 8px;border-radius:10px;font-weight:bold;font-size:12px}
-.card h3{margin:6px 0;font-size:15px;color:#fff}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0}
+.card.live{border-left-color:#f00;box-shadow:0 0 12px rgba(255,0,0,.3)}
+.card.finished{border-left-color:#667}
+.top{display:flex;justify-content:space-between;font-size:11px;color:#888;margin-bottom:6px}
+.conf{background:#00ff88;color:#000;padding:2px 8px;border-radius:10px;font-weight:bold}
+.score{display:flex;align-items:center;justify-content:center;gap:10px;background:#11131a;border-radius:10px;padding:8px;margin-bottom:8px}
+.score .t{flex:1;font-size:13px;font-weight:bold;color:#fff}.score .t:first-child{text-align:right}
+.score .n{font-size:26px;font-weight:900;color:#fff;white-space:nowrap}
+.live .n{color:#ff2a2a}.min{font-size:11px;font-weight:bold;color:#fff;background:#f00;border-radius:10px;padding:2px 8px;animation:b 1s infinite}
+.fin .min{background:#445;animation:none}
+@keyframes b{50%{opacity:.35}}
+h3{margin:6px 0;font-size:15px;color:#fff}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
 .box{background:#222738;border-radius:8px;padding:6px;text-align:center;font-size:11px;color:#aaa}
 .box b{display:block;color:#00ff88;font-size:12px;margin-top:2px}
-.box.live-score-box b{color:#ff2a2a;font-size:14px}
-.analyse{font-size:10px;color:#666;background:#11131a;padding:6px;border-radius:6px;margin-top:6px;word-break:break-all}
-@keyframes blinkRed{0%{background:#ff0000;box-shadow:0 0 5px #ff0000;opacity:1}50%{background:#990000;box-shadow:0 0 18px #ff0000;opacity:0.6}100%{background:#ff0000;box-shadow:0 0 5px #ff0000;opacity:1}}
-@keyframes blinkText{0%{opacity:1}50%{opacity:0.3}100%{opacity:1}}
-.live-blink{background:#ff0000 !important;color:white !important;animation:blinkRed 1s infinite;font-weight:900;padding:4px 12px;border-radius:14px;border:2px solid #ff5555;font-size:12px}
-.live-score-text{color:#ff2a2a;font-weight:900;font-size:16px;animation:blinkText 1s infinite;margin-left:8px}
+.analyse{font-size:10px;color:#777;background:#11131a;padding:6px;border-radius:6px;margin-top:6px}
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:8px;border-bottom:1px solid #2a2f3f}td+td{text-align:right;font-weight:bold;color:#00ff88}
 </style>
 </head>
 <body>
-<div class="header">
-<h1>PRONO70 V13.6 • 40 matchs • xG Réel Varié</h1>
-<p id="dateInfo">Chargement...</p>
-</div>
+<div class="header"><h1>PRONO70 V17 • Modèle de Poisson</h1><p id="dateInfo">Chargement...</p></div>
 <div class="filters">
-<button id="btnToday" class="active" onclick="filterCat('today')">Aujourd'hui (<span id="cToday">0</span>)</button>
-<button id="btnLive" onclick="filterCat('live')">LIVE (<span id="cLive">0</span>)</button>
-<button id="btnFin" onclick="filterCat('finished')">Terminés (<span id="cFin">0</span>)</button>
+<button id="b-today" class="active" onclick="show('today')">À venir (<span id="c-today">0</span>)</button>
+<button id="b-live" onclick="show('live')">🔴 LIVE (<span id="c-live">0</span>)</button>
+<button id="b-finished" onclick="show('finished')">Terminés (<span id="c-finished">0</span>)</button>
+<button id="b-stats" onclick="show('stats')">Stats</button>
 </div>
 <div id="list"></div>
 <script>
-let allMatches=[];
-let currentFilter='today';
-async function loadData(){
+let D={matches:[],stats:{}},cur='today';
+async function load(){
   try{
-    const res=await fetch('data/matches.json?v='+Date.now());
-    const data=await res.json();
-    allMatches=data.matches||[];
-    document.getElementById('dateInfo').innerText=data.date+' • Scores bases sur vrais buts • Auto 15min • '+allMatches.length+' matchs';
-    updateCounts(); render();
-  }catch(e){
-    document.getElementById('list').innerHTML='<p style="text-align:center;color:#ff5555">Erreur chargement data/matches.json</p>';
-  }
+    D=await (await fetch('data/matches.json?v='+Date.now())).json();
+    document.getElementById('dateInfo').innerText=D.date+' • '+D.matches.length+' cartes • mise à jour auto';
+    ['today','live','finished'].forEach(s=>document.getElementById('c-'+s).innerText=D.matches.filter(m=>m.status===s).length);
+    render();
+  }catch(e){document.getElementById('list').innerHTML='<p style="text-align:center;color:#f55">Erreur de chargement de data/matches.json</p>'}
 }
-function updateCounts(){
-  const today=allMatches.filter(m=>m.status!=='finished').length;
-  const live=allMatches.filter(m=>m.status==='live').length;
-  const fin=allMatches.filter(m=>m.status==='finished').length;
-  document.getElementById('cToday').innerText=today;
-  document.getElementById('cLive').innerText=live;
-  document.getElementById('cFin').innerText=fin;
-}
-function filterCat(cat){
-  currentFilter=cat;
-  document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('active'));
-  if(cat==='today') document.getElementById('btnToday').classList.add('active');
-  if(cat==='live') document.getElementById('btnLive').classList.add('active');
-  if(cat==='finished') document.getElementById('btnFin').classList.add('active');
-  render();
+function show(c){cur=c;document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('active'));document.getElementById('b-'+c).classList.add('active');render()}
+function card(m){
+  const sc=m.live_score?m.live_score.split('-'):null;
+  const big=sc?'<div class="score"><span class="t">'+m.home+'</span><span class="n">'+sc[0]+' - '+sc[1]+'</span><span class="t">'+m.away+'</span></div>'+(m.minute?'<div style="text-align:center;margin-bottom:8px"><span class="min">'+(m.status==='live'?'🔴 ':'')+m.minute+'</span></div>':''):'';
+  return '<div class="card '+m.status+(m.status==='finished'?' fin':'')+'"><div class="top"><span>'+m.league+'</span><span class="conf">'+m.conf+'%</span></div>'+big+(sc?'':'<h3>'+m.home+' vs '+m.away+'</h3>')+
+  '<div class="grid"><div class="box">Victoire<b>'+m.victoire+'</b></div><div class="box">Score probable<b style="color:#fc0">'+m.score_exact+'</b></div><div class="box">Double chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div><div class="analyse">'+m.analyse+'</div></div>';
 }
 function render(){
-  let filtered=[];
-  if(currentFilter==='today') filtered=allMatches.filter(m=>m.status!=='finished');
-  if(currentFilter==='live') filtered=allMatches.filter(m=>m.status==='live');
-  if(currentFilter==='finished') filtered=allMatches.filter(m=>m.status==='finished');
-  const html=filtered.map(m=>{
-    const isLive=m.status==='live';
-    return '<div class="card '+(isLive?'live':'')+'"><div class="card-header"><span>'+m.league+'</span><div style="display:flex;gap:6px;align-items:center">'+(isLive?'<span class="live-blink">🔴 LIVE '+(m.minute||'')+' '+(m.live_score||'')+'</span>':'')+'<span class="conf" style="'+(isLive?'background:#ff0000;color:white;animation:blinkRed 1s infinite':'')+'">'+m.conf+'%</span></div></div><h3>'+m.home+' vs '+m.away+' '+(isLive?'<span class="live-score-text">'+m.live_score+' '+(m.minute||'')+'</span>':'')+'</h3><div class="grid"><div class="box '+(isLive?'live-score-box':'')+'">Victoire<b>'+m.victoire+'</b></div><div class="box" style="background:'+(isLive?'#3a1a1a':'#2e2a12')+'">Score Exact<b style="color:#ffcc00">'+m.score_exact+' '+(isLive?'('+m.live_score+')':'')+'</b></div><div class="box">Double Chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div><div class="analyse">📦 '+m.analyse+'</div></div>';
-  }).join('');
-  document.getElementById('list').innerHTML=html||'<p style="text-align:center;margin-top:20px">Aucun match dans cette section</p>';
+  const el=document.getElementById('list');
+  if(cur==='stats'){
+    const s=D.stats||{};
+    if(!s.n){el.innerHTML='<p style="text-align:center">Pas encore de matchs terminés à évaluer.</p>';return}
+    const r=[['Matchs évalués',s.n],['dont figés avant le match',s.n_avant],['Victoire / Nul / Défaite',s['1x2']+'%'],['Référence : « toujours domicile »',s.base_dom+'%'],['Double chance',s.dc+'%'],['Over/Under 2.5',s.over+'%'],['BTTS',s.btts+'%'],['Score exact',s.score+'%']];
+    el.innerHTML='<div class="card"><table>'+r.map(x=>'<tr><td>'+x[0]+'</td><td>'+x[1]+'</td></tr>').join('')+'</table><div class="analyse">Si « Victoire/Nul/Défaite » ne dépasse pas nettement la référence, le modèle n\'apporte rien. Attendre au moins 100 matchs avant de conclure.</div></div>';
+    return;
+  }
+  const f=D.matches.filter(m=>m.status===cur);
+  el.innerHTML=f.map(card).join('')||'<p style="text-align:center;margin-top:20px">Aucun match dans cette section</p>';
 }
-loadData();
-setInterval(loadData, 90000);
+load();setInterval(load,60000);
 </script>
 </body>
 </html>
