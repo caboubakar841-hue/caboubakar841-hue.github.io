@@ -61,7 +61,7 @@ function render(){
   if(cur==='stats'){
     const s=D.stats||{};
     if(!s.n){el.innerHTML='<p style="text-align:center">Pas encore de matchs terminés à évaluer.</p>';return}
-    const r=[['Matchs évalués',s.n],['dont figés avant le match',s.n_avant],['Victoire / Nul / Défaite',s['1x2']+'%'],['Référence : « toujours domicile »',s.base_dom+'%'],['Double chance',s.dc+'%'],['Over/Under 2.5',s.over+'%'],['BTTS',s.btts+'%'],['Score exact',s.score+'%']];
+    const r=[['Matchs évalués',s.n],['dont figés avant le match',s.n_avant],['Victoire (favori net)',s['1x2']+'% ('+s.n_fav+')'],['Match serré : Nul ou X',(s.serre==null?'-':s.serre+'%')+' ('+s.n_serre+')'],['Référence : « toujours domicile »',s.base_dom+'%'],['Double chance',s.dc+'%'],['Over/Under 2.5',s.over+'%'],['BTTS',s.btts+'%'],['Score exact',s.score+'%']];
     el.innerHTML='<div class="card"><table>'+r.map(x=>'<tr><td>'+x[0]+'</td><td>'+x[1]+'</td></tr>').join('')+'</table><div class="analyse">Si « Victoire/Nul/Défaite » ne dépasse pas nettement la référence, le modèle n\'apporte rien. Attendre au moins 100 matchs avant de conclure.</div></div>';
     return;
   }
