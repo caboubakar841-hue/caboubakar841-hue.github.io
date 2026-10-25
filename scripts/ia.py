@@ -122,12 +122,24 @@ def predict(model, home, away):
     p_btts = sum(p for i, j, p in cells if i >= 1 and j >= 1)
 
     pick = max((p_h, "H"), (p_d, "D"), (p_a, "A"))[1]
-    # score le plus probable PARMI ceux qui respectent le resultat pronostique (coherence)
-    ok = {"H": lambda i, j: i > j, "D": lambda i, j: i == j, "A": lambda i, j: i < j}[pick]
-    si, sj, sp = max(((i, j, p) for i, j, p in cells if ok(i, j)), key=lambda c: c[2])
-    dc = max((p_h + p_d, "1X"), (p_d + p_a, "X2"), (p_h + p_a, "12"))
+    # match serre : pas de favori net -> on recommande Nul ou l'un des deux (double chance)
+    tight = abs(p_h - p_a) < 0.12 and max(p_h, p_a) < 0.45
+    dc = max((p_h + p_d, "1X"), (p_d + p_a, "X2")) if tight else \
+        max((p_h + p_d, "1X"), (p_d + p_a, "X2"), (p_h + p_a, "12"))
+    allowed = {"1X": {"H", "D"}, "X2": {"D", "A"}}[dc[1]] if tight else {pick}
+    over_pick, btts_pick = p_over >= 0.5, p_btts >= 0.5
+    res = lambda i, j: "H" if i > j else "A" if i < j else "D"
+    over_f = lambda i, j: (i + j >= 3) == over_pick
+    btts_f = lambda i, j: (i >= 1 and j >= 1) == btts_pick
+
+    def best(*conds):
+        c = [x for x in cells if res(x[0], x[1]) in allowed and all(f(x[0], x[1]) for f in conds)]
+        return max(c, key=lambda x: x[2]) if c else None
+
+    # le score affiche respecte le resultat, l'over/under ET le BTTS annonces (sinon on relache)
+    si, sj, sp = best(over_f, btts_f) or best(btts_f) or best(over_f) or best()
     return dict(lam_h=lam_h, lam_a=lam_a, p_h=p_h, p_d=p_d, p_a=p_a, pick=pick,
-                score=f"{si}-{sj}", score_p=sp, dc=dc, p_over=p_over, p_btts=p_btts)
+                score=f"{si}-{sj}", score_p=sp, dc=dc, p_over=p_over, p_btts=p_btts, tight=tight)
 
 
 def pct(p):
@@ -136,13 +148,15 @@ def pct(p):
 
 def build_card(league, home, away, iso, pr, gp_h, gp_a):
     victoire = {"H": f"Victoire {home}", "A": f"Victoire {away}", "D": "Match Nul"}[pr["pick"]]
+    if pr.get("tight"):
+        victoire = f"Serré : Nul ou {home if pr['dc'][1] == '1X' else away}"
     over = (f"Over 2.5 {pct(pr['p_over'])}%" if pr["p_over"] >= 0.5
             else f"Under 2.5 {pct(1 - pr['p_over'])}%")
     btts = (f"BTTS OUI {pct(pr['p_btts'])}%" if pr["p_btts"] >= 0.5
             else f"BTTS NON {pct(1 - pr['p_btts'])}%")
     return {
         "league": league, "home": home, "away": away, "status": "today",
-        "conf": pct(max(pr["p_h"], pr["p_d"], pr["p_a"])),
+        "conf": pct(pr["dc"][0]) if pr.get("tight") else pct(max(pr["p_h"], pr["p_d"], pr["p_a"])),
         "victoire": victoire,
         "score_exact": f"{pr['score']} ({pct(pr['score_p'])}%)",
         "double_chance": f"{pr['dc'][1]} {pct(pr['dc'][0])}%",
@@ -163,7 +177,8 @@ def evaluate(rec):
     gh, ga = rec["res"]
     pr, r = rec["pr"], result_of(gh, ga)
     return {
-        "1x2": pr["pick"] == r,
+        "tight": bool(pr.get("tight")),
+        "1x2": (r in {"1X": "HD", "X2": "DA"}.get(pr["dc"][1], "")) if pr.get("tight") else pr["pick"] == r,
         "dc": r in {"1X": "HD", "X2": "DA", "12": "HA"}[pr["dc"][1]],
         "over": (gh + ga >= 3) == (pr["p_over"] >= 0.5),
         "btts": (gh > 0 and ga > 0) == (pr["p_btts"] >= 0.5),
@@ -247,7 +262,8 @@ def main():
     print(f"{sum(map(len, results.values()))} resultats, {len(events)} matchs au total")
 
     try:
-        hist = json.load(open(HIST, encoding="utf-8"))["records"]
+        h = json.load(open(HIST, encoding="utf-8"))
+        hist = h["records"] if h.get("v") == 18 else {}   # logique changee : on repart a zero
     except Exception:
         hist = {}
     mcache = {}
@@ -292,8 +308,12 @@ def main():
     done = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
     stats = {"n": len(done), "n_avant": sum(1 for r in done if r["kind"] == "avant")}
     if done:
-        for k in ("1x2", "dc", "over", "btts", "score"):
-            stats[k] = round(100 * sum(r["eval"][k] for r in done) / len(done))
+        rate = lambda rs, k: round(100 * sum(r["eval"][k] for r in rs) / len(rs)) if rs else None
+        fav = [r for r in done if not r["eval"].get("tight")]
+        tig = [r for r in done if r["eval"].get("tight")]
+        for k in ("dc", "over", "btts", "score"):
+            stats[k] = rate(done, k)
+        stats.update({"1x2": rate(fav, "1x2"), "n_fav": len(fav), "serre": rate(tig, "1x2"), "n_serre": len(tig)})
         stats["base_dom"] = round(100 * sum(1 for r in done if r["res"][0] > r["res"][1]) / len(done))
     fin_cards = [card_from(r, "finished") for r in done[:MAX_MATCHES]]
 
@@ -306,7 +326,7 @@ def main():
     keep = sorted(hist.items(), key=lambda kv: kv[1]["iso"], reverse=True)[:600]
     os.makedirs("data", exist_ok=True)
     with open(HIST, "w", encoding="utf-8") as f:
-        json.dump({"records": dict(keep)}, f, ensure_ascii=False)
+        json.dump({"v": 18, "records": dict(keep)}, f, ensure_ascii=False)
     with open(CACHE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False)
     out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "matches": cards}
