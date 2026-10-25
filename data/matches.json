@@ -1,5 +1,5 @@
 {
- "date": "2026-10-25 23:24 UTC",
+ "date": "2026-10-25 23:44 UTC",
  "version": "V17",
  "stats": {
   "n": 534,
@@ -29,7 +29,7 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-25 | Buts attendus River Plate 2.0 - Racing Club 0.9 | 1/N/2 : 64/21/15% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "64'"
   },
   {
    "league": "Liga MX",
@@ -45,7 +45,7 @@
    "btts": "BTTS OUI 56%",
    "analyse": "2026-10-25 | Buts attendus Atlas 1.5 - Puebla 1.3 | 1/N/2 : 42/25/33% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-1",
-   "minute": "24'"
+   "minute": "44'"
   },
   {
    "league": "Liga Argentina",
