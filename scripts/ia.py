@@ -10,7 +10,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 LOOKBACK_DAYS = 120   # historique utilise pour mesurer la force des equipes
-CHUNK_DAYS = 30       # ESPN est interroge par tranches de 30 jours
+CHUNK_DAYS = 14       # ESPN est interroge par tranches de 14 jours
 MIN_GAMES = 3         # en dessous, l'equipe n'est pas pronostiquee (pas assez de donnees)
 PRIOR_GAMES = 4       # lissage : peu de matchs => on reste proche de la moyenne de la ligue
 MAX_GOALS = 8         # taille de la grille de scores (0..8)
@@ -34,15 +34,21 @@ BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
 BAD_STATUS = ("POSTPONED", "CANCEL", "ABANDON", "FORFEIT", "SUSPEND")
 
 
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                         "Chrome/124.0 Safari/537.36", "Accept": "application/json"}
+ERRORS = []
+
+
 def fetch(slug, start, end):
-    params = {"dates": f"{start:%Y%m%d}-{end:%Y%m%d}", "limit": 1000}
-    for _ in range(2):
+    base = {"dates": f"{start:%Y%m%d}-{end:%Y%m%d}"}
+    for params in ({**base, "limit": 500}, base):  # 2e essai sans "limit"
         try:
-            r = requests.get(BASE.format(slug=slug), params=params, timeout=8)
+            r = requests.get(BASE.format(slug=slug), params=params, headers=HEADERS, timeout=8)
             r.raise_for_status()
             return r.json().get("events", [])
-        except Exception:
-            continue
+        except Exception as e:
+            code = getattr(getattr(e, "response", None), "status_code", "")
+            ERRORS.append(f"{slug} {base['dates']} -> {type(e).__name__} {code} {str(e)[:150]}")
     return None
 
 
@@ -197,6 +203,8 @@ def main():
         fetched = list(ex.map(lambda j: (j[0], fetch(*j)), jobs))
     ok = sum(1 for _, ev in fetched if ev is not None)
     print(f"ESPN: {ok}/{len(jobs)} requetes OK")
+    for err in ERRORS[:5]:
+        print("ERREUR ESPN:", err)
     if ok == 0:
         raise SystemExit("ESPN injoignable : on garde l'ancien matches.json")
 
