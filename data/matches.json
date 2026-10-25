@@ -1,15 +1,15 @@
 {
- "date": "2026-10-25 15:29 UTC",
+ "date": "2026-10-25 15:31 UTC",
  "version": "V17",
  "stats": {
-  "n": 292,
+  "n": 496,
   "n_avant": 0,
-  "1x2": 45,
-  "dc": 77,
-  "over": 49,
-  "btts": 53,
-  "score": 9,
-  "base_dom": 41
+  "1x2": 47,
+  "dc": 76,
+  "over": 51,
+  "btts": 55,
+  "score": 8,
+  "base_dom": 43
  },
  "matches": [
   {
@@ -26,7 +26,7 @@
    "btts": "BTTS OUI 59%",
    "analyse": "2026-10-25 | Buts attendus Crystal Palace 2.3 - Newcastle United 1.1 | 1/N/2 : 64/19/17% | base sur 3 et 4 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-2",
-   "minute": "72'"
+   "minute": "75'"
   },
   {
    "league": "Premier League",
@@ -42,7 +42,7 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-25 | Buts attendus Hull City 1.5 - Brentford 1.5 | 1/N/2 : 38/24/38% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-1",
-   "minute": "71'"
+   "minute": "73'"
   },
   {
    "league": "Premier League",
@@ -58,7 +58,7 @@
    "btts": "BTTS NON 54%",
    "analyse": "2026-10-25 | Buts attendus Liverpool 0.9 - Brighton & Hove Albion 1.5 | 1/N/2 : 23/26/51% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "2-0",
-   "minute": "69'"
+   "minute": "71'"
   },
   {
    "league": "Premier League",
@@ -73,8 +73,8 @@
    "over": "Over 2.5 53%",
    "btts": "BTTS NON 53%",
    "analyse": "2026-10-25 | Buts attendus Manchester United 2.0 - AFC Bournemouth 0.8 | 1/N/2 : 66/20/14% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-2",
-   "minute": "70'"
+   "live_score": "0-3",
+   "minute": "73'"
   },
   {
    "league": "La Liga",
@@ -90,7 +90,7 @@
    "btts": "BTTS OUI 63%",
    "analyse": "2026-10-25 | Buts attendus Celta Vigo 2.2 - Real Betis 1.2 | 1/N/2 : 60/20/20% | base sur 3 et 5 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "12'"
+   "minute": "15'"
   },
   {
    "league": "La Liga 2",
@@ -106,7 +106,7 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-25 | Buts attendus Albacete 1.2 - Eldense 2.0 | 1/N/2 : 22/21/57% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "13'"
+   "minute": "15'"
   },
   {
    "league": "La Liga 2",
@@ -122,7 +122,7 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-25 | Buts attendus Cádiz 1.5 - Ceuta 1.0 | 1/N/2 : 48/26/26% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "14'"
+   "minute": "16'"
   },
   {
    "league": "Serie A",
@@ -138,7 +138,7 @@
    "btts": "BTTS OUI 71%",
    "analyse": "2026-10-25 | Buts attendus Atalanta 2.0 - Frosinone 1.7 | 1/N/2 : 46/21/33% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "4-3",
-   "minute": "70'"
+   "minute": "73'"
   },
   {
    "league": "Serie A",
@@ -154,7 +154,7 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-10-25 | Buts attendus Genoa 1.5 - Venezia 1.1 | 1/N/2 : 47/26/27% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-0",
-   "minute": "70'"
+   "minute": "73'"
   },
   {
    "league": "Serie B",
@@ -170,7 +170,7 @@
    "btts": "BTTS OUI 55%",
    "analyse": "2026-10-25 | Buts attendus Palermo 1.3 - Carrarese 1.5 | 1/N/2 : 33/26/42% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-0",
-   "minute": "71'"
+   "minute": "73'"
   },
   {
    "league": "Bundesliga",
@@ -202,7 +202,23 @@
    "btts": "BTTS OUI 52%",
    "analyse": "2026-10-25 | Buts attendus AS Monaco 1.5 - Lille 1.1 | 1/N/2 : 47/26/27% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-1",
-   "minute": "69'"
+   "minute": "72'"
+  },
+  {
+   "league": "Pro League",
+   "home": "Club Brugge",
+   "away": "Sint-Truidense",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Victoire Club Brugge",
+   "score_exact": "2-0 (11%)",
+   "double_chance": "1X 91%",
+   "corner": "N/D",
+   "over": "Over 2.5 68%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-10-25 | Buts attendus Club Brugge 2.7 - Sint-Truidense 0.8 | 1/N/2 : 76/15/9% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "31'"
   },
   {
    "league": "Scottish Premiership",
@@ -218,7 +234,7 @@
    "btts": "BTTS OUI 71%",
    "analyse": "2026-10-25 | Buts attendus Motherwell 1.8 - Heart of Midlothian 2.0 | 1/N/2 : 34/21/44% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-1",
-   "minute": "71'"
+   "minute": "74'"
   },
   {
    "league": "Liga Portugal",
@@ -417,6 +433,20 @@
    "analyse": "2026-10-25 | Buts attendus Castellón 1.9 - Sporting Gijón 0.8 | 1/N/2 : 63/22/16% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire"
   },
   {
+   "league": "Pro League",
+   "home": "KAA Gent",
+   "away": "Anderlecht",
+   "status": "today",
+   "conf": 56,
+   "victoire": "Victoire KAA Gent",
+   "score_exact": "1-0 (20%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Under 2.5 70%",
+   "btts": "BTTS NON 68%",
+   "analyse": "2026-10-25 | Buts attendus KAA Gent 1.3 - Anderlecht 0.6 | 1/N/2 : 56/28/16% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
    "league": "Liga Argentina",
    "home": "Aldosivi",
    "away": "Belgrano (Córdoba)",
@@ -429,6 +459,48 @@
    "over": "Under 2.5 61%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-10-25 | Buts attendus Aldosivi 0.9 - Belgrano (Córdoba) 1.4 | 1/N/2 : 25/28/48% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "C.D. Nacional",
+   "away": "Braga",
+   "status": "today",
+   "conf": 56,
+   "victoire": "Victoire Braga",
+   "score_exact": "1-2 (10%)",
+   "double_chance": "X2 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-10-25 | Buts attendus C.D. Nacional 1.1 - Braga 1.9 | 1/N/2 : 22/22/56% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Rio Ave",
+   "away": "FC Famalicao",
+   "status": "today",
+   "conf": 51,
+   "victoire": "Victoire FC Famalicao",
+   "score_exact": "1-2 (10%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "2026-10-25 | Buts attendus Rio Ave 1.2 - FC Famalicao 1.7 | 1/N/2 : 25/24/51% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Pro League",
+   "home": "Union St.-Gilloise",
+   "away": "Cercle Brugge KSV",
+   "status": "today",
+   "conf": 86,
+   "victoire": "Victoire Union St.-Gilloise",
+   "score_exact": "3-0 (11%)",
+   "double_chance": "1X 96%",
+   "corner": "N/D",
+   "over": "Over 2.5 75%",
+   "btts": "BTTS NON 53%",
+   "analyse": "2026-10-25 | Buts attendus Union St.-Gilloise 3.3 - Cercle Brugge KSV 0.7 | 1/N/2 : 86/9/4% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
   },
   {
    "league": "Eredivisie",
@@ -485,6 +557,20 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 50%",
    "analyse": "2026-10-25 | Buts attendus Independiente 0.9 - Boca Juniors 1.8 | 1/N/2 : 19/23/58% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Sporting CP",
+   "away": "Académico de Viseu",
+   "status": "today",
+   "conf": 46,
+   "victoire": "Victoire Sporting CP",
+   "score_exact": "2-1 (9%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "2026-10-25 | Buts attendus Sporting CP 1.8 - Académico de Viseu 1.4 | 1/N/2 : 46/23/31% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
   },
   {
    "league": "Liga Argentina",
@@ -640,6 +726,22 @@
    "btts": "BTTS NON 54%",
    "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
    "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Pro League",
+   "home": "Racing Genk",
+   "away": "Standard Liege",
+   "status": "finished",
+   "conf": 58,
+   "victoire": "Victoire Racing Genk",
+   "score_exact": "2-1 (10%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 67%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
+   "live_score": "2-1",
    "minute": "FT"
   },
   {
@@ -1107,6 +1209,22 @@
    "minute": "FT"
   },
   {
+   "league": "Liga Portugal",
+   "home": "Gil Vicente",
+   "away": "FC Porto",
+   "status": "finished",
+   "conf": 59,
+   "victoire": "Victoire FC Porto",
+   "score_exact": "0-1 (19%)",
+   "double_chance": "X2 85%",
+   "corner": "N/D",
+   "over": "Under 2.5 67%",
+   "btts": "BTTS NON 66%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
+   "live_score": "0-1",
+   "minute": "FT"
+  },
+  {
    "league": "La Liga",
    "home": "Atlético Madrid",
    "away": "Deportivo",
@@ -1120,38 +1238,6 @@
    "btts": "BTTS NON 57%",
    "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Almería",
-   "away": "Real Oviedo",
-   "status": "finished",
-   "conf": 63,
-   "victoire": "Victoire Almería",
-   "score_exact": "2-1 (10%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "ADO Den Haag",
-   "away": "Heerenveen",
-   "status": "finished",
-   "conf": 42,
-   "victoire": "Victoire Heerenveen",
-   "score_exact": "1-2 (9%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "2-3",
    "minute": "FT"
   }
  ]
