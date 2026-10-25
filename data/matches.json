@@ -1,15 +1,15 @@
 {
- "date": "2026-10-25 20:03 UTC",
+ "date": "2026-10-25 20:26 UTC",
  "version": "V17",
  "stats": {
-  "n": 528,
-  "n_avant": 17,
+  "n": 529,
+  "n_avant": 18,
   "dc": 72,
   "over": 52,
   "btts": 54,
   "score": 7,
   "1x2": 52,
-  "n_fav": 364,
+  "n_fav": 365,
   "serre": 65,
   "n_serre": 164,
   "base_dom": 44
@@ -29,7 +29,7 @@
    "btts": "BTTS OUI 74%",
    "analyse": "2026-10-25 | Buts attendus Barcelona 2.8 - Real Madrid 1.6 | 1/N/2 : 64/17/19% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "24'"
   },
   {
    "league": "Serie A",
@@ -45,7 +45,7 @@
    "btts": "BTTS OUI 62%",
    "analyse": "2026-10-25 | Buts attendus Udinese 1.2 - AC Milan 2.1 | 1/N/2 : 21/20/59% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-1",
-   "minute": "18'"
+   "minute": "41'"
   },
   {
    "league": "Eredivisie",
@@ -61,23 +61,7 @@
    "btts": "BTTS OUI 58%",
    "analyse": "2026-10-25 | Buts attendus AZ Alkmaar 1.4 - FC Twente 1.5 | 1/N/2 : 34/25/41% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "HT"
-  },
-  {
-   "league": "Pro League",
-   "home": "Union St.-Gilloise",
-   "away": "Cercle Brugge KSV",
-   "status": "live",
-   "conf": 86,
-   "victoire": "Victoire Union St.-Gilloise",
-   "score_exact": "3-0 (11%)",
-   "double_chance": "1X 96%",
-   "corner": "N/D",
-   "over": "Over 2.5 75%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-10-25 | Buts attendus Union St.-Gilloise 3.3 - Cercle Brugge KSV 0.7 | 1/N/2 : 86/9/4% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "4-2",
-   "minute": "88'"
+   "minute": "68'"
   },
   {
    "league": "Liga Argentina",
@@ -93,7 +77,7 @@
    "btts": "BTTS NON 59%",
    "analyse": "2026-10-25 | Buts attendus Independiente 0.8 - Boca Juniors 1.4 | 1/N/2 : 22/28/51% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "27'"
   },
   {
    "league": "Liga Portugal",
@@ -136,6 +120,22 @@
    "over": "Over 2.5 52%",
    "btts": "BTTS OUI 56%",
    "analyse": "2026-10-25 | Buts attendus Atlas 1.5 - Puebla 1.3 | 1/N/2 : 42/25/33% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Pro League",
+   "home": "Union St.-Gilloise",
+   "away": "Cercle Brugge KSV",
+   "status": "finished",
+   "conf": 86,
+   "victoire": "Victoire Union St.-Gilloise",
+   "score_exact": "3-0 (11%)",
+   "double_chance": "1X 96%",
+   "corner": "N/D",
+   "over": "Over 2.5 75%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 5-2 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "live_score": "5-2",
+   "minute": "FT"
   },
   {
    "league": "Liga Portugal",
@@ -759,22 +759,6 @@
    "btts": "BTTS OUI 59%",
    "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "VfL Osnabruck",
-   "away": "SpVgg Greuther Fürth",
-   "status": "finished",
-   "conf": 64,
-   "victoire": "Serré : Nul ou VfL Osnabruck",
-   "score_exact": "2-1 (9%)",
-   "double_chance": "1X 64%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "3-0",
    "minute": "FT"
   }
  ]
