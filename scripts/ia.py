@@ -1,4 +1,4 @@
-# PRONO70 V16 - Pronostics calcules (modele de Poisson) a partir des VRAIS resultats ESPN
+# PRONO70 V17 - Pronostics calcules (modele de Poisson) a partir des VRAIS resultats ESPN
 # Aucun tirage aleatoire : tout decoule des buts marques/encaisses depuis LOOKBACK_DAYS jours.
 import json
 import math
@@ -15,6 +15,8 @@ MIN_GAMES = 3         # en dessous, l'equipe n'est pas pronostiquee (pas assez d
 PRIOR_GAMES = 4       # lissage : peu de matchs => on reste proche de la moyenne de la ligue
 MAX_GOALS = 8         # taille de la grille de scores (0..8)
 MAX_MATCHES = 40
+BACKTEST_DAYS = 14    # jours passes pronostiques apres coup (sans tricher : modele entraine AVANT chaque jour)
+HIST = "data/history.json"
 
 # slug ESPN -> nom affiche. Ajoute ou retire des lignes librement.
 LEAGUES = {
@@ -41,7 +43,7 @@ def fetch(slug, start, end):
             return r.json().get("events", [])
         except Exception:
             continue
-    return []
+    return None
 
 
 def parse_event(ev):
@@ -53,13 +55,14 @@ def parse_event(ev):
         if any(b in str(st.get("name", "")).upper() for b in BAD_STATUS):
             return None
         out = {
+            "id": str(ev.get("id")), "detail": st.get("shortDetail") or "",
             "home": home["team"]["displayName"],
             "away": away["team"]["displayName"],
             "state": st.get("state"),
             "iso": ev.get("date", ""),
         }
-        if out["state"] == "post":
-            if not st.get("completed"):
+        if out["state"] in ("in", "post"):
+            if out["state"] == "post" and not st.get("completed"):
                 return None
             out["gh"] = int(float(home["score"]))
             out["ga"] = int(float(away["score"]))
@@ -146,10 +149,44 @@ def build_card(league, home, away, iso, pr, gp_h, gp_a):
     }
 
 
+def result_of(gh, ga):
+    return "H" if gh > ga else "A" if ga > gh else "D"
+
+
+def evaluate(rec):
+    gh, ga = rec["res"]
+    pr, r = rec["pr"], result_of(gh, ga)
+    return {
+        "1x2": pr["pick"] == r,
+        "dc": r in {"1X": "HD", "X2": "DA", "12": "HA"}[pr["dc"][1]],
+        "over": (gh + ga >= 3) == (pr["p_over"] >= 0.5),
+        "btts": (gh > 0 and ga > 0) == (pr["p_btts"] >= 0.5),
+        "score": f"{gh}-{ga}" == pr["score"],
+    }
+
+
+def card_from(rec, status):
+    c = build_card(rec["league"], rec["home"], rec["away"], rec["iso"], rec["pr"], rec["gp"][0], rec["gp"][1])
+    c["status"] = status
+    c.pop("_iso", None)
+    if rec.get("res"):
+        c["live_score"] = f"{rec['res'][0]}-{rec['res'][1]}"
+        if status == "finished":
+            ev = rec["eval"]
+            c["minute"] = "FT"
+            c["analyse"] = ("Resultat " + c["live_score"] + " | 1X2 " + ("OK" if ev["1x2"] else "RATE") +
+                            " | DC " + ("OK" if ev["dc"] else "RATE") + " | O/U " + ("OK" if ev["over"] else "RATE") +
+                            " | BTTS " + ("OK" if ev["btts"] else "RATE") + " | Score " +
+                            ("OK" if ev["score"] else "RATE") + " | " + ("pronostic fige avant match" if rec["kind"] == "avant"
+                                                                          else "calcule apres coup, sans voir le match"))
+    return c
+
+
 def main():
     now = datetime.now(timezone.utc)
-    today = now.date()
-    start, end = today - timedelta(days=LOOKBACK_DAYS), today + timedelta(days=2)
+    today = now.date().isoformat()
+    t = now.date()
+    start, end = t - timedelta(days=LOOKBACK_DAYS), t + timedelta(days=2)
     windows, d = [], start
     while d <= end:
         e = min(d + timedelta(days=CHUNK_DAYS - 1), end)
@@ -158,53 +195,89 @@ def main():
     jobs = [(slug, s, e) for slug in LEAGUES for s, e in windows]
     with ThreadPoolExecutor(max_workers=10) as ex:
         fetched = list(ex.map(lambda j: (j[0], fetch(*j)), jobs))
+    ok = sum(1 for _, ev in fetched if ev is not None)
+    print(f"ESPN: {ok}/{len(jobs)} requetes OK")
+    if ok == 0:
+        raise SystemExit("ESPN injoignable : on garde l'ancien matches.json")
 
-    history, upcoming, seen = defaultdict(list), defaultdict(list), set()
-    for slug, events in fetched:
-        for ev in events:
+    results, events, seen = defaultdict(list), [], set()
+    for slug, evs in fetched:
+        for ev in evs or []:
             p = parse_event(ev)
-            if not p:
-                continue
-            key = (slug, p["home"], p["away"], p["iso"][:10])
-            if key in seen:
+            key = (slug, p["id"]) if p else None
+            if not p or key in seen:
                 continue
             seen.add(key)
+            events.append((slug, p))
             if p["state"] == "post" and "gh" in p:
-                history[slug].append((p["home"], p["away"], p["gh"], p["ga"]))
-            elif p["state"] == "pre" and p["iso"][:10] >= today.isoformat():
-                upcoming[p["iso"][:10]].append((slug, p))
-    print(f"Resultats: {sum(map(len, history.values()))} matchs | Ligues avec donnees: {len(history)}")
+                results[slug].append((p["home"], p["away"], p["gh"], p["ga"], p["iso"][:10]))
+    print(f"{sum(map(len, results.values()))} resultats, {len(events)} matchs au total")
 
-    models = {slug: fit(res) for slug, res in history.items() if len(res) >= 10}
-    cards, skipped = [], 0
-    if upcoming:
-        day = sorted(upcoming)[0]  # aujourd'hui, ou le prochain jour avec des matchs
-        for slug, p in sorted(upcoming[day], key=lambda x: x[1]["iso"]):
-            m = models.get(slug)
+    try:
+        hist = json.load(open(HIST, encoding="utf-8"))["records"]
+    except Exception:
+        hist = {}
+    cache = {}
+
+    def model_before(slug, day):
+        if (slug, day) not in cache:
+            train = [r[:4] for r in results[slug] if r[4] < day]
+            cache[(slug, day)] = fit(train) if len(train) >= 10 else None
+        return cache[(slug, day)]
+
+    limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
+    live, upcoming = [], defaultdict(list)
+    for slug, p in events:
+        day = p["iso"][:10]
+        rec = hist.get(p["id"])
+        if p["state"] == "post" and day < limit and not rec:
+            continue
+        if p["state"] in ("pre", "in") and day < (t - timedelta(days=1)).isoformat():
+            continue
+        if not rec:
+            m = model_before(slug, min(day, today))
             if not m or m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES:
-                skipped += 1
                 continue
             pr = predict(m, p["home"], p["away"])
-            cards.append(build_card(LEAGUES[slug], p["home"], p["away"], p["iso"], pr,
-                                    m["gp"][p["home"]], m["gp"][p["away"]]))
-        print(f"Jour {day}: {len(cards)} pronostics, {skipped} ignores (pas assez de donnees)")
+            rec = hist[p["id"]] = {"slug": slug, "league": LEAGUES[slug], "home": p["home"], "away": p["away"],
+                                   "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
+                                   "kind": "avant" if p["state"] == "pre" else "retro", "res": None}
+        if p["state"] == "post" and "gh" in p and not rec.get("res"):
+            rec["res"] = [p["gh"], p["ga"]]
+            rec["eval"] = evaluate(rec)
+        if p["state"] == "in":
+            c = card_from(rec, "live")
+            c["live_score"], c["minute"] = f"{p['gh']}-{p['ga']}", p["detail"]
+            live.append(c)
+        elif p["state"] == "pre" and day >= today:
+            upcoming[day].append(rec)
 
-    cards = cards[:MAX_MATCHES]
-    for c in cards:
-        c.pop("_iso", None)
-    if not cards:
-        cards = [{
-            "league": "Info", "home": "Aucun match", "away": "pronostiquable", "status": "today", "conf": 0,
-            "victoire": "Aucun pronostic fiable", "score_exact": "-", "double_chance": "-",
-            "corner": "-", "over": "-", "btts": "-",
-            "analyse": f"Aucun match trouve le {today} (hors saison, API ESPN indisponible, ou pas assez de donnees)",
-        }]
+    today_cards = []
+    if upcoming:
+        for rec in sorted(upcoming[sorted(upcoming)[0]], key=lambda r: r["iso"]):
+            today_cards.append(card_from(rec, "today"))
+    done = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
+    stats = {"n": len(done), "n_avant": sum(1 for r in done if r["kind"] == "avant")}
+    if done:
+        for k in ("1x2", "dc", "over", "btts", "score"):
+            stats[k] = round(100 * sum(r["eval"][k] for r in done) / len(done))
+        stats["base_dom"] = round(100 * sum(1 for r in done if r["res"][0] > r["res"][1]) / len(done))
+    fin_cards = [card_from(r, "finished") for r in done[:MAX_MATCHES]]
 
-    out = {"date": now.strftime("%Y-%m-%d %H:%M"), "version": "V16 POISSON", "matches": cards}
+    cards = live + today_cards[:MAX_MATCHES] + fin_cards
+    if not live and not today_cards:
+        cards.insert(0, {"league": "Info", "home": "Aucun match", "away": "pronostiquable", "status": "today", "conf": 0,
+                         "victoire": "Aucun pronostic fiable", "score_exact": "-", "double_chance": "-", "corner": "-",
+                         "over": "-", "btts": "-",
+                         "analyse": f"Aucun match a venir le {today} | ESPN: {ok}/{len(jobs)} requetes OK | {len(events)} matchs lus"})
+    keep = sorted(hist.items(), key=lambda kv: kv[1]["iso"], reverse=True)[:600]
     os.makedirs("data", exist_ok=True)
+    with open(HIST, "w", encoding="utf-8") as f:
+        json.dump({"records": dict(keep)}, f, ensure_ascii=False)
+    out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "matches": cards}
     with open("data/matches.json", "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
-    print(f"FINAL: {len(cards)} cartes ecrites")
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    print(f"FINAL: {len(live)} live, {len(today_cards)} a venir, {len(fin_cards)} termines | stats {stats}")
 
 
 if __name__ == "__main__":
