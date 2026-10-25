@@ -9,8 +9,9 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-LOOKBACK_DAYS = 120   # historique utilise pour mesurer la force des equipes
-CHUNK_DAYS = 14       # ESPN est interroge par tranches de 14 jours
+LOOKBACK_DAYS = 90    # historique utilise pour mesurer la force des equipes
+MAX_BACKFILL_DAYS = 40  # jours d'historique recuperes par run (ESPN refuse les plages : 1 jour = 1 requete)
+CACHE = "data/results.json"
 MIN_GAMES = 3         # en dessous, l'equipe n'est pas pronostiquee (pas assez de donnees)
 PRIOR_GAMES = 4       # lissage : peu de matchs => on reste proche de la moyenne de la ligue
 MAX_GOALS = 8         # taille de la grille de scores (0..8)
@@ -39,16 +40,15 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 ERRORS = []
 
 
-def fetch(slug, start, end):
-    base = {"dates": f"{start:%Y%m%d}-{end:%Y%m%d}"}
-    for params in ({**base, "limit": 500}, base):  # 2e essai sans "limit"
+def fetch(slug, day):
+    for _ in range(2):
         try:
-            r = requests.get(BASE.format(slug=slug), params=params, headers=HEADERS, timeout=8)
+            r = requests.get(BASE.format(slug=slug), params={"dates": f"{day:%Y%m%d}"}, headers=HEADERS, timeout=8)
             r.raise_for_status()
             return r.json().get("events", [])
         except Exception as e:
             code = getattr(getattr(e, "response", None), "status_code", "")
-            ERRORS.append(f"{slug} {base['dates']} -> {type(e).__name__} {code} {str(e)[:150]}")
+            ERRORS.append(f"{slug} {day} -> {type(e).__name__} {code} {str(e)[:120]}")
     return None
 
 
@@ -192,46 +192,71 @@ def main():
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
     t = now.date()
-    start, end = t - timedelta(days=LOOKBACK_DAYS), t + timedelta(days=2)
-    windows, d = [], start
-    while d <= end:
-        e = min(d + timedelta(days=CHUNK_DAYS - 1), end)
-        windows.append((d, e))
-        d = e + timedelta(days=1)
-    jobs = [(slug, s, e) for slug in LEAGUES for s, e in windows]
+    try:
+        cache = json.load(open(CACHE, encoding="utf-8"))
+    except Exception:
+        cache = {}
+    cache.setdefault("days_done", [])
+    cache.setdefault("results", {})
+    done_days = set(cache["days_done"])
+    all_days = [t + timedelta(days=2 - k) for k in range(LOOKBACK_DAYS + 3)]      # t+2 ... t-LOOKBACK
+    fresh = [d for d in all_days if d >= t - timedelta(days=1)]                   # toujours rafraichis
+    missing = [d for d in all_days if d < t - timedelta(days=1) and d.isoformat() not in done_days][:MAX_BACKFILL_DAYS]
+    jobs = [(slug, d) for d in fresh + missing for slug in LEAGUES]
     with ThreadPoolExecutor(max_workers=10) as ex:
-        fetched = list(ex.map(lambda j: (j[0], fetch(*j)), jobs))
-    ok = sum(1 for _, ev in fetched if ev is not None)
-    print(f"ESPN: {ok}/{len(jobs)} requetes OK")
+        fetched = list(ex.map(lambda j: (j[0], j[1], fetch(*j)), jobs))
+    ok = sum(1 for _, _, ev in fetched if ev is not None)
+    print(f"ESPN: {ok}/{len(jobs)} requetes OK ({len(fresh)} jours frais, {len(missing)} jours d'historique)")
     for err in ERRORS[:5]:
         print("ERREUR ESPN:", err)
     if ok == 0:
         raise SystemExit("ESPN injoignable : on garde l'ancien matches.json")
 
-    results, events, seen = defaultdict(list), [], set()
-    for slug, evs in fetched:
-        for ev in evs or []:
+    good_slugs = {slug for slug, _, ev in fetched if ev is not None}   # un slug invalide est ignore
+    failed_days, fresh_events = set(), []
+    for slug, d, evs in fetched:
+        if evs is None:
+            if slug in good_slugs:
+                failed_days.add(d)
+            continue
+        for ev in evs:
             p = parse_event(ev)
-            key = (slug, p["id"]) if p else None
-            if not p or key in seen:
+            if not p:
                 continue
-            seen.add(key)
-            events.append((slug, p))
             if p["state"] == "post" and "gh" in p:
-                results[slug].append((p["home"], p["away"], p["gh"], p["ga"], p["iso"][:10]))
+                cache["results"][p["id"]] = {"slug": slug, "id": p["id"], "home": p["home"], "away": p["away"],
+                                             "iso": p["iso"], "gh": p["gh"], "ga": p["ga"]}
+            elif p["state"] in ("pre", "in"):
+                fresh_events.append((slug, p))
+    for d in missing:
+        if d not in failed_days:
+            done_days.add(d.isoformat())
+    oldest = (t - timedelta(days=LOOKBACK_DAYS + 5)).isoformat()
+    cache["days_done"] = sorted(x for x in done_days if x >= oldest)
+    cache["results"] = {k: v for k, v in cache["results"].items() if v["iso"][:10] >= oldest}
+
+    results, events, seen = defaultdict(list), [], set()
+    for r in cache["results"].values():
+        results[r["slug"]].append((r["home"], r["away"], r["gh"], r["ga"], r["iso"][:10]))
+        events.append((r["slug"], {"id": r["id"], "home": r["home"], "away": r["away"], "state": "post",
+                                   "iso": r["iso"], "detail": "FT", "gh": r["gh"], "ga": r["ga"]}))
+    for slug, p in fresh_events:
+        if (slug, p["id"]) not in seen:
+            seen.add((slug, p["id"]))
+            events.append((slug, p))
     print(f"{sum(map(len, results.values()))} resultats, {len(events)} matchs au total")
 
     try:
         hist = json.load(open(HIST, encoding="utf-8"))["records"]
     except Exception:
         hist = {}
-    cache = {}
+    mcache = {}
 
     def model_before(slug, day):
-        if (slug, day) not in cache:
+        if (slug, day) not in mcache:
             train = [r[:4] for r in results[slug] if r[4] < day]
-            cache[(slug, day)] = fit(train) if len(train) >= 10 else None
-        return cache[(slug, day)]
+            mcache[(slug, day)] = fit(train) if len(train) >= 10 else None
+        return mcache[(slug, day)]
 
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
@@ -277,11 +302,13 @@ def main():
         cards.insert(0, {"league": "Info", "home": "Aucun match", "away": "pronostiquable", "status": "today", "conf": 0,
                          "victoire": "Aucun pronostic fiable", "score_exact": "-", "double_chance": "-", "corner": "-",
                          "over": "-", "btts": "-",
-                         "analyse": f"Aucun match a venir le {today} | ESPN: {ok}/{len(jobs)} requetes OK | {len(events)} matchs lus"})
+                         "analyse": f"Aucun match a venir le {today} | ESPN: {ok}/{len(jobs)} requetes OK | {len(events)} matchs lus | historique en cours de remplissage"})
     keep = sorted(hist.items(), key=lambda kv: kv[1]["iso"], reverse=True)[:600]
     os.makedirs("data", exist_ok=True)
     with open(HIST, "w", encoding="utf-8") as f:
         json.dump({"records": dict(keep)}, f, ensure_ascii=False)
+    with open(CACHE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False)
     out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "matches": cards}
     with open("data/matches.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
