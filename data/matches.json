@@ -1,5 +1,5 @@
 {
- "date": "2026-10-25 15:47 UTC",
+ "date": "2026-10-25 15:49 UTC",
  "version": "V17",
  "stats": {
   "n": 496,
@@ -29,7 +29,7 @@
    "btts": "BTTS OUI 75%",
    "analyse": "2026-10-25 | Buts attendus Crystal Palace 2.2 - Newcastle United 1.8 | 1/N/2 : 47/20/33% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-2",
-   "minute": "90'+1'"
+   "minute": "90'+2'"
   },
   {
    "league": "Premier League",
@@ -45,7 +45,7 @@
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-25 | Buts attendus Hull City 1.2 - Brentford 1.2 | 1/N/2 : 36/27/37% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-1",
-   "minute": "90'"
+   "minute": "90'+1'"
   },
   {
    "league": "Premier League",
@@ -61,7 +61,7 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-25 | Buts attendus Liverpool 1.0 - Brighton & Hove Albion 2.0 | 1/N/2 : 18/21/60% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "2-0",
-   "minute": "88'"
+   "minute": "90'"
   },
   {
    "league": "Premier League",
@@ -77,7 +77,7 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-25 | Buts attendus Manchester United 1.9 - AFC Bournemouth 1.2 | 1/N/2 : 53/22/25% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-3",
-   "minute": "89'"
+   "minute": "90'"
   },
   {
    "league": "La Liga",
@@ -93,7 +93,7 @@
    "btts": "BTTS NON 52%",
    "analyse": "2026-10-25 | Buts attendus Celta Vigo 1.2 - Real Betis 1.1 | 1/N/2 : 39/28/33% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "33'"
   },
   {
    "league": "La Liga 2",
@@ -109,7 +109,7 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-25 | Buts attendus Albacete 0.9 - Eldense 1.6 | 1/N/2 : 22/25/53% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-0",
-   "minute": "32'"
+   "minute": "33'"
   },
   {
    "league": "La Liga 2",
@@ -125,7 +125,7 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-25 | Buts attendus Cádiz 2.0 - Ceuta 0.8 | 1/N/2 : 64/21/15% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "33'"
+   "minute": "34'"
   },
   {
    "league": "Serie A",
@@ -141,7 +141,7 @@
    "btts": "BTTS OUI 63%",
    "analyse": "2026-10-25 | Buts attendus Atalanta 1.5 - Frosinone 1.6 | 1/N/2 : 36/23/40% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "4-4",
-   "minute": "89'"
+   "minute": "90'"
   },
   {
    "league": "Serie A",
@@ -157,7 +157,7 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-25 | Buts attendus Genoa 1.4 - Venezia 1.2 | 1/N/2 : 43/26/31% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-0",
-   "minute": "89'"
+   "minute": "90'"
   },
   {
    "league": "Serie B",
@@ -173,7 +173,7 @@
    "btts": "BTTS NON 52%",
    "analyse": "2026-10-25 | Buts attendus Palermo 1.5 - Carrarese 1.0 | 1/N/2 : 51/26/23% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "2-1",
-   "minute": "90'"
+   "minute": "90'+1'"
   },
   {
    "league": "Bundesliga",
@@ -189,7 +189,7 @@
    "btts": "BTTS OUI 77%",
    "analyse": "2026-10-25 | Buts attendus TSG Hoffenheim 1.9 - Bayer Leverkusen 2.4 | 1/N/2 : 30/19/51% | base sur 6 et 6 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "57'"
+   "minute": "58'"
   },
   {
    "league": "Ligue 1",
@@ -205,7 +205,23 @@
    "btts": "BTTS NON 60%",
    "analyse": "2026-10-25 | Buts attendus AS Monaco 1.1 - Lille 0.9 | 1/N/2 : 40/30/29% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-1",
-   "minute": "88'"
+   "minute": "89'"
+  },
+  {
+   "league": "Eredivisie",
+   "home": "Sparta Rotterdam",
+   "away": "Ajax Amsterdam",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Victoire Ajax Amsterdam",
+   "score_exact": "1-3 (8%)",
+   "double_chance": "X2 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 85%",
+   "btts": "BTTS OUI 72%",
+   "analyse": "2026-10-25 | Buts attendus Sparta Rotterdam 1.4 - Ajax Amsterdam 3.4 | 1/N/2 : 11/13/76% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "1'"
   },
   {
    "league": "Liga Portugal",
@@ -221,7 +237,7 @@
    "btts": "BTTS NON 57%",
    "analyse": "2026-10-25 | Buts attendus Estoril 0.9 - Moreirense 1.3 | 1/N/2 : 25/28/47% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "15'"
+   "minute": "16'"
   },
   {
    "league": "Pro League",
@@ -237,7 +253,7 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-25 | Buts attendus Club Brugge 2.7 - Sint-Truidense 0.8 | 1/N/2 : 76/15/9% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "2-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Scottish Premiership",
@@ -253,21 +269,7 @@
    "btts": "BTTS OUI 72%",
    "analyse": "2026-10-25 | Buts attendus Motherwell 1.7 - Heart of Midlothian 2.2 | 1/N/2 : 30/21/49% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-2",
-   "minute": "90'+1'"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "Sparta Rotterdam",
-   "away": "Ajax Amsterdam",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Victoire Ajax Amsterdam",
-   "score_exact": "1-3 (8%)",
-   "double_chance": "X2 89%",
-   "corner": "N/D",
-   "over": "Over 2.5 85%",
-   "btts": "BTTS OUI 72%",
-   "analyse": "2026-10-25 | Buts attendus Sparta Rotterdam 1.4 - Ajax Amsterdam 3.4 | 1/N/2 : 11/13/76% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire"
+   "minute": "90'+2'"
   },
   {
    "league": "Super Lig",
