@@ -1,17 +1,17 @@
 {
- "date": "2026-10-26 20:12 UTC",
+ "date": "2026-10-26 20:46 UTC",
  "version": "V17",
  "stats": {
-  "n": 537,
-  "n_avant": 33,
+  "n": 539,
+  "n_avant": 35,
   "dc": 73,
   "over": 52,
   "btts": 54,
   "score": 7,
-  "1x2": 52,
-  "n_fav": 372,
-  "serre": 65,
-  "n_serre": 165,
+  "1x2": 53,
+  "n_fav": 373,
+  "serre": 64,
+  "n_serre": 166,
   "base_dom": 44
  },
  "matches": [
@@ -28,8 +28,8 @@
    "over": "Under 2.5 63%",
    "btts": "BTTS NON 60%",
    "analyse": "2026-10-26 | Buts attendus Walsall 1.4 - Salford City 0.8 | 1/N/2 : 52/27/21% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "0-1",
+   "minute": "45'+1'"
   },
   {
    "league": "La Liga",
@@ -44,8 +44,8 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS OUI 61%",
    "analyse": "2026-10-26 | Buts attendus Sevilla 2.4 - Osasuna 1.1 | 1/N/2 : 65/19/17% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "10'"
+   "live_score": "1-0",
+   "minute": "43'"
   },
   {
    "league": "La Liga 2",
@@ -60,8 +60,8 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-26 | Buts attendus FC Andorra 1.2 - Burgos 1.2 | 1/N/2 : 37/27/36% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-3",
-   "minute": "42'"
+   "live_score": "2-3",
+   "minute": "54'"
   },
   {
    "league": "Ligue 1",
@@ -77,7 +77,7 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-26 | Buts attendus Paris Saint-Germain 1.3 - Lyon 1.3 | 1/N/2 : 37/26/37% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "43'"
+   "minute": "60'"
   },
   {
    "league": "Ligue 2",
@@ -92,8 +92,8 @@
    "over": "Under 2.5 63%",
    "btts": "BTTS NON 58%",
    "analyse": "2026-10-26 | Buts attendus Boulogne 0.9 - Stade de Reims 1.3 | 1/N/2 : 25/28/47% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "28'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Ligue 2",
@@ -109,39 +109,7 @@
    "btts": "BTTS NON 64%",
    "analyse": "2026-10-26 | Buts attendus Montpellier 1.1 - Red Star FC 93 0.7 | 1/N/2 : 45/31/24% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "27'"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Santa Clara",
-   "away": "Benfica",
-   "status": "live",
-   "conf": 49,
-   "victoire": "Victoire Benfica",
-   "score_exact": "1-2 (9%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-10-26 | Buts attendus Santa Clara 1.1 - Benfica 1.6 | 1/N/2 : 26/25/49% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-1",
-   "minute": "67'"
-  },
-  {
-   "league": "Super Lig",
-   "home": "Galatasaray",
-   "away": "Fenerbahce",
-   "status": "live",
-   "conf": 62,
-   "victoire": "Serré : Nul ou Fenerbahce",
-   "score_exact": "1-2 (8%)",
-   "double_chance": "X2 62%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "2026-10-26 | Buts attendus Galatasaray 1.7 - Fenerbahce 1.8 | 1/N/2 : 38/22/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-1",
-   "minute": "84'"
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
@@ -184,6 +152,38 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 58%",
    "analyse": "2026-10-26 | Buts attendus Flamengo 1.7 - Atlético-MG 0.7 | 1/N/2 : 61/24/16% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Santa Clara",
+   "away": "Benfica",
+   "status": "finished",
+   "conf": 49,
+   "victoire": "Victoire Benfica",
+   "score_exact": "1-2 (9%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 50%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Super Lig",
+   "home": "Galatasaray",
+   "away": "Fenerbahce",
+   "status": "finished",
+   "conf": 62,
+   "victoire": "Serré : Nul ou Fenerbahce",
+   "score_exact": "1-2 (8%)",
+   "double_chance": "X2 62%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "Resultat 2-1 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "2-1",
+   "minute": "FT"
   },
   {
    "league": "Super Lig",
@@ -791,38 +791,6 @@
    "btts": "BTTS OUI 53%",
    "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
    "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "TSG Hoffenheim",
-   "away": "Bayer Leverkusen",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Bayer Leverkusen",
-   "score_exact": "1-2 (7%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 80%",
-   "btts": "BTTS OUI 77%",
-   "analyse": "Resultat 3-0 | 1X2 RATE | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "3-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Premier League",
-   "home": "Crystal Palace",
-   "away": "Newcastle United",
-   "status": "finished",
-   "conf": 47,
-   "victoire": "Victoire Crystal Palace",
-   "score_exact": "2-1 (8%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 75%",
-   "analyse": "Resultat 0-2 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "0-2",
    "minute": "FT"
   }
  ]
