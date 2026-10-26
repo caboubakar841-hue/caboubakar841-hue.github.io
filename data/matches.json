@@ -1,35 +1,51 @@
 {
- "date": "2026-10-26 00:01 UTC",
+ "date": "2026-10-26 00:51 UTC",
  "version": "V17",
  "stats": {
-  "n": 534,
-  "n_avant": 23,
+  "n": 528,
+  "n_avant": 24,
   "dc": 73,
   "over": 52,
   "btts": 54,
   "score": 7,
   "1x2": 52,
-  "n_fav": 369,
+  "n_fav": 365,
   "serre": 65,
-  "n_serre": 165,
-  "base_dom": 43
+  "n_serre": 163,
+  "base_dom": 44
  },
  "matches": [
   {
    "league": "Liga Argentina",
-   "home": "River Plate",
-   "away": "Racing Club",
+   "home": "Barracas Central",
+   "away": "Estudiantes de Río Cuarto",
    "status": "live",
-   "conf": 64,
-   "victoire": "Victoire River Plate",
-   "score_exact": "3-0 (8%)",
-   "double_chance": "1X 85%",
+   "conf": 50,
+   "victoire": "Victoire Barracas Central",
+   "score_exact": "1-0 (22%)",
+   "double_chance": "1X 83%",
    "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS NON 51%",
-   "analyse": "2026-10-25 | Buts attendus River Plate 2.0 - Racing Club 0.9 | 1/N/2 : 64/21/15% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "81'"
+   "over": "Under 2.5 78%",
+   "btts": "BTTS NON 73%",
+   "analyse": "2026-10-26 | Buts attendus Barracas Central 1.1 - Estudiantes de Río Cuarto 0.5 | 1/N/2 : 50/33/17% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "21'"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Central Córdoba (Santiago del Estero)",
+   "away": "Vélez Sarsfield",
+   "status": "live",
+   "conf": 49,
+   "victoire": "Victoire Vélez Sarsfield",
+   "score_exact": "1-2 (9%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-10-26 | Buts attendus Central Córdoba (Santiago del Estero) 1.0 - Vélez Sarsfield 1.5 | 1/N/2 : 26/26/49% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-1",
+   "minute": "22'"
   },
   {
    "league": "Liga MX",
@@ -44,36 +60,8 @@
    "over": "Over 2.5 52%",
    "btts": "BTTS OUI 56%",
    "analyse": "2026-10-25 | Buts attendus Atlas 1.5 - Puebla 1.3 | 1/N/2 : 42/25/33% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-1",
-   "minute": "HT"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Barracas Central",
-   "away": "Estudiantes de Río Cuarto",
-   "status": "today",
-   "conf": 50,
-   "victoire": "Victoire Barracas Central",
-   "score_exact": "1-0 (22%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Under 2.5 78%",
-   "btts": "BTTS NON 73%",
-   "analyse": "2026-10-26 | Buts attendus Barracas Central 1.1 - Estudiantes de Río Cuarto 0.5 | 1/N/2 : 50/33/17% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Central Córdoba (Santiago del Estero)",
-   "away": "Vélez Sarsfield",
-   "status": "today",
-   "conf": 49,
-   "victoire": "Victoire Vélez Sarsfield",
-   "score_exact": "1-2 (9%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-10-26 | Buts attendus Central Córdoba (Santiago del Estero) 1.0 - Vélez Sarsfield 1.5 | 1/N/2 : 26/26/49% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire"
+   "live_score": "4-3",
+   "minute": "90'"
   },
   {
    "league": "MLS",
@@ -312,6 +300,22 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 58%",
    "analyse": "2026-10-26 | Buts attendus Flamengo 1.7 - Atlético-MG 0.7 | 1/N/2 : 61/24/16% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "River Plate",
+   "away": "Racing Club",
+   "status": "finished",
+   "conf": 64,
+   "victoire": "Victoire River Plate",
+   "score_exact": "3-0 (8%)",
+   "double_chance": "1X 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS NON 51%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "1-0",
+   "minute": "FT"
   },
   {
    "league": "Liga Portugal",
@@ -935,22 +939,6 @@
    "btts": "BTTS OUI 73%",
    "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
    "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "PSV Eindhoven",
-   "away": "Feyenoord Rotterdam",
-   "status": "finished",
-   "conf": 49,
-   "victoire": "Victoire Feyenoord Rotterdam",
-   "score_exact": "1-2 (7%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 80%",
-   "btts": "BTTS OUI 77%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "1-1",
    "minute": "FT"
   }
  ]
