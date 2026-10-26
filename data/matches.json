@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26 18:18 UTC",
+ "date": "2026-10-26 19:05 UTC",
  "version": "V17",
  "stats": {
   "n": 537,
@@ -16,24 +16,10 @@
  },
  "matches": [
   {
-   "league": "Super Lig",
-   "home": "Galatasaray",
-   "away": "Fenerbahce",
-   "status": "today",
-   "conf": 62,
-   "victoire": "Serré : Nul ou Fenerbahce",
-   "score_exact": "1-2 (8%)",
-   "double_chance": "X2 62%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "2026-10-26 | Buts attendus Galatasaray 1.7 - Fenerbahce 1.8 | 1/N/2 : 38/22/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
-  },
-  {
    "league": "Liga Portugal",
    "home": "Santa Clara",
    "away": "Benfica",
-   "status": "today",
+   "status": "live",
    "conf": 49,
    "victoire": "Victoire Benfica",
    "score_exact": "1-2 (9%)",
@@ -41,7 +27,25 @@
    "corner": "N/D",
    "over": "Over 2.5 50%",
    "btts": "BTTS OUI 53%",
-   "analyse": "2026-10-26 | Buts attendus Santa Clara 1.1 - Benfica 1.6 | 1/N/2 : 26/25/49% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-26 | Buts attendus Santa Clara 1.1 - Benfica 1.6 | 1/N/2 : 26/25/49% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "19'"
+  },
+  {
+   "league": "Super Lig",
+   "home": "Galatasaray",
+   "away": "Fenerbahce",
+   "status": "live",
+   "conf": 62,
+   "victoire": "Serré : Nul ou Fenerbahce",
+   "score_exact": "1-2 (8%)",
+   "double_chance": "X2 62%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "2026-10-26 | Buts attendus Galatasaray 1.7 - Fenerbahce 1.8 | 1/N/2 : 38/22/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "1-0",
+   "minute": "35'"
   },
   {
    "league": "La Liga 2",
