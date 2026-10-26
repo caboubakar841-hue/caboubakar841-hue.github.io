@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26 17:09 UTC",
+ "date": "2026-10-26 17:41 UTC",
  "version": "V17",
  "stats": {
   "n": 535,
@@ -28,8 +28,8 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 61%",
    "analyse": "2026-10-26 | Buts attendus Besiktas 2.1 - Istanbul Basaksehir 1.2 | 1/N/2 : 60/20/20% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "51'"
+   "live_score": "1-0",
+   "minute": "84'"
   },
   {
    "league": "Super Lig",
@@ -44,8 +44,8 @@
    "over": "Under 2.5 54%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-10-26 | Buts attendus Caykur Rizespor 0.8 - Trabzonspor 1.8 | 1/N/2 : 16/23/61% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-2",
-   "minute": "52'"
+   "live_score": "3-4",
+   "minute": "85'"
   },
   {
    "league": "Super Lig",
