@@ -1,36 +1,20 @@
 {
- "date": "2026-10-26 05:00 UTC",
+ "date": "2026-10-26 05:34 UTC",
  "version": "V17",
  "stats": {
-  "n": 534,
-  "n_avant": 30,
+  "n": 535,
+  "n_avant": 31,
   "dc": 73,
   "over": 52,
   "btts": 54,
   "score": 7,
   "1x2": 52,
-  "n_fav": 369,
+  "n_fav": 370,
   "serre": 65,
   "n_serre": 165,
-  "base_dom": 43
+  "base_dom": 44
  },
  "matches": [
-  {
-   "league": "Liga MX",
-   "home": "Tijuana",
-   "away": "Santos",
-   "status": "live",
-   "conf": 45,
-   "victoire": "Victoire Santos",
-   "score_exact": "1-2 (9%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "2026-10-26 | Buts attendus Tijuana 1.1 - Santos 1.4 | 1/N/2 : 29/27/45% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "4-1",
-   "minute": "81'"
-  },
   {
    "league": "Super Lig",
    "home": "Besiktas",
@@ -212,6 +196,22 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 58%",
    "analyse": "2026-10-26 | Buts attendus Flamengo 1.7 - Atlético-MG 0.7 | 1/N/2 : 61/24/16% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Liga MX",
+   "home": "Tijuana",
+   "away": "Santos",
+   "status": "finished",
+   "conf": 45,
+   "victoire": "Victoire Santos",
+   "score_exact": "1-2 (9%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 54%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "Resultat 4-1 | 1X2 RATE | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "4-1",
+   "minute": "FT"
   },
   {
    "league": "Liga MX",
@@ -835,22 +835,6 @@
    "btts": "BTTS OUI 54%",
    "analyse": "Resultat 2-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Premier League",
-   "home": "Manchester United",
-   "away": "AFC Bournemouth",
-   "status": "finished",
-   "conf": 53,
-   "victoire": "Victoire Manchester United",
-   "score_exact": "2-1 (10%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "Resultat 0-3 | 1X2 RATE | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "0-3",
    "minute": "FT"
   }
  ]
