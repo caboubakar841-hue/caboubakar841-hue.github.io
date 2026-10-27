@@ -1,36 +1,20 @@
 {
- "date": "2026-10-27 19:09 UTC",
+ "date": "2026-10-27 19:42 UTC",
  "version": "V17",
  "stats": {
-  "n": 544,
-  "n_avant": 45,
+  "n": 545,
+  "n_avant": 46,
   "dc": 73,
   "over": 52,
   "btts": 54,
   "score": 8,
   "1x2": 53,
-  "n_fav": 377,
+  "n_fav": 378,
   "serre": 63,
   "n_serre": 167,
   "base_dom": 44
  },
  "matches": [
-  {
-   "league": "Serie A",
-   "home": "Sassuolo",
-   "away": "Lazio",
-   "status": "live",
-   "conf": 57,
-   "victoire": "Victoire Lazio",
-   "score_exact": "1-2 (10%)",
-   "double_chance": "X2 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 58%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-10-27 | Buts attendus Sassuolo 1.1 - Lazio 1.9 | 1/N/2 : 21/22/57% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-6",
-   "minute": "75'"
-  },
   {
    "league": "Serie B",
    "home": "Benevento",
@@ -44,8 +28,8 @@
    "over": "Over 2.5 63%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-27 | Buts attendus Benevento 2.3 - Catanzaro 0.9 | 1/N/2 : 69/18/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-0",
+   "minute": "69'"
   },
   {
    "league": "Serie B",
@@ -61,7 +45,7 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-27 | Buts attendus Ascoli 2.2 - Sampdoria 0.8 | 1/N/2 : 68/19/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "41'"
   },
   {
    "league": "Serie B",
@@ -76,8 +60,8 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-27 | Buts attendus Cesena 1.3 - Empoli 1.1 | 1/N/2 : 40/27/33% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "1-0",
+   "minute": "41'"
   },
   {
    "league": "Serie B",
@@ -93,7 +77,7 @@
    "btts": "BTTS NON 56%",
    "analyse": "2026-10-27 | Buts attendus Mantova 1.6 - Cremonese 0.8 | 1/N/2 : 56/25/19% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-1",
-   "minute": "8'"
+   "minute": "41'"
   },
   {
    "league": "Serie B",
@@ -108,8 +92,8 @@
    "over": "Under 2.5 69%",
    "btts": "BTTS NON 62%",
    "analyse": "2026-10-27 | Buts attendus Padova 0.8 - Sudtirol 1.1 | 1/N/2 : 26/31/43% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "1-0",
+   "minute": "41'"
   },
   {
    "league": "Serie B",
@@ -124,8 +108,8 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 61%",
    "analyse": "2026-10-27 | Buts attendus Vicenza 1.2 - Modena 2.2 | 1/N/2 : 19/20/61% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "1-1",
+   "minute": "41'"
   },
   {
    "league": "Serie B",
@@ -140,8 +124,8 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-27 | Buts attendus Virtus Entella 1.1 - US Avellino 1.3 | 1/N/2 : 32/27/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "1-0",
+   "minute": "41'"
   },
   {
    "league": "League One",
@@ -268,6 +252,22 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-27 | Buts attendus Argentinos Juniors 1.8 - Independiente Rivadavia 0.9 | 1/N/2 : 58/23/19% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Serie A",
+   "home": "Sassuolo",
+   "away": "Lazio",
+   "status": "finished",
+   "conf": 57,
+   "victoire": "Victoire Lazio",
+   "score_exact": "1-2 (10%)",
+   "double_chance": "X2 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 2-6 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "2-6",
+   "minute": "FT"
   },
   {
    "league": "Liga Argentina",
@@ -891,22 +891,6 @@
    "btts": "BTTS OUI 74%",
    "analyse": "Resultat 1-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Angers",
-   "away": "Lorient",
-   "status": "finished",
-   "conf": 46,
-   "victoire": "Victoire Lorient",
-   "score_exact": "0-1 (12%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 51%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "live_score": "0-0",
    "minute": "FT"
   }
  ]
