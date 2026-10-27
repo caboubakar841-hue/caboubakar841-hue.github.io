@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27 18:21 UTC",
+ "date": "2026-10-27 19:09 UTC",
  "version": "V17",
  "stats": {
   "n": 544,
@@ -28,8 +28,8 @@
    "over": "Over 2.5 58%",
    "btts": "BTTS OUI 57%",
    "analyse": "2026-10-27 | Buts attendus Sassuolo 1.1 - Lazio 1.9 | 1/N/2 : 21/22/57% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-4",
-   "minute": "45'+5'"
+   "live_score": "2-6",
+   "minute": "75'"
   },
   {
    "league": "Serie B",
@@ -45,13 +45,13 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-27 | Buts attendus Benevento 2.3 - Catanzaro 0.9 | 1/N/2 : 69/18/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "HT"
   },
   {
    "league": "Serie B",
    "home": "Ascoli",
    "away": "Sampdoria",
-   "status": "today",
+   "status": "live",
    "conf": 68,
    "victoire": "Victoire Ascoli",
    "score_exact": "3-0 (9%)",
@@ -59,13 +59,15 @@
    "corner": "N/D",
    "over": "Over 2.5 57%",
    "btts": "BTTS NON 51%",
-   "analyse": "2026-10-27 | Buts attendus Ascoli 2.2 - Sampdoria 0.8 | 1/N/2 : 68/19/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-27 | Buts attendus Ascoli 2.2 - Sampdoria 0.8 | 1/N/2 : 68/19/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "7'"
   },
   {
    "league": "Serie B",
    "home": "Cesena",
    "away": "Empoli",
-   "status": "today",
+   "status": "live",
    "conf": 67,
    "victoire": "Serré : Nul ou Cesena",
    "score_exact": "1-0 (11%)",
@@ -73,13 +75,15 @@
    "corner": "N/D",
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 51%",
-   "analyse": "2026-10-27 | Buts attendus Cesena 1.3 - Empoli 1.1 | 1/N/2 : 40/27/33% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-27 | Buts attendus Cesena 1.3 - Empoli 1.1 | 1/N/2 : 40/27/33% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "Serie B",
    "home": "Mantova",
    "away": "Cremonese",
-   "status": "today",
+   "status": "live",
    "conf": 56,
    "victoire": "Victoire Mantova",
    "score_exact": "1-0 (15%)",
@@ -87,13 +91,15 @@
    "corner": "N/D",
    "over": "Under 2.5 58%",
    "btts": "BTTS NON 56%",
-   "analyse": "2026-10-27 | Buts attendus Mantova 1.6 - Cremonese 0.8 | 1/N/2 : 56/25/19% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-27 | Buts attendus Mantova 1.6 - Cremonese 0.8 | 1/N/2 : 56/25/19% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-1",
+   "minute": "8'"
   },
   {
    "league": "Serie B",
    "home": "Padova",
    "away": "Sudtirol",
-   "status": "today",
+   "status": "live",
    "conf": 43,
    "victoire": "Victoire Sudtirol",
    "score_exact": "0-1 (16%)",
@@ -101,13 +107,15 @@
    "corner": "N/D",
    "over": "Under 2.5 69%",
    "btts": "BTTS NON 62%",
-   "analyse": "2026-10-27 | Buts attendus Padova 0.8 - Sudtirol 1.1 | 1/N/2 : 26/31/43% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-27 | Buts attendus Padova 0.8 - Sudtirol 1.1 | 1/N/2 : 26/31/43% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "Serie B",
    "home": "Vicenza",
    "away": "Modena",
-   "status": "today",
+   "status": "live",
    "conf": 61,
    "victoire": "Victoire Modena",
    "score_exact": "1-2 (10%)",
@@ -115,13 +123,15 @@
    "corner": "N/D",
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 61%",
-   "analyse": "2026-10-27 | Buts attendus Vicenza 1.2 - Modena 2.2 | 1/N/2 : 19/20/61% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-27 | Buts attendus Vicenza 1.2 - Modena 2.2 | 1/N/2 : 19/20/61% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "Serie B",
    "home": "Virtus Entella",
    "away": "US Avellino",
-   "status": "today",
+   "status": "live",
    "conf": 68,
    "victoire": "Serré : Nul ou US Avellino",
    "score_exact": "0-1 (11%)",
@@ -129,7 +139,9 @@
    "corner": "N/D",
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 50%",
-   "analyse": "2026-10-27 | Buts attendus Virtus Entella 1.1 - US Avellino 1.3 | 1/N/2 : 32/27/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-27 | Buts attendus Virtus Entella 1.1 - US Avellino 1.3 | 1/N/2 : 32/27/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "League One",
