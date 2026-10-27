@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27 20:18 UTC",
+ "date": "2026-10-27 20:53 UTC",
  "version": "V17",
  "stats": {
   "n": 546,
@@ -29,7 +29,7 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-27 | Buts attendus Leicester City 1.6 - Wigan Athletic 1.0 | 1/N/2 : 51/25/23% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-0",
-   "minute": "32'"
+   "minute": "50'"
   },
   {
    "league": "League One",
@@ -44,8 +44,8 @@
    "over": "Over 2.5 59%",
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-27 | Buts attendus Luton Town 1.8 - Doncaster Rovers 1.3 | 1/N/2 : 49/23/28% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "34'"
+   "live_score": "1-0",
+   "minute": "49'"
   },
   {
    "league": "League One",
@@ -60,8 +60,8 @@
    "over": "Over 2.5 55%",
    "btts": "BTTS OUI 55%",
    "analyse": "2026-10-27 | Buts attendus Milton Keynes Dons 1.8 - Bromley 1.1 | 1/N/2 : 56/23/22% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "29'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -76,8 +76,8 @@
    "over": "Over 2.5 54%",
    "btts": "BTTS OUI 57%",
    "analyse": "2026-10-27 | Buts attendus Oxford United 1.5 - Stockport County 1.3 | 1/N/2 : 43/25/32% | base sur 10 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "34'"
+   "live_score": "1-0",
+   "minute": "51'"
   },
   {
    "league": "League One",
@@ -93,7 +93,7 @@
    "btts": "BTTS OUI 63%",
    "analyse": "2026-10-27 | Buts attendus Sheffield Wednesday 2.0 - Cambridge United 1.3 | 1/N/2 : 52/22/26% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "33'"
+   "minute": "49'"
   },
   {
    "league": "League Two",
@@ -108,8 +108,8 @@
    "over": "Over 2.5 70%",
    "btts": "BTTS OUI 68%",
    "analyse": "2026-10-27 | Buts attendus Barnet 2.1 - York City 1.5 | 1/N/2 : 51/21/28% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "33'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "Serie A",
@@ -125,7 +125,7 @@
    "btts": "BTTS NON 63%",
    "analyse": "2026-10-27 | Buts attendus AS Roma 1.8 - Cagliari 0.6 | 1/N/2 : 67/22/12% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "2-1",
-   "minute": "33'"
+   "minute": "50'"
   },
   {
    "league": "Serie A",
@@ -141,7 +141,7 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-27 | Buts attendus Torino 1.2 - Como 1.4 | 1/N/2 : 31/26/43% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-0",
-   "minute": "31'"
+   "minute": "HT"
   },
   {
    "league": "Serie B",
@@ -156,8 +156,8 @@
    "over": "Over 2.5 57%",
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-27 | Buts attendus Ascoli 2.2 - Sampdoria 0.8 | 1/N/2 : 68/19/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "60'"
+   "live_score": "2-0",
+   "minute": "90'+4'"
   },
   {
    "league": "Serie B",
@@ -172,8 +172,8 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-27 | Buts attendus Cesena 1.3 - Empoli 1.1 | 1/N/2 : 40/27/33% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "57'"
+   "live_score": "2-1",
+   "minute": "90'+1'"
   },
   {
    "league": "Serie B",
@@ -188,8 +188,8 @@
    "over": "Under 2.5 58%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-10-27 | Buts attendus Mantova 1.6 - Cremonese 0.8 | 1/N/2 : 56/25/19% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-1",
-   "minute": "60'"
+   "live_score": "0-2",
+   "minute": "90'+4'"
   },
   {
    "league": "Serie B",
@@ -204,8 +204,8 @@
    "over": "Under 2.5 69%",
    "btts": "BTTS NON 62%",
    "analyse": "2026-10-27 | Buts attendus Padova 0.8 - Sudtirol 1.1 | 1/N/2 : 26/31/43% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "61'"
+   "live_score": "2-0",
+   "minute": "90'+5'"
   },
   {
    "league": "Serie B",
@@ -220,8 +220,8 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 61%",
    "analyse": "2026-10-27 | Buts attendus Vicenza 1.2 - Modena 2.2 | 1/N/2 : 19/20/61% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-1",
-   "minute": "60'"
+   "live_score": "1-2",
+   "minute": "90'+3'"
   },
   {
    "league": "Serie B",
@@ -236,8 +236,8 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-27 | Buts attendus Virtus Entella 1.1 - US Avellino 1.3 | 1/N/2 : 32/27/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "61'"
+   "live_score": "1-1",
+   "minute": "90'+5'"
   },
   {
    "league": "Liga Argentina",
