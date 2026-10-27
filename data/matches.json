@@ -1,36 +1,20 @@
 {
- "date": "2026-10-27 00:46 UTC",
+ "date": "2026-10-27 01:25 UTC",
  "version": "V17",
  "stats": {
-  "n": 542,
-  "n_avant": 43,
+  "n": 543,
+  "n_avant": 44,
   "dc": 73,
   "over": 52,
   "btts": 54,
   "score": 7,
   "1x2": 53,
-  "n_fav": 375,
+  "n_fav": 376,
   "serre": 63,
   "n_serre": 167,
   "base_dom": 44
  },
  "matches": [
-  {
-   "league": "Brasileirao",
-   "home": "Flamengo",
-   "away": "Atlético-MG",
-   "status": "live",
-   "conf": 61,
-   "victoire": "Victoire Flamengo",
-   "score_exact": "1-0 (15%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-10-26 | Buts attendus Flamengo 1.7 - Atlético-MG 0.7 | 1/N/2 : 61/24/16% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-2",
-   "minute": "87'"
-  },
   {
    "league": "Liga Argentina",
    "home": "Instituto (Córdoba)",
@@ -45,7 +29,7 @@
    "btts": "BTTS NON 67%",
    "analyse": "2026-10-27 | Buts attendus Instituto (Córdoba) 1.6 - Deportivo Riestra 0.5 | 1/N/2 : 64/24/12% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "52'"
   },
   {
    "league": "Serie A",
@@ -284,6 +268,22 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-27 | Buts attendus Argentinos Juniors 1.8 - Independiente Rivadavia 0.9 | 1/N/2 : 58/23/19% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Flamengo",
+   "away": "Atlético-MG",
+   "status": "finished",
+   "conf": 61,
+   "victoire": "Victoire Flamengo",
+   "score_exact": "1-0 (15%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 58%",
+   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "live_score": "3-2",
+   "minute": "FT"
   },
   {
    "league": "Brasileirao",
@@ -907,22 +907,6 @@
    "btts": "BTTS OUI 50%",
    "analyse": "Resultat 4-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
    "live_score": "4-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Stade Rennais",
-   "away": "Strasbourg",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Stade Rennais",
-   "score_exact": "2-1 (7%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 81%",
-   "btts": "BTTS OUI 78%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "live_score": "3-0",
    "minute": "FT"
   }
  ]
