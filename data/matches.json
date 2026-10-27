@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27 17:45 UTC",
+ "date": "2026-10-27 18:21 UTC",
  "version": "V17",
  "stats": {
   "n": 544,
@@ -28,14 +28,14 @@
    "over": "Over 2.5 58%",
    "btts": "BTTS OUI 57%",
    "analyse": "2026-10-27 | Buts attendus Sassuolo 1.1 - Lazio 1.9 | 1/N/2 : 21/22/57% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-2",
-   "minute": "14'"
+   "live_score": "2-4",
+   "minute": "45'+5'"
   },
   {
    "league": "Serie B",
    "home": "Benevento",
    "away": "Catanzaro",
-   "status": "today",
+   "status": "live",
    "conf": 69,
    "victoire": "Victoire Benevento",
    "score_exact": "2-1 (10%)",
@@ -43,7 +43,9 @@
    "corner": "N/D",
    "over": "Over 2.5 63%",
    "btts": "BTTS OUI 54%",
-   "analyse": "2026-10-27 | Buts attendus Benevento 2.3 - Catanzaro 0.9 | 1/N/2 : 69/18/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-27 | Buts attendus Benevento 2.3 - Catanzaro 0.9 | 1/N/2 : 69/18/13% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "7'"
   },
   {
    "league": "Serie B",
