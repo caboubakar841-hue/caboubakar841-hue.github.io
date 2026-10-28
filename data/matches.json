@@ -1,17 +1,17 @@
 {
- "date": "2026-10-28 20:53 UTC",
+ "date": "2026-10-28 21:24 UTC",
  "version": "V17",
  "stats": {
-  "n": 540,
-  "n_avant": 66,
-  "dc": 72,
+  "n": 542,
+  "n_avant": 68,
+  "dc": 73,
   "over": 51,
   "btts": 54,
   "score": 7,
   "1x2": 53,
-  "n_fav": 378,
+  "n_fav": 379,
   "serre": 64,
-  "n_serre": 162,
+  "n_serre": 163,
   "base_dom": 44
  },
  "tickets": [
@@ -187,7 +187,7 @@
    "btts": "BTTS NON 57%",
    "analyse": "2026-10-28 | Buts attendus Genoa 0.8 - Juventus 1.4 | 1/N/2 : 22/27/51% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "2-0",
-   "minute": "48'"
+   "minute": "80'"
   },
   {
    "league": "Serie A",
@@ -202,40 +202,8 @@
    "over": "Over 2.5 71%",
    "btts": "BTTS OUI 70%",
    "analyse": "2026-10-28 | Buts attendus Monza 1.6 - Napoli 2.1 | 1/N/2 : 30/21/48% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-1",
-   "minute": "48'"
-  },
-  {
-   "league": "Serie B",
-   "home": "Carrarese",
-   "away": "Arezzo",
-   "status": "live",
-   "conf": 49,
-   "victoire": "Victoire Carrarese",
-   "score_exact": "1-0 (13%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-10-28 | Buts attendus Carrarese 1.5 - Arezzo 0.9 | 1/N/2 : 49/26/24% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-0",
-   "minute": "90'+3'"
-  },
-  {
-   "league": "Serie B",
-   "home": "Juve Stabia",
-   "away": "Hellas Verona",
-   "status": "live",
-   "conf": 65,
-   "victoire": "Serré : Nul ou Hellas Verona",
-   "score_exact": "1-1 (12%)",
-   "double_chance": "X2 65%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-10-28 | Buts attendus Juve Stabia 1.3 - Hellas Verona 1.4 | 1/N/2 : 35/26/39% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-1",
-   "minute": "90'+4'"
+   "live_score": "1-4",
+   "minute": "80'"
   },
   {
    "league": "Scottish Premiership",
@@ -250,8 +218,8 @@
    "over": "Under 2.5 61%",
    "btts": "BTTS NON 55%",
    "analyse": "2026-10-28 | Buts attendus Aberdeen 1.2 - Falkirk 1.1 | 1/N/2 : 38/29/34% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "50'"
+   "live_score": "0-1",
+   "minute": "81'"
   },
   {
    "league": "Scottish Premiership",
@@ -266,8 +234,8 @@
    "over": "Over 2.5 61%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-28 | Buts attendus Celtic 2.4 - Dundee United 0.8 | 1/N/2 : 72/17/11% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-2",
-   "minute": "49'"
+   "live_score": "2-2",
+   "minute": "81'"
   },
   {
    "league": "Scottish Premiership",
@@ -282,8 +250,8 @@
    "over": "Over 2.5 61%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-28 | Buts attendus Dundee 2.2 - Kilmarnock 0.9 | 1/N/2 : 66/19/15% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "52'"
+   "live_score": "1-1",
+   "minute": "83'"
   },
   {
    "league": "Scottish Premiership",
@@ -298,8 +266,8 @@
    "over": "Over 2.5 50%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-28 | Buts attendus St Johnstone 1.5 - Motherwell 1.2 | 1/N/2 : 45/25/29% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-1",
-   "minute": "52'"
+   "live_score": "1-2",
+   "minute": "83'"
   },
   {
    "league": "Scottish Premiership",
@@ -314,8 +282,8 @@
    "over": "Under 2.5 51%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-28 | Buts attendus St Mirren 1.4 - Hibernian 1.2 | 1/N/2 : 41/26/33% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "53'"
+   "live_score": "1-1",
+   "minute": "84'"
   },
   {
    "league": "Scottish Premiership",
@@ -330,8 +298,8 @@
    "over": "Over 2.5 57%",
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-28 | Buts attendus Heart of Midlothian 1.4 - Rangers 1.6 | 1/N/2 : 33/24/42% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-1",
-   "minute": "HT"
+   "live_score": "2-1",
+   "minute": "64'"
   },
   {
    "league": "Brasileirao",
@@ -444,6 +412,38 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS OUI 62%",
    "analyse": "2026-10-28 | Buts attendus Toronto FC 2.3 - D.C. United 1.2 | 1/N/2 : 63/19/18% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Serie B",
+   "home": "Carrarese",
+   "away": "Arezzo",
+   "status": "finished",
+   "conf": 49,
+   "victoire": "Victoire Carrarese",
+   "score_exact": "1-0 (13%)",
+   "double_chance": "1X 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "live_score": "2-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Serie B",
+   "home": "Juve Stabia",
+   "away": "Hellas Verona",
+   "status": "finished",
+   "conf": 65,
+   "victoire": "Serré : Nul ou Hellas Verona",
+   "score_exact": "1-1 (12%)",
+   "double_chance": "X2 65%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "live_score": "0-1",
+   "minute": "FT"
   },
   {
    "league": "Serie B",
@@ -1051,38 +1051,6 @@
    "btts": "BTTS OUI 51%",
    "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga MX",
-   "home": "Querétaro",
-   "away": "Cruz Azul",
-   "status": "finished",
-   "conf": 64,
-   "victoire": "Serré : Nul ou Querétaro",
-   "score_exact": "2-1 (9%)",
-   "double_chance": "1X 64%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "Resultat 1-3 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "live_score": "1-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Barracas Central",
-   "away": "Estudiantes de Río Cuarto",
-   "status": "finished",
-   "conf": 50,
-   "victoire": "Victoire Barracas Central",
-   "score_exact": "1-0 (22%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Under 2.5 78%",
-   "btts": "BTTS NON 73%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
