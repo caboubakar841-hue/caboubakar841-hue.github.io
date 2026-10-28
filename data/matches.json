@@ -1,5 +1,5 @@
 {
- "date": "2026-10-28 16:35 UTC",
+ "date": "2026-10-28 17:23 UTC",
  "version": "V17",
  "stats": {
   "n": 536,
@@ -14,6 +14,164 @@
   "n_serre": 161,
   "base_dom": 44
  },
+ "tickets": [
+  {
+   "day": "2026-10-28",
+   "eligible": 12,
+   "tickets": [
+    {
+     "name": "Ticket 10 matchs",
+     "target": 10,
+     "n": 7,
+     "legs": [
+      {
+       "id": "401899571",
+       "match": "Pisa vs Palermo",
+       "league": "Serie B",
+       "time": "18:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 85,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401878354",
+       "match": "Dundee vs Kilmarnock",
+       "league": "Scottish Premiership",
+       "time": "19:45",
+       "pick": "Double chance 1X (Dundee ou nul)",
+       "code": "1X",
+       "p": 85,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "761907",
+       "match": "Charlotte FC vs CF Montréal",
+       "league": "MLS",
+       "time": "23:30",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 85,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401874988",
+       "match": "Genoa vs Juventus",
+       "league": "Serie A",
+       "time": "19:45",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 81,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401878356",
+       "match": "Aberdeen vs Falkirk",
+       "league": "Scottish Premiership",
+       "time": "19:45",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 81,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401841291",
+       "match": "Red Bull Bragantino vs Chapecoense",
+       "league": "Brasileirao",
+       "time": "22:30",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 81,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401874993",
+       "match": "AC Milan vs Bologna",
+       "league": "Serie A",
+       "time": "17:30",
+       "pick": "Double chance 1X (AC Milan ou nul)",
+       "code": "1X",
+       "p": 80,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 26,
+     "status": "en cours"
+    },
+    {
+     "name": "Ticket 5 matchs",
+     "target": 5,
+     "n": 5,
+     "legs": [
+      {
+       "id": "761908",
+       "match": "Inter Miami CF vs FC Cincinnati",
+       "league": "MLS",
+       "time": "23:30",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 93,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401874773",
+       "match": "Venezia vs Internazionale",
+       "league": "Serie A",
+       "time": "17:30",
+       "pick": "Double chance X2 (nul ou Internazionale)",
+       "code": "X2",
+       "p": 89,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401878355",
+       "match": "Celtic vs Dundee United",
+       "league": "Scottish Premiership",
+       "time": "19:45",
+       "pick": "Double chance 1X (Celtic ou nul)",
+       "code": "1X",
+       "p": 89,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401874799",
+       "match": "Monza vs Napoli",
+       "league": "Serie A",
+       "time": "19:45",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 88,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "761906",
+       "match": "Toronto FC vs D.C. United",
+       "league": "MLS",
+       "time": "23:30",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 86,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 56,
+     "status": "en cours"
+    }
+   ]
+  }
+ ],
  "matches": [
   {
    "league": "Serie A",
