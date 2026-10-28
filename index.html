@@ -57,10 +57,12 @@ function card(m){
   return '<div class="card '+m.status+(m.status==='finished'?' fin':'')+'"><div class="top"><span>'+m.league+'</span><span class="conf">'+m.conf+'%</span></div>'+big+(sc?'':'<h3>'+m.home+' vs '+m.away+'</h3>')+
   '<div class="grid"><div class="box">Victoire<b>'+m.victoire+'</b></div><div class="box">Score probable<b style="color:#fc0">'+m.score_exact+'</b></div><div class="box">Double chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div><div class="analyse">'+m.analyse+'</div></div>';
 }
-function tk(d){return d.tickets.map(t=>'<div class="card"><div class="top"><span>'+d.day+' • '+t.name+'</span><span class="conf">'+t.status+'</span></div>'+
- (t.n<t.target?'<div class="analyse">Seulement '+t.n+' sélection(s) à 80 % ou plus aujourd\'hui (cible '+t.target+'). Rien n\'a été ajouté sous 80 %.</div>':'')+
- t.legs.map(l=>'<div class="box" style="text-align:left;margin-top:6px">'+l.time+' UTC • '+l.match+'<b>'+(l.ok===true?'✅ ':l.ok===false?'❌ ':'')+l.pick+' — '+l.p+'%'+(l.score?' (score '+l.score+')':'')+'</b></div>').join('')+
- '<div class="analyse">Chance que TOUTES les sélections passent : environ '+(t.combined==null?'-':t.combined+' %')+'. Chaque sélection est à 80 % ou plus, mais le cumul est beaucoup plus bas.</div></div>').join('')}
+function tk(d){return d.tickets.map(t=>{
+ const odds=t.legs.reduce((a,l)=>a*100/l.p,1);
+ return '<div class="card"><div class="top"><span>'+d.day+' • '+t.name+'</span><span class="conf">'+t.status+'</span></div>'+
+ (t.n<t.target?'<div class="analyse">Seulement '+t.n+' sélection(s) ('+t.rule+') disponibles aujourd\'hui (cible '+t.target+'). Rien n\'a été ajouté hors de cette zone.</div>':'')+
+ t.legs.map(l=>'<div class="box" style="text-align:left;margin-top:6px">'+l.time+' UTC • '+l.match+'<b>'+(l.ok===true?'✅ ':l.ok===false?'❌ ':'')+l.pick+' — '+l.p+'% • cote est. '+(100/l.p).toFixed(2)+(l.score?' (score '+l.score+')':'')+'</b></div>').join('')+
+ '<div class="analyse">Cote totale estimée : <b>'+(t.n?odds.toFixed(1):'-')+'</b> • chance que TOUT passe : environ '+(t.combined==null?'-':t.combined+' %')+'. Ces cotes sont estimées par le modèle (1 / probabilité). Les vraies cotes du bookmaker sont plus basses : compare toujours avant de jouer.</div></div>'}).join('')}
 function render(){
   const el=document.getElementById('list');
   if(cur==='tickets'){const T=D.tickets||[];el.innerHTML=T.length?T.map(tk).join(''):'<p style="text-align:center">Pas encore de tickets.</p>';return}
