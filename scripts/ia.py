@@ -16,6 +16,8 @@ MIN_GAMES = 3         # en dessous, l'equipe n'est pas pronostiquee (pas assez d
 PRIOR_GAMES = 4       # lissage : peu de matchs => on reste proche de la moyenne de la ligue
 MAX_GOALS = 8         # taille de la grille de scores (0..8)
 MAX_MATCHES = 40
+MIN_TICKET_PROB = 0.80  # seuil par selection pour entrer dans un ticket
+TICKETS = "data/tickets.json"
 BACKTEST_DAYS = 14    # jours passes pronostiques apres coup (sans tricher : modele entraine AVANT chaque jour)
 HIST = "data/history.json"
 
@@ -203,6 +205,49 @@ def card_from(rec, status):
     return c
 
 
+def best_pick(rec):
+    """Selection la plus sure du match parmi double chance, over 1.5 et under 3.5."""
+    pr, home, away = rec["pr"], rec["home"], rec["away"]
+    lam = pr["lam_h"] + pr["lam_a"]
+    opts = [
+        (pr["p_h"] + pr["p_d"], "1X", f"Double chance 1X ({home} ou nul)"),
+        (pr["p_d"] + pr["p_a"], "X2", f"Double chance X2 (nul ou {away})"),
+        (pr["p_h"] + pr["p_a"], "12", "Double chance 12 (pas de nul)"),
+        (1 - math.exp(-lam) * (1 + lam), "O15", "Over 1.5 buts"),
+        (sum(pmf(k, lam) for k in range(4)), "U35", "Under 3.5 buts"),
+    ]
+    return max(opts)
+
+
+def leg_ok(code, gh, ga):
+    r = result_of(gh, ga)
+    return {"1X": r in "HD", "X2": r in "DA", "12": r in "HA", "O15": gh + ga >= 2, "U35": gh + ga <= 3}[code]
+
+
+def build_tickets(recs, day):
+    legs = []
+    for r in recs:
+        prob, code, label = best_pick(r)
+        if prob >= MIN_TICKET_PROB:          # jamais de selection sous le seuil, meme pour remplir
+            legs.append({"id": r["id"], "match": f"{r['home']} vs {r['away']}", "league": r["league"], "time": r["iso"][11:16],
+                         "pick": label, "code": code, "p": round(prob * 100)})
+    legs.sort(key=lambda l: -l["p"])
+    top5, next10 = legs[:5], legs[5:15]      # les 5 plus sures vont au ticket de 5, les 10 suivantes au ticket de 10
+    mk = lambda name, ls, n: {"name": name, "target": n, "n": len(ls), "legs": ls,
+                              "combined": round(100 * math.prod(l["p"] / 100 for l in ls)) if ls else None}
+    return {"day": day, "eligible": len(legs), "tickets": [mk("Ticket 10 matchs", next10, 10), mk("Ticket 5 matchs", top5, 5)]}
+
+
+def settle(entry, results):
+    for t in entry["tickets"]:
+        for l in t["legs"]:
+            r = results.get(l["id"])
+            l["ok"] = leg_ok(l["code"], r["gh"], r["ga"]) if r else None
+            l["score"] = f"{r['gh']}-{r['ga']}" if r else None
+        oks = [l["ok"] for l in t["legs"]]
+        t["status"] = "perdu" if False in oks else "gagné" if oks and all(x is True for x in oks) else "en cours"
+
+
 def main():
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
@@ -266,6 +311,8 @@ def main():
         hist = h["records"] if h.get("v") == 18 else {}   # logique changee : on repart a zero
     except Exception:
         hist = {}
+    for k, r in hist.items():
+        r.setdefault("id", k)                # anciens enregistrements sans id
     mcache = {}
 
     def model_before(slug, day):
@@ -288,7 +335,7 @@ def main():
             if not m or m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES:
                 continue
             pr = predict(m, p["home"], p["away"])
-            rec = hist[p["id"]] = {"slug": slug, "league": LEAGUES[slug], "home": p["home"], "away": p["away"],
+            rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": LEAGUES[slug], "home": p["home"], "away": p["away"],
                                    "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
                                    "kind": "avant" if p["state"] == "pre" else "retro", "res": None}
         if p["state"] == "post" and "gh" in p and not rec.get("res"):
@@ -301,10 +348,10 @@ def main():
         elif p["state"] == "pre" and day >= today:
             upcoming[day].append(rec)
 
-    today_cards = []
+    today_cards, day_recs = [], []
     if upcoming:
-        for rec in sorted(upcoming[sorted(upcoming)[0]], key=lambda r: r["iso"]):
-            today_cards.append(card_from(rec, "today"))
+        day_recs = sorted(upcoming[sorted(upcoming)[0]], key=lambda r: r["iso"])
+        today_cards = [card_from(rec, "today") for rec in day_recs]
     done = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
     stats = {"n": len(done), "n_avant": sum(1 for r in done if r["kind"] == "avant")}
     if done:
@@ -327,9 +374,23 @@ def main():
     os.makedirs("data", exist_ok=True)
     with open(HIST, "w", encoding="utf-8") as f:
         json.dump({"v": 18, "records": dict(keep)}, f, ensure_ascii=False)
+    try:
+        tk = json.load(open(TICKETS, encoding="utf-8"))
+    except Exception:
+        tk = {}
+    tk.setdefault("days", {})
+    if day_recs:
+        dkey = sorted(upcoming)[0]
+        if dkey not in tk["days"]:           # fige : les tickets d'un jour ne changent plus ensuite
+            tk["days"][dkey] = build_tickets(day_recs[:MAX_MATCHES], dkey)
+    for entry in tk["days"].values():
+        settle(entry, cache["results"])
+    tk["days"] = dict(sorted(tk["days"].items(), reverse=True)[:14])
+    with open(TICKETS, "w", encoding="utf-8") as f:
+        json.dump(tk, f, ensure_ascii=False)
     with open(CACHE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False)
-    out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "matches": cards}
+    out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "tickets": [tk["days"][d] for d in sorted(tk["days"], reverse=True)], "matches": cards}
     with open("data/matches.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"FINAL: {len(live)} live, {len(today_cards)} a venir, {len(fin_cards)} termines | stats {stats}")
