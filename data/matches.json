@@ -1,15 +1,15 @@
 {
- "date": "2026-10-28 19:29 UTC",
+ "date": "2026-10-28 20:10 UTC",
  "version": "V17",
  "stats": {
-  "n": 539,
-  "n_avant": 65,
-  "dc": 73,
+  "n": 540,
+  "n_avant": 66,
+  "dc": 72,
   "over": 51,
   "btts": 54,
   "score": 7,
   "1x2": 53,
-  "n_fav": 377,
+  "n_fav": 378,
   "serre": 64,
   "n_serre": 162,
   "base_dom": 44
@@ -32,8 +32,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 85,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-3"
       },
       {
        "id": "401878354",
@@ -174,20 +174,36 @@
  ],
  "matches": [
   {
-   "league": "Serie B",
-   "home": "Pisa",
-   "away": "Palermo",
+   "league": "Serie A",
+   "home": "Genoa",
+   "away": "Juventus",
+   "status": "live",
+   "conf": 51,
+   "victoire": "Victoire Juventus",
+   "score_exact": "0-1 (15%)",
+   "double_chance": "X2 78%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-10-28 | Buts attendus Genoa 0.8 - Juventus 1.4 | 1/N/2 : 22/27/51% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "1-0",
+   "minute": "24'"
+  },
+  {
+   "league": "Serie A",
+   "home": "Monza",
+   "away": "Napoli",
    "status": "live",
    "conf": 48,
-   "victoire": "Victoire Palermo",
+   "victoire": "Victoire Napoli",
    "score_exact": "1-2 (9%)",
-   "double_chance": "12 78%",
+   "double_chance": "12 79%",
    "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "2026-10-28 | Buts attendus Pisa 1.5 - Palermo 1.9 | 1/N/2 : 30/22/48% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-2",
-   "minute": "69'"
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 70%",
+   "analyse": "2026-10-28 | Buts attendus Monza 1.6 - Napoli 2.1 | 1/N/2 : 30/21/48% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-1",
+   "minute": "25'"
   },
   {
    "league": "Serie B",
@@ -203,7 +219,7 @@
    "btts": "BTTS NON 53%",
    "analyse": "2026-10-28 | Buts attendus Carrarese 1.5 - Arezzo 0.9 | 1/N/2 : 49/26/24% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "28'"
+   "minute": "51'"
   },
   {
    "league": "Serie B",
@@ -219,41 +235,13 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-28 | Buts attendus Juve Stabia 1.3 - Hellas Verona 1.4 | 1/N/2 : 35/26/39% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "27'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Genoa",
-   "away": "Juventus",
-   "status": "today",
-   "conf": 51,
-   "victoire": "Victoire Juventus",
-   "score_exact": "0-1 (15%)",
-   "double_chance": "X2 78%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-10-28 | Buts attendus Genoa 0.8 - Juventus 1.4 | 1/N/2 : 22/27/51% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
-  },
-  {
-   "league": "Serie A",
-   "home": "Monza",
-   "away": "Napoli",
-   "status": "today",
-   "conf": 48,
-   "victoire": "Victoire Napoli",
-   "score_exact": "1-2 (9%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 71%",
-   "btts": "BTTS OUI 70%",
-   "analyse": "2026-10-28 | Buts attendus Monza 1.6 - Napoli 2.1 | 1/N/2 : 30/21/48% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "minute": "51'"
   },
   {
    "league": "Scottish Premiership",
    "home": "Aberdeen",
    "away": "Falkirk",
-   "status": "today",
+   "status": "live",
    "conf": 66,
    "victoire": "Serré : Nul ou Aberdeen",
    "score_exact": "1-0 (12%)",
@@ -261,13 +249,15 @@
    "corner": "N/D",
    "over": "Under 2.5 61%",
    "btts": "BTTS NON 55%",
-   "analyse": "2026-10-28 | Buts attendus Aberdeen 1.2 - Falkirk 1.1 | 1/N/2 : 38/29/34% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-28 | Buts attendus Aberdeen 1.2 - Falkirk 1.1 | 1/N/2 : 38/29/34% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "25'"
   },
   {
    "league": "Scottish Premiership",
    "home": "Celtic",
    "away": "Dundee United",
-   "status": "today",
+   "status": "live",
    "conf": 72,
    "victoire": "Victoire Celtic",
    "score_exact": "3-0 (9%)",
@@ -275,13 +265,15 @@
    "corner": "N/D",
    "over": "Over 2.5 61%",
    "btts": "BTTS NON 50%",
-   "analyse": "2026-10-28 | Buts attendus Celtic 2.4 - Dundee United 0.8 | 1/N/2 : 72/17/11% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-28 | Buts attendus Celtic 2.4 - Dundee United 0.8 | 1/N/2 : 72/17/11% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "1-0",
+   "minute": "25'"
   },
   {
    "league": "Scottish Premiership",
    "home": "Dundee",
    "away": "Kilmarnock",
-   "status": "today",
+   "status": "live",
    "conf": 66,
    "victoire": "Victoire Dundee",
    "score_exact": "2-1 (10%)",
@@ -289,13 +281,15 @@
    "corner": "N/D",
    "over": "Over 2.5 61%",
    "btts": "BTTS OUI 54%",
-   "analyse": "2026-10-28 | Buts attendus Dundee 2.2 - Kilmarnock 0.9 | 1/N/2 : 66/19/15% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-28 | Buts attendus Dundee 2.2 - Kilmarnock 0.9 | 1/N/2 : 66/19/15% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "24'"
   },
   {
    "league": "Scottish Premiership",
    "home": "St Johnstone",
    "away": "Motherwell",
-   "status": "today",
+   "status": "live",
    "conf": 45,
    "victoire": "Victoire St Johnstone",
    "score_exact": "2-1 (9%)",
@@ -303,13 +297,15 @@
    "corner": "N/D",
    "over": "Over 2.5 50%",
    "btts": "BTTS OUI 54%",
-   "analyse": "2026-10-28 | Buts attendus St Johnstone 1.5 - Motherwell 1.2 | 1/N/2 : 45/25/29% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-28 | Buts attendus St Johnstone 1.5 - Motherwell 1.2 | 1/N/2 : 45/25/29% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "1-0",
+   "minute": "26'"
   },
   {
    "league": "Scottish Premiership",
    "home": "St Mirren",
    "away": "Hibernian",
-   "status": "today",
+   "status": "live",
    "conf": 67,
    "victoire": "Serré : Nul ou St Mirren",
    "score_exact": "1-1 (12%)",
@@ -317,13 +313,15 @@
    "corner": "N/D",
    "over": "Under 2.5 51%",
    "btts": "BTTS OUI 53%",
-   "analyse": "2026-10-28 | Buts attendus St Mirren 1.4 - Hibernian 1.2 | 1/N/2 : 41/26/33% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-28 | Buts attendus St Mirren 1.4 - Hibernian 1.2 | 1/N/2 : 41/26/33% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "25'"
   },
   {
    "league": "Scottish Premiership",
    "home": "Heart of Midlothian",
    "away": "Rangers",
-   "status": "today",
+   "status": "live",
    "conf": 67,
    "victoire": "Serré : Nul ou Rangers",
    "score_exact": "1-2 (9%)",
@@ -331,7 +329,9 @@
    "corner": "N/D",
    "over": "Over 2.5 57%",
    "btts": "BTTS OUI 60%",
-   "analyse": "2026-10-28 | Buts attendus Heart of Midlothian 1.4 - Rangers 1.6 | 1/N/2 : 33/24/42% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-28 | Buts attendus Heart of Midlothian 1.4 - Rangers 1.6 | 1/N/2 : 33/24/42% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "9'"
   },
   {
    "league": "Brasileirao",
@@ -444,6 +444,22 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS OUI 62%",
    "analyse": "2026-10-28 | Buts attendus Toronto FC 2.3 - D.C. United 1.2 | 1/N/2 : 63/19/18% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Serie B",
+   "home": "Pisa",
+   "away": "Palermo",
+   "status": "finished",
+   "conf": 48,
+   "victoire": "Victoire Palermo",
+   "score_exact": "1-2 (9%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 66%",
+   "analyse": "Resultat 3-3 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "3-3",
+   "minute": "FT"
   },
   {
    "league": "Serie A",
@@ -1067,22 +1083,6 @@
    "btts": "BTTS NON 73%",
    "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Central Córdoba (Santiago del Estero)",
-   "away": "Vélez Sarsfield",
-   "status": "finished",
-   "conf": 49,
-   "victoire": "Victoire Vélez Sarsfield",
-   "score_exact": "1-2 (9%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 0-5 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "live_score": "0-5",
    "minute": "FT"
   }
  ]
