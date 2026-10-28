@@ -1,18 +1,18 @@
 {
- "date": "2026-10-28 00:13 UTC",
+ "date": "2026-10-28 01:09 UTC",
  "version": "V17",
  "stats": {
-  "n": 561,
+  "n": 536,
   "n_avant": 62,
   "dc": 73,
-  "over": 52,
+  "over": 51,
   "btts": 54,
   "score": 7,
-  "1x2": 54,
-  "n_fav": 391,
+  "1x2": 53,
+  "n_fav": 375,
   "serre": 64,
-  "n_serre": 170,
-  "base_dom": 45
+  "n_serre": 161,
+  "base_dom": 44
  },
  "matches": [
   {
