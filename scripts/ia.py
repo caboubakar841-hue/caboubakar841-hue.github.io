@@ -13,10 +13,11 @@ LOOKBACK_DAYS = 90    # historique utilise pour mesurer la force des equipes
 MAX_BACKFILL_DAYS = 40  # jours d'historique recuperes par run (ESPN refuse les plages : 1 jour = 1 requete)
 CACHE = "data/results.json"
 MIN_GAMES = 3         # en dessous, l'equipe n'est pas pronostiquee (pas assez de donnees)
-PRIOR_GAMES = 4       # lissage : peu de matchs => on reste proche de la moyenne de la ligue
+PRIOR_GAMES = 5       # lissage : peu de matchs => on reste proche de la moyenne de la ligue
 MAX_GOALS = 8         # taille de la grille de scores (0..8)
 MAX_MATCHES = 40
-MIN_TICKET_PROB = 0.80  # seuil par selection pour entrer dans un ticket
+MIN_TICKET_PROB = 0.80  # ticket SUR : seuil par selection
+RISKY_MIN, RISKY_MAX, RISKY_TARGET = 0.60, 0.79, 0.70  # ticket RISQUE : zone de proba visee par selection
 TICKETS = "data/tickets.json"
 BACKTEST_DAYS = 14    # jours passes pronostiques apres coup (sans tricher : modele entraine AVANT chaque jour)
 HIST = "data/history.json"
@@ -124,11 +125,10 @@ def predict(model, home, away):
     p_btts = sum(p for i, j, p in cells if i >= 1 and j >= 1)
 
     pick = max((p_h, "H"), (p_d, "D"), (p_a, "A"))[1]
-    # match serre : pas de favori net -> on recommande Nul ou l'un des deux (double chance)
-    tight = abs(p_h - p_a) < 0.12 and max(p_h, p_a) < 0.45
-    dc = max((p_h + p_d, "1X"), (p_d + p_a, "X2")) if tight else \
-        max((p_h + p_d, "1X"), (p_d + p_a, "X2"), (p_h + p_a, "12"))
-    allowed = {"1X": {"H", "D"}, "X2": {"D", "A"}}[dc[1]] if tight else {pick}
+    # aucun camp n'atteint 50 % : on ne designe pas de vainqueur, on couvre (1X, X2 ou 12 selon le plus probable)
+    tight = max(p_h, p_a) < 0.50
+    dc = max((p_h + p_d, "1X"), (p_d + p_a, "X2"), (p_h + p_a, "12"))
+    allowed = {"1X": {"H", "D"}, "X2": {"D", "A"}, "12": {"H", "A"}}[dc[1]] if tight else {pick}
     over_pick, btts_pick = p_over >= 0.5, p_btts >= 0.5
     res = lambda i, j: "H" if i > j else "A" if i < j else "D"
     over_f = lambda i, j: (i + j >= 3) == over_pick
@@ -140,8 +140,17 @@ def predict(model, home, away):
 
     # le score affiche respecte le resultat, l'over/under ET le BTTS annonces (sinon on relache)
     si, sj, sp = best(over_f, btts_f) or best(btts_f) or best(over_f) or best()
+    gp = {(i, j): p for i, j, p in cells}
+    if si != sj and res(sj, si) in allowed:
+        second = (sj, si)                                    # score inverse (ex. 2-1 / 1-2)
+    else:                                                    # sinon meilleur score d'un autre resultat couvert
+        pool = [x for x in cells if res(x[0], x[1]) in allowed and (x[0], x[1]) != (si, sj)]
+        pool = [x for x in pool if res(x[0], x[1]) != res(si, sj)] or pool
+        pool = [x for x in pool if over_f(x[0], x[1]) and btts_f(x[0], x[1])] or pool
+        second = max(pool, key=lambda x: x[2])[:2]
     return dict(lam_h=lam_h, lam_a=lam_a, p_h=p_h, p_d=p_d, p_a=p_a, pick=pick,
-                score=f"{si}-{sj}", score_p=sp, dc=dc, p_over=p_over, p_btts=p_btts, tight=tight)
+                score=f"{si}-{sj}", score_p=sp, score2=f"{second[0]}-{second[1]}", score2_p=gp[second],
+                dc=dc, p_over=p_over, p_btts=p_btts, tight=tight)
 
 
 def pct(p):
@@ -151,7 +160,11 @@ def pct(p):
 def build_card(league, home, away, iso, pr, gp_h, gp_a):
     victoire = {"H": f"Victoire {home}", "A": f"Victoire {away}", "D": "Match Nul"}[pr["pick"]]
     if pr.get("tight"):
-        victoire = f"Serré : Nul ou {home if pr['dc'][1] == '1X' else away}"
+        victoire = {"1X": f"Serré : Nul ou {home}", "X2": f"Serré : Nul ou {away}",
+                    "12": "Serré : pas de nul (12)"}[pr["dc"][1]]
+    sc = f"{pr['score']} ({pct(pr['score_p'])}%)"
+    if pr.get("score2"):
+        sc += f" · {pr['score2']} ({pct(pr['score2_p'])}%)"
     over = (f"Over 2.5 {pct(pr['p_over'])}%" if pr["p_over"] >= 0.5
             else f"Under 2.5 {pct(1 - pr['p_over'])}%")
     btts = (f"BTTS OUI {pct(pr['p_btts'])}%" if pr["p_btts"] >= 0.5
@@ -160,7 +173,7 @@ def build_card(league, home, away, iso, pr, gp_h, gp_a):
         "league": league, "home": home, "away": away, "status": "today",
         "conf": pct(pr["dc"][0]) if pr.get("tight") else pct(max(pr["p_h"], pr["p_d"], pr["p_a"])),
         "victoire": victoire,
-        "score_exact": f"{pr['score']} ({pct(pr['score_p'])}%)",
+        "score_exact": sc,
         "double_chance": f"{pr['dc'][1]} {pct(pr['dc'][0])}%",
         "corner": "N/D",
         "over": over, "btts": btts,
@@ -180,11 +193,11 @@ def evaluate(rec):
     pr, r = rec["pr"], result_of(gh, ga)
     return {
         "tight": bool(pr.get("tight")),
-        "1x2": (r in {"1X": "HD", "X2": "DA"}.get(pr["dc"][1], "")) if pr.get("tight") else pr["pick"] == r,
+        "1x2": (r in {"1X": "HD", "X2": "DA", "12": "HA"}.get(pr["dc"][1], "")) if pr.get("tight") else pr["pick"] == r,
         "dc": r in {"1X": "HD", "X2": "DA", "12": "HA"}[pr["dc"][1]],
         "over": (gh + ga >= 3) == (pr["p_over"] >= 0.5),
         "btts": (gh > 0 and ga > 0) == (pr["p_btts"] >= 0.5),
-        "score": f"{gh}-{ga}" == pr["score"],
+        "score": f"{gh}-{ga}" in (pr["score"], pr.get("score2")),
     }
 
 
@@ -205,37 +218,63 @@ def card_from(rec, status):
     return c
 
 
-def best_pick(rec):
-    """Selection la plus sure du match parmi double chance, over 1.5 et under 3.5."""
+SAFE_CODES = {"1X", "X2", "12", "O15", "U35"}
+
+
+def all_picks(rec):
+    """Toutes les selections possibles d'un match : (proba, code, libelle)."""
     pr, home, away = rec["pr"], rec["home"], rec["away"]
     lam = pr["lam_h"] + pr["lam_a"]
-    opts = [
+    return [
+        (pr["p_h"], "H", f"Victoire {home}"),
+        (pr["p_a"], "A", f"Victoire {away}"),
         (pr["p_h"] + pr["p_d"], "1X", f"Double chance 1X ({home} ou nul)"),
         (pr["p_d"] + pr["p_a"], "X2", f"Double chance X2 (nul ou {away})"),
         (pr["p_h"] + pr["p_a"], "12", "Double chance 12 (pas de nul)"),
         (1 - math.exp(-lam) * (1 + lam), "O15", "Over 1.5 buts"),
+        (pr["p_over"], "O25", "Over 2.5 buts"),
+        (1 - pr["p_over"], "U25", "Under 2.5 buts"),
         (sum(pmf(k, lam) for k in range(4)), "U35", "Under 3.5 buts"),
+        (pr["p_btts"], "BY", "BTTS OUI"),
+        (1 - pr["p_btts"], "BN", "BTTS NON"),
     ]
-    return max(opts)
 
 
 def leg_ok(code, gh, ga):
-    r = result_of(gh, ga)
-    return {"1X": r in "HD", "X2": r in "DA", "12": r in "HA", "O15": gh + ga >= 2, "U35": gh + ga <= 3}[code]
+    r, t, both = result_of(gh, ga), gh + ga, gh > 0 and ga > 0
+    return {"H": r == "H", "A": r == "A", "1X": r in "HD", "X2": r in "DA", "12": r in "HA",
+            "O15": t >= 2, "O25": t >= 3, "U25": t <= 2, "U35": t <= 3, "BY": both, "BN": not both}[code]
 
 
 def build_tickets(recs, day):
-    legs = []
+    # Ticket SUR (5) : les 5 selections les plus sures, 80 % minimum, une par match
+    safe = []
     for r in recs:
-        prob, code, label = best_pick(r)
-        if prob >= MIN_TICKET_PROB:          # jamais de selection sous le seuil, meme pour remplir
-            legs.append({"id": r["id"], "match": f"{r['home']} vs {r['away']}", "league": r["league"], "time": r["iso"][11:16],
-                         "pick": label, "code": code, "p": round(prob * 100)})
-    legs.sort(key=lambda l: -l["p"])
-    top5, next10 = legs[:5], legs[5:15]      # les 5 plus sures vont au ticket de 5, les 10 suivantes au ticket de 10
-    mk = lambda name, ls, n: {"name": name, "target": n, "n": len(ls), "legs": ls,
-                              "combined": round(100 * math.prod(l["p"] / 100 for l in ls)) if ls else None}
-    return {"day": day, "eligible": len(legs), "tickets": [mk("Ticket 10 matchs", next10, 10), mk("Ticket 5 matchs", top5, 5)]}
+        p, code, label = max(x for x in all_picks(r) if x[1] in SAFE_CODES)
+        if p >= MIN_TICKET_PROB:
+            safe.append((p, r, code, label))
+    safe.sort(key=lambda x: -x[0])
+    safe5 = safe[:5]
+    used = {x[1]["id"] for x in safe5}
+    # Ticket RISQUE (10) : AUTRES matchs, selection la plus proche de RISKY_TARGET => cotes plus hautes
+    risky = []
+    for r in recs:
+        opts = [x for x in all_picks(r) if RISKY_MIN <= x[0] <= RISKY_MAX]
+        if r["id"] not in used and opts:
+            p, code, label = min(opts, key=lambda x: abs(x[0] - RISKY_TARGET))
+            risky.append((p, r, code, label))
+    risky.sort(key=lambda x: -x[0])
+    risky10 = risky[:10]
+
+    def mk(name, rule, items, n):
+        legs = [{"id": r["id"], "match": f"{r['home']} vs {r['away']}", "league": r["league"], "time": r["iso"][11:16],
+                 "pick": label, "code": code, "p": round(p * 100)} for p, r, code, label in items]
+        return {"name": name, "rule": rule, "target": n, "n": len(legs), "legs": legs,
+                "combined": round(100 * math.prod(x[0] for x in items), 1) if items else None}
+
+    return {"v": 2, "day": day, "eligible": len(safe), "tickets": [
+        mk("Ticket 10 matchs (risqué)", f"{round(RISKY_MIN * 100)} à {round(RISKY_MAX * 100)} %", risky10, 10),
+        mk("Ticket 5 matchs (sûr)", "80 % ou plus", safe5, 5)]}
 
 
 def settle(entry, results):
@@ -308,7 +347,7 @@ def main():
 
     try:
         h = json.load(open(HIST, encoding="utf-8"))
-        hist = h["records"] if h.get("v") == 18 else {}   # logique changee : on repart a zero
+        hist = h["records"] if h.get("v") == 19 else {}   # logique changee : on repart a zero
     except Exception:
         hist = {}
     for k, r in hist.items():
@@ -373,7 +412,7 @@ def main():
     keep = sorted(hist.items(), key=lambda kv: kv[1]["iso"], reverse=True)[:600]
     os.makedirs("data", exist_ok=True)
     with open(HIST, "w", encoding="utf-8") as f:
-        json.dump({"v": 18, "records": dict(keep)}, f, ensure_ascii=False)
+        json.dump({"v": 19, "records": dict(keep)}, f, ensure_ascii=False)
     try:
         tk = json.load(open(TICKETS, encoding="utf-8"))
     except Exception:
@@ -381,7 +420,9 @@ def main():
     tk.setdefault("days", {})
     if day_recs:
         dkey = sorted(upcoming)[0]
-        if dkey not in tk["days"]:           # fige : les tickets d'un jour ne changent plus ensuite
+        old = tk["days"].get(dkey)
+        started = bool(old) and any(l.get("ok") is not None for t in old["tickets"] for l in t["legs"])
+        if not old or (old.get("v") != 2 and not started):   # fige ensuite (refait 1 fois si ancienne regle)
             tk["days"][dkey] = build_tickets(day_recs[:MAX_MATCHES], dkey)
     for entry in tk["days"].values():
         settle(entry, cache["results"])
