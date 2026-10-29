@@ -1,5 +1,5 @@
 {
- "date": "2026-10-29 17:09 UTC",
+ "date": "2026-10-29 17:52 UTC",
  "version": "V17",
  "stats": {
   "n": 505,
@@ -369,7 +369,7 @@
    "league": "Serie A",
    "home": "Frosinone",
    "away": "Lecce",
-   "status": "today",
+   "status": "live",
    "conf": 55,
    "victoire": "Victoire Frosinone",
    "score_exact": "2-1 (9%) · 3-1 (7%)",
@@ -377,7 +377,9 @@
    "corner": "N/D",
    "over": "Over 2.5 68%",
    "btts": "BTTS OUI 66%",
-   "analyse": "2026-10-29 | Buts attendus Frosinone 2.1 - Lecce 1.4 | 1/N/2 : 55/21/25% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-29 | Buts attendus Frosinone 2.1 - Lecce 1.4 | 1/N/2 : 55/21/25% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-0",
+   "minute": "19'"
   },
   {
    "league": "Serie A",
