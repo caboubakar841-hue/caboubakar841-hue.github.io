@@ -1,5 +1,5 @@
 {
- "date": "2026-10-28 23:45 UTC",
+ "date": "2026-10-29 00:14 UTC",
  "version": "V17",
  "stats": {
   "n": 496,
@@ -378,8 +378,8 @@
    "over": "Over 2.5 66%",
    "btts": "BTTS OUI 59%",
    "analyse": "2026-10-28 | Buts attendus Charlotte FC 2.3 - CF Montréal 1.1 | 1/N/2 : 66/18/16% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "1-0",
+   "minute": "34'"
   },
   {
    "league": "MLS",
@@ -395,7 +395,7 @@
    "btts": "BTTS OUI 73%",
    "analyse": "2026-10-28 | Buts attendus Inter Miami CF 2.7 - FC Cincinnati 1.5 | 1/N/2 : 62/17/20% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "34'"
   },
   {
    "league": "MLS",
@@ -410,8 +410,8 @@
    "over": "Under 2.5 50%",
    "btts": "BTTS OUI 52%",
    "analyse": "2026-10-28 | Buts attendus New England Revolution 1.6 - Red Bull New York 1.1 | 1/N/2 : 49/25/26% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "4'"
+   "live_score": "1-0",
+   "minute": "33'"
   },
   {
    "league": "MLS",
@@ -427,7 +427,7 @@
    "btts": "BTTS OUI 52%",
    "analyse": "2026-10-28 | Buts attendus New York City FC 1.4 - Atlanta United FC 1.2 | 1/N/2 : 42/26/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "34'"
   },
   {
    "league": "MLS",
@@ -442,8 +442,8 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS OUI 62%",
    "analyse": "2026-10-28 | Buts attendus Toronto FC 2.3 - D.C. United 1.2 | 1/N/2 : 62/19/19% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "0-1",
+   "minute": "34'"
   },
   {
    "league": "Brasileirao",
@@ -458,8 +458,8 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-28 | Buts attendus Fluminense 1.6 - Internacional 1.1 | 1/N/2 : 51/25/24% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-1",
-   "minute": "54'"
+   "live_score": "1-1",
+   "minute": "83'"
   },
   {
    "league": "Brasileirao",
@@ -475,7 +475,7 @@
    "btts": "BTTS OUI 57%",
    "analyse": "2026-10-28 | Buts attendus Red Bull Bragantino 1.9 - Chapecoense 1.1 | 1/N/2 : 56/22/22% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "2-0",
-   "minute": "57'"
+   "minute": "86'"
   },
   {
    "league": "Brasileirao",
@@ -491,7 +491,7 @@
    "btts": "BTTS NON 53%",
    "analyse": "2026-10-28 | Buts attendus Santos 1.1 - Palmeiras 1.3 | 1/N/2 : 32/28/40% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "55'"
+   "minute": "84'"
   },
   {
    "league": "MLS",
