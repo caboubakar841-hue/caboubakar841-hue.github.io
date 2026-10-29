@@ -1,5 +1,5 @@
 {
- "date": "2026-10-29 03:20 UTC",
+ "date": "2026-10-29 04:09 UTC",
  "version": "V17",
  "stats": {
   "n": 501,
@@ -379,7 +379,7 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-29 | Buts attendus San Jose Earthquakes 1.2 - Colorado Rapids 1.2 | 1/N/2 : 37/27/35% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "1-1",
-   "minute": "40'"
+   "minute": "70'"
   },
   {
    "league": "MLS",
@@ -395,7 +395,7 @@
    "btts": "BTTS NON 59%",
    "analyse": "2026-10-29 | Buts attendus Seattle Sounders FC 1.1 - Houston Dynamo FC 1.0 | 1/N/2 : 38/30/31% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-1",
-   "minute": "40'"
+   "minute": "70'"
   },
   {
    "league": "MLS",
@@ -410,8 +410,8 @@
    "over": "Over 2.5 70%",
    "btts": "BTTS OUI 64%",
    "analyse": "2026-10-29 | Buts attendus Vancouver Whitecaps 2.4 - San Diego FC 1.2 | 1/N/2 : 63/19/18% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "40'"
+   "live_score": "3-0",
+   "minute": "70'"
   },
   {
    "league": "Liga MX",
@@ -426,8 +426,8 @@
    "over": "Over 2.5 75%",
    "btts": "BTTS OUI 70%",
    "analyse": "2026-10-29 | Buts attendus América 2.5 - Tijuana 1.5 | 1/N/2 : 59/19/22% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-1",
-   "minute": "19'"
+   "live_score": "1-1",
+   "minute": "49'"
   },
   {
    "league": "Serie A",
