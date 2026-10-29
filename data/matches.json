@@ -1,15 +1,15 @@
 {
- "date": "2026-10-29 04:50 UTC",
+ "date": "2026-10-29 05:29 UTC",
  "version": "V17",
  "stats": {
-  "n": 504,
-  "n_avant": 19,
+  "n": 505,
+  "n_avant": 20,
   "dc": 75,
   "over": 52,
   "btts": 55,
   "score": 15,
   "1x2": 57,
-  "n_fav": 225,
+  "n_fav": 226,
   "serre": 73,
   "n_serre": 279,
   "base_dom": 43
@@ -176,8 +176,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 90,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-1"
       },
       {
        "id": "761911",
@@ -366,22 +366,6 @@
  ],
  "matches": [
   {
-   "league": "Liga MX",
-   "home": "América",
-   "away": "Tijuana",
-   "status": "live",
-   "conf": 59,
-   "victoire": "Victoire América",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 75%",
-   "btts": "BTTS OUI 70%",
-   "analyse": "2026-10-29 | Buts attendus América 2.5 - Tijuana 1.5 | 1/N/2 : 59/19/22% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-1",
-   "minute": "90'+1'"
-  },
-  {
    "league": "Serie A",
    "home": "Frosinone",
    "away": "Lecce",
@@ -436,6 +420,22 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-29 | Buts attendus Vasco da Gama 1.1 - Flamengo 1.6 | 1/N/2 : 27/25/48% | base sur 11 et 13 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "Liga MX",
+   "home": "América",
+   "away": "Tijuana",
+   "status": "finished",
+   "conf": 59,
+   "victoire": "Victoire América",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 75%",
+   "btts": "BTTS OUI 70%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "1-1",
+   "minute": "FT"
   },
   {
    "league": "MLS",
@@ -1059,22 +1059,6 @@
    "btts": "BTTS OUI 63%",
    "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
    "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Barnet",
-   "away": "York City",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Barnet",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 68%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
-   "live_score": "3-1",
    "minute": "FT"
   }
  ]
