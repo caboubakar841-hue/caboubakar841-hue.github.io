@@ -1,18 +1,18 @@
 {
- "date": "2026-10-29 01:08 UTC",
+ "date": "2026-10-29 01:57 UTC",
  "version": "V17",
  "stats": {
-  "n": 488,
-  "n_avant": 3,
+  "n": 493,
+  "n_avant": 8,
   "dc": 75,
   "over": 52,
   "btts": 55,
   "score": 15,
   "1x2": 57,
-  "n_fav": 218,
+  "n_fav": 221,
   "serre": 73,
-  "n_serre": 270,
-  "base_dom": 43
+  "n_serre": 272,
+  "base_dom": 44
  },
  "tickets": [
   {
@@ -246,8 +246,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 85,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "4-0"
       },
       {
        "id": "401874988",
@@ -310,8 +310,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 93,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-2"
       },
       {
        "id": "401874773",
@@ -354,97 +354,17 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 86,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-1"
       }
      ],
      "combined": 56,
-     "status": "en cours"
+     "status": "gagné"
     }
    ]
   }
  ],
  "matches": [
-  {
-   "league": "MLS",
-   "home": "Charlotte FC",
-   "away": "CF Montréal",
-   "status": "live",
-   "conf": 66,
-   "victoire": "Victoire Charlotte FC",
-   "score_exact": "2-1 (10%) · 3-1 (8%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-10-28 | Buts attendus Charlotte FC 2.3 - CF Montréal 1.1 | 1/N/2 : 66/18/16% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-0",
-   "minute": "71'"
-  },
-  {
-   "league": "MLS",
-   "home": "Inter Miami CF",
-   "away": "FC Cincinnati",
-   "status": "live",
-   "conf": 62,
-   "victoire": "Victoire Inter Miami CF",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "12 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 79%",
-   "btts": "BTTS OUI 73%",
-   "analyse": "2026-10-28 | Buts attendus Inter Miami CF 2.7 - FC Cincinnati 1.5 | 1/N/2 : 62/17/20% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "69'"
-  },
-  {
-   "league": "MLS",
-   "home": "New England Revolution",
-   "away": "Red Bull New York",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (6%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-10-28 | Buts attendus New England Revolution 1.6 - Red Bull New York 1.1 | 1/N/2 : 49/25/26% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-2",
-   "minute": "68'"
-  },
-  {
-   "league": "MLS",
-   "home": "New York City FC",
-   "away": "Atlanta United FC",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 53%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-10-28 | Buts attendus New York City FC 1.4 - Atlanta United FC 1.2 | 1/N/2 : 42/26/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "65'"
-  },
-  {
-   "league": "MLS",
-   "home": "Toronto FC",
-   "away": "D.C. United",
-   "status": "live",
-   "conf": 62,
-   "victoire": "Victoire Toronto FC",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-10-28 | Buts attendus Toronto FC 2.3 - D.C. United 1.2 | 1/N/2 : 62/19/19% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-1",
-   "minute": "70'"
-  },
   {
    "league": "MLS",
    "home": "Austin FC",
@@ -458,8 +378,8 @@
    "over": "Over 2.5 53%",
    "btts": "BTTS OUI 56%",
    "analyse": "2026-10-29 | Buts attendus Austin FC 1.5 - Real Salt Lake 1.3 | 1/N/2 : 43/25/32% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "28'"
+   "live_score": "1-1",
+   "minute": "61'"
   },
   {
    "league": "MLS",
@@ -474,8 +394,8 @@
    "over": "Over 2.5 75%",
    "btts": "BTTS OUI 73%",
    "analyse": "2026-10-29 | Buts attendus Chicago Fire FC 2.2 - Orlando City SC 1.7 | 1/N/2 : 49/20/31% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-1",
-   "minute": "28'"
+   "live_score": "0-2",
+   "minute": "56'"
   },
   {
    "league": "MLS",
@@ -491,7 +411,7 @@
    "btts": "BTTS OUI 69%",
    "analyse": "2026-10-29 | Buts attendus FC Dallas 2.0 - Columbus Crew 1.6 | 1/N/2 : 46/22/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-1",
-   "minute": "28'"
+   "minute": "58'"
   },
   {
    "league": "MLS",
@@ -506,8 +426,8 @@
    "over": "Over 2.5 85%",
    "btts": "BTTS OUI 79%",
    "analyse": "2026-10-29 | Buts attendus Minnesota United FC 2.8 - Sporting Kansas City 1.8 | 1/N/2 : 59/17/24% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "27'"
+   "live_score": "0-1",
+   "minute": "57'"
   },
   {
    "league": "MLS",
@@ -523,7 +443,7 @@
    "btts": "BTTS OUI 66%",
    "analyse": "2026-10-29 | Buts attendus Nashville SC 2.1 - Philadelphia Union 1.4 | 1/N/2 : 53/21/26% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-0",
-   "minute": "28'"
+   "minute": "58'"
   },
   {
    "league": "MLS",
@@ -538,8 +458,8 @@
    "over": "Over 2.5 76%",
    "btts": "BTTS OUI 69%",
    "analyse": "2026-10-29 | Buts attendus St. Louis CITY SC 2.6 - Portland Timbers 1.4 | 1/N/2 : 64/18/19% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-0",
-   "minute": "27'"
+   "live_score": "0-3",
+   "minute": "56'"
   },
   {
    "league": "Brasileirao",
@@ -554,8 +474,8 @@
    "over": "Under 2.5 62%",
    "btts": "BTTS NON 58%",
    "analyse": "2026-10-29 | Buts attendus Bahia 1.4 - São Paulo 0.8 | 1/N/2 : 49/28/23% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-0",
-   "minute": "35'"
+   "live_score": "2-2",
+   "minute": "60'"
   },
   {
    "league": "Brasileirao",
@@ -570,8 +490,8 @@
    "over": "Under 2.5 62%",
    "btts": "BTTS NON 58%",
    "analyse": "2026-10-29 | Buts attendus Remo 1.4 - Botafogo 0.9 | 1/N/2 : 48/28/24% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-0",
-   "minute": "37'"
+   "live_score": "2-0",
+   "minute": "64'"
   },
   {
    "league": "MLS",
@@ -684,6 +604,86 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-29 | Buts attendus Vasco da Gama 1.1 - Flamengo 1.6 | 1/N/2 : 27/25/48% | base sur 11 et 13 matchs joues | modele Poisson, aucun aleatoire"
+  },
+  {
+   "league": "MLS",
+   "home": "Charlotte FC",
+   "away": "CF Montréal",
+   "status": "finished",
+   "conf": 66,
+   "victoire": "Victoire Charlotte FC",
+   "score_exact": "2-1 (10%) · 3-1 (8%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "live_score": "4-0",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "Inter Miami CF",
+   "away": "FC Cincinnati",
+   "status": "finished",
+   "conf": 62,
+   "victoire": "Victoire Inter Miami CF",
+   "score_exact": "2-1 (8%) · 3-1 (7%)",
+   "double_chance": "12 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 79%",
+   "btts": "BTTS OUI 73%",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "New England Revolution",
+   "away": "Red Bull New York",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (6%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "3-2",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "New York City FC",
+   "away": "Atlanta United FC",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 53%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
+   "live_score": "2-1",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "Toronto FC",
+   "away": "D.C. United",
+   "status": "finished",
+   "conf": 62,
+   "victoire": "Victoire Toronto FC",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 67%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "live_score": "2-1",
+   "minute": "FT"
   },
   {
    "league": "Brasileirao",
@@ -1243,86 +1243,6 @@
    "btts": "BTTS NON 67%",
    "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Flamengo",
-   "away": "Atlético-MG",
-   "status": "finished",
-   "conf": 60,
-   "victoire": "Victoire Flamengo",
-   "score_exact": "1-0 (14%) · 2-0 (12%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS NON 56%",
-   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Coritiba",
-   "away": "Grêmio",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 58%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Unión (Santa Fe)",
-   "away": "Estudiantes de La Plata",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 56%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Walsall",
-   "away": "Salford City",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Walsall",
-   "score_exact": "1-0 (16%) · 2-0 (11%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 62%",
-   "btts": "BTTS NON 59%",
-   "analyse": "Resultat 2-4 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "2-4",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga",
-   "home": "Sevilla",
-   "away": "Osasuna",
-   "status": "finished",
-   "conf": 65,
-   "victoire": "Victoire Sevilla",
-   "score_exact": "2-1 (10%) · 3-1 (8%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
