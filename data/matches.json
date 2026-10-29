@@ -1,17 +1,17 @@
 {
- "date": "2026-10-29 02:36 UTC",
+ "date": "2026-10-29 03:20 UTC",
  "version": "V17",
  "stats": {
-  "n": 499,
-  "n_avant": 14,
+  "n": 501,
+  "n_avant": 16,
   "dc": 75,
   "over": 52,
   "btts": 55,
   "score": 15,
   "1x2": 57,
-  "n_fav": 223,
+  "n_fav": 224,
   "serre": 73,
-  "n_serre": 276,
+  "n_serre": 277,
   "base_dom": 44
  },
  "tickets": [
@@ -111,8 +111,8 @@
        "pick": "Over 2.5 buts",
        "code": "O25",
        "p": 69,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "0-2"
       },
       {
        "id": "401874976",
@@ -165,8 +165,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 91,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-3"
       },
       {
        "id": "401876986",
@@ -367,41 +367,9 @@
  "matches": [
   {
    "league": "MLS",
-   "home": "FC Dallas",
-   "away": "Columbus Crew",
-   "status": "live",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "2026-10-29 | Buts attendus FC Dallas 2.0 - Columbus Crew 1.6 | 1/N/2 : 46/22/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "0-2",
-   "minute": "90'+8'"
-  },
-  {
-   "league": "MLS",
-   "home": "St. Louis CITY SC",
-   "away": "Portland Timbers",
-   "status": "live",
-   "conf": 64,
-   "victoire": "Victoire St. Louis CITY SC",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "2026-10-29 | Buts attendus St. Louis CITY SC 2.6 - Portland Timbers 1.4 | 1/N/2 : 64/18/19% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "2-3",
-   "minute": "90'+5'"
-  },
-  {
-   "league": "MLS",
    "home": "San Jose Earthquakes",
    "away": "Colorado Rapids",
-   "status": "today",
+   "status": "live",
    "conf": 73,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-0 (11%) · 0-1 (11%)",
@@ -409,13 +377,15 @@
    "corner": "N/D",
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 51%",
-   "analyse": "2026-10-29 | Buts attendus San Jose Earthquakes 1.2 - Colorado Rapids 1.2 | 1/N/2 : 37/27/35% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-29 | Buts attendus San Jose Earthquakes 1.2 - Colorado Rapids 1.2 | 1/N/2 : 37/27/35% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "1-1",
+   "minute": "40'"
   },
   {
    "league": "MLS",
    "home": "Seattle Sounders FC",
    "away": "Houston Dynamo FC",
-   "status": "today",
+   "status": "live",
    "conf": 70,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-0 (14%) · 0-1 (12%)",
@@ -423,13 +393,15 @@
    "corner": "N/D",
    "over": "Under 2.5 67%",
    "btts": "BTTS NON 59%",
-   "analyse": "2026-10-29 | Buts attendus Seattle Sounders FC 1.1 - Houston Dynamo FC 1.0 | 1/N/2 : 38/30/31% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-29 | Buts attendus Seattle Sounders FC 1.1 - Houston Dynamo FC 1.0 | 1/N/2 : 38/30/31% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-1",
+   "minute": "40'"
   },
   {
    "league": "MLS",
    "home": "Vancouver Whitecaps",
    "away": "San Diego FC",
-   "status": "today",
+   "status": "live",
    "conf": 63,
    "victoire": "Victoire Vancouver Whitecaps",
    "score_exact": "2-1 (9%) · 3-1 (7%)",
@@ -437,13 +409,15 @@
    "corner": "N/D",
    "over": "Over 2.5 70%",
    "btts": "BTTS OUI 64%",
-   "analyse": "2026-10-29 | Buts attendus Vancouver Whitecaps 2.4 - San Diego FC 1.2 | 1/N/2 : 63/19/18% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-29 | Buts attendus Vancouver Whitecaps 2.4 - San Diego FC 1.2 | 1/N/2 : 63/19/18% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "1-0",
+   "minute": "40'"
   },
   {
    "league": "Liga MX",
    "home": "América",
    "away": "Tijuana",
-   "status": "today",
+   "status": "live",
    "conf": 59,
    "victoire": "Victoire América",
    "score_exact": "2-1 (9%) · 3-1 (7%)",
@@ -451,7 +425,9 @@
    "corner": "N/D",
    "over": "Over 2.5 75%",
    "btts": "BTTS OUI 70%",
-   "analyse": "2026-10-29 | Buts attendus América 2.5 - Tijuana 1.5 | 1/N/2 : 59/19/22% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire"
+   "analyse": "2026-10-29 | Buts attendus América 2.5 - Tijuana 1.5 | 1/N/2 : 59/19/22% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "live_score": "0-1",
+   "minute": "19'"
   },
   {
    "league": "Serie A",
@@ -543,6 +519,22 @@
   },
   {
    "league": "MLS",
+   "home": "FC Dallas",
+   "away": "Columbus Crew",
+   "status": "finished",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "live_score": "0-2",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
    "home": "Minnesota United FC",
    "away": "Sporting Kansas City",
    "status": "finished",
@@ -571,6 +563,22 @@
    "btts": "BTTS OUI 66%",
    "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
    "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "St. Louis CITY SC",
+   "away": "Portland Timbers",
+   "status": "finished",
+   "conf": 64,
+   "victoire": "Victoire St. Louis CITY SC",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "12 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "Resultat 2-3 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "live_score": "2-3",
    "minute": "FT"
   },
   {
@@ -1115,38 +1123,6 @@
    "btts": "BTTS NON 50%",
    "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie B",
-   "home": "Cesena",
-   "away": "Empoli",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (11%) · 0-1 (10%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 51%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie B",
-   "home": "Mantova",
-   "away": "Cremonese",
-   "status": "finished",
-   "conf": 55,
-   "victoire": "Victoire Mantova",
-   "score_exact": "1-0 (14%) · 2-0 (11%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 55%",
-   "analyse": "Resultat 0-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "live_score": "0-2",
    "minute": "FT"
   }
  ]
