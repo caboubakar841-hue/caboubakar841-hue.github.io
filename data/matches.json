@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30 16:37 UTC",
+ "date": "2026-10-30 17:20 UTC",
  "version": "V17",
  "stats": {
   "n": 499,
@@ -561,7 +561,7 @@
    "league": "Super Lig",
    "home": "Konyaspor",
    "away": "Galatasaray",
-   "status": "today",
+   "status": "live",
    "conf": 72,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "0-1 (12%) · 1-0 (11%)",
@@ -570,7 +570,9 @@
    "over": "Under 2.5 60%",
    "btts": "BTTS NON 54%",
    "analyse": "2026-10-30 | Buts attendus Konyaspor 1.1 - Galatasaray 1.2 | 1/N/2 : 33/28/38% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Konyaspor : 14e/18 (8 pts en 9 m.) | repos 5 j | prochains : Samsunspor (Super Lig, 8 j)  ||  Galatasaray : 1e/18 (22 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 4 j), Amed SFK (Super Lig, 8 j)"
+   "contexte": "Konyaspor : 14e/18 (8 pts en 9 m.) | repos 5 j | prochains : Samsunspor (Super Lig, 8 j)  ||  Galatasaray : 1e/18 (22 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 4 j), Amed SFK (Super Lig, 8 j)",
+   "live_score": "0-1",
+   "minute": "20'"
   },
   {
    "league": "2. Bundesliga",
