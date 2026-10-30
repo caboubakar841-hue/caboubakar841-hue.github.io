@@ -331,11 +331,20 @@ def table(res):
 
 
 def load_absences():
-    try:
-        raw = json.load(open(ABSENCES, encoding="utf-8"))
-    except Exception:
-        return {}
-    return {k: v for k, v in raw.items() if not k.startswith("_") and isinstance(v, dict)}
+    """Cherche absences.json dans data/ puis dans n'importe quel dossier du depot."""
+    import glob
+    for path in [ABSENCES] + sorted(glob.glob("**/absences.json", recursive=True)):
+        if not os.path.exists(path):
+            continue
+        try:
+            raw = json.load(open(path, encoding="utf-8"))
+        except Exception as e:
+            print(f"ATTENTION : {path} illisible ({e}) - verifie les virgules et les guillemets")
+            continue
+        print(f"absences lues dans {path}")
+        return {k: v for k, v in raw.items() if not k.startswith("_") and isinstance(v, dict)}
+    print("aucun absences.json trouve (optionnel)")
+    return {}
 
 
 def team_ctx(team, slug, kick, tabs, team_fx, team_games, absences):
@@ -480,7 +489,8 @@ def main():
             continue
         if p["state"] in ("pre", "in") and day < (t - timedelta(days=1)).isoformat():
             continue
-        if not rec:
+        refresh = bool(rec) and p["state"] == "pre" and rec.get("kind") == "avant"
+        if not rec or refresh:               # modifiable jusqu'au coup d'envoi (contexte, absences), fige ensuite
             m = model_before(slug, min(day, today))
             if not m or m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES:
                 continue
