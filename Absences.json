@@ -1,0 +1,4 @@
+{
+  "_aide": "Ajoute une equipe avec son nom EXACT tel qu'affiche sur le site. att = % d'attaque en moins (ex -8). def = % de buts encaisses en plus (ex 4). Supprime la ligne quand le joueur revient. Les cles qui commencent par _ sont ignorees.",
+  "_exemple Arsenal": {"note": "Saka absent", "att": -8, "def": 0}
+}
