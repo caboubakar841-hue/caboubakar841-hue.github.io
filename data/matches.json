@@ -1,9 +1,9 @@
 {
- "date": "2026-10-30 18:32 UTC",
+ "date": "2026-10-30 19:22 UTC",
  "version": "V17",
  "stats": {
-  "n": 499,
-  "n_avant": 25,
+  "n": 500,
+  "n_avant": 26,
   "dc": 76,
   "over": 53,
   "btts": 55,
@@ -11,8 +11,11 @@
   "1x2": 57,
   "n_fav": 224,
   "serre": 73,
-  "n_serre": 275,
-  "base_dom": 43
+  "n_serre": 276,
+  "base_dom": 43,
+  "n_ctx": 1,
+  "brier_ctx": 0.573,
+  "brier_base": 0.519
  },
  "tickets": [
   {
@@ -133,8 +136,8 @@
        "pick": "Double chance X2 (nul ou Galatasaray)",
        "code": "X2",
        "p": 69,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "0-4"
       }
      ],
      "combined": 3.6,
@@ -571,8 +574,8 @@
    "btts": "BTTS OUI 64%",
    "analyse": "2026-10-30 | Buts attendus Arminia Bielefeld 1.9 - TSV Eintracht Braunschweig 1.4 | 1/N/2 : 50/22/28% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Arminia Bielefeld : 8e/18 (11 pts en 9 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 8 j)  ||  TSV Eintracht Braunschweig : 10e/18 (10 pts en 9 m.) | repos 5 j | prochains : Energie Cottbus (2. Bundesliga, 7 j)",
-   "live_score": "2-0",
-   "minute": "HT"
+   "live_score": "3-1",
+   "minute": "90'+2'"
   },
   {
    "league": "2. Bundesliga",
@@ -588,8 +591,8 @@
    "btts": "BTTS OUI 50%",
    "analyse": "2026-10-30 | Buts attendus Energie Cottbus 1.7 - VfL Bochum 1.0 | 1/N/2 : 55/24/21% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Energie Cottbus : 11e/18 (10 pts en 9 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 7 j)  ||  VfL Bochum : 14e/18 (8 pts en 9 m.) | repos 3 j | prochains : Karlsruher SC (2. Bundesliga, 9 j)",
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "1-2",
+   "minute": "90'+2'"
   },
   {
    "league": "Ligue 1",
@@ -605,8 +608,8 @@
    "btts": "BTTS OUI 56%",
    "analyse": "2026-10-30 | Buts attendus Le Havre AC 1.1 - Paris Saint-Germain 1.8 | 1/N/2 : 23/23/55% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Le Havre AC : 18e/18 (2 pts en 8 m.) | repos 5 j | prochains : Lorient (Ligue 1, 9 j)  ||  Paris Saint-Germain : 1e/18 (17 pts en 8 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Villarreal (Ligue des champions, 4 j), Troyes (Ligue 1, 8 j)",
-   "live_score": "1-2",
-   "minute": "32'"
+   "live_score": "1-4",
+   "minute": "63'"
   },
   {
    "league": "Ligue 1",
@@ -622,31 +625,14 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-30 | Buts attendus Nice 1.4 - Stade Rennais 1.5 | 1/N/2 : 36/24/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Nice : 10e/18 (11 pts en 8 m.) | repos 7 j | prochains : Angers (Ligue 1, 9 j)  ||  Stade Rennais : 2e/18 (16 pts en 8 m.) | repos 5 j | prochains : Olympiacos (Ligue Europa, 5 j), Lille (Ligue 1, 9 j)",
-   "live_score": "1-1",
-   "minute": "32'"
-  },
-  {
-   "league": "Super Lig",
-   "home": "Konyaspor",
-   "away": "Galatasaray",
-   "status": "live",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (11%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 60%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-10-30 | Buts attendus Konyaspor 1.1 - Galatasaray 1.2 | 1/N/2 : 33/28/38% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Konyaspor : 14e/18 (8 pts en 9 m.) | repos 5 j | prochains : Samsunspor (Super Lig, 8 j)  ||  Galatasaray : 1e/18 (22 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 4 j), Amed SFK (Super Lig, 8 j)",
-   "live_score": "0-4",
-   "minute": "68'"
+   "live_score": "4-2",
+   "minute": "62'"
   },
   {
    "league": "Ligue 2",
    "home": "Grenoble",
    "away": "Dijon FCO",
-   "status": "today",
+   "status": "live",
    "conf": 50,
    "victoire": "Victoire Dijon FCO",
    "score_exact": "1-2 (10%) · 1-3 (6%)",
@@ -655,13 +641,15 @@
    "over": "Over 2.5 61%",
    "btts": "BTTS OUI 62%",
    "analyse": "2026-10-30 | Buts attendus Grenoble 1.3 - Dijon FCO 1.9 | 1/N/2 : 27/23/50% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Grenoble : 16e/18 (8 pts en 10 m.) | repos 7 j | prochains : Stade de Reims (Ligue 2, 7 j)  ||  Dijon FCO : 9e/18 (12 pts en 10 m.) | repos 6 j | prochains : Red Star FC 93 (Ligue 2, 7 j)"
+   "contexte": "Grenoble : 16e/18 (8 pts en 10 m.) | repos 7 j | prochains : Stade de Reims (Ligue 2, 7 j)  ||  Dijon FCO : 9e/18 (12 pts en 10 m.) | repos 6 j | prochains : Red Star FC 93 (Ligue 2, 7 j)",
+   "live_score": "0-1",
+   "minute": "22'"
   },
   {
    "league": "Ligue 2",
    "home": "Metz",
    "away": "Pau",
-   "status": "today",
+   "status": "live",
    "conf": 73,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "0-1 (11%) · 1-0 (11%)",
@@ -670,13 +658,15 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-10-30 | Buts attendus Metz 1.2 - Pau 1.2 | 1/N/2 : 36/27/37% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Metz : 8e/18 (14 pts en 10 m.) | repos 7 j | prochains : Montpellier (Ligue 2, 7 j)  ||  Pau : 5e/18 (17 pts en 10 m.) | repos 7 j | prochains : Nantes (Ligue 2, 8 j)"
+   "contexte": "Metz : 8e/18 (14 pts en 10 m.) | repos 7 j | prochains : Montpellier (Ligue 2, 7 j)  ||  Pau : 5e/18 (17 pts en 10 m.) | repos 7 j | prochains : Nantes (Ligue 2, 8 j)",
+   "live_score": "0-1",
+   "minute": "22'"
   },
   {
    "league": "Ligue 2",
    "home": "Nantes",
    "away": "Clermont Foot",
-   "status": "today",
+   "status": "live",
    "conf": 72,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-0 (11%) · 0-1 (11%)",
@@ -685,13 +675,15 @@
    "over": "Under 2.5 58%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-10-30 | Buts attendus Nantes 1.2 - Clermont Foot 1.2 | 1/N/2 : 37/28/35% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Nantes : 15e/18 (8 pts en 10 m.) | repos 6 j | prochains : Pau (Ligue 2, 8 j)  ||  Clermont Foot : 17e/18 (7 pts en 10 m.) | repos 7 j | prochains : Rodez Aveyron (Ligue 2, 8 j)"
+   "contexte": "Nantes : 15e/18 (8 pts en 10 m.) | repos 6 j | prochains : Pau (Ligue 2, 8 j)  ||  Clermont Foot : 17e/18 (7 pts en 10 m.) | repos 7 j | prochains : Rodez Aveyron (Ligue 2, 8 j)",
+   "live_score": "1-0",
+   "minute": "23'"
   },
   {
    "league": "Ligue 2",
    "home": "Rodez Aveyron",
    "away": "Dunkerque",
-   "status": "today",
+   "status": "live",
    "conf": 79,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-2 (8%) · 2-1 (7%)",
@@ -700,13 +692,15 @@
    "over": "Over 2.5 73%",
    "btts": "BTTS OUI 72%",
    "analyse": "2026-10-30 | Buts attendus Rodez Aveyron 1.8 - Dunkerque 2.0 | 1/N/2 : 34/21/45% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Rodez Aveyron : 14e/18 (10 pts en 10 m.) | repos 6 j | prochains : Clermont Foot (Ligue 2, 8 j)  ||  Dunkerque : 10e/18 (12 pts en 10 m.) | repos 7 j | prochains : Guingamp (Ligue 2, 7 j)"
+   "contexte": "Rodez Aveyron : 14e/18 (10 pts en 10 m.) | repos 6 j | prochains : Clermont Foot (Ligue 2, 8 j)  ||  Dunkerque : 10e/18 (12 pts en 10 m.) | repos 7 j | prochains : Guingamp (Ligue 2, 7 j)",
+   "live_score": "0-0",
+   "minute": "22'"
   },
   {
    "league": "Ligue 2",
    "home": "Stade Laval",
    "away": "Boulogne",
-   "status": "today",
+   "status": "live",
    "conf": 74,
    "victoire": "Serré : Nul ou Boulogne",
    "score_exact": "0-1 (14%) · 0-0 (11%)",
@@ -715,7 +709,9 @@
    "over": "Under 2.5 62%",
    "btts": "BTTS NON 57%",
    "analyse": "2026-10-30 | Buts attendus Stade Laval 0.9 - Boulogne 1.3 | 1/N/2 : 26/28/45% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Stade Laval : 18e/18 (6 pts en 10 m.) | repos 7 j | prochains : Saint-Étienne (Ligue 2, 8 j)  ||  Boulogne : 13e/18 (10 pts en 10 m.) | repos 4 j | prochains : Annecy (Ligue 2, 7 j)"
+   "contexte": "Stade Laval : 18e/18 (6 pts en 10 m.) | repos 7 j | prochains : Saint-Étienne (Ligue 2, 8 j)  ||  Boulogne : 13e/18 (10 pts en 10 m.) | repos 4 j | prochains : Annecy (Ligue 2, 7 j)",
+   "live_score": "0-0",
+   "minute": "22'"
   },
   {
    "league": "Bundesliga",
@@ -866,6 +862,23 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-30 | Buts attendus Corinthians 1.3 - Mirassol 1.3 | 1/N/2 : 38/26/36% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Corinthians : repos 6 j | prochains : São Paulo (Brasileirao, 5 j)  ||  Mirassol : repos 6 j | prochains : Chapecoense (Brasileirao, 4 j)"
+  },
+  {
+   "league": "Super Lig",
+   "home": "Konyaspor",
+   "away": "Galatasaray",
+   "status": "finished",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (12%) · 1-0 (11%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Under 2.5 60%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 0-4 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Konyaspor : 14e/18 (8 pts en 9 m.) | repos 5 j | prochains : Samsunspor (Super Lig, 8 j)  ||  Galatasaray : 1e/18 (22 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 4 j), Amed SFK (Super Lig, 8 j)",
+   "live_score": "0-4",
+   "minute": "FT"
   },
   {
    "league": "Brasileirao",
@@ -1528,23 +1541,6 @@
    "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
    "contexte": "",
    "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Argentinos Juniors",
-   "away": "Independiente Rivadavia",
-   "status": "finished",
-   "conf": 57,
-   "victoire": "Victoire Argentinos Juniors",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "live_score": "1-0",
    "minute": "FT"
   }
  ]
