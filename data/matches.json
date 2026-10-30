@@ -1,21 +1,21 @@
 {
- "date": "2026-10-30 19:22 UTC",
+ "date": "2026-10-30 20:01 UTC",
  "version": "V17",
  "stats": {
-  "n": 500,
-  "n_avant": 26,
+  "n": 504,
+  "n_avant": 30,
   "dc": 76,
   "over": 53,
-  "btts": 55,
+  "btts": 56,
   "score": 16,
   "1x2": 57,
-  "n_fav": 224,
+  "n_fav": 226,
   "serre": 73,
-  "n_serre": 276,
+  "n_serre": 278,
   "base_dom": 43,
-  "n_ctx": 1,
-  "brier_ctx": 0.573,
-  "brier_base": 0.519
+  "n_ctx": 2,
+  "brier_ctx": 0.442,
+  "brier_base": 0.392
  },
  "tickets": [
   {
@@ -81,8 +81,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 72,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401876706",
@@ -201,8 +201,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 84,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-1"
       }
      ],
      "combined": 54.9,
@@ -561,72 +561,55 @@
  ],
  "matches": [
   {
-   "league": "2. Bundesliga",
-   "home": "Arminia Bielefeld",
-   "away": "TSV Eintracht Braunschweig",
+   "league": "League Two",
+   "home": "Newport County",
+   "away": "Chesterfield",
    "status": "live",
-   "conf": 78,
+   "conf": 74,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
+   "double_chance": "12 74%",
    "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-10-30 | Buts attendus Arminia Bielefeld 1.9 - TSV Eintracht Braunschweig 1.4 | 1/N/2 : 50/22/28% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Arminia Bielefeld : 8e/18 (11 pts en 9 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 8 j)  ||  TSV Eintracht Braunschweig : 10e/18 (10 pts en 9 m.) | repos 5 j | prochains : Energie Cottbus (2. Bundesliga, 7 j)",
-   "live_score": "3-1",
-   "minute": "90'+2'"
+   "over": "Over 2.5 50%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-10-30 | Buts attendus Newport County 1.5 - Chesterfield 1.2 | 1/N/2 : 43/26/32% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Newport County : 16e/24 (15 pts en 13 m.) | repos 6 j | prochains : Walsall (FA Cup, 8 j)  ||  Chesterfield : 7e/24 (19 pts en 13 m.) | repos 6 j | prochains : Yeovil Town (FA Cup, 8 j)",
+   "live_score": "1-0",
+   "minute": "17'"
   },
   {
-   "league": "2. Bundesliga",
-   "home": "Energie Cottbus",
-   "away": "VfL Bochum",
+   "league": "La Liga",
+   "home": "Villarreal",
+   "away": "Espanyol",
    "status": "live",
-   "conf": 55,
-   "victoire": "Victoire Energie Cottbus",
-   "score_exact": "2-1 (10%) · 1-0 (12%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "2026-10-30 | Buts attendus Energie Cottbus 1.7 - VfL Bochum 1.0 | 1/N/2 : 55/24/21% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Energie Cottbus : 11e/18 (10 pts en 9 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 7 j)  ||  VfL Bochum : 14e/18 (8 pts en 9 m.) | repos 3 j | prochains : Karlsruher SC (2. Bundesliga, 9 j)",
-   "live_score": "1-2",
-   "minute": "90'+2'"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Le Havre AC",
-   "away": "Paris Saint-Germain",
-   "status": "live",
-   "conf": 55,
-   "victoire": "Victoire Paris Saint-Germain",
-   "score_exact": "1-2 (10%) · 1-3 (6%)",
-   "double_chance": "X2 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 56%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "2026-10-30 | Buts attendus Le Havre AC 1.1 - Paris Saint-Germain 1.8 | 1/N/2 : 23/23/55% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Le Havre AC : 18e/18 (2 pts en 8 m.) | repos 5 j | prochains : Lorient (Ligue 1, 9 j)  ||  Paris Saint-Germain : 1e/18 (17 pts en 8 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Villarreal (Ligue des champions, 4 j), Troyes (Ligue 1, 8 j)",
-   "live_score": "1-4",
-   "minute": "63'"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Nice",
-   "away": "Stade Rennais",
-   "status": "live",
-   "conf": 76,
+   "conf": 74,
    "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 76%",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
    "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "2026-10-30 | Buts attendus Nice 1.4 - Stade Rennais 1.5 | 1/N/2 : 36/24/40% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Nice : 10e/18 (11 pts en 8 m.) | repos 7 j | prochains : Angers (Ligue 1, 9 j)  ||  Stade Rennais : 2e/18 (16 pts en 8 m.) | repos 5 j | prochains : Olympiacos (Ligue Europa, 5 j), Lille (Ligue 1, 9 j)",
-   "live_score": "4-2",
-   "minute": "62'"
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-10-30 | Buts attendus Villarreal 1.5 - Espanyol 1.1 | 1/N/2 : 48/26/27% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Villarreal : 10e/20 (12 pts en 10 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Paris Saint-Germain (Ligue des champions, 4 j), Getafe (La Liga, 9 j)  ||  Espanyol : 18e/20 (8 pts en 10 m.) | repos 3 j | prochains : Deportivo (La Liga, 8 j)",
+   "live_score": "0-0",
+   "minute": "1'"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "SV Elversberg",
+   "away": "Mainz",
+   "status": "live",
+   "conf": 57,
+   "victoire": "Victoire SV Elversberg",
+   "score_exact": "2-1 (8%) · 3-1 (7%)",
+   "double_chance": "12 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 79%",
+   "btts": "BTTS OUI 75%",
+   "analyse": "2026-10-30 | Buts attendus SV Elversberg 2.6 - Mainz 1.7 | 1/N/2 : 57/19/24% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "SV Elversberg : 8e/18 (10 pts en 7 m.) | repos 3 j | prochains : Borussia Dortmund (Bundesliga, 8 j)  ||  Mainz : 7e/18 (10 pts en 7 m.) | repos 3 j | prochains : Bayern Munich (Bundesliga, 8 j)",
+   "live_score": "2-0",
+   "minute": "32'"
   },
   {
    "league": "Ligue 2",
@@ -643,7 +626,7 @@
    "analyse": "2026-10-30 | Buts attendus Grenoble 1.3 - Dijon FCO 1.9 | 1/N/2 : 27/23/50% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Grenoble : 16e/18 (8 pts en 10 m.) | repos 7 j | prochains : Stade de Reims (Ligue 2, 7 j)  ||  Dijon FCO : 9e/18 (12 pts en 10 m.) | repos 6 j | prochains : Red Star FC 93 (Ligue 2, 7 j)",
    "live_score": "0-1",
-   "minute": "22'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 2",
@@ -660,7 +643,7 @@
    "analyse": "2026-10-30 | Buts attendus Metz 1.2 - Pau 1.2 | 1/N/2 : 36/27/37% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Metz : 8e/18 (14 pts en 10 m.) | repos 7 j | prochains : Montpellier (Ligue 2, 7 j)  ||  Pau : 5e/18 (17 pts en 10 m.) | repos 7 j | prochains : Nantes (Ligue 2, 8 j)",
    "live_score": "0-1",
-   "minute": "22'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 2",
@@ -677,7 +660,7 @@
    "analyse": "2026-10-30 | Buts attendus Nantes 1.2 - Clermont Foot 1.2 | 1/N/2 : 37/28/35% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Nantes : 15e/18 (8 pts en 10 m.) | repos 6 j | prochains : Pau (Ligue 2, 8 j)  ||  Clermont Foot : 17e/18 (7 pts en 10 m.) | repos 7 j | prochains : Rodez Aveyron (Ligue 2, 8 j)",
    "live_score": "1-0",
-   "minute": "23'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 2",
@@ -693,8 +676,8 @@
    "btts": "BTTS OUI 72%",
    "analyse": "2026-10-30 | Buts attendus Rodez Aveyron 1.8 - Dunkerque 2.0 | 1/N/2 : 34/21/45% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Rodez Aveyron : 14e/18 (10 pts en 10 m.) | repos 6 j | prochains : Clermont Foot (Ligue 2, 8 j)  ||  Dunkerque : 10e/18 (12 pts en 10 m.) | repos 7 j | prochains : Guingamp (Ligue 2, 7 j)",
-   "live_score": "0-0",
-   "minute": "22'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Ligue 2",
@@ -710,44 +693,14 @@
    "btts": "BTTS NON 57%",
    "analyse": "2026-10-30 | Buts attendus Stade Laval 0.9 - Boulogne 1.3 | 1/N/2 : 26/28/45% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Stade Laval : 18e/18 (6 pts en 10 m.) | repos 7 j | prochains : Saint-Étienne (Ligue 2, 8 j)  ||  Boulogne : 13e/18 (10 pts en 10 m.) | repos 4 j | prochains : Annecy (Ligue 2, 7 j)",
-   "live_score": "0-0",
-   "minute": "22'"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "SV Elversberg",
-   "away": "Mainz",
-   "status": "today",
-   "conf": 57,
-   "victoire": "Victoire SV Elversberg",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 79%",
-   "btts": "BTTS OUI 75%",
-   "analyse": "2026-10-30 | Buts attendus SV Elversberg 2.6 - Mainz 1.7 | 1/N/2 : 57/19/24% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "SV Elversberg : 8e/18 (10 pts en 7 m.) | repos 3 j | prochains : Borussia Dortmund (Bundesliga, 8 j)  ||  Mainz : 7e/18 (10 pts en 7 m.) | repos 3 j | prochains : Bayern Munich (Bundesliga, 8 j)"
-  },
-  {
-   "league": "League Two",
-   "home": "Newport County",
-   "away": "Chesterfield",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-10-30 | Buts attendus Newport County 1.5 - Chesterfield 1.2 | 1/N/2 : 43/26/32% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Newport County : 16e/24 (15 pts en 13 m.) | repos 6 j | prochains : Walsall (FA Cup, 8 j)  ||  Chesterfield : 7e/24 (19 pts en 13 m.) | repos 6 j | prochains : Yeovil Town (FA Cup, 8 j)"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Pro League",
    "home": "Zulte-Waregem",
    "away": "Club Brugge",
-   "status": "today",
+   "status": "live",
    "conf": 74,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "0-1 (12%) · 1-0 (9%)",
@@ -756,7 +709,9 @@
    "over": "Under 2.5 55%",
    "btts": "BTTS NON 51%",
    "analyse": "2026-10-30 | Buts attendus Zulte-Waregem 1.0 - Club Brugge 1.5 | 1/N/2 : 27/26/47% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Zulte-Waregem : 10e/18 (11 pts en 9 m.) | repos 6 j | prochains : Sint-Truidense (Pro League, 9 j)  ||  Club Brugge : 2e/18 (24 pts en 9 m.) | repos 5 j | prochains : PSV Eindhoven (Ligue des champions, 5 j), Anderlecht (Pro League, 9 j)"
+   "contexte": "Zulte-Waregem : 10e/18 (11 pts en 9 m.) | repos 6 j | prochains : Sint-Truidense (Pro League, 9 j)  ||  Club Brugge : 2e/18 (24 pts en 9 m.) | repos 5 j | prochains : PSV Eindhoven (Ligue des champions, 5 j), Anderlecht (Pro League, 9 j)",
+   "live_score": "0-1",
+   "minute": "16'"
   },
   {
    "league": "Championship",
@@ -774,21 +729,6 @@
    "contexte": "Sheffield United : 12e/24 (16 pts en 12 m.) | repos 6 j | prochains : Preston North End (Championship, 4 j), Charlton Athletic (Championship, 8 j)  ||  Wrexham : 17e/24 (14 pts en 12 m.) | repos 6 j | prochains : Middlesbrough (Championship, 5 j), Wolverhampton Wanderers (Championship, 8 j)"
   },
   {
-   "league": "La Liga",
-   "home": "Villarreal",
-   "away": "Espanyol",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-10-30 | Buts attendus Villarreal 1.5 - Espanyol 1.1 | 1/N/2 : 48/26/27% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Villarreal : 10e/20 (12 pts en 10 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Paris Saint-Germain (Ligue des champions, 4 j), Getafe (La Liga, 9 j)  ||  Espanyol : 18e/20 (8 pts en 10 m.) | repos 3 j | prochains : Deportivo (La Liga, 8 j)"
-  },
-  {
    "league": "Ligue 1",
    "home": "Lille",
    "away": "Lens",
@@ -801,7 +741,7 @@
    "over": "Over 2.5 53%",
    "btts": "BTTS OUI 56%",
    "analyse": "2026-10-30 | Buts attendus Lille 1.5 - Lens 1.3 | 1/N/2 : 44/25/31% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Lille : 3e/18 (15 pts en 8 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Bodo/Glimt (Ligue des champions, 4 j), Stade Rennais (Ligue 1, 9 j)  ||  Lens : 7e/18 (13 pts en 8 m.) | repos 6 j | prochains : Como (Ligue des champions, 5 j), Marseille (Ligue 1, 9 j)"
+   "contexte": "Lille : 3e/18 (15 pts en 8 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Bodo/Glimt (Ligue des champions, 4 j), Stade Rennais (Ligue 1, 9 j)  ||  Lens : 8e/18 (13 pts en 8 m.) | repos 6 j | prochains : Como (Ligue des champions, 5 j), Marseille (Ligue 1, 9 j)"
   },
   {
    "league": "Liga Portugal",
@@ -862,6 +802,74 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-30 | Buts attendus Corinthians 1.3 - Mirassol 1.3 | 1/N/2 : 38/26/36% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Corinthians : repos 6 j | prochains : São Paulo (Brasileirao, 5 j)  ||  Mirassol : repos 6 j | prochains : Chapecoense (Brasileirao, 4 j)"
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Le Havre AC",
+   "away": "Paris Saint-Germain",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire Paris Saint-Germain",
+   "score_exact": "1-2 (10%) · 1-3 (6%)",
+   "double_chance": "X2 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 56%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "Resultat 1-5 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Le Havre AC : 18e/18 (2 pts en 8 m.) | repos 5 j | prochains : Lorient (Ligue 1, 9 j)  ||  Paris Saint-Germain : 1e/18 (17 pts en 8 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Villarreal (Ligue des champions, 4 j), Troyes (Ligue 1, 8 j)",
+   "live_score": "1-5",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Nice",
+   "away": "Stade Rennais",
+   "status": "finished",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "Resultat 5-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Nice : 10e/18 (11 pts en 8 m.) | repos 7 j | prochains : Angers (Ligue 1, 9 j)  ||  Stade Rennais : 2e/18 (16 pts en 8 m.) | repos 5 j | prochains : Olympiacos (Ligue Europa, 5 j), Lille (Ligue 1, 9 j)",
+   "live_score": "5-2",
+   "minute": "FT"
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "Arminia Bielefeld",
+   "away": "TSV Eintracht Braunschweig",
+   "status": "finished",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Arminia Bielefeld : 8e/18 (11 pts en 9 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 8 j)  ||  TSV Eintracht Braunschweig : 10e/18 (10 pts en 9 m.) | repos 5 j | prochains : Energie Cottbus (2. Bundesliga, 7 j)",
+   "live_score": "3-1",
+   "minute": "FT"
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "Energie Cottbus",
+   "away": "VfL Bochum",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire Energie Cottbus",
+   "score_exact": "2-1 (10%) · 1-0 (12%)",
+   "double_chance": "1X 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "Resultat 1-2 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Energie Cottbus : 11e/18 (10 pts en 9 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 7 j)  ||  VfL Bochum : 14e/18 (8 pts en 9 m.) | repos 3 j | prochains : Karlsruher SC (2. Bundesliga, 9 j)",
+   "live_score": "1-2",
+   "minute": "FT"
   },
   {
    "league": "Super Lig",
@@ -1473,74 +1481,6 @@
    "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
    "contexte": "",
    "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie B",
-   "home": "Pisa",
-   "away": "Palermo",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "Resultat 3-3 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "live_score": "3-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie A",
-   "home": "AC Milan",
-   "away": "Bologna",
-   "status": "finished",
-   "conf": 53,
-   "victoire": "Victoire AC Milan",
-   "score_exact": "1-0 (14%) · 2-0 (11%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 54%",
-   "analyse": "Resultat 2-4 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "live_score": "2-4",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie A",
-   "home": "Parma",
-   "away": "Udinese",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie A",
-   "home": "Venezia",
-   "away": "Internazionale",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Victoire Internazionale",
-   "score_exact": "1-2 (9%) · 1-3 (8%)",
-   "double_chance": "X2 88%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "live_score": "0-2",
    "minute": "FT"
   }
  ]
