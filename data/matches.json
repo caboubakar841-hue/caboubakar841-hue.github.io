@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30 22:19 UTC",
+ "date": "2026-10-30 22:53 UTC",
  "version": "V17",
  "stats": {
   "n": 516,
@@ -574,8 +574,8 @@
    "btts": "BTTS NON 53%",
    "analyse": "2026-10-30 | Buts attendus Estudiantes de Río Cuarto 0.9 - Gimnasia La Plata 1.5 | 1/N/2 : 24/26/50% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Estudiantes de Río Cuarto : repos 5 j | prochains : Rosario Central (Liga Argentina, 9 j)  ||  Gimnasia La Plata : repos 7 j | prochains : Belgrano (Córdoba) (Liga Argentina, 9 j)",
-   "live_score": "0-0",
-   "minute": "18'"
+   "live_score": "0-2",
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
@@ -592,7 +592,7 @@
    "analyse": "2026-10-30 | Buts attendus Huracán 1.0 - Tigre 0.8 | 1/N/2 : 38/33/29% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Huracán : repos 6 j | prochains : Argentinos Juniors (Liga Argentina, 9 j)  ||  Tigre : repos 7 j | prochains : Sarmiento (Junín) (Liga Argentina, 9 j)",
    "live_score": "0-0",
-   "minute": "18'"
+   "minute": "HT"
   },
   {
    "league": "Brasileirao",
