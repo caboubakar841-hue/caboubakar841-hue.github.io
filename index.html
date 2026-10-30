@@ -55,7 +55,7 @@ function card(m){
   const sc=m.live_score?m.live_score.split('-'):null;
   const big=sc?'<div class="score"><span class="t">'+m.home+'</span><span class="n">'+sc[0]+' - '+sc[1]+'</span><span class="t">'+m.away+'</span></div>'+(m.minute?'<div style="text-align:center;margin-bottom:8px"><span class="min">'+(m.status==='live'?'🔴 ':'')+m.minute+'</span></div>':''):'';
   return '<div class="card '+m.status+(m.status==='finished'?' fin':'')+'"><div class="top"><span>'+m.league+'</span><span class="conf">'+m.conf+'%</span></div>'+big+(sc?'':'<h3>'+m.home+' vs '+m.away+'</h3>')+
-  '<div class="grid"><div class="box">Victoire<b>'+m.victoire+'</b></div><div class="box">Score probable<b style="color:#fc0">'+m.score_exact+'</b></div><div class="box">Double chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div><div class="analyse">'+m.analyse+'</div></div>';
+  '<div class="grid"><div class="box">Victoire<b>'+m.victoire+'</b></div><div class="box">Score probable<b style="color:#fc0">'+m.score_exact+'</b></div><div class="box">Double chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div>'+(m.contexte?'<div class="analyse">🧭 '+m.contexte+'</div>':'')+'<div class="analyse">'+m.analyse+'</div></div>';
 }
 function tk(d){return d.tickets.map(t=>{
  const odds=t.legs.reduce((a,l)=>a*100/l.p,1);
@@ -69,8 +69,8 @@ function render(){
   if(cur==='stats'){
     const s=D.stats||{};
     if(!s.n){el.innerHTML='<p style="text-align:center">Pas encore de matchs terminés à évaluer.</p>';return}
-    const r=[['Matchs évalués',s.n],['dont figés avant le match',s.n_avant],['Victoire (favori net)',s['1x2']+'% ('+s.n_fav+')'],['Match serré : Nul ou X',(s.serre==null?'-':s.serre+'%')+' ('+s.n_serre+')'],['Référence : « toujours domicile »',s.base_dom+'%'],['Double chance',s.dc+'%'],['Over/Under 2.5',s.over+'%'],['BTTS',s.btts+'%'],['Score exact',s.score+'%']];
-    el.innerHTML='<div class="card"><table>'+r.map(x=>'<tr><td>'+x[0]+'</td><td>'+x[1]+'</td></tr>').join('')+'</table><div class="analyse">Si « Victoire/Nul/Défaite » ne dépasse pas nettement la référence, le modèle n\'apporte rien. Attendre au moins 100 matchs avant de conclure.</div></div>';
+    const r=[['Matchs évalués',s.n],['dont figés avant le match',s.n_avant],['Victoire (favori net)',s['1x2']+'% ('+s.n_fav+')'],['Match serré : Nul ou X',(s.serre==null?'-':s.serre+'%')+' ('+s.n_serre+')'],['Référence : « toujours domicile »',s.base_dom+'%'],['Double chance',s.dc+'%'],['Over/Under 2.5',s.over+'%'],['BTTS',s.btts+'%'],['Score exact',s.score+'%']].concat(s.n_ctx?[['Avec / sans contexte (Brier)',s.brier_ctx+' / '+s.brier_base+' ('+s.n_ctx+')']]:[]);
+    el.innerHTML='<div class="card"><table>'+r.map(x=>'<tr><td>'+x[0]+'</td><td>'+x[1]+'</td></tr>').join('')+'</table><div class="analyse">Si « Victoire/Nul/Défaite » ne dépasse pas nettement la référence, le modèle n\'apporte rien. Attendre au moins 100 matchs avant de conclure. Brier : plus bas = mieux ; si « avec contexte » n\'est pas plus bas que « sans » après 50 matchs, le contexte n\'aide pas.</div></div>';
     return;
   }
   const f=D.matches.filter(m=>m.status===cur);
