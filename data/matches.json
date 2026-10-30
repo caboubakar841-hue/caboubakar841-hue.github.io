@@ -1,18 +1,18 @@
 {
- "date": "2026-10-29 23:51 UTC",
+ "date": "2026-10-30 00:21 UTC",
  "version": "V17",
  "stats": {
-  "n": 507,
+  "n": 496,
   "n_avant": 22,
-  "dc": 75,
-  "over": 52,
+  "dc": 76,
+  "over": 53,
   "btts": 55,
-  "score": 15,
+  "score": 16,
   "1x2": 57,
-  "n_fav": 228,
+  "n_fav": 225,
   "serre": 73,
-  "n_serre": 279,
-  "base_dom": 43
+  "n_serre": 271,
+  "base_dom": 44
  },
  "tickets": [
   {
@@ -571,7 +571,7 @@
    "btts": "BTTS OUI 61%",
    "analyse": "2026-10-29 | Buts attendus Atlético-MG 1.6 - Cruzeiro 1.4 | 1/N/2 : 43/24/34% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "live_score": "0-1",
-   "minute": "57'"
+   "minute": "87'"
   },
   {
    "league": "Brasileirao",
@@ -586,8 +586,8 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-29 | Buts attendus Vasco da Gama 1.1 - Flamengo 1.6 | 1/N/2 : 27/25/48% | base sur 11 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "live_score": "1-2",
-   "minute": "45'+6'"
+   "live_score": "1-3",
+   "minute": "57'"
   },
   {
    "league": "Brasileirao",
