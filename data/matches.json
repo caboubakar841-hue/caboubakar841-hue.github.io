@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30 17:20 UTC",
+ "date": "2026-10-30 17:58 UTC",
  "version": "V17",
  "stats": {
   "n": 499,
@@ -558,6 +558,40 @@
  ],
  "matches": [
   {
+   "league": "2. Bundesliga",
+   "home": "Arminia Bielefeld",
+   "away": "TSV Eintracht Braunschweig",
+   "status": "live",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "2026-10-30 | Buts attendus Arminia Bielefeld 1.9 - TSV Eintracht Braunschweig 1.4 | 1/N/2 : 50/22/28% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Arminia Bielefeld : 8e/18 (11 pts en 9 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 8 j)  ||  TSV Eintracht Braunschweig : 10e/18 (10 pts en 9 m.) | repos 5 j | prochains : Energie Cottbus (2. Bundesliga, 7 j)",
+   "live_score": "2-0",
+   "minute": "28'"
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "Energie Cottbus",
+   "away": "VfL Bochum",
+   "status": "live",
+   "conf": 55,
+   "victoire": "Victoire Energie Cottbus",
+   "score_exact": "2-1 (10%) · 1-0 (12%)",
+   "double_chance": "1X 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "2026-10-30 | Buts attendus Energie Cottbus 1.7 - VfL Bochum 1.0 | 1/N/2 : 55/24/21% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Energie Cottbus : 11e/18 (10 pts en 9 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 7 j)  ||  VfL Bochum : 14e/18 (8 pts en 9 m.) | repos 3 j | prochains : Karlsruher SC (2. Bundesliga, 9 j)",
+   "live_score": "1-0",
+   "minute": "28'"
+  },
+  {
    "league": "Super Lig",
    "home": "Konyaspor",
    "away": "Galatasaray",
@@ -571,38 +605,8 @@
    "btts": "BTTS NON 54%",
    "analyse": "2026-10-30 | Buts attendus Konyaspor 1.1 - Galatasaray 1.2 | 1/N/2 : 33/28/38% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Konyaspor : 14e/18 (8 pts en 9 m.) | repos 5 j | prochains : Samsunspor (Super Lig, 8 j)  ||  Galatasaray : 1e/18 (22 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 4 j), Amed SFK (Super Lig, 8 j)",
-   "live_score": "0-1",
-   "minute": "20'"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "Arminia Bielefeld",
-   "away": "TSV Eintracht Braunschweig",
-   "status": "today",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-10-30 | Buts attendus Arminia Bielefeld 1.9 - TSV Eintracht Braunschweig 1.4 | 1/N/2 : 50/22/28% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Arminia Bielefeld : 8e/18 (11 pts en 9 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 8 j)  ||  TSV Eintracht Braunschweig : 10e/18 (10 pts en 9 m.) | repos 5 j | prochains : Energie Cottbus (2. Bundesliga, 7 j)"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "Energie Cottbus",
-   "away": "VfL Bochum",
-   "status": "today",
-   "conf": 55,
-   "victoire": "Victoire Energie Cottbus",
-   "score_exact": "2-1 (10%) · 1-0 (12%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "2026-10-30 | Buts attendus Energie Cottbus 1.7 - VfL Bochum 1.0 | 1/N/2 : 55/24/21% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Energie Cottbus : 11e/18 (10 pts en 9 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 7 j)  ||  VfL Bochum : 14e/18 (8 pts en 9 m.) | repos 3 j | prochains : Karlsruher SC (2. Bundesliga, 9 j)"
+   "live_score": "0-2",
+   "minute": "HT"
   },
   {
    "league": "Ligue 1",
