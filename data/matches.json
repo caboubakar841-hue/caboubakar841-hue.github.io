@@ -1,21 +1,21 @@
 {
- "date": "2026-10-30 21:48 UTC",
+ "date": "2026-10-30 22:19 UTC",
  "version": "V17",
  "stats": {
-  "n": 512,
-  "n_avant": 38,
+  "n": 516,
+  "n_avant": 42,
   "dc": 76,
   "over": 53,
-  "btts": 56,
+  "btts": 55,
   "score": 16,
   "1x2": 57,
-  "n_fav": 228,
-  "serre": 73,
-  "n_serre": 284,
+  "n_fav": 229,
+  "serre": 74,
+  "n_serre": 287,
   "base_dom": 44,
-  "n_ctx": 2,
-  "brier_ctx": 0.442,
-  "brier_base": 0.392
+  "n_ctx": 5,
+  "brier_ctx": 0.46,
+  "brier_base": 0.438
  },
  "tickets": [
   {
@@ -37,8 +37,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "1-0"
       },
       {
        "id": "401882817",
@@ -48,8 +48,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "0-1"
       },
       {
        "id": "401876708",
@@ -141,7 +141,7 @@
       }
      ],
      "combined": 3.6,
-     "status": "en cours"
+     "status": "perdu"
     },
     {
      "name": "Ticket 5 matchs (sûr)",
@@ -168,8 +168,8 @@
        "pick": "Double chance X2 (nul ou Sporting CP)",
        "code": "X2",
        "p": 91,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "0-2"
       },
       {
        "id": "401876701",
@@ -561,78 +561,10 @@
  ],
  "matches": [
   {
-   "league": "Championship",
-   "home": "Sheffield United",
-   "away": "Wrexham",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (6%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-10-30 | Buts attendus Sheffield United 1.5 - Wrexham 1.1 | 1/N/2 : 48/26/26% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sheffield United : 12e/24 (16 pts en 12 m.) | repos 6 j | prochains : Preston North End (Championship, 4 j), Charlton Athletic (Championship, 8 j)  ||  Wrexham : 17e/24 (14 pts en 12 m.) | repos 6 j | prochains : Middlesbrough (Championship, 5 j), Wolverhampton Wanderers (Championship, 8 j)",
-   "live_score": "1-0",
-   "minute": "86'"
-  },
-  {
-   "league": "La Liga",
-   "home": "Villarreal",
-   "away": "Espanyol",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-10-30 | Buts attendus Villarreal 1.5 - Espanyol 1.1 | 1/N/2 : 48/26/27% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Villarreal : 10e/20 (12 pts en 10 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Paris Saint-Germain (Ligue des champions, 4 j), Getafe (La Liga, 9 j)  ||  Espanyol : 18e/20 (8 pts en 10 m.) | repos 3 j | prochains : Deportivo (La Liga, 8 j)",
-   "live_score": "0-1",
-   "minute": "90'+1'"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Lille",
-   "away": "Lens",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 53%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "2026-10-30 | Buts attendus Lille 1.5 - Lens 1.3 | 1/N/2 : 44/25/31% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Lille : 3e/18 (15 pts en 8 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Bodo/Glimt (Ligue des champions, 4 j), Stade Rennais (Ligue 1, 9 j)  ||  Lens : 8e/18 (13 pts en 8 m.) | repos 6 j | prochains : Como (Ligue des champions, 5 j), Marseille (Ligue 1, 9 j)",
-   "live_score": "0-0",
-   "minute": "87'"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Casa Pia",
-   "away": "Sporting CP",
-   "status": "live",
-   "conf": 72,
-   "victoire": "Victoire Sporting CP",
-   "score_exact": "1-2 (9%) · 1-3 (7%)",
-   "double_chance": "X2 89%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "2026-10-30 | Buts attendus Casa Pia 0.8 - Sporting CP 2.4 | 1/N/2 : 11/17/72% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Casa Pia : 16e/18 (7 pts en 9 m.) | repos 6 j | prochains : Alverca (Liga Portugal, 8 j)  ||  Sporting CP : 3e/18 (18 pts en 9 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Shakhtar Donetsk (Ligue des champions, 4 j), Moreirense (Liga Portugal, 8 j)",
-   "live_score": "0-1",
-   "minute": "70'"
-  },
-  {
    "league": "Liga Argentina",
    "home": "Estudiantes de Río Cuarto",
    "away": "Gimnasia La Plata",
-   "status": "today",
+   "status": "live",
    "conf": 50,
    "victoire": "Victoire Gimnasia La Plata",
    "score_exact": "0-1 (13%) · 0-2 (10%)",
@@ -641,13 +573,15 @@
    "over": "Under 2.5 57%",
    "btts": "BTTS NON 53%",
    "analyse": "2026-10-30 | Buts attendus Estudiantes de Río Cuarto 0.9 - Gimnasia La Plata 1.5 | 1/N/2 : 24/26/50% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Estudiantes de Río Cuarto : repos 5 j | prochains : Rosario Central (Liga Argentina, 9 j)  ||  Gimnasia La Plata : repos 7 j | prochains : Belgrano (Córdoba) (Liga Argentina, 9 j)"
+   "contexte": "Estudiantes de Río Cuarto : repos 5 j | prochains : Rosario Central (Liga Argentina, 9 j)  ||  Gimnasia La Plata : repos 7 j | prochains : Belgrano (Córdoba) (Liga Argentina, 9 j)",
+   "live_score": "0-0",
+   "minute": "18'"
   },
   {
    "league": "Liga Argentina",
    "home": "Huracán",
    "away": "Tigre",
-   "status": "today",
+   "status": "live",
    "conf": 71,
    "victoire": "Serré : Nul ou Huracán",
    "score_exact": "0-0 (16%) · 1-0 (16%)",
@@ -656,7 +590,9 @@
    "over": "Under 2.5 73%",
    "btts": "BTTS NON 65%",
    "analyse": "2026-10-30 | Buts attendus Huracán 1.0 - Tigre 0.8 | 1/N/2 : 38/33/29% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Huracán : repos 6 j | prochains : Argentinos Juniors (Liga Argentina, 9 j)  ||  Tigre : repos 7 j | prochains : Sarmiento (Junín) (Liga Argentina, 9 j)"
+   "contexte": "Huracán : repos 6 j | prochains : Argentinos Juniors (Liga Argentina, 9 j)  ||  Tigre : repos 7 j | prochains : Sarmiento (Junín) (Liga Argentina, 9 j)",
+   "live_score": "0-0",
+   "minute": "18'"
   },
   {
    "league": "Brasileirao",
@@ -672,6 +608,74 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-30 | Buts attendus Corinthians 1.3 - Mirassol 1.3 | 1/N/2 : 38/26/36% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Corinthians : repos 6 j | prochains : São Paulo (Brasileirao, 5 j)  ||  Mirassol : repos 6 j | prochains : Chapecoense (Brasileirao, 4 j)"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Casa Pia",
+   "away": "Sporting CP",
+   "status": "finished",
+   "conf": 72,
+   "victoire": "Victoire Sporting CP",
+   "score_exact": "1-2 (9%) · 1-3 (7%)",
+   "double_chance": "X2 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Casa Pia : 16e/18 (7 pts en 9 m.) | repos 6 j | prochains : Alverca (Liga Portugal, 8 j)  ||  Sporting CP : 3e/18 (18 pts en 9 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Shakhtar Donetsk (Ligue des champions, 4 j), Moreirense (Liga Portugal, 8 j)",
+   "live_score": "0-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Lille",
+   "away": "Lens",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 53%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Lille : 3e/18 (15 pts en 8 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Bodo/Glimt (Ligue des champions, 4 j), Stade Rennais (Ligue 1, 9 j)  ||  Lens : 8e/18 (13 pts en 8 m.) | repos 6 j | prochains : Como (Ligue des champions, 5 j), Marseille (Ligue 1, 9 j)",
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Championship",
+   "home": "Sheffield United",
+   "away": "Wrexham",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (6%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Sheffield United : 12e/24 (16 pts en 12 m.) | repos 6 j | prochains : Preston North End (Championship, 4 j), Charlton Athletic (Championship, 8 j)  ||  Wrexham : 17e/24 (14 pts en 12 m.) | repos 6 j | prochains : Middlesbrough (Championship, 5 j), Wolverhampton Wanderers (Championship, 8 j)",
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "La Liga",
+   "home": "Villarreal",
+   "away": "Espanyol",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Villarreal : 10e/20 (12 pts en 10 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Paris Saint-Germain (Ligue des champions, 4 j), Getafe (La Liga, 9 j)  ||  Espanyol : 18e/20 (8 pts en 10 m.) | repos 3 j | prochains : Deportivo (La Liga, 8 j)",
+   "live_score": "0-1",
+   "minute": "FT"
   },
   {
    "league": "League Two",
@@ -1283,74 +1287,6 @@
    "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
    "contexte": "",
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Red Bull Bragantino",
-   "away": "Chapecoense",
-   "status": "finished",
-   "conf": 56,
-   "victoire": "Victoire Red Bull Bragantino",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "1X 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 58%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "",
-   "live_score": "3-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Santos",
-   "away": "Palmeiras",
-   "status": "finished",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (10%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 53%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "",
-   "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Scottish Premiership",
-   "home": "Heart of Midlothian",
-   "away": "Rangers",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie A",
-   "home": "Genoa",
-   "away": "Juventus",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : Nul ou Juventus",
-   "score_exact": "0-1 (15%) · 0-0 (10%)",
-   "double_chance": "X2 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 60%",
-   "btts": "BTTS NON 56%",
-   "analyse": "Resultat 2-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
