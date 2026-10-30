@@ -9,7 +9,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-LOOKBACK_DAYS = 90    # historique utilise pour mesurer la force des equipes
+LOOKBACK_DAYS = 100   # historique utilise pour mesurer la force des equipes
 MAX_BACKFILL_DAYS = 40  # jours d'historique recuperes par run (ESPN refuse les plages : 1 jour = 1 requete)
 CACHE = "data/results.json"
 MIN_GAMES = 3         # en dessous, l'equipe n'est pas pronostiquee (pas assez de donnees)
@@ -35,6 +35,21 @@ LEAGUES = {
 }
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
+COMPS = {  # competitions de CONTEXTE (calendrier, repos) : jamais pronostiquees
+    "uefa.champions": "Ligue des champions", "uefa.europa": "Ligue Europa", "uefa.europa.conf": "Conference League",
+    "eng.fa": "FA Cup", "eng.league_cup": "Coupe de la Ligue (ENG)", "esp.copa_del_rey": "Coupe du Roi",
+    "ita.coppa_italia": "Coupe d'Italie", "ger.dfb_pokal": "Coupe d'Allemagne", "fra.coupe_de_france": "Coupe de France",
+}
+ALL_COMPS = {**LEAGUES, **COMPS}
+EURO_COMPS = {"uefa.champions", "uefa.europa", "uefa.europa.conf"}
+# classement fiable seulement si la saison est comprise dans la fenetre d'historique (saisons europeennes)
+EURO_SEASON = {"eng.1", "eng.2", "eng.3", "eng.4", "esp.1", "esp.2", "ita.1", "ita.2", "ger.1", "ger.2", "fra.1", "fra.2",
+               "ned.1", "por.1", "bel.1", "tur.1", "sco.1"}
+ROTATION_EFFECT = 0.05   # match europeen dans les 4 jours : -5 % d'attaque, +5 % de buts encaisses (HEURISTIQUE)
+STAKES_EFFECT = 0.03     # a 3 pts d'une zone cle (apres 15 matchs) : +3 % d'intensite (HEURISTIQUE)
+FIX_AHEAD_DAYS = 14      # calendrier a venir recupere sur 14 jours
+FIX_REFRESH_H = 6        # ... et rafraichi toutes les 6 h
+ABSENCES = "data/absences.json"   # blesses/suspendus : saisis a la main (ESPN n'a pas de flux fiable)
 BAD_STATUS = ("POSTPONED", "CANCEL", "ABANDON", "FORFEIT", "SUSPEND")
 
 
@@ -111,9 +126,11 @@ def pmf(k, lam):
     return math.exp(-lam) * lam ** k / math.factorial(k)
 
 
-def predict(model, home, away):
+def predict(model, home, away, adj=None):
     lam_h = model["mu_h"] * model["att"][home] * model["def"][away]
     lam_a = model["mu_a"] * model["att"][away] * model["def"][home]
+    if adj:                                   # contexte : rotation, enjeu, absences
+        lam_h, lam_a = lam_h * adj[0], lam_a * adj[1]
     grid = [[pmf(i, lam_h) * pmf(j, lam_a) for j in range(MAX_GOALS + 1)] for i in range(MAX_GOALS + 1)]
     tot = sum(map(sum, grid))
     grid = [[p / tot for p in row] for row in grid]
@@ -204,6 +221,7 @@ def evaluate(rec):
 def card_from(rec, status):
     c = build_card(rec["league"], rec["home"], rec["away"], rec["iso"], rec["pr"], rec["gp"][0], rec["gp"][1])
     c["status"] = status
+    c["contexte"] = rec.get("ctx", "")
     c.pop("_iso", None)
     if rec.get("res"):
         c["live_score"] = f"{rec['res'][0]}-{rec['res'][1]}"
@@ -287,6 +305,70 @@ def settle(entry, results):
         t["status"] = "perdu" if False in oks else "gagné" if oks and all(x is True for x in oks) else "en cours"
 
 
+def parse_iso(x):
+    return datetime.fromisoformat(x.replace("Z", "+00:00"))
+
+
+def days_between(a, b):
+    return round((parse_iso(b) - parse_iso(a)).total_seconds() / 86400)
+
+
+def table(res):
+    """Classement calcule depuis les vrais resultats : points, difference de buts."""
+    pts, gp, gd = defaultdict(int), defaultdict(int), defaultdict(int)
+    for h, a, x, y, _ in res:
+        gp[h] += 1; gp[a] += 1; gd[h] += x - y; gd[a] += y - x
+        if x > y:
+            pts[h] += 3
+        elif y > x:
+            pts[a] += 3
+        else:
+            pts[h] += 1; pts[a] += 1
+    order = sorted(gp, key=lambda t: (-pts[t], -gd[t], t))
+    n = len(order)
+    info = {t: {"rank": i + 1, "pts": pts[t], "gp": gp[t], "of": n} for i, t in enumerate(order)}
+    return {"info": info, "top": pts[order[3]] if n >= 8 else None, "bot": pts[order[n - 4]] if n >= 8 else None}
+
+
+def load_absences():
+    try:
+        raw = json.load(open(ABSENCES, encoding="utf-8"))
+    except Exception:
+        return {}
+    return {k: v for k, v in raw.items() if not k.startswith("_") and isinstance(v, dict)}
+
+
+def team_ctx(team, slug, kick, tabs, team_fx, team_games, absences):
+    """(multiplicateur attaque, multiplicateur buts encaisses, texte) pour une equipe."""
+    att = dfn = 1.0
+    parts = []
+    tb = tabs.get(slug)
+    if tb and team in tb["info"]:
+        i = tb["info"][team]
+        parts.append(f"{i['rank']}e/{i['of']} ({i['pts']} pts en {i['gp']} m.)")
+        if i["gp"] >= 15 and tb["top"] is not None and (abs(i["pts"] - tb["top"]) <= 3 or abs(i["pts"] - tb["bot"]) <= 3):
+            att *= 1 + STAKES_EFFECT; dfn *= 1 - STAKES_EFFECT
+            parts.append("enjeu fort (proche d'une zone cle)")
+    last = [g for g in team_games.get(team, []) if g < kick]
+    if last:
+        parts.append(f"repos {days_between(max(last), kick)} j")
+    nxt = [f for f in team_fx.get(team, []) if f["iso"] > kick][:3]
+    if any(f["slug"] in EURO_COMPS and days_between(kick, f["iso"]) <= 4 for f in nxt):
+        att *= 1 - ROTATION_EFFECT; dfn *= 1 + ROTATION_EFFECT
+        parts.append("match europeen proche : rotation possible")
+    ab = absences.get(team)
+    if ab:
+        try:
+            att *= 1 + float(ab.get("att", 0)) / 100; dfn *= 1 + float(ab.get("def", 0)) / 100
+        except (TypeError, ValueError):
+            pass
+        parts.append("absences : " + str(ab.get("note", "?")))
+    if nxt:
+        parts.append("prochains : " + ", ".join(f"{f['opp']} ({ALL_COMPS.get(f['slug'], f['slug'])}, {days_between(kick, f['iso'])} j)" for f in nxt))
+    clamp = lambda v: min(1.2, max(0.8, v))
+    return clamp(att), clamp(dfn), f"{team} : " + " | ".join(parts) if parts else team
+
+
 def main():
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
@@ -295,13 +377,21 @@ def main():
         cache = json.load(open(CACHE, encoding="utf-8"))
     except Exception:
         cache = {}
+    if cache.get("v") != 2:                  # v2 : on recupere aussi coupes et competitions europeennes
+        cache["days_done"], cache["v"] = [], 2
     cache.setdefault("days_done", [])
     cache.setdefault("results", {})
+    cache.setdefault("fixtures", {})
     done_days = set(cache["days_done"])
     all_days = [t + timedelta(days=2 - k) for k in range(LOOKBACK_DAYS + 3)]      # t+2 ... t-LOOKBACK
     fresh = [d for d in all_days if d >= t - timedelta(days=1)]                   # toujours rafraichis
     missing = [d for d in all_days if d < t - timedelta(days=1) and d.isoformat() not in done_days][:MAX_BACKFILL_DAYS]
-    jobs = [(slug, d) for d in fresh + missing for slug in LEAGUES]
+    try:
+        stale = (now - datetime.fromisoformat(cache["fx_updated"])).total_seconds() > FIX_REFRESH_H * 3600
+    except Exception:
+        stale = True
+    future = [t + timedelta(days=k) for k in range(3, FIX_AHEAD_DAYS + 1)] if stale else []
+    jobs = [(slug, d) for d in fresh + missing + future for slug in ALL_COMPS]
     with ThreadPoolExecutor(max_workers=10) as ex:
         fetched = list(ex.map(lambda j: (j[0], j[1], fetch(*j)), jobs))
     ok = sum(1 for _, _, ev in fetched if ev is not None)
@@ -327,12 +417,20 @@ def main():
                                              "iso": p["iso"], "gh": p["gh"], "ga": p["ga"]}
             elif p["state"] in ("pre", "in"):
                 fresh_events.append((slug, p))
+            fkey = f"{slug}:{p['id']}"
+            if p["state"] == "pre":
+                cache["fixtures"][fkey] = {"slug": slug, "home": p["home"], "away": p["away"], "iso": p["iso"]}
+            else:
+                cache["fixtures"].pop(fkey, None)
     for d in missing:
         if d not in failed_days:
             done_days.add(d.isoformat())
     oldest = (t - timedelta(days=LOOKBACK_DAYS + 5)).isoformat()
     cache["days_done"] = sorted(x for x in done_days if x >= oldest)
     cache["results"] = {k: v for k, v in cache["results"].items() if v["iso"][:10] >= oldest}
+    cache["fixtures"] = {k: v for k, v in cache["fixtures"].items() if v["iso"][:10] >= today}
+    if stale:
+        cache["fx_updated"] = now.isoformat()
 
     results, events, seen = defaultdict(list), [], set()
     for r in cache["results"].values():
@@ -344,6 +442,17 @@ def main():
             seen.add((slug, p["id"]))
             events.append((slug, p))
     print(f"{sum(map(len, results.values()))} resultats, {len(events)} matchs au total")
+    tabs = {sl: table(rs) for sl, rs in results.items() if sl in EURO_SEASON and len(rs) >= 10}
+    team_fx, team_games = defaultdict(list), defaultdict(list)
+    for f in cache["fixtures"].values():
+        team_fx[f["home"]].append({"iso": f["iso"], "slug": f["slug"], "opp": f["away"]})
+        team_fx[f["away"]].append({"iso": f["iso"], "slug": f["slug"], "opp": f["home"]})
+    for v in team_fx.values():
+        v.sort(key=lambda x: x["iso"])
+    for r in cache["results"].values():
+        team_games[r["home"]].append(r["iso"]); team_games[r["away"]].append(r["iso"])
+    absences = load_absences()
+    print(f"contexte : {len(cache['fixtures'])} matchs a venir connus, {len(tabs)} classements, {len(absences)} equipes avec absences")
 
     try:
         h = json.load(open(HIST, encoding="utf-8"))
@@ -363,6 +472,8 @@ def main():
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
     for slug, p in events:
+        if slug not in LEAGUES:              # coupes / Europe : contexte uniquement
+            continue
         day = p["iso"][:10]
         rec = hist.get(p["id"])
         if p["state"] == "post" and day < limit and not rec:
@@ -373,10 +484,20 @@ def main():
             m = model_before(slug, min(day, today))
             if not m or m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES:
                 continue
-            pr = predict(m, p["home"], p["away"])
+            pr = pr0 = predict(m, p["home"], p["away"])
+            ctx_text, base_p = "", None
+            if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
+                ah, dh, th = team_ctx(p["home"], slug, p["iso"], tabs, team_fx, team_games, absences)
+                aa, da, ta = team_ctx(p["away"], slug, p["iso"], tabs, team_fx, team_games, absences)
+                adj = (ah * da, aa * dh)
+                ctx_text = th + "  ||  " + ta
+                if abs(adj[0] - 1) > 1e-9 or abs(adj[1] - 1) > 1e-9:
+                    pr = predict(m, p["home"], p["away"], adj)
+                    base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]   # reference sans contexte, pour mesurer l'apport reel
             rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": LEAGUES[slug], "home": p["home"], "away": p["away"],
                                    "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
-                                   "kind": "avant" if p["state"] == "pre" else "retro", "res": None}
+                                   "kind": "avant" if p["state"] == "pre" else "retro", "res": None,
+                                   "ctx": ctx_text, "base_p": base_p}
         if p["state"] == "post" and "gh" in p and not rec.get("res"):
             rec["res"] = [p["gh"], p["ga"]]
             rec["eval"] = evaluate(rec)
@@ -401,6 +522,14 @@ def main():
             stats[k] = rate(done, k)
         stats.update({"1x2": rate(fav, "1x2"), "n_fav": len(fav), "serre": rate(tig, "1x2"), "n_serre": len(tig)})
         stats["base_dom"] = round(100 * sum(1 for r in done if r["res"][0] > r["res"][1]) / len(done))
+        cr = [r for r in done if r.get("base_p")]       # matchs ou le contexte a vraiment change le pronostic
+        if cr:
+            def brier(ps, res):
+                o = {"H": (1, 0, 0), "D": (0, 1, 0), "A": (0, 0, 1)}[result_of(*res)]
+                return sum((a - b) ** 2 for a, b in zip(ps, o))
+            stats["n_ctx"] = len(cr)
+            stats["brier_ctx"] = round(sum(brier((r["pr"]["p_h"], r["pr"]["p_d"], r["pr"]["p_a"]), r["res"]) for r in cr) / len(cr), 3)
+            stats["brier_base"] = round(sum(brier(r["base_p"], r["res"]) for r in cr) / len(cr), 3)
     fin_cards = [card_from(r, "finished") for r in done[:MAX_MATCHES]]
 
     cards = live + today_cards[:MAX_MATCHES] + fin_cards
