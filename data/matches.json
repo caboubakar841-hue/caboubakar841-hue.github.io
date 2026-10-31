@@ -1,21 +1,21 @@
 {
- "date": "2026-10-31 16:15 UTC",
+ "date": "2026-10-31 16:46 UTC",
  "version": "V17",
  "stats": {
-  "n": 527,
-  "n_avant": 71,
+  "n": 532,
+  "n_avant": 76,
   "dc": 76,
   "over": 53,
   "btts": 55,
   "score": 15,
-  "1x2": 58,
-  "n_fav": 232,
-  "serre": 73,
-  "n_serre": 295,
+  "1x2": 57,
+  "n_fav": 235,
+  "serre": 72,
+  "n_serre": 297,
   "base_dom": 44,
-  "n_ctx": 7,
-  "brier_ctx": 0.416,
-  "brier_base": 0.398
+  "n_ctx": 9,
+  "brier_ctx": 0.547,
+  "brier_base": 0.518
  },
  "tickets": [
   {
@@ -81,8 +81,8 @@
        "pick": "Victoire Bayer Leverkusen",
        "code": "H",
        "p": 72,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "2-4"
       },
       {
        "id": "401880763",
@@ -157,8 +157,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 95,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-0"
       },
       {
        "id": "401885074",
@@ -201,12 +201,12 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 90,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       }
      ],
      "combined": 65.6,
-     "status": "en cours"
+     "status": "gagné"
     }
    ]
   },
@@ -767,7 +767,7 @@
    "analyse": "2026-10-31 | Buts attendus AFC Bournemouth 1.1 - Leeds United 1.1 | 1/N/2 : 34/29/37% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "AFC Bournemouth : 13e/20 (9 pts en 8 m.) | repos 3 j | prochains : Sparta Prague (Ligue Europa, 5 j), Ipswich Town (Premier League, 8 j)  ||  Leeds United : 7e/20 (11 pts en 8 m.) | repos 6 j | prochains : Tottenham Hotspur (Premier League, 7 j)",
    "live_score": "1-0",
-   "minute": "55'"
+   "minute": "87'"
   },
   {
    "league": "Premier League",
@@ -783,8 +783,8 @@
    "btts": "BTTS NON 53%",
    "analyse": "2026-10-31 | Buts attendus Brentford 1.8 - Nottingham Forest 0.8 | 1/N/2 : 60/23/17% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Brentford : 6e/20 (11 pts en 8 m.) | repos 3 j | prochains : Brighton & Hove Albion (Premier League, 8 j)  ||  Nottingham Forest : 18e/20 (6 pts en 8 m.) | repos 8 j | prochains : Manchester City (Premier League, 7 j)",
-   "live_score": "1-0",
-   "minute": "59'"
+   "live_score": "2-0",
+   "minute": "90'"
   },
   {
    "league": "Premier League",
@@ -800,8 +800,8 @@
    "btts": "BTTS NON 52%",
    "analyse": "2026-10-31 | Buts attendus Coventry City 1.2 - Sunderland 1.1 | 1/N/2 : 38/28/34% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Coventry City : 19e/20 (6 pts en 8 m.) | repos 7 j | prochains : Everton (Premier League, 6 j)  ||  Sunderland : 20e/20 (5 pts en 8 m.) | repos 3 j | prochains : Dinamo Zagreb (Ligue Europa, 5 j), Chelsea (Premier League, 8 j)",
-   "live_score": "3-0",
-   "minute": "58'"
+   "live_score": "3-1",
+   "minute": "90'"
   },
   {
    "league": "Premier League",
@@ -817,8 +817,8 @@
    "btts": "BTTS OUI 55%",
    "analyse": "2026-10-31 | Buts attendus Hull City 1.7 - Ipswich Town 1.1 | 1/N/2 : 52/24/24% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Hull City : 10e/20 (10 pts en 8 m.) | repos 6 j | prochains : Arsenal (Premier League, 7 j)  ||  Ipswich Town : 12e/20 (10 pts en 8 m.) | repos 8 j | prochains : AFC Bournemouth (Premier League, 8 j)",
-   "live_score": "0-1",
-   "minute": "55'"
+   "live_score": "2-2",
+   "minute": "87'"
   },
   {
    "league": "Premier League",
@@ -835,7 +835,7 @@
    "analyse": "2026-10-31 | Buts attendus Manchester City 1.6 - Brighton & Hove Albion 2.1 | 1/N/2 : 30/21/49% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Manchester City : 1e/20 (21 pts en 8 m.) | repos 3 j | match europeen proche : rotation possible | prochains : RB Leipzig (Ligue des champions, 4 j), Nottingham Forest (Premier League, 7 j)  ||  Brighton & Hove Albion : 3e/20 (16 pts en 8 m.) | repos 3 j | prochains : Getafe (Conference League, 5 j), Brentford (Premier League, 8 j)",
    "live_score": "0-1",
-   "minute": "57'"
+   "minute": "88'"
   },
   {
    "league": "Championship",
@@ -851,8 +851,8 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-10-31 | Buts attendus Bolton Wanderers 1.4 - Bristol City 1.1 | 1/N/2 : 43/26/30% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Bolton Wanderers : 19e/24 (14 pts en 12 m.) | repos 8 j | prochains : Charlton Athletic (Championship, 3 j), Derby County (Championship, 6 j)  ||  Bristol City : 15e/24 (15 pts en 12 m.) | repos 7 j | prochains : Wolverhampton Wanderers (Championship, 4 j), Norwich City (Championship, 7 j)",
-   "live_score": "1-1",
-   "minute": "54'"
+   "live_score": "2-2",
+   "minute": "86'"
   },
   {
    "league": "Championship",
@@ -869,7 +869,7 @@
    "analyse": "2026-10-31 | Buts attendus Burnley 1.4 - Portsmouth 1.7 | 1/N/2 : 33/24/43% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Burnley : 22e/24 (8 pts en 12 m.) | repos 7 j | prochains : Queens Park Rangers (Championship, 3 j), Cardiff City (Championship, 7 j)  ||  Portsmouth : 12e/24 (18 pts en 12 m.) | repos 7 j | prochains : Swansea City (Championship, 3 j), Stoke City (Championship, 7 j)",
    "live_score": "0-0",
-   "minute": "52'"
+   "minute": "84'"
   },
   {
    "league": "Championship",
@@ -885,8 +885,8 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-31 | Buts attendus Middlesbrough 2.3 - Charlton Athletic 0.9 | 1/N/2 : 69/18/13% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Middlesbrough : 1e/24 (25 pts en 12 m.) | repos 8 j | prochains : Wrexham (Championship, 4 j), Watford (Championship, 7 j)  ||  Charlton Athletic : 20e/24 (14 pts en 12 m.) | repos 7 j | prochains : Bolton Wanderers (Championship, 3 j), Sheffield United (Championship, 7 j)",
-   "live_score": "2-0",
-   "minute": "56'"
+   "live_score": "3-0",
+   "minute": "88'"
   },
   {
    "league": "Championship",
@@ -902,8 +902,8 @@
    "btts": "BTTS OUI 55%",
    "analyse": "2026-10-31 | Buts attendus Millwall 1.9 - Derby County 1.0 | 1/N/2 : 58/22/20% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Millwall : 13e/24 (15 pts en 12 m.) | repos 7 j | prochains : Birmingham City (Championship, 3 j), West Bromwich Albion (Championship, 7 j)  ||  Derby County : 23e/24 (7 pts en 12 m.) | repos 7 j | prochains : Norwich City (Championship, 3 j), Bolton Wanderers (Championship, 6 j)",
-   "live_score": "3-0",
-   "minute": "55'"
+   "live_score": "4-0",
+   "minute": "87'"
   },
   {
    "league": "Championship",
@@ -919,8 +919,8 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-31 | Buts attendus Southampton 1.6 - Queens Park Rangers 1.1 | 1/N/2 : 48/25/27% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Southampton : 2e/24 (24 pts en 12 m.) | repos 7 j | prochains : West Bromwich Albion (Championship, 3 j), Preston North End (Championship, 7 j)  ||  Queens Park Rangers : 9e/24 (20 pts en 12 m.) | repos 7 j | prochains : Burnley (Championship, 3 j), Lincoln City (Championship, 7 j)",
-   "live_score": "2-0",
-   "minute": "56'"
+   "live_score": "3-1",
+   "minute": "87'"
   },
   {
    "league": "Championship",
@@ -936,8 +936,8 @@
    "btts": "BTTS OUI 52%",
    "analyse": "2026-10-31 | Buts attendus Swansea City 1.4 - Blackburn Rovers 1.1 | 1/N/2 : 44/26/30% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Swansea City : 5e/24 (23 pts en 12 m.) | repos 7 j | prochains : Portsmouth (Championship, 3 j), Birmingham City (Championship, 7 j)  ||  Blackburn Rovers : 11e/24 (18 pts en 12 m.) | repos 7 j | prochains : Stoke City (Championship, 3 j), West Ham United (Championship, 7 j)",
-   "live_score": "3-0",
-   "minute": "54'"
+   "live_score": "4-0",
+   "minute": "86'"
   },
   {
    "league": "Championship",
@@ -953,8 +953,8 @@
    "btts": "BTTS OUI 59%",
    "analyse": "2026-10-31 | Buts attendus West Ham United 2.1 - West Bromwich Albion 1.1 | 1/N/2 : 60/20/19% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "West Ham United : 6e/24 (22 pts en 12 m.) | repos 7 j | prochains : Cardiff City (Championship, 4 j), Blackburn Rovers (Championship, 7 j)  ||  West Bromwich Albion : 8e/24 (21 pts en 12 m.) | repos 7 j | prochains : Southampton (Championship, 3 j), Millwall (Championship, 7 j)",
-   "live_score": "1-2",
-   "minute": "56'"
+   "live_score": "1-3",
+   "minute": "88'"
   },
   {
    "league": "Championship",
@@ -970,8 +970,8 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-31 | Buts attendus Wolverhampton Wanderers 1.8 - Cardiff City 1.3 | 1/N/2 : 49/23/28% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Wolverhampton Wanderers : 7e/24 (21 pts en 12 m.) | repos 7 j | prochains : Bristol City (Championship, 4 j), Wrexham (Championship, 7 j)  ||  Cardiff City : 17e/24 (14 pts en 12 m.) | repos 7 j | prochains : West Ham United (Championship, 4 j), Burnley (Championship, 7 j)",
-   "live_score": "2-0",
-   "minute": "53'"
+   "live_score": "3-0",
+   "minute": "85'"
   },
   {
    "league": "League One",
@@ -987,8 +987,8 @@
    "btts": "BTTS OUI 50%",
    "analyse": "2026-10-31 | Buts attendus Barnsley 0.9 - Oxford United 1.9 | 1/N/2 : 18/22/60% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Barnsley : 23e/24 (8 pts en 11 m.) | repos 7 j | prochains : Aldershot Town (FA Cup, 7 j), Wigan Athletic (League One, 14 j)  ||  Oxford United : 5e/24 (22 pts en 11 m.) | repos 4 j | prochains : Reading (League One, 4 j), Stevenage (FA Cup, 7 j)",
-   "live_score": "1-0",
-   "minute": "55'"
+   "live_score": "1-1",
+   "minute": "87'"
   },
   {
    "league": "League One",
@@ -1004,8 +1004,8 @@
    "btts": "BTTS OUI 55%",
    "analyse": "2026-10-31 | Buts attendus Leicester City 1.4 - Stevenage 1.3 | 1/N/2 : 39/26/35% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Leicester City : 11e/24 (18 pts en 12 m.) | repos 4 j | prochains : Oxford City (FA Cup, 6 j), Bradford City (League One, 14 j)  ||  Stevenage : 14e/24 (15 pts en 11 m.) | repos 7 j | prochains : Oxford United (FA Cup, 7 j), Mansfield Town (League One, 14 j)",
-   "live_score": "1-1",
-   "minute": "55'"
+   "live_score": "2-2",
+   "minute": "87'"
   },
   {
    "league": "League One",
@@ -1021,8 +1021,8 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-10-31 | Buts attendus Mansfield Town 1.6 - Notts County 1.1 | 1/N/2 : 48/25/27% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Mansfield Town : 10e/24 (18 pts en 11 m.) | repos 7 j | prochains : Wigan Athletic (League One, 3 j), Macclesfield FC (FA Cup, 7 j), Stevenage (League One, 14 j)  ||  Notts County : 19e/24 (11 pts en 11 m.) | repos 7 j | prochains : Altrincham (FA Cup, 7 j), Bromley (League One, 14 j)",
-   "live_score": "0-1",
-   "minute": "53'"
+   "live_score": "0-2",
+   "minute": "85'"
   },
   {
    "league": "League One",
@@ -1038,8 +1038,8 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-10-31 | Buts attendus Milton Keynes Dons 1.3 - Doncaster Rovers 1.2 | 1/N/2 : 41/27/33% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Milton Keynes Dons : 15e/24 (15 pts en 12 m.) | repos 4 j | prochains : Swindon Town (FA Cup, 7 j), Burton Albion (League One, 14 j)  ||  Doncaster Rovers : 18e/24 (12 pts en 12 m.) | repos 4 j | prochains : Kidderminster Harriers (FA Cup, 7 j), Leyton Orient (League One, 14 j)",
-   "live_score": "2-0",
-   "minute": "57'"
+   "live_score": "5-1",
+   "minute": "89'"
   },
   {
    "league": "League One",
@@ -1056,7 +1056,7 @@
    "analyse": "2026-10-31 | Buts attendus Peterborough United 1.4 - Luton Town 2.0 | 1/N/2 : 26/22/52% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Peterborough United : 21e/24 (10 pts en 12 m.) | repos 4 j | prochains : Reading (FA Cup, 7 j)  ||  Luton Town : 8e/24 (20 pts en 12 m.) | repos 4 j | prochains : Huddersfield Town (League One, 3 j), Forest Green Rovers (FA Cup, 7 j)",
    "live_score": "0-2",
-   "minute": "58'"
+   "minute": "90'"
   },
   {
    "league": "League One",
@@ -1072,8 +1072,8 @@
    "btts": "BTTS NON 61%",
    "analyse": "2026-10-31 | Buts attendus Stockport County 1.9 - AFC Wimbledon 0.6 | 1/N/2 : 67/21/12% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Stockport County : 2e/24 (23 pts en 13 m.) | repos 4 j | prochains : Cray Wanderers (FA Cup, 8 j), Reading (League One, 14 j)  ||  AFC Wimbledon : 17e/24 (13 pts en 12 m.) | repos 7 j | prochains : Crewe Alexandra (FA Cup, 7 j), Blackpool (League One, 14 j)",
-   "live_score": "0-1",
-   "minute": "56'"
+   "live_score": "2-1",
+   "minute": "88'"
   },
   {
    "league": "League One",
@@ -1089,8 +1089,8 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-10-31 | Buts attendus Wigan Athletic 1.6 - Bromley 1.0 | 1/N/2 : 50/25/25% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Wigan Athletic : 24e/24 (7 pts en 12 m.) | repos 4 j | prochains : Mansfield Town (League One, 3 j), Boreham Wood (FA Cup, 7 j), Barnsley (League One, 14 j)  ||  Bromley : 22e/24 (9 pts en 12 m.) | repos 4 j | prochains : Rotherham United (FA Cup, 7 j), Notts County (League One, 14 j)",
-   "live_score": "2-2",
-   "minute": "55'"
+   "live_score": "3-2",
+   "minute": "87'"
   },
   {
    "league": "League One",
@@ -1106,8 +1106,8 @@
    "btts": "BTTS OUI 67%",
    "analyse": "2026-10-31 | Buts attendus Wycombe Wanderers 1.7 - Burton Albion 1.7 | 1/N/2 : 40/22/38% | base sur 12 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Wycombe Wanderers : 16e/24 (15 pts en 12 m.) | repos 7 j | prochains : Accrington Stanley (FA Cup, 7 j), Huddersfield Town (League One, 14 j)  ||  Burton Albion : 13e/24 (17 pts en 13 m.) | repos 7 j | prochains : AFC Rushden & Diamonds (FA Cup, 7 j), Milton Keynes Dons (League One, 14 j)",
-   "live_score": "1-0",
-   "minute": "53'"
+   "live_score": "2-0",
+   "minute": "84'"
   },
   {
    "league": "League Two",
@@ -1124,7 +1124,7 @@
    "analyse": "2026-10-31 | Buts attendus Accrington Stanley 1.3 - Northampton Town 0.7 | 1/N/2 : 52/29/19% | base sur 13 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Accrington Stanley : 10e/24 (18 pts en 13 m.) | repos 7 j | prochains : Wycombe Wanderers (FA Cup, 7 j), Port Vale (League Two, 14 j)  ||  Northampton Town : 20e/24 (13 pts en 11 m.) | repos 7 j | prochains : Oldham Athletic (League Two, 3 j), York City (FA Cup, 7 j), Salford City (League Two, 14 j)",
    "live_score": "1-0",
-   "minute": "57'"
+   "minute": "89'"
   },
   {
    "league": "League Two",
@@ -1140,8 +1140,8 @@
    "btts": "BTTS NON 54%",
    "analyse": "2026-10-31 | Buts attendus Colchester United 1.0 - Walsall 1.2 | 1/N/2 : 30/28/41% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Colchester United : 22e/24 (12 pts en 12 m.) | repos 7 j | prochains : Worcester City (FA Cup, 7 j), Gillingham (League Two, 14 j)  ||  Walsall : 7e/24 (19 pts en 12 m.) | repos 5 j | prochains : Newport County (FA Cup, 7 j), Barnet (League Two, 14 j)",
-   "live_score": "1-1",
-   "minute": "57'"
+   "live_score": "1-2",
+   "minute": "88'"
   },
   {
    "league": "League Two",
@@ -1157,8 +1157,8 @@
    "btts": "BTTS OUI 64%",
    "analyse": "2026-10-31 | Buts attendus Crewe Alexandra 1.6 - Barnet 1.6 | 1/N/2 : 38/23/39% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Crewe Alexandra : 4e/24 (21 pts en 13 m.) | repos 7 j | prochains : AFC Wimbledon (FA Cup, 7 j), Newport County (League Two, 14 j)  ||  Barnet : 2e/24 (25 pts en 12 m.) | repos 4 j | prochains : Tranmere Rovers (FA Cup, 7 j), Walsall (League Two, 14 j)",
-   "live_score": "0-1",
-   "minute": "55'"
+   "live_score": "1-1",
+   "minute": "87'"
   },
   {
    "league": "League Two",
@@ -1174,8 +1174,8 @@
    "btts": "BTTS NON 52%",
    "analyse": "2026-10-31 | Buts attendus Fleetwood Town 1.6 - Bristol Rovers 1.0 | 1/N/2 : 51/25/23% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Fleetwood Town : 19e/24 (14 pts en 13 m.) | repos 4 j | prochains : Rochdale (FA Cup, 7 j), Tranmere Rovers (League Two, 14 j)  ||  Bristol Rovers : 16e/24 (16 pts en 13 m.) | repos 7 j | prochains : Cambridge United (FA Cup, 6 j), Chesterfield (League Two, 14 j)",
-   "live_score": "1-0",
-   "minute": "58'"
+   "live_score": "2-1",
+   "minute": "90'"
   },
   {
    "league": "League Two",
@@ -1192,7 +1192,7 @@
    "analyse": "2026-10-31 | Buts attendus Oldham Athletic 1.9 - Crawley Town 1.0 | 1/N/2 : 58/22/19% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Oldham Athletic : 21e/24 (12 pts en 12 m.) | repos 7 j | prochains : Northampton Town (League Two, 3 j), Sheffield Wednesday (FA Cup, 8 j), Shrewsbury Town (League Two, 14 j)  ||  Crawley Town : 24e/24 (6 pts en 11 m.) | repos 7 j | prochains : Wimborne Town (FA Cup, 8 j), Rotherham United (League Two, 14 j)",
    "live_score": "0-1",
-   "minute": "57'"
+   "minute": "89'"
   },
   {
    "league": "League Two",
@@ -1208,8 +1208,8 @@
    "btts": "BTTS NON 69%",
    "analyse": "2026-10-31 | Buts attendus Salford City 1.1 - Exeter City 0.6 | 1/N/2 : 46/33/21% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Salford City : 1e/24 (28 pts en 13 m.) | repos 5 j | prochains : Carlisle United (FA Cup, 7 j), Northampton Town (League Two, 14 j)  ||  Exeter City : 9e/24 (19 pts en 13 m.) | repos 7 j | prochains : Huddersfield Town (FA Cup, 7 j), Cheltenham Town (League Two, 14 j)",
-   "live_score": "0-1",
-   "minute": "56'"
+   "live_score": "1-1",
+   "minute": "88'"
   },
   {
    "league": "League Two",
@@ -1225,8 +1225,8 @@
    "btts": "BTTS OUI 58%",
    "analyse": "2026-10-31 | Buts attendus Shrewsbury Town 1.6 - Gillingham 1.3 | 1/N/2 : 44/25/31% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Shrewsbury Town : 12e/24 (18 pts en 13 m.) | repos 7 j | prochains : Eastleigh (FA Cup, 7 j), Oldham Athletic (League Two, 14 j)  ||  Gillingham : 13e/24 (17 pts en 13 m.) | repos 7 j | prochains : Barrow (FA Cup, 7 j), Colchester United (League Two, 14 j)",
-   "live_score": "0-1",
-   "minute": "59'"
+   "live_score": "1-2",
+   "minute": "90'"
   },
   {
    "league": "League Two",
@@ -1242,8 +1242,8 @@
    "btts": "BTTS OUI 52%",
    "analyse": "2026-10-31 | Buts attendus Swindon Town 1.7 - Rotherham United 1.0 | 1/N/2 : 53/24/23% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Swindon Town : 15e/24 (16 pts en 13 m.) | repos 7 j | prochains : Milton Keynes Dons (FA Cup, 7 j), Grimsby Town (League Two, 14 j)  ||  Rotherham United : 23e/24 (12 pts en 13 m.) | repos 7 j | prochains : Bromley (FA Cup, 7 j), Crawley Town (League Two, 14 j)",
-   "live_score": "1-0",
-   "minute": "54'"
+   "live_score": "2-0",
+   "minute": "85'"
   },
   {
    "league": "League Two",
@@ -1260,7 +1260,7 @@
    "analyse": "2026-10-31 | Buts attendus Tranmere Rovers 1.7 - Cheltenham Town 1.2 | 1/N/2 : 48/24/28% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Tranmere Rovers : 14e/24 (16 pts en 13 m.) | repos 7 j | prochains : Barnet (FA Cup, 7 j), Fleetwood Town (League Two, 14 j)  ||  Cheltenham Town : 3e/24 (21 pts en 13 m.) | repos 7 j | prochains : FC Halifax Town (FA Cup, 7 j), Exeter City (League Two, 14 j)",
    "live_score": "3-1",
-   "minute": "53'"
+   "minute": "84'"
   },
   {
    "league": "La Liga",
@@ -1276,8 +1276,8 @@
    "btts": "BTTS NON 54%",
    "analyse": "2026-10-31 | Buts attendus Rayo Vallecano 1.1 - Celta Vigo 1.2 | 1/N/2 : 34/29/37% | base sur 9 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Rayo Vallecano : 17e/20 (9 pts en 9 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 8 j)  ||  Celta Vigo : 9e/20 (12 pts en 10 m.) | repos 6 j | prochains : Union St.-Gilloise (Ligue Europa, 5 j), Levante (La Liga, 8 j), Salamanca UDS (Coupe du Roi, 13 j)",
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "2-0",
+   "minute": "68'"
   },
   {
    "league": "La Liga 2",
@@ -1294,92 +1294,24 @@
    "analyse": "2026-10-31 | Buts attendus Eibar 1.4 - Almería 1.4 | 1/N/2 : 39/25/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Eibar : 3e/22 (22 pts en 11 m.) | repos 7 j | prochains : CD Pamplona (Coupe du Roi, 3 j), Castellón (La Liga 2, 6 j)  ||  Almería : 2e/22 (25 pts en 11 m.) | repos 4 j | prochains : Girona (La Liga 2, 8 j), FC Andorra (La Liga 2, 14 j)",
    "live_score": "0-1",
-   "minute": "45'"
+   "minute": "53'"
   },
   {
-   "league": "Bundesliga",
-   "home": "Bayer Leverkusen",
-   "away": "VfB Stuttgart",
+   "league": "Serie B",
+   "home": "Catanzaro",
+   "away": "Padova",
    "status": "live",
-   "conf": 73,
-   "victoire": "Victoire Bayer Leverkusen",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 88%",
+   "conf": 53,
+   "victoire": "Victoire Padova",
+   "score_exact": "1-2 (10%) · 1-3 (5%)",
+   "double_chance": "X2 77%",
    "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "2026-10-31 | Buts attendus Bayer Leverkusen 2.8 - VfB Stuttgart 1.1 | 1/N/2 : 73/15/12% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Bayer Leverkusen : 4e/18 (13 pts en 7 m.) | repos 3 j | prochains : Marseille (Ligue Europa, 5 j), FC Cologne (Bundesliga, 8 j)  ||  VfB Stuttgart : 16e/18 (6 pts en 7 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Galatasaray (Ligue des champions, 3 j), Werder Bremen (Bundesliga, 7 j)",
-   "live_score": "2-4",
-   "minute": "85'"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "Borussia Mönchengladbach",
-   "away": "SC Paderborn 07",
-   "status": "live",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-10-31 | Buts attendus Borussia Mönchengladbach 1.7 - SC Paderborn 07 1.3 | 1/N/2 : 48/24/28% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Borussia Mönchengladbach : 18e/18 (3 pts en 7 m.) | repos 4 j | prochains : Hamburg SV (Bundesliga, 6 j)  ||  SC Paderborn 07 : 13e/18 (8 pts en 7 m.) | repos 3 j | prochains : Eintracht Frankfurt (Bundesliga, 7 j)",
-   "live_score": "0-0",
-   "minute": "86'"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "FC Augsburg",
-   "away": "SC Freiburg",
-   "status": "live",
-   "conf": 54,
-   "victoire": "Victoire FC Augsburg",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 75%",
-   "btts": "BTTS OUI 72%",
-   "analyse": "2026-10-31 | Buts attendus FC Augsburg 2.3 - SC Freiburg 1.6 | 1/N/2 : 54/20/26% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "FC Augsburg : 9e/18 (9 pts en 7 m.) | repos 4 j | prochains : RB Leipzig (Bundesliga, 7 j)  ||  SC Freiburg : 3e/18 (13 pts en 7 m.) | repos 3 j | prochains : Trabzonspor (Conference League, 5 j), 1. FC Union Berlin (Bundesliga, 8 j)",
-   "live_score": "1-2",
-   "minute": "87'"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "Schalke 04",
-   "away": "RB Leipzig",
-   "status": "live",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (11%) · 0-1 (10%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 51%",
-   "analyse": "2026-10-31 | Buts attendus Schalke 04 1.3 - RB Leipzig 1.1 | 1/N/2 : 39/28/33% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Schalke 04 : 15e/18 (6 pts en 7 m.) | repos 3 j | prochains : TSG Hoffenheim (Bundesliga, 8 j)  ||  RB Leipzig : 6e/18 (12 pts en 7 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Manchester City (Ligue des champions, 4 j), FC Augsburg (Bundesliga, 7 j)",
-   "live_score": "0-2",
-   "minute": "83'"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "Werder Bremen",
-   "away": "TSG Hoffenheim",
-   "status": "live",
-   "conf": 70,
-   "victoire": "Victoire Werder Bremen",
-   "score_exact": "3-1 (7%) · 2-1 (7%)",
-   "double_chance": "12 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 85%",
-   "btts": "BTTS OUI 75%",
-   "analyse": "2026-10-31 | Buts attendus Werder Bremen 3.2 - TSG Hoffenheim 1.5 | 1/N/2 : 70/15/15% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Werder Bremen : 7e/18 (12 pts en 7 m.) | repos 4 j | prochains : VfB Stuttgart (Bundesliga, 7 j)  ||  TSG Hoffenheim : 10e/18 (9 pts en 7 m.) | repos 3 j | prochains : Crystal Palace (Ligue Europa, 5 j), Schalke 04 (Bundesliga, 8 j)",
-   "live_score": "2-0",
-   "minute": "86'"
+   "over": "Over 2.5 52%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-10-31 | Buts attendus Catanzaro 1.0 - Padova 1.7 | 1/N/2 : 23/24/53% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Catanzaro : 20e/20 (5 pts en 9 m.) | repos 4 j | prochains : Cesena (Serie B, 7 j)  ||  Padova : 8e/20 (13 pts en 9 m.) | repos 4 j | prochains : Empoli (Serie B, 7 j)",
+   "live_score": "1-0",
+   "minute": "30'"
   },
   {
    "league": "Eredivisie",
@@ -1396,7 +1328,7 @@
    "analyse": "2026-10-31 | Buts attendus Feyenoord Rotterdam 2.1 - Fortuna Sittard 1.5 | 1/N/2 : 52/21/27% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Feyenoord Rotterdam : 1e/18 (24 pts en 10 m.) | repos 6 j | match europeen proche : rotation possible | prochains : Internazionale (Ligue des champions, 3 j), Heerenveen (Eredivisie, 8 j)  ||  Fortuna Sittard : 6e/18 (18 pts en 10 m.) | repos 6 j | prochains : Telstar (Eredivisie, 7 j)",
    "live_score": "0-0",
-   "minute": "44'"
+   "minute": "54'"
   },
   {
    "league": "Liga Portugal",
@@ -1412,8 +1344,8 @@
    "btts": "BTTS OUI 67%",
    "analyse": "2026-10-31 | Buts attendus Moreirense 1.6 - Estrela 1.9 | 1/N/2 : 32/22/46% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Moreirense : 10e/18 (11 pts en 9 m.) | repos 6 j | prochains : Sporting CP (Liga Portugal, 7 j)  ||  Estrela : 12e/18 (10 pts en 9 m.) | repos 7 j | prochains : Benfica (Liga Portugal, 8 j)",
-   "live_score": "0-0",
-   "minute": "43'"
+   "live_score": "1-0",
+   "minute": "53'"
   },
   {
    "league": "Pro League",
@@ -1430,7 +1362,7 @@
    "analyse": "2026-10-31 | Buts attendus KV Mechelen 1.5 - Racing Genk 1.8 | 1/N/2 : 31/23/46% | base sur 8 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "KV Mechelen : 15e/18 (6 pts en 8 m.) | repos 20 j | prochains : KV Kortrijk (Pro League, 4 j), OH Leuven (Pro League, 7 j)  ||  Racing Genk : 6e/18 (15 pts en 9 m.) | repos 6 j | prochains : Union St.-Gilloise (Pro League, 8 j)",
    "live_score": "1-0",
-   "minute": "56'"
+   "minute": "88'"
   },
   {
    "league": "Super Lig",
@@ -1447,7 +1379,7 @@
    "analyse": "2026-10-31 | Buts attendus Fenerbahce 2.8 - Goztepe 1.3 | 1/N/2 : 67/16/16% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Fenerbahce : 5e/18 (16 pts en 9 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Liverpool (Ligue des champions, 4 j), Çorum FK (Super Lig, 8 j)  ||  Goztepe : 10e/18 (12 pts en 9 m.) | repos 6 j | prochains : Istanbul Basaksehir (Super Lig, 7 j)",
    "live_score": "0-0",
-   "minute": "14'"
+   "minute": "45'"
   },
   {
    "league": "Scottish Premiership",
@@ -1463,8 +1395,8 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-31 | Buts attendus Kilmarnock 1.3 - St Johnstone 1.7 | 1/N/2 : 30/24/46% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Kilmarnock : 12e/12 (8 pts en 11 m.) | repos 3 j | prochains : Celtic (Scottish Premiership, 8 j)  ||  St Johnstone : 8e/12 (13 pts en 11 m.) | repos 3 j | prochains : Dundee (Scottish Premiership, 7 j)",
-   "live_score": "2-1",
-   "minute": "55'"
+   "live_score": "2-2",
+   "minute": "86'"
   },
   {
    "league": "Scottish Premiership",
@@ -1480,23 +1412,8 @@
    "btts": "BTTS OUI 58%",
    "analyse": "2026-10-31 | Buts attendus Motherwell 1.6 - St Mirren 1.3 | 1/N/2 : 43/25/33% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Motherwell : 10e/12 (9 pts en 11 m.) | repos 3 j | prochains : Dundee United (Scottish Premiership, 7 j)  ||  St Mirren : 7e/12 (14 pts en 11 m.) | repos 3 j | prochains : Rangers (Scottish Premiership, 7 j)",
-   "live_score": "0-0",
-   "minute": "58'"
-  },
-  {
-   "league": "Serie B",
-   "home": "Catanzaro",
-   "away": "Padova",
-   "status": "today",
-   "conf": 53,
-   "victoire": "Victoire Padova",
-   "score_exact": "1-2 (10%) · 1-3 (5%)",
-   "double_chance": "X2 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 52%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-10-31 | Buts attendus Catanzaro 1.0 - Padova 1.7 | 1/N/2 : 23/24/53% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Catanzaro : 20e/20 (5 pts en 9 m.) | repos 4 j | prochains : Cesena (Serie B, 7 j)  ||  Padova : 8e/20 (13 pts en 9 m.) | repos 4 j | prochains : Empoli (Serie B, 7 j)"
+   "live_score": "1-0",
+   "minute": "89'"
   },
   {
    "league": "Serie A",
@@ -1992,6 +1909,91 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-10-31 | Buts attendus Pachuca 1.4 - Tigres UANL 1.1 | 1/N/2 : 44/26/30% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Pachuca : repos 6 j | prochains : Atlas (Liga MX, 7 j)  ||  Tigres UANL : repos 7 j | prochains : Cruz Azul (Liga MX, 7 j)"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "Bayer Leverkusen",
+   "away": "VfB Stuttgart",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Victoire Bayer Leverkusen",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 88%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "Resultat 2-4 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Bayer Leverkusen : 4e/18 (13 pts en 7 m.) | repos 3 j | prochains : Marseille (Ligue Europa, 5 j), FC Cologne (Bundesliga, 8 j)  ||  VfB Stuttgart : 16e/18 (6 pts en 7 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Galatasaray (Ligue des champions, 3 j), Werder Bremen (Bundesliga, 7 j)",
+   "live_score": "2-4",
+   "minute": "FT"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "Borussia Mönchengladbach",
+   "away": "SC Paderborn 07",
+   "status": "finished",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Borussia Mönchengladbach : 18e/18 (3 pts en 7 m.) | repos 4 j | prochains : Hamburg SV (Bundesliga, 6 j)  ||  SC Paderborn 07 : 13e/18 (8 pts en 7 m.) | repos 3 j | prochains : Eintracht Frankfurt (Bundesliga, 7 j)",
+   "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "FC Augsburg",
+   "away": "SC Freiburg",
+   "status": "finished",
+   "conf": 54,
+   "victoire": "Victoire FC Augsburg",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 75%",
+   "btts": "BTTS OUI 72%",
+   "analyse": "Resultat 1-2 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "FC Augsburg : 9e/18 (9 pts en 7 m.) | repos 4 j | prochains : RB Leipzig (Bundesliga, 7 j)  ||  SC Freiburg : 3e/18 (13 pts en 7 m.) | repos 3 j | prochains : Trabzonspor (Conference League, 5 j), 1. FC Union Berlin (Bundesliga, 8 j)",
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "Schalke 04",
+   "away": "RB Leipzig",
+   "status": "finished",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (11%) · 0-1 (10%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 51%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Schalke 04 : 15e/18 (6 pts en 7 m.) | repos 3 j | prochains : TSG Hoffenheim (Bundesliga, 8 j)  ||  RB Leipzig : 6e/18 (12 pts en 7 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Manchester City (Ligue des champions, 4 j), FC Augsburg (Bundesliga, 7 j)",
+   "live_score": "0-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "Werder Bremen",
+   "away": "TSG Hoffenheim",
+   "status": "finished",
+   "conf": 70,
+   "victoire": "Victoire Werder Bremen",
+   "score_exact": "3-1 (7%) · 2-1 (7%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 85%",
+   "btts": "BTTS OUI 75%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Werder Bremen : 7e/18 (12 pts en 7 m.) | repos 4 j | prochains : VfB Stuttgart (Bundesliga, 7 j)  ||  TSG Hoffenheim : 10e/18 (9 pts en 7 m.) | repos 3 j | prochains : Crystal Palace (Ligue Europa, 5 j), Schalke 04 (Bundesliga, 8 j)",
+   "live_score": "2-0",
+   "minute": "FT"
   },
   {
    "league": "Serie A",
@@ -2586,91 +2588,6 @@
    "analyse": "Resultat 2-4 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
    "contexte": "Zulte-Waregem : 10e/18 (11 pts en 9 m.) | repos 6 j | prochains : Sint-Truidense (Pro League, 9 j)  ||  Club Brugge : 2e/18 (24 pts en 9 m.) | repos 5 j | prochains : PSV Eindhoven (Ligue des champions, 5 j), Anderlecht (Pro League, 9 j)",
    "live_score": "2-4",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "SV Elversberg",
-   "away": "Mainz",
-   "status": "finished",
-   "conf": 57,
-   "victoire": "Victoire SV Elversberg",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 79%",
-   "btts": "BTTS OUI 75%",
-   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "SV Elversberg : 8e/18 (10 pts en 7 m.) | repos 3 j | prochains : Borussia Dortmund (Bundesliga, 8 j)  ||  Mainz : 7e/18 (10 pts en 7 m.) | repos 3 j | prochains : Bayern Munich (Bundesliga, 8 j)",
-   "live_score": "4-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Grenoble",
-   "away": "Dijon FCO",
-   "status": "finished",
-   "conf": 50,
-   "victoire": "Victoire Dijon FCO",
-   "score_exact": "1-2 (10%) · 1-3 (6%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "Resultat 1-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Grenoble : 16e/18 (8 pts en 10 m.) | repos 7 j | prochains : Stade de Reims (Ligue 2, 7 j)  ||  Dijon FCO : 9e/18 (12 pts en 10 m.) | repos 6 j | prochains : Red Star FC 93 (Ligue 2, 7 j)",
-   "live_score": "1-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Metz",
-   "away": "Pau",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (11%) · 1-0 (11%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 50%",
-   "analyse": "Resultat 1-3 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Metz : 8e/18 (14 pts en 10 m.) | repos 7 j | prochains : Montpellier (Ligue 2, 7 j)  ||  Pau : 5e/18 (17 pts en 10 m.) | repos 7 j | prochains : Nantes (Ligue 2, 8 j)",
-   "live_score": "1-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Nantes",
-   "away": "Clermont Foot",
-   "status": "finished",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (11%) · 0-1 (11%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 52%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Nantes : 15e/18 (8 pts en 10 m.) | repos 6 j | prochains : Pau (Ligue 2, 8 j)  ||  Clermont Foot : 17e/18 (7 pts en 10 m.) | repos 7 j | prochains : Rodez Aveyron (Ligue 2, 8 j)",
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Rodez Aveyron",
-   "away": "Dunkerque",
-   "status": "finished",
-   "conf": 79,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 72%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Rodez Aveyron : 14e/18 (10 pts en 10 m.) | repos 6 j | prochains : Clermont Foot (Ligue 2, 8 j)  ||  Dunkerque : 10e/18 (12 pts en 10 m.) | repos 7 j | prochains : Guingamp (Ligue 2, 7 j)",
-   "live_score": "1-0",
    "minute": "FT"
   }
  ]
