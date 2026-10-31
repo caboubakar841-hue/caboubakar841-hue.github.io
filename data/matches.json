@@ -1,17 +1,17 @@
 {
- "date": "2026-10-30 23:52 UTC",
+ "date": "2026-10-31 00:23 UTC",
  "version": "V17",
  "stats": {
-  "n": 516,
-  "n_avant": 42,
+  "n": 500,
+  "n_avant": 44,
   "dc": 76,
   "over": 53,
   "btts": 55,
-  "score": 16,
-  "1x2": 57,
-  "n_fav": 229,
-  "serre": 74,
-  "n_serre": 287,
+  "score": 15,
+  "1x2": 58,
+  "n_fav": 223,
+  "serre": 73,
+  "n_serre": 277,
   "base_dom": 44,
   "n_ctx": 5,
   "brier_ctx": 0.46,
@@ -306,8 +306,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 70,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401876705",
@@ -382,8 +382,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 87,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "0-2"
       },
       {
        "id": "401885068",
@@ -767,47 +767,13 @@
    "analyse": "2026-10-30 | Buts attendus Corinthians 1.3 - Mirassol 1.3 | 1/N/2 : 38/26/36% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Corinthians : repos 6 j | prochains : São Paulo (Brasileirao, 5 j)  ||  Mirassol : repos 6 j | prochains : Chapecoense (Brasileirao, 4 j)",
    "live_score": "0-0",
-   "minute": "45'+4'"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Estudiantes de Río Cuarto",
-   "away": "Gimnasia La Plata",
-   "status": "live",
-   "conf": 50,
-   "victoire": "Victoire Gimnasia La Plata",
-   "score_exact": "0-1 (13%) · 0-2 (10%)",
-   "double_chance": "X2 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-10-30 | Buts attendus Estudiantes de Río Cuarto 0.9 - Gimnasia La Plata 1.5 | 1/N/2 : 24/26/50% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Estudiantes de Río Cuarto : repos 5 j | prochains : Rosario Central (Liga Argentina, 9 j)  ||  Gimnasia La Plata : repos 7 j | prochains : Belgrano (Córdoba) (Liga Argentina, 9 j)",
-   "live_score": "1-2",
-   "minute": "90'+2'"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Huracán",
-   "away": "Tigre",
-   "status": "live",
-   "conf": 71,
-   "victoire": "Serré : Nul ou Huracán",
-   "score_exact": "0-0 (16%) · 1-0 (16%)",
-   "double_chance": "1X 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 73%",
-   "btts": "BTTS NON 65%",
-   "analyse": "2026-10-30 | Buts attendus Huracán 1.0 - Tigre 0.8 | 1/N/2 : 38/33/29% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Huracán : repos 6 j | prochains : Argentinos Juniors (Liga Argentina, 9 j)  ||  Tigre : repos 7 j | prochains : Sarmiento (Junín) (Liga Argentina, 9 j)",
-   "live_score": "0-1",
-   "minute": "90'"
+   "minute": "58'"
   },
   {
    "league": "Liga Argentina",
    "home": "Racing Club",
    "away": "Aldosivi",
-   "status": "today",
+   "status": "live",
    "conf": 74,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "2-1 (9%) · 1-2 (7%)",
@@ -816,13 +782,15 @@
    "over": "Under 2.5 51%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-31 | Buts attendus Racing Club 1.4 - Aldosivi 1.2 | 1/N/2 : 42/26/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Racing Club : repos 5 j | prochains : Barracas Central (Liga Argentina, 9 j)  ||  Aldosivi : repos 5 j | prochains : River Plate (Liga Argentina, 9 j)"
+   "contexte": "Racing Club : repos 5 j | prochains : Barracas Central (Liga Argentina, 9 j)  ||  Aldosivi : repos 5 j | prochains : River Plate (Liga Argentina, 9 j)",
+   "live_score": "0-0",
+   "minute": "9'"
   },
   {
    "league": "Liga Argentina",
    "home": "Sarmiento (Junín)",
    "away": "Rosario Central",
-   "status": "today",
+   "status": "live",
    "conf": 76,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-2 (9%) · 2-1 (7%)",
@@ -831,7 +799,9 @@
    "over": "Over 2.5 55%",
    "btts": "BTTS OUI 57%",
    "analyse": "2026-10-31 | Buts attendus Sarmiento (Junín) 1.2 - Rosario Central 1.6 | 1/N/2 : 29/24/47% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sarmiento (Junín) : repos 7 j | prochains : Tigre (Liga Argentina, 9 j)  ||  Rosario Central : repos 6 j | prochains : Estudiantes de Río Cuarto (Liga Argentina, 9 j)"
+   "contexte": "Sarmiento (Junín) : repos 7 j | prochains : Tigre (Liga Argentina, 9 j)  ||  Rosario Central : repos 6 j | prochains : Estudiantes de Río Cuarto (Liga Argentina, 9 j)",
+   "live_score": "1-0",
+   "minute": "8'"
   },
   {
    "league": "Liga MX",
@@ -890,7 +860,7 @@
    "corner": "N/D",
    "over": "Over 2.5 54%",
    "btts": "BTTS OUI 57%",
-   "analyse": "2026-10-31 | Buts attendus Erzurum BB 1.4 - Çorum FK 1.5 | 1/N/2 : 35/25/40% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus Erzurum BB 1.3 - Çorum FK 1.5 | 1/N/2 : 34/25/41% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Erzurum BB : 8e/18 (14 pts en 9 m.) | repos 7 j | prochains : Caykur Rizespor (Super Lig, 8 j)  ||  Çorum FK : 9e/18 (13 pts en 9 m.) | repos 6 j | prochains : Fenerbahce (Super Lig, 8 j)"
   },
   {
@@ -905,7 +875,7 @@
    "corner": "N/D",
    "over": "Under 2.5 72%",
    "btts": "BTTS NON 64%",
-   "analyse": "2026-10-31 | Buts attendus Kaiserslautern 1.0 - Hertha Berlin 0.8 | 1/N/2 : 39/32/29% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus Kaiserslautern 1.0 - Hertha Berlin 0.8 | 1/N/2 : 38/32/29% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Kaiserslautern : 3e/18 (18 pts en 9 m.) | repos 3 j | prochains : VfL Osnabruck (2. Bundesliga, 7 j)  ||  Hertha Berlin : 1e/18 (25 pts en 9 m.) | repos 3 j | prochains : VfL Wolfsburg (2. Bundesliga, 7 j)"
   },
   {
@@ -920,7 +890,7 @@
    "corner": "N/D",
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 62%",
-   "analyse": "2026-10-31 | Buts attendus SV Darmstadt 98 1.3 - 1. FC Magdeburg 2.1 | 1/N/2 : 23/21/56% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus SV Darmstadt 98 1.3 - 1. FC Magdeburg 2.0 | 1/N/2 : 23/21/56% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "SV Darmstadt 98 : 18e/18 (8 pts en 9 m.) | repos 4 j | prochains : 1. FC Nürnberg (2. Bundesliga, 7 j)  ||  1. FC Magdeburg : 5e/18 (16 pts en 9 m.) | repos 3 j | prochains : St. Pauli (2. Bundesliga, 8 j)"
   },
   {
@@ -928,14 +898,14 @@
    "home": "VfL Wolfsburg",
    "away": "VfL Osnabruck",
    "status": "today",
-   "conf": 68,
+   "conf": 67,
    "victoire": "Victoire VfL Wolfsburg",
    "score_exact": "2-1 (8%) · 3-1 (8%)",
-   "double_chance": "1X 84%",
+   "double_chance": "12 84%",
    "corner": "N/D",
-   "over": "Over 2.5 79%",
+   "over": "Over 2.5 78%",
    "btts": "BTTS OUI 70%",
-   "analyse": "2026-10-31 | Buts attendus VfL Wolfsburg 2.8 - VfL Osnabruck 1.4 | 1/N/2 : 68/16/16% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus VfL Wolfsburg 2.8 - VfL Osnabruck 1.4 | 1/N/2 : 67/16/16% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "VfL Wolfsburg : 4e/18 (16 pts en 9 m.) | repos 3 j | prochains : Hertha Berlin (2. Bundesliga, 7 j)  ||  VfL Osnabruck : 9e/18 (11 pts en 9 m.) | repos 6 j | prochains : Kaiserslautern (2. Bundesliga, 7 j)"
   },
   {
@@ -1053,7 +1023,7 @@
    "score_exact": "2-1 (9%) · 1-2 (7%)",
    "double_chance": "12 76%",
    "corner": "N/D",
-   "over": "Over 2.5 57%",
+   "over": "Over 2.5 56%",
    "btts": "BTTS OUI 59%",
    "analyse": "2026-10-31 | Buts attendus Grimsby Town 1.6 - York City 1.3 | 1/N/2 : 45/24/31% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Grimsby Town : 12e/24 (17 pts en 13 m.) | repos 7 j | prochains : Stafford Rangers (FA Cup, 8 j)  ||  York City : 5e/24 (20 pts en 13 m.) | repos 4 j | prochains : Northampton Town (FA Cup, 7 j)"
@@ -1069,8 +1039,8 @@
    "double_chance": "1X 75%",
    "corner": "N/D",
    "over": "Under 2.5 67%",
-   "btts": "BTTS NON 60%",
-   "analyse": "2026-10-31 | Buts attendus Port Vale 1.2 - Rochdale 0.8 | 1/N/2 : 46/30/25% | base sur 11 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "btts": "BTTS NON 61%",
+   "analyse": "2026-10-31 | Buts attendus Port Vale 1.2 - Rochdale 0.8 | 1/N/2 : 45/30/25% | base sur 11 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Port Vale : 22e/24 (12 pts en 11 m.) | repos 7 j | prochains : Scunthorpe United (FA Cup, 7 j)  ||  Rochdale : 17e/24 (15 pts en 13 m.) | repos 7 j | prochains : Fleetwood Town (FA Cup, 7 j)"
   },
   {
@@ -1078,14 +1048,14 @@
    "home": "Levante",
    "away": "Atlético Madrid",
    "status": "today",
-   "conf": 76,
+   "conf": 77,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 76%",
+   "double_chance": "12 77%",
    "corner": "N/D",
    "over": "Over 2.5 59%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "2026-10-31 | Buts attendus Levante 1.3 - Atlético Madrid 1.7 | 1/N/2 : 29/24/47% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "btts": "BTTS OUI 61%",
+   "analyse": "2026-10-31 | Buts attendus Levante 1.3 - Atlético Madrid 1.8 | 1/N/2 : 29/23/48% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Levante : 16e/20 (10 pts en 10 m.) | repos 6 j | prochains : CD Tarancon (Coupe du Roi, 5 j), Celta Vigo (La Liga, 8 j)  ||  Atlético Madrid : 2e/20 (25 pts en 10 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Bayern Munich (Ligue des champions, 3 j), Barcelona (La Liga, 8 j)"
   },
   {
@@ -1108,14 +1078,14 @@
    "home": "Annecy",
    "away": "Montpellier",
    "status": "today",
-   "conf": 74,
+   "conf": 75,
    "victoire": "Serré : Nul ou Montpellier",
    "score_exact": "0-1 (16%) · 0-0 (13%)",
-   "double_chance": "X2 74%",
+   "double_chance": "X2 75%",
    "corner": "N/D",
    "over": "Under 2.5 67%",
    "btts": "BTTS NON 61%",
-   "analyse": "2026-10-31 | Buts attendus Annecy 0.8 - Montpellier 1.2 | 1/N/2 : 26/30/44% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus Annecy 0.8 - Montpellier 1.2 | 1/N/2 : 25/30/45% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Annecy : 7e/18 (16 pts en 10 m.) | repos 8 j | prochains : Boulogne (Ligue 2, 6 j)  ||  Montpellier : 2e/18 (21 pts en 10 m.) | repos 5 j | prochains : Metz (Ligue 2, 6 j)"
   },
   {
@@ -1126,11 +1096,11 @@
    "conf": 56,
    "victoire": "Victoire Kocaelispor",
    "score_exact": "1-0 (13%) · 2-0 (11%)",
-   "double_chance": "1X 81%",
+   "double_chance": "1X 80%",
    "corner": "N/D",
    "over": "Under 2.5 54%",
    "btts": "BTTS NON 53%",
-   "analyse": "2026-10-31 | Buts attendus Kocaelispor 1.7 - Caykur Rizespor 0.9 | 1/N/2 : 56/24/19% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus Kocaelispor 1.6 - Caykur Rizespor 0.9 | 1/N/2 : 56/25/20% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Kocaelispor : 7e/18 (15 pts en 9 m.) | repos 8 j | prochains : Eyupspor (Super Lig, 7 j)  ||  Caykur Rizespor : 13e/18 (10 pts en 9 m.) | repos 5 j | prochains : Erzurum BB (Super Lig, 8 j)"
   },
   {
@@ -1198,14 +1168,14 @@
    "home": "Bayer Leverkusen",
    "away": "VfB Stuttgart",
    "status": "today",
-   "conf": 72,
+   "conf": 73,
    "victoire": "Victoire Bayer Leverkusen",
    "score_exact": "2-1 (9%) · 3-1 (8%)",
    "double_chance": "1X 88%",
    "corner": "N/D",
    "over": "Over 2.5 73%",
    "btts": "BTTS OUI 61%",
-   "analyse": "2026-10-31 | Buts attendus Bayer Leverkusen 2.7 - VfB Stuttgart 1.1 | 1/N/2 : 72/15/12% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus Bayer Leverkusen 2.8 - VfB Stuttgart 1.1 | 1/N/2 : 73/15/12% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Bayer Leverkusen : 4e/18 (13 pts en 7 m.) | repos 3 j | prochains : Marseille (Ligue Europa, 5 j), FC Cologne (Bundesliga, 8 j)  ||  VfB Stuttgart : 16e/18 (6 pts en 7 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Galatasaray (Ligue des champions, 3 j), Werder Bremen (Bundesliga, 7 j)"
   },
   {
@@ -1220,7 +1190,7 @@
    "corner": "N/D",
    "over": "Over 2.5 57%",
    "btts": "BTTS OUI 59%",
-   "analyse": "2026-10-31 | Buts attendus Borussia Mönchengladbach 1.7 - SC Paderborn 07 1.3 | 1/N/2 : 47/24/29% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus Borussia Mönchengladbach 1.7 - SC Paderborn 07 1.3 | 1/N/2 : 48/24/28% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Borussia Mönchengladbach : 18e/18 (3 pts en 7 m.) | repos 4 j | prochains : Hamburg SV (Bundesliga, 6 j)  ||  SC Paderborn 07 : 13e/18 (8 pts en 7 m.) | repos 3 j | prochains : Eintracht Frankfurt (Bundesliga, 7 j)"
   },
   {
@@ -1228,14 +1198,14 @@
    "home": "FC Augsburg",
    "away": "SC Freiburg",
    "status": "today",
-   "conf": 53,
+   "conf": 54,
    "victoire": "Victoire FC Augsburg",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
    "double_chance": "12 80%",
    "corner": "N/D",
    "over": "Over 2.5 75%",
    "btts": "BTTS OUI 72%",
-   "analyse": "2026-10-31 | Buts attendus FC Augsburg 2.3 - SC Freiburg 1.6 | 1/N/2 : 53/20/27% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus FC Augsburg 2.3 - SC Freiburg 1.6 | 1/N/2 : 54/20/26% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "FC Augsburg : 9e/18 (9 pts en 7 m.) | repos 4 j | prochains : RB Leipzig (Bundesliga, 7 j)  ||  SC Freiburg : 3e/18 (13 pts en 7 m.) | repos 3 j | prochains : Trabzonspor (Conference League, 5 j), 1. FC Union Berlin (Bundesliga, 8 j)"
   },
   {
@@ -1250,7 +1220,7 @@
    "corner": "N/D",
    "over": "Under 2.5 57%",
    "btts": "BTTS NON 51%",
-   "analyse": "2026-10-31 | Buts attendus Schalke 04 1.3 - RB Leipzig 1.1 | 1/N/2 : 39/28/34% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-10-31 | Buts attendus Schalke 04 1.3 - RB Leipzig 1.1 | 1/N/2 : 39/28/33% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Schalke 04 : 15e/18 (6 pts en 7 m.) | repos 3 j | prochains : TSG Hoffenheim (Bundesliga, 8 j)  ||  RB Leipzig : 6e/18 (12 pts en 7 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Manchester City (Ligue des champions, 4 j), FC Augsburg (Bundesliga, 7 j)"
   },
   {
@@ -1263,7 +1233,7 @@
    "score_exact": "3-1 (7%) · 2-1 (7%)",
    "double_chance": "12 85%",
    "corner": "N/D",
-   "over": "Over 2.5 84%",
+   "over": "Over 2.5 85%",
    "btts": "BTTS OUI 75%",
    "analyse": "2026-10-31 | Buts attendus Werder Bremen 3.2 - TSG Hoffenheim 1.5 | 1/N/2 : 70/15/15% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Werder Bremen : 7e/18 (12 pts en 7 m.) | repos 4 j | prochains : VfB Stuttgart (Bundesliga, 7 j)  ||  TSG Hoffenheim : 10e/18 (9 pts en 7 m.) | repos 3 j | prochains : Crystal Palace (Ligue Europa, 5 j), Schalke 04 (Bundesliga, 8 j)"
@@ -1399,9 +1369,73 @@
    "double_chance": "1X 80%",
    "corner": "N/D",
    "over": "Over 2.5 56%",
-   "btts": "BTTS OUI 54%",
+   "btts": "BTTS OUI 55%",
    "analyse": "2026-10-31 | Buts attendus Millwall 1.9 - Derby County 1.0 | 1/N/2 : 58/22/20% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Millwall : 13e/24 (15 pts en 12 m.) | repos 7 j | prochains : Birmingham City (Championship, 3 j), West Bromwich Albion (Championship, 7 j)  ||  Derby County : 23e/24 (7 pts en 12 m.) | repos 7 j | prochains : Norwich City (Championship, 3 j), Bolton Wanderers (Championship, 6 j)"
+  },
+  {
+   "league": "Championship",
+   "home": "Southampton",
+   "away": "Queens Park Rangers",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 50%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-10-31 | Buts attendus Southampton 1.6 - Queens Park Rangers 1.1 | 1/N/2 : 48/25/27% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Southampton : 2e/24 (24 pts en 12 m.) | repos 7 j | prochains : West Bromwich Albion (Championship, 3 j), Preston North End (Championship, 7 j)  ||  Queens Park Rangers : 8e/24 (20 pts en 12 m.) | repos 7 j | prochains : Burnley (Championship, 3 j), Lincoln City (Championship, 7 j)"
+  },
+  {
+   "league": "Championship",
+   "home": "Swansea City",
+   "away": "Blackburn Rovers",
+   "status": "today",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "2026-10-31 | Buts attendus Swansea City 1.4 - Blackburn Rovers 1.1 | 1/N/2 : 44/26/30% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Swansea City : 3e/24 (23 pts en 12 m.) | repos 7 j | prochains : Portsmouth (Championship, 3 j), Birmingham City (Championship, 7 j)  ||  Blackburn Rovers : 11e/24 (18 pts en 12 m.) | repos 7 j | prochains : Stoke City (Championship, 3 j), West Ham United (Championship, 7 j)"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Estudiantes de Río Cuarto",
+   "away": "Gimnasia La Plata",
+   "status": "finished",
+   "conf": 50,
+   "victoire": "Victoire Gimnasia La Plata",
+   "score_exact": "0-1 (13%) · 0-2 (10%)",
+   "double_chance": "X2 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Estudiantes de Río Cuarto : repos 5 j | prochains : Rosario Central (Liga Argentina, 9 j)  ||  Gimnasia La Plata : repos 7 j | prochains : Belgrano (Córdoba) (Liga Argentina, 9 j)",
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Huracán",
+   "away": "Tigre",
+   "status": "finished",
+   "conf": 71,
+   "victoire": "Serré : Nul ou Huracán",
+   "score_exact": "0-0 (16%) · 1-0 (16%)",
+   "double_chance": "1X 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 73%",
+   "btts": "BTTS NON 65%",
+   "analyse": "Resultat 0-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Huracán : repos 6 j | prochains : Argentinos Juniors (Liga Argentina, 9 j)  ||  Tigre : repos 7 j | prochains : Sarmiento (Junín) (Liga Argentina, 9 j)",
+   "live_score": "0-2",
+   "minute": "FT"
   },
   {
    "league": "Liga Portugal",
@@ -2045,40 +2079,6 @@
    "over": "Under 2.5 53%",
    "btts": "BTTS OUI 52%",
    "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "",
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "Toronto FC",
-   "away": "D.C. United",
-   "status": "finished",
-   "conf": 62,
-   "victoire": "Victoire Toronto FC",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "",
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Fluminense",
-   "away": "Internacional",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Fluminense",
-   "score_exact": "2-1 (10%) · 3-1 (5%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
    "contexte": "",
    "live_score": "2-1",
    "minute": "FT"
