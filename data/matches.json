@@ -1,17 +1,17 @@
 {
- "date": "2026-10-31 20:56 UTC",
+ "date": "2026-10-31 21:22 UTC",
  "version": "V17",
  "stats": {
-  "n": 585,
-  "n_avant": 129,
+  "n": 588,
+  "n_avant": 132,
   "dc": 76,
   "over": 52,
   "btts": 55,
   "score": 15,
   "1x2": 56,
-  "n_fav": 261,
+  "n_fav": 262,
   "serre": 73,
-  "n_serre": 324,
+  "n_serre": 326,
   "base_dom": 45,
   "n_ctx": 16,
   "brier_ctx": 0.569,
@@ -767,7 +767,7 @@
    "analyse": "2026-10-31 | Buts attendus Aston Villa 1.3 - Fulham 1.0 | 1/N/2 : 43/28/29% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Aston Villa : 12e/20 (11 pts en 8 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Barcelona (Ligue des champions, 3 j), Manchester United (Premier League, 8 j)  ||  Fulham : 16e/20 (8 pts en 8 m.) | repos 3 j | prochains : Newcastle United (Premier League, 7 j)",
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "61'"
   },
   {
    "league": "La Liga",
@@ -784,7 +784,7 @@
    "analyse": "2026-10-31 | Buts attendus Barcelona 3.1 - Alavés 1.1 | 1/N/2 : 77/13/10% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Barcelona : 2e/20 (27 pts en 10 m.) | repos 6 j | match europeen proche : rotation possible | prochains : Aston Villa (Ligue des champions, 3 j), Atlético Madrid (La Liga, 8 j)  ||  Alavés : 7e/20 (12 pts en 10 m.) | repos 8 j | prochains : Anaitasuna (Coupe du Roi, 3 j), Sevilla (La Liga, 6 j)",
    "live_score": "4-0",
-   "minute": "HT"
+   "minute": "56'"
   },
   {
    "league": "La Liga 2",
@@ -801,7 +801,7 @@
    "analyse": "2026-10-31 | Buts attendus Albacete 0.8 - CD Sabadell 1.2 | 1/N/2 : 24/30/46% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Albacete : 22e/22 (4 pts en 11 m.) | repos 6 j | prochains : Calvo Sotelo (Coupe du Roi, 4 j), Leganés (La Liga 2, 7 j)  ||  CD Sabadell : 10e/22 (17 pts en 11 m.) | repos 6 j | prochains : Utebo (Coupe du Roi, 4 j), Real Sociedad II (La Liga 2, 9 j)",
    "live_score": "2-0",
-   "minute": "45'+10'"
+   "minute": "54'"
   },
   {
    "league": "Serie A",
@@ -818,7 +818,7 @@
    "analyse": "2026-10-31 | Buts attendus AC Milan 1.7 - Internazionale 1.9 | 1/N/2 : 34/22/44% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "AC Milan : 5e/20 (18 pts en 9 m.) | repos 3 j | prochains : Ferencvaros (Ligue Europa, 5 j), Genoa (Serie A, 8 j)  ||  Internazionale : 1e/20 (25 pts en 9 m.) | repos 3 j | match europeen proche : rotation possible | prochains : Feyenoord Rotterdam (Ligue des champions, 3 j), Como (Serie A, 8 j)",
    "live_score": "3-1",
-   "minute": "49'"
+   "minute": "74'"
   },
   {
    "league": "2. Bundesliga",
@@ -834,8 +834,8 @@
    "btts": "BTTS OUI 68%",
    "analyse": "2026-10-31 | Buts attendus Karlsruher SC 1.7 - 1. FC Heidenheim 1846 1.8 | 1/N/2 : 36/22/42% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Karlsruher SC : 18e/18 (8 pts en 9 m.) | repos 4 j | prochains : VfL Bochum (2. Bundesliga, 8 j)  ||  1. FC Heidenheim 1846 : 6e/18 (15 pts en 9 m.) | repos 7 j | prochains : Hannover 96 (2. Bundesliga, 8 j)",
-   "live_score": "1-0",
-   "minute": "67'"
+   "live_score": "2-1",
+   "minute": "90'+3'"
   },
   {
    "league": "Ligue 1",
@@ -851,8 +851,8 @@
    "btts": "BTTS OUI 56%",
    "analyse": "2026-10-31 | Buts attendus Troyes 1.2 - Le Mans 1.6 | 1/N/2 : 30/25/46% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Troyes : 17e/18 (5 pts en 8 m.) | repos 6 j | prochains : Paris Saint-Germain (Ligue 1, 7 j)  ||  Le Mans : 15e/18 (7 pts en 8 m.) | repos 6 j | prochains : AS Monaco (Ligue 1, 8 j)",
-   "live_score": "1-0",
-   "minute": "53'"
+   "live_score": "2-0",
+   "minute": "79'"
   },
   {
    "league": "Eredivisie",
@@ -869,7 +869,7 @@
    "analyse": "2026-10-31 | Buts attendus Ajax Amsterdam 1.8 - AZ Alkmaar 1.7 | 1/N/2 : 41/22/37% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Ajax Amsterdam : 3e/18 (21 pts en 10 m.) | repos 6 j | prochains : FC Midtjylland (Conference League, 5 j), FC Twente (Eredivisie, 8 j)  ||  AZ Alkmaar : 5e/18 (20 pts en 10 m.) | repos 6 j | prochains : Juventus (Ligue Europa, 5 j), FC Groningen (Eredivisie, 8 j)",
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "61'"
   },
   {
    "league": "Eredivisie",
@@ -886,7 +886,7 @@
    "analyse": "2026-10-31 | Buts attendus SC Cambuur 2.1 - Go Ahead Eagles 2.6 | 1/N/2 : 32/18/50% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "SC Cambuur : 10e/18 (12 pts en 10 m.) | repos 7 j | prochains : PSV Eindhoven (Eredivisie, 8 j)  ||  Go Ahead Eagles : 9e/18 (14 pts en 10 m.) | repos 8 j | prochains : Excelsior (Eredivisie, 7 j)",
    "live_score": "3-0",
-   "minute": "HT"
+   "minute": "65'"
   },
   {
    "league": "Liga Portugal",
@@ -903,7 +903,7 @@
    "analyse": "2026-10-31 | Buts attendus FC Porto 1.9 - Estoril 0.5 | 1/N/2 : 71/20/9% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "FC Porto : 1e/18 (27 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Napoli (Ligue des champions, 4 j), Vitória de Guimaraes (Liga Portugal, 8 j)  ||  Estoril : 18e/18 (2 pts en 9 m.) | repos 6 j | prochains : Maritimo (Liga Portugal, 8 j)",
    "live_score": "1-0",
-   "minute": "24'"
+   "minute": "HT"
   },
   {
    "league": "Pro League",
@@ -919,8 +919,8 @@
    "btts": "BTTS OUI 65%",
    "analyse": "2026-10-31 | Buts attendus Anderlecht 1.8 - KVC Westerlo 1.5 | 1/N/2 : 45/23/33% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Anderlecht : 5e/18 (16 pts en 9 m.) | repos 6 j | prochains : RB Salzburg (Ligue Europa, 5 j), Club Brugge (Pro League, 8 j)  ||  KVC Westerlo : 7e/18 (14 pts en 9 m.) | repos 7 j | prochains : Royal Charleroi SC (Pro League, 7 j)",
-   "live_score": "3-0",
-   "minute": "HT"
+   "live_score": "4-0",
+   "minute": "71'"
   },
   {
    "league": "Pro League",
@@ -936,59 +936,42 @@
    "btts": "BTTS OUI 59%",
    "analyse": "2026-10-31 | Buts attendus Waasland-Beveren 1.0 - Union St.-Gilloise 2.5 | 1/N/2 : 14/17/68% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Waasland-Beveren : 12e/18 (10 pts en 9 m.) | repos 7 j | prochains : Standard Liege (Pro League, 6 j)  ||  Union St.-Gilloise : 3e/18 (23 pts en 9 m.) | repos 6 j | prochains : Celta Vigo (Ligue Europa, 5 j), Racing Genk (Pro League, 8 j)",
-   "live_score": "0-1",
-   "minute": "54'"
+   "live_score": "1-2",
+   "minute": "79'"
   },
   {
    "league": "MLS",
-   "home": "Sporting Kansas City",
-   "away": "FC Dallas",
+   "home": "LA Galaxy",
+   "away": "Austin FC",
    "status": "live",
-   "conf": 79,
+   "conf": 77,
    "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 79%",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
    "corner": "N/D",
-   "over": "Over 2.5 70%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "2026-10-31 | Buts attendus Sporting Kansas City 1.6 - FC Dallas 2.0 | 1/N/2 : 30/21/49% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sporting Kansas City : repos 3 j | prochains : San Diego FC (MLS, 7 j)  ||  FC Dallas : repos 3 j | prochains : Colorado Rapids (MLS, 7 j)",
-   "live_score": "1-1",
-   "minute": "87'"
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "2026-10-31 | Buts attendus LA Galaxy 1.7 - Austin FC 1.5 | 1/N/2 : 44/23/33% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "LA Galaxy : repos 6 j | prochains : Real Salt Lake (MLS, 7 j)  ||  Austin FC : repos 3 j | prochains : Portland Timbers (MLS, 7 j)",
+   "live_score": "1-0",
+   "minute": "12'"
   },
   {
    "league": "MLS",
-   "home": "St. Louis CITY SC",
-   "away": "San Diego FC",
+   "home": "San Jose Earthquakes",
+   "away": "Real Salt Lake",
    "status": "live",
-   "conf": 67,
-   "victoire": "Victoire St. Louis CITY SC",
-   "score_exact": "2-1 (8%) · 3-1 (8%)",
-   "double_chance": "12 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 79%",
-   "btts": "BTTS OUI 71%",
-   "analyse": "2026-10-31 | Buts attendus St. Louis CITY SC 2.8 - San Diego FC 1.4 | 1/N/2 : 67/16/17% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "St. Louis CITY SC : repos 3 j | prochains : Houston Dynamo FC (MLS, 7 j)  ||  San Diego FC : repos 3 j | prochains : Sporting Kansas City (MLS, 7 j)",
-   "live_score": "0-1",
-   "minute": "87'"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Coritiba",
-   "away": "Vitória",
-   "status": "live",
-   "conf": 73,
+   "conf": 76,
    "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 73%",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 76%",
    "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-10-31 | Buts attendus Coritiba 1.3 - Vitória 1.2 | 1/N/2 : 39/27/34% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Coritiba : repos 5 j | prochains : Internacional (Brasileirao, 3 j)  ||  Vitória : repos 7 j | prochains : Fluminense (Brasileirao, 6 j)",
-   "live_score": "2-0",
-   "minute": "90'+7'"
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "2026-10-31 | Buts attendus San Jose Earthquakes 1.5 - Real Salt Lake 1.5 | 1/N/2 : 36/24/39% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "San Jose Earthquakes : repos 3 j | prochains : Minnesota United FC (MLS, 7 j)  ||  Real Salt Lake : repos 3 j | prochains : LA Galaxy (MLS, 7 j)",
+   "live_score": "1-0",
+   "minute": "12'"
   },
   {
    "league": "Liga Argentina",
@@ -1005,37 +988,7 @@
    "analyse": "2026-10-31 | Buts attendus Deportivo Riestra 1.2 - Talleres (Córdoba) 0.8 | 1/N/2 : 43/30/27% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Deportivo Riestra : repos 5 j | prochains : Independiente (Liga Argentina, 8 j)  ||  Talleres (Córdoba) : repos 7 j | prochains : Estudiantes de La Plata (Liga Argentina, 8 j)",
    "live_score": "0-1",
-   "minute": "HT"
-  },
-  {
-   "league": "MLS",
-   "home": "LA Galaxy",
-   "away": "Austin FC",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-10-31 | Buts attendus LA Galaxy 1.7 - Austin FC 1.5 | 1/N/2 : 44/23/33% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "LA Galaxy : repos 6 j | prochains : Real Salt Lake (MLS, 7 j)  ||  Austin FC : repos 3 j | prochains : Portland Timbers (MLS, 7 j)"
-  },
-  {
-   "league": "MLS",
-   "home": "San Jose Earthquakes",
-   "away": "Real Salt Lake",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "2026-10-31 | Buts attendus San Jose Earthquakes 1.5 - Real Salt Lake 1.5 | 1/N/2 : 36/24/39% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "San Jose Earthquakes : repos 3 j | prochains : Minnesota United FC (MLS, 7 j)  ||  Real Salt Lake : repos 3 j | prochains : LA Galaxy (MLS, 7 j)"
+   "minute": "65'"
   },
   {
    "league": "Liga Argentina",
@@ -1082,6 +1035,57 @@
    "analyse": "Resultat 3-0 | 1X2 RATE | DC RATE | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
    "contexte": "Guingamp : 12e/18 (11 pts en 10 m.) | repos 8 j | prochains : Dunkerque (Ligue 2, 6 j)  ||  Saint-Étienne : 1e/18 (25 pts en 10 m.) | repos 7 j | prochains : Stade Laval (Ligue 2, 7 j)",
    "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "Sporting Kansas City",
+   "away": "FC Dallas",
+   "status": "finished",
+   "conf": 79,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 70%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Sporting Kansas City : repos 3 j | prochains : San Diego FC (MLS, 7 j)  ||  FC Dallas : repos 3 j | prochains : Colorado Rapids (MLS, 7 j)",
+   "live_score": "1-1",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "St. Louis CITY SC",
+   "away": "San Diego FC",
+   "status": "finished",
+   "conf": 67,
+   "victoire": "Victoire St. Louis CITY SC",
+   "score_exact": "2-1 (8%) · 3-1 (8%)",
+   "double_chance": "12 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 79%",
+   "btts": "BTTS OUI 71%",
+   "analyse": "Resultat 0-1 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "St. Louis CITY SC : repos 3 j | prochains : Houston Dynamo FC (MLS, 7 j)  ||  San Diego FC : repos 3 j | prochains : Sporting Kansas City (MLS, 7 j)",
+   "live_score": "0-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Coritiba",
+   "away": "Vitória",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 54%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Coritiba : repos 5 j | prochains : Internacional (Brasileirao, 3 j)  ||  Vitória : repos 7 j | prochains : Fluminense (Brasileirao, 6 j)",
+   "live_score": "2-0",
    "minute": "FT"
   },
   {
@@ -1694,57 +1698,6 @@
    "analyse": "Resultat 6-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Milton Keynes Dons : 15e/24 (15 pts en 12 m.) | repos 4 j | prochains : Swindon Town (FA Cup, 7 j), Burton Albion (League One, 14 j)  ||  Doncaster Rovers : 18e/24 (12 pts en 12 m.) | repos 4 j | prochains : Kidderminster Harriers (FA Cup, 7 j), Leyton Orient (League One, 14 j)",
    "live_score": "6-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League One",
-   "home": "Peterborough United",
-   "away": "Luton Town",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Luton Town",
-   "score_exact": "1-2 (9%) · 1-3 (6%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Peterborough United : 21e/24 (10 pts en 12 m.) | repos 4 j | prochains : Reading (FA Cup, 7 j)  ||  Luton Town : 8e/24 (20 pts en 12 m.) | repos 4 j | prochains : Huddersfield Town (League One, 3 j), Forest Green Rovers (FA Cup, 7 j)",
-   "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League One",
-   "home": "Stockport County",
-   "away": "AFC Wimbledon",
-   "status": "finished",
-   "conf": 67,
-   "victoire": "Victoire Stockport County",
-   "score_exact": "1-0 (16%) · 2-0 (14%)",
-   "double_chance": "1X 88%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS NON 61%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Stockport County : 2e/24 (23 pts en 13 m.) | repos 4 j | prochains : Cray Wanderers (FA Cup, 8 j), Reading (League One, 14 j)  ||  AFC Wimbledon : 17e/24 (13 pts en 12 m.) | repos 7 j | prochains : Crewe Alexandra (FA Cup, 7 j), Blackpool (League One, 14 j)",
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League One",
-   "home": "Wigan Athletic",
-   "away": "Bromley",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : Nul ou Wigan Athletic",
-   "score_exact": "1-1 (12%) · 1-0 (12%)",
-   "double_chance": "1X 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Wigan Athletic : 24e/24 (7 pts en 12 m.) | repos 4 j | prochains : Mansfield Town (League One, 3 j), Boreham Wood (FA Cup, 7 j), Barnsley (League One, 14 j)  ||  Bromley : 22e/24 (9 pts en 12 m.) | repos 4 j | prochains : Rotherham United (FA Cup, 7 j), Notts County (League One, 14 j)",
-   "live_score": "3-2",
    "minute": "FT"
   }
  ]
