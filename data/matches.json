@@ -1,21 +1,21 @@
 {
- "date": "2026-10-31 22:20 UTC",
+ "date": "2026-10-31 22:55 UTC",
  "version": "V17",
  "stats": {
-  "n": 598,
-  "n_avant": 142,
+  "n": 599,
+  "n_avant": 143,
   "dc": 75,
-  "over": 53,
+  "over": 52,
   "btts": 55,
   "score": 15,
-  "1x2": 56,
-  "n_fav": 264,
+  "1x2": 57,
+  "n_fav": 265,
   "serre": 72,
   "n_serre": 334,
   "base_dom": 45,
-  "n_ctx": 19,
-  "brier_ctx": 0.56,
-  "brier_base": 0.557
+  "n_ctx": 20,
+  "brier_ctx": 0.539,
+  "brier_base": 0.534
  },
  "tickets": [
   {
@@ -753,23 +753,6 @@
  ],
  "matches": [
   {
-   "league": "Liga Portugal",
-   "home": "FC Porto",
-   "away": "Estoril",
-   "status": "live",
-   "conf": 71,
-   "victoire": "Victoire FC Porto",
-   "score_exact": "1-0 (16%) · 2-0 (16%)",
-   "double_chance": "1X 91%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS NON 65%",
-   "analyse": "2026-10-31 | Buts attendus FC Porto 1.9 - Estoril 0.5 | 1/N/2 : 71/20/9% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "FC Porto : 1e/18 (27 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Napoli (Ligue des champions, 4 j), Vitória de Guimaraes (Liga Portugal, 8 j)  ||  Estoril : 18e/18 (2 pts en 9 m.) | repos 6 j | prochains : Maritimo (Liga Portugal, 8 j)",
-   "live_score": "4-0",
-   "minute": "88'"
-  },
-  {
    "league": "MLS",
    "home": "LA Galaxy",
    "away": "Austin FC",
@@ -783,8 +766,8 @@
    "btts": "BTTS OUI 63%",
    "analyse": "2026-10-31 | Buts attendus LA Galaxy 1.7 - Austin FC 1.5 | 1/N/2 : 44/23/33% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "LA Galaxy : repos 6 j | prochains : Real Salt Lake (MLS, 7 j)  ||  Austin FC : repos 3 j | prochains : Portland Timbers (MLS, 7 j)",
-   "live_score": "3-0",
-   "minute": "51'"
+   "live_score": "4-1",
+   "minute": "86'"
   },
   {
    "league": "MLS",
@@ -801,7 +784,7 @@
    "analyse": "2026-10-31 | Buts attendus San Jose Earthquakes 1.5 - Real Salt Lake 1.5 | 1/N/2 : 36/24/39% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "San Jose Earthquakes : repos 3 j | prochains : Minnesota United FC (MLS, 7 j)  ||  Real Salt Lake : repos 3 j | prochains : LA Galaxy (MLS, 7 j)",
    "live_score": "2-1",
-   "minute": "51'"
+   "minute": "86'"
   },
   {
    "league": "Liga Argentina",
@@ -817,8 +800,8 @@
    "btts": "BTTS NON 69%",
    "analyse": "2026-10-31 | Buts attendus Vélez Sarsfield 1.4 - San Lorenzo 0.5 | 1/N/2 : 59/27/14% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Vélez Sarsfield : repos 6 j | prochains : Unión (Santa Fe) (Liga Argentina, 8 j)  ||  San Lorenzo : repos 7 j | prochains : Platense (Liga Argentina, 8 j)",
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "2-0",
+   "minute": "40'"
   },
   {
    "league": "Liga MX",
@@ -834,6 +817,23 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-10-31 | Buts attendus Pachuca 1.4 - Tigres UANL 1.1 | 1/N/2 : 44/26/30% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Pachuca : repos 6 j | prochains : Atlas (Liga MX, 7 j)  ||  Tigres UANL : repos 7 j | prochains : Cruz Azul (Liga MX, 7 j)"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "FC Porto",
+   "away": "Estoril",
+   "status": "finished",
+   "conf": 71,
+   "victoire": "Victoire FC Porto",
+   "score_exact": "1-0 (16%) · 2-0 (16%)",
+   "double_chance": "1X 91%",
+   "corner": "N/D",
+   "over": "Under 2.5 55%",
+   "btts": "BTTS NON 65%",
+   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "FC Porto : 1e/18 (27 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Napoli (Ligue des champions, 4 j), Vitória de Guimaraes (Liga Portugal, 8 j)  ||  Estoril : 18e/18 (2 pts en 9 m.) | repos 6 j | prochains : Maritimo (Liga Portugal, 8 j)",
+   "live_score": "4-0",
+   "minute": "FT"
   },
   {
    "league": "Premier League",
@@ -1496,23 +1496,6 @@
    "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Bolton Wanderers : 19e/24 (14 pts en 12 m.) | repos 8 j | prochains : Charlton Athletic (Championship, 3 j), Derby County (Championship, 6 j)  ||  Bristol City : 15e/24 (15 pts en 12 m.) | repos 7 j | prochains : Wolverhampton Wanderers (Championship, 4 j), Norwich City (Championship, 7 j)",
    "live_score": "2-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Championship",
-   "home": "Burnley",
-   "away": "Portsmouth",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Burnley : 22e/24 (8 pts en 12 m.) | repos 7 j | prochains : Queens Park Rangers (Championship, 3 j), Cardiff City (Championship, 7 j)  ||  Portsmouth : 12e/24 (18 pts en 12 m.) | repos 7 j | prochains : Swansea City (Championship, 3 j), Stoke City (Championship, 7 j)",
-   "live_score": "0-0",
    "minute": "FT"
   }
  ]
