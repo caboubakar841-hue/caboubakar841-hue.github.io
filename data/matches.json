@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31 23:20 UTC",
+ "date": "2026-10-31 23:53 UTC",
  "version": "V17",
  "stats": {
   "n": 602,
@@ -959,7 +959,7 @@
    "analyse": "2026-10-31 | Buts attendus Vélez Sarsfield 1.4 - San Lorenzo 0.5 | 1/N/2 : 59/27/14% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Vélez Sarsfield : repos 6 j | prochains : Unión (Santa Fe) (Liga Argentina, 8 j)  ||  San Lorenzo : repos 7 j | prochains : Platense (Liga Argentina, 8 j)",
    "live_score": "2-1",
-   "minute": "HT"
+   "minute": "79'"
   },
   {
    "league": "Liga MX",
@@ -975,8 +975,8 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-10-31 | Buts attendus Pachuca 1.4 - Tigres UANL 1.1 | 1/N/2 : 44/26/30% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Pachuca : repos 6 j | prochains : Atlas (Liga MX, 7 j)  ||  Tigres UANL : repos 7 j | prochains : Cruz Azul (Liga MX, 7 j)",
-   "live_score": "0-0",
-   "minute": "16'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
