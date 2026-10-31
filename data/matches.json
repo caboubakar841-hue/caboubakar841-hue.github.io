@@ -1,17 +1,17 @@
 {
- "date": "2026-10-31 01:27 UTC",
+ "date": "2026-10-31 02:14 UTC",
  "version": "V17",
  "stats": {
-  "n": 501,
-  "n_avant": 45,
+  "n": 503,
+  "n_avant": 47,
   "dc": 76,
   "over": 53,
   "btts": 55,
-  "score": 15,
+  "score": 16,
   "1x2": 58,
   "n_fav": 223,
   "serre": 73,
-  "n_serre": 278,
+  "n_serre": 280,
   "base_dom": 44,
   "n_ctx": 5,
   "brier_ctx": 0.46,
@@ -136,8 +136,8 @@
        "pick": "Double chance X2 (nul ou Rosario Central)",
        "code": "X2",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       }
      ],
      "combined": 4.0,
@@ -753,40 +753,6 @@
  ],
  "matches": [
   {
-   "league": "Liga Argentina",
-   "home": "Racing Club",
-   "away": "Aldosivi",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-10-31 | Buts attendus Racing Club 1.4 - Aldosivi 1.2 | 1/N/2 : 42/26/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Racing Club : repos 5 j | prochains : Barracas Central (Liga Argentina, 9 j)  ||  Aldosivi : repos 5 j | prochains : River Plate (Liga Argentina, 9 j)",
-   "live_score": "1-1",
-   "minute": "55'"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Sarmiento (Junín)",
-   "away": "Rosario Central",
-   "status": "live",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-10-31 | Buts attendus Sarmiento (Junín) 1.2 - Rosario Central 1.6 | 1/N/2 : 29/24/47% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sarmiento (Junín) : repos 7 j | prochains : Tigre (Liga Argentina, 9 j)  ||  Rosario Central : repos 6 j | prochains : Estudiantes de Río Cuarto (Liga Argentina, 9 j)",
-   "live_score": "1-1",
-   "minute": "53'"
-  },
-  {
    "league": "Liga MX",
    "home": "Atlético de San Luis",
    "away": "Atlas",
@@ -801,7 +767,7 @@
    "analyse": "2026-10-31 | Buts attendus Atlético de San Luis 1.7 - Atlas 1.5 | 1/N/2 : 43/23/34% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Atlético de San Luis : repos 7 j | prochains : FC Juárez (Liga MX, 7 j)  ||  Atlas : repos 5 j | prochains : Pachuca (Liga MX, 8 j)",
    "live_score": "0-0",
-   "minute": "26'"
+   "minute": "49'"
   },
   {
    "league": "Liga MX",
@@ -817,8 +783,8 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-10-31 | Buts attendus FC Juárez 1.0 - Querétaro 2.0 | 1/N/2 : 17/21/62% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "FC Juárez : repos 7 j | prochains : Atlético de San Luis (Liga MX, 7 j)  ||  Querétaro : repos 5 j | prochains : Puebla (Liga MX, 9 j)",
-   "live_score": "1-0",
-   "minute": "28'"
+   "live_score": "2-0",
+   "minute": "55'"
   },
   {
    "league": "Liga MX",
@@ -1419,6 +1385,40 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-10-31 | Buts attendus Wolverhampton Wanderers 1.8 - Cardiff City 1.3 | 1/N/2 : 49/23/28% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Wolverhampton Wanderers : 5e/24 (21 pts en 12 m.) | repos 7 j | prochains : Bristol City (Championship, 4 j), Wrexham (Championship, 7 j)  ||  Cardiff City : 16e/24 (14 pts en 12 m.) | repos 7 j | prochains : West Ham United (Championship, 4 j), Burnley (Championship, 7 j)"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Racing Club",
+   "away": "Aldosivi",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Racing Club : repos 5 j | prochains : Barracas Central (Liga Argentina, 9 j)  ||  Aldosivi : repos 5 j | prochains : River Plate (Liga Argentina, 9 j)",
+   "live_score": "2-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Sarmiento (Junín)",
+   "away": "Rosario Central",
+   "status": "finished",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Sarmiento (Junín) : repos 7 j | prochains : Tigre (Liga Argentina, 9 j)  ||  Rosario Central : repos 6 j | prochains : Estudiantes de Río Cuarto (Liga Argentina, 9 j)",
+   "live_score": "1-2",
+   "minute": "FT"
   },
   {
    "league": "Brasileirao",
@@ -2064,40 +2064,6 @@
    "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
    "contexte": "",
    "live_score": "4-0",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "Inter Miami CF",
-   "away": "FC Cincinnati",
-   "status": "finished",
-   "conf": 62,
-   "victoire": "Victoire Inter Miami CF",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "12 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 79%",
-   "btts": "BTTS OUI 73%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "",
-   "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "New England Revolution",
-   "away": "Red Bull New York",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (6%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "",
-   "live_score": "3-2",
    "minute": "FT"
   }
  ]
