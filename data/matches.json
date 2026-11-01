@@ -1,15 +1,15 @@
 {
- "date": "2026-11-01 22:21 UTC",
+ "date": "2026-11-01 22:56 UTC",
  "version": "V17",
  "stats": {
-  "n": 550,
-  "n_avant": 199,
+  "n": 551,
+  "n_avant": 200,
   "dc": 75,
   "over": 53,
   "btts": 56,
   "score": 15,
   "1x2": 58,
-  "n_fav": 245,
+  "n_fav": 246,
   "serre": 71,
   "n_serre": 305,
   "base_dom": 47,
@@ -946,23 +946,6 @@
  "matches": [
   {
    "league": "MLS",
-   "home": "Vancouver Whitecaps",
-   "away": "Seattle Sounders FC",
-   "status": "live",
-   "conf": 57,
-   "victoire": "Victoire Vancouver Whitecaps",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-01 | Buts attendus Vancouver Whitecaps 1.8 - Seattle Sounders FC 0.9 | 1/N/2 : 57/23/20% | base sur 18 et 18 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Vancouver Whitecaps : repos 4 j | prochains : CF Montréal (MLS, 6 j)  ||  Seattle Sounders FC : repos 4 j | prochains : LAFC (MLS, 6 j)",
-   "live_score": "5-1",
-   "minute": "79'"
-  },
-  {
-   "league": "MLS",
    "home": "Atlanta United FC",
    "away": "Toronto FC",
    "status": "live",
@@ -975,8 +958,8 @@
    "btts": "BTTS OUI 68%",
    "analyse": "2026-11-01 | Buts attendus Atlanta United FC 1.8 - Toronto FC 1.7 | 1/N/2 : 42/22/36% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Atlanta United FC : repos 4 j | prochains : Red Bull New York (MLS, 6 j)  ||  Toronto FC : repos 4 j | prochains : Philadelphia Union (MLS, 6 j)",
-   "live_score": "1-0",
-   "minute": "41'"
+   "live_score": "3-0",
+   "minute": "57'"
   },
   {
    "league": "MLS",
@@ -992,8 +975,8 @@
    "btts": "BTTS NON 60%",
    "analyse": "2026-11-01 | Buts attendus Nashville SC 1.9 - Red Bull New York 0.6 | 1/N/2 : 68/20/11% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Nashville SC : repos 4 j | prochains : FC Cincinnati (MLS, 6 j)  ||  Red Bull New York : repos 4 j | prochains : Atlanta United FC (MLS, 6 j)",
-   "live_score": "0-2",
-   "minute": "40'"
+   "live_score": "1-2",
+   "minute": "50'"
   },
   {
    "league": "Liga Argentina",
@@ -1009,8 +992,8 @@
    "btts": "BTTS NON 72%",
    "analyse": "2026-11-01 | Buts attendus Belgrano (Córdoba) 0.8 - Barracas Central 0.7 | 1/N/2 : 37/36/27% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Belgrano (Córdoba) : repos 7 j | prochains : Gimnasia La Plata (Liga Argentina, 7 j)  ||  Barracas Central : repos 7 j | prochains : Racing Club (Liga Argentina, 7 j)",
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "2-0",
+   "minute": "63'"
   },
   {
    "league": "Liga Argentina",
@@ -1026,8 +1009,8 @@
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-01 | Buts attendus Newell's Old Boys 1.4 - Unión (Santa Fe) 0.9 | 1/N/2 : 49/27/24% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Newell's Old Boys : repos 8 j | prochains : Instituto (Córdoba) (Liga Argentina, 7 j)  ||  Unión (Santa Fe) : repos 6 j | prochains : Vélez Sarsfield (Liga Argentina, 7 j)",
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "0-1",
+   "minute": "63'"
   },
   {
    "league": "Liga MX",
@@ -1074,6 +1057,23 @@
    "analyse": "Resultat 3-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Braga : 10e/18 (11 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : AGF (Conference League, 4 j), Rio Ave (Liga Portugal, 7 j)  ||  FC Famalicao : 11e/18 (10 pts en 9 m.) | repos 7 j | prochains : Arouca (Liga Portugal, 5 j)",
    "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "Vancouver Whitecaps",
+   "away": "Seattle Sounders FC",
+   "status": "finished",
+   "conf": 57,
+   "victoire": "Victoire Vancouver Whitecaps",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "1X 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 5-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Vancouver Whitecaps : repos 4 j | prochains : CF Montréal (MLS, 6 j)  ||  Seattle Sounders FC : repos 4 j | prochains : LAFC (MLS, 6 j)",
+   "live_score": "5-1",
    "minute": "FT"
   },
   {
@@ -1720,23 +1720,6 @@
    "analyse": "Resultat 2-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Falkirk : 6e/12 (15 pts en 11 m.) | repos 4 j | prochains : Heart of Midlothian (Scottish Premiership, 7 j)  ||  Celtic : 1e/12 (28 pts en 11 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Besiktas (Ligue Europa, 4 j), Kilmarnock (Scottish Premiership, 7 j)",
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "Hannover 96",
-   "away": "Dynamo Dresden",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Hannover 96 : 18e/18 (8 pts en 9 m.) | repos 4 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 7 j)  ||  Dynamo Dresden : 17e/18 (8 pts en 9 m.) | repos 4 j | prochains : SpVgg Greuther Fürth (2. Bundesliga, 5 j)",
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
