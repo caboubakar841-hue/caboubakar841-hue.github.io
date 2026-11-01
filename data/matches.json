@@ -1,18 +1,18 @@
 {
- "date": "2026-11-01 02:23 UTC",
+ "date": "2026-11-01 03:08 UTC",
  "version": "V17",
  "stats": {
-  "n": 499,
-  "n_avant": 148,
+  "n": 501,
+  "n_avant": 150,
   "dc": 75,
-  "over": 53,
-  "btts": 56,
+  "over": 52,
+  "btts": 55,
   "score": 14,
   "1x2": 56,
-  "n_fav": 219,
+  "n_fav": 220,
   "serre": 71,
-  "n_serre": 280,
-  "base_dom": 45,
+  "n_serre": 281,
+  "base_dom": 46,
   "n_ctx": 20,
   "brier_ctx": 0.539,
   "brier_base": 0.534
@@ -48,8 +48,8 @@
        "pick": "Double chance 12 (pas de nul)",
        "code": "12",
        "p": 74,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "4-2"
       },
       {
        "id": "401882823",
@@ -958,25 +958,8 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-01 | Buts attendus Colorado Rapids 1.3 - Chicago Fire FC 1.3 | 1/N/2 : 37/27/36% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Colorado Rapids : repos 3 j | prochains : FC Dallas (MLS, 7 j)  ||  Chicago Fire FC : repos 3 j | prochains : Columbus Crew (MLS, 7 j)",
-   "live_score": "1-1",
-   "minute": "43'"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Estudiantes de La Plata",
-   "away": "Instituto (Córdoba)",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : Nul ou Instituto (Córdoba)",
-   "score_exact": "0-1 (13%) · 0-0 (10%)",
-   "double_chance": "X2 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-01 | Buts attendus Estudiantes de La Plata 1.0 - Instituto (Córdoba) 1.4 | 1/N/2 : 26/27/46% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Estudiantes de La Plata : repos 5 j | prochains : Talleres (Córdoba) (Liga Argentina, 8 j)  ||  Instituto (Córdoba) : repos 5 j | prochains : Newell's Old Boys (Liga Argentina, 8 j)",
-   "live_score": "3-3",
-   "minute": "90'+2'"
+   "live_score": "2-2",
+   "minute": "68'"
   },
   {
    "league": "Liga MX",
@@ -992,25 +975,8 @@
    "btts": "BTTS OUI 56%",
    "analyse": "2026-11-01 | Buts attendus Monterrey 1.5 - Tijuana 1.3 | 1/N/2 : 42/25/33% | base sur 12 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Monterrey : repos 7 j | prochains : Toluca (Liga MX, 7 j), Querétaro (Liga MX, 14 j)  ||  Tijuana : repos 3 j | prochains : Necaxa (Liga MX, 6 j)",
-   "live_score": "2-2",
-   "minute": "50'"
-  },
-  {
-   "league": "Liga MX",
-   "home": "Guadalajara",
-   "away": "Atlante",
-   "status": "live",
-   "conf": 57,
-   "victoire": "Victoire Guadalajara",
-   "score_exact": "1-0 (17%) · 2-0 (13%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Under 2.5 62%",
-   "btts": "BTTS NON 61%",
-   "analyse": "2026-11-01 | Buts attendus Guadalajara 1.5 - Atlante 0.7 | 1/N/2 : 57/26/17% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Guadalajara : repos 7 j | prochains : León (Liga MX, 8 j)  ||  Atlante : repos 8 j | prochains : Santos (Liga MX, 6 j)",
-   "live_score": "2-0",
-   "minute": "56'"
+   "live_score": "3-3",
+   "minute": "90'+6'"
   },
   {
    "league": "Liga MX",
@@ -1611,6 +1577,40 @@
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-01 | Buts attendus Maritimo 0.8 - Santa Clara 1.9 | 1/N/2 : 14/21/64% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Maritimo : 14e/18 (8 pts en 9 m.) | repos 9 j | prochains : Estoril (Liga Portugal, 7 j)  ||  Santa Clara : 4e/18 (18 pts en 9 m.) | repos 6 j | prochains : Gil Vicente (Liga Portugal, 7 j)"
+  },
+  {
+   "league": "Liga MX",
+   "home": "Guadalajara",
+   "away": "Atlante",
+   "status": "finished",
+   "conf": 57,
+   "victoire": "Victoire Guadalajara",
+   "score_exact": "1-0 (17%) · 2-0 (13%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Under 2.5 62%",
+   "btts": "BTTS NON 61%",
+   "analyse": "Resultat 4-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Guadalajara : repos 7 j | prochains : León (Liga MX, 8 j)  ||  Atlante : repos 8 j | prochains : Santos (Liga MX, 6 j)",
+   "live_score": "4-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Estudiantes de La Plata",
+   "away": "Instituto (Córdoba)",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : Nul ou Instituto (Córdoba)",
+   "score_exact": "0-1 (13%) · 0-0 (10%)",
+   "double_chance": "X2 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 3-3 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Estudiantes de La Plata : repos 5 j | prochains : Talleres (Córdoba) (Liga Argentina, 8 j)  ||  Instituto (Córdoba) : repos 5 j | prochains : Newell's Old Boys (Liga Argentina, 8 j)",
+   "live_score": "3-3",
+   "minute": "FT"
   },
   {
    "league": "Liga MX",
@@ -2256,40 +2256,6 @@
    "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Rayo Vallecano : 17e/20 (9 pts en 9 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 8 j)  ||  Celta Vigo : 9e/20 (12 pts en 10 m.) | repos 6 j | prochains : Union St.-Gilloise (Ligue Europa, 5 j), Levante (La Liga, 8 j), Salamanca UDS (Coupe du Roi, 13 j)",
    "live_score": "3-0",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Eibar",
-   "away": "Almería",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 53%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Eibar : 3e/22 (22 pts en 11 m.) | repos 7 j | prochains : CD Pamplona (Coupe du Roi, 3 j), Castellón (La Liga 2, 6 j)  ||  Almería : 2e/22 (25 pts en 11 m.) | repos 4 j | prochains : Girona (La Liga 2, 8 j), FC Andorra (La Liga 2, 14 j)",
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Premier League",
-   "home": "AFC Bournemouth",
-   "away": "Leeds United",
-   "status": "finished",
-   "conf": 71,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (12%)",
-   "double_chance": "12 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 55%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "AFC Bournemouth : 13e/20 (9 pts en 8 m.) | repos 3 j | prochains : Sparta Prague (Ligue Europa, 5 j), Ipswich Town (Premier League, 8 j)  ||  Leeds United : 7e/20 (11 pts en 8 m.) | repos 6 j | prochains : Tottenham Hotspur (Premier League, 7 j)",
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
