@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01 10:24 UTC",
+ "date": "2026-11-01 10:59 UTC",
  "version": "V17",
  "stats": {
   "n": 504,
@@ -948,7 +948,7 @@
    "league": "Super Lig",
    "home": "Amed SFK",
    "away": "Eyupspor",
-   "status": "today",
+   "status": "live",
    "conf": 89,
    "victoire": "Victoire Amed SFK",
    "score_exact": "3-0 (13%) · 4-0 (11%)",
@@ -957,7 +957,9 @@
    "over": "Over 2.5 73%",
    "btts": "BTTS NON 61%",
    "analyse": "2026-11-01 | Buts attendus Amed SFK 3.3 - Eyupspor 0.5 | 1/N/2 : 89/8/3% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Amed SFK : 2e/18 (20 pts en 9 m.) | repos 8 j | prochains : Galatasaray (Super Lig, 6 j)  ||  Eyupspor : 18e/18 (3 pts en 9 m.) | repos 8 j | prochains : Kocaelispor (Super Lig, 6 j)"
+   "contexte": "Amed SFK : 2e/18 (20 pts en 9 m.) | repos 8 j | prochains : Galatasaray (Super Lig, 6 j)  ||  Eyupspor : 18e/18 (3 pts en 9 m.) | repos 8 j | prochains : Kocaelispor (Super Lig, 6 j)",
+   "live_score": "1-0",
+   "minute": "30'"
   },
   {
    "league": "Eredivisie",
@@ -1543,6 +1545,21 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-11-01 | Buts attendus Boca Juniors 1.4 - River Plate 1.1 | 1/N/2 : 43/27/30% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Boca Juniors : repos 7 j | prochains : Defensa y Justicia (Liga Argentina, 7 j)  ||  River Plate : repos 7 j | prochains : Aldosivi (Liga Argentina, 7 j)"
+  },
+  {
+   "league": "Pro League",
+   "home": "Royal Charleroi SC",
+   "away": "RAAL La Louvière",
+   "status": "today",
+   "conf": 69,
+   "victoire": "Victoire Royal Charleroi SC",
+   "score_exact": "2-1 (10%) · 3-1 (8%)",
+   "double_chance": "1X 87%",
+   "corner": "N/D",
+   "over": "Over 2.5 67%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-01 | Buts attendus Royal Charleroi SC 2.5 - RAAL La Louvière 1.0 | 1/N/2 : 69/17/13% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Royal Charleroi SC : 4e/18 (21 pts en 9 m.) | repos 8 j | prochains : KVC Westerlo (Pro League, 6 j)  ||  RAAL La Louvière : 15e/18 (7 pts en 9 m.) | repos 8 j | prochains : Cercle Brugge KSV (Pro League, 6 j)"
   },
   {
    "league": "Liga MX",
