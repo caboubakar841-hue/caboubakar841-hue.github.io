@@ -1,15 +1,15 @@
 {
- "date": "2026-11-01 17:21 UTC",
+ "date": "2026-11-01 17:53 UTC",
  "version": "V17",
  "stats": {
-  "n": 529,
-  "n_avant": 178,
+  "n": 531,
+  "n_avant": 180,
   "dc": 75,
   "over": 53,
   "btts": 55,
   "score": 14,
   "1x2": 57,
-  "n_fav": 235,
+  "n_fav": 237,
   "serre": 71,
   "n_serre": 294,
   "base_dom": 46,
@@ -70,8 +70,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "1-0"
       },
       {
        "id": "761923",
@@ -168,8 +168,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 94,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-3"
       },
       {
        "id": "401876913",
@@ -206,7 +206,7 @@
       }
      ],
      "combined": 70.3,
-     "status": "en cours"
+     "status": "gagné"
     }
    ]
   },
@@ -959,7 +959,41 @@
    "analyse": "2026-11-01 | Buts attendus Liverpool 1.0 - Arsenal 1.1 | 1/N/2 : 34/30/36% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Liverpool : 5e/20 (15 pts en 8 m.) | repos 4 j | match europeen proche : rotation possible | prochains : Fenerbahce (Ligue des champions, 3 j), Crystal Palace (Premier League, 7 j)  ||  Arsenal : 2e/20 (21 pts en 8 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Slavia Prague (Ligue des champions, 3 j), Hull City (Premier League, 6 j)",
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "64'"
+  },
+  {
+   "league": "La Liga",
+   "home": "Elche",
+   "away": "Valencia",
+   "status": "live",
+   "conf": 60,
+   "victoire": "Victoire Elche",
+   "score_exact": "1-0 (13%) · 2-0 (12%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS NON 53%",
+   "analyse": "2026-11-01 | Buts attendus Elche 1.8 - Valencia 0.8 | 1/N/2 : 60/23/17% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Elche : 17e/20 (10 pts en 10 m.) | repos 5 j | prochains : Real Betis (La Liga, 7 j)  ||  Valencia : 19e/20 (6 pts en 10 m.) | repos 8 j | prochains : Real Madrid (La Liga, 6 j), Tavernes de la Valldigna (Coupe du Roi, 9 j)",
+   "live_score": "0-0",
+   "minute": "21'"
+  },
+  {
+   "league": "La Liga 2",
+   "home": "Burgos",
+   "away": "Castellón",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Serré : Nul ou Castellón",
+   "score_exact": "0-1 (16%) · 0-0 (13%)",
+   "double_chance": "X2 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 66%",
+   "btts": "BTTS NON 61%",
+   "analyse": "2026-11-01 | Buts attendus Burgos 0.8 - Castellón 1.2 | 1/N/2 : 24/29/46% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Burgos : 7e/22 (20 pts en 11 m.) | repos 3 j | prochains : RC Celta Fortuna (La Liga 2, 6 j), Leganés (La Liga 2, 12 j)  ||  Castellón : 1e/22 (26 pts en 11 m.) | repos 3 j | prochains : Eibar (La Liga 2, 5 j), Real Valladolid (La Liga 2, 13 j)",
+   "live_score": "0-1",
+   "minute": "22'"
   },
   {
    "league": "Serie A",
@@ -975,8 +1009,8 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-11-01 | Buts attendus Lecce 1.2 - Genoa 1.4 | 1/N/2 : 32/26/42% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Lecce : 14e/20 (9 pts en 9 m.) | repos 3 j | prochains : Torino (Serie A, 6 j)  ||  Genoa : 13e/20 (10 pts en 9 m.) | repos 4 j | prochains : AC Milan (Serie A, 7 j)",
-   "live_score": "0-1",
-   "minute": "20'"
+   "live_score": "1-2",
+   "minute": "HT"
   },
   {
    "league": "Serie B",
@@ -993,7 +1027,7 @@
    "analyse": "2026-11-01 | Buts attendus Hellas Verona 1.4 - Carrarese 1.1 | 1/N/2 : 44/26/30% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Hellas Verona : 10e/20 (12 pts en 9 m.) | repos 4 j | prochains : Mantova (Serie B, 6 j)  ||  Carrarese : 15e/20 (10 pts en 9 m.) | repos 4 j | prochains : Sampdoria (Serie B, 7 j)",
    "live_score": "3-0",
-   "minute": "48'"
+   "minute": "80'"
   },
   {
    "league": "Bundesliga",
@@ -1009,8 +1043,8 @@
    "btts": "BTTS OUI 62%",
    "analyse": "2026-11-01 | Buts attendus Eintracht Frankfurt 2.3 - Hamburg SV 1.2 | 1/N/2 : 62/19/18% | base sur 7 et 7 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Eintracht Frankfurt : 15e/18 (8 pts en 7 m.) | repos 5 j | prochains : SC Paderborn 07 (Bundesliga, 6 j)  ||  Hamburg SV : 14e/18 (9 pts en 7 m.) | repos 5 j | prochains : Borussia Mönchengladbach (Bundesliga, 5 j)",
-   "live_score": "1-1",
-   "minute": "HT"
+   "live_score": "3-1",
+   "minute": "63'"
   },
   {
    "league": "Ligue 1",
@@ -1027,7 +1061,7 @@
    "analyse": "2026-11-01 | Buts attendus Lyon 1.9 - Angers 0.8 | 1/N/2 : 63/22/16% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Lyon : 5e/18 (14 pts en 8 m.) | repos 6 j | match europeen proche : rotation possible | prochains : Real Sociedad (Ligue Europa, 4 j), Brest (Ligue 1, 7 j)  ||  Angers : 14e/18 (8 pts en 8 m.) | repos 7 j | prochains : Nice (Ligue 1, 7 j)",
    "live_score": "1-0",
-   "minute": "49'"
+   "minute": "80'"
   },
   {
    "league": "Ligue 1",
@@ -1043,42 +1077,25 @@
    "btts": "BTTS NON 53%",
    "analyse": "2026-11-01 | Buts attendus Paris FC 1.3 - AS Monaco 1.0 | 1/N/2 : 43/28/30% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Paris FC : 6e/18 (14 pts en 8 m.) | repos 8 j | prochains : AJ Auxerre (Ligue 1, 6 j)  ||  AS Monaco : 4e/18 (15 pts en 8 m.) | repos 7 j | match europeen proche : rotation possible | prochains : FC Nordsjælland (Conference League, 4 j), Le Mans (Ligue 1, 7 j)",
-   "live_score": "2-0",
-   "minute": "47'"
+   "live_score": "3-1",
+   "minute": "79'"
   },
   {
-   "league": "Eredivisie",
-   "home": "FC Groningen",
-   "away": "Sparta Rotterdam",
+   "league": "Pro League",
+   "home": "Lommel SK",
+   "away": "KAA Gent",
    "status": "live",
-   "conf": 52,
-   "victoire": "Victoire FC Groningen",
-   "score_exact": "2-1 (7%) · 3-1 (6%)",
-   "double_chance": "12 81%",
+   "conf": 72,
+   "victoire": "Serré : Nul ou KAA Gent",
+   "score_exact": "0-1 (14%) · 0-0 (12%)",
+   "double_chance": "X2 72%",
    "corner": "N/D",
-   "over": "Over 2.5 83%",
-   "btts": "BTTS OUI 79%",
-   "analyse": "2026-11-01 | Buts attendus FC Groningen 2.6 - Sparta Rotterdam 1.9 | 1/N/2 : 52/19/30% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "FC Groningen : 8e/18 (15 pts en 10 m.) | repos 7 j | prochains : AZ Alkmaar (Eredivisie, 7 j)  ||  Sparta Rotterdam : 15e/18 (9 pts en 10 m.) | repos 7 j | prochains : ADO Den Haag (Eredivisie, 6 j)",
-   "live_score": "2-2",
-   "minute": "78'"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Arouca",
-   "away": "C.D. Nacional",
-   "status": "live",
-   "conf": 57,
-   "victoire": "Victoire Arouca",
-   "score_exact": "1-0 (13%) · 2-0 (11%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-01 | Buts attendus Arouca 1.7 - C.D. Nacional 0.9 | 1/N/2 : 57/24/20% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Arouca : 5e/18 (17 pts en 9 m.) | repos 8 j | prochains : FC Famalicao (Liga Portugal, 5 j)  ||  C.D. Nacional : 15e/18 (7 pts en 9 m.) | repos 7 j | prochains : Académico de Viseu (Liga Portugal, 6 j)",
-   "live_score": "1-0",
-   "minute": "90'+3'"
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-01 | Buts attendus Lommel SK 0.9 - KAA Gent 1.2 | 1/N/2 : 28/29/43% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Lommel SK : 8e/18 (12 pts en 9 m.) | repos 8 j | prochains : Antwerp (Pro League, 6 j)  ||  KAA Gent : 3e/18 (25 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : KuPS Kuopio (Conference League, 4 j), KV Kortrijk (Pro League, 7 j)",
+   "live_score": "0-0",
+   "minute": "23'"
   },
   {
    "league": "Super Lig",
@@ -1094,53 +1111,8 @@
    "btts": "BTTS OUI 52%",
    "analyse": "2026-11-01 | Buts attendus Kasimpasa 1.4 - Besiktas 1.2 | 1/N/2 : 41/26/33% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Kasimpasa : 7e/18 (16 pts en 9 m.) | repos 8 j | prochains : Gaziantep FK (Super Lig, 5 j)  ||  Besiktas : 4e/18 (18 pts en 9 m.) | repos 6 j | match europeen proche : rotation possible | prochains : Celtic (Ligue Europa, 4 j), Genclerbirligi (Super Lig, 7 j)",
-   "live_score": "1-2",
-   "minute": "61'"
-  },
-  {
-   "league": "La Liga",
-   "home": "Elche",
-   "away": "Valencia",
-   "status": "today",
-   "conf": 60,
-   "victoire": "Victoire Elche",
-   "score_exact": "1-0 (13%) · 2-0 (12%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-01 | Buts attendus Elche 1.8 - Valencia 0.8 | 1/N/2 : 60/23/17% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Elche : 17e/20 (10 pts en 10 m.) | repos 5 j | prochains : Real Betis (La Liga, 7 j)  ||  Valencia : 19e/20 (6 pts en 10 m.) | repos 8 j | prochains : Real Madrid (La Liga, 6 j), Tavernes de la Valldigna (Coupe du Roi, 9 j)"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Burgos",
-   "away": "Castellón",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : Nul ou Castellón",
-   "score_exact": "0-1 (16%) · 0-0 (13%)",
-   "double_chance": "X2 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 66%",
-   "btts": "BTTS NON 61%",
-   "analyse": "2026-11-01 | Buts attendus Burgos 0.8 - Castellón 1.2 | 1/N/2 : 24/29/46% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Burgos : 7e/22 (20 pts en 11 m.) | repos 3 j | prochains : RC Celta Fortuna (La Liga 2, 6 j), Leganés (La Liga 2, 12 j)  ||  Castellón : 1e/22 (26 pts en 11 m.) | repos 3 j | prochains : Eibar (La Liga 2, 5 j), Real Valladolid (La Liga 2, 13 j)"
-  },
-  {
-   "league": "Pro League",
-   "home": "Lommel SK",
-   "away": "KAA Gent",
-   "status": "today",
-   "conf": 72,
-   "victoire": "Serré : Nul ou KAA Gent",
-   "score_exact": "0-1 (14%) · 0-0 (12%)",
-   "double_chance": "X2 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-01 | Buts attendus Lommel SK 0.9 - KAA Gent 1.2 | 1/N/2 : 28/29/43% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Lommel SK : 8e/18 (12 pts en 9 m.) | repos 8 j | prochains : Antwerp (Pro League, 6 j)  ||  KAA Gent : 3e/18 (25 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : KuPS Kuopio (Conference League, 4 j), KV Kortrijk (Pro League, 7 j)"
+   "live_score": "2-2",
+   "minute": "90'+3'"
   },
   {
    "league": "Liga Portugal",
@@ -1170,7 +1142,7 @@
    "over": "Over 2.5 50%",
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-01 | Buts attendus Maritimo 0.8 - Santa Clara 1.9 | 1/N/2 : 14/21/64% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Maritimo : 14e/18 (8 pts en 9 m.) | repos 9 j | prochains : Estoril (Liga Portugal, 7 j)  ||  Santa Clara : 4e/18 (18 pts en 9 m.) | repos 6 j | prochains : Gil Vicente (Liga Portugal, 7 j)"
+   "contexte": "Maritimo : 14e/18 (8 pts en 9 m.) | repos 9 j | prochains : Estoril (Liga Portugal, 7 j)  ||  Santa Clara : 5e/18 (18 pts en 9 m.) | repos 6 j | prochains : Gil Vicente (Liga Portugal, 7 j)"
   },
   {
    "league": "Liga Argentina",
@@ -1396,6 +1368,40 @@
    "btts": "BTTS NON 63%",
    "analyse": "2026-11-01 | Buts attendus Lanús 1.2 - Gimnasia (Mendoza) 0.7 | 1/N/2 : 48/30/22% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Lanús : repos 8 j | prochains : Central Córdoba (Santiago del Estero) (Liga Argentina, 7 j)  ||  Gimnasia (Mendoza) : repos 9 j | prochains : Independiente Rivadavia (Liga Argentina, 7 j)"
+  },
+  {
+   "league": "Eredivisie",
+   "home": "FC Groningen",
+   "away": "Sparta Rotterdam",
+   "status": "finished",
+   "conf": 52,
+   "victoire": "Victoire FC Groningen",
+   "score_exact": "2-1 (7%) · 3-1 (6%)",
+   "double_chance": "12 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 83%",
+   "btts": "BTTS OUI 79%",
+   "analyse": "Resultat 2-3 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "FC Groningen : 8e/18 (15 pts en 10 m.) | repos 7 j | prochains : AZ Alkmaar (Eredivisie, 7 j)  ||  Sparta Rotterdam : 15e/18 (9 pts en 10 m.) | repos 7 j | prochains : ADO Den Haag (Eredivisie, 6 j)",
+   "live_score": "2-3",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Arouca",
+   "away": "C.D. Nacional",
+   "status": "finished",
+   "conf": 57,
+   "victoire": "Victoire Arouca",
+   "score_exact": "1-0 (13%) · 2-0 (11%)",
+   "double_chance": "1X 80%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS NON 52%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Arouca : 5e/18 (17 pts en 9 m.) | repos 8 j | prochains : FC Famalicao (Liga Portugal, 5 j)  ||  C.D. Nacional : 15e/18 (7 pts en 9 m.) | repos 7 j | prochains : Académico de Viseu (Liga Portugal, 6 j)",
+   "live_score": "1-0",
+   "minute": "FT"
   },
   {
    "league": "La Liga",
@@ -2041,40 +2047,6 @@
    "analyse": "Resultat 2-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
    "contexte": "Albacete : 22e/22 (4 pts en 11 m.) | repos 6 j | prochains : Calvo Sotelo (Coupe du Roi, 4 j), Leganés (La Liga 2, 7 j)  ||  CD Sabadell : 10e/22 (17 pts en 11 m.) | repos 6 j | prochains : Utebo (Coupe du Roi, 4 j), Real Sociedad II (La Liga 2, 9 j)",
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "Ajax Amsterdam",
-   "away": "AZ Alkmaar",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 68%",
-   "btts": "BTTS OUI 68%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Ajax Amsterdam : 3e/18 (21 pts en 10 m.) | repos 6 j | prochains : FC Midtjylland (Conference League, 5 j), FC Twente (Eredivisie, 8 j)  ||  AZ Alkmaar : 5e/18 (20 pts en 10 m.) | repos 6 j | prochains : Juventus (Ligue Europa, 5 j), FC Groningen (Eredivisie, 8 j)",
-   "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "SC Cambuur",
-   "away": "Go Ahead Eagles",
-   "status": "finished",
-   "conf": 82,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (6%) · 2-1 (5%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 85%",
-   "btts": "BTTS OUI 81%",
-   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "SC Cambuur : 10e/18 (12 pts en 10 m.) | repos 7 j | prochains : PSV Eindhoven (Eredivisie, 8 j)  ||  Go Ahead Eagles : 9e/18 (14 pts en 10 m.) | repos 8 j | prochains : Excelsior (Eredivisie, 7 j)",
-   "live_score": "4-0",
    "minute": "FT"
   }
  ]
