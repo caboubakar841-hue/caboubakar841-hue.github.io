@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01 20:46 UTC",
+ "date": "2026-11-01 21:17 UTC",
  "version": "V17",
  "stats": {
   "n": 546,
@@ -958,8 +958,8 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-11-01 | Buts attendus Athletic Club 2.0 - Real Sociedad 1.2 | 1/N/2 : 57/21/22% | base sur 9 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Athletic Club : 7e/20 (12 pts en 9 m.) | repos 3 j | prochains : Osasuna (La Liga, 6 j)  ||  Real Sociedad : 5e/20 (19 pts en 10 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Lyon (Ligue Europa, 4 j), Rayo Vallecano (La Liga, 7 j)",
-   "live_score": "1-1",
-   "minute": "41'"
+   "live_score": "2-1",
+   "minute": "53'"
   },
   {
    "league": "Serie A",
@@ -975,8 +975,8 @@
    "btts": "BTTS OUI 52%",
    "analyse": "2026-11-01 | Buts attendus Juventus 1.1 - Napoli 1.4 | 1/N/2 : 29/26/44% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Juventus : 9e/20 (14 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : AZ Alkmaar (Ligue Europa, 4 j), Fiorentina (Serie A, 7 j)  ||  Napoli : 7e/20 (14 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : FC Porto (Ligue des champions, 3 j), Lazio (Serie A, 7 j)",
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-0",
+   "minute": "74'"
   },
   {
    "league": "Ligue 1",
@@ -993,7 +993,7 @@
    "analyse": "2026-11-01 | Buts attendus Marseille 2.0 - Toulouse 1.6 | 1/N/2 : 48/21/30% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Marseille : 9e/18 (12 pts en 8 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Bayer Leverkusen (Ligue Europa, 4 j), Lens (Ligue 1, 7 j)  ||  Toulouse : 11e/18 (10 pts en 8 m.) | repos 7 j | prochains : Strasbourg (Ligue 1, 5 j)",
    "live_score": "2-0",
-   "minute": "HT"
+   "minute": "74'"
   },
   {
    "league": "Liga Portugal",
@@ -1010,7 +1010,7 @@
    "analyse": "2026-11-01 | Buts attendus Braga 1.0 - FC Famalicao 1.5 | 1/N/2 : 25/26/49% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Braga : 10e/18 (11 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : AGF (Conference League, 4 j), Rio Ave (Liga Portugal, 7 j)  ||  FC Famalicao : 11e/18 (10 pts en 9 m.) | repos 7 j | prochains : Arouca (Liga Portugal, 5 j)",
    "live_score": "0-0",
-   "minute": "17'"
+   "minute": "HT"
   },
   {
    "league": "MLS",
@@ -1026,8 +1026,8 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-01 | Buts attendus Vancouver Whitecaps 1.8 - Seattle Sounders FC 0.9 | 1/N/2 : 57/23/20% | base sur 18 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Vancouver Whitecaps : repos 4 j | prochains : CF Montréal (MLS, 6 j)  ||  Seattle Sounders FC : repos 4 j | prochains : LAFC (MLS, 6 j)",
-   "live_score": "1-0",
-   "minute": "5'"
+   "live_score": "2-0",
+   "minute": "37'"
   },
   {
    "league": "MLS",
