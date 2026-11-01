@@ -1,15 +1,15 @@
 {
- "date": "2026-11-01 20:14 UTC",
+ "date": "2026-11-01 20:46 UTC",
  "version": "V17",
  "stats": {
-  "n": 545,
-  "n_avant": 194,
+  "n": 546,
+  "n_avant": 195,
   "dc": 75,
   "over": 53,
   "btts": 56,
   "score": 15,
   "1x2": 57,
-  "n_fav": 243,
+  "n_fav": 244,
   "serre": 72,
   "n_serre": 302,
   "base_dom": 46,
@@ -958,8 +958,8 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-11-01 | Buts attendus Athletic Club 2.0 - Real Sociedad 1.2 | 1/N/2 : 57/21/22% | base sur 9 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Athletic Club : 7e/20 (12 pts en 9 m.) | repos 3 j | prochains : Osasuna (La Liga, 6 j)  ||  Real Sociedad : 5e/20 (19 pts en 10 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Lyon (Ligue Europa, 4 j), Rayo Vallecano (La Liga, 7 j)",
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "1-1",
+   "minute": "41'"
   },
   {
    "league": "Serie A",
@@ -976,24 +976,7 @@
    "analyse": "2026-11-01 | Buts attendus Juventus 1.1 - Napoli 1.4 | 1/N/2 : 29/26/44% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Juventus : 9e/20 (14 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : AZ Alkmaar (Ligue Europa, 4 j), Fiorentina (Serie A, 7 j)  ||  Napoli : 7e/20 (14 pts en 9 m.) | repos 4 j | match europeen proche : rotation possible | prochains : FC Porto (Ligue des champions, 3 j), Lazio (Serie A, 7 j)",
    "live_score": "0-0",
-   "minute": "29'"
-  },
-  {
-   "league": "Serie B",
-   "home": "Palermo",
-   "away": "Vicenza",
-   "status": "live",
-   "conf": 64,
-   "victoire": "Victoire Palermo",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-01 | Buts attendus Palermo 2.5 - Vicenza 1.3 | 1/N/2 : 64/18/18% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Palermo : 1e/20 (23 pts en 9 m.) | repos 4 j | prochains : Ascoli (Serie B, 5 j)  ||  Vicenza : 17e/20 (9 pts en 9 m.) | repos 5 j | prochains : Cremonese (Serie B, 7 j)",
-   "live_score": "2-1",
-   "minute": "83'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 1",
@@ -1010,13 +993,13 @@
    "analyse": "2026-11-01 | Buts attendus Marseille 2.0 - Toulouse 1.6 | 1/N/2 : 48/21/30% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Marseille : 9e/18 (12 pts en 8 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Bayer Leverkusen (Ligue Europa, 4 j), Lens (Ligue 1, 7 j)  ||  Toulouse : 11e/18 (10 pts en 8 m.) | repos 7 j | prochains : Strasbourg (Ligue 1, 5 j)",
    "live_score": "2-0",
-   "minute": "29'"
+   "minute": "HT"
   },
   {
    "league": "Liga Portugal",
    "home": "Braga",
    "away": "FC Famalicao",
-   "status": "today",
+   "status": "live",
    "conf": 75,
    "victoire": "Serré : Nul ou FC Famalicao",
    "score_exact": "0-1 (13%) · 0-0 (9%)",
@@ -1025,13 +1008,15 @@
    "over": "Under 2.5 55%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-01 | Buts attendus Braga 1.0 - FC Famalicao 1.5 | 1/N/2 : 25/26/49% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Braga : 10e/18 (11 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : AGF (Conference League, 4 j), Rio Ave (Liga Portugal, 7 j)  ||  FC Famalicao : 11e/18 (10 pts en 9 m.) | repos 7 j | prochains : Arouca (Liga Portugal, 5 j)"
+   "contexte": "Braga : 10e/18 (11 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : AGF (Conference League, 4 j), Rio Ave (Liga Portugal, 7 j)  ||  FC Famalicao : 11e/18 (10 pts en 9 m.) | repos 7 j | prochains : Arouca (Liga Portugal, 5 j)",
+   "live_score": "0-0",
+   "minute": "17'"
   },
   {
    "league": "MLS",
    "home": "Vancouver Whitecaps",
    "away": "Seattle Sounders FC",
-   "status": "today",
+   "status": "live",
    "conf": 57,
    "victoire": "Victoire Vancouver Whitecaps",
    "score_exact": "2-1 (10%) · 3-1 (6%)",
@@ -1040,7 +1025,9 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-01 | Buts attendus Vancouver Whitecaps 1.8 - Seattle Sounders FC 0.9 | 1/N/2 : 57/23/20% | base sur 18 et 18 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Vancouver Whitecaps : repos 4 j | prochains : CF Montréal (MLS, 6 j)  ||  Seattle Sounders FC : repos 4 j | prochains : LAFC (MLS, 6 j)"
+   "contexte": "Vancouver Whitecaps : repos 4 j | prochains : CF Montréal (MLS, 6 j)  ||  Seattle Sounders FC : repos 4 j | prochains : LAFC (MLS, 6 j)",
+   "live_score": "1-0",
+   "minute": "5'"
   },
   {
    "league": "MLS",
@@ -1131,6 +1118,23 @@
    "btts": "BTTS NON 63%",
    "analyse": "2026-11-01 | Buts attendus Lanús 1.2 - Gimnasia (Mendoza) 0.7 | 1/N/2 : 48/30/22% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Lanús : repos 8 j | prochains : Central Córdoba (Santiago del Estero) (Liga Argentina, 7 j)  ||  Gimnasia (Mendoza) : repos 9 j | prochains : Independiente Rivadavia (Liga Argentina, 7 j)"
+  },
+  {
+   "league": "Serie B",
+   "home": "Palermo",
+   "away": "Vicenza",
+   "status": "finished",
+   "conf": 64,
+   "victoire": "Victoire Palermo",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "12 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Palermo : 1e/20 (23 pts en 9 m.) | repos 4 j | prochains : Ascoli (Serie B, 5 j)  ||  Vicenza : 17e/20 (9 pts en 9 m.) | repos 5 j | prochains : Cremonese (Serie B, 7 j)",
+   "live_score": "3-1",
+   "minute": "FT"
   },
   {
    "league": "Pro League",
@@ -1792,23 +1796,6 @@
    "btts": "BTTS NON 55%",
    "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Como : 5e/20 (20 pts en 9 m.) | repos 5 j | match europeen proche : rotation possible | prochains : Lens (Ligue des champions, 3 j), Internazionale (Serie A, 7 j)  ||  Venezia : 20e/20 (3 pts en 9 m.) | repos 4 j | prochains : Udinese (Serie A, 5 j)",
-   "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "PEC Zwolle",
-   "away": "ADO Den Haag",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "PEC Zwolle : 15e/18 (8 pts en 10 m.) | repos 8 j | prochains : Willem II (Eredivisie, 5 j)  ||  ADO Den Haag : 17e/18 (6 pts en 10 m.) | repos 8 j | prochains : Sparta Rotterdam (Eredivisie, 6 j)",
    "live_score": "1-0",
    "minute": "FT"
   }
