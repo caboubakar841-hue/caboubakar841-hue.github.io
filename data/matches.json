@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01 03:52 UTC",
+ "date": "2026-11-01 04:35 UTC",
  "version": "V17",
  "stats": {
   "n": 503,
@@ -958,8 +958,8 @@
    "btts": "BTTS OUI 77%",
    "analyse": "2026-11-01 | Buts attendus América 2.5 - Toluca 1.8 | 1/N/2 : 52/19/29% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "América : repos 3 j | prochains : Pumas UNAM (Liga MX, 7 j)  ||  Toluca : repos 7 j | prochains : Monterrey (Liga MX, 7 j)",
-   "live_score": "0-0",
-   "minute": "37'"
+   "live_score": "0-1",
+   "minute": "57'"
   },
   {
    "league": "Super Lig",
@@ -1094,7 +1094,7 @@
    "over": "Over 2.5 52%",
    "btts": "BTTS OUI 56%",
    "analyse": "2026-11-01 | Buts attendus Eldense 1.5 - Granada 1.3 | 1/N/2 : 41/25/34% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Eldense : 12e/22 (14 pts en 11 m.) | repos 3 j | prochains : Las Palmas (La Liga 2, 7 j)  ||  Granada : 6e/22 (20 pts en 11 m.) | repos 3 j | prochains : Tenerife (La Liga 2, 6 j)"
+   "contexte": "Eldense : 12e/22 (14 pts en 11 m.) | repos 3 j | prochains : Las Palmas (La Liga 2, 7 j), CD Sabadell (La Liga 2, 14 j)  ||  Granada : 6e/22 (20 pts en 11 m.) | repos 3 j | prochains : Tenerife (La Liga 2, 6 j), Las Palmas (La Liga 2, 14 j)"
   },
   {
    "league": "Super Lig",
@@ -1334,7 +1334,7 @@
    "over": "Under 2.5 54%",
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-01 | Buts attendus Ceuta 1.1 - Sporting Gijón 1.4 | 1/N/2 : 30/27/43% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Ceuta : 22e/22 (5 pts en 11 m.) | repos 3 j | prochains : Córdoba (La Liga 2, 6 j)  ||  Sporting Gijón : 8e/22 (19 pts en 11 m.) | repos 3 j | prochains : Real Valladolid (La Liga 2, 7 j), Real Sociedad II (La Liga 2, 13 j)"
+   "contexte": "Ceuta : 22e/22 (5 pts en 11 m.) | repos 3 j | prochains : Córdoba (La Liga 2, 6 j), Tenerife (La Liga 2, 14 j)  ||  Sporting Gijón : 8e/22 (19 pts en 11 m.) | repos 3 j | prochains : Real Valladolid (La Liga 2, 7 j), Real Sociedad II (La Liga 2, 13 j)"
   },
   {
    "league": "Liga Portugal",
