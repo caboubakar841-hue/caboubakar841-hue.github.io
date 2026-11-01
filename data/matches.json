@@ -1,21 +1,21 @@
 {
- "date": "2026-11-01 21:50 UTC",
+ "date": "2026-11-01 22:21 UTC",
  "version": "V17",
  "stats": {
-  "n": 548,
-  "n_avant": 197,
+  "n": 550,
+  "n_avant": 199,
   "dc": 75,
   "over": 53,
   "btts": 56,
   "score": 15,
-  "1x2": 57,
-  "n_fav": 244,
-  "serre": 72,
-  "n_serre": 304,
+  "1x2": 58,
+  "n_fav": 245,
+  "serre": 71,
+  "n_serre": 305,
   "base_dom": 47,
-  "n_ctx": 34,
-  "brier_ctx": 0.541,
-  "brier_base": 0.538
+  "n_ctx": 36,
+  "brier_ctx": 0.543,
+  "brier_base": 0.54
  },
  "tickets": [
   {
@@ -945,40 +945,6 @@
  ],
  "matches": [
   {
-   "league": "La Liga",
-   "home": "Athletic Club",
-   "away": "Real Sociedad",
-   "status": "live",
-   "conf": 57,
-   "victoire": "Victoire Athletic Club",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "2026-11-01 | Buts attendus Athletic Club 2.0 - Real Sociedad 1.2 | 1/N/2 : 57/21/22% | base sur 9 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Athletic Club : 7e/20 (12 pts en 9 m.) | repos 3 j | prochains : Osasuna (La Liga, 6 j)  ||  Real Sociedad : 5e/20 (19 pts en 10 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Lyon (Ligue Europa, 4 j), Rayo Vallecano (La Liga, 7 j)",
-   "live_score": "2-1",
-   "minute": "85'"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Braga",
-   "away": "FC Famalicao",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : Nul ou FC Famalicao",
-   "score_exact": "0-1 (13%) · 0-0 (9%)",
-   "double_chance": "X2 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-01 | Buts attendus Braga 1.0 - FC Famalicao 1.5 | 1/N/2 : 25/26/49% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Braga : 10e/18 (11 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : AGF (Conference League, 4 j), Rio Ave (Liga Portugal, 7 j)  ||  FC Famalicao : 11e/18 (10 pts en 9 m.) | repos 7 j | prochains : Arouca (Liga Portugal, 5 j)",
-   "live_score": "1-0",
-   "minute": "64'"
-  },
-  {
    "league": "MLS",
    "home": "Vancouver Whitecaps",
    "away": "Seattle Sounders FC",
@@ -992,8 +958,8 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-01 | Buts attendus Vancouver Whitecaps 1.8 - Seattle Sounders FC 0.9 | 1/N/2 : 57/23/20% | base sur 18 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Vancouver Whitecaps : repos 4 j | prochains : CF Montréal (MLS, 6 j)  ||  Seattle Sounders FC : repos 4 j | prochains : LAFC (MLS, 6 j)",
-   "live_score": "3-0",
-   "minute": "47'"
+   "live_score": "5-1",
+   "minute": "79'"
   },
   {
    "league": "MLS",
@@ -1009,8 +975,8 @@
    "btts": "BTTS OUI 68%",
    "analyse": "2026-11-01 | Buts attendus Atlanta United FC 1.8 - Toronto FC 1.7 | 1/N/2 : 42/22/36% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Atlanta United FC : repos 4 j | prochains : Red Bull New York (MLS, 6 j)  ||  Toronto FC : repos 4 j | prochains : Philadelphia Union (MLS, 6 j)",
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "1-0",
+   "minute": "41'"
   },
   {
    "league": "MLS",
@@ -1026,8 +992,8 @@
    "btts": "BTTS NON 60%",
    "analyse": "2026-11-01 | Buts attendus Nashville SC 1.9 - Red Bull New York 0.6 | 1/N/2 : 68/20/11% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Nashville SC : repos 4 j | prochains : FC Cincinnati (MLS, 6 j)  ||  Red Bull New York : repos 4 j | prochains : Atlanta United FC (MLS, 6 j)",
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "0-2",
+   "minute": "40'"
   },
   {
    "league": "Liga Argentina",
@@ -1043,8 +1009,8 @@
    "btts": "BTTS NON 72%",
    "analyse": "2026-11-01 | Buts attendus Belgrano (Córdoba) 0.8 - Barracas Central 0.7 | 1/N/2 : 37/36/27% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Belgrano (Córdoba) : repos 7 j | prochains : Gimnasia La Plata (Liga Argentina, 7 j)  ||  Barracas Central : repos 7 j | prochains : Racing Club (Liga Argentina, 7 j)",
-   "live_score": "0-0",
-   "minute": "19'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
@@ -1061,7 +1027,7 @@
    "analyse": "2026-11-01 | Buts attendus Newell's Old Boys 1.4 - Unión (Santa Fe) 0.9 | 1/N/2 : 49/27/24% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Newell's Old Boys : repos 8 j | prochains : Instituto (Córdoba) (Liga Argentina, 7 j)  ||  Unión (Santa Fe) : repos 6 j | prochains : Vélez Sarsfield (Liga Argentina, 7 j)",
    "live_score": "0-0",
-   "minute": "19'"
+   "minute": "HT"
   },
   {
    "league": "Liga MX",
@@ -1092,6 +1058,40 @@
    "btts": "BTTS NON 63%",
    "analyse": "2026-11-01 | Buts attendus Lanús 1.2 - Gimnasia (Mendoza) 0.7 | 1/N/2 : 48/30/22% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Lanús : repos 8 j | prochains : Central Córdoba (Santiago del Estero) (Liga Argentina, 7 j)  ||  Gimnasia (Mendoza) : repos 9 j | prochains : Independiente Rivadavia (Liga Argentina, 7 j)"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Braga",
+   "away": "FC Famalicao",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : Nul ou FC Famalicao",
+   "score_exact": "0-1 (13%) · 0-0 (9%)",
+   "double_chance": "X2 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 55%",
+   "btts": "BTTS NON 52%",
+   "analyse": "Resultat 3-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Braga : 10e/18 (11 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : AGF (Conference League, 4 j), Rio Ave (Liga Portugal, 7 j)  ||  FC Famalicao : 11e/18 (10 pts en 9 m.) | repos 7 j | prochains : Arouca (Liga Portugal, 5 j)",
+   "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "La Liga",
+   "home": "Athletic Club",
+   "away": "Real Sociedad",
+   "status": "finished",
+   "conf": 57,
+   "victoire": "Victoire Athletic Club",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Athletic Club : 7e/20 (12 pts en 9 m.) | repos 3 j | prochains : Osasuna (La Liga, 6 j)  ||  Real Sociedad : 5e/20 (19 pts en 10 m.) | repos 7 j | match europeen proche : rotation possible | prochains : Lyon (Ligue Europa, 4 j), Rayo Vallecano (La Liga, 7 j)",
+   "live_score": "2-1",
+   "minute": "FT"
   },
   {
    "league": "Serie A",
@@ -1737,40 +1737,6 @@
    "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
    "contexte": "Hannover 96 : 18e/18 (8 pts en 9 m.) | repos 4 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 7 j)  ||  Dynamo Dresden : 17e/18 (8 pts en 9 m.) | repos 4 j | prochains : SpVgg Greuther Fürth (2. Bundesliga, 5 j)",
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "SpVgg Greuther Fürth",
-   "away": "Holstein Kiel",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "SpVgg Greuther Fürth : 14e/18 (9 pts en 9 m.) | repos 7 j | prochains : Dynamo Dresden (2. Bundesliga, 5 j)  ||  Holstein Kiel : 16e/18 (8 pts en 9 m.) | repos 4 j | prochains : Arminia Bielefeld (2. Bundesliga, 6 j)",
-   "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "St. Pauli",
-   "away": "1. FC Nürnberg",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "Resultat 1-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "St. Pauli : 8e/18 (12 pts en 9 m.) | repos 9 j | prochains : 1. FC Magdeburg (2. Bundesliga, 7 j)  ||  1. FC Nürnberg : 3e/18 (18 pts en 9 m.) | repos 4 j | prochains : SV Darmstadt 98 (2. Bundesliga, 6 j)",
-   "live_score": "1-3",
    "minute": "FT"
   }
  ]
