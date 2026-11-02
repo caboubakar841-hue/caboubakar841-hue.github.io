@@ -1,18 +1,18 @@
 {
- "date": "2026-11-02 03:14 UTC",
+ "date": "2026-11-02 04:05 UTC",
  "version": "V17",
  "stats": {
-  "n": 499,
-  "n_avant": 207,
+  "n": 501,
+  "n_avant": 209,
   "dc": 75,
   "over": 52,
   "btts": 55,
-  "score": 14,
-  "1x2": 59,
-  "n_fav": 223,
+  "score": 15,
+  "1x2": 58,
+  "n_fav": 224,
   "serre": 71,
-  "n_serre": 276,
-  "base_dom": 47,
+  "n_serre": 277,
+  "base_dom": 48,
   "n_ctx": 36,
   "brier_ctx": 0.543,
   "brier_base": 0.54
@@ -37,8 +37,8 @@
        "pick": "Double chance 1X (LAFC ou nul)",
        "code": "1X",
        "p": 74,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "1-3"
       },
       {
        "id": "401841649",
@@ -141,7 +141,7 @@
       }
      ],
      "combined": 3.2,
-     "status": "en cours"
+     "status": "perdu"
     },
     {
      "name": "Ticket 5 matchs (sûr)",
@@ -1138,23 +1138,6 @@
  "matches": [
   {
    "league": "MLS",
-   "home": "LAFC",
-   "away": "Minnesota United FC",
-   "status": "live",
-   "conf": 53,
-   "victoire": "Victoire LAFC",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-11-02 | Buts attendus LAFC 2.0 - Minnesota United FC 1.3 | 1/N/2 : 53/22/25% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "LAFC : repos 7 j | prochains : Seattle Sounders FC (MLS, 6 j)  ||  Minnesota United FC : repos 4 j | prochains : San Jose Earthquakes (MLS, 6 j)",
-   "live_score": "0-2",
-   "minute": "68'"
-  },
-  {
-   "league": "MLS",
    "home": "Portland Timbers",
    "away": "Houston Dynamo FC",
    "status": "live",
@@ -1167,25 +1150,8 @@
    "btts": "BTTS OUI 50%",
    "analyse": "2026-11-02 | Buts attendus Portland Timbers 1.2 - Houston Dynamo FC 1.2 | 1/N/2 : 35/27/37% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Portland Timbers : repos 4 j | prochains : Austin FC (MLS, 6 j)  ||  Houston Dynamo FC : repos 4 j | prochains : St. Louis CITY SC (MLS, 6 j)",
-   "live_score": "0-0",
-   "minute": "19'"
-  },
-  {
-   "league": "Liga MX",
-   "home": "Cruz Azul",
-   "away": "León",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-02 | Buts attendus Cruz Azul 1.8 - León 1.4 | 1/N/2 : 46/23/31% | base sur 12 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Cruz Azul : repos 7 j | prochains : Tigres UANL (Liga MX, 6 j)  ||  León : repos 8 j | prochains : Guadalajara (Liga MX, 7 j)",
-   "live_score": "2-1",
-   "minute": "90'+11'"
+   "live_score": "1-0",
+   "minute": "49'"
   },
   {
    "league": "La Liga 2",
@@ -1441,6 +1407,40 @@
    "btts": "BTTS NON 51%",
    "analyse": "2026-11-02 | Buts attendus Red Bull Bragantino 1.1 - Santos 1.3 | 1/N/2 : 33/27/40% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Red Bull Bragantino : repos 5 j  ||  Santos : repos 1 j | prochains : Atlante (Liga MX, 4 j)"
+  },
+  {
+   "league": "MLS",
+   "home": "LAFC",
+   "away": "Minnesota United FC",
+   "status": "finished",
+   "conf": 53,
+   "victoire": "Victoire LAFC",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "Resultat 1-3 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "LAFC : repos 7 j | prochains : Seattle Sounders FC (MLS, 6 j)  ||  Minnesota United FC : repos 4 j | prochains : San Jose Earthquakes (MLS, 6 j)",
+   "live_score": "1-3",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga MX",
+   "home": "Cruz Azul",
+   "away": "León",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Cruz Azul : repos 7 j | prochains : Tigres UANL (Liga MX, 6 j)  ||  León : repos 8 j | prochains : Guadalajara (Liga MX, 7 j)",
+   "live_score": "2-1",
+   "minute": "FT"
   },
   {
    "league": "MLS",
@@ -2086,40 +2086,6 @@
    "analyse": "Resultat 2-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
    "contexte": "Empoli : 19e/20 (7 pts en 9 m.) | repos 5 j | prochains : Padova (Serie B, 6 j)  ||  Juve Stabia : 11e/20 (12 pts en 9 m.) | repos 4 j | prochains : Arezzo (Serie B, 6 j)",
    "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie B",
-   "home": "US Avellino",
-   "away": "Pisa",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "US Avellino : 10e/20 (12 pts en 9 m.) | repos 5 j | prochains : Benevento (Serie B, 6 j)  ||  Pisa : 5e/20 (15 pts en 9 m.) | repos 4 j | prochains : Sudtirol (Serie B, 6 j)",
-   "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Strasbourg",
-   "away": "AJ Auxerre",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Strasbourg",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 71%",
-   "analyse": "Resultat 5-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Strasbourg : 16e/18 (7 pts en 8 m.) | repos 7 j | prochains : Toulouse (Ligue 1, 5 j)  ||  AJ Auxerre : 12e/18 (10 pts en 8 m.) | repos 7 j | prochains : Paris FC (Ligue 1, 6 j)",
-   "live_score": "5-1",
    "minute": "FT"
   }
  ]
