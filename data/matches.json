@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02 17:42 UTC",
+ "date": "2026-11-02 18:34 UTC",
  "version": "V17",
  "stats": {
   "n": 504,
@@ -1150,8 +1150,8 @@
    "btts": "BTTS NON 55%",
    "analyse": "2026-11-02 | Buts attendus Real Valladolid 1.6 - Leganés 0.8 | 1/N/2 : 54/26/20% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Real Valladolid : 16e/22 (12 pts en 11 m.) | repos 4 j | prochains : Sporting Gijón (La Liga 2, 6 j), Castellón (La Liga 2, 12 j)  ||  Leganés : 17e/22 (12 pts en 11 m.) | repos 9 j | prochains : Albacete (La Liga 2, 5 j), Trival Valderas (Coupe du Roi, 8 j), Burgos (La Liga 2, 11 j)",
-   "live_score": "1-0",
-   "minute": "11'"
+   "live_score": "3-1",
+   "minute": "HT"
   },
   {
    "league": "Serie A",
@@ -1167,8 +1167,8 @@
    "btts": "BTTS OUI 73%",
    "analyse": "2026-11-02 | Buts attendus Sassuolo 2.1 - Fiorentina 1.7 | 1/N/2 : 47/21/32% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Sassuolo : 15e/20 (8 pts en 9 m.) | repos 6 j | prochains : AS Roma (Serie A, 5 j)  ||  Fiorentina : 17e/20 (5 pts en 9 m.) | repos 4 j | prochains : Juventus (Serie A, 6 j)",
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "Super Lig",
@@ -1184,8 +1184,8 @@
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-02 | Buts attendus Genclerbirligi 1.1 - Alanyaspor 1.1 | 1/N/2 : 35/29/36% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Genclerbirligi : 16e/18 (8 pts en 9 m.) | repos 8 j | prochains : Besiktas (Super Lig, 6 j)  ||  Alanyaspor : 12e/18 (12 pts en 9 m.) | repos 10 j | prochains : Trabzonspor (Super Lig, 6 j)",
-   "live_score": "1-0",
-   "minute": "43'"
+   "live_score": "4-0",
+   "minute": "78'"
   },
   {
    "league": "Serie A",
