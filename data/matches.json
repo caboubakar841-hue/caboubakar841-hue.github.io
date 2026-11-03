@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03 10:19 UTC",
+ "date": "2026-11-03 11:11 UTC",
  "version": "V17",
  "stats": {
   "n": 753,
@@ -1345,8 +1345,8 @@
    "analyse": "2026-11-03 | Buts attendus Jeonbuk Hyundai Motors 1.4 - Johor Darul Ta'zim 1.5 | 1/N/2 : 35/25/40% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Jeonbuk Hyundai Motors : repos 7 j  ||  Johor Darul Ta'zim : repos 7 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "18'"
+   "live_score": "2-0",
+   "minute": "53'"
   },
   {
    "league": "AFC Champions League",
@@ -1363,8 +1363,8 @@
    "analyse": "2026-11-03 | Buts attendus Kashiwa Reysol 1.4 - Daejeon Hana Citizen FC 1.0 | 1/N/2 : 46/27/27% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Kashiwa Reysol : repos 3 j | prochains : Kawasaki Frontale (J1 League, 4 j)  ||  Daejeon Hana Citizen FC : repos 7 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "18'"
+   "live_score": "1-0",
+   "minute": "55'"
   },
   {
    "league": "AFC Champions League",
@@ -1381,8 +1381,8 @@
    "analyse": "2026-11-03 | Buts attendus Vissel Kobe 2.0 - Ratchaburi FC 1.0 | 1/N/2 : 62/21/17% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Vissel Kobe : repos 3 j | prochains : Urawa Red Diamonds (J1 League, 5 j)  ||  Ratchaburi FC : repos 7 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "17'"
+   "live_score": "1-0",
+   "minute": "53'"
   },
   {
    "league": "Ligue des champions",
