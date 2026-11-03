@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03 08:38 UTC",
+ "date": "2026-11-03 09:28 UTC",
  "version": "V17",
  "stats": {
   "n": 752,
@@ -1345,8 +1345,8 @@
    "analyse": "2026-11-03 | Buts attendus Newcastle Jets 2.3 - Shanghai Port FC 3.2 | 1/N/2 : 28/16/56% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Newcastle Jets : repos 3 j | prochains : Perth Glory FC (A-League, 4 j)  ||  Shanghai Port FC : repos 7 j",
    "prio": 12,
-   "live_score": "0-2",
-   "minute": "HT"
+   "live_score": "2-3",
+   "minute": "85'"
   },
   {
    "league": "Ligue des champions",
