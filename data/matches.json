@@ -1,20 +1,20 @@
 {
- "date": "2026-11-03 05:37 UTC",
+ "date": "2026-11-03 05:38 UTC",
  "version": "V17",
  "stats": {
-  "n": 545,
+  "n": 571,
   "n_avant": 229,
   "dc": 77,
   "over": 53,
-  "btts": 55,
+  "btts": 56,
   "score": 14,
   "1x2": 57,
-  "n_fav": 256,
+  "n_fav": 274,
   "serre": 74,
-  "n_serre": 289,
-  "base_dom": 48,
-  "n_euro": 19,
-  "dc_euro": 74,
+  "n_serre": 297,
+  "base_dom": 49,
+  "n_euro": 24,
+  "dc_euro": 79,
   "n_ctx": 38,
   "brier_ctx": 0.546,
   "brier_base": 0.544
@@ -1977,6 +1977,24 @@
    "minute": "FT"
   },
   {
+   "league": "Super League (GRE)",
+   "home": "Atromitos",
+   "away": "Volos NFC",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : Nul ou Atromitos",
+   "score_exact": "1-0 (14%) · 0-0 (10%)",
+   "double_chance": "1X 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 55%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "prio": 9,
+   "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
    "league": "La Liga 2",
    "home": "Real Oviedo",
    "away": "Las Palmas",
@@ -2334,24 +2352,6 @@
    "contexte": "Académico de Viseu : 6e/18 (17 pts en 9 m.) | repos 7 j | prochains : C.D. Nacional (Liga Portugal, 6 j)  ||  Rio Ave : 16e/18 (7 pts en 9 m.) | repos 7 j | prochains : Braga (Liga Portugal, 7 j)",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Maritimo",
-   "away": "Santa Clara",
-   "status": "finished",
-   "conf": 64,
-   "victoire": "Victoire Santa Clara",
-   "score_exact": "0-3 (8%) · 0-4 (4%)",
-   "double_chance": "X2 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS NON 54%",
-   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Maritimo : 14e/18 (8 pts en 9 m.) | repos 9 j | prochains : Estoril (Liga Portugal, 7 j)  ||  Santa Clara : 5e/18 (18 pts en 9 m.) | repos 6 j | prochains : Gil Vicente (Liga Portugal, 7 j)",
-   "prio": 9,
-   "live_score": "0-2",
    "minute": "FT"
   }
  ]
