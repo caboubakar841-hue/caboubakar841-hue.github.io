@@ -31,6 +31,7 @@ LEAGUES = {
     "fra.1": "Ligue 1", "fra.2": "Ligue 2",
     "ned.1": "Eredivisie", "por.1": "Liga Portugal", "bel.1": "Pro League",
     "tur.1": "Super Lig", "sco.1": "Scottish Premiership",
+    "gre.1": "Super League (GRE)", "aut.1": "Bundesliga (AUT)", "sui.1": "Super League (SUI)", "den.1": "Superliga (DEN)",
     "usa.1": "MLS", "bra.1": "Brasileirao", "arg.1": "Liga Argentina", "mex.1": "Liga MX",
 }
 
@@ -42,9 +43,17 @@ COMPS = {  # competitions de CONTEXTE (calendrier, repos) : jamais pronostiquees
 }
 ALL_COMPS = {**LEAGUES, **COMPS}
 EURO_COMPS = {"uefa.champions", "uefa.europa", "uefa.europa.conf"}
+# ordre d'affichage : 0 = tout en haut. Coupes d'Europe, puis 5 grands championnats, puis le reste.
+PRIORITY = {"uefa.champions": 0, "uefa.europa": 1, "uefa.europa.conf": 2,
+            "eng.1": 3, "esp.1": 3, "ita.1": 3, "ger.1": 3, "fra.1": 3}
+# Pour comparer deux clubs de championnats differents (matchs europeens) : force relative ESTIMEE (1.0 = meilleur
+# championnat). Ordres de grandeur de la hierarchie europeenne, PAS des valeurs mesurees : ajuste-les si besoin.
+LEAGUE_STRENGTH = {"eng.1": 1.00, "esp.1": 0.98, "ger.1": 0.95, "ita.1": 0.95, "fra.1": 0.90, "por.1": 0.85, "ned.1": 0.85,
+                   "bel.1": 0.78, "tur.1": 0.78, "sco.1": 0.72, "gre.1": 0.75, "aut.1": 0.75, "sui.1": 0.72, "den.1": 0.72,
+                   "eng.2": 0.75, "ger.2": 0.70, "esp.2": 0.70, "ita.2": 0.68, "fra.2": 0.66}
 # classement fiable seulement si la saison est comprise dans la fenetre d'historique (saisons europeennes)
 EURO_SEASON = {"eng.1", "eng.2", "eng.3", "eng.4", "esp.1", "esp.2", "ita.1", "ita.2", "ger.1", "ger.2", "fra.1", "fra.2",
-               "ned.1", "por.1", "bel.1", "tur.1", "sco.1"}
+               "ned.1", "por.1", "bel.1", "tur.1", "sco.1", "gre.1", "aut.1", "sui.1", "den.1"}
 ROTATION_EFFECT = 0.05   # match europeen dans les 4 jours : -5 % d'attaque, +5 % de buts encaisses (HEURISTIQUE)
 STAKES_EFFECT = 0.03     # a 3 pts d'une zone cle (apres 15 matchs) : +3 % d'intensite (HEURISTIQUE)
 FIX_AHEAD_DAYS = 14      # calendrier a venir recupere sur 14 jours
@@ -222,6 +231,9 @@ def card_from(rec, status):
     c = build_card(rec["league"], rec["home"], rec["away"], rec["iso"], rec["pr"], rec["gp"][0], rec["gp"][1])
     c["status"] = status
     c["contexte"] = rec.get("ctx", "")
+    c["prio"] = PRIORITY.get(rec["slug"], 9)
+    if rec["slug"] in EURO_COMPS:
+        c["contexte"] = "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). " + c["contexte"]
     c.pop("_iso", None)
     if rec.get("res"):
         c["live_score"] = f"{rec['res'][0]}-{rec['res'][1]}"
@@ -386,8 +398,8 @@ def main():
         cache = json.load(open(CACHE, encoding="utf-8"))
     except Exception:
         cache = {}
-    if cache.get("v") != 2:                  # v2 : on recupere aussi coupes et competitions europeennes
-        cache["days_done"], cache["v"] = [], 2
+    if cache.get("v") != 3:                  # v3 : nouveaux championnats
+        cache["days_done"], cache["v"] = [], 3
     cache.setdefault("days_done", [])
     cache.setdefault("results", {})
     cache.setdefault("fixtures", {})
@@ -478,10 +490,36 @@ def main():
             mcache[(slug, day)] = fit(train) if len(train) >= 10 else None
         return mcache[(slug, day)]
 
+    # --- matchs europeens : forces domestiques des deux clubs, ramenees a une echelle commune
+    team_slug = {}
+    for sl in LEAGUES:
+        for h, a, *_ in results.get(sl, []):
+            team_slug[h] = sl
+            team_slug[a] = sl
+    eu = [r for r in cache["results"].values() if r["slug"] in EURO_COMPS]
+    mu_eu = (sum(r["gh"] for r in eu) / len(eu), sum(r["ga"] for r in eu) / len(eu)) if len(eu) >= 20 else (1.5, 1.2)
+
+    def euro_model(home, away, day):
+        try:
+            parts = {}
+            for tm in (home, away):
+                sl = team_slug.get(tm)
+                mm = model_before(sl, day) if sl else None
+                if not mm or tm not in mm["att"]:
+                    return None                      # club d'un championnat non couvert : pas de pronostic
+                parts[tm] = (mm, LEAGUE_STRENGTH.get(sl, 0.7))
+            (mh, sh), (ma, sa) = parts[home], parts[away]
+            return {"mu_h": mu_eu[0], "mu_a": mu_eu[1],
+                    "att": {home: mh["att"][home] * sh, away: ma["att"][away] * sa},
+                    "def": {home: mh["def"][home] / sh, away: ma["def"][away] / sa},
+                    "gp": {home: mh["gp"][home], away: ma["gp"][away]}}
+        except Exception:
+            return None
+
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
     for slug, p in events:
-        if slug not in LEAGUES:              # coupes / Europe : contexte uniquement
+        if slug not in LEAGUES and slug not in EURO_COMPS:   # coupes nationales : contexte uniquement
             continue
         day = p["iso"][:10]
         rec = hist.get(p["id"])
@@ -491,20 +529,20 @@ def main():
             continue
         refresh = bool(rec) and p["state"] == "pre" and rec.get("kind") == "avant"
         if not rec or refresh:               # modifiable jusqu'au coup d'envoi (contexte, absences), fige ensuite
-            m = model_before(slug, min(day, today))
+            m = euro_model(p["home"], p["away"], min(day, today)) if slug in EURO_COMPS else model_before(slug, min(day, today))
             if not m or m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES:
                 continue
             pr = pr0 = predict(m, p["home"], p["away"])
             ctx_text, base_p = "", None
             if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
-                ah, dh, th = team_ctx(p["home"], slug, p["iso"], tabs, team_fx, team_games, absences)
-                aa, da, ta = team_ctx(p["away"], slug, p["iso"], tabs, team_fx, team_games, absences)
+                ah, dh, th = team_ctx(p["home"], team_slug.get(p["home"], slug), p["iso"], tabs, team_fx, team_games, absences)
+                aa, da, ta = team_ctx(p["away"], team_slug.get(p["away"], slug), p["iso"], tabs, team_fx, team_games, absences)
                 adj = (ah * da, aa * dh)
                 ctx_text = th + "  ||  " + ta
                 if abs(adj[0] - 1) > 1e-9 or abs(adj[1] - 1) > 1e-9:
                     pr = predict(m, p["home"], p["away"], adj)
                     base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]   # reference sans contexte, pour mesurer l'apport reel
-            rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": LEAGUES[slug], "home": p["home"], "away": p["away"],
+            rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": ALL_COMPS[slug], "home": p["home"], "away": p["away"],
                                    "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
                                    "kind": "avant" if p["state"] == "pre" else "retro", "res": None,
                                    "ctx": ctx_text, "base_p": base_p}
@@ -520,7 +558,7 @@ def main():
 
     today_cards, day_recs = [], []
     if upcoming:
-        day_recs = sorted(upcoming[sorted(upcoming)[0]], key=lambda r: r["iso"])
+        day_recs = sorted(upcoming[sorted(upcoming)[0]], key=lambda r: (PRIORITY.get(r["slug"], 9), r["iso"]))
         today_cards = [card_from(rec, "today") for rec in day_recs]
     done = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
     stats = {"n": len(done), "n_avant": sum(1 for r in done if r["kind"] == "avant")}
@@ -532,6 +570,9 @@ def main():
             stats[k] = rate(done, k)
         stats.update({"1x2": rate(fav, "1x2"), "n_fav": len(fav), "serre": rate(tig, "1x2"), "n_serre": len(tig)})
         stats["base_dom"] = round(100 * sum(1 for r in done if r["res"][0] > r["res"][1]) / len(done))
+        eu_done = [r for r in done if r["slug"] in EURO_COMPS]
+        if eu_done:
+            stats["n_euro"], stats["dc_euro"] = len(eu_done), rate(eu_done, "dc")
         cr = [r for r in done if r.get("base_p")]       # matchs ou le contexte a vraiment change le pronostic
         if cr:
             def brier(ps, res):
@@ -542,6 +583,7 @@ def main():
             stats["brier_base"] = round(sum(brier(r["base_p"], r["res"]) for r in cr) / len(cr), 3)
     fin_cards = [card_from(r, "finished") for r in done[:MAX_MATCHES]]
 
+    live.sort(key=lambda c: c.get("prio", 9))
     cards = live + today_cards[:MAX_MATCHES] + fin_cards
     if not live and not today_cards:
         cards.insert(0, {"league": "Info", "home": "Aucun match", "away": "pronostiquable", "status": "today", "conf": 0,
