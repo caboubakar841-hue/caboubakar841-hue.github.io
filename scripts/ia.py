@@ -36,6 +36,9 @@ LEAGUES = {
     # championnats de REMPLISSAGE (affiches en dernier, seulement s'il reste de la place sous la limite de 40 matchs)
     "par.1": "Primera Paraguay", "col.1": "Liga Colombia", "bol.1": "Liga Bolivie",
     "afc.champions": "AFC Champions League", "afc.cup": "AFC Champions League Two",
+    "per.1": "Liga Perou", "uru.1": "Liga Uruguay", "ecu.1": "Liga Equateur", "ven.1": "Liga Venezuela", "chi.1": "Liga Chili",
+    "jpn.1": "J1 League", "aus.1": "A-League", "kor.1": "K League 1", "sau.1": "Saudi Pro League",
+    "conmebol.libertadores": "Copa Libertadores", "conmebol.sudamericana": "Copa Sudamericana",
 }
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
@@ -50,7 +53,9 @@ EURO_COMPS = {"uefa.champions", "uefa.europa", "uefa.europa.conf"}
 PRIORITY = {"uefa.champions": 0, "uefa.europa": 1, "uefa.europa.conf": 2,
             "eng.1": 3, "esp.1": 3, "ita.1": 3, "ger.1": 3, "fra.1": 3,
             # remplissage : toujours apres tout le reste
-            "mex.1": 12, "par.1": 12, "col.1": 12, "bol.1": 12, "afc.champions": 12, "afc.cup": 12}
+            "mex.1": 12, "par.1": 12, "col.1": 12, "bol.1": 12, "afc.champions": 12, "afc.cup": 12,
+            "per.1": 12, "uru.1": 12, "ecu.1": 12, "ven.1": 12, "chi.1": 12, "jpn.1": 12, "aus.1": 12, "kor.1": 12,
+            "sau.1": 12, "conmebol.libertadores": 12, "conmebol.sudamericana": 12}
 # Pour comparer deux clubs de championnats differents (matchs europeens) : force relative ESTIMEE (1.0 = meilleur
 # championnat). Ordres de grandeur de la hierarchie europeenne, PAS des valeurs mesurees : ajuste-les si besoin.
 LEAGUE_STRENGTH = {"eng.1": 1.00, "esp.1": 0.98, "ger.1": 0.95, "ita.1": 0.95, "fra.1": 0.90, "por.1": 0.85, "ned.1": 0.85,
@@ -239,7 +244,7 @@ def card_from(rec, status):
     c["contexte"] = rec.get("ctx", "")
     c["prio"] = PRIORITY.get(rec["slug"], 9)
     if rec.get("neutral"):
-        c["contexte"] = ("⚠️ Pas de données de championnat pour : " + ", ".join(rec["neutral"]) +
+        c["contexte"] = ("⚠️ Peu ou pas de données pour : " + ", ".join(rec["neutral"]) +
                          " (estimation neutre, très incertaine). ") + c["contexte"]
     if rec["slug"] in EURO_COMPS:
         c["contexte"] = "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). " + c["contexte"]
@@ -408,8 +413,8 @@ def main():
         cache = json.load(open(CACHE, encoding="utf-8"))
     except Exception:
         cache = {}
-    if cache.get("v") != 4:                  # v3 : nouveaux championnats
-        cache["days_done"], cache["v"] = [], 4
+    if cache.get("v") != 5:                  # v3 : nouveaux championnats
+        cache["days_done"], cache["v"] = [], 5
     cache.setdefault("days_done", [])
     cache.setdefault("results", {})
     cache.setdefault("fixtures", {})
@@ -500,6 +505,12 @@ def main():
             mcache[(slug, day)] = fit(train) if len(train) >= 10 else None
         return mcache[(slug, day)]
 
+    seen_today = defaultdict(int)
+    for sl, p in fresh_events:
+        if p["iso"][:10] == today:
+            seen_today[sl] += 1
+    print("Matchs a venir/en cours aujourd'hui par competition :", dict(sorted(seen_today.items())))
+    print("Codes ESPN sans aucune reponse (inconnus ?) :", sorted(set(ALL_COMPS) - good_slugs))
     # --- matchs europeens : forces domestiques des deux clubs, ramenees a une echelle commune
     team_slug = {}
     for sl in LEAGUES:
@@ -525,6 +536,18 @@ def main():
         except Exception:
             return None
 
+    def thin_model(slug, home, away, day):
+        """Peu ou pas de donnees : equipes 'moyennes' (ajustees si on a deja quelques matchs). Toujours signale."""
+        train = [r[:4] for r in results.get(slug, []) if r[4] < day]
+        mm = fit(train) if len(train) >= 4 else None
+        mu = (sum(r[2] for r in train) / len(train), sum(r[3] for r in train) / len(train)) if len(train) >= 4 else mu_eu
+        att, dfn, gp = {home: 1.0, away: 1.0}, {home: 1.0, away: 1.0}, {home: 0, away: 0}
+        for tm in (home, away):
+            if mm and tm in mm["att"]:
+                att[tm], dfn[tm], gp[tm] = mm["att"][tm], mm["def"][tm], mm["gp"][tm]
+        return {"mu_h": mu[0], "mu_a": mu[1], "att": att, "def": dfn, "gp": gp,
+                "neutral": [tm for tm in (home, away) if gp[tm] < MIN_GAMES]}
+
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
     for slug, p in events:
@@ -540,7 +563,9 @@ def main():
         if not rec or refresh:               # modifiable jusqu'au coup d'envoi (contexte, absences), fige ensuite
             m = euro_model(p["home"], p["away"], min(day, today)) if slug in EURO_COMPS else model_before(slug, min(day, today))
             if not m or (slug not in EURO_COMPS and (m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES)):
-                continue
+                if p["state"] == "post":
+                    continue                         # on ne recalcule pas apres coup un match sans donnees
+                m = thin_model(slug, p["home"], p["away"], min(day, today))   # a venir / en cours : on l'affiche quand meme
             pr = pr0 = predict(m, p["home"], p["away"])
             ctx_text, base_p = "", None
             if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
@@ -567,9 +592,10 @@ def main():
 
     today_cards, day_recs = [], []
     if upcoming:
-        day_recs = sorted(upcoming[sorted(upcoming)[0]], key=lambda r: (PRIORITY.get(r["slug"], 9), r["iso"]))
+        day_recs = sorted(upcoming[sorted(upcoming)[0]], key=lambda r: (PRIORITY.get(r["slug"], 9), 1 if r.get("neutral") else 0, r["iso"]))
         today_cards = [card_from(rec, "today") for rec in day_recs]
-    done = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
+    done_all = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
+    done = [r for r in done_all if not r.get("neutral")]
     stats = {"n": len(done), "n_avant": sum(1 for r in done if r["kind"] == "avant")}
     if done:
         rate = lambda rs, k: round(100 * sum(r["eval"][k] for r in rs) / len(rs)) if rs else None
@@ -590,7 +616,7 @@ def main():
             stats["n_ctx"] = len(cr)
             stats["brier_ctx"] = round(sum(brier((r["pr"]["p_h"], r["pr"]["p_d"], r["pr"]["p_a"]), r["res"]) for r in cr) / len(cr), 3)
             stats["brier_base"] = round(sum(brier(r["base_p"], r["res"]) for r in cr) / len(cr), 3)
-    fin_cards = [card_from(r, "finished") for r in done[:MAX_MATCHES]]
+    fin_cards = [card_from(r, "finished") for r in done_all[:MAX_MATCHES]]
 
     live.sort(key=lambda c: c.get("prio", 9))
     cards = live + today_cards[:MAX_MATCHES] + fin_cards
