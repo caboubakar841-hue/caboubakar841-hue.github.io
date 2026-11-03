@@ -1,17 +1,17 @@
 {
- "date": "2026-11-03 01:30 UTC",
+ "date": "2026-11-03 02:23 UTC",
  "version": "V17",
  "stats": {
-  "n": 507,
-  "n_avant": 227,
+  "n": 509,
+  "n_avant": 229,
   "dc": 76,
   "over": 53,
   "btts": 55,
   "score": 15,
   "1x2": 58,
   "n_fav": 232,
-  "serre": 73,
-  "n_serre": 275,
+  "serre": 74,
+  "n_serre": 277,
   "base_dom": 48,
   "n_ctx": 38,
   "brier_ctx": 0.546,
@@ -114,8 +114,8 @@
        "pick": "Double chance 1X (Independiente Rivadavia ou nul)",
        "code": "1X",
        "p": 67,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-1"
       },
       {
        "id": "401880183",
@@ -168,8 +168,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 90,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401880835",
@@ -1329,40 +1329,6 @@
  ],
  "matches": [
   {
-   "league": "Liga Argentina",
-   "home": "Atlético Tucumán",
-   "away": "Argentinos Juniors",
-   "status": "live",
-   "conf": 72,
-   "victoire": "Serré : Nul ou Argentinos Juniors",
-   "score_exact": "0-0 (17%) · 0-1 (17%)",
-   "double_chance": "X2 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 74%",
-   "btts": "BTTS NON 66%",
-   "analyse": "2026-11-03 | Buts attendus Atlético Tucumán 0.8 - Argentinos Juniors 1.0 | 1/N/2 : 28/33/39% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Atlético Tucumán : repos 10 j | prochains : Banfield (Liga Argentina, 6 j)  ||  Argentinos Juniors : repos 6 j | prochains : Huracán (Liga Argentina, 6 j)",
-   "live_score": "0-2",
-   "minute": "57'"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Independiente Rivadavia",
-   "away": "Banfield",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 56%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-03 | Buts attendus Independiente Rivadavia 1.6 - Banfield 1.3 | 1/N/2 : 43/25/33% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Independiente Rivadavia : repos 6 j | prochains : Gimnasia (Mendoza) (Liga Argentina, 6 j)  ||  Banfield : repos 9 j | prochains : Atlético Tucumán (Liga Argentina, 6 j)",
-   "live_score": "3-1",
-   "minute": "52'"
-  },
-  {
    "league": "Championship",
    "home": "Blackburn Rovers",
    "away": "Stoke City",
@@ -1556,6 +1522,40 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-11-03 | Buts attendus Chapecoense 1.4 - Mirassol 1.6 | 1/N/2 : 32/24/43% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Chapecoense : repos 6 j | prochains : Vasco da Gama (Brasileirao, 11 j)  ||  Mirassol : repos 4 j | prochains : Atlético-MG (Brasileirao, 11 j)"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Atlético Tucumán",
+   "away": "Argentinos Juniors",
+   "status": "finished",
+   "conf": 72,
+   "victoire": "Serré : Nul ou Argentinos Juniors",
+   "score_exact": "0-0 (17%) · 0-1 (17%)",
+   "double_chance": "X2 72%",
+   "corner": "N/D",
+   "over": "Under 2.5 74%",
+   "btts": "BTTS NON 66%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Atlético Tucumán : repos 10 j | prochains : Banfield (Liga Argentina, 6 j)  ||  Argentinos Juniors : repos 6 j | prochains : Huracán (Liga Argentina, 6 j)",
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Independiente Rivadavia",
+   "away": "Banfield",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 56%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Independiente Rivadavia : repos 6 j | prochains : Gimnasia (Mendoza) (Liga Argentina, 6 j)  ||  Banfield : repos 9 j | prochains : Atlético Tucumán (Liga Argentina, 6 j)",
+   "live_score": "3-1",
+   "minute": "FT"
   },
   {
    "league": "Brasileirao",
@@ -2201,40 +2201,6 @@
    "analyse": "Resultat 0-1 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Elche : 17e/20 (10 pts en 10 m.) | repos 5 j | prochains : Real Betis (La Liga, 7 j)  ||  Valencia : 19e/20 (6 pts en 10 m.) | repos 8 j | prochains : Real Madrid (La Liga, 6 j), Tavernes de la Valldigna (Coupe du Roi, 9 j)",
    "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Burgos",
-   "away": "Castellón",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : Nul ou Castellón",
-   "score_exact": "0-1 (16%) · 0-0 (13%)",
-   "double_chance": "X2 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 66%",
-   "btts": "BTTS NON 61%",
-   "analyse": "Resultat 1-1 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Burgos : 7e/22 (20 pts en 11 m.) | repos 3 j | prochains : RC Celta Fortuna (La Liga 2, 6 j), Leganés (La Liga 2, 12 j)  ||  Castellón : 1e/22 (26 pts en 11 m.) | repos 3 j | prochains : Eibar (La Liga 2, 5 j), Real Valladolid (La Liga 2, 13 j)",
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Pro League",
-   "home": "Lommel SK",
-   "away": "KAA Gent",
-   "status": "finished",
-   "conf": 72,
-   "victoire": "Serré : Nul ou KAA Gent",
-   "score_exact": "0-1 (14%) · 0-0 (12%)",
-   "double_chance": "X2 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 57%",
-   "analyse": "Resultat 2-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Lommel SK : 8e/18 (12 pts en 9 m.) | repos 8 j | prochains : Antwerp (Pro League, 6 j)  ||  KAA Gent : 3e/18 (25 pts en 9 m.) | repos 7 j | match europeen proche : rotation possible | prochains : KuPS Kuopio (Conference League, 4 j), KV Kortrijk (Pro League, 7 j)",
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
