@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04 16:16 UTC",
+ "date": "2026-11-04 17:08 UTC",
  "version": "V17",
  "stats": {
   "n": 762,
@@ -1538,7 +1538,7 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Stade Rennais : 5e/18 (16 pts en 9 m.) | repos 5 j | prochains : Lille (Ligue 1, 4 j)  ||  Olympiacos : 2e/14 (22 pts en 9 m.) | repos 4 j | prochains : PAOK (Super League (GRE), 4 j)",
    "prio": 1,
    "live_score": "0-0",
-   "minute": "45'"
+   "minute": "79'"
   },
   {
    "league": "AFC Champions League Two",
@@ -1556,7 +1556,7 @@
    "contexte": "Al Wahda FC : repos 7 j  ||  Al-Khaldiya SC : repos 7 j",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "16'"
+   "minute": "48'"
   },
   {
    "league": "AFC Champions League Two",
@@ -1574,7 +1574,7 @@
    "contexte": "Al-Rayyan SC : repos 7 j  ||  Al-Nahda Club : repos 7 j",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "17'"
+   "minute": "49'"
   },
   {
    "league": "AFC Champions League Two",
@@ -1591,8 +1591,8 @@
    "analyse": "2026-11-04 | Buts attendus Kuwait SC 1.2 - FC Nasaf 1.0 | 1/N/2 : 42/29/29% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Kuwait SC : repos 7 j  ||  FC Nasaf : repos 7 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "16'"
+   "live_score": "2-0",
+   "minute": "45'"
   },
   {
    "league": "Ligue des champions",
