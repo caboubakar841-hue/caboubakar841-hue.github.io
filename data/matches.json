@@ -1,9 +1,9 @@
 {
- "date": "2026-11-04 13:29 UTC",
+ "date": "2026-11-04 14:31 UTC",
  "version": "V17",
  "stats": {
-  "n": 760,
-  "n_avant": 125,
+  "n": 761,
+  "n_avant": 126,
   "dc": 77,
   "over": 53,
   "btts": 53,
@@ -11,7 +11,7 @@
   "1x2": 59,
   "n_fav": 362,
   "serre": 74,
-  "n_serre": 398,
+  "n_serre": 399,
   "base_dom": 48,
   "n_euro": 25,
   "dc_euro": 84,
@@ -72,8 +72,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "0-0"
       },
       {
        "id": "401841301",
@@ -1523,22 +1523,22 @@
  ],
  "matches": [
   {
-   "league": "AFC Champions League",
-   "home": "Buriram United",
-   "away": "Kashima Antlers",
+   "league": "AFC Champions League Two",
+   "home": "Arkadag FK",
+   "away": "Gol Gohar Sirjan FC",
    "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
+   "conf": 72,
+   "victoire": "Serré : Nul ou Arkadag FK",
+   "score_exact": "0-0 (24%) · 1-0 (18%)",
+   "double_chance": "1X 72%",
    "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-04 | Buts attendus Buriram United 1.1 - Kashima Antlers 1.5 | 1/N/2 : 28/26/46% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Buriram United : repos 7 j  ||  Kashima Antlers : repos 4 j | prochains : FC Tokyo (J1 League, 3 j)",
+   "over": "Under 2.5 83%",
+   "btts": "BTTS NON 74%",
+   "analyse": "2026-11-04 | Buts attendus Arkadag FK 0.8 - Gol Gohar Sirjan FC 0.7 | 1/N/2 : 34/38/28% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Arkadag FK : repos 7 j  ||  Gol Gohar Sirjan FC : repos 7 j",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "56'"
+   "minute": "45'+1'"
   },
   {
    "league": "Ligue des champions",
@@ -1814,22 +1814,6 @@
   },
   {
    "league": "AFC Champions League Two",
-   "home": "Arkadag FK",
-   "away": "Gol Gohar Sirjan FC",
-   "status": "today",
-   "conf": 72,
-   "victoire": "Serré : Nul ou Arkadag FK",
-   "score_exact": "0-0 (24%) · 1-0 (18%)",
-   "double_chance": "1X 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 83%",
-   "btts": "BTTS NON 74%",
-   "analyse": "2026-11-04 | Buts attendus Arkadag FK 0.8 - Gol Gohar Sirjan FC 0.7 | 1/N/2 : 34/38/28% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Arkadag FK : repos 7 j  ||  Gol Gohar Sirjan FC : repos 7 j",
-   "prio": 12
-  },
-  {
-   "league": "AFC Champions League Two",
    "home": "Al Wahda FC",
    "away": "Al-Khaldiya SC",
    "status": "today",
@@ -1987,6 +1971,24 @@
    "analyse": "2026-11-04 | Buts attendus Metropolitanos 1.5 - Carabobo 0.9 | 1/N/2 : 50/27/24% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Metropolitanos : repos 3 j | prochains : Portuguesa (Liga Venezuela, 4 j)  ||  Carabobo : repos 3 j | prochains : Deportivo La Guaira (Liga Venezuela, 4 j)",
    "prio": 12
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Buriram United",
+   "away": "Kashima Antlers",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Buriram United : repos 7 j  ||  Kashima Antlers : repos 4 j | prochains : FC Tokyo (J1 League, 3 j)",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "FT"
   },
   {
    "league": "AFC Champions League",
@@ -2688,24 +2690,6 @@
    "contexte": "East Bengal FC : repos 7 j  ||  Al-Seeb Club : repos 7 j",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Cong An Ha Noi",
-   "away": "Kyoto Sanga",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 59%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Cong An Ha Noi : repos 7 j  ||  Kyoto Sanga : repos 3 j | prochains : Nagoya Grampus (J1 League, 4 j)",
-   "prio": 12,
-   "live_score": "0-0",
    "minute": "FT"
   }
  ]
