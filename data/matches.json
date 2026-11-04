@@ -1,15 +1,15 @@
 {
- "date": "2026-11-04 02:15 UTC",
+ "date": "2026-11-04 02:59 UTC",
  "version": "V17",
  "stats": {
-  "n": 755,
-  "n_avant": 129,
+  "n": 756,
+  "n_avant": 130,
   "dc": 77,
   "over": 53,
   "btts": 53,
   "score": 14,
-  "1x2": 58,
-  "n_fav": 359,
+  "1x2": 59,
+  "n_fav": 360,
   "serre": 74,
   "n_serre": 396,
   "base_dom": 48,
@@ -83,8 +83,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "1-0"
       },
       {
        "id": "401912762",
@@ -143,7 +143,7 @@
       }
      ],
      "combined": 4.3,
-     "status": "en cours"
+     "status": "perdu"
     },
     {
      "name": "Ticket 5 matchs (sûr)",
@@ -1523,24 +1523,6 @@
  ],
  "matches": [
   {
-   "league": "Brasileirao",
-   "home": "Internacional",
-   "away": "Coritiba",
-   "status": "live",
-   "conf": 55,
-   "victoire": "Victoire Internacional",
-   "score_exact": "1-0 (13%) · 2-0 (10%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS NON 51%",
-   "analyse": "2026-11-04 | Buts attendus Internacional 1.7 - Coritiba 0.9 | 1/N/2 : 55/24/21% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Internacional : repos 6 j  ||  Coritiba : repos 3 j",
-   "prio": 9,
-   "live_score": "0-0",
-   "minute": "80'"
-  },
-  {
    "league": "Liga Perou",
    "home": "Alianza Lima",
    "away": "Cienciano del Cusco",
@@ -1555,8 +1537,8 @@
    "analyse": "2026-11-04 | Buts attendus Alianza Lima 1.7 - Cienciano del Cusco 0.9 | 1/N/2 : 56/24/20% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Alianza Lima : repos 5 j | prochains : Los Chankas (Liga Perou, 5 j), FC Cajamarca (Liga Perou, 11 j)  ||  Cienciano del Cusco : repos 6 j | prochains : Sport Huancayo (Liga Perou, 4 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "51'"
+   "live_score": "1-0",
+   "minute": "90'+5'"
   },
   {
    "league": "Ligue des champions",
@@ -1811,7 +1793,7 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 64%",
    "analyse": "2026-11-04 | Buts attendus Athletico-PR 2.0 - Vasco da Gama 1.3 | 1/N/2 : 53/22/26% | base sur 15 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Athletico-PR : repos 6 j  ||  Vasco da Gama : repos 6 j | prochains : Chapecoense (Brasileirao, 10 j)",
+   "contexte": "Athletico-PR : repos 6 j | prochains : Flamengo (Brasileirao, 14 j)  ||  Vasco da Gama : repos 6 j | prochains : Chapecoense (Brasileirao, 10 j)",
    "prio": 9
   },
   {
@@ -1827,7 +1809,7 @@
    "over": "Over 2.5 61%",
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-04 | Buts attendus Flamengo 2.4 - Grêmio 0.7 | 1/N/2 : 76/16/9% | base sur 16 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Flamengo : repos 6 j  ||  Grêmio : repos 6 j",
+   "contexte": "Flamengo : repos 6 j | prochains : Athletico-PR (Brasileirao, 14 j)  ||  Grêmio : repos 6 j | prochains : Bahia (Brasileirao, 14 j)",
    "prio": 9
   },
   {
@@ -2019,7 +2001,7 @@
    "over": "Under 2.5 54%",
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-04 | Buts attendus Libertad 1.3 - Cerro Porteño 1.2 | 1/N/2 : 39/27/34% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Libertad : repos 4 j | prochains : Nacional Asunción (Primera Paraguay, 3 j)  ||  Cerro Porteño : repos 3 j | prochains : Deportivo Recoleta (Primera Paraguay, 4 j)",
+   "contexte": "Libertad : repos 4 j | prochains : Nacional Asunción (Primera Paraguay, 3 j), Rubio Ñú (Primera Paraguay, 14 j)  ||  Cerro Porteño : repos 3 j | prochains : Deportivo Recoleta (Primera Paraguay, 4 j), Nacional Asunción (Primera Paraguay, 14 j)",
    "prio": 12
   },
   {
@@ -2035,7 +2017,7 @@
    "over": "Under 2.5 65%",
    "btts": "BTTS NON 59%",
    "analyse": "2026-11-04 | Buts attendus Sportivo Ameliano 0.9 - Guaraní 1.2 | 1/N/2 : 27/30/43% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sportivo Ameliano : repos 4 j | prochains : Sportivo Trinidense (Primera Paraguay, 4 j)  ||  Guaraní : repos 5 j | prochains : Club Olimpia (Primera Paraguay, 3 j)",
+   "contexte": "Sportivo Ameliano : repos 4 j | prochains : Sportivo Trinidense (Primera Paraguay, 4 j), Sportivo Luqueño (Primera Paraguay, 14 j)  ||  Guaraní : repos 5 j | prochains : Club Olimpia (Primera Paraguay, 3 j), Deportivo Recoleta (Primera Paraguay, 14 j)",
    "prio": 12
   },
   {
@@ -2069,6 +2051,24 @@
    "analyse": "2026-11-04 | Buts attendus Metropolitanos 1.5 - Carabobo 0.9 | 1/N/2 : 50/27/24% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Metropolitanos : repos 3 j | prochains : Portuguesa (Liga Venezuela, 4 j)  ||  Carabobo : repos 3 j | prochains : Deportivo La Guaira (Liga Venezuela, 4 j)",
    "prio": 12
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Internacional",
+   "away": "Coritiba",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire Internacional",
+   "score_exact": "1-0 (13%) · 2-0 (10%)",
+   "double_chance": "1X 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS NON 51%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Internacional : repos 6 j  ||  Coritiba : repos 3 j",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
   },
   {
    "league": "Liga Venezuela",
@@ -2770,24 +2770,6 @@
    "contexte": "Vissel Kobe : repos 3 j | prochains : Urawa Red Diamonds (J1 League, 5 j)  ||  Ratchaburi FC : repos 7 j",
    "prio": 12,
    "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Newcastle Jets",
-   "away": "Shanghai Port FC",
-   "status": "finished",
-   "conf": 56,
-   "victoire": "Victoire Shanghai Port FC",
-   "score_exact": "2-3 (6%) · 1-3 (5%)",
-   "double_chance": "12 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 91%",
-   "btts": "BTTS OUI 87%",
-   "analyse": "Resultat 2-4 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Newcastle Jets : repos 3 j | prochains : Perth Glory FC (A-League, 4 j)  ||  Shanghai Port FC : repos 7 j",
-   "prio": 12,
-   "live_score": "2-4",
    "minute": "FT"
   }
  ]
