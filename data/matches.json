@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04 06:31 UTC",
+ "date": "2026-11-04 07:50 UTC",
  "version": "V17",
  "stats": {
   "n": 757,
@@ -1523,6 +1523,24 @@
  ],
  "matches": [
   {
+   "league": "AFC Champions League Two",
+   "home": "Melbourne Victory",
+   "away": "Persib Bandung",
+   "status": "live",
+   "conf": 78,
+   "victoire": "Serré : Nul ou Persib Bandung",
+   "score_exact": "0-1 (17%) · 0-0 (14%)",
+   "double_chance": "X2 78%",
+   "corner": "N/D",
+   "over": "Under 2.5 69%",
+   "btts": "BTTS NON 63%",
+   "analyse": "2026-11-04 | Buts attendus Melbourne Victory 0.7 - Persib Bandung 1.2 | 1/N/2 : 22/30/48% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Melbourne Victory : repos 3 j | prochains : Adelaide United FC (A-League, 4 j)  ||  Persib Bandung : repos 7 j",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "5'"
+  },
+  {
    "league": "Ligue des champions",
    "home": "AEK Athens",
    "away": "Real Madrid",
@@ -1793,22 +1811,6 @@
    "analyse": "2026-11-04 | Buts attendus Flamengo 2.4 - Grêmio 0.7 | 1/N/2 : 76/16/9% | base sur 16 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Flamengo : repos 6 j | prochains : Athletico-PR (Brasileirao, 14 j)  ||  Grêmio : repos 6 j | prochains : Bahia (Brasileirao, 14 j)",
    "prio": 9
-  },
-  {
-   "league": "AFC Champions League Two",
-   "home": "Melbourne Victory",
-   "away": "Persib Bandung",
-   "status": "today",
-   "conf": 78,
-   "victoire": "Serré : Nul ou Persib Bandung",
-   "score_exact": "0-1 (17%) · 0-0 (14%)",
-   "double_chance": "X2 78%",
-   "corner": "N/D",
-   "over": "Under 2.5 69%",
-   "btts": "BTTS NON 63%",
-   "analyse": "2026-11-04 | Buts attendus Melbourne Victory 0.7 - Persib Bandung 1.2 | 1/N/2 : 22/30/48% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Melbourne Victory : repos 3 j | prochains : Adelaide United FC (A-League, 4 j)  ||  Persib Bandung : repos 7 j",
-   "prio": 12
   },
   {
    "league": "AFC Champions League",
