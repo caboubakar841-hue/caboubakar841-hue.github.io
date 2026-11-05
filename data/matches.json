@@ -1,9 +1,9 @@
 {
- "date": "2026-11-05 02:38 UTC",
+ "date": "2026-11-05 03:25 UTC",
  "version": "V17",
  "stats": {
-  "n": 761,
-  "n_avant": 154,
+  "n": 762,
+  "n_avant": 155,
   "dc": 77,
   "over": 54,
   "btts": 54,
@@ -11,7 +11,7 @@
   "1x2": 60,
   "n_fav": 351,
   "serre": 74,
-  "n_serre": 410,
+  "n_serre": 411,
   "base_dom": 48,
   "n_euro": 26,
   "dc_euro": 85,
@@ -1716,24 +1716,6 @@
  "matches": [
   {
    "league": "Liga Colombia",
-   "home": "Cúcuta Deportivo",
-   "away": "Independiente Santa Fe",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 53%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-04 | Buts attendus Cúcuta Deportivo 1.2 - Independiente Santa Fe 1.4 | 1/N/2 : 32/26/42% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Cúcuta Deportivo : repos 8 j | prochains : Jaguares de Córdoba (Liga Colombia, 4 j), Atlético Junior (Liga Colombia, 5 j)  ||  Independiente Santa Fe : repos 6 j | prochains : Deportivo Pasto (Liga Colombia, 4 j), Internacional de Bogotá (Liga Colombia, 4 j)",
-   "prio": 12,
-   "live_score": "1-0",
-   "minute": "90'+4'"
-  },
-  {
-   "league": "Liga Colombia",
    "home": "Millonarios",
    "away": "América de Cali",
    "status": "live",
@@ -1748,7 +1730,7 @@
    "contexte": "Millonarios : repos 15 j | prochains : Alianza FC (Liga Colombia, 4 j), Deportes Tolima (Liga Colombia, 4 j)  ||  América de Cali : repos 6 j | prochains : Deportivo Cali (Liga Colombia, 3 j), Deportivo Pereira (Liga Colombia, 4 j)",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "49'"
+   "minute": "90'+7'"
   },
   {
    "league": "Liga Perou",
@@ -1765,8 +1747,8 @@
    "analyse": "2026-11-05 | Buts attendus Universitario 1.9 - Sport Boys 1.2 | 1/N/2 : 53/22/25% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Universitario : repos 3 j | prochains : Deportivo Moquegua (Liga Perou, 4 j), Sport Huancayo (Liga Perou, 10 j)  ||  Sport Boys : repos 3 j | prochains : UTC (Liga Perou, 4 j), Comerciantes Unidos (Liga Perou, 11 j)",
    "prio": 12,
-   "live_score": "0-1",
-   "minute": "49'"
+   "live_score": "2-2",
+   "minute": "90'+6'"
   },
   {
    "league": "Ligue Europa",
@@ -2463,6 +2445,24 @@
    "minute": "FT"
   },
   {
+   "league": "Liga Colombia",
+   "home": "Cúcuta Deportivo",
+   "away": "Independiente Santa Fe",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 53%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Cúcuta Deportivo : repos 8 j | prochains : Jaguares de Córdoba (Liga Colombia, 4 j), Atlético Junior (Liga Colombia, 5 j)  ||  Independiente Santa Fe : repos 6 j | prochains : Deportivo Pasto (Liga Colombia, 4 j), Internacional de Bogotá (Liga Colombia, 4 j)",
+   "prio": 12,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
    "league": "Liga Venezuela",
    "home": "Metropolitanos",
    "away": "Carabobo",
@@ -3108,24 +3108,6 @@
    "contexte": "Chapecoense : repos 6 j | prochains : Vasco da Gama (Brasileirao, 11 j)  ||  Mirassol : repos 4 j | prochains : Atlético-MG (Brasileirao, 11 j)",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Nacional Asunción",
-   "away": "Sportivo San Lorenzo",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Victoire Nacional Asunción",
-   "score_exact": "1-0 (19%) · 2-0 (18%)",
-   "double_chance": "1X 94%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 72%",
-   "analyse": "Resultat 0-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Nacional Asunción : repos 3 j | prochains : Libertad (Primera Paraguay, 4 j)  ||  Sportivo San Lorenzo : repos 3 j | prochains : Rubio Ñú (Primera Paraguay, 6 j)",
-   "prio": 12,
-   "live_score": "0-2",
    "minute": "FT"
   }
  ]
