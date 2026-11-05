@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05 10:37 UTC",
+ "date": "2026-11-05 11:29 UTC",
  "version": "V17",
  "stats": {
   "n": 764,
@@ -1730,7 +1730,7 @@
    "contexte": "Kitchee SC : repos 7 j  ||  Phnom Penh Crown FC : repos 7 j",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "37'"
+   "minute": "69'"
   },
   {
    "league": "AFC Champions League Two",
@@ -1747,8 +1747,8 @@
    "analyse": "2026-11-05 | Buts attendus Machida Zelvia 1.0 - Shanghai Shenhua FC 0.7 | 1/N/2 : 42/34/25% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Machida Zelvia : repos 4 j | prochains : Sanfrecce Hiroshima (J1 League, 3 j)  ||  Shanghai Shenhua FC : repos 7 j",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "37'"
+   "live_score": "1-1",
+   "minute": "72'"
   },
   {
    "league": "Ligue Europa",
