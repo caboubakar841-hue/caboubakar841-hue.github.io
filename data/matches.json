@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05 09:39 UTC",
+ "date": "2026-11-05 10:37 UTC",
  "version": "V17",
  "stats": {
   "n": 764,
@@ -1715,6 +1715,42 @@
  ],
  "matches": [
   {
+   "league": "AFC Champions League Two",
+   "home": "Kitchee SC",
+   "away": "Phnom Penh Crown FC",
+   "status": "live",
+   "conf": 55,
+   "victoire": "Victoire Phnom Penh Crown FC",
+   "score_exact": "0-1 (15%) · 0-2 (11%)",
+   "double_chance": "X2 81%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-05 | Buts attendus Kitchee SC 0.8 - Phnom Penh Crown FC 1.5 | 1/N/2 : 19/26/55% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Kitchee SC : repos 7 j  ||  Phnom Penh Crown FC : repos 7 j",
+   "prio": 12,
+   "live_score": "1-0",
+   "minute": "37'"
+  },
+  {
+   "league": "AFC Champions League Two",
+   "home": "Machida Zelvia",
+   "away": "Shanghai Shenhua FC",
+   "status": "live",
+   "conf": 75,
+   "victoire": "Serré : Nul ou Machida Zelvia",
+   "score_exact": "0-0 (19%) · 1-0 (19%)",
+   "double_chance": "1X 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 77%",
+   "btts": "BTTS NON 69%",
+   "analyse": "2026-11-05 | Buts attendus Machida Zelvia 1.0 - Shanghai Shenhua FC 0.7 | 1/N/2 : 42/34/25% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Machida Zelvia : repos 4 j | prochains : Sanfrecce Hiroshima (J1 League, 3 j)  ||  Shanghai Shenhua FC : repos 7 j",
+   "prio": 12,
+   "live_score": "1-0",
+   "minute": "37'"
+  },
+  {
    "league": "Ligue Europa",
    "home": "Anderlecht",
    "away": "RB Salzburg",
@@ -2324,22 +2360,6 @@
   },
   {
    "league": "AFC Champions League Two",
-   "home": "Kitchee SC",
-   "away": "Phnom Penh Crown FC",
-   "status": "today",
-   "conf": 55,
-   "victoire": "Victoire Phnom Penh Crown FC",
-   "score_exact": "0-1 (15%) · 0-2 (11%)",
-   "double_chance": "X2 81%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-05 | Buts attendus Kitchee SC 0.8 - Phnom Penh Crown FC 1.5 | 1/N/2 : 19/26/55% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Kitchee SC : repos 7 j  ||  Phnom Penh Crown FC : repos 7 j",
-   "prio": 12
-  },
-  {
-   "league": "AFC Champions League Two",
    "home": "Lion City Sailors FC",
    "away": "Adelaide United FC",
    "status": "today",
@@ -2352,6 +2372,22 @@
    "btts": "BTTS NON 55%",
    "analyse": "2026-11-05 | Buts attendus Lion City Sailors FC 1.1 - Adelaide United FC 1.1 | 1/N/2 : 37/29/34% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Lion City Sailors FC : repos 7 j  ||  Adelaide United FC : repos 4 j | prochains : Melbourne Victory (A-League, 3 j)",
+   "prio": 12
+  },
+  {
+   "league": "AFC Champions League Two",
+   "home": "BG Pathum United",
+   "away": "Tai Po FC",
+   "status": "today",
+   "conf": 59,
+   "victoire": "Victoire BG Pathum United",
+   "score_exact": "1-0 (14%) · 2-0 (12%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Under 2.5 53%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-05 | Buts attendus BG Pathum United 1.7 - Tai Po FC 0.8 | 1/N/2 : 59/23/17% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "BG Pathum United : repos 7 j  ||  Tai Po FC : repos 7 j",
    "prio": 12
   },
   {
