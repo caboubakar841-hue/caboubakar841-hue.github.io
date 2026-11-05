@@ -1,9 +1,9 @@
 {
- "date": "2026-11-05 12:20 UTC",
+ "date": "2026-11-05 13:39 UTC",
  "version": "V17",
  "stats": {
-  "n": 766,
-  "n_avant": 156,
+  "n": 767,
+  "n_avant": 157,
   "dc": 77,
   "over": 54,
   "btts": 54,
@@ -11,7 +11,7 @@
   "1x2": 59,
   "n_fav": 352,
   "serre": 74,
-  "n_serre": 414,
+  "n_serre": 415,
   "base_dom": 48,
   "n_euro": 26,
   "dc_euro": 85,
@@ -1716,24 +1716,6 @@
  "matches": [
   {
    "league": "AFC Champions League Two",
-   "home": "Lion City Sailors FC",
-   "away": "Adelaide United FC",
-   "status": "live",
-   "conf": 71,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (12%) · 0-1 (12%)",
-   "double_chance": "12 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 62%",
-   "btts": "BTTS NON 55%",
-   "analyse": "2026-11-05 | Buts attendus Lion City Sailors FC 1.1 - Adelaide United FC 1.1 | 1/N/2 : 37/29/34% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Lion City Sailors FC : repos 7 j  ||  Adelaide United FC : repos 4 j | prochains : Melbourne Victory (A-League, 3 j)",
-   "prio": 12,
-   "live_score": "3-0",
-   "minute": "HT"
-  },
-  {
-   "league": "AFC Champions League Two",
    "home": "BG Pathum United",
    "away": "Tai Po FC",
    "status": "live",
@@ -1747,8 +1729,8 @@
    "analyse": "2026-11-05 | Buts attendus BG Pathum United 1.7 - Tai Po FC 0.8 | 1/N/2 : 59/23/17% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "BG Pathum United : repos 7 j  ||  Tai Po FC : repos 7 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "4-0",
+   "minute": "65'"
   },
   {
    "league": "AFC Champions League Two",
@@ -1765,8 +1747,8 @@
    "analyse": "2026-11-05 | Buts attendus Kuching City 0.9 - Gangwon FC 1.1 | 1/N/2 : 28/30/42% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Kuching City : repos 7 j  ||  Gangwon FC : repos 7 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "4'"
+   "live_score": "2-0",
+   "minute": "64'"
   },
   {
    "league": "AFC Champions League Two",
@@ -1783,8 +1765,8 @@
    "analyse": "2026-11-05 | Buts attendus PKR Svay Rieng 2.0 - Tampines Rovers FC 1.1 | 1/N/2 : 57/22/21% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "PKR Svay Rieng : repos 7 j  ||  Tampines Rovers FC : repos 7 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "4'"
+   "live_score": "1-0",
+   "minute": "65'"
   },
   {
    "league": "Ligue Europa",
@@ -2426,6 +2408,24 @@
    "contexte": "Kitchee SC : repos 7 j  ||  Phnom Penh Crown FC : repos 7 j",
    "prio": 12,
    "live_score": "2-1",
+   "minute": "FT"
+  },
+  {
+   "league": "AFC Champions League Two",
+   "home": "Lion City Sailors FC",
+   "away": "Adelaide United FC",
+   "status": "finished",
+   "conf": 71,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (12%) · 0-1 (12%)",
+   "double_chance": "12 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 62%",
+   "btts": "BTTS NON 55%",
+   "analyse": "Resultat 5-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Lion City Sailors FC : repos 7 j  ||  Adelaide United FC : repos 4 j | prochains : Melbourne Victory (A-League, 3 j)",
+   "prio": 12,
+   "live_score": "5-0",
    "minute": "FT"
   },
   {
@@ -3110,24 +3110,6 @@
    "contexte": "Melbourne Victory : repos 3 j | prochains : Adelaide United FC (A-League, 4 j)  ||  Persib Bandung : repos 7 j",
    "prio": 12,
    "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Perou",
-   "home": "Alianza Lima",
-   "away": "Cienciano del Cusco",
-   "status": "finished",
-   "conf": 56,
-   "victoire": "Victoire Alianza Lima",
-   "score_exact": "1-0 (12%) · 2-0 (11%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS NON 50%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Alianza Lima : repos 5 j | prochains : Los Chankas (Liga Perou, 5 j), FC Cajamarca (Liga Perou, 11 j)  ||  Cienciano del Cusco : repos 6 j | prochains : Sport Huancayo (Liga Perou, 4 j)",
-   "prio": 12,
-   "live_score": "1-0",
    "minute": "FT"
   }
  ]
