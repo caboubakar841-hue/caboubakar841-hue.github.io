@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05 20:32 UTC",
+ "date": "2026-11-05 21:21 UTC",
  "version": "V17",
  "stats": {
   "n": 777,
@@ -1729,8 +1729,8 @@
    "analyse": "2026-11-05 | Buts attendus AZ Alkmaar 1.2 - Juventus 1.1 | 1/N/2 : 38/28/34% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). AZ Alkmaar : 5e/18 (20 pts en 11 m.) | repos 5 j | prochains : FC Groningen (Eredivisie, 3 j)  ||  Juventus : 7e/20 (17 pts en 10 m.) | repos 4 j | prochains : Fiorentina (Serie A, 3 j)",
    "prio": 1,
-   "live_score": "0-1",
-   "minute": "30'"
+   "live_score": "0-2",
+   "minute": "61'"
   },
   {
    "league": "Ligue Europa",
@@ -1748,7 +1748,7 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Bayer Leverkusen : 6e/18 (13 pts en 8 m.) | repos 5 j | prochains : FC Cologne (Bundesliga, 3 j)  ||  Marseille : 6e/18 (15 pts en 9 m.) | repos 4 j | prochains : Lens (Ligue 1, 3 j)",
    "prio": 1,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "61'"
   },
   {
    "league": "Ligue Europa",
@@ -1766,7 +1766,7 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Lech Poznan (estimation neutre, très incertaine). Benfica : 2e/18 (25 pts en 10 m.) | repos 3 j | prochains : Estrela (Liga Portugal, 3 j)  ||  Lech Poznan : repos 14 j",
    "prio": 1,
    "live_score": "1-0",
-   "minute": "30'"
+   "minute": "62'"
   },
   {
    "league": "Ligue Europa",
@@ -1783,8 +1783,8 @@
    "analyse": "2026-11-05 | Buts attendus Celta Vigo 1.0 - Union St.-Gilloise 1.5 | 1/N/2 : 25/26/49% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Celta Vigo : 9e/20 (12 pts en 11 m.) | repos 5 j | prochains : Levante (La Liga, 3 j), Salamanca UDS (Coupe du Roi, 8 j)  ||  Union St.-Gilloise : 2e/18 (26 pts en 10 m.) | repos 5 j | prochains : Racing Genk (Pro League, 3 j)",
    "prio": 1,
-   "live_score": "1-0",
-   "minute": "31'"
+   "live_score": "1-2",
+   "minute": "62'"
   },
   {
    "league": "Ligue Europa",
@@ -1801,8 +1801,8 @@
    "analyse": "2026-11-05 | Buts attendus Celtic 2.0 - Besiktas 1.5 | 1/N/2 : 49/22/29% | base sur 12 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Celtic : 1e/12 (28 pts en 12 m.) | repos 4 j | prochains : Kilmarnock (Scottish Premiership, 3 j)  ||  Besiktas : 4e/18 (19 pts en 10 m.) | repos 4 j | prochains : Genclerbirligi (Super Lig, 3 j)",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "31'"
+   "live_score": "1-1",
+   "minute": "64'"
   },
   {
    "league": "Ligue Europa",
@@ -1819,8 +1819,8 @@
    "analyse": "2026-11-05 | Buts attendus Hapoel Be'er 1.3 - OFI Crete 2.0 | 1/N/2 : 25/22/53% | base sur 0 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Hapoel Be'er (estimation neutre, très incertaine). Hapoel Be'er : repos 14 j  ||  OFI Crete : 5e/14 (16 pts en 9 m.) | repos 4 j | prochains : Atromitos (Super League (GRE), 3 j)",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "31'"
+   "live_score": "0-2",
+   "minute": "61'"
   },
   {
    "league": "Ligue Europa",
@@ -1837,8 +1837,8 @@
    "analyse": "2026-11-05 | Buts attendus SK Sturm Graz 2.4 - NK Celje 1.0 | 1/N/2 : 68/18/14% | base sur 11 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : NK Celje (estimation neutre, très incertaine). SK Sturm Graz : 4e/12 (19 pts en 11 m.) | repos 4 j | prochains : RB Salzburg (Bundesliga (AUT), 3 j)  ||  NK Celje : repos 14 j",
    "prio": 1,
-   "live_score": "0-1",
-   "minute": "31'"
+   "live_score": "1-2",
+   "minute": "63'"
   },
   {
    "league": "Ligue Europa",
@@ -1855,8 +1855,8 @@
    "analyse": "2026-11-05 | Buts attendus Sunderland 2.3 - Dinamo Zagreb 1.1 | 1/N/2 : 65/19/16% | base sur 9 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Dinamo Zagreb (estimation neutre, très incertaine). Sunderland : 20e/20 (5 pts en 9 m.) | repos 5 j | prochains : Chelsea (Premier League, 3 j)  ||  Dinamo Zagreb : repos 14 j",
    "prio": 1,
-   "live_score": "0-1",
-   "minute": "30'"
+   "live_score": "0-2",
+   "minute": "60'"
   },
   {
    "league": "Ligue Europa",
@@ -1873,8 +1873,8 @@
    "analyse": "2026-11-05 | Buts attendus Torreense 1.8 - Ararat-Armenia 1.5 | 1/N/2 : 44/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Torreense, Ararat-Armenia (estimation neutre, très incertaine). Torreense : repos 14 j  ||  Ararat-Armenia : repos 14 j",
    "prio": 1,
-   "live_score": "1-0",
-   "minute": "31'"
+   "live_score": "1-2",
+   "minute": "61'"
   },
   {
    "league": "Conference League",
@@ -1891,8 +1891,8 @@
    "analyse": "2026-11-05 | Buts attendus AS Monaco 1.9 - FC Nordsjælland 1.0 | 1/N/2 : 59/22/19% | base sur 9 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). AS Monaco : 7e/18 (15 pts en 9 m.) | repos 4 j | prochains : Le Mans (Ligue 1, 3 j)  ||  FC Nordsjælland : 5e/12 (20 pts en 13 m.) | repos 4 j | prochains : Randers FC (Superliga (DEN), 3 j)",
    "prio": 2,
-   "live_score": "0-0",
-   "minute": "30'"
+   "live_score": "1-0",
+   "minute": "64'"
   },
   {
    "league": "Conference League",
@@ -1909,8 +1909,8 @@
    "analyse": "2026-11-05 | Buts attendus CSU Craiova 1.8 - Egnatia 1.5 | 1/N/2 : 44/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : CSU Craiova, Egnatia (estimation neutre, très incertaine). CSU Craiova : repos 14 j  ||  Egnatia : repos 14 j",
    "prio": 2,
-   "live_score": "1-0",
-   "minute": "32'"
+   "live_score": "2-0",
+   "minute": "63'"
   },
   {
    "league": "Conference League",
@@ -1928,7 +1928,7 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Iberia 1999 (estimation neutre, très incertaine). F.C. København : 2e/12 (29 pts en 13 m.) | repos 3 j | prochains : Brøndby IF (Superliga (DEN), 3 j)  ||  Iberia 1999 : repos 14 j",
    "prio": 2,
    "live_score": "2-1",
-   "minute": "31'"
+   "minute": "61'"
   },
   {
    "league": "Conference League",
@@ -1945,8 +1945,8 @@
    "analyse": "2026-11-05 | Buts attendus FC Lugano 1.8 - Kauno Zalgiris 1.5 | 1/N/2 : 44/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : FC Lugano, Kauno Zalgiris (estimation neutre, très incertaine). FC Lugano : repos 14 j  ||  Kauno Zalgiris : repos 14 j",
    "prio": 2,
-   "live_score": "2-0",
-   "minute": "31'"
+   "live_score": "3-0",
+   "minute": "63'"
   },
   {
    "league": "Conference League",
@@ -1963,8 +1963,8 @@
    "analyse": "2026-11-05 | Buts attendus FC Twente 3.2 - Pafos 0.7 | 1/N/2 : 85/10/5% | base sur 11 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Pafos (estimation neutre, très incertaine). FC Twente : 4e/18 (23 pts en 11 m.) | repos 4 j | prochains : Ajax Amsterdam (Eredivisie, 3 j)  ||  Pafos : repos 14 j",
    "prio": 2,
-   "live_score": "0-0",
-   "minute": "30'"
+   "live_score": "0-1",
+   "minute": "61'"
   },
   {
    "league": "Conference League",
@@ -1982,7 +1982,7 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Getafe : 13e/20 (12 pts en 11 m.) | repos 4 j | prochains : Villarreal (La Liga, 3 j)  ||  Brighton & Hove Albion : 3e/20 (19 pts en 9 m.) | repos 5 j | prochains : Brentford (Premier League, 3 j)",
    "prio": 2,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "63'"
   },
   {
    "league": "Conference League",
@@ -1999,8 +1999,8 @@
    "analyse": "2026-11-05 | Buts attendus Panathinaikos 3.0 - CSKA Sofia 0.7 | 1/N/2 : 83/11/6% | base sur 9 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : CSKA Sofia (estimation neutre, très incertaine). Panathinaikos : 1e/14 (24 pts en 9 m.) | repos 4 j | prochains : Iraklis (Super League (GRE), 3 j)  ||  CSKA Sofia : repos 14 j",
    "prio": 2,
-   "live_score": "0-0",
-   "minute": "31'"
+   "live_score": "1-1",
+   "minute": "62'"
   },
   {
    "league": "Conference League",
@@ -2017,8 +2017,8 @@
    "analyse": "2026-11-05 | Buts attendus Riga FC 1.8 - Jablonec 1.5 | 1/N/2 : 44/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Riga FC, Jablonec (estimation neutre, très incertaine). Riga FC : repos 14 j  ||  Jablonec : repos 14 j",
    "prio": 2,
-   "live_score": "0-0",
-   "minute": "31'"
+   "live_score": "1-1",
+   "minute": "65'"
   },
   {
    "league": "Conference League",
@@ -2035,8 +2035,8 @@
    "analyse": "2026-11-05 | Buts attendus Sint-Truidense 2.5 - SK Brann 1.4 | 1/N/2 : 61/18/20% | base sur 10 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : SK Brann (estimation neutre, très incertaine). Sint-Truidense : 15e/18 (8 pts en 10 m.) | repos 4 j | prochains : Zulte-Waregem (Pro League, 3 j)  ||  SK Brann : repos 14 j",
    "prio": 2,
-   "live_score": "0-0",
-   "minute": "30'"
+   "live_score": "1-0",
+   "minute": "63'"
   },
   {
    "league": "Liga Argentina",
