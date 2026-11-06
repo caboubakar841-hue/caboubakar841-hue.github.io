@@ -1,15 +1,15 @@
 {
- "date": "2026-11-06 09:31 UTC",
+ "date": "2026-11-06 10:34 UTC",
  "version": "V17",
  "stats": {
-  "n": 768,
-  "n_avant": 161,
+  "n": 769,
+  "n_avant": 162,
   "dc": 77,
   "over": 53,
   "btts": 53,
   "score": 14,
   "1x2": 61,
-  "n_fav": 344,
+  "n_fav": 345,
   "serre": 73,
   "n_serre": 424,
   "base_dom": 48,
@@ -1907,24 +1907,6 @@
  ],
  "matches": [
   {
-   "league": "A-League",
-   "home": "Sydney FC",
-   "away": "Central Coast Mariners FC",
-   "status": "live",
-   "conf": 55,
-   "victoire": "Victoire Sydney FC",
-   "score_exact": "1-0 (14%) · 2-0 (11%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 55%",
-   "analyse": "2026-11-06 | Buts attendus Sydney FC 1.6 - Central Coast Mariners FC 0.8 | 1/N/2 : 55/25/20% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sydney FC : repos 6 j  ||  Central Coast Mariners FC : repos 5 j",
-   "prio": 12,
-   "live_score": "2-0",
-   "minute": "HT"
-  },
-  {
    "league": "Bundesliga",
    "home": "Hamburg SV",
    "away": "Borussia Mönchengladbach",
@@ -2403,6 +2385,24 @@
    "analyse": "2026-11-06 | Buts attendus Independiente Petrolero 1.6 - Real Tomayapo 0.8 | 1/N/2 : 57/25/18% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Independiente Petrolero : repos 7 j  ||  Real Tomayapo : repos 4 j",
    "prio": 12
+  },
+  {
+   "league": "A-League",
+   "home": "Sydney FC",
+   "away": "Central Coast Mariners FC",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire Sydney FC",
+   "score_exact": "1-0 (14%) · 2-0 (11%)",
+   "double_chance": "1X 80%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 55%",
+   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Sydney FC : repos 6 j  ||  Central Coast Mariners FC : repos 5 j",
+   "prio": 12,
+   "live_score": "4-1",
+   "minute": "FT"
   },
   {
    "league": "Brasileirao",
@@ -3104,24 +3104,6 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Mjällby AIF, Borac Banja Luka (estimation neutre, très incertaine). Mjällby AIF : repos 14 j  ||  Borac Banja Luka : repos 14 j",
    "prio": 2,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Conference League",
-   "home": "Red Star Belgrade",
-   "away": "Inter D'Escaldes",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Red Star Belgrade, Inter D'Escaldes (estimation neutre, très incertaine). Red Star Belgrade : repos 14 j  ||  Inter D'Escaldes : repos 14 j",
-   "prio": 2,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
