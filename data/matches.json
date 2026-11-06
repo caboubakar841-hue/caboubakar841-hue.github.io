@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06 01:03 UTC",
+ "date": "2026-11-06 02:10 UTC",
  "version": "V17",
  "stats": {
   "n": 767,
@@ -1921,8 +1921,8 @@
    "analyse": "2026-11-06 | Buts attendus Cruzeiro 1.9 - Bahia 1.2 | 1/N/2 : 55/22/23% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Cruzeiro : repos 7 j | prochains : Palmeiras (Brasileirao, 13 j)  ||  Bahia : repos 8 j | prochains : Grêmio (Brasileirao, 13 j)",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "33'"
+   "live_score": "2-1",
+   "minute": "78'"
   },
   {
    "league": "Bundesliga",
