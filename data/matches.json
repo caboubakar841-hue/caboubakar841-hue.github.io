@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06 08:38 UTC",
+ "date": "2026-11-06 09:31 UTC",
  "version": "V17",
  "stats": {
   "n": 768,
@@ -1907,6 +1907,24 @@
  ],
  "matches": [
   {
+   "league": "A-League",
+   "home": "Sydney FC",
+   "away": "Central Coast Mariners FC",
+   "status": "live",
+   "conf": 55,
+   "victoire": "Victoire Sydney FC",
+   "score_exact": "1-0 (14%) · 2-0 (11%)",
+   "double_chance": "1X 80%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 55%",
+   "analyse": "2026-11-06 | Buts attendus Sydney FC 1.6 - Central Coast Mariners FC 0.8 | 1/N/2 : 55/25/20% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Sydney FC : repos 6 j  ||  Central Coast Mariners FC : repos 5 j",
+   "prio": 12,
+   "live_score": "2-0",
+   "minute": "HT"
+  },
+  {
    "league": "Bundesliga",
    "home": "Hamburg SV",
    "away": "Borussia Mönchengladbach",
@@ -2337,22 +2355,6 @@
    "analyse": "2026-11-06 | Buts attendus Vitória 1.1 - Fluminense 1.5 | 1/N/2 : 28/25/47% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Vitória : repos 6 j | prochains : Red Bull Bragantino (Brasileirao, 13 j)  ||  Fluminense : repos 9 j | prochains : São Paulo (Brasileirao, 13 j)",
    "prio": 9
-  },
-  {
-   "league": "A-League",
-   "home": "Sydney FC",
-   "away": "Central Coast Mariners FC",
-   "status": "today",
-   "conf": 55,
-   "victoire": "Victoire Sydney FC",
-   "score_exact": "1-0 (14%) · 2-0 (11%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 55%",
-   "analyse": "2026-11-06 | Buts attendus Sydney FC 1.6 - Central Coast Mariners FC 0.8 | 1/N/2 : 55/25/20% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sydney FC : repos 6 j  ||  Central Coast Mariners FC : repos 5 j",
-   "prio": 12
   },
   {
    "league": "Liga Perou",
