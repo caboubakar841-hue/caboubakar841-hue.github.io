@@ -1,20 +1,20 @@
 {
- "date": "2026-11-05 23:30 UTC",
+ "date": "2026-11-06 00:06 UTC",
  "version": "V17",
  "stats": {
-  "n": 783,
-  "n_avant": 173,
+  "n": 765,
+  "n_avant": 174,
   "dc": 77,
   "over": 53,
-  "btts": 53,
+  "btts": 54,
   "score": 14,
-  "1x2": 60,
-  "n_fav": 356,
-  "serre": 74,
-  "n_serre": 427,
+  "1x2": 61,
+  "n_fav": 345,
+  "serre": 73,
+  "n_serre": 420,
   "base_dom": 48,
-  "n_euro": 38,
-  "dc_euro": 79,
+  "n_euro": 26,
+  "dc_euro": 81,
   "n_ctx": 18,
   "brier_ctx": 0.555,
   "brier_base": 0.554
@@ -1921,8 +1921,8 @@
    "analyse": "2026-11-05 | Buts attendus Palmeiras 1.9 - Remo 0.6 | 1/N/2 : 69/20/10% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Palmeiras : repos 8 j | prochains : Cruzeiro (Brasileirao, 13 j)  ||  Remo : repos 8 j | prochains : Chapecoense (Brasileirao, 13 j)",
    "prio": 9,
-   "live_score": "4-1",
-   "minute": "HT"
+   "live_score": "5-1",
+   "minute": "73'"
   },
   {
    "league": "Liga Argentina",
@@ -1940,25 +1940,7 @@
    "contexte": "Gimnasia La Plata : repos 6 j  ||  Belgrano (Córdoba) : repos 4 j",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "53'"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Rubio Ñú",
-   "away": "Sportivo Luqueño",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-11-05 | Buts attendus Rubio Ñú 1.8 - Sportivo Luqueño 1.4 | 1/N/2 : 46/23/31% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Rubio Ñú : repos 6 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 4 j), Libertad (Primera Paraguay, 13 j)  ||  Sportivo Luqueño : repos 5 j | prochains : 2 de Mayo (Primera Paraguay, 4 j), Sportivo Ameliano (Primera Paraguay, 13 j)",
-   "prio": 12,
-   "live_score": "0-2",
-   "minute": "71'"
+   "minute": "89'"
   },
   {
    "league": "Bundesliga",
@@ -2037,7 +2019,7 @@
    "over": "Over 2.5 61%",
    "btts": "BTTS OUI 61%",
    "analyse": "2026-11-06 | Buts attendus Sevilla 1.9 - Alavés 1.3 | 1/N/2 : 52/22/26% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sevilla : 6e/20 (17 pts en 11 m.) | repos 5 j  ||  Alavés : 11e/20 (12 pts en 11 m.) | repos 6 j",
+   "contexte": "Sevilla : 6e/20 (17 pts en 11 m.) | repos 5 j  ||  Alavés : 11e/20 (12 pts en 11 m.) | repos 6 j | prochains : Anaitasuna (Coupe du Roi, 4 j)",
    "prio": 3
   },
   {
@@ -2052,7 +2034,7 @@
    "corner": "N/D",
    "over": "Over 2.5 59%",
    "btts": "BTTS OUI 58%",
-   "analyse": "2026-11-06 | Buts attendus Cruzeiro 1.9 - Bahia 1.2 | 1/N/2 : 55/22/23% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-11-06 | Buts attendus Cruzeiro 1.9 - Bahia 1.2 | 1/N/2 : 55/22/23% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Cruzeiro : repos 7 j | prochains : Palmeiras (Brasileirao, 13 j)  ||  Bahia : repos 8 j | prochains : Grêmio (Brasileirao, 13 j)",
    "prio": 9
   },
@@ -2117,7 +2099,7 @@
    "over": "Over 2.5 69%",
    "btts": "BTTS OUI 68%",
    "analyse": "2026-11-06 | Buts attendus Silkeborg IF 2.0 - Lyngby Boldklub 1.6 | 1/N/2 : 47/22/31% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Silkeborg IF : 8e/12 (12 pts en 13 m.) | repos 5 j  ||  Lyngby Boldklub : 11e/12 (11 pts en 13 m.) | repos 7 j",
+   "contexte": "Silkeborg IF : 8e/12 (12 pts en 13 m.) | repos 5 j  ||  Lyngby Boldklub : 11e/12 (11 pts en 13 m.) | repos 7 j | prochains : AGF (Superliga (DEN), 14 j)",
    "prio": 9
   },
   {
@@ -2127,12 +2109,12 @@
    "status": "today",
    "conf": 77,
    "victoire": "Serré : Nul ou Barracas Central",
-   "score_exact": "1-0 (16%) · 0-0 (12%)",
+   "score_exact": "1-0 (15%) · 0-0 (11%)",
    "double_chance": "1X 77%",
    "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 59%",
-   "analyse": "2026-11-06 | Buts attendus Barracas Central 1.3 - Racing Club 0.8 | 1/N/2 : 49/28/23% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "over": "Under 2.5 63%",
+   "btts": "BTTS NON 58%",
+   "analyse": "2026-11-06 | Buts attendus Barracas Central 1.4 - Racing Club 0.8 | 1/N/2 : 49/28/23% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Barracas Central : repos 5 j  ||  Racing Club : repos 7 j",
    "prio": 9
   },
@@ -2165,7 +2147,7 @@
    "over": "Under 2.5 66%",
    "btts": "BTTS NON 64%",
    "analyse": "2026-11-06 | Buts attendus AS Nancy Lorraine 1.4 - Sochaux 0.7 | 1/N/2 : 54/28/18% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "AS Nancy Lorraine : 3e/18 (22 pts en 11 m.) | repos 4 j | prochains : Stade Béthunois (Coupe de France, 8 j)  ||  Sochaux : 13e/18 (11 pts en 11 m.) | repos 4 j | prochains : CA Boulay (Coupe de France, 8 j)",
+   "contexte": "AS Nancy Lorraine : 3e/18 (22 pts en 11 m.) | repos 4 j | prochains : Stade Béthunois (Coupe de France, 8 j), Dijon FCO (Ligue 2, 14 j)  ||  Sochaux : 13e/18 (11 pts en 11 m.) | repos 4 j | prochains : CA Boulay (Coupe de France, 8 j)",
    "prio": 9
   },
   {
@@ -2181,7 +2163,7 @@
    "over": "Under 2.5 75%",
    "btts": "BTTS NON 67%",
    "analyse": "2026-11-06 | Buts attendus Boulogne 0.8 - Annecy 0.9 | 1/N/2 : 32/34/35% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Boulogne : 14e/18 (10 pts en 11 m.) | repos 7 j | prochains : St-Ouen L'Aumone (Coupe de France, 8 j)  ||  Annecy : 7e/18 (16 pts en 11 m.) | repos 6 j | prochains : Firminy (Coupe de France, 8 j)",
+   "contexte": "Boulogne : 14e/18 (10 pts en 11 m.) | repos 7 j | prochains : St-Ouen L'Aumone (Coupe de France, 8 j), Metz (Ligue 2, 14 j)  ||  Annecy : 7e/18 (16 pts en 11 m.) | repos 6 j | prochains : Firminy (Coupe de France, 8 j), Clermont Foot (Ligue 2, 14 j)",
    "prio": 9
   },
   {
@@ -2197,7 +2179,7 @@
    "over": "Over 2.5 66%",
    "btts": "BTTS OUI 67%",
    "analyse": "2026-11-06 | Buts attendus Dijon FCO 1.8 - Red Star FC 93 1.6 | 1/N/2 : 43/22/34% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Dijon FCO : 8e/18 (15 pts en 11 m.) | repos 7 j | prochains : Orléans (Coupe de France, 7 j)  ||  Red Star FC 93 : 6e/18 (17 pts en 11 m.) | repos 4 j | prochains : Paris 13 Atletico (Coupe de France, 9 j)",
+   "contexte": "Dijon FCO : 8e/18 (15 pts en 11 m.) | repos 7 j | prochains : Orléans (Coupe de France, 7 j), AS Nancy Lorraine (Ligue 2, 14 j)  ||  Red Star FC 93 : 6e/18 (17 pts en 11 m.) | repos 4 j | prochains : Paris 13 Atletico (Coupe de France, 9 j), Pau (Ligue 2, 14 j)",
    "prio": 9
   },
   {
@@ -2213,7 +2195,7 @@
    "over": "Over 2.5 57%",
    "btts": "BTTS OUI 59%",
    "analyse": "2026-11-06 | Buts attendus Dunkerque 1.4 - Guingamp 1.6 | 1/N/2 : 33/24/43% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Dunkerque : 12e/18 (12 pts en 11 m.) | repos 7 j | prochains : US Quevilly (Coupe de France, 8 j)  ||  Guingamp : 9e/18 (14 pts en 11 m.) | repos 6 j | prochains : Lannion (Coupe de France, 8 j)",
+   "contexte": "Dunkerque : 12e/18 (12 pts en 11 m.) | repos 7 j | prochains : US Quevilly (Coupe de France, 8 j)  ||  Guingamp : 9e/18 (14 pts en 11 m.) | repos 6 j | prochains : Lannion (Coupe de France, 8 j), Rodez Aveyron (Ligue 2, 14 j)",
    "prio": 9
   },
   {
@@ -2245,7 +2227,7 @@
    "over": "Under 2.5 58%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-11-06 | Buts attendus Montpellier 1.6 - Metz 0.8 | 1/N/2 : 56/25/19% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Montpellier : 2e/18 (24 pts en 11 m.) | repos 6 j | prochains : Balagne (Coupe de France, 8 j)  ||  Metz : 10e/18 (14 pts en 11 m.) | repos 7 j | prochains : Saint-Die Kellermann (Coupe de France, 9 j)",
+   "contexte": "Montpellier : 2e/18 (24 pts en 11 m.) | repos 6 j | prochains : Balagne (Coupe de France, 8 j)  ||  Metz : 10e/18 (14 pts en 11 m.) | repos 7 j | prochains : Saint-Die Kellermann (Coupe de France, 9 j), Boulogne (Ligue 2, 14 j)",
    "prio": 9
   },
   {
@@ -2277,7 +2259,7 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 58%",
    "analyse": "2026-11-06 | Buts attendus Castellón 1.7 - Eibar 0.7 | 1/N/2 : 61/24/15% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Castellón : 1e/22 (27 pts en 12 m.) | repos 5 j | prochains : Real Valladolid (La Liga 2, 8 j)  ||  Eibar : 3e/22 (23 pts en 12 m.) | repos 6 j | prochains : Cádiz (La Liga 2, 9 j)",
+   "contexte": "Castellón : 1e/22 (27 pts en 12 m.) | repos 5 j | prochains : Real Valladolid (La Liga 2, 8 j)  ||  Eibar : 3e/22 (23 pts en 12 m.) | repos 6 j | prochains : CD Pamplona (Coupe du Roi, 4 j), Cádiz (La Liga 2, 9 j)",
    "prio": 9
   },
   {
@@ -2381,9 +2363,9 @@
    "home": "Unión (Santa Fe)",
    "away": "Vélez Sarsfield",
    "status": "today",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "conf": 50,
+   "victoire": "Victoire Vélez Sarsfield",
+   "score_exact": "1-2 (9%) · 1-3 (6%)",
    "double_chance": "12 78%",
    "corner": "N/D",
    "over": "Over 2.5 65%",
@@ -2397,14 +2379,14 @@
    "home": "Vitória",
    "away": "Fluminense",
    "status": "today",
-   "conf": 74,
+   "conf": 75,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
+   "double_chance": "12 75%",
    "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-06 | Buts attendus Vitória 1.1 - Fluminense 1.5 | 1/N/2 : 27/26/48% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-06 | Buts attendus Vitória 1.1 - Fluminense 1.6 | 1/N/2 : 28/25/47% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Vitória : repos 6 j | prochains : Red Bull Bragantino (Brasileirao, 13 j)  ||  Fluminense : repos 9 j | prochains : São Paulo (Brasileirao, 13 j)",
    "prio": 9
   },
@@ -2436,7 +2418,7 @@
    "corner": "N/D",
    "over": "Under 2.5 54%",
    "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-06 | Buts attendus Atlético Grau 1.3 - Cusco FC 1.3 | 1/N/2 : 37/27/36% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-11-06 | Buts attendus Atlético Grau 1.3 - Cusco FC 1.3 | 1/N/2 : 37/27/37% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Atlético Grau : repos 5 j | prochains : Deportivo Moquegua (Liga Perou, 10 j)  ||  Cusco FC : repos 5 j | prochains : ADT (Liga Perou, 10 j)",
    "prio": 12
   },
@@ -2450,7 +2432,7 @@
    "score_exact": "0-1 (12%) · 1-0 (10%)",
    "double_chance": "12 73%",
    "corner": "N/D",
-   "over": "Under 2.5 58%",
+   "over": "Under 2.5 57%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-06 | Buts attendus Boyacá Chicó FC 1.0 - Internacional de Bogotá 1.3 | 1/N/2 : 29/27/43% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Boyacá Chicó FC : repos 5 j | prochains : Llaneros FC (Liga Colombia, 2 j)  ||  Internacional de Bogotá : repos 9 j | prochains : Independiente Santa Fe (Liga Colombia, 2 j)",
@@ -2471,6 +2453,24 @@
    "analyse": "2026-11-06 | Buts attendus Independiente Petrolero 1.6 - Real Tomayapo 0.8 | 1/N/2 : 57/25/18% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Independiente Petrolero : repos 7 j  ||  Real Tomayapo : repos 4 j",
    "prio": 12
+  },
+  {
+   "league": "Primera Paraguay",
+   "home": "Rubio Ñú",
+   "away": "Sportivo Luqueño",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "Resultat 0-5 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Rubio Ñú : repos 6 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 4 j), Libertad (Primera Paraguay, 13 j)  ||  Sportivo Luqueño : repos 5 j | prochains : 2 de Mayo (Primera Paraguay, 4 j), Sportivo Ameliano (Primera Paraguay, 13 j)",
+   "prio": 12,
+   "live_score": "0-5",
+   "minute": "FT"
   },
   {
    "league": "Ligue Europa",
@@ -3172,24 +3172,6 @@
    "contexte": "PKR Svay Rieng : repos 7 j  ||  Tampines Rovers FC : repos 7 j",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "AFC Champions League Two",
-   "home": "Kitchee SC",
-   "away": "Phnom Penh Crown FC",
-   "status": "finished",
-   "conf": 55,
-   "victoire": "Victoire Phnom Penh Crown FC",
-   "score_exact": "0-1 (15%) · 0-2 (11%)",
-   "double_chance": "X2 81%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 57%",
-   "analyse": "Resultat 2-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Kitchee SC : repos 7 j  ||  Phnom Penh Crown FC : repos 7 j",
-   "prio": 12,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
