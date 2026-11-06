@@ -1,9 +1,9 @@
 {
- "date": "2026-11-06 18:08 UTC",
+ "date": "2026-11-06 18:53 UTC",
  "version": "V17",
  "stats": {
-  "n": 769,
-  "n_avant": 160,
+  "n": 770,
+  "n_avant": 161,
   "dc": 77,
   "over": 53,
   "btts": 53,
@@ -11,7 +11,7 @@
   "1x2": 61,
   "n_fav": 345,
   "serre": 73,
-  "n_serre": 424,
+  "n_serre": 425,
   "base_dom": 48,
   "n_euro": 26,
   "dc_euro": 81,
@@ -1921,8 +1921,8 @@
    "analyse": "2026-11-06 | Buts attendus Dynamo Dresden 1.6 - SpVgg Greuther Fürth 1.4 | 1/N/2 : 42/24/33% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Dynamo Dresden : 18e/18 (8 pts en 10 m.) | repos 5 j  ||  SpVgg Greuther Fürth : 9e/18 (12 pts en 10 m.) | repos 5 j",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "38'"
+   "live_score": "3-0",
+   "minute": "62'"
   },
   {
    "league": "2. Bundesliga",
@@ -1940,25 +1940,25 @@
    "contexte": "TSV Eintracht Braunschweig : 15e/18 (10 pts en 10 m.) | repos 7 j  ||  Energie Cottbus : 14e/18 (10 pts en 10 m.) | repos 7 j",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "65'"
   },
   {
-   "league": "Super Lig",
-   "home": "Gaziantep FK",
-   "away": "Kasimpasa",
+   "league": "Bundesliga (AUT)",
+   "home": "Rapid Vienna",
+   "away": "Wolfsberger",
    "status": "live",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (9%)",
-   "double_chance": "12 73%",
+   "conf": 87,
+   "victoire": "Victoire Rapid Vienna",
+   "score_exact": "3-0 (13%) · 4-0 (10%)",
+   "double_chance": "1X 96%",
    "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-06 | Buts attendus Gaziantep FK 1.0 - Kasimpasa 1.4 | 1/N/2 : 27/27/46% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Gaziantep FK : 16e/18 (8 pts en 10 m.) | repos 5 j  ||  Kasimpasa : 5e/18 (17 pts en 10 m.) | repos 5 j",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS NON 58%",
+   "analyse": "2026-11-06 | Buts attendus Rapid Vienna 3.2 - Wolfsberger 0.6 | 1/N/2 : 87/9/4% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Rapid Vienna : 1e/12 (30 pts en 11 m.) | repos 5 j  ||  Wolfsberger : 12e/12 (6 pts en 11 m.) | repos 5 j",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "49'"
+   "live_score": "1-0",
+   "minute": "23'"
   },
   {
    "league": "Superliga (DEN)",
@@ -1976,7 +1976,7 @@
    "contexte": "Silkeborg IF : 8e/12 (12 pts en 13 m.) | repos 5 j  ||  Lyngby Boldklub : 11e/12 (11 pts en 13 m.) | repos 7 j | prochains : AGF (Superliga (DEN), 14 j)",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
@@ -1993,8 +1993,8 @@
    "analyse": "2026-11-06 | Buts attendus Barracas Central 1.4 - Racing Club 0.8 | 1/N/2 : 49/28/23% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Barracas Central : repos 5 j  ||  Racing Club : repos 7 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Bundesliga",
@@ -2075,22 +2075,6 @@
    "analyse": "2026-11-06 | Buts attendus Sevilla 1.9 - Alavés 1.3 | 1/N/2 : 52/22/26% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Sevilla : 6e/20 (17 pts en 11 m.) | repos 5 j  ||  Alavés : 11e/20 (12 pts en 11 m.) | repos 6 j | prochains : Anaitasuna (Coupe du Roi, 4 j)",
    "prio": 3
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Rapid Vienna",
-   "away": "Wolfsberger",
-   "status": "today",
-   "conf": 87,
-   "victoire": "Victoire Rapid Vienna",
-   "score_exact": "3-0 (13%) · 4-0 (10%)",
-   "double_chance": "1X 96%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-06 | Buts attendus Rapid Vienna 3.2 - Wolfsberger 0.6 | 1/N/2 : 87/9/4% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Rapid Vienna : 1e/12 (30 pts en 11 m.) | repos 5 j  ||  Wolfsberger : 12e/12 (6 pts en 11 m.) | repos 5 j",
-   "prio": 9
   },
   {
    "league": "Ligue 2",
@@ -2379,6 +2363,24 @@
    "analyse": "2026-11-06 | Buts attendus Independiente Petrolero 1.6 - Real Tomayapo 0.8 | 1/N/2 : 57/25/18% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Independiente Petrolero : repos 7 j  ||  Real Tomayapo : repos 4 j",
    "prio": 12
+  },
+  {
+   "league": "Super Lig",
+   "home": "Gaziantep FK",
+   "away": "Kasimpasa",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (13%) · 1-0 (9%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Gaziantep FK : 16e/18 (8 pts en 10 m.) | repos 5 j  ||  Kasimpasa : 5e/18 (17 pts en 10 m.) | repos 5 j",
+   "prio": 9,
+   "live_score": "0-2",
+   "minute": "FT"
   },
   {
    "league": "A-League",
@@ -3080,24 +3082,6 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Lincoln Red Imps, Hajduk Split (estimation neutre, très incertaine). Lincoln Red Imps : repos 14 j  ||  Hajduk Split : repos 14 j",
    "prio": 2,
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Conference League",
-   "home": "Mjällby AIF",
-   "away": "Borac Banja Luka",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Mjällby AIF, Borac Banja Luka (estimation neutre, très incertaine). Mjällby AIF : repos 14 j  ||  Borac Banja Luka : repos 14 j",
-   "prio": 2,
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
