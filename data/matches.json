@@ -1,15 +1,15 @@
 {
- "date": "2026-11-06 22:22 UTC",
+ "date": "2026-11-06 23:01 UTC",
  "version": "V17",
  "stats": {
-  "n": 791,
-  "n_avant": 182,
+  "n": 792,
+  "n_avant": 183,
   "dc": 77,
   "over": 53,
   "btts": 53,
   "score": 14,
-  "1x2": 61,
-  "n_fav": 355,
+  "1x2": 60,
+  "n_fav": 356,
   "serre": 73,
   "n_serre": 436,
   "base_dom": 49,
@@ -1907,22 +1907,22 @@
  ],
  "matches": [
   {
-   "league": "Liga Portugal",
-   "home": "FC Famalicao",
-   "away": "Arouca",
+   "league": "Brasileirao",
+   "home": "Vitória",
+   "away": "Fluminense",
    "status": "live",
-   "conf": 52,
-   "victoire": "Victoire Arouca",
-   "score_exact": "0-1 (15%) · 0-2 (11%)",
-   "double_chance": "X2 78%",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 75%",
    "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 56%",
-   "analyse": "2026-11-06 | Buts attendus FC Famalicao 0.8 - Arouca 1.5 | 1/N/2 : 22/27/52% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "FC Famalicao : 11e/18 (10 pts en 10 m.) | repos 5 j  ||  Arouca : 5e/18 (20 pts en 10 m.) | repos 5 j",
+   "over": "Over 2.5 50%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-06 | Buts attendus Vitória 1.1 - Fluminense 1.5 | 1/N/2 : 28/25/47% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Vitória : repos 6 j | prochains : Red Bull Bragantino (Brasileirao, 13 j)  ||  Fluminense : repos 9 j | prochains : São Paulo (Brasileirao, 13 j)",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "81'"
+   "minute": "1'"
   },
   {
    "league": "Liga Argentina",
@@ -1939,8 +1939,8 @@
    "analyse": "2026-11-06 | Buts attendus Independiente 1.0 - Deportivo Riestra 0.6 | 1/N/2 : 43/34/23% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Independiente : repos 4 j  ||  Deportivo Riestra : repos 6 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "1-0",
+   "minute": "45'+2'"
   },
   {
    "league": "Liga Argentina",
@@ -1957,8 +1957,8 @@
    "analyse": "2026-11-06 | Buts attendus San Lorenzo 0.9 - Platense 0.9 | 1/N/2 : 33/33/33% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "San Lorenzo : repos 6 j  ||  Platense : repos 4 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "0-1",
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
@@ -1975,30 +1975,14 @@
    "analyse": "2026-11-06 | Buts attendus Unión (Santa Fe) 1.4 - Vélez Sarsfield 1.9 | 1/N/2 : 28/22/50% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Unión (Santa Fe) : repos 5 j  ||  Vélez Sarsfield : repos 6 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "8'"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Vitória",
-   "away": "Fluminense",
-   "status": "today",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-06 | Buts attendus Vitória 1.1 - Fluminense 1.5 | 1/N/2 : 28/25/47% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Vitória : repos 6 j | prochains : Red Bull Bragantino (Brasileirao, 13 j)  ||  Fluminense : repos 9 j | prochains : São Paulo (Brasileirao, 13 j)",
-   "prio": 9
+   "live_score": "2-0",
+   "minute": "45'+2'"
   },
   {
    "league": "Liga Colombia",
    "home": "Boyacá Chicó FC",
    "away": "Internacional de Bogotá",
-   "status": "today",
+   "status": "live",
    "conf": 73,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "0-1 (12%) · 1-0 (10%)",
@@ -2008,7 +1992,9 @@
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-06 | Buts attendus Boyacá Chicó FC 1.0 - Internacional de Bogotá 1.3 | 1/N/2 : 29/27/43% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Boyacá Chicó FC : repos 5 j | prochains : Llaneros FC (Liga Colombia, 2 j)  ||  Internacional de Bogotá : repos 9 j | prochains : Independiente Santa Fe (Liga Colombia, 2 j)",
-   "prio": 12
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "1'"
   },
   {
    "league": "Liga Bolivie",
@@ -2025,6 +2011,24 @@
    "analyse": "2026-11-06 | Buts attendus Independiente Petrolero 1.6 - Real Tomayapo 0.8 | 1/N/2 : 57/25/18% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Independiente Petrolero : repos 7 j  ||  Real Tomayapo : repos 4 j",
    "prio": 12
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "FC Famalicao",
+   "away": "Arouca",
+   "status": "finished",
+   "conf": 52,
+   "victoire": "Victoire Arouca",
+   "score_exact": "0-1 (15%) · 0-2 (11%)",
+   "double_chance": "X2 78%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 56%",
+   "analyse": "Resultat 1-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "FC Famalicao : 11e/18 (10 pts en 10 m.) | repos 5 j  ||  Arouca : 5e/18 (20 pts en 10 m.) | repos 5 j",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
   },
   {
    "league": "Premier League",
@@ -2726,24 +2730,6 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : CSU Craiova, Egnatia (estimation neutre, très incertaine). CSU Craiova : repos 14 j  ||  Egnatia : repos 14 j",
    "prio": 2,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Conference League",
-   "home": "F.C. København",
-   "away": "Iberia 1999",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Victoire F.C. København",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 90%",
-   "corner": "N/D",
-   "over": "Over 2.5 70%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Iberia 1999 (estimation neutre, très incertaine). F.C. København : 2e/12 (29 pts en 13 m.) | repos 3 j | prochains : Brøndby IF (Superliga (DEN), 3 j)  ||  Iberia 1999 : repos 14 j",
-   "prio": 2,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
