@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07 01:11 UTC",
+ "date": "2026-11-07 02:05 UTC",
  "version": "V17",
  "stats": {
   "n": 765,
@@ -2113,8 +2113,8 @@
    "analyse": "2026-11-07 | Buts attendus Banfield 1.1 - Atlético Tucumán 1.1 | 1/N/2 : 35/29/36% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Banfield : repos 4 j  ||  Atlético Tucumán : repos 4 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "11'"
+   "live_score": "0-2",
+   "minute": "46'"
   },
   {
    "league": "Liga Argentina",
@@ -2132,7 +2132,7 @@
    "contexte": "Tigre : repos 7 j  ||  Sarmiento (Junín) : repos 7 j",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "46'"
   },
   {
    "league": "Liga MX",
@@ -2150,7 +2150,7 @@
    "contexte": "Atlético de San Luis : repos 7 j | prochains : Puebla (Liga MX, 14 j)  ||  FC Juárez : repos 7 j | prochains : Atlas (Liga MX, 14 j)",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "10'"
+   "minute": "HT"
   },
   {
    "league": "Liga MX",
@@ -2167,8 +2167,8 @@
    "analyse": "2026-11-07 | Buts attendus Necaxa 1.1 - Tijuana 1.7 | 1/N/2 : 25/24/51% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Necaxa : repos 5 j  ||  Tijuana : repos 6 j | prochains : Atlante (Liga MX, 14 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "11'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2185,8 +2185,8 @@
    "analyse": "2026-11-07 | Buts attendus Fortaleza CEIF 1.3 - Independiente Medellín 1.4 | 1/N/2 : 36/26/38% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Fortaleza CEIF : repos 4 j | prochains : Atlético Bucaramanga (Liga Colombia, 2 j)  ||  Independiente Medellín : repos 5 j | prochains : Águilas Doradas (Liga Colombia, 2 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "0-1",
+   "minute": "HT"
   },
   {
    "league": "Premier League",
@@ -2201,7 +2201,7 @@
    "over": "Under 2.5 72%",
    "btts": "BTTS NON 65%",
    "analyse": "2026-11-07 | Buts attendus Leeds United 1.1 - Tottenham Hotspur 0.7 | 1/N/2 : 44/31/24% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Leeds United : 12e/20 (11 pts en 9 m.) | repos 7 j  ||  Tottenham Hotspur : 9e/20 (12 pts en 9 m.) | repos 7 j",
+   "contexte": "Leeds United : 12e/20 (11 pts en 9 m.) | repos 7 j | prochains : Chelsea (Premier League, 14 j)  ||  Tottenham Hotspur : 9e/20 (12 pts en 9 m.) | repos 7 j | prochains : Ipswich Town (Premier League, 14 j)",
    "prio": 3
   },
   {
@@ -2233,7 +2233,7 @@
    "over": "Over 2.5 59%",
    "btts": "BTTS OUI 58%",
    "analyse": "2026-11-07 | Buts attendus Cagliari 1.1 - Frosinone 1.9 | 1/N/2 : 22/22/56% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Cagliari : 12e/20 (13 pts en 10 m.) | repos 6 j  ||  Frosinone : 6e/20 (20 pts en 10 m.) | repos 6 j",
+   "contexte": "Cagliari : 12e/20 (13 pts en 10 m.) | repos 6 j | prochains : Como (Serie A, 14 j)  ||  Frosinone : 6e/20 (20 pts en 10 m.) | repos 6 j",
    "prio": 3
   },
   {
@@ -2249,7 +2249,7 @@
    "over": "Over 2.5 58%",
    "btts": "BTTS OUI 59%",
    "analyse": "2026-11-07 | Buts attendus Torino 1.8 - Lecce 1.2 | 1/N/2 : 51/23/26% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Torino : 10e/20 (13 pts en 10 m.) | repos 6 j  ||  Lecce : 14e/20 (9 pts en 10 m.) | repos 6 j",
+   "contexte": "Torino : 10e/20 (13 pts en 10 m.) | repos 6 j | prochains : Napoli (Serie A, 14 j)  ||  Lecce : 14e/20 (9 pts en 10 m.) | repos 6 j | prochains : Lazio (Serie A, 14 j)",
    "prio": 3
   },
   {
@@ -2265,7 +2265,7 @@
    "over": "Over 2.5 62%",
    "btts": "BTTS OUI 55%",
    "analyse": "2026-11-07 | Buts attendus Borussia Dortmund 2.3 - SV Elversberg 0.9 | 1/N/2 : 67/19/14% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Borussia Dortmund : 2e/18 (18 pts en 8 m.) | repos 3 j  ||  SV Elversberg : 7e/18 (13 pts en 8 m.) | repos 8 j",
+   "contexte": "Borussia Dortmund : 2e/18 (18 pts en 8 m.) | repos 3 j | prochains : Borussia Mönchengladbach (Bundesliga, 14 j)  ||  SV Elversberg : 7e/18 (13 pts en 8 m.) | repos 8 j | prochains : SC Freiburg (Bundesliga, 14 j)",
    "prio": 3
   },
   {
@@ -2297,7 +2297,7 @@
    "over": "Over 2.5 79%",
    "btts": "BTTS OUI 70%",
    "analyse": "2026-11-07 | Buts attendus RB Leipzig 2.9 - FC Augsburg 1.3 | 1/N/2 : 69/16/15% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "RB Leipzig : 4e/18 (15 pts en 8 m.) | repos 3 j  ||  FC Augsburg : 11e/18 (9 pts en 8 m.) | repos 7 j",
+   "contexte": "RB Leipzig : 4e/18 (15 pts en 8 m.) | repos 3 j | prochains : 1. FC Union Berlin (Bundesliga, 14 j)  ||  FC Augsburg : 11e/18 (9 pts en 8 m.) | repos 7 j",
    "prio": 3
   },
   {
@@ -2313,7 +2313,7 @@
    "over": "Under 2.5 52%",
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-07 | Buts attendus SC Paderborn 07 1.6 - Eintracht Frankfurt 1.0 | 1/N/2 : 51/25/24% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "SC Paderborn 07 : 15e/18 (9 pts en 8 m.) | repos 7 j  ||  Eintracht Frankfurt : 9e/18 (11 pts en 8 m.) | repos 6 j",
+   "contexte": "SC Paderborn 07 : 15e/18 (9 pts en 8 m.) | repos 7 j | prochains : Bayer Leverkusen (Bundesliga, 14 j)  ||  Eintracht Frankfurt : 9e/18 (11 pts en 8 m.) | repos 6 j | prochains : TSG Hoffenheim (Bundesliga, 14 j)",
    "prio": 3
   },
   {
@@ -2329,7 +2329,7 @@
    "over": "Under 2.5 63%",
    "btts": "BTTS NON 63%",
    "analyse": "2026-11-07 | Buts attendus Arsenal 1.5 - Hull City 0.6 | 1/N/2 : 58/26/16% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Arsenal : 1e/20 (24 pts en 9 m.) | repos 3 j  ||  Hull City : 11e/20 (11 pts en 9 m.) | repos 7 j",
+   "contexte": "Arsenal : 1e/20 (24 pts en 9 m.) | repos 3 j | prochains : Newcastle United (Premier League, 14 j)  ||  Hull City : 11e/20 (11 pts en 9 m.) | repos 7 j",
    "prio": 3
   },
   {
@@ -2345,7 +2345,7 @@
    "over": "Under 2.5 52%",
    "btts": "BTTS OUI 52%",
    "analyse": "2026-11-07 | Buts attendus Fulham 1.4 - Newcastle United 1.1 | 1/N/2 : 44/26/30% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Fulham : 15e/20 (9 pts en 9 m.) | repos 7 j  ||  Newcastle United : 13e/20 (11 pts en 9 m.) | repos 5 j",
+   "contexte": "Fulham : 15e/20 (9 pts en 9 m.) | repos 7 j | prochains : Manchester City (Premier League, 14 j)  ||  Newcastle United : 13e/20 (11 pts en 9 m.) | repos 5 j | prochains : Arsenal (Premier League, 14 j)",
    "prio": 3
   },
   {
@@ -2361,7 +2361,7 @@
    "over": "Under 2.5 57%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-07 | Buts attendus Espanyol 1.3 - Deportivo 1.0 | 1/N/2 : 44/27/29% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Espanyol : 14e/20 (11 pts en 11 m.) | repos 8 j | prochains : Athletic Club (La Liga, 13 j)  ||  Deportivo : 8e/20 (14 pts en 11 m.) | repos 5 j",
+   "contexte": "Espanyol : 14e/20 (11 pts en 11 m.) | repos 8 j | prochains : Athletic Club (La Liga, 13 j)  ||  Deportivo : 8e/20 (14 pts en 11 m.) | repos 5 j | prochains : Alavés (La Liga, 14 j)",
    "prio": 3
   },
   {
@@ -2377,7 +2377,7 @@
    "over": "Under 2.5 60%",
    "btts": "BTTS NON 55%",
    "analyse": "2026-11-07 | Buts attendus Parma 0.9 - Bologna 1.3 | 1/N/2 : 26/28/46% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Parma : 15e/20 (8 pts en 10 m.) | repos 5 j  ||  Bologna : 9e/20 (14 pts en 10 m.) | repos 7 j",
+   "contexte": "Parma : 15e/20 (8 pts en 10 m.) | repos 5 j | prochains : AS Roma (Serie A, 14 j)  ||  Bologna : 9e/20 (14 pts en 10 m.) | repos 7 j",
    "prio": 3
   },
   {
@@ -2393,7 +2393,7 @@
    "over": "Under 2.5 55%",
    "btts": "BTTS NON 53%",
    "analyse": "2026-11-07 | Buts attendus Nottingham Forest 0.9 - Manchester City 1.6 | 1/N/2 : 22/25/52% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Nottingham Forest : 19e/20 (6 pts en 9 m.) | repos 7 j  ||  Manchester City : 2e/20 (21 pts en 9 m.) | repos 3 j",
+   "contexte": "Nottingham Forest : 19e/20 (6 pts en 9 m.) | repos 7 j | prochains : AFC Bournemouth (Premier League, 14 j)  ||  Manchester City : 2e/20 (21 pts en 9 m.) | repos 3 j | prochains : Fulham (Premier League, 14 j)",
    "prio": 3
   },
   {
@@ -2425,7 +2425,7 @@
    "over": "Over 2.5 74%",
    "btts": "BTTS OUI 72%",
    "analyse": "2026-11-07 | Buts attendus VfB Stuttgart 2.2 - Werder Bremen 1.6 | 1/N/2 : 51/20/29% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "VfB Stuttgart : 12e/18 (9 pts en 8 m.) | repos 4 j  ||  Werder Bremen : 5e/18 (15 pts en 8 m.) | repos 7 j",
+   "contexte": "VfB Stuttgart : 12e/18 (9 pts en 8 m.) | repos 4 j | prochains : Schalke 04 (Bundesliga, 14 j)  ||  Werder Bremen : 5e/18 (15 pts en 8 m.) | repos 7 j",
    "prio": 3
   },
   {
@@ -2441,7 +2441,7 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-07 | Buts attendus AJ Auxerre 1.3 - Paris FC 2.1 | 1/N/2 : 24/21/55% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "AJ Auxerre : 14e/18 (10 pts en 9 m.) | repos 6 j  ||  Paris FC : 4e/18 (17 pts en 9 m.) | repos 6 j",
+   "contexte": "AJ Auxerre : 14e/18 (10 pts en 9 m.) | repos 6 j | prochains : AS Monaco (Ligue 1, 14 j)  ||  Paris FC : 4e/18 (17 pts en 9 m.) | repos 6 j",
    "prio": 3
   },
   {
@@ -2457,7 +2457,7 @@
    "over": "Over 2.5 83%",
    "btts": "BTTS OUI 69%",
    "analyse": "2026-11-07 | Buts attendus AS Roma 3.3 - Sassuolo 1.2 | 1/N/2 : 77/13/11% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "AS Roma : 3e/20 (24 pts en 10 m.) | repos 4 j  ||  Sassuolo : 17e/20 (8 pts en 10 m.) | repos 5 j",
+   "contexte": "AS Roma : 3e/20 (24 pts en 10 m.) | repos 4 j | prochains : Parma (Serie A, 14 j)  ||  Sassuolo : 17e/20 (8 pts en 10 m.) | repos 5 j",
    "prio": 3
   },
   {
@@ -2473,7 +2473,7 @@
    "over": "Under 2.5 52%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-11-07 | Buts attendus Valencia 0.7 - Real Madrid 1.9 | 1/N/2 : 14/22/64% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Valencia : 19e/20 (9 pts en 11 m.) | repos 6 j | prochains : Tavernes de la Valldigna (Coupe du Roi, 3 j)  ||  Real Madrid : 3e/20 (27 pts en 11 m.) | repos 3 j",
+   "contexte": "Valencia : 19e/20 (9 pts en 11 m.) | repos 6 j | prochains : Tavernes de la Valldigna (Coupe du Roi, 3 j), Rayo Vallecano (La Liga, 14 j)  ||  Real Madrid : 3e/20 (27 pts en 11 m.) | repos 3 j | prochains : Celta Vigo (La Liga, 14 j)",
    "prio": 3
   },
   {
@@ -2489,7 +2489,7 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-07 | Buts attendus Paris Saint-Germain 2.7 - Troyes 0.7 | 1/N/2 : 79/13/7% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Paris Saint-Germain : 1e/18 (20 pts en 9 m.) | repos 4 j  ||  Troyes : 16e/18 (8 pts en 9 m.) | repos 7 j | prochains : Le Havre AC (Ligue 1, 13 j)",
+   "contexte": "Paris Saint-Germain : 1e/18 (20 pts en 9 m.) | repos 4 j | prochains : Nice (Ligue 1, 14 j)  ||  Troyes : 16e/18 (8 pts en 9 m.) | repos 7 j | prochains : Le Havre AC (Ligue 1, 13 j)",
    "prio": 3
   },
   {
@@ -2505,7 +2505,7 @@
    "over": "Under 2.5 64%",
    "btts": "BTTS NON 65%",
    "analyse": "2026-11-07 | Buts attendus Eyupspor 0.6 - Kocaelispor 1.6 | 1/N/2 : 14/25/61% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Eyupspor : 18e/18 (3 pts en 10 m.) | repos 6 j  ||  Kocaelispor : 8e/18 (16 pts en 10 m.) | repos 7 j",
+   "contexte": "Eyupspor : 18e/18 (3 pts en 10 m.) | repos 6 j  ||  Kocaelispor : 8e/18 (16 pts en 10 m.) | repos 7 j | prochains : Fenerbahce (Super Lig, 14 j)",
    "prio": 9
   },
   {
@@ -2521,7 +2521,7 @@
    "over": "Over 2.5 74%",
    "btts": "BTTS OUI 55%",
    "analyse": "2026-11-07 | Buts attendus 1. FC Nürnberg 3.0 - SV Darmstadt 98 0.9 | 1/N/2 : 80/12/7% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "1. FC Nürnberg : 2e/18 (21 pts en 10 m.) | repos 6 j  ||  SV Darmstadt 98 : 17e/18 (9 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 13 j)",
+   "contexte": "1. FC Nürnberg : 2e/18 (21 pts en 10 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 14 j)  ||  SV Darmstadt 98 : 17e/18 (9 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 13 j)",
    "prio": 9
   },
   {
@@ -2537,7 +2537,7 @@
    "over": "Under 2.5 57%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-07 | Buts attendus Holstein Kiel 1.3 - Arminia Bielefeld 1.1 | 1/N/2 : 43/27/30% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Holstein Kiel : 18e/18 (8 pts en 10 m.) | repos 6 j  ||  Arminia Bielefeld : 7e/18 (14 pts en 10 m.) | repos 8 j | prochains : 1. FC Magdeburg (2. Bundesliga, 13 j)",
+   "contexte": "Holstein Kiel : 18e/18 (8 pts en 10 m.) | repos 6 j | prochains : VfL Wolfsburg (2. Bundesliga, 14 j)  ||  Arminia Bielefeld : 7e/18 (14 pts en 10 m.) | repos 8 j | prochains : 1. FC Magdeburg (2. Bundesliga, 13 j)",
    "prio": 9
   },
   {
@@ -2569,7 +2569,7 @@
    "over": "Over 2.5 61%",
    "btts": "BTTS OUI 63%",
    "analyse": "2026-11-07 | Buts attendus Bristol City 1.6 - Norwich City 1.6 | 1/N/2 : 38/24/39% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Bristol City : 15e/24 (18 pts en 14 m.) | repos 3 j  ||  Norwich City : 12e/24 (18 pts en 14 m.) | repos 4 j",
+   "contexte": "Bristol City : 15e/24 (18 pts en 14 m.) | repos 3 j | prochains : Middlesbrough (Championship, 14 j)  ||  Norwich City : 12e/24 (18 pts en 14 m.) | repos 4 j | prochains : Cardiff City (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2585,7 +2585,7 @@
    "over": "Under 2.5 55%",
    "btts": "BTTS OUI 50%",
    "analyse": "2026-11-07 | Buts attendus Portsmouth 1.4 - Stoke City 1.1 | 1/N/2 : 43/27/31% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Portsmouth : 9e/24 (22 pts en 14 m.) | repos 4 j  ||  Stoke City : 5e/24 (26 pts en 14 m.) | repos 4 j",
+   "contexte": "Portsmouth : 9e/24 (22 pts en 14 m.) | repos 4 j | prochains : Bolton Wanderers (Championship, 14 j)  ||  Stoke City : 5e/24 (26 pts en 14 m.) | repos 4 j | prochains : Birmingham City (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2601,7 +2601,7 @@
    "over": "Under 2.5 52%",
    "btts": "BTTS OUI 52%",
    "analyse": "2026-11-07 | Buts attendus Wrexham 1.2 - Wolverhampton Wanderers 1.4 | 1/N/2 : 34/26/40% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Wrexham : 16e/24 (17 pts en 14 m.) | repos 3 j  ||  Wolverhampton Wanderers : 3e/24 (27 pts en 14 m.) | repos 3 j",
+   "contexte": "Wrexham : 16e/24 (17 pts en 14 m.) | repos 3 j | prochains : Lincoln City (Championship, 14 j)  ||  Wolverhampton Wanderers : 3e/24 (27 pts en 14 m.) | repos 3 j | prochains : Charlton Athletic (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2649,7 +2649,7 @@
    "over": "Under 2.5 57%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-07 | Buts attendus Samsunspor 1.2 - Konyaspor 1.1 | 1/N/2 : 38/28/34% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Samsunspor : 17e/18 (4 pts en 10 m.) | repos 6 j  ||  Konyaspor : 15e/18 (8 pts en 10 m.) | repos 8 j",
+   "contexte": "Samsunspor : 17e/18 (4 pts en 10 m.) | repos 6 j | prochains : Galatasaray (Super Lig, 14 j)  ||  Konyaspor : 15e/18 (8 pts en 10 m.) | repos 8 j",
    "prio": 9
   },
   {
@@ -2665,7 +2665,7 @@
    "over": "Over 2.5 59%",
    "btts": "BTTS OUI 59%",
    "analyse": "2026-11-07 | Buts attendus Cesena 1.8 - Catanzaro 1.2 | 1/N/2 : 51/23/26% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Cesena : 13e/20 (12 pts en 10 m.) | repos 7 j | prochains : Hellas Verona (Serie B, 13 j)  ||  Catanzaro : 20e/20 (6 pts en 10 m.) | repos 7 j",
+   "contexte": "Cesena : 13e/20 (12 pts en 10 m.) | repos 7 j | prochains : Hellas Verona (Serie B, 13 j)  ||  Catanzaro : 20e/20 (6 pts en 10 m.) | repos 7 j | prochains : Palermo (Serie B, 14 j)",
    "prio": 9
   },
   {
@@ -2681,7 +2681,7 @@
    "over": "Under 2.5 56%",
    "btts": "BTTS NON 53%",
    "analyse": "2026-11-07 | Buts attendus Juve Stabia 1.5 - Arezzo 0.9 | 1/N/2 : 52/26/22% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Juve Stabia : 11e/20 (13 pts en 10 m.) | repos 6 j  ||  Arezzo : 14e/20 (11 pts en 10 m.) | repos 6 j",
+   "contexte": "Juve Stabia : 11e/20 (13 pts en 10 m.) | repos 6 j | prochains : Modena (Serie B, 14 j)  ||  Arezzo : 14e/20 (11 pts en 10 m.) | repos 6 j",
    "prio": 9
   },
   {
@@ -2697,7 +2697,7 @@
    "over": "Under 2.5 59%",
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-07 | Buts attendus Padova 1.4 - Empoli 0.9 | 1/N/2 : 48/27/25% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Padova : 10e/20 (14 pts en 10 m.) | repos 7 j  ||  Empoli : 18e/20 (8 pts en 10 m.) | repos 6 j",
+   "contexte": "Padova : 10e/20 (14 pts en 10 m.) | repos 7 j  ||  Empoli : 18e/20 (8 pts en 10 m.) | repos 6 j | prochains : Pisa (Serie B, 14 j)",
    "prio": 9
   },
   {
@@ -2713,7 +2713,7 @@
    "over": "Over 2.5 50%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-11-07 | Buts attendus Pisa 1.5 - Sudtirol 1.2 | 1/N/2 : 45/25/30% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Pisa : 8e/20 (15 pts en 10 m.) | repos 6 j  ||  Sudtirol : 9e/20 (14 pts en 10 m.) | repos 7 j",
+   "contexte": "Pisa : 8e/20 (15 pts en 10 m.) | repos 6 j | prochains : Empoli (Serie B, 14 j)  ||  Sudtirol : 9e/20 (14 pts en 10 m.) | repos 7 j | prochains : Cremonese (Serie B, 14 j)",
    "prio": 9
   },
   {
@@ -2729,7 +2729,7 @@
    "over": "Under 2.5 52%",
    "btts": "BTTS NON 51%",
    "analyse": "2026-11-07 | Buts attendus Birmingham City 1.6 - Swansea City 0.9 | 1/N/2 : 54/25/22% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Birmingham City : 4e/24 (26 pts en 14 m.) | repos 4 j  ||  Swansea City : 6e/24 (26 pts en 14 m.) | repos 4 j",
+   "contexte": "Birmingham City : 4e/24 (26 pts en 14 m.) | repos 4 j | prochains : Stoke City (Championship, 14 j)  ||  Swansea City : 6e/24 (26 pts en 14 m.) | repos 4 j | prochains : West Bromwich Albion (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2745,7 +2745,7 @@
    "over": "Over 2.5 75%",
    "btts": "BTTS OUI 73%",
    "analyse": "2026-11-07 | Buts attendus Blackburn Rovers 1.8 - West Ham United 2.2 | 1/N/2 : 32/21/47% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Blackburn Rovers : 14e/24 (18 pts en 14 m.) | repos 4 j  ||  West Ham United : 8e/24 (23 pts en 14 m.) | repos 3 j",
+   "contexte": "Blackburn Rovers : 14e/24 (18 pts en 14 m.) | repos 4 j  ||  West Ham United : 8e/24 (23 pts en 14 m.) | repos 3 j | prochains : Preston North End (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2761,7 +2761,7 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS OUI 64%",
    "analyse": "2026-11-07 | Buts attendus Cardiff City 2.1 - Burnley 1.3 | 1/N/2 : 57/21/22% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Cardiff City : 18e/24 (15 pts en 14 m.) | repos 3 j  ||  Burnley : 22e/24 (10 pts en 14 m.) | repos 4 j",
+   "contexte": "Cardiff City : 18e/24 (15 pts en 14 m.) | repos 3 j | prochains : Norwich City (Championship, 14 j)  ||  Burnley : 22e/24 (10 pts en 14 m.) | repos 4 j",
    "prio": 9
   },
   {
@@ -2777,7 +2777,7 @@
    "over": "Under 2.5 61%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-11-07 | Buts attendus Charlton Athletic 0.9 - Sheffield United 1.3 | 1/N/2 : 27/28/45% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Charlton Athletic : 21e/24 (14 pts en 14 m.) | repos 4 j  ||  Sheffield United : 10e/24 (22 pts en 14 m.) | repos 4 j",
+   "contexte": "Charlton Athletic : 21e/24 (14 pts en 14 m.) | repos 4 j | prochains : Wolverhampton Wanderers (Championship, 14 j)  ||  Sheffield United : 10e/24 (22 pts en 14 m.) | repos 4 j | prochains : Watford (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2793,7 +2793,7 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-11-07 | Buts attendus Preston North End 0.9 - Southampton 2.4 | 1/N/2 : 12/17/71% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Preston North End : 24e/24 (5 pts en 14 m.) | repos 4 j  ||  Southampton : 1e/24 (28 pts en 14 m.) | repos 4 j",
+   "contexte": "Preston North End : 24e/24 (5 pts en 14 m.) | repos 4 j | prochains : West Ham United (Championship, 14 j)  ||  Southampton : 1e/24 (28 pts en 14 m.) | repos 4 j | prochains : Derby County (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2809,7 +2809,7 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-07 | Buts attendus Queens Park Rangers 1.9 - Lincoln City 0.8 | 1/N/2 : 62/22/16% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Queens Park Rangers : 11e/24 (21 pts en 14 m.) | repos 4 j  ||  Lincoln City : 19e/24 (15 pts en 14 m.) | repos 4 j",
+   "contexte": "Queens Park Rangers : 11e/24 (21 pts en 14 m.) | repos 4 j | prochains : Millwall (Championship, 14 j)  ||  Lincoln City : 19e/24 (15 pts en 14 m.) | repos 4 j | prochains : Wrexham (Championship, 14 j)",
    "prio": 9
   },
   {
@@ -2825,7 +2825,7 @@
    "over": "Over 2.5 58%",
    "btts": "BTTS OUI 57%",
    "analyse": "2026-11-07 | Buts attendus Watford 1.1 - Middlesbrough 1.9 | 1/N/2 : 23/23/54% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Watford : 20e/24 (14 pts en 14 m.) | repos 4 j  ||  Middlesbrough : 2e/24 (28 pts en 14 m.) | repos 3 j",
+   "contexte": "Watford : 20e/24 (14 pts en 14 m.) | repos 4 j | prochains : Sheffield United (Championship, 14 j)  ||  Middlesbrough : 2e/24 (28 pts en 14 m.) | repos 3 j | prochains : Bristol City (Championship, 14 j)",
    "prio": 9
   },
   {
