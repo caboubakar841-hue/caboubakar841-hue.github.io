@@ -1,20 +1,26 @@
 {
- "date": "2026-11-07 13:13 UTC",
+ "date": "2026-11-07 13:57 UTC",
  "version": "V17",
  "stats": {
-  "n": 781,
-  "n_avant": 123,
+  "n": 784,
+  "n_avant": 126,
   "dc": 77,
   "over": 53,
   "btts": 53,
   "score": 14,
   "1x2": 61,
-  "n_fav": 353,
+  "n_fav": 354,
   "serre": 73,
-  "n_serre": 428,
+  "n_serre": 430,
   "base_dom": 49,
   "n_euro": 26,
-  "dc_euro": 81
+  "dc_euro": 81,
+  "n_ctx": 2,
+  "brier_ctx": 0.388,
+  "brier_base": 0.408,
+  "n_h2h": 2,
+  "brier_h2h": 0.388,
+  "brier_noh2h": 0.408
  },
  "tickets": [
   {
@@ -200,8 +206,8 @@
        "pick": "Double chance 1X (1. FC Nürnberg ou nul)",
        "code": "1X",
        "p": 92,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-0"
       }
      ],
      "combined": 69.9,
@@ -2111,7 +2117,7 @@
    "contexte": "Face-à-face (4 confrontations) : Leeds United 0V · 1N · Tottenham Hotspur 3V (scores : 3-4, 1-4, 1-2)  ||  Leeds United : 12e/20 (11 pts en 9 m.) | repos 7 j | prochains : Chelsea (Premier League, 14 j)  ||  Tottenham Hotspur : 9e/20 (12 pts en 9 m.) | repos 7 j | prochains : Ipswich Town (Premier League, 14 j)",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "43'"
+   "minute": "65'"
   },
   {
    "league": "La Liga",
@@ -2128,8 +2134,8 @@
    "analyse": "2026-11-07 | Buts attendus Málaga 1.8 - Racing Santander 1.5 | 1/N/2 : 45/23/32% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Málaga : 20e/20 (5 pts en 11 m.) | repos 7 j  ||  Racing Santander : 16e/20 (11 pts en 11 m.) | repos 6 j",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "13'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2146,8 +2152,8 @@
    "analyse": "2026-11-07 | Buts attendus Bristol City 1.6 - Norwich City 1.6 | 1/N/2 : 39/21/40% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (7 confrontations) : Bristol City 3V · 1N · Norwich City 3V (scores : 2-3, 1-2, 1-1)  ||  Bristol City : 15e/24 (18 pts en 14 m.) | repos 3 j | prochains : Middlesbrough (Championship, 14 j)  ||  Norwich City : 12e/24 (18 pts en 14 m.) | repos 4 j | prochains : Cardiff City (Championship, 14 j)",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "43'"
+   "live_score": "0-3",
+   "minute": "70'"
   },
   {
    "league": "Championship",
@@ -2164,8 +2170,8 @@
    "analyse": "2026-11-07 | Buts attendus Portsmouth 1.4 - Stoke City 1.1 | 1/N/2 : 44/22/34% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : Portsmouth 2V · 0N · Stoke City 2V (scores : 3-1 x2, 1-6, 0-1)  ||  Portsmouth : 9e/24 (22 pts en 14 m.) | repos 4 j | prochains : Bolton Wanderers (Championship, 14 j)  ||  Stoke City : 5e/24 (26 pts en 14 m.) | repos 4 j | prochains : Birmingham City (Championship, 14 j)",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "44'"
+   "live_score": "1-1",
+   "minute": "70'"
   },
   {
    "league": "Championship",
@@ -2183,7 +2189,7 @@
    "contexte": "Wrexham : 16e/24 (17 pts en 14 m.) | repos 3 j | prochains : Lincoln City (Championship, 14 j)  ||  Wolverhampton Wanderers : 3e/24 (27 pts en 14 m.) | repos 3 j | prochains : Charlton Athletic (Championship, 14 j)",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "44'"
+   "minute": "67'"
   },
   {
    "league": "La Liga 2",
@@ -2201,61 +2207,7 @@
    "contexte": "Burgos : 8e/22 (21 pts en 12 m.) | repos 6 j | prochains : Leganés (La Liga 2, 6 j)  ||  RC Celta Fortuna : 16e/22 (13 pts en 12 m.) | repos 7 j | prochains : Albacete (La Liga 2, 9 j)",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "13'"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "1. FC Nürnberg",
-   "away": "SV Darmstadt 98",
-   "status": "live",
-   "conf": 66,
-   "victoire": "Victoire 1. FC Nürnberg",
-   "score_exact": "3-1 (7%) · 2-1 (7%)",
-   "double_chance": "12 87%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-07 | Buts attendus 1. FC Nürnberg 3.0 - SV Darmstadt 98 0.9 | 1/N/2 : 66/13/21% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : 1. FC Nürnberg 1V · 1N · SV Darmstadt 98 4V (scores : 0-2 x2, 0-1 x2, 1-1)  ||  1. FC Nürnberg : 2e/18 (21 pts en 10 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 14 j)  ||  SV Darmstadt 98 : 17e/18 (9 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 13 j)",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "55'"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "Holstein Kiel",
-   "away": "Arminia Bielefeld",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (10%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-07 | Buts attendus Holstein Kiel 1.3 - Arminia Bielefeld 1.1 | 1/N/2 : 36/27/37% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Holstein Kiel 0V · 1N · Arminia Bielefeld 3V (scores : 2-4, 2-3, 0-2)  ||  Holstein Kiel : 18e/18 (8 pts en 10 m.) | repos 6 j | prochains : VfL Wolfsburg (2. Bundesliga, 14 j)  ||  Arminia Bielefeld : 7e/18 (14 pts en 10 m.) | repos 8 j | prochains : 1. FC Magdeburg (2. Bundesliga, 13 j)",
-   "prio": 9,
-   "live_score": "0-1",
-   "minute": "55'"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "VfL Osnabruck",
-   "away": "Kaiserslautern",
-   "status": "live",
-   "conf": 69,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (14%) · 0-1 (13%)",
-   "double_chance": "12 69%",
-   "corner": "N/D",
-   "over": "Under 2.5 68%",
-   "btts": "BTTS NON 61%",
-   "analyse": "2026-11-07 | Buts attendus VfL Osnabruck 1.0 - Kaiserslautern 1.0 | 1/N/2 : 36/31/33% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : VfL Osnabruck 0V · 1N · Kaiserslautern 0V (scores : 2-2) - trop peu pour influer  ||  VfL Osnabruck : 13e/18 (11 pts en 10 m.) | repos 7 j  ||  Kaiserslautern : 4e/18 (18 pts en 10 m.) | repos 7 j",
-   "prio": 9,
-   "live_score": "0-0",
-   "minute": "55'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 2",
@@ -2273,7 +2225,7 @@
    "contexte": "Face-à-face (4 confrontations) : Clermont Foot 1V · 2N · Rodez Aveyron 1V (scores : 1-1 x2, 1-0, 1-2)  ||  Clermont Foot : 18e/18 (8 pts en 11 m.) | repos 8 j | prochains : Fontenay Foot (Coupe de France, 7 j), Annecy (Ligue 2, 13 j)  ||  Rodez Aveyron : 13e/18 (13 pts en 11 m.) | repos 8 j | prochains : Versailles 78 (Coupe de France, 7 j), Guingamp (Ligue 2, 13 j)",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "13'"
+   "minute": "HT"
   },
   {
    "league": "Super Lig",
@@ -2290,8 +2242,8 @@
    "analyse": "2026-11-07 | Buts attendus Samsunspor 1.2 - Konyaspor 1.1 | 1/N/2 : 37/29/34% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (6 confrontations) : Samsunspor 2V · 2N · Konyaspor 2V (scores : 1-1, 0-3, 0-1)  ||  Samsunspor : 17e/18 (4 pts en 10 m.) | repos 6 j | prochains : Galatasaray (Super Lig, 14 j)  ||  Konyaspor : 15e/18 (8 pts en 10 m.) | repos 8 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Serie A",
@@ -2932,6 +2884,60 @@
    "analyse": "2026-11-07 | Buts attendus Mantova 1.5 - Hellas Verona 1.4 | 1/N/2 : 39/25/37% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Mantova : 4e/20 (18 pts en 10 m.) | repos 7 j  ||  Hellas Verona : 5e/20 (15 pts en 10 m.) | repos 6 j | prochains : Cesena (Serie B, 13 j)",
    "prio": 9
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "1. FC Nürnberg",
+   "away": "SV Darmstadt 98",
+   "status": "finished",
+   "conf": 66,
+   "victoire": "Victoire 1. FC Nürnberg",
+   "score_exact": "3-1 (7%) · 2-1 (7%)",
+   "double_chance": "12 87%",
+   "corner": "N/D",
+   "over": "Over 2.5 72%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : 1. FC Nürnberg 1V · 1N · SV Darmstadt 98 4V (scores : 0-2 x2, 0-1 x2, 1-1)  ||  1. FC Nürnberg : 2e/18 (21 pts en 10 m.) | repos 6 j | prochains : TSV Eintracht Braunschweig (2. Bundesliga, 14 j)  ||  SV Darmstadt 98 : 17e/18 (9 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 13 j)",
+   "prio": 9,
+   "live_score": "2-0",
+   "minute": "FT"
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "Holstein Kiel",
+   "away": "Arminia Bielefeld",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (12%) · 1-0 (10%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 52%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : Holstein Kiel 0V · 1N · Arminia Bielefeld 3V (scores : 2-4, 2-3, 0-2)  ||  Holstein Kiel : 18e/18 (8 pts en 10 m.) | repos 6 j | prochains : VfL Wolfsburg (2. Bundesliga, 14 j)  ||  Arminia Bielefeld : 7e/18 (14 pts en 10 m.) | repos 8 j | prochains : 1. FC Magdeburg (2. Bundesliga, 13 j)",
+   "prio": 9,
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "VfL Osnabruck",
+   "away": "Kaiserslautern",
+   "status": "finished",
+   "conf": 69,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (14%) · 0-1 (13%)",
+   "double_chance": "12 69%",
+   "corner": "N/D",
+   "over": "Under 2.5 68%",
+   "btts": "BTTS NON 61%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (1 confrontation) : VfL Osnabruck 0V · 1N · Kaiserslautern 0V (scores : 2-2) - trop peu pour influer  ||  VfL Osnabruck : 13e/18 (11 pts en 10 m.) | repos 7 j  ||  Kaiserslautern : 4e/18 (18 pts en 10 m.) | repos 7 j",
+   "prio": 9,
+   "live_score": "0-1",
+   "minute": "FT"
   },
   {
    "league": "A-League",
@@ -3597,60 +3603,6 @@
    "contexte": "Grenoble : 18e/18 (8 pts en 11 m.) | repos 7 j | prochains : Chambéry Savoie (Coupe de France, 6 j)  ||  Stade de Reims : 4e/18 (21 pts en 11 m.) | repos 4 j | prochains : Tourcoing (Coupe de France, 8 j)",
    "prio": 9,
    "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Montpellier",
-   "away": "Metz",
-   "status": "finished",
-   "conf": 56,
-   "victoire": "Victoire Montpellier",
-   "score_exact": "1-0 (15%) · 2-0 (12%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 56%",
-   "analyse": "Resultat 2-3 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Montpellier : 2e/18 (24 pts en 11 m.) | repos 6 j | prochains : Balagne (Coupe de France, 8 j)  ||  Metz : 10e/18 (14 pts en 11 m.) | repos 7 j | prochains : Saint-Die Kellermann (Coupe de France, 9 j), Boulogne (Ligue 2, 14 j)",
-   "prio": 9,
-   "live_score": "2-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "Willem II",
-   "away": "PEC Zwolle",
-   "status": "finished",
-   "conf": 62,
-   "victoire": "Victoire PEC Zwolle",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Willem II : 18e/18 (2 pts en 11 m.) | repos 6 j  ||  PEC Zwolle : 14e/18 (11 pts en 11 m.) | repos 5 j",
-   "prio": 9,
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Rapid Vienna",
-   "away": "Wolfsberger",
-   "status": "finished",
-   "conf": 87,
-   "victoire": "Victoire Rapid Vienna",
-   "score_exact": "3-0 (13%) · 4-0 (10%)",
-   "double_chance": "1X 96%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS NON 58%",
-   "analyse": "Resultat 6-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Rapid Vienna : 1e/12 (30 pts en 11 m.) | repos 5 j  ||  Wolfsberger : 12e/12 (6 pts en 11 m.) | repos 5 j",
-   "prio": 9,
-   "live_score": "6-0",
    "minute": "FT"
   }
  ]
