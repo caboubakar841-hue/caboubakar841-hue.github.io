@@ -1,0 +1,9 @@
+{
+  "name": "PRONO70",
+  "short_name": "PRONO70",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#00ff88",
+  "icons": []
+}
