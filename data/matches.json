@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07 15:14 UTC",
+ "date": "2026-11-07 15:48 UTC",
  "version": "V17",
  "stats": {
   "n": 792,
@@ -2117,7 +2117,7 @@
    "contexte": "Arsenal : 1e/20 (24 pts en 9 m.) | repos 3 j | prochains : Newcastle United (Premier League, 14 j)  ||  Hull City : 12e/20 (11 pts en 9 m.) | repos 7 j",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "12'"
+   "minute": "45'+2'"
   },
   {
    "league": "Premier League",
@@ -2135,7 +2135,25 @@
    "contexte": "Face-à-face (8 confrontations) : Fulham 3V · 0N · Newcastle United 5V (scores : 0-1 x2, 1-4, 0-3)  ||  Fulham : 15e/20 (9 pts en 9 m.) | repos 7 j | prochains : Manchester City (Premier League, 14 j)  ||  Newcastle United : 13e/20 (11 pts en 9 m.) | repos 5 j | prochains : Arsenal (Premier League, 14 j)",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "12'"
+   "minute": "45'+1'"
+  },
+  {
+   "league": "La Liga",
+   "home": "Espanyol",
+   "away": "Deportivo",
+   "status": "live",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (12%) · 0-1 (10%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 52%",
+   "analyse": "2026-11-07 | Buts attendus Espanyol 1.3 - Deportivo 1.0 | 1/N/2 : 44/27/29% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Espanyol : 15e/20 (11 pts en 11 m.) | repos 8 j | prochains : Athletic Club (La Liga, 13 j)  ||  Deportivo : 8e/20 (14 pts en 11 m.) | repos 5 j | prochains : Alavés (La Liga, 14 j)",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "31'"
   },
   {
    "league": "Serie A",
@@ -2153,7 +2171,7 @@
    "contexte": "Face-à-face (2 confrontations) : Cagliari 1V · 0N · Frosinone 1V (scores : 4-3, 1-3) - trop peu pour influer  ||  Cagliari : 12e/20 (13 pts en 10 m.) | repos 6 j | prochains : Como (Serie A, 14 j)  ||  Frosinone : 6e/20 (20 pts en 10 m.) | repos 6 j",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "54'"
+   "minute": "89'"
   },
   {
    "league": "Serie A",
@@ -2170,8 +2188,8 @@
    "analyse": "2026-11-07 | Buts attendus Torino 1.8 - Lecce 1.2 | 1/N/2 : 54/20/26% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Torino 5V · 1N · Lecce 2V (scores : 1-0 x3, 2-0 x2, 0-0)  ||  Torino : 10e/20 (13 pts en 10 m.) | repos 6 j | prochains : Napoli (Serie A, 14 j)  ||  Lecce : 14e/20 (9 pts en 10 m.) | repos 6 j | prochains : Lazio (Serie A, 14 j)",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-0",
+   "minute": "71'"
   },
   {
    "league": "Bundesliga",
@@ -2188,8 +2206,8 @@
    "analyse": "2026-11-07 | Buts attendus Borussia Dortmund 2.3 - SV Elversberg 0.9 | 1/N/2 : 67/19/14% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Borussia Dortmund : 2e/18 (18 pts en 8 m.) | repos 3 j | prochains : Borussia Mönchengladbach (Bundesliga, 14 j)  ||  SV Elversberg : 7e/18 (13 pts en 8 m.) | repos 8 j | prochains : SC Freiburg (Bundesliga, 14 j)",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "44'"
+   "live_score": "1-0",
+   "minute": "58'"
   },
   {
    "league": "Bundesliga",
@@ -2206,8 +2224,8 @@
    "analyse": "2026-11-07 | Buts attendus Mainz 1.7 - Bayern Munich 2.8 | 1/N/2 : 24/16/60% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Mainz 2V · 1N · Bayern Munich 5V (scores : 2-6, 3-1, 1-3)  ||  Mainz : 10e/18 (10 pts en 8 m.) | repos 8 j  ||  Bayern Munich : 1e/18 (18 pts en 8 m.) | repos 4 j | prochains : FC Cologne (Bundesliga, 13 j)",
    "prio": 3,
-   "live_score": "1-1",
-   "minute": "44'"
+   "live_score": "0-1",
+   "minute": "56'"
   },
   {
    "league": "Bundesliga",
@@ -2224,8 +2242,8 @@
    "analyse": "2026-11-07 | Buts attendus RB Leipzig 2.9 - FC Augsburg 1.3 | 1/N/2 : 67/22/11% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : RB Leipzig 5V · 3N · FC Augsburg 0V (scores : 3-3, 3-2, 3-0)  ||  RB Leipzig : 4e/18 (15 pts en 8 m.) | repos 3 j | prochains : 1. FC Union Berlin (Bundesliga, 14 j)  ||  FC Augsburg : 11e/18 (9 pts en 8 m.) | repos 7 j",
    "prio": 3,
-   "live_score": "2-1",
-   "minute": "44'"
+   "live_score": "3-1",
+   "minute": "58'"
   },
   {
    "league": "Bundesliga",
@@ -2242,8 +2260,8 @@
    "analyse": "2026-11-07 | Buts attendus SC Paderborn 07 1.6 - Eintracht Frankfurt 1.0 | 1/N/2 : 51/25/24% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "SC Paderborn 07 : 15e/18 (9 pts en 8 m.) | repos 7 j | prochains : Bayer Leverkusen (Bundesliga, 14 j)  ||  Eintracht Frankfurt : 9e/18 (11 pts en 8 m.) | repos 6 j | prochains : TSG Hoffenheim (Bundesliga, 14 j)",
    "prio": 3,
-   "live_score": "0-1",
-   "minute": "44'"
+   "live_score": "1-1",
+   "minute": "59'"
   },
   {
    "league": "Championship",
@@ -2260,8 +2278,8 @@
    "analyse": "2026-11-07 | Buts attendus Birmingham City 1.6 - Swansea City 0.9 | 1/N/2 : 49/34/17% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (6 confrontations) : Birmingham City 2V · 4N · Swansea City 0V (scores : 2-2 x2, 1-1 x2, 4-3)  ||  Birmingham City : 5e/24 (26 pts en 14 m.) | repos 4 j | prochains : Stoke City (Championship, 14 j)  ||  Swansea City : 6e/24 (26 pts en 14 m.) | repos 4 j | prochains : West Bromwich Albion (Championship, 14 j)",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "1-0",
+   "minute": "45'+1'"
   },
   {
    "league": "Championship",
@@ -2279,7 +2297,7 @@
    "contexte": "Blackburn Rovers : 14e/24 (18 pts en 14 m.) | repos 4 j  ||  West Ham United : 8e/24 (23 pts en 14 m.) | repos 3 j | prochains : Preston North End (Championship, 14 j)",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "14'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2296,8 +2314,8 @@
    "analyse": "2026-11-07 | Buts attendus Cardiff City 2.1 - Burnley 1.3 | 1/N/2 : 48/21/31% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : Cardiff City 0V · 1N · Burnley 3V (scores : 1-1, 0-3, 0-5)  ||  Cardiff City : 18e/24 (15 pts en 14 m.) | repos 3 j | prochains : Norwich City (Championship, 14 j)  ||  Burnley : 22e/24 (10 pts en 14 m.) | repos 4 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "1-2",
+   "minute": "45'+1'"
   },
   {
    "league": "Championship",
@@ -2314,8 +2332,8 @@
    "analyse": "2026-11-07 | Buts attendus Charlton Athletic 0.9 - Sheffield United 1.3 | 1/N/2 : 27/28/45% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (2 confrontations) : Charlton Athletic 2V · 0N · Sheffield United 0V (scores : 1-0 x2) - trop peu pour influer  ||  Charlton Athletic : 21e/24 (14 pts en 14 m.) | repos 4 j | prochains : Wolverhampton Wanderers (Championship, 14 j)  ||  Sheffield United : 9e/24 (22 pts en 14 m.) | repos 4 j | prochains : Watford (Championship, 14 j)",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "13'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2332,8 +2350,8 @@
    "analyse": "2026-11-07 | Buts attendus Preston North End 0.9 - Southampton 2.4 | 1/N/2 : 14/18/68% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : Preston North End 1V · 1N · Southampton 2V (scores : 2-2, 0-3, 2-0)  ||  Preston North End : 24e/24 (5 pts en 14 m.) | repos 4 j | prochains : West Ham United (Championship, 14 j)  ||  Southampton : 2e/24 (28 pts en 14 m.) | repos 4 j | prochains : Derby County (Championship, 14 j)",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "13'"
+   "live_score": "1-0",
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2350,8 +2368,8 @@
    "analyse": "2026-11-07 | Buts attendus Queens Park Rangers 1.9 - Lincoln City 0.8 | 1/N/2 : 62/22/16% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Queens Park Rangers : 12e/24 (21 pts en 14 m.) | repos 4 j | prochains : Millwall (Championship, 14 j)  ||  Lincoln City : 19e/24 (15 pts en 14 m.) | repos 4 j | prochains : Wrexham (Championship, 14 j)",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "13'"
+   "live_score": "1-1",
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2369,7 +2387,7 @@
    "contexte": "Face-à-face (8 confrontations) : Watford 4V · 0N · Middlesbrough 4V (scores : 2-1 x2, 0-2, 2-3)  ||  Watford : 20e/24 (14 pts en 14 m.) | repos 4 j | prochains : Sheffield United (Championship, 14 j)  ||  Middlesbrough : 3e/24 (28 pts en 14 m.) | repos 3 j | prochains : Bristol City (Championship, 14 j)",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "13'"
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2387,7 +2405,25 @@
    "contexte": "Face-à-face (8 confrontations) : West Bromwich Albion 0V · 6N · Millwall 2V (scores : 0-0 x4, 1-1 x2, 1-2)  ||  West Bromwich Albion : 7e/24 (25 pts en 14 m.) | repos 4 j | prochains : Swansea City (Championship, 14 j)  ||  Millwall : 13e/24 (18 pts en 14 m.) | repos 4 j | prochains : Queens Park Rangers (Championship, 14 j)",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "14'"
+   "minute": "HT"
+  },
+  {
+   "league": "La Liga 2",
+   "home": "Cádiz",
+   "away": "Real Oviedo",
+   "status": "live",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 53%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "2026-11-07 | Buts attendus Cádiz 1.4 - Real Oviedo 1.2 | 1/N/2 : 41/26/33% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Cádiz 1V · 0N · Real Oviedo 1V (scores : 2-0, 1-2) - trop peu pour influer  ||  Cádiz : 20e/22 (10 pts en 12 m.) | repos 5 j | prochains : Eibar (La Liga 2, 8 j), Real Sociedad II (La Liga 2, 14 j)  ||  Real Oviedo : 9e/22 (18 pts en 12 m.) | repos 5 j | prochains : Girona (La Liga 2, 7 j)",
+   "prio": 9,
+   "live_score": "0-1",
+   "minute": "29'"
   },
   {
    "league": "Serie B",
@@ -2404,8 +2440,8 @@
    "analyse": "2026-11-07 | Buts attendus Cesena 1.8 - Catanzaro 1.2 | 1/N/2 : 49/18/33% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (5 confrontations) : Cesena 2V · 0N · Catanzaro 3V (scores : 2-0, 2-4, 0-1)  ||  Cesena : 13e/20 (12 pts en 10 m.) | repos 7 j | prochains : Hellas Verona (Serie B, 13 j)  ||  Catanzaro : 20e/20 (6 pts en 10 m.) | repos 7 j | prochains : Palermo (Serie B, 14 j)",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "55'"
+   "live_score": "1-0",
+   "minute": "90'"
   },
   {
    "league": "Serie B",
@@ -2423,7 +2459,7 @@
    "contexte": "Juve Stabia : 11e/20 (13 pts en 10 m.) | repos 6 j | prochains : Modena (Serie B, 14 j)  ||  Arezzo : 14e/20 (11 pts en 10 m.) | repos 6 j",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "52'"
+   "minute": "87'"
   },
   {
    "league": "Serie B",
@@ -2440,8 +2476,8 @@
    "analyse": "2026-11-07 | Buts attendus Padova 1.4 - Empoli 0.9 | 1/N/2 : 48/27/25% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (2 confrontations) : Padova 1V · 0N · Empoli 1V (scores : 1-3, 1-0) - trop peu pour influer  ||  Padova : 10e/20 (14 pts en 10 m.) | repos 7 j  ||  Empoli : 18e/20 (8 pts en 10 m.) | repos 6 j | prochains : Pisa (Serie B, 14 j)",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "52'"
+   "live_score": "2-2",
+   "minute": "86'"
   },
   {
    "league": "Serie B",
@@ -2458,8 +2494,44 @@
    "analyse": "2026-11-07 | Buts attendus Pisa 1.5 - Sudtirol 1.2 | 1/N/2 : 42/27/31% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (6 confrontations) : Pisa 2V · 2N · Sudtirol 2V (scores : 2-1 x2, 1-2, 0-1)  ||  Pisa : 8e/20 (15 pts en 10 m.) | repos 6 j | prochains : Empoli (Serie B, 14 j)  ||  Sudtirol : 9e/20 (14 pts en 10 m.) | repos 7 j | prochains : Cremonese (Serie B, 14 j)",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "56'"
+   "live_score": "2-2",
+   "minute": "90'+1'"
+  },
+  {
+   "league": "Eredivisie",
+   "home": "Fortuna Sittard",
+   "away": "Telstar",
+   "status": "live",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "2026-11-07 | Buts attendus Fortuna Sittard 1.7 - Telstar 1.5 | 1/N/2 : 43/23/34% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Fortuna Sittard 1V · 0N · Telstar 1V (scores : 3-1, 1-4) - trop peu pour influer  ||  Fortuna Sittard : 6e/18 (19 pts en 11 m.) | repos 7 j  ||  Telstar : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : PEC Zwolle (Eredivisie, 14 j)",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "17'"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "C.D. Nacional",
+   "away": "Académico de Viseu",
+   "status": "live",
+   "conf": 62,
+   "victoire": "Victoire Académico de Viseu",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-07 | Buts attendus C.D. Nacional 1.0 - Académico de Viseu 2.0 | 1/N/2 : 17/21/62% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "C.D. Nacional : 15e/18 (7 pts en 10 m.) | repos 6 j  ||  Académico de Viseu : 6e/18 (20 pts en 10 m.) | repos 6 j",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "Delay"
   },
   {
    "league": "Pro League",
@@ -2477,7 +2549,7 @@
    "contexte": "Face-à-face (8 confrontations) : KVC Westerlo 3V · 1N · Royal Charleroi SC 4V (scores : 0-1, 1-3, 2-2)  ||  KVC Westerlo : 9e/18 (14 pts en 10 m.) | repos 7 j | prochains : Cercle Brugge KSV (Pro League, 13 j)  ||  Royal Charleroi SC : 4e/18 (24 pts en 10 m.) | repos 6 j | prochains : Sint-Truidense (Pro League, 14 j)",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "43'"
   },
   {
    "league": "Scottish Premiership",
@@ -2494,8 +2566,8 @@
    "analyse": "2026-11-07 | Buts attendus Dundee United 1.8 - Motherwell 1.2 | 1/N/2 : 41/20/39% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Dundee United 1V · 1N · Motherwell 6V (scores : 0-2 x2, 2-3, 1-2)  ||  Dundee United : 6e/12 (16 pts en 11 m.) | repos 10 j | prochains : Hibernian (Scottish Premiership, 14 j)  ||  Motherwell : 9e/12 (12 pts en 12 m.) | repos 7 j | prochains : Rangers (Scottish Premiership, 14 j)",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "11'"
+   "live_score": "1-1",
+   "minute": "45'+1'"
   },
   {
    "league": "Scottish Premiership",
@@ -2513,7 +2585,7 @@
    "contexte": "Face-à-face (5 confrontations) : St Johnstone 1V · 2N · Dundee 2V (scores : 1-1 x2, 2-1, 1-3)  ||  St Johnstone : 7e/12 (14 pts en 12 m.) | repos 7 j | prochains : Falkirk (Scottish Premiership, 14 j)  ||  Dundee : 5e/12 (17 pts en 11 m.) | repos 10 j | prochains : Heart of Midlothian (Scottish Premiership, 14 j)",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "13'"
+   "minute": "45'+2'"
   },
   {
    "league": "Super League (GRE)",
@@ -2530,24 +2602,8 @@
    "analyse": "2026-11-07 | Buts attendus Volos NFC 1.4 - Kifisia 1.2 | 1/N/2 : 42/25/33% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (5 confrontations) : Volos NFC 2V · 1N · Kifisia 2V (scores : 2-1, 0-3, 4-1)  ||  Volos NFC : 14e/14 (3 pts en 9 m.) | repos 5 j  ||  Kifisia : 7e/14 (11 pts en 9 m.) | repos 7 j",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "12'"
-  },
-  {
-   "league": "La Liga",
-   "home": "Espanyol",
-   "away": "Deportivo",
-   "status": "today",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (12%) · 0-1 (10%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-07 | Buts attendus Espanyol 1.3 - Deportivo 1.0 | 1/N/2 : 44/27/29% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Espanyol : 15e/20 (11 pts en 11 m.) | repos 8 j | prochains : Athletic Club (La Liga, 13 j)  ||  Deportivo : 8e/20 (14 pts en 11 m.) | repos 5 j | prochains : Alavés (La Liga, 14 j)",
-   "prio": 3
+   "live_score": "1-1",
+   "minute": "45'+1'"
   },
   {
    "league": "Serie A",
@@ -2676,54 +2732,6 @@
    "analyse": "2026-11-07 | Buts attendus Paris Saint-Germain 2.7 - Troyes 0.7 | 1/N/2 : 79/13/7% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (2 confrontations) : Paris Saint-Germain 2V · 0N · Troyes 0V (scores : 4-3, 3-1) - trop peu pour influer  ||  Paris Saint-Germain : 1e/18 (20 pts en 9 m.) | repos 4 j | prochains : Nice (Ligue 1, 14 j)  ||  Troyes : 16e/18 (8 pts en 9 m.) | repos 7 j | prochains : Le Havre AC (Ligue 1, 13 j)",
    "prio": 3
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Cádiz",
-   "away": "Real Oviedo",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 53%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-07 | Buts attendus Cádiz 1.4 - Real Oviedo 1.2 | 1/N/2 : 41/26/33% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Cádiz 1V · 0N · Real Oviedo 1V (scores : 2-0, 1-2) - trop peu pour influer  ||  Cádiz : 20e/22 (10 pts en 12 m.) | repos 5 j | prochains : Eibar (La Liga 2, 8 j), Real Sociedad II (La Liga 2, 14 j)  ||  Real Oviedo : 9e/22 (18 pts en 12 m.) | repos 5 j | prochains : Girona (La Liga 2, 7 j)",
-   "prio": 9
-  },
-  {
-   "league": "Eredivisie",
-   "home": "Fortuna Sittard",
-   "away": "Telstar",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-11-07 | Buts attendus Fortuna Sittard 1.7 - Telstar 1.5 | 1/N/2 : 43/23/34% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Fortuna Sittard 1V · 0N · Telstar 1V (scores : 3-1, 1-4) - trop peu pour influer  ||  Fortuna Sittard : 6e/18 (19 pts en 11 m.) | repos 7 j  ||  Telstar : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : PEC Zwolle (Eredivisie, 14 j)",
-   "prio": 9
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "C.D. Nacional",
-   "away": "Académico de Viseu",
-   "status": "today",
-   "conf": 62,
-   "victoire": "Victoire Académico de Viseu",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-07 | Buts attendus C.D. Nacional 1.0 - Académico de Viseu 2.0 | 1/N/2 : 17/21/62% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "C.D. Nacional : 15e/18 (7 pts en 10 m.) | repos 6 j  ||  Académico de Viseu : 6e/18 (20 pts en 10 m.) | repos 6 j",
-   "prio": 9
   },
   {
    "league": "Super Lig",
@@ -3171,6 +3179,70 @@
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-07 | Buts attendus CF Montréal 0.9 - Vancouver Whitecaps 1.9 | 1/N/2 : 19/22/59% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : CF Montréal 1V · 1N · Vancouver Whitecaps 2V (scores : 2-1, 0-5, 1-1)  ||  CF Montréal : repos 7 j  ||  Vancouver Whitecaps : repos 6 j",
+   "prio": 9
+  },
+  {
+   "league": "MLS",
+   "home": "Chicago Fire FC",
+   "away": "Columbus Crew",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 67%",
+   "btts": "BTTS OUI 68%",
+   "analyse": "2026-11-07 | Buts attendus Chicago Fire FC 1.9 - Columbus Crew 1.6 | 1/N/2 : 35/23/42% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Chicago Fire FC 1V · 2N · Columbus Crew 5V (scores : 0-0 x2, 1-2 x2, 0-3)  ||  Chicago Fire FC : repos 7 j  ||  Columbus Crew : repos 7 j",
+   "prio": 9
+  },
+  {
+   "league": "MLS",
+   "home": "D.C. United",
+   "away": "New York City FC",
+   "status": "today",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (12%) · 0-1 (11%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 52%",
+   "analyse": "2026-11-07 | Buts attendus D.C. United 1.1 - New York City FC 1.3 | 1/N/2 : 36/27/37% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : D.C. United 4V · 2N · New York City FC 2V (scores : 2-1 x2, 2-0 x2, 2-3)  ||  D.C. United : repos 7 j  ||  New York City FC : repos 7 j",
+   "prio": 9
+  },
+  {
+   "league": "MLS",
+   "home": "FC Cincinnati",
+   "away": "Nashville SC",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 59%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "2026-11-07 | Buts attendus FC Cincinnati 1.2 - Nashville SC 1.9 | 1/N/2 : 31/23/46% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : FC Cincinnati 4V · 2N · Nashville SC 2V (scores : 2-1 x2, 1-1, 1-0)  ||  FC Cincinnati : repos 7 j  ||  Nashville SC : repos 6 j",
+   "prio": 9
+  },
+  {
+   "league": "MLS",
+   "home": "Inter Miami CF",
+   "away": "Charlotte FC",
+   "status": "today",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Over 2.5 70%",
+   "btts": "BTTS OUI 71%",
+   "analyse": "2026-11-07 | Buts attendus Inter Miami CF 1.9 - Charlotte FC 1.7 | 1/N/2 : 41/26/32% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Inter Miami CF 3V · 3N · Charlotte FC 2V (scores : 3-2, 2-2, 0-1)  ||  Inter Miami CF : repos 6 j  ||  Charlotte FC : repos 7 j",
    "prio": 9
   },
   {
