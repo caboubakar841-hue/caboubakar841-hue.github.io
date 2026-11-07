@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07 05:06 UTC",
+ "date": "2026-11-07 05:47 UTC",
  "version": "V17",
  "stats": {
   "n": 771,
@@ -2110,8 +2110,8 @@
    "analyse": "2026-11-07 | Buts attendus Nagoya Grampus 1.6 - Kyoto Sanga 1.2 | 1/N/2 : 45/25/30% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Nagoya Grampus : repos 7 j | prochains : Tokyo Verdy 1969 (J1 League, 14 j)  ||  Kyoto Sanga : repos 4 j | prochains : Urawa Red Diamonds (J1 League, 14 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "3'"
+   "live_score": "0-1",
+   "minute": "44'"
   },
   {
    "league": "J1 League",
@@ -2128,8 +2128,8 @@
    "analyse": "2026-11-07 | Buts attendus Yokohama F. Marinos 1.8 - Fagiano Okayama 0.9 | 1/N/2 : 59/23/18% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Yokohama F. Marinos : repos 6 j | prochains : Sanfrecce Hiroshima (J1 League, 14 j)  ||  Fagiano Okayama : repos 7 j | prochains : Gamba Osaka (J1 League, 14 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "2'"
+   "live_score": "0-1",
+   "minute": "44'"
   },
   {
    "league": "J1 League",
@@ -2146,8 +2146,8 @@
    "analyse": "2026-11-07 | Buts attendus Shimizu S-Pulse 1.2 - Tokyo Verdy 1969 1.0 | 1/N/2 : 40/29/31% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Shimizu S-Pulse : repos 7 j | prochains : Kashima Antlers (J1 League, 13 j)  ||  Tokyo Verdy 1969 : repos 6 j | prochains : Nagoya Grampus (J1 League, 14 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "0-1",
+   "minute": "86'"
   },
   {
    "league": "A-League",
@@ -2165,7 +2165,7 @@
    "contexte": "Auckland FC : repos 8 j | prochains : Melbourne Victory (A-League, 14 j)  ||  Wellington Phoenix : repos 7 j | prochains : Macarthur FC (A-League, 15 j)",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "HT"
   },
   {
    "league": "Premier League",
