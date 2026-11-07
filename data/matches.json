@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07 09:12 UTC",
+ "date": "2026-11-07 09:31 UTC",
  "version": "V17",
  "stats": {
   "n": 778,
@@ -2110,8 +2110,8 @@
    "analyse": "2026-11-07 | Buts attendus Melbourne City FC 1.5 - Western Sydney Wanderers FC 1.1 | 1/N/2 : 45/26/28% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Melbourne City FC : repos 7 j  ||  Western Sydney Wanderers FC : repos 7 j | prochains : Adelaide United FC (A-League, 13 j)",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "26'"
+   "live_score": "1-1",
+   "minute": "45'+1'"
   },
   {
    "league": "Premier League",
