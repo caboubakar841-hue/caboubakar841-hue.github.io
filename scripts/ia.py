@@ -3,7 +3,7 @@
 import json
 import math
 import os
-from collections import defaultdict
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
@@ -70,6 +70,12 @@ STAKES_EFFECT = 0.03     # a 3 pts d'une zone cle (apres 15 matchs) : +3 % d'int
 FIX_AHEAD_DAYS = 14      # calendrier a venir recupere sur 14 jours
 FIX_REFRESH_H = 6        # ... et rafraichi toutes les 6 h
 ABSENCES = "data/absences.json"   # blesses/suspendus : saisis a la main (ESPN n'a pas de flux fiable)
+H2H_FILE = "data/h2h.json"
+H2H_MIN = 3             # il faut au moins 3 confrontations pour que le face-a-face influence le pronostic
+H2H_PRIOR = 20          # poids du modele face au face-a-face (en "matchs equivalents") : 20 = le face-a-face pese peu
+H2H_LAST = 8            # on garde les 8 dernieres confrontations
+H2H_MAX_PAIRS = 60      # paires interrogees par run
+H2H_REFRESH_DAYS = 14
 BAD_STATUS = ("POSTPONED", "CANCEL", "ABANDON", "FORFEIT", "SUSPEND")
 
 
@@ -100,6 +106,7 @@ def parse_event(ev):
             return None
         out = {
             "id": str(ev.get("id")), "detail": st.get("shortDetail") or "",
+            "hid": str(home["team"].get("id", "")), "aid": str(away["team"].get("id", "")),
             "home": home["team"]["displayName"],
             "away": away["team"]["displayName"],
             "state": st.get("state"),
@@ -146,7 +153,7 @@ def pmf(k, lam):
     return math.exp(-lam) * lam ** k / math.factorial(k)
 
 
-def predict(model, home, away, adj=None):
+def predict(model, home, away, adj=None, h2h=None):
     lam_h = model["mu_h"] * model["att"][home] * model["def"][away]
     lam_a = model["mu_a"] * model["att"][away] * model["def"][home]
     if adj:                                   # contexte : rotation, enjeu, absences
@@ -154,12 +161,23 @@ def predict(model, home, away, adj=None):
     grid = [[pmf(i, lam_h) * pmf(j, lam_a) for j in range(MAX_GOALS + 1)] for i in range(MAX_GOALS + 1)]
     tot = sum(map(sum, grid))
     grid = [[p / tot for p in row] for row in grid]
+    if h2h and h2h[0] >= H2H_MIN:             # face-a-face : on rapproche les probas 1/N/2 de l'historique, avec un poids faible
+        n_, hw_, d_, aw_ = h2h
+        cls = lambda i, j: "H" if i > j else "A" if i < j else "D"
+        p0 = {"H": 0.0, "D": 0.0, "A": 0.0}
+        for i in range(MAX_GOALS + 1):
+            for j in range(MAX_GOALS + 1):
+                p0[cls(i, j)] += grid[i][j]
+        tgt = {k: (c + H2H_PRIOR * p0[k]) / (n_ + H2H_PRIOR) for k, c in (("H", hw_), ("D", d_), ("A", aw_))}
+        grid = [[grid[i][j] * tgt[cls(i, j)] / p0[cls(i, j)] for j in range(MAX_GOALS + 1)] for i in range(MAX_GOALS + 1)]
     cells = [(i, j, grid[i][j]) for i in range(MAX_GOALS + 1) for j in range(MAX_GOALS + 1)]
     p_h = sum(p for i, j, p in cells if i > j)
     p_d = sum(p for i, j, p in cells if i == j)
     p_a = sum(p for i, j, p in cells if i < j)
     p_over = sum(p for i, j, p in cells if i + j >= 3)
     p_btts = sum(p for i, j, p in cells if i >= 1 and j >= 1)
+    p_o15 = sum(p for i, j, p in cells if i + j >= 2)
+    p_u35 = sum(p for i, j, p in cells if i + j <= 3)
 
     pick = max((p_h, "H"), (p_d, "D"), (p_a, "A"))[1]
     # aucun camp n'atteint 50 % : on ne designe pas de vainqueur, on couvre (1X, X2 ou 12 selon le plus probable)
@@ -187,7 +205,7 @@ def predict(model, home, away, adj=None):
         second = max(pool, key=lambda x: x[2])[:2]
     return dict(lam_h=lam_h, lam_a=lam_a, p_h=p_h, p_d=p_d, p_a=p_a, pick=pick,
                 score=f"{si}-{sj}", score_p=sp, score2=f"{second[0]}-{second[1]}", score2_p=gp[second],
-                dc=dc, p_over=p_over, p_btts=p_btts, tight=tight)
+                dc=dc, p_over=p_over, p_btts=p_btts, tight=tight, p_o15=p_o15, p_u35=p_u35)
 
 
 def pct(p):
@@ -275,10 +293,10 @@ def all_picks(rec):
         (pr["p_h"] + pr["p_d"], "1X", f"Double chance 1X ({home} ou nul)"),
         (pr["p_d"] + pr["p_a"], "X2", f"Double chance X2 (nul ou {away})"),
         (pr["p_h"] + pr["p_a"], "12", "Double chance 12 (pas de nul)"),
-        (1 - math.exp(-lam) * (1 + lam), "O15", "Over 1.5 buts"),
+        (pr.get("p_o15", 1 - math.exp(-lam) * (1 + lam)), "O15", "Over 1.5 buts"),
         (pr["p_over"], "O25", "Over 2.5 buts"),
         (1 - pr["p_over"], "U25", "Under 2.5 buts"),
-        (sum(pmf(k, lam) for k in range(4)), "U35", "Under 3.5 buts"),
+        (pr.get("p_u35", sum(pmf(k, lam) for k in range(4))), "U35", "Under 3.5 buts"),
         (pr["p_btts"], "BY", "BTTS OUI"),
         (1 - pr["p_btts"], "BN", "BTTS NON"),
     ]
@@ -330,6 +348,73 @@ def settle(entry, results):
             l["score"] = f"{r['gh']}-{r['ga']}" if r else None
         oks = [l["ok"] for l in t["legs"]]
         t["status"] = "perdu" if False in oks else "gagné" if oks and all(x is True for x in oks) else "en cours"
+
+
+def num(x):
+    if isinstance(x, dict):
+        x = x.get("value", x.get("displayValue"))
+    return int(float(x))
+
+
+def fetch_schedule(slug, team_id, season):
+    url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams/{team_id}/schedule"
+    for _ in range(2):
+        try:
+            r = requests.get(url, params={"season": season}, headers=HEADERS, timeout=8)
+            r.raise_for_status()
+            return r.json().get("events", [])
+        except Exception as e:
+            ERRORS.append(f"schedule {slug} {team_id} {season} -> {type(e).__name__} {str(e)[:100]}")
+    return None
+
+
+def fetch_pair(slug, hid, aid, seasons):
+    """Matchs deja joues entre deux equipes (calendrier de l'equipe a domicile, plusieurs saisons)."""
+    games, ok = {}, 0
+    for season in seasons:
+        evs = fetch_schedule(slug, hid, season)
+        if evs is None:
+            continue
+        ok += 1
+        for ev in evs:
+            try:
+                comp = ev["competitions"][0]
+                cs = comp["competitors"]
+                tid = lambda c: str(c.get("team", {}).get("id", c.get("id")))
+                if {tid(c) for c in cs} != {str(hid), str(aid)}:
+                    continue
+                st = (ev.get("status") or comp.get("status") or {}).get("type", {})
+                if not (st.get("completed") or st.get("state") == "post"):
+                    continue
+                h = next(c for c in cs if c["homeAway"] == "home")
+                a = next(c for c in cs if c["homeAway"] == "away")
+                games[ev["date"][:10]] = [ev["date"], tid(h), tid(a), num(h["score"]), num(a["score"])]
+            except Exception:
+                continue
+    return list(games.values()) if ok else None
+
+
+def h2h_stats(games, home, away, hid, before_iso):
+    rows = sorted((g for g in games if g[0] < before_iso), key=lambda g: g[0])[-H2H_LAST:]
+    hw = d = aw = 0
+    sc = Counter()
+    for _, gh_id, ga_id, x, y in rows:
+        if str(gh_id) == str(hid):
+            pass
+        elif str(ga_id) == str(hid):
+            x, y = y, x
+        else:
+            continue
+        r = result_of(x, y)
+        hw += r == "H"; d += r == "D"; aw += r == "A"
+        sc[f"{x}-{y}"] += 1
+    n = hw + d + aw
+    if n == 0:
+        return None
+    top = ", ".join(f"{k} x{v}" if v > 1 else k for k, v in sc.most_common(3))
+    return {"n": n, "hw": hw, "d": d, "aw": aw,
+            "text": f"Face-à-face ({n} confrontation{'s' if n > 1 else ''}) : {home} {hw}V · {d}N · {away} {aw}V (scores : {top})"
+                    + ("" if n >= H2H_MIN else " - trop peu pour influer")}
 
 
 def parse_iso(x):
@@ -548,6 +633,29 @@ def main():
         return {"mu_h": mu[0], "mu_a": mu[1], "att": att, "def": dfn, "gp": gp,
                 "neutral": [tm for tm in (home, away) if gp[tm] < MIN_GAMES]}
 
+    try:
+        h2h_cache = json.load(open(H2H_FILE, encoding="utf-8"))
+    except Exception:
+        h2h_cache = {}
+    cur = t.year if t.month >= 7 else t.year - 1
+    seasons = [cur - k for k in range(5)]
+    pair_of = lambda sl, q: f"{sl}:" + "-".join(sorted([q["hid"], q["aid"]]))
+    need = {}
+    for sl, q in events:
+        if (sl in LEAGUES and PRIORITY.get(sl, 9) < 12 and q["state"] == "pre" and q.get("hid") and q.get("aid")
+                and q["iso"][:10] >= today):
+            k = pair_of(sl, q)
+            old = h2h_cache.get(k)
+            if not (old and (now - datetime.fromisoformat(old["t"])).days < H2H_REFRESH_DAYS) and len(need) < H2H_MAX_PAIRS:
+                need[k] = (sl, q["hid"], q["aid"])
+    if need:
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            got = list(ex.map(lambda kv: (kv[0], fetch_pair(*kv[1], seasons)), need.items()))
+        for k, games in got:
+            if games is not None:
+                h2h_cache[k] = {"t": now.isoformat(), "games": games}
+    print(f"Face-a-face : {len(need)} paires interrogees, {sum(1 for k in need if h2h_cache.get(k, {}).get('games'))} avec au moins une confrontation")
+
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
     for slug, p in events:
@@ -567,7 +675,7 @@ def main():
                     continue                         # on ne recalcule pas apres coup un match sans donnees
                 m = thin_model(slug, p["home"], p["away"], min(day, today))   # a venir / en cours : on l'affiche quand meme
             pr = pr0 = predict(m, p["home"], p["away"])
-            ctx_text, base_p = "", None
+            ctx_text, base_p, noh2h_p = "", None, None
             if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
                 ah, dh, th = team_ctx(p["home"], team_slug.get(p["home"], slug), p["iso"], tabs, team_fx, team_games, absences)
                 aa, da, ta = team_ctx(p["away"], team_slug.get(p["away"], slug), p["iso"], tabs, team_fx, team_games, absences)
@@ -576,10 +684,20 @@ def main():
                 if abs(adj[0] - 1) > 1e-9 or abs(adj[1] - 1) > 1e-9:
                     pr = predict(m, p["home"], p["away"], adj)
                     base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]   # reference sans contexte, pour mesurer l'apport reel
+                hs = None
+                if p.get("hid") and p.get("aid") and p["state"] == "pre":
+                    hs = h2h_stats(h2h_cache.get(pair_of(slug, p), {}).get("games", []), p["home"], p["away"], p["hid"], p["iso"])
+                if hs:
+                    ctx_text = hs["text"] + "  ||  " + ctx_text
+                    if hs["n"] >= H2H_MIN:
+                        noh2h_p = [pr["p_h"], pr["p_d"], pr["p_a"]]   # pronostic AVANT face-a-face, pour mesurer son apport
+                        pr = predict(m, p["home"], p["away"], adj, (hs["n"], hs["hw"], hs["d"], hs["aw"]))
+                        if base_p is None:
+                            base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]
             rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": ALL_COMPS[slug], "home": p["home"], "away": p["away"],
                                    "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
                                    "kind": "avant" if p["state"] == "pre" else "retro", "res": None,
-                                   "ctx": ctx_text, "base_p": base_p, "neutral": m.get("neutral", [])}
+                                   "ctx": ctx_text, "base_p": base_p, "noh2h_p": noh2h_p, "neutral": m.get("neutral", [])}
         if p["state"] == "post" and "gh" in p and not rec.get("res"):
             rec["res"] = [p["gh"], p["ga"]]
             rec["eval"] = evaluate(rec)
@@ -616,6 +734,11 @@ def main():
             stats["n_ctx"] = len(cr)
             stats["brier_ctx"] = round(sum(brier((r["pr"]["p_h"], r["pr"]["p_d"], r["pr"]["p_a"]), r["res"]) for r in cr) / len(cr), 3)
             stats["brier_base"] = round(sum(brier(r["base_p"], r["res"]) for r in cr) / len(cr), 3)
+            hr = [r for r in cr if r.get("noh2h_p")]          # matchs ou le face-a-face a modifie le pronostic
+            if hr:
+                stats["n_h2h"] = len(hr)
+                stats["brier_h2h"] = round(sum(brier((r["pr"]["p_h"], r["pr"]["p_d"], r["pr"]["p_a"]), r["res"]) for r in hr) / len(hr), 3)
+                stats["brier_noh2h"] = round(sum(brier(r["noh2h_p"], r["res"]) for r in hr) / len(hr), 3)
     fin_cards = [card_from(r, "finished") for r in done_all[:MAX_MATCHES]]
 
     live.sort(key=lambda c: c.get("prio", 9))
@@ -649,6 +772,8 @@ def main():
     tk["days"] = dict(sorted(tk["days"].items(), reverse=True)[:14])
     with open(TICKETS, "w", encoding="utf-8") as f:
         json.dump(tk, f, ensure_ascii=False)
+    with open(H2H_FILE, "w", encoding="utf-8") as f:
+        json.dump(h2h_cache, f, ensure_ascii=False)
     with open(CACHE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False)
     out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "tickets": [tk["days"][d] for d in sorted(tk["days"], reverse=True)], "matches": cards}
