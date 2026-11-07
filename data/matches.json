@@ -1,9 +1,9 @@
 {
- "date": "2026-11-07 22:27 UTC",
+ "date": "2026-11-07 22:59 UTC",
  "version": "V17",
  "stats": {
-  "n": 858,
-  "n_avant": 200,
+  "n": 861,
+  "n_avant": 203,
   "dc": 77,
   "over": 53,
   "btts": 53,
@@ -11,16 +11,16 @@
   "1x2": 61,
   "n_fav": 389,
   "serre": 73,
-  "n_serre": 469,
+  "n_serre": 472,
   "base_dom": 49,
   "n_euro": 26,
   "dc_euro": 81,
-  "n_ctx": 41,
-  "brier_ctx": 0.583,
-  "brier_base": 0.563,
-  "n_h2h": 41,
-  "brier_h2h": 0.583,
-  "brier_noh2h": 0.563
+  "n_ctx": 43,
+  "brier_ctx": 0.592,
+  "brier_base": 0.574,
+  "n_h2h": 43,
+  "brier_h2h": 0.592,
+  "brier_noh2h": 0.574
  },
  "tickets": [
   {
@@ -2116,8 +2116,8 @@
    "analyse": "2026-11-07 | Buts attendus CF Montréal 0.9 - Vancouver Whitecaps 1.9 | 1/N/2 : 19/22/59% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : CF Montréal 1V · 1N · Vancouver Whitecaps 2V (scores : 2-1, 0-5, 1-1)  ||  CF Montréal : repos 7 j  ||  Vancouver Whitecaps : repos 6 j",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "57'"
+   "live_score": "0-2",
+   "minute": "89'"
   },
   {
    "league": "MLS",
@@ -2134,8 +2134,8 @@
    "analyse": "2026-11-07 | Buts attendus Chicago Fire FC 1.9 - Columbus Crew 1.6 | 1/N/2 : 35/23/42% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Chicago Fire FC 1V · 2N · Columbus Crew 5V (scores : 0-0 x2, 1-2 x2, 0-3)  ||  Chicago Fire FC : repos 7 j  ||  Columbus Crew : repos 7 j",
    "prio": 9,
-   "live_score": "3-2",
-   "minute": "53'"
+   "live_score": "3-3",
+   "minute": "85'"
   },
   {
    "league": "MLS",
@@ -2152,8 +2152,8 @@
    "analyse": "2026-11-07 | Buts attendus D.C. United 1.1 - New York City FC 1.3 | 1/N/2 : 36/27/37% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : D.C. United 4V · 2N · New York City FC 2V (scores : 2-1 x2, 2-0 x2, 2-3)  ||  D.C. United : repos 7 j  ||  New York City FC : repos 7 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "57'"
+   "live_score": "0-1",
+   "minute": "88'"
   },
   {
    "league": "MLS",
@@ -2170,8 +2170,8 @@
    "analyse": "2026-11-07 | Buts attendus FC Cincinnati 1.2 - Nashville SC 1.9 | 1/N/2 : 31/23/46% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : FC Cincinnati 4V · 2N · Nashville SC 2V (scores : 2-1 x2, 1-1, 1-0)  ||  FC Cincinnati : repos 7 j  ||  Nashville SC : repos 6 j",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "57'"
+   "live_score": "0-2",
+   "minute": "88'"
   },
   {
    "league": "MLS",
@@ -2189,7 +2189,7 @@
    "contexte": "Face-à-face (8 confrontations) : Inter Miami CF 3V · 3N · Charlotte FC 2V (scores : 3-2, 2-2, 0-1)  ||  Inter Miami CF : repos 6 j  ||  Charlotte FC : repos 7 j",
    "prio": 9,
    "live_score": "3-2",
-   "minute": "55'"
+   "minute": "87'"
   },
   {
    "league": "MLS",
@@ -2207,7 +2207,7 @@
    "contexte": "Face-à-face (8 confrontations) : Orlando City SC 4V · 1N · New England Revolution 3V (scores : 0-3, 1-3, 3-2)  ||  Orlando City SC : repos 7 j  ||  New England Revolution : repos 6 j",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "57'"
+   "minute": "89'"
   },
   {
    "league": "MLS",
@@ -2224,8 +2224,8 @@
    "analyse": "2026-11-07 | Buts attendus Philadelphia Union 2.8 - Toronto FC 1.2 | 1/N/2 : 61/22/17% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Philadelphia Union 3V · 3N · Toronto FC 2V (scores : 4-0, 4-2, 1-3)  ||  Philadelphia Union : repos 7 j  ||  Toronto FC : repos 6 j",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "53'"
+   "live_score": "4-1",
+   "minute": "84'"
   },
   {
    "league": "MLS",
@@ -2242,44 +2242,26 @@
    "analyse": "2026-11-07 | Buts attendus Red Bull New York 1.5 - Atlanta United FC 1.3 | 1/N/2 : 42/25/33% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Red Bull New York 3V · 2N · Atlanta United FC 3V (scores : 1-2 x2, 2-1, 0-1)  ||  Red Bull New York : repos 6 j  ||  Atlanta United FC : repos 6 j",
    "prio": 9,
-   "live_score": "2-0",
-   "minute": "57'"
+   "live_score": "3-0",
+   "minute": "89'"
   },
   {
-   "league": "Liga Argentina",
-   "home": "Argentinos Juniors",
-   "away": "Huracán",
+   "league": "Primera Paraguay",
+   "home": "Libertad",
+   "away": "Nacional Asunción",
    "status": "live",
-   "conf": 84,
-   "victoire": "Serré : Nul ou Argentinos Juniors",
-   "score_exact": "0-0 (20%) · 1-0 (18%)",
-   "double_chance": "1X 84%",
+   "conf": 76,
+   "victoire": "Serré : Nul ou Nacional Asunción",
+   "score_exact": "0-1 (16%) · 0-0 (13%)",
+   "double_chance": "X2 76%",
    "corner": "N/D",
-   "over": "Under 2.5 74%",
-   "btts": "BTTS NON 67%",
-   "analyse": "2026-11-07 | Buts attendus Argentinos Juniors 1.3 - Huracán 0.6 | 1/N/2 : 47/37/16% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (7 confrontations) : Argentinos Juniors 2V · 4N · Huracán 1V (scores : 1-1 x2, 0-0 x2, 0-1)  ||  Argentinos Juniors : repos 5 j  ||  Huracán : repos 8 j",
-   "prio": 9,
-   "live_score": "0-2",
-   "minute": "90'+5'"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Boca Juniors",
-   "away": "Defensa y Justicia",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : Nul ou Boca Juniors",
-   "score_exact": "1-0 (12%) · 0-0 (9%)",
-   "double_chance": "1X 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 51%",
-   "analyse": "2026-11-07 | Buts attendus Boca Juniors 1.3 - Defensa y Justicia 1.1 | 1/N/2 : 44/29/27% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Boca Juniors 3V · 2N · Defensa y Justicia 1V (scores : 4-0 x2, 1-0, 0-0)  ||  Boca Juniors : repos 6 j | prochains : Atlético-MG (Copa Sudamericana, 14 j)  ||  Defensa y Justicia : repos 5 j",
-   "prio": 9,
-   "live_score": "0-0",
-   "minute": "90'+5'"
+   "over": "Under 2.5 66%",
+   "btts": "BTTS NON 60%",
+   "analyse": "2026-11-07 | Buts attendus Libertad 0.8 - Nacional Asunción 1.3 | 1/N/2 : 24/29/47% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Libertad : repos 3 j | prochains : Rubio Ñú (Primera Paraguay, 11 j)  ||  Nacional Asunción : repos 4 j | prochains : Cerro Porteño (Primera Paraguay, 11 j)",
+   "prio": 12,
+   "live_score": "1-0",
+   "minute": "28'"
   },
   {
    "league": "Liga Colombia",
@@ -2296,8 +2278,8 @@
    "analyse": "2026-11-07 | Buts attendus Once Caldas 1.3 - Águilas Doradas 1.0 | 1/N/2 : 44/28/29% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Once Caldas : repos 10 j | prochains : Atlético Nacional (Liga Colombia, 1 j)  ||  Águilas Doradas : repos 5 j | prochains : Independiente Medellín (Liga Colombia, 1 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "63'"
+   "live_score": "1-0",
+   "minute": "90'+5'"
   },
   {
    "league": "Liga Bolivie",
@@ -2314,8 +2296,8 @@
    "analyse": "2026-11-07 | Buts attendus Always Ready 3.5 - ABB 0.7 | 1/N/2 : 87/8/4% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Always Ready : repos 6 j  ||  ABB : repos 7 j | prochains : Aurora (Liga Bolivie, 14 j)",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "52'"
+   "live_score": "2-2",
+   "minute": "84'"
   },
   {
    "league": "Liga Equateur",
@@ -2333,41 +2315,7 @@
    "contexte": "Leones : repos 7 j  ||  Guayaquil City FC : repos 6 j",
    "prio": 12,
    "live_score": "1-1",
-   "minute": "HT"
-  },
-  {
-   "league": "Liga Chili",
-   "home": "Everton CD",
-   "away": "Deportes Concepcion",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-07 | Buts attendus Everton CD 1.5 - Deportes Concepcion 1.1 | 1/N/2 : 45/26/29% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Everton CD : repos 6 j | prochains : Coquimbo Unido (Liga Chili, 14 j)  ||  Deportes Concepcion : repos 5 j",
-   "prio": 12,
-   "live_score": "0-2",
-   "minute": "90'+3'"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Libertad",
-   "away": "Nacional Asunción",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : Nul ou Nacional Asunción",
-   "score_exact": "0-1 (16%) · 0-0 (13%)",
-   "double_chance": "X2 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 66%",
-   "btts": "BTTS NON 60%",
-   "analyse": "2026-11-07 | Buts attendus Libertad 0.8 - Nacional Asunción 1.3 | 1/N/2 : 24/29/47% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Libertad : repos 3 j | prochains : Rubio Ñú (Primera Paraguay, 11 j)  ||  Nacional Asunción : repos 4 j | prochains : Cerro Porteño (Primera Paraguay, 11 j)",
-   "prio": 12
+   "minute": "66'"
   },
   {
    "league": "Liga MX",
@@ -2467,6 +2415,42 @@
   },
   {
    "league": "Liga Argentina",
+   "home": "Argentinos Juniors",
+   "away": "Huracán",
+   "status": "finished",
+   "conf": 84,
+   "victoire": "Serré : Nul ou Argentinos Juniors",
+   "score_exact": "0-0 (20%) · 1-0 (18%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Under 2.5 74%",
+   "btts": "BTTS NON 67%",
+   "analyse": "Resultat 0-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (7 confrontations) : Argentinos Juniors 2V · 4N · Huracán 1V (scores : 1-1 x2, 0-0 x2, 0-1)  ||  Argentinos Juniors : repos 5 j  ||  Huracán : repos 8 j",
+   "prio": 9,
+   "live_score": "0-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Boca Juniors",
+   "away": "Defensa y Justicia",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : Nul ou Boca Juniors",
+   "score_exact": "1-0 (12%) · 0-0 (9%)",
+   "double_chance": "1X 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 51%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : Boca Juniors 3V · 2N · Defensa y Justicia 1V (scores : 4-0 x2, 1-0, 0-0)  ||  Boca Juniors : repos 6 j | prochains : Atlético-MG (Copa Sudamericana, 14 j)  ||  Defensa y Justicia : repos 5 j",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Argentina",
    "home": "Rosario Central",
    "away": "Estudiantes de Río Cuarto",
    "status": "finished",
@@ -2517,6 +2501,24 @@
    "contexte": "FC Cajamarca : repos 5 j | prochains : Alianza Lima (Liga Perou, 7 j)  ||  Alianza Atlético : repos 7 j | prochains : Melgar (Liga Perou, 11 j)",
    "prio": 12,
    "live_score": "2-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Chili",
+   "home": "Everton CD",
+   "away": "Deportes Concepcion",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Everton CD : repos 6 j | prochains : Coquimbo Unido (Liga Chili, 14 j)  ||  Deportes Concepcion : repos 5 j",
+   "prio": 12,
+   "live_score": "0-2",
    "minute": "FT"
   },
   {
@@ -3129,60 +3131,6 @@
    "contexte": "Galatasaray : 1e/18 (25 pts en 10 m.) | repos 4 j | prochains : Samsunspor (Super Lig, 14 j)  ||  Amed SFK : 2e/18 (23 pts en 10 m.) | repos 6 j | prochains : Caykur Rizespor (Super Lig, 14 j)",
    "prio": 9,
    "live_score": "4-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Super Lig",
-   "home": "Goztepe",
-   "away": "Istanbul Basaksehir",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Goztepe",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 74%",
-   "btts": "BTTS OUI 70%",
-   "analyse": "Resultat 1-2 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (4 confrontations) : Goztepe 2V · 0N · Istanbul Basaksehir 2V (scores : 1-4, 4-1, 1-0)  ||  Goztepe : 9e/18 (15 pts en 10 m.) | repos 7 j  ||  Istanbul Basaksehir : 10e/18 (14 pts en 10 m.) | repos 6 j",
-   "prio": 9,
-   "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Austria Lustenau",
-   "away": "Grazer AK",
-   "status": "finished",
-   "conf": 60,
-   "victoire": "Victoire Austria Lustenau",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : Austria Lustenau 0V · 0N · Grazer AK 1V (scores : 1-2) - trop peu pour influer  ||  Austria Lustenau : 10e/12 (8 pts en 11 m.) | repos 6 j | prochains : WSG Swarovski Tirol (Bundesliga (AUT), 14 j)  ||  Grazer AK : 9e/12 (10 pts en 11 m.) | repos 8 j | prochains : Rapid Vienna (Bundesliga (AUT), 14 j)",
-   "prio": 9,
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "Fortuna Sittard",
-   "away": "Telstar",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : Fortuna Sittard 1V · 0N · Telstar 1V (scores : 3-1, 1-4) - trop peu pour influer  ||  Fortuna Sittard : 6e/18 (19 pts en 11 m.) | repos 7 j  ||  Telstar : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : PEC Zwolle (Eredivisie, 14 j)",
-   "prio": 9,
-   "live_score": "2-2",
    "minute": "FT"
   }
  ]
