@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07 11:07 UTC",
+ "date": "2026-11-07 11:40 UTC",
  "version": "V17",
  "stats": {
   "n": 779,
@@ -2111,7 +2111,7 @@
    "contexte": "Face-à-face (2 confrontations) : Eyupspor 0V · 0N · Kocaelispor 2V (scores : 0-1 x2) - trop peu pour influer  ||  Eyupspor : 18e/18 (3 pts en 10 m.) | repos 6 j  ||  Kocaelispor : 8e/18 (16 pts en 10 m.) | repos 7 j | prochains : Fenerbahce (Super Lig, 14 j)",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "36'"
+   "minute": "52'"
   },
   {
    "league": "A-League",
@@ -2128,8 +2128,8 @@
    "analyse": "2026-11-07 | Buts attendus Perth Glory FC 2.7 - Newcastle Jets 0.9 | 1/N/2 : 76/15/10% | base sur 3 et 3 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Perth Glory FC : repos 6 j | prochains : Central Coast Mariners FC (A-League, 14 j)  ||  Newcastle Jets : repos 4 j",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "21'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Premier League",
