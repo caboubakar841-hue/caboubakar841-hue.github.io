@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07 03:37 UTC",
+ "date": "2026-11-07 04:18 UTC",
  "version": "V17",
  "stats": {
   "n": 770,
@@ -2111,7 +2111,25 @@
    "contexte": "Atlante : repos 6 j | prochains : Tijuana (Liga MX, 14 j)  ||  Santos : repos 4 j | prochains : Coritiba (Brasileirao, 12 j), León (Liga MX, 15 j)",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "33'"
+   "minute": "54'"
+  },
+  {
+   "league": "J1 League",
+   "home": "Shimizu S-Pulse",
+   "away": "Tokyo Verdy 1969",
+   "status": "live",
+   "conf": 71,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (14%) · 0-1 (11%)",
+   "double_chance": "12 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-07 | Buts attendus Shimizu S-Pulse 1.2 - Tokyo Verdy 1969 1.0 | 1/N/2 : 40/29/31% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Shimizu S-Pulse : repos 7 j | prochains : Kashima Antlers (J1 League, 13 j)  ||  Tokyo Verdy 1969 : repos 6 j | prochains : Nagoya Grampus (J1 League, 14 j)",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "15'"
   },
   {
    "league": "Premier League",
@@ -2430,7 +2448,7 @@
    "over": "Under 2.5 64%",
    "btts": "BTTS NON 65%",
    "analyse": "2026-11-07 | Buts attendus Eyupspor 0.6 - Kocaelispor 1.6 | 1/N/2 : 14/25/61% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Eyupspor : 18e/18 (3 pts en 10 m.) | repos 6 j  ||  Kocaelispor : 8e/18 (16 pts en 10 m.) | repos 7 j | prochains : Fenerbahce (Super Lig, 14 j)",
+   "contexte": "Face-à-face (2 confrontations) : Eyupspor 0V · 0N · Kocaelispor 2V (scores : 0-1 x2) - trop peu pour influer  ||  Eyupspor : 18e/18 (3 pts en 10 m.) | repos 6 j  ||  Kocaelispor : 8e/18 (16 pts en 10 m.) | repos 7 j | prochains : Fenerbahce (Super Lig, 14 j)",
    "prio": 9
   },
   {
@@ -2566,15 +2584,15 @@
    "home": "Samsunspor",
    "away": "Konyaspor",
    "status": "today",
-   "conf": 72,
+   "conf": 71,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "1-0 (11%) · 0-1 (11%)",
-   "double_chance": "12 72%",
+   "double_chance": "12 71%",
    "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-07 | Buts attendus Samsunspor 1.2 - Konyaspor 1.1 | 1/N/2 : 38/28/34% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Samsunspor : 17e/18 (4 pts en 10 m.) | repos 6 j | prochains : Galatasaray (Super Lig, 14 j)  ||  Konyaspor : 15e/18 (8 pts en 10 m.) | repos 8 j",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 51%",
+   "analyse": "2026-11-07 | Buts attendus Samsunspor 1.2 - Konyaspor 1.1 | 1/N/2 : 37/29/34% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : Samsunspor 2V · 2N · Konyaspor 2V (scores : 1-1, 0-3, 0-1)  ||  Samsunspor : 17e/18 (4 pts en 10 m.) | repos 6 j | prochains : Galatasaray (Super Lig, 14 j)  ||  Konyaspor : 15e/18 (8 pts en 10 m.) | repos 8 j",
    "prio": 9
   },
   {
