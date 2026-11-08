@@ -1,26 +1,26 @@
 {
- "date": "2026-11-08 16:26 UTC",
+ "date": "2026-11-08 17:00 UTC",
  "version": "V17",
  "stats": {
-  "n": 781,
-  "n_avant": 201,
+  "n": 786,
+  "n_avant": 206,
   "dc": 78,
   "over": 53,
-  "btts": 53,
+  "btts": 54,
   "score": 15,
   "1x2": 63,
-  "n_fav": 349,
+  "n_fav": 353,
   "serre": 75,
-  "n_serre": 432,
+  "n_serre": 433,
   "base_dom": 49,
   "n_euro": 26,
   "dc_euro": 81,
-  "n_ctx": 75,
-  "brier_ctx": 0.58,
-  "brier_base": 0.567,
-  "n_h2h": 75,
-  "brier_h2h": 0.58,
-  "brier_noh2h": 0.567
+  "n_ctx": 79,
+  "brier_ctx": 0.568,
+  "brier_base": 0.554,
+  "n_h2h": 79,
+  "brier_h2h": 0.568,
+  "brier_noh2h": 0.554
  },
  "tickets": [
   {
@@ -2294,6 +2294,24 @@
  ],
  "matches": [
   {
+   "league": "Premier League",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "status": "live",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (10%) · 1-2 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-08 | Buts attendus Manchester United 1.4 - Aston Villa 1.3 | 1/N/2 : 47/22/31% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Manchester United 5V · 1N · Aston Villa 2V (scores : 1-3, 1-0, 3-2)  ||  Manchester United : 19e/20 (7 pts en 9 m.) | repos 5 j | prochains : Liverpool (Premier League, 14 j)  ||  Aston Villa : 11e/20 (12 pts en 9 m.) | repos 5 j | prochains : Sunderland (Premier League, 13 j)",
+   "prio": 3,
+   "live_score": "1-2",
+   "minute": "29'"
+  },
+  {
    "league": "La Liga",
    "home": "Real Sociedad",
    "away": "Rayo Vallecano",
@@ -2308,8 +2326,26 @@
    "analyse": "2026-11-08 | Buts attendus Real Sociedad 2.4 - Rayo Vallecano 1.6 | 1/N/2 : 48/28/24% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Real Sociedad 2V · 4N · Rayo Vallecano 2V (scores : 2-2 x2, 2-0, 2-1)  ||  Real Sociedad : 5e/20 (19 pts en 11 m.) | repos 3 j | prochains : Racing Santander (La Liga, 14 j)  ||  Rayo Vallecano : 14e/20 (12 pts en 10 m.) | repos 8 j | prochains : Valencia (La Liga, 13 j)",
    "prio": 3,
+   "live_score": "1-0",
+   "minute": "84'"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "SC Freiburg",
+   "away": "1. FC Union Berlin",
+   "status": "live",
+   "conf": 62,
+   "victoire": "Victoire SC Freiburg",
+   "score_exact": "3-1 (6%) · 2-1 (6%)",
+   "double_chance": "12 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 68%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "2026-11-08 | Buts attendus SC Freiburg 3.0 - 1. FC Union Berlin 0.8 | 1/N/2 : 62/19/19% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : SC Freiburg 1V · 3N · 1. FC Union Berlin 4V (scores : 0-0 x3, 1-2 x2, 4-1)  ||  SC Freiburg : 4e/18 (16 pts en 8 m.) | repos 3 j | prochains : SV Elversberg (Bundesliga, 13 j)  ||  1. FC Union Berlin : 16e/18 (7 pts en 8 m.) | repos 7 j | prochains : RB Leipzig (Bundesliga, 13 j)",
+   "prio": 3,
    "live_score": "0-0",
-   "minute": "51'"
+   "minute": "31'"
   },
   {
    "league": "Ligue 1",
@@ -2327,7 +2363,7 @@
    "contexte": "Face-à-face (6 confrontations) : Angers 2V · 1N · Nice 3V (scores : 1-0 x2, 1-1, 1-4)  ||  Angers : 15e/18 (8 pts en 9 m.) | repos 7 j | prochains : Paris FC (Ligue 1, 14 j)  ||  Nice : 8e/18 (14 pts en 9 m.) | repos 9 j | prochains : Paris Saint-Germain (Ligue 1, 13 j)",
    "prio": 3,
    "live_score": "0-1",
-   "minute": "12'"
+   "minute": "45'"
   },
   {
    "league": "Ligue 1",
@@ -2344,8 +2380,8 @@
    "analyse": "2026-11-08 | Buts attendus Brest 1.3 - Lyon 1.3 | 1/N/2 : 33/26/41% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Brest 2V · 2N · Lyon 4V (scores : 0-0 x2, 1-2 x2, 2-4)  ||  Brest : 11e/18 (12 pts en 9 m.) | repos 6 j | prochains : Strasbourg (Ligue 1, 13 j)  ||  Lyon : 4e/18 (17 pts en 9 m.) | repos 3 j | prochains : Lille (Ligue 1, 13 j)",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "11'"
+   "live_score": "1-0",
+   "minute": "45'"
   },
   {
    "league": "Ligue 1",
@@ -2362,8 +2398,8 @@
    "analyse": "2026-11-08 | Buts attendus Le Havre AC 1.0 - Lorient 1.2 | 1/N/2 : 35/32/32% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : Le Havre AC 2V · 2N · Lorient 0V (scores : 3-0, 3-3, 1-1)  ||  Le Havre AC : 18e/18 (2 pts en 9 m.) | repos 9 j | prochains : Troyes (Ligue 1, 12 j)  ||  Lorient : 12e/18 (12 pts en 9 m.) | repos 6 j | prochains : Stade Rennais (Ligue 1, 14 j)",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "0-1",
+   "minute": "45'"
   },
   {
    "league": "Ligue 1",
@@ -2380,8 +2416,8 @@
    "analyse": "2026-11-08 | Buts attendus Le Mans 1.2 - AS Monaco 1.5 | 1/N/2 : 30/25/45% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Le Mans : 17e/18 (7 pts en 9 m.) | repos 8 j | prochains : Marseille (Ligue 1, 14 j)  ||  AS Monaco : 7e/18 (15 pts en 9 m.) | repos 3 j | prochains : AJ Auxerre (Ligue 1, 13 j)",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "0-1",
+   "minute": "45'"
   },
   {
    "league": "La Liga 2",
@@ -2398,8 +2434,8 @@
    "analyse": "2026-11-08 | Buts attendus Girona 1.4 - Almería 1.2 | 1/N/2 : 41/27/33% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Girona : 8e/22 (21 pts en 12 m.) | repos 8 j | prochains : Real Oviedo (La Liga 2, 6 j), Eibar (La Liga 2, 14 j)  ||  Almería : 2e/22 (26 pts en 12 m.) | repos 8 j | prochains : FC Andorra (La Liga 2, 6 j)",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "54'"
+   "live_score": "0-1",
+   "minute": "88'"
   },
   {
    "league": "Serie B",
@@ -2416,8 +2452,8 @@
    "analyse": "2026-11-08 | Buts attendus Carrarese 1.4 - Sampdoria 1.0 | 1/N/2 : 46/27/28% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : Carrarese 2V · 1N · Sampdoria 1V (scores : 1-1, 1-0, 2-3)  ||  Carrarese : 16e/20 (10 pts en 10 m.) | repos 7 j | prochains : Virtus Entella (Serie B, 13 j)  ||  Sampdoria : 19e/20 (8 pts en 10 m.) | repos 8 j | prochains : Benevento (Serie B, 13 j)",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "0-1",
+   "minute": "42'"
   },
   {
    "league": "Eredivisie",
@@ -2434,8 +2470,8 @@
    "analyse": "2026-11-08 | Buts attendus AZ Alkmaar 1.9 - FC Groningen 1.7 | 1/N/2 : 49/20/31% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (6 confrontations) : AZ Alkmaar 4V · 1N · FC Groningen 1V (scores : 4-1 x2, 1-0, 0-0)  ||  AZ Alkmaar : 6e/18 (20 pts en 11 m.) | repos 3 j | prochains : Sparta Rotterdam (Eredivisie, 14 j)  ||  FC Groningen : 9e/18 (15 pts en 11 m.) | repos 7 j | prochains : Heerenveen (Eredivisie, 13 j)",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "41'"
+   "live_score": "1-3",
+   "minute": "58'"
   },
   {
    "league": "Eredivisie",
@@ -2452,8 +2488,8 @@
    "analyse": "2026-11-08 | Buts attendus SC Cambuur 1.4 - PSV Eindhoven 3.1 | 1/N/2 : 14/14/71% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (2 confrontations) : SC Cambuur 1V · 0N · PSV Eindhoven 1V (scores : 3-0, 2-5) - trop peu pour influer  ||  SC Cambuur : 10e/18 (15 pts en 11 m.) | repos 8 j | prochains : FC Utrecht (Eredivisie, 13 j)  ||  PSV Eindhoven : 3e/18 (23 pts en 11 m.) | repos 4 j | prochains : NEC Nijmegen (Eredivisie, 13 j)",
    "prio": 9,
-   "live_score": "0-3",
-   "minute": "29'"
+   "live_score": "1-3",
+   "minute": "47'"
   },
   {
    "league": "Liga Portugal",
@@ -2471,7 +2507,7 @@
    "contexte": "C.D. Nacional : 16e/18 (7 pts en 10 m.) | repos 7 j  ||  Académico de Viseu : 6e/18 (20 pts en 10 m.) | repos 7 j",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "71'"
   },
   {
    "league": "Liga Portugal",
@@ -2488,26 +2524,8 @@
    "analyse": "2026-11-08 | Buts attendus Santa Clara 0.9 - Gil Vicente 0.6 | 1/N/2 : 46/28/27% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (6 confrontations) : Santa Clara 4V · 0N · Gil Vicente 2V (scores : 0-1 x2, 1-0 x2, 3-2)  ||  Santa Clara : 4e/18 (21 pts en 10 m.) | repos 7 j  ||  Gil Vicente : 7e/18 (15 pts en 10 m.) | repos 6 j",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "HT"
-  },
-  {
-   "league": "Pro League",
-   "home": "KAA Gent",
-   "away": "KV Kortrijk",
-   "status": "live",
-   "conf": 85,
-   "victoire": "Victoire KAA Gent",
-   "score_exact": "3-0 (15%) · 4-0 (10%)",
-   "double_chance": "1X 93%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS NON 69%",
-   "analyse": "2026-11-08 | Buts attendus KAA Gent 2.7 - KV Kortrijk 0.4 | 1/N/2 : 85/8/7% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : KAA Gent 5V · 0N · KV Kortrijk 1V (scores : 4-0, 2-1, 3-2)  ||  KAA Gent : 4e/18 (25 pts en 10 m.) | repos 3 j | prochains : Waasland-Beveren (Pro League, 14 j)  ||  KV Kortrijk : 18e/18 (4 pts en 10 m.) | repos 4 j | prochains : Union St.-Gilloise (Pro League, 14 j)",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "68'"
+   "live_score": "1-1",
+   "minute": "70'"
   },
   {
    "league": "Super Lig",
@@ -2525,25 +2543,7 @@
    "contexte": "Face-à-face (8 confrontations) : Alanyaspor 3V · 2N · Trabzonspor 3V (scores : 1-1 x2, 5-0, 1-5)  ||  Alanyaspor : 13e/18 (12 pts en 10 m.) | repos 6 j | prochains : Kasimpasa (Super Lig, 14 j)  ||  Trabzonspor : 3e/18 (22 pts en 10 m.) | repos 3 j | prochains : Eyupspor (Super Lig, 14 j)",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "HT"
-  },
-  {
-   "league": "Scottish Premiership",
-   "home": "Heart of Midlothian",
-   "away": "Falkirk",
-   "status": "live",
-   "conf": 51,
-   "victoire": "Victoire Heart of Midlothian",
-   "score_exact": "2-1 (11%) · 3-1 (6%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 58%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-08 | Buts attendus Heart of Midlothian 1.6 - Falkirk 1.3 | 1/N/2 : 51/20/30% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Heart of Midlothian 4V · 0N · Falkirk 1V (scores : 3-0 x2, 2-0, 1-0)  ||  Heart of Midlothian : 3e/12 (20 pts en 11 m.) | repos 3 j | prochains : Dundee (Scottish Premiership, 13 j)  ||  Falkirk : 4e/12 (18 pts en 12 m.) | repos 7 j | prochains : St Johnstone (Scottish Premiership, 13 j)",
-   "prio": 9,
-   "live_score": "1-5",
-   "minute": "64'"
+   "minute": "70'"
   },
   {
    "league": "Scottish Premiership",
@@ -2561,43 +2561,7 @@
    "contexte": "Face-à-face (8 confrontations) : Celtic 8V · 0N · Kilmarnock 0V (scores : 4-0 x2, 5-1 x2, 5-0)  ||  Celtic : 1e/12 (28 pts en 12 m.) | repos 3 j | prochains : St Mirren (Scottish Premiership, 13 j)  ||  Kilmarnock : 12e/12 (9 pts en 12 m.) | repos 8 j | prochains : Aberdeen (Scottish Premiership, 13 j)",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "27'"
-  },
-  {
-   "league": "Super League (GRE)",
-   "home": "AEK Athens",
-   "away": "Levadiakos",
-   "status": "live",
-   "conf": 84,
-   "victoire": "Victoire AEK Athens",
-   "score_exact": "3-0 (15%) · 4-0 (9%)",
-   "double_chance": "1X 97%",
-   "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS NON 73%",
-   "analyse": "2026-11-08 | Buts attendus AEK Athens 2.5 - Levadiakos 0.3 | 1/N/2 : 84/13/3% | base sur 8 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : AEK Athens 5V · 1N · Levadiakos 0V (scores : 3-0 x2, 2-0, 1-1)  ||  AEK Athens : 5e/14 (17 pts en 8 m.) | repos 4 j | prochains : Kalamata (Super League (GRE), 13 j)  ||  Levadiakos : 11e/14 (6 pts en 9 m.) | repos 7 j | prochains : Atromitos (Super League (GRE), 14 j)",
-   "prio": 9,
-   "live_score": "2-1",
-   "minute": "67'"
-  },
-  {
-   "league": "Super League (GRE)",
-   "home": "Asteras Tripoli",
-   "away": "Kalamata",
-   "status": "live",
-   "conf": 51,
-   "victoire": "Victoire Asteras Tripoli",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-08 | Buts attendus Asteras Tripoli 1.9 - Kalamata 1.3 | 1/N/2 : 51/22/27% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Asteras Tripoli : 12e/14 (6 pts en 9 m.) | repos 7 j  ||  Kalamata : 8e/14 (11 pts en 9 m.) | repos 6 j | prochains : AEK Athens (Super League (GRE), 13 j)",
-   "prio": 9,
-   "live_score": "1-1",
-   "minute": "68'"
+   "minute": "HT"
   },
   {
    "league": "Super League (GRE)",
@@ -2614,8 +2578,26 @@
    "analyse": "2026-11-08 | Buts attendus Iraklis 0.9 - Panathinaikos 1.2 | 1/N/2 : 28/29/43% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Iraklis : 9e/14 (10 pts en 9 m.) | repos 6 j | prochains : Olympiacos (Super League (GRE), 14 j)  ||  Panathinaikos : 1e/14 (24 pts en 9 m.) | repos 3 j | prochains : OFI Crete (Super League (GRE), 14 j)",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "1-1",
+   "minute": "70'"
+  },
+  {
+   "league": "Super League (GRE)",
+   "home": "OFI Crete",
+   "away": "Atromitos",
+   "status": "live",
+   "conf": 83,
+   "victoire": "Serré : Nul ou OFI Crete",
+   "score_exact": "0-0 (10%) · 1-0 (10%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Under 2.5 54%",
+   "btts": "BTTS NON 50%",
+   "analyse": "2026-11-08 | Buts attendus OFI Crete 1.9 - Atromitos 0.8 | 1/N/2 : 50/33/17% | base sur 9 et 8 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : OFI Crete 1V · 5N · Atromitos 2V (scores : 0-0 x3, 1-1 x2, 1-2)  ||  OFI Crete : 6e/14 (16 pts en 9 m.) | repos 3 j | prochains : Panathinaikos (Super League (GRE), 14 j)  ||  Atromitos : 13e/14 (5 pts en 8 m.) | repos 6 j | prochains : Levadiakos (Super League (GRE), 14 j)",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "31'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2632,26 +2614,8 @@
    "analyse": "2026-11-08 | Buts attendus SK Sturm Graz 1.1 - RB Salzburg 1.5 | 1/N/2 : 31/29/39% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : SK Sturm Graz 3V · 3N · RB Salzburg 2V (scores : 1-1 x3, 1-3, 2-1)  ||  SK Sturm Graz : 5e/12 (19 pts en 11 m.) | repos 3 j | prochains : SC Rheindorf Altach (Bundesliga (AUT), 14 j)  ||  RB Salzburg : 2e/12 (27 pts en 11 m.) | repos 3 j | prochains : Austria Vienna (Bundesliga (AUT), 14 j)",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "26'"
-  },
-  {
-   "league": "Superliga (DEN)",
-   "home": "Randers FC",
-   "away": "FC Nordsjælland",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "2026-11-08 | Buts attendus Randers FC 1.1 - FC Nordsjælland 1.4 | 1/N/2 : 31/26/43% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Randers FC 3V · 2N · FC Nordsjælland 3V (scores : 1-1 x2, 0-1 x2, 4-0)  ||  Randers FC : 10e/12 (11 pts en 13 m.) | repos 9 j | prochains : Viborg FF (Superliga (DEN), 14 j)  ||  FC Nordsjælland : 5e/12 (20 pts en 13 m.) | repos 3 j | prochains : F.C. København (Superliga (DEN), 14 j)",
-   "prio": 9,
-   "live_score": "1-4",
-   "minute": "68'"
+   "live_score": "2-2",
+   "minute": "HT"
   },
   {
    "league": "Liga Equateur",
@@ -2668,8 +2632,26 @@
    "analyse": "2026-11-08 | Buts attendus Macará 1.5 - Universidad Católica (Quito) 1.0 | 1/N/2 : 50/26/24% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Macará : repos 8 j | prochains : Independiente del Valle (Liga Equateur, 14 j)  ||  Universidad Católica (Quito) : repos 7 j | prochains : Barcelona SC (Liga Equateur, 14 j)",
    "prio": 12,
+   "live_score": "0-1",
+   "minute": "45'+1'"
+  },
+  {
+   "league": "Liga Equateur",
+   "home": "Deportivo Cuenca",
+   "away": "Orense",
+   "status": "live",
+   "conf": 71,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (11%)",
+   "double_chance": "12 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 62%",
+   "btts": "BTTS NON 56%",
+   "analyse": "2026-11-08 | Buts attendus Deportivo Cuenca 1.2 - Orense 1.0 | 1/N/2 : 39/29/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Deportivo Cuenca : repos 8 j | prochains : Técnico Universitario (Liga Equateur, 14 j)  ||  Orense : repos 6 j | prochains : Mushuc Runa (Liga Equateur, 14 j)",
+   "prio": 12,
    "live_score": "0-0",
-   "minute": "12'"
+   "minute": "30'"
   },
   {
    "league": "Liga Chili",
@@ -2686,8 +2668,8 @@
    "analyse": "2026-11-08 | Buts attendus Audax Italiano 1.4 - Coquimbo Unido 1.1 | 1/N/2 : 44/27/30% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Audax Italiano : repos 6 j | prochains : Cobresal (Liga Chili, 12 j)  ||  Coquimbo Unido : repos 9 j | prochains : Everton CD (Liga Chili, 13 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "0-1",
+   "minute": "69'"
   },
   {
    "league": "Liga Chili",
@@ -2705,39 +2687,7 @@
    "contexte": "Universidad Católica : repos 7 j | prochains : Colo Colo (Liga Chili, 14 j)  ||  Deportes Limache : repos 6 j | prochains : La Serena (Liga Chili, 14 j)",
    "prio": 12,
    "live_score": "3-0",
-   "minute": "HT"
-  },
-  {
-   "league": "Premier League",
-   "home": "Manchester United",
-   "away": "Aston Villa",
-   "status": "today",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (10%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-11-08 | Buts attendus Manchester United 1.4 - Aston Villa 1.3 | 1/N/2 : 47/22/31% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Manchester United 5V · 1N · Aston Villa 2V (scores : 1-3, 1-0, 3-2)  ||  Manchester United : 19e/20 (7 pts en 9 m.) | repos 5 j | prochains : Liverpool (Premier League, 14 j)  ||  Aston Villa : 11e/20 (12 pts en 9 m.) | repos 5 j | prochains : Sunderland (Premier League, 13 j)",
-   "prio": 3
-  },
-  {
-   "league": "Bundesliga",
-   "home": "SC Freiburg",
-   "away": "1. FC Union Berlin",
-   "status": "today",
-   "conf": 62,
-   "victoire": "Victoire SC Freiburg",
-   "score_exact": "3-1 (6%) · 2-1 (6%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 68%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "2026-11-08 | Buts attendus SC Freiburg 3.0 - 1. FC Union Berlin 0.8 | 1/N/2 : 62/19/19% | base sur 8 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : SC Freiburg 1V · 3N · 1. FC Union Berlin 4V (scores : 0-0 x3, 1-2 x2, 4-1)  ||  SC Freiburg : 4e/18 (16 pts en 8 m.) | repos 3 j | prochains : SV Elversberg (Bundesliga, 13 j)  ||  1. FC Union Berlin : 16e/18 (7 pts en 8 m.) | repos 7 j | prochains : RB Leipzig (Bundesliga, 13 j)",
-   "prio": 3
+   "minute": "69'"
   },
   {
    "league": "Serie A",
@@ -2852,22 +2802,6 @@
    "prio": 3
   },
   {
-   "league": "Super League (GRE)",
-   "home": "OFI Crete",
-   "away": "Atromitos",
-   "status": "today",
-   "conf": 83,
-   "victoire": "Serré : Nul ou OFI Crete",
-   "score_exact": "0-0 (10%) · 1-0 (10%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS NON 50%",
-   "analyse": "2026-11-08 | Buts attendus OFI Crete 1.9 - Atromitos 0.8 | 1/N/2 : 50/33/17% | base sur 9 et 8 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : OFI Crete 1V · 5N · Atromitos 2V (scores : 0-0 x3, 1-1 x2, 1-2)  ||  OFI Crete : 6e/14 (16 pts en 9 m.) | repos 3 j | prochains : Panathinaikos (Super League (GRE), 14 j)  ||  Atromitos : 13e/14 (5 pts en 8 m.) | repos 6 j | prochains : Levadiakos (Super League (GRE), 14 j)",
-   "prio": 9
-  },
-  {
    "league": "Superliga (DEN)",
    "home": "FC Midtjylland",
    "away": "Sønderjyske Fodbold",
@@ -2928,7 +2862,7 @@
    "over": "Over 2.5 69%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-11-08 | Buts attendus Union St.-Gilloise 2.6 - Racing Genk 0.9 | 1/N/2 : 74/11/15% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Union St.-Gilloise 6V · 0N · Racing Genk 2V (scores : 2-1 x3, 0-1, 2-0)  ||  Union St.-Gilloise : 3e/18 (26 pts en 10 m.) | repos 3 j | prochains : KV Kortrijk (Pro League, 14 j)  ||  Racing Genk : 7e/18 (15 pts en 10 m.) | repos 8 j | prochains : RAAL La Louvière (Pro League, 13 j)",
+   "contexte": "Face-à-face (8 confrontations) : Union St.-Gilloise 6V · 0N · Racing Genk 2V (scores : 2-1 x3, 0-1, 2-0)  ||  Union St.-Gilloise : 4e/18 (26 pts en 10 m.) | repos 3 j | prochains : KV Kortrijk (Pro League, 14 j)  ||  Racing Genk : 7e/18 (15 pts en 10 m.) | repos 8 j | prochains : RAAL La Louvière (Pro League, 13 j)",
    "prio": 9
   },
   {
@@ -3024,7 +2958,7 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS NON 53%",
    "analyse": "2026-11-08 | Buts attendus Olympiacos 2.0 - PAOK 0.7 | 1/N/2 : 59/21/20% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Olympiacos 3V · 2N · PAOK 3V (scores : 1-2 x2, 3-2, 2-1)  ||  Olympiacos : 2e/14 (22 pts en 9 m.) | repos 4 j | prochains : Iraklis (Super League (GRE), 14 j)  ||  PAOK : 4e/14 (18 pts en 9 m.) | repos 7 j | prochains : Kifisia (Super League (GRE), 14 j)",
+   "contexte": "Face-à-face (8 confrontations) : Olympiacos 3V · 2N · PAOK 3V (scores : 1-2 x2, 3-2, 2-1)  ||  Olympiacos : 2e/14 (22 pts en 9 m.) | repos 4 j | prochains : Iraklis (Super League (GRE), 14 j)  ||  PAOK : 5e/14 (18 pts en 9 m.) | repos 7 j | prochains : Kifisia (Super League (GRE), 14 j)",
    "prio": 9
   },
   {
@@ -3074,22 +3008,6 @@
    "analyse": "2026-11-08 | Buts attendus Central Córdoba (Santiago del Estero) 0.7 - Lanús 1.5 | 1/N/2 : 15/38/47% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (4 confrontations) : Central Córdoba (Santiago del Estero) 0V · 4N · Lanús 0V (scores : 1-1 x2, 2-2, 0-0)  ||  Central Córdoba (Santiago del Estero) : repos 6 j  ||  Lanús : repos 7 j",
    "prio": 9
-  },
-  {
-   "league": "Liga Equateur",
-   "home": "Deportivo Cuenca",
-   "away": "Orense",
-   "status": "today",
-   "conf": 71,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (11%)",
-   "double_chance": "12 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 62%",
-   "btts": "BTTS NON 56%",
-   "analyse": "2026-11-08 | Buts attendus Deportivo Cuenca 1.2 - Orense 1.0 | 1/N/2 : 39/29/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Deportivo Cuenca : repos 8 j | prochains : Técnico Universitario (Liga Equateur, 14 j)  ||  Orense : repos 6 j | prochains : Mushuc Runa (Liga Equateur, 14 j)",
-   "prio": 12
   },
   {
    "league": "Liga Perou",
@@ -3349,6 +3267,70 @@
   },
   {
    "league": "Liga Colombia",
+   "home": "Millonarios",
+   "away": "Alianza FC",
+   "status": "today",
+   "conf": 71,
+   "victoire": "Victoire Millonarios",
+   "score_exact": "3-0 (10%) · 4-0 (5%)",
+   "double_chance": "1X 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 52%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-08 | Buts attendus Millonarios 2.1 - Alianza FC 0.7 | 1/N/2 : 71/19/11% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Millonarios : repos 4 j | prochains : Deportes Tolima (Liga Colombia, 0 j)  ||  Alianza FC : repos 7 j | prochains : Llaneros FC (Liga Colombia, 0 j)",
+   "prio": 12
+  },
+  {
+   "league": "Liga Perou",
+   "home": "Sport Boys",
+   "away": "UTC",
+   "status": "today",
+   "conf": 72,
+   "victoire": "Victoire Sport Boys",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-11-08 | Buts attendus Sport Boys 2.4 - UTC 0.8 | 1/N/2 : 72/17/11% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Sport Boys : repos 4 j | prochains : Comerciantes Unidos (Liga Perou, 7 j)  ||  UTC : repos 6 j | prochains : Los Chankas (Liga Perou, 5 j)",
+   "prio": 12
+  },
+  {
+   "league": "Liga Chili",
+   "home": "Unión La Calera",
+   "away": "Huachipato",
+   "status": "today",
+   "conf": 73,
+   "victoire": "Serré : Nul ou Unión La Calera",
+   "score_exact": "1-0 (16%) · 0-0 (13%)",
+   "double_chance": "1X 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 67%",
+   "btts": "BTTS NON 61%",
+   "analyse": "2026-11-08 | Buts attendus Unión La Calera 1.2 - Huachipato 0.9 | 1/N/2 : 43/30/27% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Unión La Calera : repos 9 j | prochains : Palestino (Liga Chili, 12 j)  ||  Huachipato : repos 7 j | prochains : Deportes Concepcion (Liga Chili, 14 j)",
+   "prio": 12
+  },
+  {
+   "league": "Liga Venezuela",
+   "home": "Portuguesa",
+   "away": "Metropolitanos",
+   "status": "today",
+   "conf": 51,
+   "victoire": "Victoire Metropolitanos",
+   "score_exact": "0-1 (14%) · 0-2 (10%)",
+   "double_chance": "X2 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-08 | Buts attendus Portuguesa 0.9 - Metropolitanos 1.5 | 1/N/2 : 23/26/51% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Portuguesa : repos 4 j | prochains : Carabobo (Liga Venezuela, 14 j)  ||  Metropolitanos : repos 4 j | prochains : Deportivo La Guaira (Liga Venezuela, 14 j)",
+   "prio": 12
+  },
+  {
+   "league": "Liga Colombia",
    "home": "América de Cali",
    "away": "Deportivo Cali",
    "status": "finished",
@@ -3363,6 +3345,96 @@
    "contexte": "América de Cali : repos 4 j  ||  Deportivo Cali : repos 7 j",
    "prio": 12,
    "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Pro League",
+   "home": "KAA Gent",
+   "away": "KV Kortrijk",
+   "status": "finished",
+   "conf": 85,
+   "victoire": "Victoire KAA Gent",
+   "score_exact": "3-0 (15%) · 4-0 (10%)",
+   "double_chance": "1X 93%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS NON 69%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : KAA Gent 5V · 0N · KV Kortrijk 1V (scores : 4-0, 2-1, 3-2)  ||  KAA Gent : 4e/18 (25 pts en 10 m.) | repos 3 j | prochains : Waasland-Beveren (Pro League, 14 j)  ||  KV Kortrijk : 18e/18 (4 pts en 10 m.) | repos 4 j | prochains : Union St.-Gilloise (Pro League, 14 j)",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Scottish Premiership",
+   "home": "Heart of Midlothian",
+   "away": "Falkirk",
+   "status": "finished",
+   "conf": 51,
+   "victoire": "Victoire Heart of Midlothian",
+   "score_exact": "2-1 (11%) · 3-1 (6%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 2-5 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (5 confrontations) : Heart of Midlothian 4V · 0N · Falkirk 1V (scores : 3-0 x2, 2-0, 1-0)  ||  Heart of Midlothian : 3e/12 (20 pts en 11 m.) | repos 3 j | prochains : Dundee (Scottish Premiership, 13 j)  ||  Falkirk : 4e/12 (18 pts en 12 m.) | repos 7 j | prochains : St Johnstone (Scottish Premiership, 13 j)",
+   "prio": 9,
+   "live_score": "2-5",
+   "minute": "FT"
+  },
+  {
+   "league": "Super League (GRE)",
+   "home": "AEK Athens",
+   "away": "Levadiakos",
+   "status": "finished",
+   "conf": 84,
+   "victoire": "Victoire AEK Athens",
+   "score_exact": "3-0 (15%) · 4-0 (9%)",
+   "double_chance": "1X 97%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS NON 73%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : AEK Athens 5V · 1N · Levadiakos 0V (scores : 3-0 x2, 2-0, 1-1)  ||  AEK Athens : 5e/14 (17 pts en 8 m.) | repos 4 j | prochains : Kalamata (Super League (GRE), 13 j)  ||  Levadiakos : 11e/14 (6 pts en 9 m.) | repos 7 j | prochains : Atromitos (Super League (GRE), 14 j)",
+   "prio": 9,
+   "live_score": "2-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Super League (GRE)",
+   "home": "Asteras Tripoli",
+   "away": "Kalamata",
+   "status": "finished",
+   "conf": 51,
+   "victoire": "Victoire Asteras Tripoli",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Asteras Tripoli : 12e/14 (6 pts en 9 m.) | repos 7 j  ||  Kalamata : 8e/14 (11 pts en 9 m.) | repos 6 j | prochains : AEK Athens (Super League (GRE), 13 j)",
+   "prio": 9,
+   "live_score": "1-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Superliga (DEN)",
+   "home": "Randers FC",
+   "away": "FC Nordsjælland",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 54%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "Resultat 1-6 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Randers FC 3V · 2N · FC Nordsjælland 3V (scores : 1-1 x2, 0-1 x2, 4-0)  ||  Randers FC : 10e/12 (11 pts en 13 m.) | repos 9 j | prochains : Viborg FF (Superliga (DEN), 14 j)  ||  FC Nordsjælland : 5e/12 (20 pts en 13 m.) | repos 3 j | prochains : F.C. København (Superliga (DEN), 14 j)",
+   "prio": 9,
+   "live_score": "1-6",
    "minute": "FT"
   },
   {
@@ -3975,96 +4047,6 @@
    "contexte": "Tigres UANL : repos 7 j | prochains : América (Liga MX, 14 j)  ||  Cruz Azul : repos 6 j",
    "prio": 12,
    "live_score": "2-3",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "Austin FC",
-   "away": "Portland Timbers",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Austin FC 2V · 2N · Portland Timbers 4V (scores : 1-2 x2, 2-2, 0-2)  ||  Austin FC : repos 7 j  ||  Portland Timbers : repos 6 j",
-   "prio": 9,
-   "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "FC Dallas",
-   "away": "Colorado Rapids",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : FC Dallas 2V · 2N · Colorado Rapids 4V (scores : 1-2 x2, 0-1, 1-1)  ||  FC Dallas : repos 7 j  ||  Colorado Rapids : repos 7 j",
-   "prio": 9,
-   "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "Houston Dynamo FC",
-   "away": "St. Louis CITY SC",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (7 confrontations) : Houston Dynamo FC 2V · 2N · St. Louis CITY SC 3V (scores : 0-3 x2, 1-1, 0-0)  ||  Houston Dynamo FC : repos 6 j  ||  St. Louis CITY SC : repos 7 j",
-   "prio": 9,
-   "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "Minnesota United FC",
-   "away": "San Jose Earthquakes",
-   "status": "finished",
-   "conf": 58,
-   "victoire": "Victoire Minnesota United FC",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 70%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Minnesota United FC 5V · 2N · San Jose Earthquakes 1V (scores : 1-1 x2, 0-2, 2-0)  ||  Minnesota United FC : repos 6 j  ||  San Jose Earthquakes : repos 7 j",
-   "prio": 9,
-   "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "MLS",
-   "home": "Real Salt Lake",
-   "away": "LA Galaxy",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Over 2.5 59%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Real Salt Lake 1V · 3N · LA Galaxy 4V (scores : 2-2 x2, 1-1, 2-3)  ||  Real Salt Lake : repos 7 j  ||  LA Galaxy : repos 7 j",
-   "prio": 9,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
