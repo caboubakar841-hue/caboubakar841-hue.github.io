@@ -1,26 +1,26 @@
 {
- "date": "2026-11-08 21:13 UTC",
+ "date": "2026-11-08 21:46 UTC",
  "version": "V17",
  "stats": {
-  "n": 827,
-  "n_avant": 247,
+  "n": 829,
+  "n_avant": 249,
   "dc": 78,
   "over": 53,
-  "btts": 53,
-  "score": 15,
+  "btts": 54,
+  "score": 16,
   "1x2": 63,
   "n_fav": 371,
   "serre": 75,
-  "n_serre": 456,
+  "n_serre": 458,
   "base_dom": 48,
   "n_euro": 26,
   "dc_euro": 81,
-  "n_ctx": 101,
-  "brier_ctx": 0.561,
-  "brier_base": 0.549,
-  "n_h2h": 101,
-  "brier_h2h": 0.561,
-  "brier_noh2h": 0.549
+  "n_ctx": 103,
+  "brier_ctx": 0.564,
+  "brier_base": 0.554,
+  "n_h2h": 103,
+  "brier_h2h": 0.564,
+  "brier_noh2h": 0.554
  },
  "tickets": [
   {
@@ -75,8 +75,8 @@
        "pick": "Double chance 12 (pas de nul)",
        "code": "12",
        "p": 72,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "2-2"
       },
       {
        "id": "401876410",
@@ -119,8 +119,8 @@
        "pick": "Over 2.5 buts",
        "code": "O25",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401884742",
@@ -2308,44 +2308,8 @@
    "analyse": "2026-11-08 | Buts attendus Atlético Madrid 1.8 - Barcelona 1.9 | 1/N/2 : 30/16/55% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Atlético Madrid 1V · 0N · Barcelona 7V (scores : 0-1 x3, 0-3, 2-1)  ||  Atlético Madrid : 3e/20 (28 pts en 11 m.) | repos 5 j | prochains : Getafe (La Liga, 14 j)  ||  Barcelona : 1e/20 (30 pts en 11 m.) | repos 5 j | prochains : Villarreal (La Liga, 14 j)",
    "prio": 3,
-   "live_score": "1-1",
-   "minute": "52'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Fiorentina",
-   "away": "Juventus",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : Nul ou Juventus",
-   "score_exact": "1-2 (9%) · 2-2 (7%)",
-   "double_chance": "X2 73%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-08 | Buts attendus Fiorentina 1.2 - Juventus 1.7 | 1/N/2 : 27/28/45% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Fiorentina 2V · 3N · Juventus 3V (scores : 0-1 x3, 1-1 x2, 2-2)  ||  Fiorentina : 15e/20 (8 pts en 10 m.) | repos 6 j  ||  Juventus : 7e/20 (17 pts en 10 m.) | repos 3 j | prochains : Venezia (Serie A, 14 j)",
-   "prio": 3,
-   "live_score": "2-1",
-   "minute": "63'"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Lens",
-   "away": "Marseille",
-   "status": "live",
-   "conf": 85,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "2026-11-08 | Buts attendus Lens 2.0 - Marseille 1.7 | 1/N/2 : 50/15/35% | base sur 9 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Lens 5V · 0N · Marseille 3V (scores : 1-0 x3, 2-1 x2, 1-3 x2)  ||  Lens : 11e/18 (13 pts en 9 m.) | repos 4 j | prochains : Toulouse (Ligue 1, 13 j)  ||  Marseille : 8e/18 (15 pts en 9 m.) | repos 3 j | prochains : Le Mans (Ligue 1, 14 j)",
-   "prio": 3,
-   "live_score": "1-1",
-   "minute": "69'"
+   "live_score": "1-2",
+   "minute": "85'"
   },
   {
    "league": "Liga Portugal",
@@ -2362,8 +2326,8 @@
    "analyse": "2026-11-08 | Buts attendus Estrela 1.0 - Benfica 3.2 | 1/N/2 : 7/9/84% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (6 confrontations) : Estrela 0V · 0N · Benfica 6V (scores : 0-1 x2, 0-2, 1-4)  ||  Estrela : 12e/18 (10 pts en 10 m.) | repos 8 j  ||  Benfica : 2e/18 (25 pts en 10 m.) | repos 3 j",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "42'"
+   "live_score": "1-1",
+   "minute": "56'"
   },
   {
    "league": "Liga Portugal",
@@ -2381,7 +2345,7 @@
    "contexte": "Face-à-face (8 confrontations) : Rio Ave 1V · 2N · Braga 5V (scores : 2-3, 0-2, 1-2)  ||  Rio Ave : 17e/18 (7 pts en 10 m.) | repos 7 j  ||  Braga : 8e/18 (14 pts en 10 m.) | repos 3 j",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "41'"
+   "minute": "57'"
   },
   {
    "league": "Primera Paraguay",
@@ -2398,8 +2362,8 @@
    "analyse": "2026-11-08 | Buts attendus Cerro Porteño 1.8 - Deportivo Recoleta 1.0 | 1/N/2 : 55/23/21% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Cerro Porteño : repos 4 j | prochains : Nacional Asunción (Primera Paraguay, 10 j)  ||  Deportivo Recoleta : repos 4 j | prochains : Guaraní (Primera Paraguay, 10 j)",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "53'"
+   "live_score": "1-1",
+   "minute": "87'"
   },
   {
    "league": "Liga Colombia",
@@ -2416,8 +2380,26 @@
    "analyse": "2026-11-08 | Buts attendus Jaguares de Córdoba 1.1 - Atlético Bucaramanga 1.8 | 1/N/2 : 24/24/52% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Jaguares de Córdoba : repos 5 j  ||  Atlético Bucaramanga : repos 6 j",
    "prio": 12,
+   "live_score": "0-2",
+   "minute": "41'"
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "Bolívar",
+   "away": "The Strongest",
+   "status": "live",
+   "conf": 67,
+   "victoire": "Victoire Bolívar",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "2026-11-08 | Buts attendus Bolívar 2.7 - The Strongest 1.3 | 1/N/2 : 67/17/16% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Bolívar : repos 7 j | prochains : Real Potosí (Liga Bolivie, 14 j)  ||  The Strongest : repos 7 j | prochains : Blooming (Liga Bolivie, 14 j)",
+   "prio": 12,
    "live_score": "0-0",
-   "minute": "8'"
+   "minute": "30'"
   },
   {
    "league": "Liga Perou",
@@ -2435,7 +2417,25 @@
    "contexte": "Sport Boys : repos 4 j | prochains : Comerciantes Unidos (Liga Perou, 7 j)  ||  UTC : repos 6 j | prochains : Los Chankas (Liga Perou, 5 j)",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "36'"
+   "minute": "49'"
+  },
+  {
+   "league": "Liga Equateur",
+   "home": "Barcelona SC",
+   "away": "Liga de Quito",
+   "status": "live",
+   "conf": 70,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (14%) · 0-1 (12%)",
+   "double_chance": "12 70%",
+   "corner": "N/D",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-08 | Buts attendus Barcelona SC 1.2 - Liga de Quito 1.0 | 1/N/2 : 40/30/30% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Barcelona SC : repos 8 j | prochains : Universidad Católica (Quito) (Liga Equateur, 14 j)  ||  Liga de Quito : repos 7 j | prochains : Aucas (Liga Equateur, 14 j)",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "15'"
   },
   {
    "league": "Liga Venezuela",
@@ -2452,8 +2452,26 @@
    "analyse": "2026-11-08 | Buts attendus Portuguesa 0.9 - Metropolitanos 1.5 | 1/N/2 : 23/26/51% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Portuguesa : repos 4 j | prochains : Carabobo (Liga Venezuela, 14 j)  ||  Metropolitanos : repos 4 j | prochains : Deportivo La Guaira (Liga Venezuela, 14 j)",
    "prio": 12,
-   "live_score": "0-1",
-   "minute": "13'"
+   "live_score": "1-1",
+   "minute": "45'+1'"
+  },
+  {
+   "league": "Liga Venezuela",
+   "home": "Deportivo La Guaira",
+   "away": "Carabobo",
+   "status": "live",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-08 | Buts attendus Deportivo La Guaira 1.2 - Carabobo 1.4 | 1/N/2 : 31/26/43% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Deportivo La Guaira : repos 4 j | prochains : Metropolitanos (Liga Venezuela, 14 j)  ||  Carabobo : repos 4 j | prochains : Portuguesa (Liga Venezuela, 14 j)",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "14'"
   },
   {
    "league": "Liga Chili",
@@ -2470,8 +2488,8 @@
    "analyse": "2026-11-08 | Buts attendus Unión La Calera 1.2 - Huachipato 0.9 | 1/N/2 : 43/30/27% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Unión La Calera : repos 9 j | prochains : Palestino (Liga Chili, 12 j)  ||  Huachipato : repos 7 j | prochains : Deportes Concepcion (Liga Chili, 14 j)",
    "prio": 12,
-   "live_score": "2-0",
-   "minute": "40'"
+   "live_score": "1-0",
+   "minute": "52'"
   },
   {
    "league": "Liga Argentina",
@@ -2650,54 +2668,6 @@
    "prio": 12
   },
   {
-   "league": "Liga Bolivie",
-   "home": "Bolívar",
-   "away": "The Strongest",
-   "status": "today",
-   "conf": 67,
-   "victoire": "Victoire Bolívar",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-08 | Buts attendus Bolívar 2.7 - The Strongest 1.3 | 1/N/2 : 67/17/16% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Bolívar : repos 7 j | prochains : Real Potosí (Liga Bolivie, 14 j)  ||  The Strongest : repos 7 j | prochains : Blooming (Liga Bolivie, 14 j)",
-   "prio": 12
-  },
-  {
-   "league": "Liga Equateur",
-   "home": "Barcelona SC",
-   "away": "Liga de Quito",
-   "status": "today",
-   "conf": 70,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (14%) · 0-1 (12%)",
-   "double_chance": "12 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-08 | Buts attendus Barcelona SC 1.2 - Liga de Quito 1.0 | 1/N/2 : 40/30/30% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Barcelona SC : repos 8 j | prochains : Universidad Católica (Quito) (Liga Equateur, 14 j)  ||  Liga de Quito : repos 7 j | prochains : Aucas (Liga Equateur, 14 j)",
-   "prio": 12
-  },
-  {
-   "league": "Liga Venezuela",
-   "home": "Deportivo La Guaira",
-   "away": "Carabobo",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-11-08 | Buts attendus Deportivo La Guaira 1.2 - Carabobo 1.4 | 1/N/2 : 31/26/43% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Deportivo La Guaira : repos 4 j | prochains : Metropolitanos (Liga Venezuela, 14 j)  ||  Carabobo : repos 4 j | prochains : Portuguesa (Liga Venezuela, 14 j)",
-   "prio": 12
-  },
-  {
    "league": "Primera Paraguay",
    "home": "Sportivo Trinidense",
    "away": "Sportivo Ameliano",
@@ -2793,6 +2763,42 @@
    "contexte": "América de Cali : repos 4 j  ||  Deportivo Cali : repos 7 j",
    "prio": 12,
    "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Serie A",
+   "home": "Fiorentina",
+   "away": "Juventus",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : Nul ou Juventus",
+   "score_exact": "1-2 (9%) · 2-2 (7%)",
+   "double_chance": "X2 73%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 2-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Fiorentina 2V · 3N · Juventus 3V (scores : 0-1 x3, 1-1 x2, 2-2)  ||  Fiorentina : 15e/20 (8 pts en 10 m.) | repos 6 j  ||  Juventus : 7e/20 (17 pts en 10 m.) | repos 3 j | prochains : Venezia (Serie A, 14 j)",
+   "prio": 3,
+   "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Lens",
+   "away": "Marseille",
+   "status": "finished",
+   "conf": 85,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 72%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Lens 5V · 0N · Marseille 3V (scores : 1-0 x3, 2-1 x2, 1-3 x2)  ||  Lens : 11e/18 (13 pts en 9 m.) | repos 4 j | prochains : Toulouse (Ligue 1, 13 j)  ||  Marseille : 8e/18 (15 pts en 9 m.) | repos 3 j | prochains : Le Mans (Ligue 1, 14 j)",
+   "prio": 3,
+   "live_score": "1-2",
    "minute": "FT"
   },
   {
@@ -3459,42 +3465,6 @@
    "contexte": "Iraklis : 9e/14 (10 pts en 9 m.) | repos 6 j | prochains : Olympiacos (Super League (GRE), 14 j)  ||  Panathinaikos : 1e/14 (24 pts en 9 m.) | repos 3 j | prochains : OFI Crete (Super League (GRE), 14 j)",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Chili",
-   "home": "Audax Italiano",
-   "away": "Coquimbo Unido",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (12%) · 0-1 (9%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS NON 50%",
-   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Audax Italiano : repos 6 j | prochains : Cobresal (Liga Chili, 12 j)  ||  Coquimbo Unido : repos 9 j | prochains : Everton CD (Liga Chili, 13 j)",
-   "prio": 12,
-   "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "C.D. Nacional",
-   "away": "Académico de Viseu",
-   "status": "finished",
-   "conf": 61,
-   "victoire": "Victoire Académico de Viseu",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "Resultat 1-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "C.D. Nacional : 16e/18 (7 pts en 10 m.) | repos 7 j  ||  Académico de Viseu : 6e/18 (20 pts en 10 m.) | repos 7 j",
-   "prio": 9,
-   "live_score": "1-0",
    "minute": "FT"
   }
  ]
