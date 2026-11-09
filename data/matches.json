@@ -1,9 +1,9 @@
 {
- "date": "2026-11-09 02:36 UTC",
+ "date": "2026-11-09 03:23 UTC",
  "version": "V17",
  "stats": {
-  "n": 742,
-  "n_avant": 267,
+  "n": 743,
+  "n_avant": 268,
   "dc": 78,
   "over": 52,
   "btts": 53,
@@ -11,7 +11,7 @@
   "1x2": 62,
   "n_fav": 331,
   "serre": 76,
-  "n_serre": 411,
+  "n_serre": 412,
   "base_dom": 47,
   "n_euro": 26,
   "dc_euro": 81,
@@ -42,8 +42,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401888648",
@@ -2446,25 +2446,7 @@
    "contexte": "León : repos 7 j | prochains : Santos (Liga MX, 13 j)  ||  Guadalajara : repos 8 j | prochains : Cruz Azul (Liga MX, 14 j)",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "26'"
-  },
-  {
-   "league": "Liga Colombia",
-   "home": "Alianza FC",
-   "away": "Llaneros FC",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-09 | Buts attendus Alianza FC 1.3 - Llaneros FC 1.4 | 1/N/2 : 36/26/38% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Alianza FC : repos 7 j  ||  Llaneros FC : repos 8 j",
-   "prio": 12,
-   "live_score": "1-2",
-   "minute": "63'"
+   "minute": "50'"
   },
   {
    "league": "Liga Perou",
@@ -2481,8 +2463,8 @@
    "analyse": "2026-11-09 | Buts attendus Universitario 2.5 - Deportivo Moquegua 0.6 | 1/N/2 : 78/15/7% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Universitario : repos 4 j | prochains : Sport Huancayo (Liga Perou, 14 j)  ||  Deportivo Moquegua : repos 7 j | prochains : Atlético Grau (Liga Perou, 8 j)",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "48'"
+   "live_score": "2-2",
+   "minute": "90'+6'"
   },
   {
    "league": "La Liga 2",
@@ -2596,6 +2578,24 @@
    "contexte": "América de Cali : repos 4 j  ||  Deportivo Cali : repos 7 j",
    "prio": 12,
    "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Alianza FC",
+   "away": "Llaneros FC",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Alianza FC : repos 7 j  ||  Llaneros FC : repos 8 j",
+   "prio": 12,
+   "live_score": "1-2",
    "minute": "FT"
   },
   {
@@ -3280,24 +3280,6 @@
    "contexte": "Face-à-face (4 confrontations) : Internazionale 4V · 0N · Como 0V (scores : 2-0 x2, 4-0, 4-3)  ||  Internazionale : 3e/20 (25 pts en 10 m.) | repos 5 j | prochains : Atalanta (Serie A, 14 j)  ||  Como : 5e/20 (23 pts en 10 m.) | repos 4 j | prochains : Cagliari (Serie A, 13 j)",
    "prio": 3,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Superliga (DEN)",
-   "home": "FC Midtjylland",
-   "away": "Sønderjyske Fodbold",
-   "status": "finished",
-   "conf": 69,
-   "victoire": "Victoire FC Midtjylland",
-   "score_exact": "2-1 (8%) · 3-1 (8%)",
-   "double_chance": "12 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 74%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (7 confrontations) : FC Midtjylland 4V · 1N · Sønderjyske Fodbold 2V (scores : 3-2 x2, 2-3, 6-2)  ||  FC Midtjylland : 2e/12 (31 pts en 13 m.) | repos 3 j  ||  Sønderjyske Fodbold : 12e/12 (8 pts en 13 m.) | repos 6 j | prochains : Odense Boldklub (Superliga (DEN), 14 j)",
-   "prio": 9,
-   "live_score": "2-2",
    "minute": "FT"
   }
  ]
