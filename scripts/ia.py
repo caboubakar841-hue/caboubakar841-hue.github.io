@@ -47,7 +47,20 @@ COMPS = {  # competitions de CONTEXTE (calendrier, repos) : jamais pronostiquees
     "eng.fa": "FA Cup", "eng.league_cup": "Coupe de la Ligue (ENG)", "esp.copa_del_rey": "Coupe du Roi",
     "ita.coppa_italia": "Coupe d'Italie", "ger.dfb_pokal": "Coupe d'Allemagne", "fra.coupe_de_france": "Coupe de France",
 }
-ALL_COMPS = {**LEAGUES, **COMPS}
+INTL = {  # selections nationales : CAN, Coupe du monde, Euro, Nations League, Copa America, Gold Cup, amicaux
+    "caf.nations": "CAN (Coupe d'Afrique)", "caf.nations.qual": "CAN - qualifications",
+    "fifa.world": "Coupe du monde", "fifa.worldq.conmebol": "Qualif. Coupe du monde - CONMEBOL",
+    "fifa.worldq.uefa": "Qualif. Coupe du monde - UEFA", "fifa.worldq.caf": "Qualif. Coupe du monde - CAF",
+    "fifa.worldq.afc": "Qualif. Coupe du monde - AFC", "fifa.worldq.concacaf": "Qualif. Coupe du monde - CONCACAF",
+    "fifa.worldq.ofc": "Qualif. Coupe du monde - OFC", "fifa.worldq.playoffs": "Barrages Coupe du monde",
+    "uefa.euro": "Euro", "uefa.euro_qual": "Qualif. Euro", "uefa.nations": "Ligue des nations (UEFA)",
+    "conmebol.america": "Copa America", "concacaf.gold": "Gold Cup", "concacaf.nations.league": "Ligue des nations (CONCACAF)",
+    "afcon.qual": "AFC Asian Cup - qualifications", "afc.asian.cup": "AFC Asian Cup",
+    "fifa.friendly": "Matchs amicaux internationaux",
+}
+ALL_COMPS = {**LEAGUES, **COMPS, **INTL}
+INTL_PRIORITY = {"caf.nations": 1, "fifa.world": 1, "uefa.euro": 1, "uefa.nations": 1, "conmebol.america": 1,
+                 "concacaf.gold": 1, "afc.asian.cup": 1}   # tournois finaux et Ligue des nations : tout en haut
 EURO_COMPS = {"uefa.champions", "uefa.europa", "uefa.europa.conf"}
 # ordre d'affichage : 0 = tout en haut. Coupes d'Europe, puis 5 grands championnats, puis le reste.
 PRIORITY = {"uefa.champions": 0, "uefa.europa": 1, "uefa.europa.conf": 2,
@@ -56,6 +69,8 @@ PRIORITY = {"uefa.champions": 0, "uefa.europa": 1, "uefa.europa.conf": 2,
             "mex.1": 12, "par.1": 12, "col.1": 12, "bol.1": 12, "afc.champions": 12, "afc.cup": 12,
             "per.1": 12, "uru.1": 12, "ecu.1": 12, "ven.1": 12, "chi.1": 12, "jpn.1": 12, "aus.1": 12, "kor.1": 12,
             "sau.1": 12, "conmebol.libertadores": 12, "conmebol.sudamericana": 12}
+for _k in INTL:
+    PRIORITY.setdefault(_k, INTL_PRIORITY.get(_k, 2))
 # Pour comparer deux clubs de championnats differents (matchs europeens) : force relative ESTIMEE (1.0 = meilleur
 # championnat). Ordres de grandeur de la hierarchie europeenne, PAS des valeurs mesurees : ajuste-les si besoin.
 LEAGUE_STRENGTH = {"eng.1": 1.00, "esp.1": 0.98, "ger.1": 0.95, "ita.1": 0.95, "fra.1": 0.90, "por.1": 0.85, "ned.1": 0.85,
@@ -74,7 +89,7 @@ H2H_FILE = "data/h2h.json"
 H2H_MIN = 3             # il faut au moins 3 confrontations pour que le face-a-face influence le pronostic
 H2H_PRIOR = 20          # poids du modele face au face-a-face (en "matchs equivalents") : 20 = le face-a-face pese peu
 H2H_LAST = 8            # on garde les 8 dernieres confrontations
-H2H_MAX_PAIRS = 60      # paires interrogees par run
+H2H_MAX_PAIRS = 120     # paires interrogees par run (matchs du jour d'abord)
 H2H_REFRESH_DAYS = 14
 BAD_STATUS = ("POSTPONED", "CANCEL", "ABANDON", "FORFEIT", "SUSPEND")
 
@@ -498,8 +513,8 @@ def main():
         cache = json.load(open(CACHE, encoding="utf-8"))
     except Exception:
         cache = {}
-    if cache.get("v") != 5:                  # v3 : nouveaux championnats
-        cache["days_done"], cache["v"] = [], 5
+    if cache.get("v") != 6:                  # v3 : nouveaux championnats
+        cache["days_done"], cache["v"] = [], 6
     cache.setdefault("days_done", [])
     cache.setdefault("results", {})
     cache.setdefault("fixtures", {})
@@ -641,25 +656,32 @@ def main():
     seasons = [cur - k for k in range(5)]
     pair_of = lambda sl, q: f"{sl}:" + "-".join(sorted([q["hid"], q["aid"]]))
     need = {}
-    for sl, q in events:
-        if (sl in LEAGUES and PRIORITY.get(sl, 9) < 12 and q["state"] == "pre" and q.get("hid") and q.get("aid")
-                and q["iso"][:10] >= today):
-            k = pair_of(sl, q)
-            old = h2h_cache.get(k)
-            if not (old and (now - datetime.fromisoformat(old["t"])).days < H2H_REFRESH_DAYS) and len(need) < H2H_MAX_PAIRS:
-                need[k] = (sl, q["hid"], q["aid"])
+    # matchs a venir de tous les championnats, coupes d'Europe et remplissage ; les matchs du jour passent en premier
+    cands = sorted((x for x in events if x[1]["state"] == "pre" and x[1].get("hid") and x[1].get("aid")
+                    and x[1]["iso"][:10] >= today and (x[0] in ALL_COMPS)),
+                   key=lambda x: (x[1]["iso"][:10] != today, x[1]["iso"]))
+    for sl, q in cands:
+        k = pair_of(sl, q)
+        if k in need:
+            continue
+        old = h2h_cache.get(k)
+        fresh = old and (now - datetime.fromisoformat(old["t"])).days < H2H_REFRESH_DAYS
+        if not fresh and len(need) < H2H_MAX_PAIRS:
+            need[k] = (sl, q["hid"], q["aid"])
     if need:
         with ThreadPoolExecutor(max_workers=8) as ex:
             got = list(ex.map(lambda kv: (kv[0], fetch_pair(*kv[1], seasons)), need.items()))
         for k, games in got:
             if games is not None:
                 h2h_cache[k] = {"t": now.isoformat(), "games": games}
-    print(f"Face-a-face : {len(need)} paires interrogees, {sum(1 for k in need if h2h_cache.get(k, {}).get('games'))} avec au moins une confrontation")
+    n_today = sum(1 for sl, q in cands if q["iso"][:10] == today)
+    print(f"Face-a-face : {n_today} matchs du jour, {len(need)} paires interrogees, "
+          f"{sum(1 for k in need if h2h_cache.get(k, {}).get('games'))} avec au moins une confrontation")
 
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
     for slug, p in events:
-        if slug not in LEAGUES and slug not in EURO_COMPS:   # coupes nationales : contexte uniquement
+        if slug not in LEAGUES and slug not in EURO_COMPS and slug not in INTL:   # coupes nationales : contexte uniquement
             continue
         day = p["iso"][:10]
         rec = hist.get(p["id"])
