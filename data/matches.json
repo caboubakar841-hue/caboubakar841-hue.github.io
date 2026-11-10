@@ -1,26 +1,26 @@
 {
- "date": "2026-11-10 06:43 UTC",
+ "date": "2026-11-10 07:54 UTC",
  "version": "V17",
  "stats": {
   "n": 728,
-  "n_avant": 137,
-  "dc": 77,
-  "over": 52,
+  "n_avant": 96,
+  "dc": 78,
+  "over": 53,
   "btts": 54,
   "score": 16,
   "1x2": 62,
-  "n_fav": 329,
+  "n_fav": 331,
   "serre": 75,
-  "n_serre": 399,
+  "n_serre": 397,
   "base_dom": 47,
   "n_euro": 26,
   "dc_euro": 81,
-  "n_ctx": 70,
-  "brier_ctx": 0.554,
-  "brier_base": 0.559,
-  "n_h2h": 70,
-  "brier_h2h": 0.554,
-  "brier_noh2h": 0.559
+  "n_ctx": 48,
+  "brier_ctx": 0.522,
+  "brier_base": 0.54,
+  "n_h2h": 48,
+  "brier_h2h": 0.522,
+  "brier_noh2h": 0.54
  },
  "tickets": [
   {
