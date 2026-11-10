@@ -1,6 +1,7 @@
 # PRONO70 V17 - Pronostics calcules (modele de Poisson) a partir des VRAIS resultats ESPN
 # Aucun tirage aleatoire : tout decoule des buts marques/encaisses depuis LOOKBACK_DAYS jours.
 import json
+import re
 import math
 import os
 from collections import Counter, defaultdict
@@ -127,6 +128,28 @@ def fetch(slug, day):
             code = getattr(getattr(e, "response", None), "status_code", "")
             ERRORS.append(f"{slug} {day} -> {type(e).__name__} {code} {str(e)[:120]}")
     return None
+
+
+def fetch_all(day):
+    """Filet de securite : scoreboard 'tous les matchs de football' d'ESPN (competitions non listees comprises)."""
+    url = "https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard"
+    for params in ({"dates": f"{day:%Y%m%d}", "limit": 500}, {"dates": f"{day:%Y%m%d}"}):
+        try:
+            r = requests.get(url, params=params, headers=HEADERS, timeout=10)
+            r.raise_for_status()
+            j = r.json()
+            names = {str(l.get("id")): l.get("name") for l in j.get("leagues", []) if isinstance(l, dict)}
+            out = []
+            for ev in j.get("events", []):
+                m = re.search(r"l:(\d+)", str(ev.get("uid", "")))
+                lid = m.group(1) if m else "x"
+                slug = f"all.{lid}"
+                LEAGUE_NAMES.setdefault(slug, names.get(lid) or (ev.get("league") or {}).get("name") or "Autre compétition")
+                out.append((slug, ev))
+            return out
+        except Exception as e:
+            ERRORS.append(f"all {day} -> {type(e).__name__} {str(e)[:100]}")
+    return []
 
 
 def parse_event(ev):
@@ -293,6 +316,7 @@ def card_from(rec, status):
     c = build_card(rec["league"], rec["home"], rec["away"], rec["iso"], rec["pr"], rec["gp"][0], rec["gp"][1])
     c["status"] = status
     c["contexte"] = rec.get("ctx", "")
+    c["day"] = rec["iso"][:10]
     c["prio"] = PRIORITY.get(rec["slug"], 9)
     if rec.get("neutral"):
         c["contexte"] = ("⚠️ Peu ou pas de données pour : " + ", ".join(rec["neutral"]) +
@@ -620,6 +644,17 @@ def main():
                 cache["fixtures"][fkey] = {"slug": slug, "home": p["home"], "away": p["away"], "iso": p["iso"]}
             else:
                 cache["fixtures"].pop(fkey, None)
+    known_ids = {q["id"] for _, q in fresh_events} | set(cache["results"])
+    n_all = 0
+    for d_ in (t, t + timedelta(days=1), t + timedelta(days=2)):
+        for sl_, ev_ in fetch_all(d_):
+            q = parse_event(ev_)
+            if not q or q["state"] not in ("pre", "in") or q["id"] in known_ids:
+                continue
+            known_ids.add(q["id"])
+            PRIORITY.setdefault(sl_, 13)         # tout en bas : seulement pour completer
+            fresh_events.append((sl_, q))
+            n_all += 1
     for d in missing:
         if d not in failed_days:
             done_days.add(d.isoformat())
@@ -743,13 +778,13 @@ def main():
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
     for slug, p in events:
-        if slug not in LEAGUES and slug not in EURO_COMPS and slug not in INTL:   # coupes nationales : contexte uniquement
+        if slug not in LEAGUES and slug not in EURO_COMPS and slug not in INTL and not slug.startswith("all."):   # coupes nationales : contexte uniquement
             continue
         day = p["iso"][:10]
         rec = hist.get(p["id"])
         if p["state"] == "post" and day < limit and not rec:
             continue
-        if p["state"] in ("pre", "in") and day < (t - timedelta(days=1)).isoformat():
+        if p["state"] in ("pre", "in") and (day < (t - timedelta(days=1)).isoformat() or day > (t + timedelta(days=2)).isoformat()):
             continue
         refresh = bool(rec) and p["state"] == "pre" and rec.get("kind") == "avant"
         if not rec or refresh:               # modifiable jusqu'au coup d'envoi (contexte, absences), fige ensuite
@@ -778,7 +813,7 @@ def main():
                         pr = predict(m, p["home"], p["away"], adj, (hs["n"], hs["hw"], hs["d"], hs["aw"]))
                         if base_p is None:
                             base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]
-            rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": ALL_COMPS[slug], "home": p["home"], "away": p["away"],
+            rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": ALL_COMPS.get(slug) or LEAGUE_NAMES.get(slug) or "Autre compétition", "home": p["home"], "away": p["away"],
                                    "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
                                    "kind": "avant" if p["state"] == "pre" else "retro", "res": None,
                                    "ctx": ctx_text, "base_p": base_p, "noh2h_p": noh2h_p, "neutral": m.get("neutral", [])}
@@ -794,8 +829,15 @@ def main():
 
     today_cards, day_recs = [], []
     if upcoming:
-        day_recs = sorted(upcoming[sorted(upcoming)[0]], key=lambda r: (PRIORITY.get(r["slug"], 9), 1 if r.get("neutral") else 0, r["iso"]))
-        today_cards = [card_from(rec, "today") for rec in day_recs]
+        days_sorted = sorted(upcoming)
+        order_key = lambda r: (PRIORITY.get(r["slug"], 9), 1 if r.get("neutral") else 0, r["iso"])
+        day_recs = sorted(upcoming[days_sorted[0]], key=order_key)       # les tickets ne portent que sur le premier jour
+        ordered = list(day_recs)
+        for dd in days_sorted[1:]:                                       # jours suivants : seulement pour completer
+            if len(ordered) >= MAX_MATCHES:
+                break
+            ordered += sorted(upcoming[dd], key=order_key)
+        today_cards = [card_from(rec, "today") for rec in ordered]
     done_all = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
     done = [r for r in done_all if not r.get("neutral")]
     stats = {"n": len(done), "n_avant": sum(1 for r in done if r["kind"] == "avant")}
@@ -836,6 +878,12 @@ def main():
     eu_cards = sum(1 for c in cards if c.get("prio", 9) <= 2 and c["status"] in ("today", "live"))
     fill = sum(1 for c in today_cards[:MAX_MATCHES] if c.get("prio", 9) == 12)
     print(f"Europe aujourd'hui : {eu_cards} cartes pour {eu_seen} matchs vus | remplissage affiche : {fill}")
+    top = sorted(((k, v) for k, v in seen_today.items() if not k.startswith("all.")), key=lambda kv: -kv[1])[:12]
+    diag = [f"Compétitions suivies : {len(ALL_COMPS)} dont {len(cache['dyn'])} découvertes automatiquement",
+            "Matchs trouvés aujourd'hui par compétition : " + (", ".join(f"{k} {v}" for k, v in top) or "aucun"),
+            f"Matchs ajoutés par le filet « tous les matchs ESPN » : {n_all}",
+            f"Cartes à venir affichées : {len(today_cards[:MAX_MATCHES])} (jours : {', '.join(sorted(upcoming)) or 'aucun'})",
+            "Codes sans réponse : " + (", ".join(sorted(set(ALL_COMPS) - good_slugs)[:12]) or "aucun")]
     keep = sorted(hist.items(), key=lambda kv: kv[1]["iso"], reverse=True)[:600]
     os.makedirs("data", exist_ok=True)
     with open(HIST, "w", encoding="utf-8") as f:
@@ -860,7 +908,7 @@ def main():
         json.dump(h2h_cache, f, ensure_ascii=False)
     with open(CACHE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False)
-    out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "tickets": [tk["days"][d] for d in sorted(tk["days"], reverse=True)], "matches": cards}
+    out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "diag": diag, "tickets": [tk["days"][d] for d in sorted(tk["days"], reverse=True)], "matches": cards}
     with open("data/matches.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"FINAL: {len(live)} live, {len(today_cards)} a venir, {len(fin_cards)} termines | stats {stats}")
