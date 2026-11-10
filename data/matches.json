@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10 22:42 UTC",
+ "date": "2026-11-10 23:17 UTC",
  "version": "V17",
  "stats": {
   "n": 728,
@@ -19,7 +19,7 @@
  "diag": [
   "Compétitions suivies : 72 dont 3 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : slv.1 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 150",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 149",
   "Cartes à venir affichées : 40 (jours : 2026-11-10, 2026-11-11, 2026-11-12)",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
@@ -2364,8 +2364,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Cacahuatique, Luis Ángel Firpo (estimation neutre, très incertaine). Cacahuatique  ||  Luis Ángel Firpo",
    "day": "2026-11-10",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "51'"
+   "live_score": "1-1",
+   "minute": "86'"
   },
   {
    "league": "Autre compétition",
@@ -2384,12 +2384,12 @@
    "day": "2026-11-10",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "29'"
+   "minute": "HT"
   },
   {
    "league": "Autre compétition",
-   "home": "Western Kentucky",
-   "away": "Delaware",
+   "home": "Boston University",
+   "away": "Lehigh",
    "status": "live",
    "conf": 77,
    "victoire": "Serré : pas de nul (12)",
@@ -2398,12 +2398,12 @@
    "corner": "N/D",
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus Western Kentucky 1.8 - Delaware 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Western Kentucky, Delaware (estimation neutre, très incertaine). Western Kentucky  ||  Delaware",
+   "analyse": "2026-11-10 | Buts attendus Boston University 1.8 - Lehigh 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Boston University, Lehigh (estimation neutre, très incertaine). Boston University  ||  Lehigh",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "1-1",
-   "minute": "72'"
+   "live_score": "1-0",
+   "minute": "10'"
   },
   {
    "league": "Autre compétition",
@@ -2421,8 +2421,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Northwestern State, McNeese (estimation neutre, très incertaine). Northwestern State  ||  McNeese",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "50'"
+   "live_score": "1-0",
+   "minute": "81'"
   },
   {
    "league": "Autre compétition",
@@ -2440,14 +2440,14 @@
    "contexte": "⚠️ Peu ou pas de données pour : Western Michigan, Miami (OH) (estimation neutre, très incertaine). Western Michigan  ||  Miami (OH)",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "41'"
+   "live_score": "1-0",
+   "minute": "58'"
   },
   {
    "league": "Autre compétition",
    "home": "Vanderbilt",
    "away": "Texas",
-   "status": "today",
+   "status": "live",
    "conf": 77,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "2-1 (9%) · 1-2 (8%)",
@@ -2458,30 +2458,15 @@
    "analyse": "2026-11-10 | Buts attendus Vanderbilt 1.8 - Texas 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Vanderbilt, Texas (estimation neutre, très incertaine). Vanderbilt  ||  Texas",
    "day": "2026-11-10",
-   "prio": 13
-  },
-  {
-   "league": "Autre compétition",
-   "home": "Boston University",
-   "away": "Lehigh",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus Boston University 1.8 - Lehigh 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Boston University, Lehigh (estimation neutre, très incertaine). Boston University  ||  Lehigh",
-   "day": "2026-11-10",
-   "prio": 13
+   "prio": 13,
+   "live_score": "0-1",
+   "minute": "3'"
   },
   {
    "league": "Autre compétition",
    "home": "South Carolina Upstate",
    "away": "Radford",
-   "status": "today",
+   "status": "live",
    "conf": 77,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "2-1 (9%) · 1-2 (8%)",
@@ -2492,13 +2477,15 @@
    "analyse": "2026-11-10 | Buts attendus South Carolina Upstate 1.8 - Radford 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : South Carolina Upstate, Radford (estimation neutre, très incertaine). South Carolina Upstate  ||  Radford",
    "day": "2026-11-10",
-   "prio": 13
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "10'"
   },
   {
    "league": "Autre compétition",
    "home": "UNC Asheville",
    "away": "High Point",
-   "status": "today",
+   "status": "live",
    "conf": 77,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "2-1 (9%) · 1-2 (8%)",
@@ -2509,7 +2496,9 @@
    "analyse": "2026-11-10 | Buts attendus UNC Asheville 1.8 - High Point 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : UNC Asheville, High Point (estimation neutre, très incertaine). UNC Asheville  ||  High Point",
    "day": "2026-11-10",
-   "prio": 13
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "12'"
   },
   {
    "league": "Autre compétition",
@@ -3120,6 +3109,74 @@
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Milwaukee 1.8 - Cleveland State 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Milwaukee, Cleveland State (estimation neutre, très incertaine). Milwaukee  ||  Cleveland State",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Charlton Athletic",
+   "away": "Ipswich Town",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Charlton Athletic 1.8 - Ipswich Town 1.5 | 1/N/2 : 47/23/31% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Charlton Athletic, Ipswich Town (estimation neutre, très incertaine). Charlton Athletic : 19e/24 (17 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Wolverhampton Wanderers (Championship, 10 j), Lincoln City (Championship, 13 j)  ||  Ipswich Town : 14e/20 (11 pts en 10 m.) | repos 3 j | prochains : Tottenham Hotspur (Premier League, 10 j)",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Brighton & Hove Albion",
+   "away": "Watford",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Brighton & Hove Albion 1.7 - Watford 1.6 | 1/N/2 : 42/23/35% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Brighton & Hove Albion, Watford (estimation neutre, très incertaine). Brighton & Hove Albion : 2e/20 (22 pts en 10 m.) | repos 3 j | prochains : Hull City (Premier League, 11 j)  ||  Watford : 20e/24 (15 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Sheffield United (Championship, 10 j)",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Benfica",
+   "away": "Austria Vienna",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Benfica 1.8 - Austria Vienna 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Benfica, Austria Vienna (estimation neutre, très incertaine). Benfica : 2e/18 (28 pts en 11 m.) | repos 3 j  ||  Austria Vienna : 11e/12 (8 pts en 12 m.) | repos 3 j | prochains : RB Salzburg (Bundesliga (AUT), 11 j)",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Juventus",
+   "away": "OL Lyonnes",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Juventus 1.8 - OL Lyonnes 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Juventus, OL Lyonnes (estimation neutre, très incertaine). Juventus : 7e/20 (18 pts en 11 m.) | repos 3 j | prochains : Venezia (Serie A, 11 j)  ||  OL Lyonnes",
    "day": "2026-11-11",
    "prio": 13
   },
