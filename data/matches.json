@@ -1,28 +1,53 @@
 {
- "date": "2026-11-09 23:59 UTC",
+ "date": "2026-11-10 00:40 UTC",
  "version": "V17",
  "stats": {
-  "n": 750,
-  "n_avant": 254,
-  "dc": 78,
-  "over": 52,
-  "btts": 53,
-  "score": 15,
+  "n": 726,
+  "n_avant": 135,
+  "dc": 77,
+  "over": 53,
+  "btts": 54,
+  "score": 16,
   "1x2": 62,
-  "n_fav": 334,
-  "serre": 76,
-  "n_serre": 416,
+  "n_fav": 328,
+  "serre": 75,
+  "n_serre": 398,
   "base_dom": 47,
   "n_euro": 26,
   "dc_euro": 81,
-  "n_ctx": 109,
-  "brier_ctx": 0.559,
-  "brier_base": 0.554,
-  "n_h2h": 109,
-  "brier_h2h": 0.559,
-  "brier_noh2h": 0.554
+  "n_ctx": 69,
+  "brier_ctx": 0.547,
+  "brier_base": 0.551,
+  "n_h2h": 69,
+  "brier_h2h": 0.547,
+  "brier_noh2h": 0.551
  },
  "tickets": [
+  {
+   "v": 2,
+   "day": "2026-11-11",
+   "eligible": 0,
+   "tickets": [
+    {
+     "name": "Ticket 10 matchs (risqué)",
+     "rule": "60 à 79 %",
+     "target": 10,
+     "n": 0,
+     "legs": [],
+     "combined": null,
+     "status": "en cours"
+    },
+    {
+     "name": "Ticket 5 matchs (sûr)",
+     "rule": "80 % ou plus",
+     "target": 5,
+     "n": 0,
+     "legs": [],
+     "combined": null,
+     "status": "en cours"
+    }
+   ]
+  },
   {
    "v": 2,
    "day": "2026-11-10",
@@ -101,8 +126,8 @@
        "pick": "Double chance X2 (nul ou 2 de Mayo)",
        "code": "X2",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "3-0"
       },
       {
        "id": "401883140",
@@ -2319,188 +2344,14 @@
      "status": "gagné"
     }
    ]
-  },
-  {
-   "day": "2026-10-28",
-   "eligible": 12,
-   "tickets": [
-    {
-     "name": "Ticket 10 matchs",
-     "target": 10,
-     "n": 7,
-     "legs": [
-      {
-       "id": "401899571",
-       "match": "Pisa vs Palermo",
-       "league": "Serie B",
-       "time": "18:00",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 85,
-       "ok": true,
-       "score": "3-3"
-      },
-      {
-       "id": "401878354",
-       "match": "Dundee vs Kilmarnock",
-       "league": "Scottish Premiership",
-       "time": "19:45",
-       "pick": "Double chance 1X (Dundee ou nul)",
-       "code": "1X",
-       "p": 85,
-       "ok": true,
-       "score": "3-1"
-      },
-      {
-       "id": "761907",
-       "match": "Charlotte FC vs CF Montréal",
-       "league": "MLS",
-       "time": "23:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 85,
-       "ok": true,
-       "score": "4-0"
-      },
-      {
-       "id": "401874988",
-       "match": "Genoa vs Juventus",
-       "league": "Serie A",
-       "time": "19:45",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 81,
-       "ok": true,
-       "score": "2-0"
-      },
-      {
-       "id": "401878356",
-       "match": "Aberdeen vs Falkirk",
-       "league": "Scottish Premiership",
-       "time": "19:45",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 81,
-       "ok": true,
-       "score": "0-1"
-      },
-      {
-       "id": "401841291",
-       "match": "Red Bull Bragantino vs Chapecoense",
-       "league": "Brasileirao",
-       "time": "22:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 81,
-       "ok": true,
-       "score": "3-0"
-      },
-      {
-       "id": "401874993",
-       "match": "AC Milan vs Bologna",
-       "league": "Serie A",
-       "time": "17:30",
-       "pick": "Double chance 1X (AC Milan ou nul)",
-       "code": "1X",
-       "p": 80,
-       "ok": false,
-       "score": "2-4"
-      }
-     ],
-     "combined": 26,
-     "status": "perdu"
-    },
-    {
-     "name": "Ticket 5 matchs",
-     "target": 5,
-     "n": 5,
-     "legs": [
-      {
-       "id": "761908",
-       "match": "Inter Miami CF vs FC Cincinnati",
-       "league": "MLS",
-       "time": "23:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 93,
-       "ok": true,
-       "score": "2-2"
-      },
-      {
-       "id": "401874773",
-       "match": "Venezia vs Internazionale",
-       "league": "Serie A",
-       "time": "17:30",
-       "pick": "Double chance X2 (nul ou Internazionale)",
-       "code": "X2",
-       "p": 89,
-       "ok": true,
-       "score": "0-2"
-      },
-      {
-       "id": "401878355",
-       "match": "Celtic vs Dundee United",
-       "league": "Scottish Premiership",
-       "time": "19:45",
-       "pick": "Double chance 1X (Celtic ou nul)",
-       "code": "1X",
-       "p": 89,
-       "ok": true,
-       "score": "2-2"
-      },
-      {
-       "id": "401874799",
-       "match": "Monza vs Napoli",
-       "league": "Serie A",
-       "time": "19:45",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 88,
-       "ok": true,
-       "score": "1-4"
-      },
-      {
-       "id": "761906",
-       "match": "Toronto FC vs D.C. United",
-       "league": "MLS",
-       "time": "23:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 86,
-       "ok": true,
-       "score": "2-1"
-      }
-     ],
-     "combined": 56,
-     "status": "gagné"
-    }
-   ]
   }
  ],
  "matches": [
   {
-   "league": "Primera Paraguay",
-   "home": "Sportivo Luqueño",
-   "away": "2 de Mayo",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : Nul ou 2 de Mayo",
-   "score_exact": "1-1 (14%) · 0-1 (11%)",
-   "double_chance": "X2 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-09 | Buts attendus Sportivo Luqueño 1.1 - 2 de Mayo 1.5 | 1/N/2 : 27/29/43% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Sportivo Luqueño 2V · 3N · 2 de Mayo 3V (scores : 2-1 x2, 0-0, 1-1)  ||  Sportivo Luqueño : repos 4 j | prochains : Sportivo Ameliano (Primera Paraguay, 9 j)  ||  2 de Mayo : repos 6 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 9 j)",
-   "prio": 12,
-   "live_score": "1-0",
-   "minute": "70'"
-  },
-  {
    "league": "Liga Colombia",
    "home": "Atlético Junior",
    "away": "Cúcuta Deportivo",
-   "status": "today",
+   "status": "live",
    "conf": 76,
    "victoire": "Serré : pas de nul (12)",
    "score_exact": "2-1 (10%) · 1-2 (7%)",
@@ -2510,13 +2361,15 @@
    "btts": "BTTS OUI 56%",
    "analyse": "2026-11-10 | Buts attendus Atlético Junior 1.7 - Cúcuta Deportivo 1.2 | 1/N/2 : 49/24/27% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Atlético Junior : repos 9 j  ||  Cúcuta Deportivo : repos 5 j",
-   "prio": 12
+   "prio": 12,
+   "live_score": "1-0",
+   "minute": "41'"
   },
   {
    "league": "Liga Bolivie",
    "home": "Aurora",
    "away": "Universitario de Vinto",
-   "status": "today",
+   "status": "live",
    "conf": 56,
    "victoire": "Victoire Aurora",
    "score_exact": "2-1 (9%) · 3-1 (6%)",
@@ -2526,7 +2379,43 @@
    "btts": "BTTS OUI 53%",
    "analyse": "2026-11-10 | Buts attendus Aurora 2.1 - Universitario de Vinto 0.9 | 1/N/2 : 56/22/22% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Aurora 3V · 2N · Universitario de Vinto 3V (scores : 2-1 x2, 0-2, 1-1)  ||  Aurora : repos 10 j | prochains : ABB (Liga Bolivie, 12 j)  ||  Universitario de Vinto : repos 8 j | prochains : GV San José (Liga Bolivie, 14 j)",
-   "prio": 12
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "10'"
+  },
+  {
+   "league": "Matchs amicaux internationaux",
+   "home": "Vietnam",
+   "away": "Chinese Taipei",
+   "status": "today",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 56%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "2026-11-11 | Buts attendus Vietnam 1.6 - Chinese Taipei 1.3 | 1/N/2 : 44/24/32% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Vietnam, Chinese Taipei (estimation neutre, très incertaine). Vietnam : prochains : Kyrgyz Republic (Matchs amicaux internationaux, 6 j)  ||  Chinese Taipei : prochains : Kyrgyz Republic (Matchs amicaux internationaux, 3 j)",
+   "prio": 2
+  },
+  {
+   "league": "Primera Paraguay",
+   "home": "Sportivo Luqueño",
+   "away": "2 de Mayo",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : Nul ou 2 de Mayo",
+   "score_exact": "1-1 (14%) · 0-1 (11%)",
+   "double_chance": "X2 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 55%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 3-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Sportivo Luqueño 2V · 3N · 2 de Mayo 3V (scores : 2-1 x2, 0-0, 1-1)  ||  Sportivo Luqueño : repos 4 j | prochains : Sportivo Ameliano (Primera Paraguay, 9 j)  ||  2 de Mayo : repos 6 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 9 j)",
+   "prio": 12,
+   "live_score": "3-0",
+   "minute": "FT"
   },
   {
    "league": "Liga Equateur",
@@ -3228,24 +3117,6 @@
    "contexte": "Face-à-face (2 confrontations) : Besiktas 1V · 0N · Genclerbirligi 1V (scores : 1-2, 2-0) - trop peu pour influer  ||  Besiktas : 6e/18 (19 pts en 10 m.) | repos 3 j | prochains : Konyaspor (Super Lig, 14 j)  ||  Genclerbirligi : 14e/18 (11 pts en 10 m.) | repos 6 j | prochains : Gaziantep FK (Super Lig, 13 j)",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Perou",
-   "home": "Los Chankas",
-   "away": "Alianza Lima",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Alianza Lima",
-   "score_exact": "0-1 (13%) · 0-2 (10%)",
-   "double_chance": "X2 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS NON 51%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Los Chankas : repos 7 j | prochains : UTC (Liga Perou, 5 j)  ||  Alianza Lima : repos 5 j | prochains : FC Cajamarca (Liga Perou, 14 j)",
-   "prio": 12,
-   "live_score": "1-1",
    "minute": "FT"
   }
  ]
