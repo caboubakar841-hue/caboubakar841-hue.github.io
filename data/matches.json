@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10 00:40 UTC",
+ "date": "2026-11-10 01:46 UTC",
  "version": "V17",
  "stats": {
   "n": 726,
@@ -2362,8 +2362,8 @@
    "analyse": "2026-11-10 | Buts attendus Atlético Junior 1.7 - Cúcuta Deportivo 1.2 | 1/N/2 : 49/24/27% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Atlético Junior : repos 9 j  ||  Cúcuta Deportivo : repos 5 j",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "41'"
+   "live_score": "2-0",
+   "minute": "87'"
   },
   {
    "league": "Liga Bolivie",
@@ -2381,7 +2381,7 @@
    "contexte": "Face-à-face (8 confrontations) : Aurora 3V · 2N · Universitario de Vinto 3V (scores : 2-1 x2, 0-2, 1-1)  ||  Aurora : repos 10 j | prochains : ABB (Liga Bolivie, 12 j)  ||  Universitario de Vinto : repos 8 j | prochains : GV San José (Liga Bolivie, 14 j)",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "10'"
+   "minute": "59'"
   },
   {
    "league": "Matchs amicaux internationaux",
