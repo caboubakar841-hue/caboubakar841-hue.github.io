@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10 22:06 UTC",
+ "date": "2026-11-10 22:42 UTC",
  "version": "V17",
  "stats": {
   "n": 728,
@@ -19,7 +19,7 @@
  "diag": [
   "Compétitions suivies : 72 dont 3 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : slv.1 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 152",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 150",
   "Cartes à venir affichées : 40 (jours : 2026-11-10, 2026-11-11, 2026-11-12)",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
@@ -2365,12 +2365,12 @@
    "day": "2026-11-10",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "32'"
+   "minute": "51'"
   },
   {
    "league": "Autre compétition",
-   "home": "Alabama",
-   "away": "LSU",
+   "home": "Saint Louis",
+   "away": "Davidson",
    "status": "live",
    "conf": 77,
    "victoire": "Serré : pas de nul (12)",
@@ -2379,12 +2379,12 @@
    "corner": "N/D",
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus Alabama 1.8 - LSU 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Alabama, LSU (estimation neutre, très incertaine). Alabama  ||  LSU",
+   "analyse": "2026-11-10 | Buts attendus Saint Louis 1.8 - Davidson 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Saint Louis, Davidson (estimation neutre, très incertaine). Saint Louis  ||  Davidson",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "1-0",
-   "minute": "70'"
+   "live_score": "0-0",
+   "minute": "29'"
   },
   {
    "league": "Autre compétition",
@@ -2403,7 +2403,7 @@
    "day": "2026-11-10",
    "prio": 13,
    "live_score": "1-1",
-   "minute": "HT"
+   "minute": "72'"
   },
   {
    "league": "Autre compétition",
@@ -2422,7 +2422,7 @@
    "day": "2026-11-10",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "50'"
   },
   {
    "league": "Autre compétition",
@@ -2441,41 +2441,7 @@
    "day": "2026-11-10",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "4'"
-  },
-  {
-   "league": "Autre compétition",
-   "home": "SV Bergisch Gladbach 09",
-   "away": "SV SCHLEBUSCH",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus SV Bergisch Gladbach 09 1.8 - SV SCHLEBUSCH 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : SV Bergisch Gladbach 09, SV SCHLEBUSCH (estimation neutre, très incertaine). SV Bergisch Gladbach 09  ||  SV SCHLEBUSCH",
-   "day": "2026-11-10",
-   "prio": 13
-  },
-  {
-   "league": "Autre compétition",
-   "home": "Saint Louis",
-   "away": "Davidson",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus Saint Louis 1.8 - Davidson 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Saint Louis, Davidson (estimation neutre, très incertaine). Saint Louis  ||  Davidson",
-   "day": "2026-11-10",
-   "prio": 13
+   "minute": "41'"
   },
   {
    "league": "Autre compétition",
@@ -3120,6 +3086,40 @@
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Barnsley 1.8 - Oldham Athletic 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Barnsley, Oldham Athletic (estimation neutre, très incertaine). Barnsley : 23e/24 (9 pts en 12 m.) | repos 4 j | prochains : Wigan Athletic (League One, 3 j), Sheffield Wednesday (League One, 9 j), Bradford City (League One, 13 j)  ||  Oldham Athletic : 18e/24 (15 pts en 14 m.) | repos 3 j | prochains : Shrewsbury Town (League Two, 3 j), Exeter City (League Two, 10 j)",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Sheffield Wednesday",
+   "away": "Accrington Stanley",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Sheffield Wednesday 1.8 - Accrington Stanley 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Sheffield Wednesday, Accrington Stanley (estimation neutre, très incertaine). Sheffield Wednesday : 9e/24 (20 pts en 13 m.) | repos 3 j | prochains : Plymouth Argyle (League One, 3 j), Barnsley (League One, 9 j), Stevenage (League One, 13 j)  ||  Accrington Stanley : 9e/24 (19 pts en 14 m.) | repos 4 j | prochains : Port Vale (League Two, 3 j), Salford City (League Two, 10 j)",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Milwaukee",
+   "away": "Cleveland State",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Milwaukee 1.8 - Cleveland State 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Milwaukee, Cleveland State (estimation neutre, très incertaine). Milwaukee  ||  Cleveland State",
    "day": "2026-11-11",
    "prio": 13
   },
