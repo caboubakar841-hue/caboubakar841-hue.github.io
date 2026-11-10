@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10 23:17 UTC",
+ "date": "2026-11-10 23:49 UTC",
  "version": "V17",
  "stats": {
   "n": 728,
@@ -18,9 +18,9 @@
  },
  "diag": [
   "Compétitions suivies : 72 dont 3 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : slv.1 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 149",
-  "Cartes à venir affichées : 40 (jours : 2026-11-10, 2026-11-11, 2026-11-12)",
+  "Matchs trouvés aujourd'hui par compétition : aucun",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 148",
+  "Cartes à venir affichées : 40 (jours : 2026-11-11, 2026-11-12)",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
  "tickets": [
@@ -2349,9 +2349,9 @@
  ],
  "matches": [
   {
-   "league": "Salvadoran Primera Division",
-   "home": "Cacahuatique",
-   "away": "Luis Ángel Firpo",
+   "league": "Autre compétition",
+   "home": "Internacional de Bogotá",
+   "away": "América de Cali",
    "status": "live",
    "conf": 77,
    "victoire": "Serré : pas de nul (12)",
@@ -2360,12 +2360,12 @@
    "corner": "N/D",
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus Cacahuatique 1.8 - Luis Ángel Firpo 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Cacahuatique, Luis Ángel Firpo (estimation neutre, très incertaine). Cacahuatique  ||  Luis Ángel Firpo",
+   "analyse": "2026-11-10 | Buts attendus Internacional de Bogotá 1.8 - América de Cali 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Internacional de Bogotá, América de Cali (estimation neutre, très incertaine). Internacional de Bogotá : repos 4 j | prochains : Independiente Santa Fe (Liga Colombia, 3 j)  ||  América de Cali : repos 2 j | prochains : Deportivo Pereira (Liga Colombia, 4 j)",
    "day": "2026-11-10",
-   "prio": 9,
-   "live_score": "1-1",
-   "minute": "86'"
+   "prio": 13,
+   "live_score": "1-0",
+   "minute": "18'"
   },
   {
    "league": "Autre compétition",
@@ -2383,8 +2383,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Saint Louis, Davidson (estimation neutre, très incertaine). Saint Louis  ||  Davidson",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-0",
+   "minute": "73'"
   },
   {
    "league": "Autre compétition",
@@ -2402,27 +2402,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Boston University, Lehigh (estimation neutre, très incertaine). Boston University  ||  Lehigh",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "1-0",
-   "minute": "10'"
-  },
-  {
-   "league": "Autre compétition",
-   "home": "Northwestern State",
-   "away": "McNeese",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus Northwestern State 1.8 - McNeese 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Northwestern State, McNeese (estimation neutre, très incertaine). Northwestern State  ||  McNeese",
-   "day": "2026-11-10",
-   "prio": 13,
-   "live_score": "1-0",
-   "minute": "81'"
+   "live_score": "1-1",
+   "minute": "37'"
   },
   {
    "league": "Autre compétition",
@@ -2440,8 +2421,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Western Michigan, Miami (OH) (estimation neutre, très incertaine). Western Michigan  ||  Miami (OH)",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "1-0",
-   "minute": "58'"
+   "live_score": "2-0",
+   "minute": "80'"
   },
   {
    "league": "Autre compétition",
@@ -2459,8 +2440,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Vanderbilt, Texas (estimation neutre, très incertaine). Vanderbilt  ||  Texas",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "0-1",
-   "minute": "3'"
+   "live_score": "0-2",
+   "minute": "30'"
   },
   {
    "league": "Autre compétition",
@@ -2478,8 +2459,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : South Carolina Upstate, Radford (estimation neutre, très incertaine). South Carolina Upstate  ||  Radford",
    "day": "2026-11-10",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "10'"
+   "live_score": "1-1",
+   "minute": "33'"
   },
   {
    "league": "Autre compétition",
@@ -2498,24 +2479,7 @@
    "day": "2026-11-10",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "12'"
-  },
-  {
-   "league": "Autre compétition",
-   "home": "Internacional de Bogotá",
-   "away": "América de Cali",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-10 | Buts attendus Internacional de Bogotá 1.8 - América de Cali 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Internacional de Bogotá, América de Cali (estimation neutre, très incertaine). Internacional de Bogotá : repos 4 j | prochains : Independiente Santa Fe (Liga Colombia, 3 j)  ||  América de Cali : repos 2 j | prochains : Deportivo Pereira (Liga Colombia, 4 j)",
-   "day": "2026-11-10",
-   "prio": 13
+   "minute": "43'"
   },
   {
    "league": "Matchs amicaux internationaux",
@@ -3177,6 +3141,23 @@
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Juventus 1.8 - OL Lyonnes 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Juventus, OL Lyonnes (estimation neutre, très incertaine). Juventus : 7e/20 (18 pts en 11 m.) | repos 3 j | prochains : Venezia (Serie A, 11 j)  ||  OL Lyonnes",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Omaha",
+   "away": "Delaware",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Omaha 1.8 - Delaware 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Omaha, Delaware (estimation neutre, très incertaine). Omaha  ||  Delaware",
    "day": "2026-11-11",
    "prio": 13
   },
