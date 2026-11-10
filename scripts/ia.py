@@ -85,6 +85,19 @@ STAKES_EFFECT = 0.03     # a 3 pts d'une zone cle (apres 15 matchs) : +3 % d'int
 FIX_AHEAD_DAYS = 14      # calendrier a venir recupere sur 14 jours
 FIX_REFRESH_H = 6        # ... et rafraichi toutes les 6 h
 ABSENCES = "data/absences.json"   # blesses/suspendus : saisis a la main (ESPN n'a pas de flux fiable)
+# Decouverte automatique : ESPN nomme les divisions "<pays>.<niveau>" (ita.1 = Serie A, ita.2 = Serie B, ita.3 = Serie C...).
+# Si moins de MAX_MATCHES matchs sont trouves, on sonde ces codes, du niveau 1 au niveau 4, et on garde ceux qui ont des matchs.
+EXTRA_COUNTRIES = [
+    "eng", "esp", "ita", "ger", "fra", "ned", "por", "bel", "tur", "sco", "gre", "aut", "sui", "den", "nor", "swe", "pol",
+    "cze", "rus", "ukr", "cro", "srb", "rou", "bul", "hun", "isr", "cyp", "irl", "wal", "nir", "svk", "svn", "fin", "isl",
+    "alb", "bih", "mne", "mkd", "geo", "arm", "aze", "kaz", "blr", "lux", "mlt", "est", "lva", "ltu",
+    "bra", "arg", "col", "chi", "uru", "par", "per", "ecu", "bol", "ven", "mex", "usa", "can", "crc", "hon", "gua", "slv", "pan", "jam",
+    "jpn", "kor", "chn", "aus", "nzl", "ind", "sau", "uae", "qat", "kuw", "irn", "irq", "tha", "idn", "mys", "vie", "sin", "hkg", "uzb",
+    "egy", "rsa", "mar", "alg", "tun", "nga", "gha", "ken", "uga", "tza", "zam", "zim", "ang", "cmr", "civ", "sen"]
+EXTRA_LEVELS = (1, 2, 3, 4)
+DYN_MAX = 80             # nombre max de championnats decouverts gardes en memoire
+DISC_EVERY_MIN = 30      # la decouverte ne tourne qu'une fois toutes les 30 min, et seulement s'il manque des matchs
+LEAGUE_NAMES = {}        # noms de championnats lus dans les reponses ESPN
 H2H_FILE = "data/h2h.json"
 H2H_MIN = 3             # il faut au moins 3 confrontations pour que le face-a-face influence le pronostic
 H2H_PRIOR = 20          # poids du modele face au face-a-face (en "matchs equivalents") : 20 = le face-a-face pese peu
@@ -104,7 +117,12 @@ def fetch(slug, day):
         try:
             r = requests.get(BASE.format(slug=slug), params={"dates": f"{day:%Y%m%d}"}, headers=HEADERS, timeout=8)
             r.raise_for_status()
-            return r.json().get("events", [])
+            j = r.json()
+            try:
+                LEAGUE_NAMES[slug] = j["leagues"][0]["name"]
+            except Exception:
+                pass
+            return j.get("events", [])
         except Exception as e:
             code = getattr(getattr(e, "response", None), "status_code", "")
             ERRORS.append(f"{slug} {day} -> {type(e).__name__} {code} {str(e)[:120]}")
@@ -518,6 +536,11 @@ def main():
     cache.setdefault("days_done", [])
     cache.setdefault("results", {})
     cache.setdefault("fixtures", {})
+    cache.setdefault("dyn", {})
+    cache.setdefault("skip", {})
+    for sl_, v_ in cache["dyn"].items():     # championnats decouverts lors des runs precedents : traites comme les autres
+        LEAGUES[sl_] = ALL_COMPS[sl_] = v_["name"]
+        PRIORITY.setdefault(sl_, 8 + v_["level"])
     done_days = set(cache["days_done"])
     all_days = [t + timedelta(days=2 - k) for k in range(LOOKBACK_DAYS + 3)]      # t+2 ... t-LOOKBACK
     fresh = [d for d in all_days if d >= t - timedelta(days=1)]                   # toujours rafraichis
@@ -536,6 +559,45 @@ def main():
         print("ERREUR ESPN:", err)
     if ok == 0:
         raise SystemExit("ESPN injoignable : on garde l'ancien matches.json")
+
+    # --- decouverte : s'il manque des matchs, on sonde d'autres championnats (niveau 1 d'abord, puis 2, 3, 4...)
+    def playable(lst):
+        c = 0
+        for _, d_, evs_ in lst:
+            if evs_ and d_ in (t, t + timedelta(days=1)):
+                c += sum(1 for ev_ in evs_ if (parse_event(ev_) or {}).get("state") in ("pre", "in"))
+        return c
+
+    try:
+        last_disc = datetime.fromisoformat(cache["disc_at"])
+    except Exception:
+        last_disc = None
+    n_found = playable(fetched)
+    n_new = 0
+    if n_found < MAX_MATCHES and (last_disc is None or (now - last_disc).total_seconds() > DISC_EVERY_MIN * 60):
+        cands = [f"{cc}.{lv}" for lv in EXTRA_LEVELS for cc in EXTRA_COUNTRIES
+                 if f"{cc}.{lv}" not in ALL_COMPS and cache["skip"].get(f"{cc}.{lv}", "") < now.isoformat()]
+        jobs2 = [(sl_, d_) for sl_ in cands for d_ in (t, t + timedelta(days=1))]
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            disc = list(ex.map(lambda j: (j[0], j[1], fetch(*j)), jobs2))
+        has_ev = {sl_ for sl_, _, evs_ in disc if evs_}
+        valid = {sl_ for sl_, _, evs_ in disc if evs_ is not None}
+        for sl_ in cands:
+            if sl_ not in valid:
+                cache["skip"][sl_] = (now + timedelta(days=7)).isoformat()      # code inconnu : on reessaie dans 7 jours
+            elif sl_ not in has_ev:
+                cache["skip"][sl_] = (now + timedelta(hours=6)).isoformat()     # code valide mais aucun match : dans 6 h
+        for sl_ in sorted(has_ev, key=lambda x: int(x.split(".")[1])):
+            if sl_ not in cache["dyn"] and len(cache["dyn"]) < DYN_MAX:
+                lv_ = int(sl_.split(".")[1])
+                name_ = LEAGUE_NAMES.get(sl_) or f"{sl_.split('.')[0].upper()} - division {lv_}"
+                cache["dyn"][sl_] = {"name": name_, "level": lv_}
+                LEAGUES[sl_] = ALL_COMPS[sl_] = name_
+                PRIORITY.setdefault(sl_, 8 + lv_)
+                n_new += 1
+        fetched = fetched + [x for x in disc if x[0] in cache["dyn"]]
+        cache["disc_at"] = now.isoformat()
+    print(f"Decouverte : {n_found} matchs connus, {n_new} nouveaux championnats ajoutes ({len(cache['dyn'])} au total)")
 
     good_slugs = {slug for slug, _, ev in fetched if ev is not None}   # un slug invalide est ignore
     failed_days, fresh_events = set(), []
