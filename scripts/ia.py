@@ -99,6 +99,7 @@ EXTRA_LEVELS = (1, 2, 3, 4)
 DYN_MAX = 80             # nombre max de championnats decouverts gardes en memoire
 DISC_EVERY_MIN = 30      # la decouverte ne tourne qu'une fois toutes les 30 min, et seulement s'il manque des matchs
 LEAGUE_NAMES = {}        # noms de championnats lus dans les reponses ESPN
+ALL_SAMPLE = {}          # exemple brut du filet "tous les matchs" (affiche dans le diagnostic pour comprendre le format ESPN)
 H2H_FILE = "data/h2h.json"
 H2H_MIN = 3             # il faut au moins 3 confrontations pour que le face-a-face influence le pronostic
 H2H_PRIOR = 20          # poids du modele face au face-a-face (en "matchs equivalents") : 20 = le face-a-face pese peu
@@ -138,18 +139,51 @@ def fetch_all(day):
             r = requests.get(url, params=params, headers=HEADERS, timeout=10)
             r.raise_for_status()
             j = r.json()
-            names = {str(l.get("id")): l.get("name") for l in j.get("leagues", []) if isinstance(l, dict)}
+            names = {}
+            for l in j.get("leagues", []):
+                if isinstance(l, dict) and l.get("name"):
+                    m_ = re.search(r"l:(\d+)", str(l.get("uid", "")))
+                    for key in (str(l.get("id")), m_.group(1) if m_ else None):
+                        if key:
+                            names[key] = l["name"]
             out = []
             for ev in j.get("events", []):
                 m = re.search(r"l:(\d+)", str(ev.get("uid", "")))
                 lid = m.group(1) if m else "x"
                 slug = f"all.{lid}"
-                LEAGUE_NAMES.setdefault(slug, names.get(lid) or (ev.get("league") or {}).get("name") or "Autre compétition")
+                comp0 = (ev.get("competitions") or [{}])[0]
+                nm = names.get(lid) or (ev.get("league") or {}).get("name") or (comp0.get("league") or {}).get("name")
+                if nm:
+                    LEAGUE_NAMES[slug] = nm
+                if not ALL_SAMPLE:
+                    ALL_SAMPLE.update({"haut": sorted(j.keys())[:12], "nb_leagues": len(j.get("leagues", [])),
+                                       "event_cles": sorted(ev.keys())[:20], "uid": str(ev.get("uid"))})
                 out.append((slug, ev))
             return out
         except Exception as e:
             ERRORS.append(f"all {day} -> {type(e).__name__} {str(e)[:100]}")
     return []
+
+
+def resolve_league_name(event_id):
+    """Dernier recours : demande a ESPN la fiche d'un match pour lire le nom de sa competition."""
+    try:
+        r = requests.get("https://site.api.espn.com/apis/site/v2/sports/soccer/all/summary", params={"event": event_id},
+                         headers=HEADERS, timeout=8)
+        r.raise_for_status()
+        j = r.json()
+        for path in (("header", "league", "name"), ("league", "name"), ("leagues", 0, "name")):
+            cur = j
+            try:
+                for k in path:
+                    cur = cur[k]
+                if isinstance(cur, str) and cur:
+                    return cur
+            except Exception:
+                continue
+    except Exception as e:
+        ERRORS.append(f"summary {event_id} -> {type(e).__name__} {str(e)[:80]}")
+    return None
 
 
 def parse_event(ev):
@@ -321,6 +355,10 @@ def card_from(rec, status):
     if rec.get("neutral"):
         c["contexte"] = ("⚠️ Peu ou pas de données pour : " + ", ".join(rec["neutral"]) +
                          " (estimation neutre, très incertaine). ") + c["contexte"]
+    if rec.get("nopred"):
+        c.update({"victoire": "Pas de pronostic", "score_exact": "-", "double_chance": "-", "over": "-", "btts": "-",
+                  "conf": 0, "nopred": True,
+                  "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic."})
     if rec["slug"] in EURO_COMPS:
         c["contexte"] = "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). " + c["contexte"]
     c.pop("_iso", None)
@@ -561,6 +599,8 @@ def main():
     cache.setdefault("results", {})
     cache.setdefault("fixtures", {})
     cache.setdefault("dyn", {})
+    cache.setdefault("lnames", {})
+    LEAGUE_NAMES.update(cache["lnames"])
     cache.setdefault("skip", {})
     for sl_, v_ in cache["dyn"].items():     # championnats decouverts lors des runs precedents : traites comme les autres
         LEAGUES[sl_] = ALL_COMPS[sl_] = v_["name"]
@@ -655,6 +695,14 @@ def main():
             PRIORITY.setdefault(sl_, 13)         # tout en bas : seulement pour completer
             fresh_events.append((sl_, q))
             n_all += 1
+    first_ev = {}
+    for sl_, q in fresh_events:
+        if sl_.startswith("all.") and sl_ not in LEAGUE_NAMES and sl_ != "all.x":
+            first_ev.setdefault(sl_, q["id"])
+    for sl_, eid in list(first_ev.items())[:12]:
+        nm_ = resolve_league_name(eid)
+        if nm_:
+            LEAGUE_NAMES[sl_] = cache["lnames"][sl_] = nm_
     for d in missing:
         if d not in failed_days:
             done_days.add(d.isoformat())
@@ -696,9 +744,11 @@ def main():
         r.setdefault("id", k)                # anciens enregistrements sans id
     mcache = {}
 
+    intl_pool = [r for sl_ in INTL for r in results.get(sl_, [])]     # selections : tous les matchs, toutes competitions
+
     def model_before(slug, day):
         if (slug, day) not in mcache:
-            train = [r[:4] for r in results[slug] if r[4] < day]
+            train = [r[:4] for r in (intl_pool if slug in INTL else results[slug]) if r[4] < day]
             mcache[(slug, day)] = fit(train) if len(train) >= 10 else None
         return mcache[(slug, day)]
 
@@ -726,16 +776,20 @@ def main():
                 if mm and tm in mm["att"]:
                     st_ = LEAGUE_STRENGTH.get(sl, 0.7)
                     att[tm], dfn[tm], gp[tm] = mm["att"][tm] * st_, mm["def"][tm] / st_, mm["gp"][tm]
-                else:                                # championnat non couvert : on garde le match, avec une estimation neutre
-                    att[tm], dfn[tm], gp[tm] = NEUTRAL_STRENGTH, 1 / NEUTRAL_STRENGTH, 0
-                    neutral.append(tm)
+                else:
+                    pm = model_before("fifa.friendly", day)          # selection nationale connue par ses matchs recents ?
+                    if pm and tm in pm["att"]:
+                        att[tm], dfn[tm], gp[tm] = pm["att"][tm], pm["def"][tm], pm["gp"][tm]
+                    else:                            # inconnu : estimation neutre, signalee
+                        att[tm], dfn[tm], gp[tm] = NEUTRAL_STRENGTH, 1 / NEUTRAL_STRENGTH, 0
+                        neutral.append(tm)
             return {"mu_h": mu_eu[0], "mu_a": mu_eu[1], "att": att, "def": dfn, "gp": gp, "neutral": neutral}
         except Exception:
             return None
 
     def thin_model(slug, home, away, day):
         """Peu ou pas de donnees : equipes 'moyennes' (ajustees si on a deja quelques matchs). Toujours signale."""
-        train = [r[:4] for r in results.get(slug, []) if r[4] < day]
+        train = [r[:4] for r in (intl_pool if slug in INTL else results.get(slug, [])) if r[4] < day]
         mm = fit(train) if len(train) >= 4 else None
         mu = (sum(r[2] for r in train) / len(train), sum(r[3] for r in train) / len(train)) if len(train) >= 4 else mu_eu
         att, dfn, gp = {home: 1.0, away: 1.0}, {home: 1.0, away: 1.0}, {home: 0, away: 0}
@@ -788,11 +842,13 @@ def main():
             continue
         refresh = bool(rec) and p["state"] == "pre" and rec.get("kind") == "avant"
         if not rec or refresh:               # modifiable jusqu'au coup d'envoi (contexte, absences), fige ensuite
-            m = euro_model(p["home"], p["away"], min(day, today)) if slug in EURO_COMPS else model_before(slug, min(day, today))
-            if not m or (slug not in EURO_COMPS and (m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES)):
+            cross = slug in EURO_COMPS or slug.startswith("all.")
+            m = euro_model(p["home"], p["away"], min(day, today)) if cross else model_before(slug, min(day, today))
+            if not m or (not cross and (m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES)):
                 if p["state"] == "post":
                     continue                         # on ne recalcule pas apres coup un match sans donnees
                 m = thin_model(slug, p["home"], p["away"], min(day, today))   # a venir / en cours : on l'affiche quand meme
+            nopred = all(m["gp"].get(tm, 0) == 0 for tm in (p["home"], p["away"]))   # aucune donnee sur aucune des deux equipes
             pr = pr0 = predict(m, p["home"], p["away"])
             ctx_text, base_p, noh2h_p = "", None, None
             if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
@@ -816,7 +872,7 @@ def main():
             rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": ALL_COMPS.get(slug) or LEAGUE_NAMES.get(slug) or "Autre compétition", "home": p["home"], "away": p["away"],
                                    "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
                                    "kind": "avant" if p["state"] == "pre" else "retro", "res": None,
-                                   "ctx": ctx_text, "base_p": base_p, "noh2h_p": noh2h_p, "neutral": m.get("neutral", [])}
+                                   "ctx": ctx_text, "base_p": base_p, "noh2h_p": noh2h_p, "neutral": m.get("neutral", []), "nopred": nopred}
         if p["state"] == "post" and "gh" in p and not rec.get("res"):
             rec["res"] = [p["gh"], p["ga"]]
             rec["eval"] = evaluate(rec)
@@ -883,6 +939,8 @@ def main():
             "Matchs trouvés aujourd'hui par compétition : " + (", ".join(f"{k} {v}" for k, v in top) or "aucun"),
             f"Matchs ajoutés par le filet « tous les matchs ESPN » : {n_all}",
             f"Cartes à venir affichées : {len(today_cards[:MAX_MATCHES])} (jours : {', '.join(sorted(upcoming)) or 'aucun'})",
+            "Filet ESPN - format reçu : " + json.dumps(ALL_SAMPLE, ensure_ascii=False)[:300],
+            "Compétitions sans nom : " + (", ".join(sorted({sl_ for sl_, _ in fresh_events if sl_.startswith("all.") and sl_ not in LEAGUE_NAMES})[:8]) or "aucune"),
             "Codes sans réponse : " + (", ".join(sorted(set(ALL_COMPS) - good_slugs)[:12]) or "aucun")]
     keep = sorted(hist.items(), key=lambda kv: kv[1]["iso"], reverse=True)[:600]
     os.makedirs("data", exist_ok=True)
