@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11 00:21 UTC",
+ "date": "2026-11-11 01:29 UTC",
  "version": "V17",
  "stats": {
   "n": 704,
@@ -19,7 +19,7 @@
  "diag": [
   "Compétitions suivies : 72 dont 3 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : slv.1 2, fifa.friendly 1, bra.2 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 179",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 178",
   "Cartes à venir affichées : 40 (jours : 2026-11-11, 2026-11-12, 2026-11-13)",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
@@ -2349,6 +2349,25 @@
  ],
  "matches": [
   {
+   "league": "Salvadoran Primera Division",
+   "home": "Isidro Metapán",
+   "away": "C.D. Platense",
+   "status": "live",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Isidro Metapán 1.8 - C.D. Platense 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Isidro Metapán, C.D. Platense (estimation neutre, très incertaine). Isidro Metapán : prochains : Luis Ángel Firpo (Salvadoran Primera Division, 3 j), Internacional Santa Tecla (Salvadoran Primera Division, 11 j)  ||  C.D. Platense : prochains : Atletico Balboa (Salvadoran Primera Division, 5 j), Águila (Salvadoran Primera Division, 11 j)",
+   "day": "2026-11-11",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "23'"
+  },
+  {
    "league": "Matchs amicaux internationaux",
    "home": "Vietnam",
    "away": "Chinese Taipei",
@@ -2367,23 +2386,6 @@
   },
   {
    "league": "Salvadoran Primera Division",
-   "home": "Isidro Metapán",
-   "away": "C.D. Platense",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-11 | Buts attendus Isidro Metapán 1.8 - C.D. Platense 1.5 | 1/N/2 : 46/23/30% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Isidro Metapán, C.D. Platense (estimation neutre, très incertaine). Face-à-face (8 confrontations) : Isidro Metapán 4V · 2N · C.D. Platense 2V (scores : 2-1 x3, 1-2, 3-3)  ||  Isidro Metapán : prochains : Luis Ángel Firpo (Salvadoran Primera Division, 3 j)  ||  C.D. Platense",
-   "day": "2026-11-11",
-   "prio": 9
-  },
-  {
-   "league": "Salvadoran Primera Division",
    "home": "Fuerte San Francisco",
    "away": "Alianza FC",
    "status": "today",
@@ -2395,7 +2397,7 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 64%",
    "analyse": "2026-11-11 | Buts attendus Fuerte San Francisco 1.8 - Alianza FC 1.5 | 1/N/2 : 35/20/45% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Fuerte San Francisco, Alianza FC (estimation neutre, très incertaine). Face-à-face (8 confrontations) : Fuerte San Francisco 1V · 1N · Alianza FC 6V (scores : 0-1 x3, 1-0, 0-2)  ||  Fuerte San Francisco  ||  Alianza FC : repos 3 j | prochains : Millonarios (Liga Colombia, 3 j)",
+   "contexte": "⚠️ Peu ou pas de données pour : Fuerte San Francisco, Alianza FC (estimation neutre, très incertaine). Face-à-face (8 confrontations) : Fuerte San Francisco 1V · 1N · Alianza FC 6V (scores : 0-1 x3, 1-0, 0-2)  ||  Fuerte San Francisco : prochains : Inca Aruba (Salvadoran Primera Division, 10 j)  ||  Alianza FC : repos 3 j | prochains : Millonarios (Liga Colombia, 3 j), CD FAS (Salvadoran Primera Division, 3 j), CD Municipal Limeño (Salvadoran Primera Division, 10 j)",
    "day": "2026-11-11",
    "prio": 9
   },
@@ -2521,7 +2523,7 @@
   {
    "league": "Autre compétition",
    "home": "SC Wiedenbrück 2000",
-   "away": "SC PREUßEN 06 MÜNSTER II",
+   "away": "Preußen Münster II",
    "status": "today",
    "conf": 77,
    "victoire": "Serré : pas de nul (12)",
@@ -2530,8 +2532,8 @@
    "corner": "N/D",
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-11 | Buts attendus SC Wiedenbrück 2000 1.8 - SC PREUßEN 06 MÜNSTER II 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : SC Wiedenbrück 2000, SC PREUßEN 06 MÜNSTER II (estimation neutre, très incertaine). SC Wiedenbrück 2000  ||  SC PREUßEN 06 MÜNSTER II",
+   "analyse": "2026-11-11 | Buts attendus SC Wiedenbrück 2000 1.8 - Preußen Münster II 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : SC Wiedenbrück 2000, Preußen Münster II (estimation neutre, très incertaine). SC Wiedenbrück 2000  ||  Preußen Münster II",
    "day": "2026-11-11",
    "prio": 13
   },
@@ -2684,7 +2686,7 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Birmingham City 1.8 - Sunderland 1.5 | 1/N/2 : 47/23/31% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Birmingham City, Sunderland (estimation neutre, très incertaine). Birmingham City : 1e/24 (29 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Stoke City (Championship, 10 j)  ||  Sunderland : 19e/20 (8 pts en 10 m.) | repos 3 j | prochains : Aston Villa (Premier League, 10 j)",
+   "contexte": "⚠️ Peu ou pas de données pour : Birmingham City, Sunderland (estimation neutre, très incertaine). Birmingham City : 1e/24 (29 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Stoke City (Championship, 10 j), Burnley (Championship, 14 j)  ||  Sunderland : 19e/20 (8 pts en 10 m.) | repos 3 j | prochains : Aston Villa (Premier League, 10 j)",
    "day": "2026-11-11",
    "prio": 13
   },
@@ -2718,7 +2720,7 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Liverpool 1.8 - Aston Villa 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Liverpool, Aston Villa (estimation neutre, très incertaine). Liverpool : repos 3 j | prochains : Danubio (Liga Uruguay, 4 j), Manchester United (Premier League, 11 j)  ||  Aston Villa : 10e/20 (13 pts en 10 m.) | repos 3 j | prochains : Sunderland (Premier League, 10 j), Galatasaray (Ligue des champions, 13 j)",
+   "contexte": "⚠️ Peu ou pas de données pour : Liverpool, Aston Villa (estimation neutre, très incertaine). Liverpool : repos 3 j | prochains : Danubio (Liga Uruguay, 4 j), Manchester United (Premier League, 11 j), Club Brugge (Ligue des champions, 14 j)  ||  Aston Villa : 10e/20 (13 pts en 10 m.) | repos 3 j | prochains : Sunderland (Premier League, 10 j), Galatasaray (Ligue des champions, 13 j)",
    "day": "2026-11-11",
    "prio": 13
   },
@@ -2837,7 +2839,7 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Brighton & Hove Albion 1.7 - Watford 1.6 | 1/N/2 : 42/23/35% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Brighton & Hove Albion, Watford (estimation neutre, très incertaine). Brighton & Hove Albion : 2e/20 (22 pts en 10 m.) | repos 3 j | prochains : Hull City (Premier League, 11 j)  ||  Watford : 20e/24 (15 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Sheffield United (Championship, 10 j)",
+   "contexte": "⚠️ Peu ou pas de données pour : Brighton & Hove Albion, Watford (estimation neutre, très incertaine). Brighton & Hove Albion : 2e/20 (22 pts en 10 m.) | repos 3 j | prochains : Hull City (Premier League, 11 j)  ||  Watford : 20e/24 (15 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Sheffield United (Championship, 10 j), Blackburn Rovers (Championship, 14 j)",
    "day": "2026-11-11",
    "prio": 13
   },
@@ -3025,6 +3027,23 @@
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Green Bay 1.8 - IU Indianapolis 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Green Bay, IU Indianapolis (estimation neutre, très incertaine). Green Bay  ||  IU Indianapolis",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
+   "home": "Milwaukee",
+   "away": "Wright State",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Milwaukee 1.8 - Wright State 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Milwaukee, Wright State (estimation neutre, très incertaine). Milwaukee  ||  Wright State",
    "day": "2026-11-11",
    "prio": 13
   },
