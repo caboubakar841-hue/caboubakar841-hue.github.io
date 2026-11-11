@@ -1,6 +1,6 @@
 // PRONO70 - service worker : consultation hors ligne
 // Version du cache : a changer a chaque mise a jour de index.html pour forcer le rechargement
-const CACHE = "prono70-v2";
+const CACHE = "prono70-v3";
 const SHELL = ["./", "./index.html", "./manifest.json"];
 
 self.addEventListener("install", (e) => {
