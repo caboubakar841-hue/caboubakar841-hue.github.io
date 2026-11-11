@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11 03:09 UTC",
+ "date": "2026-11-11 03:57 UTC",
  "version": "V17",
  "stats": {
   "n": 704,
@@ -18,7 +18,7 @@
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : slv.1 2, fifa.friendly 1, bra.2 1",
+  "Matchs trouvés aujourd'hui par compétition : fifa.friendly 1, slv.1 1, bra.2 1",
   "Matchs ajoutés par le filet « tous les matchs ESPN » : 177",
   "Cartes à venir affichées : 40 (jours : 2026-11-11, 2026-11-12, 2026-11-13)",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
@@ -2348,25 +2348,6 @@
   }
  ],
  "matches": [
-  {
-   "league": "Salvadoran Primera Division",
-   "home": "Isidro Metapán",
-   "away": "C.D. Platense",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-11 | Buts attendus Isidro Metapán 1.8 - C.D. Platense 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Isidro Metapán, C.D. Platense (estimation neutre, très incertaine). Isidro Metapán : prochains : Luis Ángel Firpo (Salvadoran Primera Division, 3 j), Internacional Santa Tecla (Salvadoran Primera Division, 11 j)  ||  C.D. Platense : prochains : Atletico Balboa (Salvadoran Primera Division, 5 j), Águila (Salvadoran Primera Division, 11 j)",
-   "day": "2026-11-11",
-   "prio": 9,
-   "live_score": "2-1",
-   "minute": "90'+4'"
-  },
   {
    "league": "Matchs amicaux internationaux",
    "home": "Vietnam",
