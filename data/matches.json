@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11 05:40 UTC",
+ "date": "2026-11-11 06:34 UTC",
  "version": "V17",
  "stats": {
   "n": 704,
@@ -2911,6 +2911,23 @@
   },
   {
    "league": "Autre compétition",
+   "home": "Independiente Petrolero",
+   "away": "Always Ready",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-11 | Buts attendus Independiente Petrolero 1.8 - Always Ready 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Independiente Petrolero, Always Ready (estimation neutre, très incertaine). Independiente Petrolero : repos 5 j | prochains : Oriente Petrolero (Liga Bolivie, 10 j)  ||  Always Ready : repos 4 j | prochains : San Antonio Bulo Bulo (Liga Bolivie, 11 j)",
+   "day": "2026-11-11",
+   "prio": 13
+  },
+  {
+   "league": "Autre compétition",
    "home": "Lindenwood",
    "away": "Houston Christian",
    "status": "today",
@@ -3008,23 +3025,6 @@
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-11 | Buts attendus Old Dominion 1.8 - App State 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Old Dominion, App State (estimation neutre, très incertaine). Old Dominion  ||  App State",
-   "day": "2026-11-11",
-   "prio": 13
-  },
-  {
-   "league": "Autre compétition",
-   "home": "Wyoming",
-   "away": "Hawai'i",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-11 | Buts attendus Wyoming 1.8 - Hawai'i 1.5 | 1/N/2 : 45/23/33% | base sur 0 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Wyoming, Hawai'i (estimation neutre, très incertaine). Wyoming  ||  Hawai'i",
    "day": "2026-11-11",
    "prio": 13
   },
