@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11 22:53 UTC",
+ "date": "2026-11-11 23:38 UTC",
  "version": "V17",
  "stats": {
   "n": 704,
@@ -18,14 +18,206 @@
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : slv.1 1, bra.2 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 155",
-  "Cartes à venir affichées : 40 (jours : 2026-11-11, 2026-11-12, 2026-11-13)",
+  "Matchs trouvés aujourd'hui par compétition : bra.2 1",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 153",
+  "Cartes à venir affichées : 40 (jours : 2026-11-12, 2026-11-13)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:3922~e:401930244\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
  "tickets": [
+  {
+   "v": 2,
+   "day": "2026-11-12",
+   "eligible": 19,
+   "tickets": [
+    {
+     "name": "Ticket 10 matchs (risqué)",
+     "rule": "60 à 79 %",
+     "target": 10,
+     "n": 10,
+     "legs": [
+      {
+       "id": "401929777",
+       "match": "Bonaire vs Cuba",
+       "league": "Ligue des nations (CONCACAF)",
+       "time": "20:00",
+       "pick": "Double chance X2 (nul ou Cuba)",
+       "code": "X2",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401875813",
+       "match": "Estudiantes de La Plata vs Independiente Rivadavia",
+       "league": "Argentine Supercopa",
+       "time": "23:00",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401861146",
+       "match": "Armenia vs Cyprus",
+       "league": "Ligue des nations (UEFA)",
+       "time": "17:00",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401861152",
+       "match": "Montenegro vs Latvia",
+       "league": "Ligue des nations (UEFA)",
+       "time": "19:45",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401916986",
+       "match": "Barcelona vs Arsenal",
+       "league": "UEFA Women's Champions League",
+       "time": "17:45",
+       "pick": "Over 2.5 buts",
+       "code": "O25",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401930227",
+       "match": "Real Potosí vs Nacional Potosí",
+       "league": "Copa Bolivia",
+       "time": "23:00",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401930994",
+       "match": "Academia Puerto Cabello vs Monagas SC",
+       "league": "Liga Venezuela",
+       "time": "22:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401878034",
+       "match": "Deportivo Pasto vs Atlético Junior",
+       "league": "Liga Colombia",
+       "time": "22:00",
+       "pick": "Double chance X2 (nul ou Atlético Junior)",
+       "code": "X2",
+       "p": 70,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401930962",
+       "match": "Uzbekistan vs Russia",
+       "league": "Matchs amicaux internationaux",
+       "time": "15:00",
+       "pick": "BTTS OUI",
+       "code": "BY",
+       "p": 70,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401933115",
+       "match": "Lithuania vs Suriname",
+       "league": "Matchs amicaux internationaux",
+       "time": "17:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 70,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 3.4,
+     "status": "en cours"
+    },
+    {
+     "name": "Ticket 5 matchs (sûr)",
+     "rule": "80 % ou plus",
+     "target": 5,
+     "n": 5,
+     "legs": [
+      {
+       "id": "401916983",
+       "match": "Benfica vs Austria Vienna",
+       "league": "UEFA Women's Champions League",
+       "time": "20:00",
+       "pick": "Double chance 1X (Benfica ou nul)",
+       "code": "1X",
+       "p": 96,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401932063",
+       "match": "América vs Toluca",
+       "league": "Mexican Liga BBVA MX Femenil",
+       "time": "01:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 94,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401861150",
+       "match": "England vs Croatia",
+       "league": "Ligue des nations (UEFA)",
+       "time": "19:45",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 93,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401929797",
+       "match": "Cayman Islands vs Guyana",
+       "league": "Ligue des nations (CONCACAF)",
+       "time": "19:00",
+       "pick": "Double chance X2 (nul ou Guyana)",
+       "code": "X2",
+       "p": 90,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401861149",
+       "match": "San Marino vs Belarus",
+       "league": "Ligue des nations (UEFA)",
+       "time": "19:45",
+       "pick": "Double chance X2 (nul ou Belarus)",
+       "code": "X2",
+       "p": 89,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 68.3,
+     "status": "en cours"
+    }
+   ]
+  },
   {
    "v": 2,
    "day": "2026-11-11",
@@ -2155,221 +2347,9 @@
      "status": "perdu"
     }
    ]
-  },
-  {
-   "v": 2,
-   "day": "2026-10-29",
-   "eligible": 13,
-   "tickets": [
-    {
-     "name": "Ticket 10 matchs (risqué)",
-     "rule": "60 à 79 %",
-     "target": 10,
-     "n": 10,
-     "legs": [
-      {
-       "id": "401841296",
-       "match": "Bahia vs São Paulo",
-       "league": "Brasileirao",
-       "time": "00:30",
-       "pick": "Double chance 12 (pas de nul)",
-       "code": "12",
-       "p": 72,
-       "ok": true,
-       "score": "3-2"
-      },
-      {
-       "id": "401841297",
-       "match": "Remo vs Botafogo",
-       "league": "Brasileirao",
-       "time": "00:30",
-       "pick": "Double chance 12 (pas de nul)",
-       "code": "12",
-       "p": 72,
-       "ok": true,
-       "score": "2-1"
-      },
-      {
-       "id": "401841292",
-       "match": "Vasco da Gama vs Flamengo",
-       "league": "Brasileirao",
-       "time": "23:00",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 71,
-       "ok": false,
-       "score": "1-4"
-      },
-      {
-       "id": "761918",
-       "match": "Vancouver Whitecaps vs San Diego FC",
-       "league": "MLS",
-       "time": "02:30",
-       "pick": "Over 2.5 buts",
-       "code": "O25",
-       "p": 70,
-       "ok": true,
-       "score": "4-1"
-      },
-      {
-       "id": "761917",
-       "match": "San Jose Earthquakes vs Colorado Rapids",
-       "league": "MLS",
-       "time": "02:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 70,
-       "ok": true,
-       "score": "2-2"
-      },
-      {
-       "id": "761910",
-       "match": "Austin FC vs Real Salt Lake",
-       "league": "MLS",
-       "time": "00:30",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 70,
-       "ok": true,
-       "score": "1-2"
-      },
-      {
-       "id": "761916",
-       "match": "Seattle Sounders FC vs Houston Dynamo FC",
-       "league": "MLS",
-       "time": "02:30",
-       "pick": "Double chance 12 (pas de nul)",
-       "code": "12",
-       "p": 70,
-       "ok": true,
-       "score": "0-1"
-      },
-      {
-       "id": "761912",
-       "match": "FC Dallas vs Columbus Crew",
-       "league": "MLS",
-       "time": "00:30",
-       "pick": "Over 2.5 buts",
-       "code": "O25",
-       "p": 69,
-       "ok": false,
-       "score": "0-2"
-      },
-      {
-       "id": "401874976",
-       "match": "Frosinone vs Lecce",
-       "league": "Serie A",
-       "time": "17:30",
-       "pick": "Over 2.5 buts",
-       "code": "O25",
-       "p": 68,
-       "ok": true,
-       "score": "5-1"
-      },
-      {
-       "id": "761914",
-       "match": "Nashville SC vs Philadelphia Union",
-       "league": "MLS",
-       "time": "00:30",
-       "pick": "Over 2.5 buts",
-       "code": "O25",
-       "p": 67,
-       "ok": false,
-       "score": "0-0"
-      }
-     ],
-     "combined": 2.7,
-     "status": "perdu"
-    },
-    {
-     "name": "Ticket 5 matchs (sûr)",
-     "rule": "80 % ou plus",
-     "target": 5,
-     "n": 5,
-     "legs": [
-      {
-       "id": "761913",
-       "match": "Minnesota United FC vs Sporting Kansas City",
-       "league": "MLS",
-       "time": "00:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 95,
-       "ok": true,
-       "score": "3-1"
-      },
-      {
-       "id": "761915",
-       "match": "St. Louis CITY SC vs Portland Timbers",
-       "league": "MLS",
-       "time": "00:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 91,
-       "ok": true,
-       "score": "2-3"
-      },
-      {
-       "id": "401876986",
-       "match": "América vs Tijuana",
-       "league": "Liga MX",
-       "time": "03:00",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 90,
-       "ok": true,
-       "score": "1-1"
-      },
-      {
-       "id": "761911",
-       "match": "Chicago Fire FC vs Orlando City SC",
-       "league": "MLS",
-       "time": "00:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 90,
-       "ok": true,
-       "score": "2-2"
-      },
-      {
-       "id": "401874969",
-       "match": "Fiorentina vs Atalanta",
-       "league": "Serie A",
-       "time": "19:45",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 88,
-       "ok": true,
-       "score": "2-2"
-      }
-     ],
-     "combined": 61.7,
-     "status": "gagné"
-    }
-   ]
   }
  ],
  "matches": [
-  {
-   "league": "Salvadoran Primera Division",
-   "home": "Fuerte San Francisco",
-   "away": "Alianza FC",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Fuerte San Francisco, Alianza FC (estimation neutre, très incertaine). Fuerte San Francisco : prochains : Inca Aruba (Salvadoran Primera Division, 10 j)  ||  Alianza FC : repos 3 j | prochains : Millonarios (Liga Colombia, 3 j), CD FAS (Salvadoran Primera Division, 3 j), CD Municipal Limeño (Salvadoran Primera Division, 10 j)",
-   "day": "2026-11-11",
-   "prio": 9,
-   "nopred": true,
-   "live_score": "1-0",
-   "minute": "60'"
-  },
   {
    "league": "Brazilian Serie B",
    "home": "Londrina",
@@ -2388,7 +2368,7 @@
    "prio": 10,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "79'"
   },
   {
    "league": "Copa Bolivia",
@@ -2407,27 +2387,7 @@
    "day": "2026-11-11",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "HT"
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "Purdue Fort Wayne",
-   "away": "Wright State",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Purdue Fort Wayne, Wright State (estimation neutre, très incertaine). Purdue Fort Wayne  ||  Wright State",
-   "day": "2026-11-11",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "1-0",
-   "minute": "79'"
+   "minute": "80'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2446,8 +2406,8 @@
    "day": "2026-11-11",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "53'"
+   "live_score": "0-3",
+   "minute": "90'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2467,7 +2427,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "71'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2486,8 +2446,28 @@
    "day": "2026-11-11",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-0",
-   "minute": "45'"
+   "live_score": "2-1",
+   "minute": "71'"
+  },
+  {
+   "league": "NCAA Men's Soccer",
+   "home": "UAlbany",
+   "away": "NJIT",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : UAlbany, NJIT (estimation neutre, très incertaine). UAlbany  ||  NJIT",
+   "day": "2026-11-11",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "3'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2506,28 +2486,8 @@
    "day": "2026-11-11",
    "prio": 13,
    "nopred": true,
-   "live_score": "2-1",
-   "minute": "79'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Charlotte",
-   "away": "UAB",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Charlotte, UAB (estimation neutre, très incertaine). Charlotte  ||  UAB",
-   "day": "2026-11-11",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "1-2",
-   "minute": "77'"
+   "live_score": "2-2",
+   "minute": "110'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2547,7 +2507,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-0",
-   "minute": "38'"
+   "minute": "65'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2567,7 +2527,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-0",
-   "minute": "43'"
+   "minute": "64'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2586,8 +2546,8 @@
    "day": "2026-11-11",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "41'"
+   "live_score": "1-1",
+   "minute": "65'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2606,8 +2566,8 @@
    "day": "2026-11-11",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "39'"
+   "live_score": "1-0",
+   "minute": "64'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2626,8 +2586,8 @@
    "day": "2026-11-11",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "45'"
+   "live_score": "1-1",
+   "minute": "71'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2647,7 +2607,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "44'"
+   "minute": "68'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2666,14 +2626,14 @@
    "day": "2026-11-11",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "16'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "NCAA Women's Soccer",
    "home": "Army",
    "away": "Boston University",
-   "status": "today",
+   "status": "live",
    "conf": 0,
    "victoire": "Pas de pronostic",
    "score_exact": "-",
@@ -2685,13 +2645,15 @@
    "contexte": "⚠️ Peu ou pas de données pour : Army, Boston University (estimation neutre, très incertaine). Army  ||  Boston University",
    "day": "2026-11-11",
    "prio": 13,
-   "nopred": true
+   "nopred": true,
+   "live_score": "0-1",
+   "minute": "30'"
   },
   {
    "league": "NCAA Women's Soccer",
    "home": "Boise State",
    "away": "San Diego State",
-   "status": "today",
+   "status": "live",
    "conf": 0,
    "victoire": "Pas de pronostic",
    "score_exact": "-",
@@ -2703,13 +2665,15 @@
    "contexte": "⚠️ Peu ou pas de données pour : Boise State, San Diego State (estimation neutre, très incertaine). Boise State  ||  San Diego State",
    "day": "2026-11-11",
    "prio": 13,
-   "nopred": true
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "33'"
   },
   {
    "league": "NCAA Women's Soccer",
    "home": "Loyola Marymount",
    "away": "Santa Clara",
-   "status": "today",
+   "status": "live",
    "conf": 68,
    "victoire": "Victoire Santa Clara",
    "score_exact": "1-2 (10%) · 1-3 (7%)",
@@ -2720,25 +2684,9 @@
    "analyse": "2026-11-11 | Buts attendus Loyola Marymount 0.9 - Santa Clara 2.3 | 1/N/2 : 13/18/68% | base sur 0 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Loyola Marymount (estimation neutre, très incertaine). Loyola Marymount  ||  Santa Clara : 4e/18 (21 pts en 11 m.) | repos 3 j",
    "day": "2026-11-11",
-   "prio": 13
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "UAlbany",
-   "away": "NJIT",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : UAlbany, NJIT (estimation neutre, très incertaine). UAlbany  ||  NJIT",
-   "day": "2026-11-11",
    "prio": 13,
-   "nopred": true
+   "live_score": "0-0",
+   "minute": "32'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -3358,6 +3306,77 @@
    "contexte": "Estudiantes de La Plata : repos 5 j  ||  Independiente Rivadavia : repos 5 j | prochains : Boca Juniors (Liga Argentina, 10 j)",
    "day": "2026-11-12",
    "prio": 13
+  },
+  {
+   "league": "Copa Bolivia",
+   "home": "Real Potosí",
+   "away": "Nacional Potosí",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : Nul ou Real Potosí",
+   "score_exact": "1-0 (16%) · 0-0 (12%)",
+   "double_chance": "1X 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 65%",
+   "btts": "BTTS NON 60%",
+   "analyse": "2026-11-12 | Buts attendus Real Potosí 1.3 - Nacional Potosí 0.8 | 1/N/2 : 48/29/23% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Real Potosí : repos 4 j | prochains : Bolívar (Liga Bolivie, 10 j)  ||  Nacional Potosí : repos 4 j | prochains : Real Tomayapo (Liga Bolivie, 9 j)",
+   "day": "2026-11-12",
+   "prio": 13
+  },
+  {
+   "league": "USL Super League",
+   "home": "DC Power FC",
+   "away": "Brooklyn FC",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : DC Power FC, Brooklyn FC (estimation neutre, très incertaine). DC Power FC  ||  Brooklyn FC",
+   "day": "2026-11-12",
+   "prio": 13,
+   "nopred": true
+  },
+  {
+   "league": "NCAA Men's Soccer",
+   "home": "Bowling Green",
+   "away": "UIC",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Bowling Green, UIC (estimation neutre, très incertaine). Bowling Green  ||  UIC",
+   "day": "2026-11-12",
+   "prio": 13,
+   "nopred": true
+  },
+  {
+   "league": "NCAA Men's Soccer",
+   "home": "Evansville",
+   "away": "Western Michigan",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Evansville, Western Michigan (estimation neutre, très incertaine). Evansville  ||  Western Michigan",
+   "day": "2026-11-12",
+   "prio": 13,
+   "nopred": true
   },
   {
    "league": "Liga Bolivie",
