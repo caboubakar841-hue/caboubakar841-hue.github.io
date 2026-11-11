@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11 08:16 UTC",
+ "date": "2026-11-11 08:17 UTC",
  "version": "V17",
  "stats": {
   "n": 704,
@@ -22,7 +22,7 @@
   "Matchs ajoutés par le filet « tous les matchs ESPN » : 175",
   "Cartes à venir affichées : 40 (jours : 2026-11-11, 2026-11-12, 2026-11-13)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:3922~e:401930244\"}",
-  "Compétitions sans nom : all.18505, all.18992, all.20114, all.20132, all.20381, all.8315, all.8346",
+  "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
  "tickets": [
