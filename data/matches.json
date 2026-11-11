@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11 01:29 UTC",
+ "date": "2026-11-11 02:19 UTC",
  "version": "V17",
  "stats": {
   "n": 704,
@@ -17,9 +17,9 @@
   "dc_euro": 81
  },
  "diag": [
-  "Compétitions suivies : 72 dont 3 découvertes automatiquement",
+  "Compétitions suivies : 73 dont 4 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : slv.1 2, fifa.friendly 1, bra.2 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 178",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 177",
   "Cartes à venir affichées : 40 (jours : 2026-11-11, 2026-11-12, 2026-11-13)",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
@@ -2364,8 +2364,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Isidro Metapán, C.D. Platense (estimation neutre, très incertaine). Isidro Metapán : prochains : Luis Ángel Firpo (Salvadoran Primera Division, 3 j), Internacional Santa Tecla (Salvadoran Primera Division, 11 j)  ||  C.D. Platense : prochains : Atletico Balboa (Salvadoran Primera Division, 5 j), Águila (Salvadoran Primera Division, 11 j)",
    "day": "2026-11-11",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "23'"
+   "live_score": "0-1",
+   "minute": "HT"
   },
   {
    "league": "Matchs amicaux internationaux",
