@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12 22:09 UTC",
+ "date": "2026-11-12 22:50 UTC",
  "version": "V17",
  "stats": {
   "n": 706,
@@ -20,7 +20,7 @@
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : concacaf.nations.league 2, slv.1 2, bra.2 2, col.1 1, uru.1 1, ven.1 1, gua.1 1",
   "Matchs africains affichés (à venir / live) : 12",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 177",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 174",
   "Cartes à venir affichées : 40 (jours : 2026-11-12, 2026-11-13, 2026-11-14)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:3922~e:401930244\"}",
   "Compétitions sans nom : aucune",
@@ -2368,7 +2368,7 @@
    "day": "2026-11-12",
    "prio": 2,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "HT"
   },
   {
    "league": "Salvadoran Primera Division",
@@ -2387,8 +2387,8 @@
    "day": "2026-11-12",
    "prio": 9,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "34'"
+   "live_score": "1-0",
+   "minute": "53'"
   },
   {
    "league": "Salvadoran Primera Division",
@@ -2407,8 +2407,8 @@
    "day": "2026-11-12",
    "prio": 9,
    "nopred": true,
-   "live_score": "2-1",
-   "minute": "36'"
+   "live_score": "3-1",
+   "minute": "51'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2427,8 +2427,8 @@
    "day": "2026-11-12",
    "prio": 9,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "4'"
+   "live_score": "0-1",
+   "minute": "45'+1'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2448,7 +2448,7 @@
    "prio": 10,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "HT"
   },
   {
    "league": "Liga Venezuela",
@@ -2467,7 +2467,7 @@
    "day": "2026-11-12",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "HT"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2487,27 +2487,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "39'"
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "Cornell",
-   "away": "Harvard",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Cornell, Harvard (estimation neutre, très incertaine). Cornell  ||  Harvard",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "0-1",
-   "minute": "64'"
+   "minute": "52'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2526,48 +2506,28 @@
    "day": "2026-11-12",
    "prio": 13,
    "nopred": true,
+   "live_score": "0-3",
+   "minute": "43'"
+  },
+  {
+   "league": "NCAA Men's Soccer",
+   "home": "North Carolina",
+   "away": "NC State",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : North Carolina, NC State (estimation neutre, très incertaine). North Carolina  ||  NC State",
+   "day": "2026-11-12",
+   "prio": 13,
+   "nopred": true,
    "live_score": "0-0",
-   "minute": "4'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "North Dakota State",
-   "away": "South Dakota",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : North Dakota State, South Dakota (estimation neutre, très incertaine). North Dakota State  ||  South Dakota",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "1-0",
-   "minute": "90'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Columbia",
-   "away": "Princeton",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Columbia, Princeton (estimation neutre, très incertaine). Columbia  ||  Princeton",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "1-0",
-   "minute": "66'"
+   "minute": "11'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2586,8 +2546,8 @@
    "day": "2026-11-12",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-0",
+   "minute": "76'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2606,8 +2566,8 @@
    "day": "2026-11-12",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "HT"
+   "live_score": "2-1",
+   "minute": "69'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2626,8 +2586,8 @@
    "day": "2026-11-12",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "30'"
+   "live_score": "1-1",
+   "minute": "48'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2647,7 +2607,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "55'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2667,7 +2627,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "39'"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2771,24 +2731,6 @@
    "contexte": "Real Potosí : repos 4 j | prochains : Bolívar (Liga Bolivie, 10 j)  ||  Nacional Potosí : repos 4 j | prochains : Real Tomayapo (Liga Bolivie, 9 j)",
    "day": "2026-11-12",
    "prio": 13
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "North Carolina",
-   "away": "NC State",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : North Carolina, NC State (estimation neutre, très incertaine). North Carolina  ||  NC State",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true
   },
   {
    "league": "NCAA Women's Soccer",
@@ -3353,6 +3295,23 @@
    "btts": "BTTS OUI 62%",
    "analyse": "2026-11-13 | Buts attendus Qatar 1.7 - Australia 1.4 | 1/N/2 : 44/24/32% | base sur 0 et 2 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Qatar, Australia (estimation neutre, très incertaine). Qatar : prochains : South Korea (Matchs amicaux internationaux, 4 j)  ||  Australia : repos 45 j | prochains : Jordan (Matchs amicaux internationaux, 4 j)",
+   "day": "2026-11-13",
+   "prio": 2
+  },
+  {
+   "league": "Matchs amicaux internationaux",
+   "home": "Iraq",
+   "away": "Lebanon",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-13 | Buts attendus Iraq 1.5 - Lebanon 1.8 | 1/N/2 : 32/23/45% | base sur 0 et 2 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Iraq, Lebanon (estimation neutre, très incertaine). Iraq : prochains : Iran (Matchs amicaux internationaux, 4 j)  ||  Lebanon : repos 40 j | prochains : Palestine (Matchs amicaux internationaux, 4 j)",
    "day": "2026-11-13",
    "prio": 2
   },
