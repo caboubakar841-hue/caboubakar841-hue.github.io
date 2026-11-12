@@ -59,7 +59,7 @@ function show(c){cur=c;document.querySelectorAll('.filters button').forEach(b=>b
 function card(m){
   const sc=m.live_score?m.live_score.split('-'):null;
   const big=sc?'<div class="score"><span class="t">'+m.home+'</span><span class="n">'+sc[0]+' - '+sc[1]+'</span><span class="t">'+m.away+'</span></div>'+(m.minute?'<div style="text-align:center;margin-bottom:8px"><span class="min">'+(m.status==='live'?'🔴 ':'')+m.minute+'</span></div>':''):'';
-  return '<div class="card '+m.status+(m.status==='finished'?' fin':'')+'"><div class="top"><span>'+(m.prio<=3?'⭐ ':'')+m.league+(m.day?' • '+m.day.slice(5):'')+'</span><span class="conf">'+(m.nopred?'—':m.conf+'%')+'</span></div>'+big+(sc?'':'<h3>'+m.home+' vs '+m.away+'</h3>')+
+  return '<div class="card '+m.status+(m.status==='finished'?' fin':'')+'"><div class="top"><span>'+(m.prio<0?'🌍 ':m.prio<=3?'⭐ ':'')+m.league+(m.day?' • '+m.day.slice(5):'')+'</span><span class="conf">'+(m.nopred?'—':m.conf+'%')+'</span></div>'+big+(sc?'':'<h3>'+m.home+' vs '+m.away+'</h3>')+
   '<div class="grid"><div class="box">Victoire<b>'+m.victoire+'</b></div><div class="box">Score probable<b style="color:#fc0">'+m.score_exact+'</b></div><div class="box">Double chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div>'+(m.contexte?'<div class="analyse">🧭 '+m.contexte+'</div>':'')+'<div class="analyse">'+m.analyse+'</div></div>';
 }
 function tk(d){return d.tickets.map(t=>{
