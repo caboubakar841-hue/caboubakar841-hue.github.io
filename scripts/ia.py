@@ -62,6 +62,15 @@ INTL = {  # selections nationales : CAN, Coupe du monde, Euro, Nations League, C
 ALL_COMPS = {**LEAGUES, **COMPS, **INTL}
 INTL_PRIORITY = {"caf.nations": 1, "fifa.world": 1, "uefa.euro": 1, "uefa.nations": 1, "conmebol.america": 1,
                  "concacaf.gold": 1, "afc.asian.cup": 1}   # tournois finaux et Ligue des nations : tout en haut
+CAF_COMPS = {"caf.nations", "caf.nations.qual", "fifa.worldq.caf"}      # CAN, qualifications CAN, qualifications Coupe du monde (Afrique)
+AFRICAN_TEAMS = {  # selections africaines (noms ESPN) : leurs matchs passent TOUJOURS en premier, quelle que soit la competition
+    "Morocco", "Senegal", "Nigeria", "Egypt", "Algeria", "Tunisia", "Ivory Coast", "Cote d'Ivoire", "Côte d'Ivoire", "Cameroon",
+    "Ghana", "Mali", "Burkina Faso", "South Africa", "DR Congo", "Congo DR", "Congo", "Republic of the Congo", "Guinea",
+    "Cape Verde", "Cape Verde Islands", "Cabo Verde", "Gabon", "Zambia", "Zimbabwe", "Angola", "Benin", "Mauritania", "Namibia",
+    "Mozambique", "Madagascar", "Uganda", "Kenya", "Tanzania", "Sudan", "Libya", "Equatorial Guinea", "Comoros", "Guinea-Bissau",
+    "Gambia", "The Gambia", "Sierra Leone", "Liberia", "Togo", "Niger", "Chad", "Central African Republic", "Rwanda", "Burundi",
+    "Ethiopia", "Malawi", "Botswana", "Lesotho", "Eswatini", "Swaziland", "Djibouti", "Somalia", "South Sudan", "Eritrea",
+    "Seychelles", "Mauritius", "Sao Tome and Principe", "São Tomé and Príncipe"}
 EURO_COMPS = {"uefa.champions", "uefa.europa", "uefa.europa.conf"}
 # ordre d'affichage : 0 = tout en haut. Coupes d'Europe, puis 5 grands championnats, puis le reste.
 PRIORITY = {"uefa.champions": 0, "uefa.europa": 1, "uefa.europa.conf": 2,
@@ -346,12 +355,22 @@ def evaluate(rec):
     }
 
 
+def rec_prio(rec):
+    """Priorite d'affichage (plus petit = plus haut). Afrique = -1 : toujours en premier, y compris amicaux et qualifications."""
+    if rec["slug"] in CAF_COMPS:
+        return -1
+    if rec["slug"] in INTL or rec["slug"].startswith("all."):
+        if rec["home"] in AFRICAN_TEAMS or rec["away"] in AFRICAN_TEAMS:
+            return -1
+    return PRIORITY.get(rec["slug"], 9)
+
+
 def card_from(rec, status):
     c = build_card(rec["league"], rec["home"], rec["away"], rec["iso"], rec["pr"], rec["gp"][0], rec["gp"][1])
     c["status"] = status
     c["contexte"] = rec.get("ctx", "")
     c["day"] = rec["iso"][:10]
-    c["prio"] = PRIORITY.get(rec["slug"], 9)
+    c["prio"] = rec_prio(rec)
     if rec.get("neutral"):
         c["contexte"] = ("⚠️ Peu ou pas de données pour : " + ", ".join(rec["neutral"]) +
                          " (estimation neutre, très incertaine). ") + c["contexte"]
@@ -686,15 +705,19 @@ def main():
                 cache["fixtures"].pop(fkey, None)
     known_ids = {q["id"] for _, q in fresh_events} | set(cache["results"])
     n_all = 0
-    for d_ in (t, t + timedelta(days=1), t + timedelta(days=2)):
+    all_post = []
+    for d_ in (t - timedelta(days=1), t, t + timedelta(days=1), t + timedelta(days=2)):
         for sl_, ev_ in fetch_all(d_):
             q = parse_event(ev_)
-            if not q or q["state"] not in ("pre", "in") or q["id"] in known_ids:
+            if not q or q["id"] in known_ids:
                 continue
             known_ids.add(q["id"])
             PRIORITY.setdefault(sl_, 13)         # tout en bas : seulement pour completer
-            fresh_events.append((sl_, q))
-            n_all += 1
+            if q["state"] == "post":
+                all_post.append((sl_, q))        # match fini : sert a l'historique (si on a des donnees dessus)
+            elif q["state"] in ("pre", "in"):
+                fresh_events.append((sl_, q))
+                n_all += 1
     first_ev = {}
     for sl_, q in fresh_events:
         if sl_.startswith("all.") and sl_ not in LEAGUE_NAMES and sl_ != "all.x":
@@ -722,6 +745,7 @@ def main():
         if (slug, p["id"]) not in seen:
             seen.add((slug, p["id"]))
             events.append((slug, p))
+    events.extend(all_post)
     print(f"{sum(map(len, results.values()))} resultats, {len(events)} matchs au total")
     tabs = {sl: table(rs) for sl, rs in results.items() if sl in EURO_SEASON and len(rs) >= 10}
     team_fx, team_games = defaultdict(list), defaultdict(list)
@@ -849,6 +873,8 @@ def main():
                     continue                         # on ne recalcule pas apres coup un match sans donnees
                 m = thin_model(slug, p["home"], p["away"], min(day, today))   # a venir / en cours : on l'affiche quand meme
             nopred = all(m["gp"].get(tm, 0) == 0 for tm in (p["home"], p["away"]))   # aucune donnee sur aucune des deux equipes
+            if p["state"] == "post" and nopred:
+                continue                             # match fini sans aucune donnee : rien a evaluer, on n'encombre pas l'historique
             pr = pr0 = predict(m, p["home"], p["away"])
             ctx_text, base_p, noh2h_p = "", None, None
             if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
@@ -886,7 +912,7 @@ def main():
     today_cards, day_recs = [], []
     if upcoming:
         days_sorted = sorted(upcoming)
-        order_key = lambda r: (PRIORITY.get(r["slug"], 9), 1 if r.get("neutral") else 0, r["iso"])
+        order_key = lambda r: (rec_prio(r), 1 if r.get("neutral") else 0, r["iso"])
         day_recs = sorted(upcoming[days_sorted[0]], key=order_key)       # les tickets ne portent que sur le premier jour
         ordered = list(day_recs)
         for dd in days_sorted[1:]:                                       # jours suivants : seulement pour completer
@@ -934,9 +960,11 @@ def main():
     eu_cards = sum(1 for c in cards if c.get("prio", 9) <= 2 and c["status"] in ("today", "live"))
     fill = sum(1 for c in today_cards[:MAX_MATCHES] if c.get("prio", 9) == 12)
     print(f"Europe aujourd'hui : {eu_cards} cartes pour {eu_seen} matchs vus | remplissage affiche : {fill}")
+    afr = sum(1 for c in cards if c.get("prio") == -1 and c["status"] in ("today", "live"))
     top = sorted(((k, v) for k, v in seen_today.items() if not k.startswith("all.")), key=lambda kv: -kv[1])[:12]
     diag = [f"Compétitions suivies : {len(ALL_COMPS)} dont {len(cache['dyn'])} découvertes automatiquement",
             "Matchs trouvés aujourd'hui par compétition : " + (", ".join(f"{k} {v}" for k, v in top) or "aucun"),
+            f"Matchs africains affichés (à venir / live) : {afr}",
             f"Matchs ajoutés par le filet « tous les matchs ESPN » : {n_all}",
             f"Cartes à venir affichées : {len(today_cards[:MAX_MATCHES])} (jours : {', '.join(sorted(upcoming)) or 'aucun'})",
             "Filet ESPN - format reçu : " + json.dumps(ALL_SAMPLE, ensure_ascii=False)[:300],
