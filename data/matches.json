@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12 19:55 UTC",
+ "date": "2026-11-12 20:36 UTC",
  "version": "V17",
  "stats": {
   "n": 695,
@@ -18,9 +18,9 @@
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.nations 6, concacaf.nations.league 5, esp.copa_del_rey 2, slv.1 2, bra.2 2, col.1 1, uru.1 1, ven.1 1, fra.coupe_de_france 1, gua.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.nations 6, concacaf.nations.league 5, slv.1 2, bra.2 2, col.1 1, uru.1 1, ven.1 1, esp.copa_del_rey 1, gua.1 1",
   "Matchs africains affichés (à venir / live) : 16",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 190",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 186",
   "Cartes à venir affichées : 40 (jours : 2026-11-12, 2026-11-13, 2026-11-14)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:3922~e:401930244\"}",
   "Compétitions sans nom : aucune",
@@ -2367,8 +2367,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Central African Republic (estimation neutre, très incertaine). Benin : repos 37 j  ||  Central African Republic",
    "day": "2026-11-12",
    "prio": -1,
-   "live_score": "3-1",
-   "minute": "HT"
+   "live_score": "4-1",
+   "minute": "73'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -2387,7 +2387,7 @@
    "day": "2026-11-12",
    "prio": -1,
    "live_score": "2-0",
-   "minute": "HT"
+   "minute": "77'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -2406,7 +2406,7 @@
    "day": "2026-11-12",
    "prio": -1,
    "live_score": "2-1",
-   "minute": "HT"
+   "minute": "74'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -2424,8 +2424,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : Sudan (estimation neutre, très incertaine). Senegal : repos 39 j  ||  Sudan",
    "day": "2026-11-12",
    "prio": -1,
-   "live_score": "1-1",
-   "minute": "HT"
+   "live_score": "3-1",
+   "minute": "74'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2443,8 +2443,8 @@
    "contexte": "Albania : repos 37 j | prochains : Belarus (Ligue des nations (UEFA), 3 j)  ||  Finland : repos 37 j | prochains : San Marino (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-12",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2462,8 +2462,8 @@
    "contexte": "Czechia : repos 37 j | prochains : Croatia (Ligue des nations (UEFA), 3 j)  ||  Spain : repos 37 j | prochains : England (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-12",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "0-1",
+   "minute": "HT"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2481,8 +2481,8 @@
    "contexte": "England : repos 37 j | prochains : Spain (Ligue des nations (UEFA), 3 j)  ||  Croatia : repos 37 j | prochains : Czechia (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-12",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2500,8 +2500,8 @@
    "contexte": "Italy : repos 38 j | prochains : Belgium (Ligue des nations (UEFA), 3 j)  ||  France : repos 38 j | prochains : Türkiye (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-12",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2520,7 +2520,7 @@
    "day": "2026-11-12",
    "prio": 1,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "HT"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2538,8 +2538,8 @@
    "contexte": "San Marino : repos 37 j | prochains : Finland (Ligue des nations (UEFA), 3 j)  ||  Belarus : repos 37 j | prochains : Albania (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-12",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "10'"
+   "live_score": "0-2",
+   "minute": "HT"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2558,7 +2558,7 @@
    "day": "2026-11-12",
    "prio": 2,
    "live_score": "0-2",
-   "minute": "HT"
+   "minute": "75'"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2576,8 +2576,8 @@
    "contexte": "Bonaire : repos 38 j | prochains : St. Kitts and Nevis (Ligue des nations (CONCACAF), 5 j)  ||  Cuba : repos 38 j | prochains : Grenada (Ligue des nations (CONCACAF), 4 j)",
    "day": "2026-11-12",
    "prio": 2,
-   "live_score": "0-1",
-   "minute": "HT"
+   "live_score": "1-5",
+   "minute": "78'"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2595,27 +2595,27 @@
    "contexte": "Cayman Islands : repos 39 j | prochains : Dominica (Ligue des nations (CONCACAF), 5 j)  ||  Guyana : repos 39 j | prochains : Puerto Rico (Ligue des nations (CONCACAF), 4 j)",
    "day": "2026-11-12",
    "prio": 2,
-   "live_score": "0-4",
-   "minute": "HT"
+   "live_score": "0-6",
+   "minute": "79'"
   },
   {
-   "league": "Spanish Copa de la Reina",
-   "home": "Osasuna",
-   "away": "Dux Logroño",
+   "league": "UEFA Women's Champions League",
+   "home": "Benfica",
+   "away": "Austria Vienna",
    "status": "live",
-   "conf": 62,
-   "victoire": "Victoire Osasuna",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
+   "conf": 89,
+   "victoire": "Victoire Benfica",
+   "score_exact": "3-1 (7%) · 4-1 (7%)",
+   "double_chance": "1X 96%",
    "corner": "N/D",
-   "over": "Over 2.5 68%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-12 | Buts attendus Osasuna 2.3 - Dux Logroño 1.2 | 1/N/2 : 62/19/19% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Dux Logroño (estimation neutre, très incertaine). Osasuna : 16e/20 (12 pts en 12 m.) | repos 5 j | prochains : Málaga (La Liga, 10 j)  ||  Dux Logroño",
+   "over": "Over 2.5 84%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-12 | Buts attendus Benfica 3.9 - Austria Vienna 0.8 | 1/N/2 : 89/7/4% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Benfica : 2e/18 (28 pts en 11 m.) | repos 4 j | prochains : Viktoria Plzen (Ligue Europa, 14 j)  ||  Austria Vienna : 11e/12 (8 pts en 12 m.) | repos 4 j | prochains : RB Salzburg (Bundesliga (AUT), 10 j)",
    "day": "2026-11-12",
    "prio": 13,
-   "live_score": "2-3",
-   "minute": "90'+5'"
+   "live_score": "1-0",
+   "minute": "33'"
   },
   {
    "league": "Spanish Copa de la Reina",
@@ -2634,12 +2634,12 @@
    "day": "2026-11-12",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "79'"
   },
   {
    "league": "NCAA Men's Soccer",
-   "home": "Long Island University",
-   "away": "Mercyhurst",
+   "home": "Fairleigh Dickinson",
+   "away": "Central Connecticut",
    "status": "live",
    "conf": 0,
    "victoire": "Pas de pronostic",
@@ -2649,17 +2649,17 @@
    "over": "-",
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Long Island University, Mercyhurst (estimation neutre, très incertaine). Long Island University  ||  Mercyhurst",
+   "contexte": "⚠️ Peu ou pas de données pour : Fairleigh Dickinson, Central Connecticut (estimation neutre, très incertaine). Fairleigh Dickinson  ||  Central Connecticut",
    "day": "2026-11-12",
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "77'"
+   "minute": "Delay"
   },
   {
-   "league": "NCAA Women's Soccer",
-   "home": "Fairleigh Dickinson",
-   "away": "Stonehill",
+   "league": "NCAA Men's Soccer",
+   "home": "Cornell",
+   "away": "Harvard",
    "status": "live",
    "conf": 0,
    "victoire": "Pas de pronostic",
@@ -2669,12 +2669,12 @@
    "over": "-",
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Fairleigh Dickinson, Stonehill (estimation neutre, très incertaine). Fairleigh Dickinson  ||  Stonehill",
+   "contexte": "⚠️ Peu ou pas de données pour : Cornell, Harvard (estimation neutre, très incertaine). Cornell  ||  Harvard",
    "day": "2026-11-12",
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "72'"
+   "minute": "3'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2694,27 +2694,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "90'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Quinnipiac",
-   "away": "Siena",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Quinnipiac, Siena (estimation neutre, très incertaine). Quinnipiac  ||  Siena",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "0-0",
-   "minute": "84'"
+   "minute": "Pens"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2734,7 +2714,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-2",
-   "minute": "42'"
+   "minute": "61'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2754,7 +2734,27 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-0",
-   "minute": "43'"
+   "minute": "64'"
+  },
+  {
+   "league": "NCAA Women's Soccer",
+   "home": "North Dakota State",
+   "away": "South Dakota",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : North Dakota State, South Dakota (estimation neutre, très incertaine). North Dakota State  ||  South Dakota",
+   "day": "2026-11-12",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "1-0",
+   "minute": "28'"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2932,23 +2932,6 @@
    "prio": 12
   },
   {
-   "league": "UEFA Women's Champions League",
-   "home": "Benfica",
-   "away": "Austria Vienna",
-   "status": "today",
-   "conf": 89,
-   "victoire": "Victoire Benfica",
-   "score_exact": "3-1 (7%) · 4-1 (7%)",
-   "double_chance": "1X 96%",
-   "corner": "N/D",
-   "over": "Over 2.5 84%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-11-12 | Buts attendus Benfica 3.9 - Austria Vienna 0.8 | 1/N/2 : 89/7/4% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Benfica : 2e/18 (28 pts en 11 m.) | repos 4 j | prochains : Viktoria Plzen (Ligue Europa, 14 j)  ||  Austria Vienna : 11e/12 (8 pts en 12 m.) | repos 4 j | prochains : RB Salzburg (Bundesliga (AUT), 10 j)",
-   "day": "2026-11-12",
-   "prio": 13
-  },
-  {
    "league": "Argentine Supercopa",
    "home": "Estudiantes de La Plata",
    "away": "Independiente Rivadavia",
@@ -2981,60 +2964,6 @@
    "contexte": "Real Potosí : repos 4 j | prochains : Bolívar (Liga Bolivie, 10 j)  ||  Nacional Potosí : repos 4 j | prochains : Real Tomayapo (Liga Bolivie, 9 j)",
    "day": "2026-11-12",
    "prio": 13
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "Fairleigh Dickinson",
-   "away": "Central Connecticut",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Fairleigh Dickinson, Central Connecticut (estimation neutre, très incertaine). Fairleigh Dickinson  ||  Central Connecticut",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "North Dakota State",
-   "away": "South Dakota",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : North Dakota State, South Dakota (estimation neutre, très incertaine). North Dakota State  ||  South Dakota",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "Cornell",
-   "away": "Harvard",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Cornell, Harvard (estimation neutre, très incertaine). Cornell  ||  Harvard",
-   "day": "2026-11-12",
-   "prio": 13,
-   "nopred": true
   },
   {
    "league": "NCAA Women's Soccer",
@@ -3456,6 +3385,93 @@
    "contexte": "Face-à-face (1 confrontation) : Bulgaria 0V · 0N · Iceland 1V (scores : 0-3) - trop peu pour influer  ||  Bulgaria : repos 38 j | prochains : Estonia (Ligue des nations (UEFA), 3 j)  ||  Iceland : repos 38 j | prochains : Luxembourg (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-13",
    "prio": 1
+  },
+  {
+   "league": "Ligue des nations (UEFA)",
+   "home": "Liechtenstein",
+   "away": "Azerbaijan",
+   "status": "today",
+   "conf": 80,
+   "victoire": "Serré : Nul ou Azerbaijan",
+   "score_exact": "0-1 (20%) · 0-0 (17%)",
+   "double_chance": "X2 80%",
+   "corner": "N/D",
+   "over": "Under 2.5 74%",
+   "btts": "BTTS NON 68%",
+   "analyse": "2026-11-13 | Buts attendus Liechtenstein 0.6 - Azerbaijan 1.2 | 1/N/2 : 20/31/49% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : Liechtenstein 0V · 1N · Azerbaijan 0V (scores : 0-0) - trop peu pour influer  ||  Liechtenstein : repos 39 j | prochains : Lithuania (Ligue des nations (UEFA), 3 j)  ||  Azerbaijan : repos 40 j | prochains : Andorra (Matchs amicaux internationaux, 3 j)",
+   "day": "2026-11-13",
+   "prio": 1
+  },
+  {
+   "league": "Ligue des nations (UEFA)",
+   "home": "Luxembourg",
+   "away": "Estonia",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : Nul ou Estonia",
+   "score_exact": "0-1 (17%) · 0-0 (15%)",
+   "double_chance": "X2 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 70%",
+   "btts": "BTTS NON 64%",
+   "analyse": "2026-11-13 | Buts attendus Luxembourg 0.7 - Estonia 1.2 | 1/N/2 : 23/31/46% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : Luxembourg 0V · 0N · Estonia 1V (scores : 0-1) - trop peu pour influer  ||  Luxembourg : repos 38 j | prochains : Iceland (Ligue des nations (UEFA), 3 j)  ||  Estonia : repos 38 j | prochains : Bulgaria (Ligue des nations (UEFA), 3 j)",
+   "day": "2026-11-13",
+   "prio": 1
+  },
+  {
+   "league": "Ligue des nations (UEFA)",
+   "home": "Netherlands",
+   "away": "Greece",
+   "status": "today",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Over 2.5 52%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "2026-11-13 | Buts attendus Netherlands 1.4 - Greece 1.4 | 1/N/2 : 38/26/36% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : Netherlands 0V · 1N · Greece 0V (scores : 2-2) - trop peu pour influer  ||  Netherlands : repos 40 j | prochains : Germany (Ligue des nations (UEFA), 3 j)  ||  Greece : repos 40 j | prochains : Serbia (Ligue des nations (UEFA), 3 j)",
+   "day": "2026-11-13",
+   "prio": 1
+  },
+  {
+   "league": "Ligue des nations (UEFA)",
+   "home": "Scotland",
+   "away": "North Macedonia",
+   "status": "today",
+   "conf": 56,
+   "victoire": "Victoire Scotland",
+   "score_exact": "1-0 (15%) · 2-0 (12%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-13 | Buts attendus Scotland 1.6 - North Macedonia 0.8 | 1/N/2 : 56/25/19% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : Scotland 1V · 0N · North Macedonia 0V (scores : 2-0) - trop peu pour influer  ||  Scotland : repos 38 j | prochains : Switzerland (Ligue des nations (UEFA), 3 j)  ||  North Macedonia : repos 38 j | prochains : Slovenia (Ligue des nations (UEFA), 3 j)",
+   "day": "2026-11-13",
+   "prio": 1
+  },
+  {
+   "league": "Spanish Copa de la Reina",
+   "home": "Osasuna",
+   "away": "Dux Logroño",
+   "status": "finished",
+   "conf": 62,
+   "victoire": "Victoire Osasuna",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 68%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 2-3 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "⚠️ Peu ou pas de données pour : Dux Logroño (estimation neutre, très incertaine). ",
+   "day": "2026-11-12",
+   "prio": 13,
+   "live_score": "2-3",
+   "minute": "FT"
   },
   {
    "league": "UEFA Women's Champions League",
@@ -4196,25 +4212,6 @@
    "day": "2026-11-10",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Sportivo Luqueño",
-   "away": "2 de Mayo",
-   "status": "finished",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (10%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 52%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-09",
-   "prio": 12,
-   "live_score": "3-0",
    "minute": "FT"
   }
  ]
