@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12 01:43 UTC",
+ "date": "2026-11-12 02:32 UTC",
  "version": "V17",
  "stats": {
   "n": 674,
@@ -2367,8 +2367,28 @@
    "day": "2026-11-12",
    "prio": 9,
    "nopred": true,
-   "live_score": "2-0",
-   "minute": "40'"
+   "live_score": "2-1",
+   "minute": "68'"
+  },
+  {
+   "league": "Mexican Liga de Expansión MX",
+   "home": "Piratas",
+   "away": "Club Atlético La Paz",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Piratas, Club Atlético La Paz (estimation neutre, très incertaine). Piratas : prochains : Club Atlético La Paz (Mexican Liga de Expansión MX, 3 j)  ||  Club Atlético La Paz : prochains : Piratas (Mexican Liga de Expansión MX, 3 j)",
+   "day": "2026-11-12",
+   "prio": 10,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "32'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2714,24 +2734,6 @@
    "nopred": true
   },
   {
-   "league": "Mexican Liga de Expansión MX",
-   "home": "Piratas",
-   "away": "Club Atlético La Paz",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Piratas, Club Atlético La Paz (estimation neutre, très incertaine). Face-à-face (1 confrontation) : Piratas 0V · 0N · Club Atlético La Paz 1V (scores : 0-2) - trop peu pour influer  ||  Piratas : prochains : Club Atlético La Paz (Mexican Liga de Expansión MX, 3 j)  ||  Club Atlético La Paz : prochains : Piratas (Mexican Liga de Expansión MX, 3 j)",
-   "day": "2026-11-12",
-   "prio": 10,
-   "nopred": true
-  },
-  {
    "league": "Brazilian Serie B",
    "home": "Ponte Preta",
    "away": "Operário PR",
@@ -3057,6 +3059,24 @@
    "contexte": "⚠️ Peu ou pas de données pour : SV Meppen (estimation neutre, très incertaine). Arminia Bielefeld : 6e/18 (17 pts en 11 m.) | repos 5 j | prochains : 1. FC Magdeburg (2. Bundesliga, 8 j)  ||  SV Meppen",
    "day": "2026-11-12",
    "prio": 13
+  },
+  {
+   "league": "Club Friendly",
+   "home": "Karpaty Lviv",
+   "away": "NK VERES RIVNE",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Karpaty Lviv, NK VERES RIVNE (estimation neutre, très incertaine). Karpaty Lviv  ||  NK VERES RIVNE",
+   "day": "2026-11-12",
+   "prio": 13,
+   "nopred": true
   },
   {
    "league": "Liga Bolivie",
