@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12 03:22 UTC",
+ "date": "2026-11-12 04:21 UTC",
  "version": "V17",
  "stats": {
   "n": 674,
@@ -18,7 +18,7 @@
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.nations 8, concacaf.nations.league 5, fifa.friendly 4, esp.copa_del_rey 3, slv.1 2, bra.2 2, col.1 1, uru.1 1, ven.1 1, fra.coupe_de_france 1, gua.1 1, mex.2 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.nations 8, concacaf.nations.league 5, fifa.friendly 4, esp.copa_del_rey 3, slv.1 2, bra.2 2, col.1 1, uru.1 1, ven.1 1, fra.coupe_de_france 1, gua.1 1",
   "Matchs ajoutés par le filet « tous les matchs ESPN » : 211",
   "Cartes à venir affichées : 40 (jours : 2026-11-12, 2026-11-13, 2026-11-14)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929778\"}",
@@ -2350,26 +2350,6 @@
   }
  ],
  "matches": [
-  {
-   "league": "Mexican Liga de Expansión MX",
-   "home": "Piratas",
-   "away": "Club Atlético La Paz",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Piratas, Club Atlético La Paz (estimation neutre, très incertaine). Piratas : prochains : Club Atlético La Paz (Mexican Liga de Expansión MX, 3 j)  ||  Club Atlético La Paz : prochains : Piratas (Mexican Liga de Expansión MX, 3 j)",
-   "day": "2026-11-12",
-   "prio": 10,
-   "nopred": true,
-   "live_score": "1-0",
-   "minute": "57'"
-  },
   {
    "league": "Ligue des nations (UEFA)",
    "home": "Armenia",
