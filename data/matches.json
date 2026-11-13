@@ -1,26 +1,26 @@
 {
- "date": "2026-11-13 20:14 UTC",
+ "date": "2026-11-13 21:00 UTC",
  "version": "V17",
  "stats": {
-  "n": 683,
+  "n": 687,
   "n_avant": 0,
   "dc": 79,
   "over": 52,
-  "btts": 52,
+  "btts": 53,
   "score": 16,
   "1x2": 61,
-  "n_fav": 311,
+  "n_fav": 314,
   "serre": 77,
-  "n_serre": 372,
+  "n_serre": 373,
   "base_dom": 47,
   "n_euro": 26,
   "dc_euro": 81
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.nations 9, concacaf.nations.league 4, fra.coupe_de_france 3, esp.2 1, uru.1 1, esp.copa_del_rey 1, fifa.friendly 1",
-  "Matchs africains affichés (à venir / live) : 6",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 201",
+  "Matchs trouvés aujourd'hui par compétition : uefa.nations 9, fra.coupe_de_france 3, esp.2 1, uru.1 1, esp.copa_del_rey 1, concacaf.nations.league 1, fifa.friendly 1",
+  "Matchs africains affichés (à venir / live) : 4",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 199",
   "Cartes à venir affichées : 40 (jours : 2026-11-13, 2026-11-14, 2026-11-15)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929778\"}",
   "Compétitions sans nom : aucune",
@@ -90,8 +90,8 @@
        "pick": "Over 2.5 buts",
        "code": "O25",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401861158",
@@ -112,8 +112,8 @@
        "pick": "Over 2.5 buts",
        "code": "O25",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-2"
       },
       {
        "id": "401861157",
@@ -188,8 +188,8 @@
        "pick": "Double chance 1X (Puerto Rico ou nul)",
        "code": "1X",
        "p": 90,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "4-2"
       },
       {
        "id": "401888026",
@@ -2353,44 +2353,6 @@
  "matches": [
   {
    "league": "Africa Cup of Nations Qualifying",
-   "home": "Egypt",
-   "away": "Malawi",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Victoire Egypt",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 89%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-13 | Buts attendus Egypt 2.5 - Malawi 0.9 | 1/N/2 : 74/16/11% | base sur 1 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Malawi (estimation neutre, très incertaine). Egypt : repos 40 j  ||  Malawi",
-   "day": "2026-11-13",
-   "prio": -1,
-   "live_score": "3-0",
-   "minute": "53'"
-  },
-  {
-   "league": "Africa Cup of Nations Qualifying",
-   "home": "Mali",
-   "away": "Rwanda",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-13 | Buts attendus Mali 1.5 - Rwanda 1.2 | 1/N/2 : 43/26/31% | base sur 1 et 1 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Mali : repos 40 j  ||  Rwanda : repos 39 j",
-   "day": "2026-11-13",
-   "prio": -1,
-   "live_score": "1-1",
-   "minute": "49'"
-  },
-  {
-   "league": "Africa Cup of Nations Qualifying",
    "home": "Morocco",
    "away": "Niger",
    "status": "live",
@@ -2405,8 +2367,8 @@
    "contexte": "Morocco : repos 40 j  ||  Niger : repos 38 j",
    "day": "2026-11-13",
    "prio": -1,
-   "live_score": "1-0",
-   "minute": "9'"
+   "live_score": "3-1",
+   "minute": "HT"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2424,8 +2386,8 @@
    "contexte": "Andorra : repos 40 j | prochains : Azerbaijan (Matchs amicaux internationaux, 3 j)  ||  Gibraltar : repos 39 j | prochains : Malta (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-13",
    "prio": 1,
-   "live_score": "1-0",
-   "minute": "28'"
+   "live_score": "2-0",
+   "minute": "54'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2444,7 +2406,7 @@
    "day": "2026-11-13",
    "prio": 1,
    "live_score": "0-2",
-   "minute": "27'"
+   "minute": "52'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2463,7 +2425,7 @@
    "day": "2026-11-13",
    "prio": 1,
    "live_score": "0-1",
-   "minute": "29'"
+   "minute": "58'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2481,8 +2443,8 @@
    "contexte": "Luxembourg : repos 38 j | prochains : Iceland (Ligue des nations (UEFA), 3 j)  ||  Estonia : repos 38 j | prochains : Bulgaria (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-13",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "29'"
+   "live_score": "0-1",
+   "minute": "57'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2500,8 +2462,8 @@
    "contexte": "Netherlands : repos 40 j | prochains : Germany (Ligue des nations (UEFA), 3 j)  ||  Greece : repos 40 j | prochains : Serbia (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-13",
    "prio": 1,
-   "live_score": "3-0",
-   "minute": "27'"
+   "live_score": "5-0",
+   "minute": "56'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2519,8 +2481,8 @@
    "contexte": "Scotland : repos 38 j | prochains : Switzerland (Ligue des nations (UEFA), 3 j)  ||  North Macedonia : repos 38 j | prochains : Slovenia (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-13",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "28'"
+   "live_score": "1-0",
+   "minute": "57'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2538,8 +2500,8 @@
    "contexte": "Serbia : repos 40 j | prochains : Greece (Ligue des nations (UEFA), 3 j)  ||  Germany : repos 40 j | prochains : Netherlands (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-13",
    "prio": 1,
-   "live_score": "0-2",
-   "minute": "28'"
+   "live_score": "0-3",
+   "minute": "55'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2557,8 +2519,8 @@
    "contexte": "Slovakia : repos 38 j | prochains : Kazakhstan (Ligue des nations (UEFA), 3 j)  ||  Faroe Islands : repos 38 j | prochains : Moldova (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-13",
    "prio": 1,
-   "live_score": "1-0",
-   "minute": "28'"
+   "live_score": "1-2",
+   "minute": "56'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2577,64 +2539,7 @@
    "day": "2026-11-13",
    "prio": 1,
    "live_score": "0-0",
-   "minute": "27'"
-  },
-  {
-   "league": "Ligue des nations (CONCACAF)",
-   "home": "Bermuda",
-   "away": "St. Lucia",
-   "status": "live",
-   "conf": 65,
-   "victoire": "Victoire St. Lucia",
-   "score_exact": "1-2 (9%) · 1-3 (8%)",
-   "double_chance": "X2 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-13 | Buts attendus Bermuda 1.2 - St. Lucia 2.5 | 1/N/2 : 17/18/65% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Bermuda : repos 39 j | prochains : Guadeloupe (Ligue des nations (CONCACAF), 3 j)  ||  St. Lucia : repos 39 j | prochains : Barbados (Ligue des nations (CONCACAF), 4 j)",
-   "day": "2026-11-13",
-   "prio": 2,
-   "live_score": "1-1",
-   "minute": "55'"
-  },
-  {
-   "league": "Ligue des nations (CONCACAF)",
-   "home": "Grenada",
-   "away": "St. Kitts and Nevis",
-   "status": "live",
-   "conf": 65,
-   "victoire": "Victoire St. Kitts and Nevis",
-   "score_exact": "1-2 (10%) · 1-3 (8%)",
-   "double_chance": "X2 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 68%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "2026-11-13 | Buts attendus Grenada 1.1 - St. Kitts and Nevis 2.4 | 1/N/2 : 16/18/65% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Grenada : repos 39 j | prochains : Cuba (Ligue des nations (CONCACAF), 3 j)  ||  St. Kitts and Nevis : repos 39 j | prochains : Bonaire (Ligue des nations (CONCACAF), 4 j)",
-   "day": "2026-11-13",
-   "prio": 2,
-   "live_score": "3-1",
-   "minute": "57'"
-  },
-  {
-   "league": "Ligue des nations (CONCACAF)",
-   "home": "Puerto Rico",
-   "away": "Dominica",
-   "status": "live",
-   "conf": 70,
-   "victoire": "Victoire Puerto Rico",
-   "score_exact": "3-0 (9%) · 4-0 (5%)",
-   "double_chance": "1X 89%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-13 | Buts attendus Puerto Rico 2.0 - Dominica 0.7 | 1/N/2 : 70/19/11% | base sur 4 et 5 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Puerto Rico : repos 40 j | prochains : Guyana (Ligue des nations (CONCACAF), 3 j)  ||  Dominica : repos 40 j | prochains : Cayman Islands (Ligue des nations (CONCACAF), 4 j)",
-   "day": "2026-11-13",
-   "prio": 2,
-   "live_score": "1-0",
-   "minute": "55'"
+   "minute": "50'"
   },
   {
    "league": "La Liga 2",
@@ -2653,7 +2558,7 @@
    "day": "2026-11-13",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "45'"
+   "minute": "71'"
   },
   {
    "league": "Liga Uruguay",
@@ -2671,8 +2576,8 @@
    "contexte": "Montevideo City Torque : repos 12 j  ||  Racing (Montevideo) : repos 13 j",
    "day": "2026-11-13",
    "prio": 12,
-   "live_score": "2-0",
-   "minute": "44'"
+   "live_score": "2-1",
+   "minute": "70'"
   },
   {
    "league": "Under-21 International Friendly",
@@ -2692,7 +2597,27 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "44'"
+   "minute": "69'"
+  },
+  {
+   "league": "NCAA Women's Soccer",
+   "home": "Weber State",
+   "away": "Idaho",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Weber State, Idaho (estimation neutre, très incertaine). Weber State  ||  Idaho",
+   "day": "2026-11-13",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "22'"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2742,24 +2667,6 @@
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
    "contexte": "⚠️ Peu ou pas de données pour : Chindia Targoviste, FCSB (estimation neutre, très incertaine). Chindia Targoviste  ||  FCSB",
-   "day": "2026-11-13",
-   "prio": 13,
-   "nopred": true
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Weber State",
-   "away": "Idaho",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Weber State, Idaho (estimation neutre, très incertaine). Weber State  ||  Idaho",
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true
@@ -3381,6 +3288,118 @@
    "contexte": "Face-à-face (2 confrontations) : Bristol Rovers 0V · 0N · Chesterfield 2V (scores : 1-3, 2-3) - trop peu pour influer  ||  Bristol Rovers : 17e/24 (16 pts en 14 m.) | repos 8 j | prochains : Cheltenham Town (League Two, 7 j)  ||  Chesterfield : 10e/24 (19 pts en 14 m.) | repos 7 j | prochains : Shrewsbury Town (League Two, 7 j)",
    "day": "2026-11-14",
    "prio": 9
+  },
+  {
+   "league": "League Two",
+   "home": "Colchester United",
+   "away": "Gillingham",
+   "status": "today",
+   "conf": 70,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (7%)",
+   "double_chance": "12 70%",
+   "corner": "N/D",
+   "over": "Under 2.5 55%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "2026-11-14 | Buts attendus Colchester United 1.2 - Gillingham 1.3 | 1/N/2 : 37/30/34% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Colchester United 3V · 3N · Gillingham 2V (scores : 1-1 x2, 1-0, 0-2)  ||  Colchester United : 22e/24 (12 pts en 13 m.) | repos 7 j | prochains : Tranmere Rovers (League Two, 7 j)  ||  Gillingham : 8e/24 (20 pts en 14 m.) | repos 7 j | prochains : Crewe Alexandra (League Two, 7 j)",
+   "day": "2026-11-14",
+   "prio": 9
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "Bermuda",
+   "away": "St. Lucia",
+   "status": "finished",
+   "conf": 65,
+   "victoire": "Victoire St. Lucia",
+   "score_exact": "1-2 (9%) · 1-3 (8%)",
+   "double_chance": "X2 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 72%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-13",
+   "prio": 2,
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "Grenada",
+   "away": "St. Kitts and Nevis",
+   "status": "finished",
+   "conf": 65,
+   "victoire": "Victoire St. Kitts and Nevis",
+   "score_exact": "1-2 (10%) · 1-3 (8%)",
+   "double_chance": "X2 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 68%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "Resultat 3-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-13",
+   "prio": 2,
+   "live_score": "3-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "Puerto Rico",
+   "away": "Dominica",
+   "status": "finished",
+   "conf": 70,
+   "victoire": "Victoire Puerto Rico",
+   "score_exact": "3-0 (9%) · 4-0 (5%)",
+   "double_chance": "1X 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS NON 58%",
+   "analyse": "Resultat 4-2 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-13",
+   "prio": 2,
+   "live_score": "4-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Africa Cup of Nations Qualifying",
+   "home": "Egypt",
+   "away": "Malawi",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Victoire Egypt",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 5-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "⚠️ Peu ou pas de données pour : Malawi (estimation neutre, très incertaine). ",
+   "day": "2026-11-13",
+   "prio": -1,
+   "live_score": "5-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Africa Cup of Nations Qualifying",
+   "home": "Mali",
+   "away": "Rwanda",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-13",
+   "prio": -1,
+   "live_score": "3-2",
+   "minute": "FT"
   },
   {
    "league": "French Première Ligue",
@@ -4045,101 +4064,6 @@
    "day": "2026-11-12",
    "prio": 13,
    "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue des nations (UEFA)",
-   "home": "Armenia",
-   "away": "Cyprus",
-   "status": "finished",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (11%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 52%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-12",
-   "prio": 1,
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue des nations (UEFA)",
-   "home": "Türkiye",
-   "away": "Belgium",
-   "status": "finished",
-   "conf": 58,
-   "victoire": "Victoire Belgium",
-   "score_exact": "1-2 (10%) · 1-3 (6%)",
-   "double_chance": "X2 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-12",
-   "prio": 1,
-   "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Matchs amicaux internationaux",
-   "home": "Lithuania",
-   "away": "Suriname",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (12%) · 0-1 (9%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 51%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-12",
-   "prio": 2,
-   "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Africa Cup of Nations Qualifying",
-   "home": "Congo DR",
-   "away": "Sierra Leone",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Victoire Congo DR",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 89%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : Sierra Leone (estimation neutre, très incertaine). ",
-   "day": "2026-11-12",
-   "prio": -1,
-   "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Matchs amicaux internationaux",
-   "home": "Uzbekistan",
-   "away": "Russia",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 70%",
-   "btts": "BTTS OUI 70%",
-   "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-12",
-   "prio": 2,
-   "live_score": "2-3",
    "minute": "FT"
   }
  ]
