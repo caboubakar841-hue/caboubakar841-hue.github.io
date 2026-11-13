@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13 02:05 UTC",
+ "date": "2026-11-13 02:48 UTC",
  "version": "V17",
  "stats": {
   "n": 680,
@@ -18,9 +18,9 @@
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.nations 10, fifa.friendly 7, concacaf.nations.league 5, fra.coupe_de_france 3, esp.2 1, uru.1 1, esp.copa_del_rey 1, mex.2 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.nations 10, fifa.friendly 7, concacaf.nations.league 4, fra.coupe_de_france 3, esp.2 1, uru.1 1, esp.copa_del_rey 1, mex.2 1",
   "Matchs africains affichés (à venir / live) : 12",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 234",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 233",
   "Cartes à venir affichées : 40 (jours : 2026-11-13, 2026-11-14, 2026-11-15)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929778\"}",
   "Compétitions sans nom : aucune",
@@ -2352,25 +2352,6 @@
  ],
  "matches": [
   {
-   "league": "Ligue des nations (CONCACAF)",
-   "home": "Curaçao",
-   "away": "Panama",
-   "status": "live",
-   "conf": 59,
-   "victoire": "Victoire Curaçao",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "2026-11-13 | Buts attendus Curaçao 2.1 - Panama 1.1 | 1/N/2 : 59/21/20% | base sur 4 et 1 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Panama (estimation neutre, très incertaine). Curaçao : repos 39 j | prochains : Panama (Ligue des nations (CONCACAF), 3 j)  ||  Panama : repos 48 j | prochains : Curaçao (Ligue des nations (CONCACAF), 3 j)",
-   "day": "2026-11-13",
-   "prio": 2,
-   "live_score": "0-0",
-   "minute": "76'"
-  },
-  {
    "league": "Mexican Liga de Expansión MX",
    "home": "Club Atlético Morelia",
    "away": "Leones Negros",
@@ -2388,7 +2369,7 @@
    "prio": 10,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "HT"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2407,8 +2388,8 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "50'"
+   "live_score": "2-0",
+   "minute": "84'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2427,28 +2408,8 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "26'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Southeast Missouri State",
-   "away": "Southern Indiana",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Southeast Missouri State, Southern Indiana (estimation neutre, très incertaine). Southeast Missouri State  ||  Southern Indiana",
-   "day": "2026-11-13",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "0-2",
-   "minute": "86'"
+   "live_score": "1-0",
+   "minute": "46'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2467,8 +2428,8 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "0-1",
+   "minute": "81'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2487,8 +2448,8 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "2-1",
+   "minute": "69'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2507,8 +2468,8 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "13'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
