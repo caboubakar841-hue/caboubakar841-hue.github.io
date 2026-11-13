@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13 11:28 UTC",
+ "date": "2026-11-13 12:20 UTC",
  "version": "V17",
  "stats": {
   "n": 680,
@@ -2352,6 +2352,25 @@
  ],
  "matches": [
   {
+   "league": "Matchs amicaux internationaux",
+   "home": "Singapore",
+   "away": "Paraguay",
+   "status": "live",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 54%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-11-13 | Buts attendus Singapore 1.1 - Paraguay 1.4 | 1/N/2 : 30/26/44% | base sur 0 et 2 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Singapore, Paraguay (estimation neutre, très incertaine). Singapore : prochains : Brazil (Matchs amicaux internationaux, 4 j)  ||  Paraguay : repos 42 j | prochains : Japan (Matchs amicaux internationaux, 4 j)",
+   "day": "2026-11-13",
+   "prio": 2,
+   "live_score": "0-1",
+   "minute": "20'"
+  },
+  {
    "league": "Africa Cup of Nations Qualifying",
    "home": "South Africa",
    "away": "Kenya",
@@ -2816,23 +2835,6 @@
   },
   {
    "league": "Matchs amicaux internationaux",
-   "home": "Singapore",
-   "away": "Paraguay",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-13 | Buts attendus Singapore 1.1 - Paraguay 1.4 | 1/N/2 : 30/26/44% | base sur 0 et 2 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Singapore, Paraguay (estimation neutre, très incertaine). Singapore : prochains : Brazil (Matchs amicaux internationaux, 4 j)  ||  Paraguay : repos 42 j | prochains : Japan (Matchs amicaux internationaux, 4 j)",
-   "day": "2026-11-13",
-   "prio": 2
-  },
-  {
-   "league": "Matchs amicaux internationaux",
    "home": "United Arab Emirates",
    "away": "Honduras",
    "status": "today",
@@ -3037,6 +3039,23 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true
+  },
+  {
+   "league": "Club Friendly",
+   "home": "TSV Hartberg",
+   "away": "Floridsdorfer AC",
+   "status": "today",
+   "conf": 64,
+   "victoire": "Victoire TSV Hartberg",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "2026-11-13 | Buts attendus TSV Hartberg 2.4 - Floridsdorfer AC 1.2 | 1/N/2 : 64/18/18% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Floridsdorfer AC (estimation neutre, très incertaine). TSV Hartberg : 4e/12 (20 pts en 12 m.) | repos 5 j | prochains : LASK Linz (Bundesliga (AUT), 8 j)  ||  Floridsdorfer AC",
+   "day": "2026-11-13",
+   "prio": 13
   },
   {
    "league": "Liga Colombia",
