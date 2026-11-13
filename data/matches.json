@@ -1,26 +1,26 @@
 {
- "date": "2026-11-13 21:47 UTC",
+ "date": "2026-11-13 22:27 UTC",
  "version": "V17",
  "stats": {
-  "n": 698,
+  "n": 699,
   "n_avant": 0,
   "dc": 79,
-  "over": 52,
+  "over": 53,
   "btts": 53,
   "score": 16,
   "1x2": 61,
   "n_fav": 319,
   "serre": 77,
-  "n_serre": 379,
+  "n_serre": 380,
   "base_dom": 47,
   "n_euro": 26,
   "dc_euro": 81
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : esp.copa_del_rey 1, fra.coupe_de_france 1, concacaf.nations.league 1, fifa.friendly 1",
-  "Matchs africains affichés (à venir / live) : 4",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 198",
+  "Matchs trouvés aujourd'hui par compétition : concacaf.nations.league 1, fifa.friendly 1",
+  "Matchs africains affichés (à venir / live) : 3",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 197",
   "Cartes à venir affichées : 40 (jours : 2026-11-13, 2026-11-14, 2026-11-15)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929778\"}",
   "Compétitions sans nom : aucune",
@@ -2352,25 +2352,6 @@
  ],
  "matches": [
   {
-   "league": "Africa Cup of Nations Qualifying",
-   "home": "Morocco",
-   "away": "Niger",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-13 | Buts attendus Morocco 1.8 - Niger 1.4 | 1/N/2 : 47/23/30% | base sur 1 et 1 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Morocco : repos 40 j  ||  Niger : repos 38 j",
-   "day": "2026-11-13",
-   "prio": -1,
-   "live_score": "4-1",
-   "minute": "78'"
-  },
-  {
    "league": "NCAA Women's Soccer",
    "home": "Weber State",
    "away": "Idaho",
@@ -2387,8 +2368,8 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "51'"
+   "live_score": "1-0",
+   "minute": "86'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2408,7 +2389,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "40'"
+   "minute": "63'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2428,7 +2409,27 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-0",
-   "minute": "36'"
+   "minute": "54'"
+  },
+  {
+   "league": "NCAA Women's Soccer",
+   "home": "Samford",
+   "away": "Tennessee Tech",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Samford, Tennessee Tech (estimation neutre, très incertaine). Samford  ||  Tennessee Tech",
+   "day": "2026-11-13",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "22'"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2478,24 +2479,6 @@
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
    "contexte": "⚠️ Peu ou pas de données pour : Chindia Targoviste, FCSB (estimation neutre, très incertaine). Chindia Targoviste  ||  FCSB",
-   "day": "2026-11-13",
-   "prio": 13,
-   "nopred": true
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Samford",
-   "away": "Tennessee Tech",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Samford, Tennessee Tech (estimation neutre, très incertaine). Samford  ||  Tennessee Tech",
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true
@@ -3114,6 +3097,42 @@
    "contexte": "Face-à-face (2 confrontations) : Port Vale 1V · 1N · Accrington Stanley 0V (scores : 2-2, 2-1) - trop peu pour influer  ||  Port Vale : 19e/24 (15 pts en 12 m.) | repos 7 j | prochains : Barnet (League Two, 7 j), Northampton Town (League Two, 10 j)  ||  Accrington Stanley : 9e/24 (19 pts en 14 m.) | repos 7 j | prochains : Salford City (League Two, 7 j)",
    "day": "2026-11-14",
    "prio": 9
+  },
+  {
+   "league": "League Two",
+   "home": "Rochdale",
+   "away": "York City",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "2026-11-14 | Buts attendus Rochdale 1.6 - York City 1.8 | 1/N/2 : 34/23/43% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Rochdale : 20e/24 (15 pts en 14 m.) | repos 7 j | prochains : Northampton Town (League Two, 7 j)  ||  York City : 7e/24 (20 pts en 14 m.) | repos 7 j | prochains : Walsall (League Two, 7 j)",
+   "day": "2026-11-14",
+   "prio": 9
+  },
+  {
+   "league": "Africa Cup of Nations Qualifying",
+   "home": "Morocco",
+   "away": "Niger",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 5-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-13",
+   "prio": -1,
+   "live_score": "5-1",
+   "minute": "FT"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -3854,25 +3873,6 @@
    "day": "2026-11-12",
    "prio": 1,
    "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue des nations (UEFA)",
-   "home": "Montenegro",
-   "away": "Latvia",
-   "status": "finished",
-   "conf": 56,
-   "victoire": "Victoire Montenegro",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-12",
-   "prio": 1,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
