@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13 02:48 UTC",
+ "date": "2026-11-13 03:35 UTC",
  "version": "V17",
  "stats": {
   "n": 680,
@@ -20,7 +20,7 @@
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : uefa.nations 10, fifa.friendly 7, concacaf.nations.league 4, fra.coupe_de_france 3, esp.2 1, uru.1 1, esp.copa_del_rey 1, mex.2 1",
   "Matchs africains affichés (à venir / live) : 12",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 233",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 231",
   "Cartes à venir affichées : 40 (jours : 2026-11-13, 2026-11-14, 2026-11-15)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929778\"}",
   "Compétitions sans nom : aucune",
@@ -2368,28 +2368,8 @@
    "day": "2026-11-13",
    "prio": 10,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "HT"
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "Georgetown",
-   "away": "Seton Hall",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Georgetown, Seton Hall (estimation neutre, très incertaine). Georgetown  ||  Seton Hall",
-   "day": "2026-11-13",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "2-0",
-   "minute": "84'"
+   "live_score": "1-0",
+   "minute": "74'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2408,48 +2388,8 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-0",
-   "minute": "46'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Houston Christian",
-   "away": "Northwestern State",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Houston Christian, Northwestern State (estimation neutre, très incertaine). Houston Christian  ||  Northwestern State",
-   "day": "2026-11-13",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "0-1",
-   "minute": "81'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "South Carolina",
-   "away": "Alabama",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : South Carolina, Alabama (estimation neutre, très incertaine). South Carolina  ||  Alabama",
-   "day": "2026-11-13",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "2-1",
-   "minute": "69'"
+   "live_score": "3-0",
+   "minute": "83'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2469,7 +2409,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "76'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -3089,6 +3029,24 @@
   },
   {
    "league": "Club Friendly",
+   "home": "FC Sellier & Bellot Vla'im",
+   "away": "Kladno",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : FC Sellier & Bellot Vla'im, Kladno (estimation neutre, très incertaine). FC Sellier & Bellot Vla'im  ||  Kladno",
+   "day": "2026-11-13",
+   "prio": 13,
+   "nopred": true
+  },
+  {
+   "league": "Club Friendly",
    "home": "Schwarz-Weiß Bregenz",
    "away": "SC Rheindorf Altach",
    "status": "today",
@@ -3139,23 +3097,6 @@
    "day": "2026-11-13",
    "prio": 13,
    "nopred": true
-  },
-  {
-   "league": "Club Friendly",
-   "home": "TSV Hartberg",
-   "away": "Floridsdorfer AC",
-   "status": "today",
-   "conf": 64,
-   "victoire": "Victoire TSV Hartberg",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 71%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-11-13 | Buts attendus TSV Hartberg 2.4 - Floridsdorfer AC 1.2 | 1/N/2 : 64/18/18% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Floridsdorfer AC (estimation neutre, très incertaine). TSV Hartberg : 4e/12 (20 pts en 12 m.) | repos 5 j | prochains : LASK Linz (Bundesliga (AUT), 8 j)  ||  Floridsdorfer AC",
-   "day": "2026-11-13",
-   "prio": 13
   },
   {
    "league": "Liga Colombia",
