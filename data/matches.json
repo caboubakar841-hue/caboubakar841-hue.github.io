@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14 13:36 UTC",
+ "date": "2026-11-14 14:20 UTC",
  "version": "V17",
  "stats": {
   "n": 667,
@@ -18,9 +18,9 @@
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 52, eng.4 10, uefa.nations 8, col.1 7, bra.2 7, eng.3 5, esp.2 5, uru.1 3, fifa.friendly 3, bra.1 2, concacaf.nations.league 2, gua.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 52, eng.4 10, uefa.nations 8, col.1 7, bra.2 7, eng.3 5, esp.2 5, uru.1 3, bra.1 2, concacaf.nations.league 2, gua.1 2, mex.1 1",
   "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 185",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 180",
   "Cartes à venir affichées : 40 (jours : 2026-11-14, 2026-11-15, 2026-11-16)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929714\"}",
   "Compétitions sans nom : aucune",
@@ -2352,23 +2352,23 @@
  ],
  "matches": [
   {
-   "league": "Matchs amicaux internationaux",
-   "home": "China",
-   "away": "Malaysia",
+   "league": "Ligue des nations (UEFA)",
+   "home": "Kosovo",
+   "away": "Israel",
    "status": "live",
-   "conf": 51,
-   "victoire": "Victoire Malaysia",
-   "score_exact": "1-2 (10%) · 1-3 (5%)",
-   "double_chance": "12 76%",
+   "conf": 75,
+   "victoire": "Serré : Nul ou Kosovo",
+   "score_exact": "1-0 (15%) · 0-0 (12%)",
+   "double_chance": "1X 75%",
    "corner": "N/D",
-   "over": "Over 2.5 53%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-14 | Buts attendus China 1.1 - Malaysia 1.7 | 1/N/2 : 24/24/51% | base sur 4 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Malaysia (estimation neutre, très incertaine). China : repos 39 j | prochains : Bahrain (Matchs amicaux internationaux, 3 j)  ||  Malaysia : prochains : Yemen (Matchs amicaux internationaux, 3 j)",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 59%",
+   "analyse": "2026-11-14 | Buts attendus Kosovo 1.3 - Israel 0.9 | 1/N/2 : 46/29/25% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Kosovo : repos 41 j | prochains : Republic of Ireland (Ligue des nations (UEFA), 3 j)  ||  Israel : repos 41 j | prochains : Austria (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-14",
-   "prio": 2,
-   "live_score": "2-0",
-   "minute": "73'"
+   "prio": 1,
+   "live_score": "0-0",
+   "minute": "20'"
   },
   {
    "league": "League Two",
@@ -2386,8 +2386,8 @@
    "contexte": "Exeter City : 11e/24 (19 pts en 14 m.) | repos 7 j | prochains : Oldham Athletic (League Two, 7 j), Crawley Town (League Two, 14 j)  ||  Cheltenham Town : 5e/24 (21 pts en 14 m.) | repos 7 j | prochains : Bristol Rovers (League Two, 7 j), Shrewsbury Town (League Two, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "49'"
+   "live_score": "1-0",
+   "minute": "90'+3'"
   },
   {
    "league": "La Liga 2",
@@ -2406,7 +2406,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "33'"
+   "minute": "56'"
   },
   {
    "league": "Liga Uruguay",
@@ -2424,8 +2424,8 @@
    "contexte": "Central Español Fútbol Club : repos 14 j  ||  Boston River : repos 13 j",
    "day": "2026-11-14",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "36'"
+   "live_score": "1-0",
+   "minute": "62'"
   },
   {
    "league": "English Women's Super League",
@@ -2443,8 +2443,8 @@
    "contexte": "Manchester United : 18e/20 (8 pts en 10 m.) | repos 6 j | prochains : Liverpool (Premier League, 8 j), Sporting CP (Ligue des champions, 11 j), Brentford (Premier League, 14 j)  ||  Crystal Palace : 20e/20 (7 pts en 10 m.) | repos 6 j | prochains : Coventry City (Premier League, 7 j), Real Sociedad (Ligue Europa, 12 j)",
    "day": "2026-11-14",
    "prio": 13,
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "2-0",
+   "minute": "78'"
   },
   {
    "league": "English Women's Super League",
@@ -2462,8 +2462,27 @@
    "contexte": "Chelsea : 5e/20 (16 pts en 10 m.) | repos 6 j | prochains : Leeds United (Premier League, 7 j), Nottingham Forest (Premier League, 13 j)  ||  Manchester City : 3e/20 (21 pts en 10 m.) | repos 7 j | prochains : Fulham (Premier League, 7 j), Napoli (Ligue des champions, 10 j)",
    "day": "2026-11-14",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "7'"
+   "live_score": "1-0",
+   "minute": "45'+6'"
+  },
+  {
+   "league": "French Première Ligue",
+   "home": "Le Havre AC",
+   "away": "Paris FC",
+   "status": "live",
+   "conf": 63,
+   "victoire": "Victoire Paris FC",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "2026-11-14 | Buts attendus Le Havre AC 1.1 - Paris FC 2.2 | 1/N/2 : 18/20/63% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Le Havre AC : 18e/18 (2 pts en 10 m.) | repos 6 j | prochains : Troyes (Ligue 1, 6 j), Strasbourg (Ligue 1, 14 j)  ||  Paris FC : 3e/18 (20 pts en 10 m.) | repos 7 j | prochains : Angers (Ligue 1, 8 j), Brest (Ligue 1, 13 j)",
+   "day": "2026-11-14",
+   "prio": 13,
+   "live_score": "0-1",
+   "minute": "20'"
   },
   {
    "league": "Indian Football League",
@@ -2483,7 +2502,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "36'"
+   "minute": "60'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -2536,23 +2555,6 @@
    "day": "2026-11-14",
    "prio": -1,
    "nopred": true
-  },
-  {
-   "league": "Ligue des nations (UEFA)",
-   "home": "Kosovo",
-   "away": "Israel",
-   "status": "today",
-   "conf": 75,
-   "victoire": "Serré : Nul ou Kosovo",
-   "score_exact": "1-0 (15%) · 0-0 (12%)",
-   "double_chance": "1X 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 59%",
-   "analyse": "2026-11-14 | Buts attendus Kosovo 1.3 - Israel 0.9 | 1/N/2 : 46/29/25% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : Kosovo 0V · 1N · Israel 0V (scores : 0-0) - trop peu pour influer  ||  Kosovo : repos 41 j | prochains : Republic of Ireland (Ligue des nations (UEFA), 3 j)  ||  Israel : repos 41 j | prochains : Austria (Ligue des nations (UEFA), 3 j)",
-   "day": "2026-11-14",
-   "prio": 1
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2704,23 +2706,6 @@
    "btts": "BTTS OUI 67%",
    "analyse": "2026-11-14 | Buts attendus Haiti 1.6 - United States 1.8 | 1/N/2 : 33/22/44% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Haiti : repos 41 j | prochains : United States (Ligue des nations (CONCACAF), 3 j)  ||  United States : repos 39 j | prochains : Haiti (Ligue des nations (CONCACAF), 3 j)",
-   "day": "2026-11-14",
-   "prio": 2
-  },
-  {
-   "league": "Matchs amicaux internationaux",
-   "home": "Chinese Taipei",
-   "away": "Kyrgyz Republic",
-   "status": "today",
-   "conf": 59,
-   "victoire": "Victoire Kyrgyz Republic",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-14 | Buts attendus Chinese Taipei 1.1 - Kyrgyz Republic 2.0 | 1/N/2 : 20/21/59% | base sur 1 et 2 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Chinese Taipei, Kyrgyz Republic (estimation neutre, très incertaine). Chinese Taipei : repos 3 j  ||  Kyrgyz Republic : repos 41 j | prochains : Vietnam (Matchs amicaux internationaux, 3 j)",
    "day": "2026-11-14",
    "prio": 2
   },
@@ -3167,6 +3152,42 @@
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
    "contexte": "⚠️ Peu ou pas de données pour : CRB, Ceará (estimation neutre, très incertaine). Face-à-face (5 confrontations) : CRB 3V · 1N · Ceará 1V (scores : 3-1, 2-0, 2-2)  ||  CRB  ||  Ceará",
+   "day": "2026-11-14",
+   "prio": 10,
+   "nopred": true
+  },
+  {
+   "league": "Brazilian Serie B",
+   "home": "Criciúma",
+   "away": "Novorizontino",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Criciúma, Novorizontino (estimation neutre, très incertaine). Face-à-face (7 confrontations) : Criciúma 2V · 2N · Novorizontino 3V (scores : 1-1 x2, 1-3, 0-1)  ||  Criciúma  ||  Novorizontino",
+   "day": "2026-11-14",
+   "prio": 10,
+   "nopred": true
+  },
+  {
+   "league": "Brazilian Serie B",
+   "home": "Fortaleza",
+   "away": "Vila Nova",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Fortaleza, Vila Nova (estimation neutre, très incertaine). Face-à-face (1 confrontation) : Fortaleza 0V · 0N · Vila Nova 1V (scores : 1-2) - trop peu pour influer  ||  Fortaleza  ||  Vila Nova",
    "day": "2026-11-14",
    "prio": 10,
    "nopred": true
