@@ -1,26 +1,26 @@
 {
- "date": "2026-11-14 15:38 UTC",
+ "date": "2026-11-14 16:15 UTC",
  "version": "V17",
  "stats": {
-  "n": 672,
+  "n": 674,
   "n_avant": 0,
   "dc": 78,
   "over": 53,
   "btts": 53,
   "score": 16,
   "1x2": 61,
-  "n_fav": 309,
+  "n_fav": 310,
   "serre": 76,
-  "n_serre": 363,
+  "n_serre": 364,
   "base_dom": 46,
   "n_euro": 26,
   "dc_euro": 81
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 48, eng.4 9, uefa.nations 8, col.1 7, bra.2 7, eng.3 5, esp.2 4, bra.1 2, uru.1 2, concacaf.nations.league 2, gua.1 2, mex.1 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 48, eng.4 9, col.1 7, uefa.nations 7, bra.2 7, eng.3 5, esp.2 4, bra.1 2, uru.1 2, concacaf.nations.league 2, gua.1 2, mex.1 1",
   "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 175",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 174",
   "Cartes à venir affichées : 40 (jours : 2026-11-14, 2026-11-15, 2026-11-16)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929714\"}",
   "Compétitions sans nom : aucune",
@@ -2352,23 +2352,23 @@
  ],
  "matches": [
   {
-   "league": "Ligue des nations (UEFA)",
-   "home": "Kosovo",
-   "away": "Israel",
+   "league": "Africa Cup of Nations Qualifying",
+   "home": "Uganda",
+   "away": "Botswana",
    "status": "live",
-   "conf": 75,
-   "victoire": "Serré : Nul ou Kosovo",
-   "score_exact": "1-0 (15%) · 0-0 (12%)",
-   "double_chance": "1X 75%",
+   "conf": 56,
+   "victoire": "Victoire Uganda",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "1X 79%",
    "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 59%",
-   "analyse": "2026-11-14 | Buts attendus Kosovo 1.3 - Israel 0.9 | 1/N/2 : 46/29/25% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Kosovo : repos 41 j | prochains : Republic of Ireland (Ligue des nations (UEFA), 3 j)  ||  Israel : repos 41 j | prochains : Austria (Ligue des nations (UEFA), 3 j)",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-11-14 | Buts attendus Uganda 1.9 - Botswana 1.1 | 1/N/2 : 56/22/21% | base sur 2 et 1 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Uganda : repos 40 j  ||  Botswana : repos 45 j",
    "day": "2026-11-14",
-   "prio": 1,
-   "live_score": "0-0",
-   "minute": "81'"
+   "prio": -1,
+   "live_score": "1-0",
+   "minute": "15'"
   },
   {
    "league": "Matchs amicaux internationaux",
@@ -2387,7 +2387,7 @@
    "day": "2026-11-14",
    "prio": 2,
    "live_score": "0-0",
-   "minute": "34'"
+   "minute": "52'"
   },
   {
    "league": "League One",
@@ -2406,7 +2406,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "38'"
+   "minute": "59'"
   },
   {
    "league": "League One",
@@ -2424,8 +2424,8 @@
    "contexte": "Milton Keynes Dons : 12e/24 (18 pts en 13 m.) | repos 7 j | prochains : Mansfield Town (League One, 7 j), Notts County (League One, 14 j)  ||  Burton Albion : 15e/24 (17 pts en 14 m.) | repos 7 j | prochains : Luton Town (League One, 7 j), Bromley (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "37'"
+   "live_score": "4-1",
+   "minute": "59'"
   },
   {
    "league": "League One",
@@ -2443,8 +2443,8 @@
    "contexte": "Sheffield Wednesday : 9e/24 (20 pts en 13 m.) | repos 6 j | prochains : Barnsley (League One, 6 j), Stevenage (League One, 10 j), Reading (League One, 14 j)  ||  Plymouth Argyle : 5e/24 (23 pts en 14 m.) | repos 7 j | prochains : Peterborough United (League One, 7 j), Wigan Athletic (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "38'"
+   "live_score": "1-0",
+   "minute": "59'"
   },
   {
    "league": "League One",
@@ -2462,8 +2462,8 @@
    "contexte": "Stockport County : 2e/24 (26 pts en 14 m.) | repos 6 j | prochains : Cambridge United (League One, 7 j), Leyton Orient (League One, 14 j)  ||  Reading : 6e/24 (22 pts en 14 m.) | repos 7 j | prochains : Bromley (League One, 7 j), Sheffield Wednesday (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "38'"
+   "live_score": "3-1",
+   "minute": "56'"
   },
   {
    "league": "League One",
@@ -2481,8 +2481,8 @@
    "contexte": "Wigan Athletic : 21e/24 (11 pts en 14 m.) | repos 7 j | prochains : Blackpool (League One, 7 j), Plymouth Argyle (League One, 14 j)  ||  Barnsley : 23e/24 (9 pts en 12 m.) | repos 7 j | prochains : Sheffield Wednesday (League One, 6 j), Bradford City (League One, 10 j), AFC Wimbledon (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "38'"
+   "live_score": "1-1",
+   "minute": "59'"
   },
   {
    "league": "League Two",
@@ -2501,7 +2501,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "37'"
+   "minute": "55'"
   },
   {
    "league": "League Two",
@@ -2520,7 +2520,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "53'"
   },
   {
    "league": "League Two",
@@ -2539,7 +2539,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "38'"
+   "minute": "57'"
   },
   {
    "league": "League Two",
@@ -2558,7 +2558,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "37'"
+   "minute": "57'"
   },
   {
    "league": "League Two",
@@ -2577,7 +2577,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "57'"
   },
   {
    "league": "League Two",
@@ -2596,7 +2596,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "38'"
+   "minute": "58'"
   },
   {
    "league": "League Two",
@@ -2615,7 +2615,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "58'"
   },
   {
    "league": "League Two",
@@ -2633,8 +2633,8 @@
    "contexte": "Swindon Town : 13e/24 (19 pts en 14 m.) | repos 7 j | prochains : Newport County (League Two, 7 j), Chesterfield (League Two, 14 j)  ||  Grimsby Town : 7e/24 (20 pts en 14 m.) | repos 6 j | prochains : Rotherham United (League Two, 7 j), Crewe Alexandra (League Two, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "38'"
+   "live_score": "0-3",
+   "minute": "59'"
   },
   {
    "league": "La Liga 2",
@@ -2653,7 +2653,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "22'"
+   "minute": "HT"
   },
   {
    "league": "English Women's Super League",
@@ -2672,26 +2672,7 @@
    "day": "2026-11-14",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "38'"
-  },
-  {
-   "league": "French Première Ligue",
-   "home": "Le Havre AC",
-   "away": "Paris FC",
-   "status": "live",
-   "conf": 63,
-   "victoire": "Victoire Paris FC",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-14 | Buts attendus Le Havre AC 1.1 - Paris FC 2.2 | 1/N/2 : 18/20/63% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Le Havre AC : 18e/18 (2 pts en 10 m.) | repos 6 j | prochains : Troyes (Ligue 1, 6 j), Strasbourg (Ligue 1, 14 j)  ||  Paris FC : 3e/18 (20 pts en 10 m.) | repos 7 j | prochains : Angers (Ligue 1, 8 j), Brest (Ligue 1, 13 j)",
-   "day": "2026-11-14",
-   "prio": 13,
-   "live_score": "1-2",
-   "minute": "77'"
+   "minute": "59'"
   },
   {
    "league": "English National League",
@@ -2710,8 +2691,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-0",
-   "minute": "37'"
+   "live_score": "1-1",
+   "minute": "56'"
   },
   {
    "league": "English National League",
@@ -2731,7 +2712,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-0",
-   "minute": "38'"
+   "minute": "59'"
   },
   {
    "league": "English National League",
@@ -2750,8 +2731,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "37'"
+   "live_score": "1-1",
+   "minute": "58'"
   },
   {
    "league": "English National League",
@@ -2771,7 +2752,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "36'"
+   "minute": "55'"
   },
   {
    "league": "English National League",
@@ -2790,8 +2771,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "37'"
+   "live_score": "1-0",
+   "minute": "57'"
   },
   {
    "league": "English National League",
@@ -2811,7 +2792,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "37'"
+   "minute": "56'"
   },
   {
    "league": "English National League",
@@ -2830,8 +2811,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "37'"
+   "live_score": "1-0",
+   "minute": "55'"
   },
   {
    "league": "English National League",
@@ -2851,7 +2832,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "35'"
+   "minute": "56'"
   },
   {
    "league": "English National League",
@@ -2871,7 +2852,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "36'"
+   "minute": "53'"
   },
   {
    "league": "English National League",
@@ -2891,7 +2872,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "36'"
+   "minute": "52'"
   },
   {
    "league": "English National League",
@@ -2911,7 +2892,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "2-1",
-   "minute": "37'"
+   "minute": "57'"
   },
   {
    "league": "Scottish Championship",
@@ -2930,8 +2911,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "2-0",
-   "minute": "38'"
+   "live_score": "2-1",
+   "minute": "61'"
   },
   {
    "league": "Scottish Championship",
@@ -2950,8 +2931,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-0",
-   "minute": "37'"
+   "live_score": "2-0",
+   "minute": "59'"
   },
   {
    "league": "Scottish Championship",
@@ -2970,8 +2951,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "38'"
+   "live_score": "2-0",
+   "minute": "58'"
   },
   {
    "league": "Scottish Championship",
@@ -2990,8 +2971,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "37'"
+   "live_score": "1-0",
+   "minute": "57'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -3010,25 +2991,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "7'"
-  },
-  {
-   "league": "Africa Cup of Nations Qualifying",
-   "home": "Uganda",
-   "away": "Botswana",
-   "status": "today",
-   "conf": 56,
-   "victoire": "Victoire Uganda",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 58%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-14 | Buts attendus Uganda 1.9 - Botswana 1.1 | 1/N/2 : 56/22/21% | base sur 2 et 1 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Uganda : repos 40 j  ||  Botswana : repos 45 j",
-   "day": "2026-11-14",
-   "prio": -1
+   "live_score": "0-1",
+   "minute": "45'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -3704,6 +3668,23 @@
    "prio": 13
   },
   {
+   "league": "French Première Ligue",
+   "home": "Marseille",
+   "away": "Paris Saint-Germain",
+   "status": "today",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 71%",
+   "analyse": "2026-11-14 | Buts attendus Marseille 1.8 - Paris Saint-Germain 1.9 | 1/N/2 : 36/22/43% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Marseille : 4e/18 (18 pts en 10 m.) | repos 6 j | prochains : Le Mans (Ligue 1, 8 j), Levski Sofia (Ligue Europa, 12 j)  ||  Paris Saint-Germain : 1e/18 (23 pts en 10 m.) | repos 7 j | prochains : Nice (Ligue 1, 7 j), AS Roma (Ligue des champions, 11 j), Lorient (Ligue 1, 14 j)",
+   "day": "2026-11-14",
+   "prio": 13
+  },
+  {
    "league": "Club Friendly",
    "home": "FC Zorya Luhansk",
    "away": "FC Kharkiv",
@@ -3721,6 +3702,44 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-3",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (UEFA)",
+   "home": "Kosovo",
+   "away": "Israel",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : Nul ou Kosovo",
+   "score_exact": "1-0 (15%) · 0-0 (12%)",
+   "double_chance": "1X 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 59%",
+   "analyse": "Resultat 0-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-14",
+   "prio": 1,
+   "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "French Première Ligue",
+   "home": "Le Havre AC",
+   "away": "Paris FC",
+   "status": "finished",
+   "conf": 63,
+   "victoire": "Victoire Paris FC",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-14",
+   "prio": 13,
+   "live_score": "1-2",
    "minute": "FT"
   },
   {
@@ -3792,11 +3811,11 @@
    "corner": "N/D",
    "over": "Over 2.5 71%",
    "btts": "BTTS OUI 66%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
    "contexte": "⚠️ Peu ou pas de données pour : First Vienna FC 1894 (estimation neutre, très incertaine). ",
    "day": "2026-11-14",
    "prio": 13,
-   "live_score": "0-0",
+   "live_score": "2-2",
    "minute": "FT"
   },
   {
@@ -4424,44 +4443,6 @@
    "day": "2026-11-13",
    "prio": -1,
    "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Africa Cup of Nations Qualifying",
-   "home": "Mozambique",
-   "away": "Ethiopia",
-   "status": "finished",
-   "conf": 84,
-   "victoire": "Victoire Mozambique",
-   "score_exact": "3-1 (8%) · 2-1 (8%)",
-   "double_chance": "1X 94%",
-   "corner": "N/D",
-   "over": "Over 2.5 75%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 0-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : Ethiopia (estimation neutre, très incertaine). ",
-   "day": "2026-11-13",
-   "prio": -1,
-   "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Club Friendly",
-   "home": "Dynamo Dresden",
-   "away": "Dukla Prague",
-   "status": "finished",
-   "conf": 50,
-   "victoire": "Victoire Dynamo Dresden",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 68%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : Dukla Prague (estimation neutre, très incertaine). ",
-   "day": "2026-11-13",
-   "prio": 13,
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
