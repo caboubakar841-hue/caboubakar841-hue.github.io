@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14 10:58 UTC",
+ "date": "2026-11-14 11:27 UTC",
  "version": "V17",
  "stats": {
   "n": 666,
@@ -2368,7 +2368,26 @@
    "day": "2026-11-14",
    "prio": 2,
    "live_score": "2-1",
-   "minute": "43'"
+   "minute": "50'"
+  },
+  {
+   "league": "Spanish Liga F",
+   "home": "Espanyol",
+   "away": "Tenerife",
+   "status": "live",
+   "conf": 63,
+   "victoire": "Victoire Espanyol",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-11-14 | Buts attendus Espanyol 2.0 - Tenerife 0.9 | 1/N/2 : 63/21/16% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Espanyol : 13e/20 (12 pts en 12 m.) | repos 7 j | prochains : Athletic Club (La Liga, 6 j)  ||  Tenerife : 14e/22 (15 pts en 12 m.) | repos 12 j | prochains : Ceuta (La Liga 2, 1 j), Badajoz (Coupe du Roi, 4 j), Mallorca (La Liga 2, 7 j)",
+   "day": "2026-11-14",
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "26'"
   },
   {
    "league": "Indian Football League",
@@ -2387,8 +2406,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-1",
-   "minute": "28'"
+   "live_score": "1-2",
+   "minute": "HT"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
