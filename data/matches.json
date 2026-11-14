@@ -1,32 +1,32 @@
 {
- "date": "2026-11-14 20:59 UTC",
+ "date": "2026-11-14 21:27 UTC",
  "version": "V17",
  "stats": {
-  "n": 700,
-  "n_avant": 12,
+  "n": 701,
+  "n_avant": 13,
   "dc": 78,
   "over": 53,
   "btts": 53,
   "score": 17,
   "1x2": 60,
-  "n_fav": 317,
+  "n_fav": 318,
   "serre": 76,
   "n_serre": 383,
   "base_dom": 46,
   "n_euro": 26,
   "dc_euro": 81,
-  "n_ctx": 1,
-  "brier_ctx": 0.561,
-  "brier_base": 0.424,
-  "n_h2h": 1,
-  "brier_h2h": 0.561,
-  "brier_noh2h": 0.424
+  "n_ctx": 2,
+  "brier_ctx": 0.833,
+  "brier_base": 0.773,
+  "n_h2h": 2,
+  "brier_h2h": 0.833,
+  "brier_noh2h": 0.773
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 8, col.1 7, bra.2 7, uefa.nations 5, bra.1 2, uru.1 2, gua.1 2, esp.2 1, mex.1 1, concacaf.nations.league 1",
-  "Matchs africains affichés (à venir / live) : 2",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 133",
+  "Matchs trouvés aujourd'hui par compétition : col.1 7, bra.2 7, uefa.nations 5, bra.1 2, fra.coupe_de_france 2, gua.1 2, esp.2 1, mex.1 1, uru.1 1, concacaf.nations.league 1",
+  "Matchs africains affichés (à venir / live) : 1",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 129",
   "Cartes à venir affichées : 40 (jours : 2026-11-14, 2026-11-15, 2026-11-16)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929714\"}",
   "Compétitions sans nom : aucune",
@@ -2358,26 +2358,6 @@
  ],
  "matches": [
   {
-   "league": "Africa Cup of Nations Qualifying",
-   "home": "Angola",
-   "away": "South Sudan",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Angola, South Sudan (estimation neutre, très incertaine). Angola  ||  South Sudan",
-   "day": "2026-11-14",
-   "prio": -1,
-   "nopred": true,
-   "live_score": "1-0",
-   "minute": "90'+8'"
-  },
-  {
    "league": "Ligue des nations (UEFA)",
    "home": "Austria",
    "away": "Republic of Ireland",
@@ -2393,8 +2373,8 @@
    "contexte": "Face-à-face (1 confrontation) : Austria 0V · 1N · Republic of Ireland 0V (scores : 2-2) - trop peu pour influer  ||  Austria : repos 41 j | prochains : Israel (Ligue des nations (UEFA), 3 j)  ||  Republic of Ireland : repos 41 j | prochains : Kosovo (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-14",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "56'"
+   "live_score": "1-0",
+   "minute": "85'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2412,8 +2392,8 @@
    "contexte": "Face-à-face (1 confrontation) : Northern Ireland 1V · 0N · Ukraine 0V (scores : 3-0) - trop peu pour influer  ||  Northern Ireland : repos 40 j | prochains : Hungary (Ligue des nations (UEFA), 3 j)  ||  Ukraine : repos 40 j | prochains : Georgia (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-14",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "56'"
+   "live_score": "1-0",
+   "minute": "84'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2431,8 +2411,8 @@
    "contexte": "Face-à-face (3 confrontations) : Portugal 2V · 0N · Denmark 1V (scores : 0-1, 5-2, 4-2)  ||  Portugal : repos 41 j | prochains : Wales (Ligue des nations (UEFA), 3 j)  ||  Denmark : repos 41 j | prochains : Norway (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-14",
    "prio": 1,
-   "live_score": "0-2",
-   "minute": "54'"
+   "live_score": "0-4",
+   "minute": "83'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2450,8 +2430,8 @@
    "contexte": "Face-à-face (1 confrontation) : Romania 0V · 0N · Poland 1V (scores : 0-6) - trop peu pour influer  ||  Romania : repos 40 j | prochains : Bosnia-Herzegovina (Ligue des nations (UEFA), 3 j)  ||  Poland : repos 40 j | prochains : Sweden (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-14",
    "prio": 1,
-   "live_score": "0-0",
-   "minute": "55'"
+   "live_score": "2-1",
+   "minute": "83'"
   },
   {
    "league": "Ligue des nations (UEFA)",
@@ -2469,8 +2449,8 @@
    "contexte": "Face-à-face (1 confrontation) : Sweden 0V · 1N · Bosnia-Herzegovina 0V (scores : 1-1) - trop peu pour influer  ||  Sweden : repos 40 j | prochains : Poland (Ligue des nations (UEFA), 3 j)  ||  Bosnia-Herzegovina : repos 40 j | prochains : Romania (Ligue des nations (UEFA), 3 j)",
    "day": "2026-11-14",
    "prio": 1,
-   "live_score": "3-1",
-   "minute": "55'"
+   "live_score": "3-2",
+   "minute": "84'"
   },
   {
    "league": "La Liga 2",
@@ -2488,8 +2468,28 @@
    "contexte": "Real Oviedo : 9e/22 (21 pts en 13 m.) | repos 7 j | prochains : Córdoba (La Liga 2, 8 j)  ||  Girona : 8e/22 (21 pts en 13 m.) | repos 6 j | prochains : Eibar (La Liga 2, 8 j), Eldense (La Liga 2, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-2",
+   "minute": "68'"
+  },
+  {
+   "league": "Guatemalan Liga Nacional",
+   "home": "Xelajú MC",
+   "away": "CD Guastatoya",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Xelajú MC, CD Guastatoya (estimation neutre, très incertaine). Face-à-face (8 confrontations) : Xelajú MC 3V · 3N · CD Guastatoya 2V (scores : 1-1 x2, 1-0, 2-2)  ||  Xelajú MC : prochains : Suchitepequez (Guatemalan Liga Nacional, 7 j), Comunicaciones (Guatemalan Liga Nacional, 14 j)  ||  CD Guastatoya : prochains : Comunicaciones (Guatemalan Liga Nacional, 7 j), Deportivo San Pedro (Guatemalan Liga Nacional, 14 j)",
+   "day": "2026-11-14",
+   "prio": 9,
+   "nopred": true,
+   "live_score": "1-0",
+   "minute": "22'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2508,8 +2508,8 @@
    "day": "2026-11-14",
    "prio": 10,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "59'"
+   "live_score": "0-2",
+   "minute": "88'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2528,8 +2528,8 @@
    "day": "2026-11-14",
    "prio": 10,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "59'"
+   "live_score": "1-0",
+   "minute": "87'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2549,7 +2549,7 @@
    "prio": 10,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "59'"
+   "minute": "88'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2568,8 +2568,8 @@
    "day": "2026-11-14",
    "prio": 10,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "59'"
+   "live_score": "0-1",
+   "minute": "87'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2589,7 +2589,7 @@
    "prio": 10,
    "nopred": true,
    "live_score": "1-0",
-   "minute": "58'"
+   "minute": "87'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2608,8 +2608,8 @@
    "day": "2026-11-14",
    "prio": 10,
    "nopred": true,
-   "live_score": "1-0",
-   "minute": "59'"
+   "live_score": "2-0",
+   "minute": "87'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2629,7 +2629,7 @@
    "prio": 10,
    "nopred": true,
    "live_score": "2-0",
-   "minute": "59'"
+   "minute": "87'"
   },
   {
    "league": "Liga Colombia",
@@ -2648,7 +2648,7 @@
    "day": "2026-11-14",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "28'"
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2667,7 +2667,7 @@
    "day": "2026-11-14",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "27'"
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2685,8 +2685,8 @@
    "contexte": "Face-à-face (8 confrontations) : Atlético Nacional 4V · 3N · Once Caldas 1V (scores : 1-1 x2, 1-0, 0-2)  ||  Atlético Nacional : repos 7 j  ||  Once Caldas : repos 7 j",
    "day": "2026-11-14",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "28'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2704,8 +2704,8 @@
    "contexte": "Cúcuta Deportivo : repos 5 j  ||  Jaguares de Córdoba : repos 6 j",
    "day": "2026-11-14",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "28'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2724,7 +2724,7 @@
    "day": "2026-11-14",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "27'"
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2742,8 +2742,8 @@
    "contexte": "Face-à-face (8 confrontations) : Deportivo Pereira 3V · 1N · América de Cali 4V (scores : 1-1, 1-0, 1-2)  ||  Deportivo Pereira : repos 7 j  ||  América de Cali : repos 6 j",
    "day": "2026-11-14",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "28'"
+   "live_score": "0-1",
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2761,27 +2761,8 @@
    "contexte": "Face-à-face (8 confrontations) : Millonarios 4V · 1N · Alianza FC 3V (scores : 1-0, 4-2, 3-1)  ||  Millonarios : repos 6 j  ||  Alianza FC : repos 3 j | prochains : CD FAS (Salvadoran Primera Division, 0 j), CD Municipal Limeño (Salvadoran Primera Division, 7 j)",
    "day": "2026-11-14",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "28'"
-  },
-  {
-   "league": "Liga Uruguay",
-   "home": "Deportivo Maldonado",
-   "away": "Cerro",
-   "status": "live",
-   "conf": 58,
-   "victoire": "Victoire Deportivo Maldonado",
-   "score_exact": "1-0 (15%) · 2-0 (12%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-14 | Buts attendus Deportivo Maldonado 1.7 - Cerro 0.7 | 1/N/2 : 58/26/16% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Deportivo Maldonado 3V · 2N · Cerro 1V (scores : 0-0 x2, 1-2, 2-1)  ||  Deportivo Maldonado : repos 12 j  ||  Cerro : repos 14 j",
-   "day": "2026-11-14",
-   "prio": 12,
-   "live_score": "0-1",
-   "minute": "70'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Spanish Liga F",
@@ -2799,8 +2780,8 @@
    "contexte": "⚠️ Peu ou pas de données pour : FC Badalona (estimation neutre, très incertaine). Real Madrid : 2e/20 (30 pts en 12 m.) | repos 7 j | prochains : Celta Vigo (La Liga, 7 j), PSV Eindhoven (Ligue des champions, 10 j), Alavés (La Liga, 14 j)  ||  FC Badalona",
    "day": "2026-11-14",
    "prio": 13,
-   "live_score": "1-1",
-   "minute": "66'"
+   "live_score": "3-3",
+   "minute": "90'+4'"
   },
   {
    "league": "French Première Ligue",
@@ -2819,32 +2800,12 @@
    "day": "2026-11-14",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "HT"
-  },
-  {
-   "league": "Northern Super League",
-   "home": "Montreal Roses FC",
-   "away": "AFC Toronto",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Montreal Roses FC, AFC Toronto (estimation neutre, très incertaine). Montreal Roses FC  ||  AFC Toronto",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "0-1",
-   "minute": "87'"
+   "minute": "68'"
   },
   {
    "league": "Argentine Nacional B",
-   "home": "Temperley",
-   "away": "Ciudad de Bolívar",
+   "home": "Colón (Santa Fe)",
+   "away": "Midland",
    "status": "live",
    "conf": 0,
    "victoire": "Pas de pronostic",
@@ -2854,12 +2815,12 @@
    "over": "-",
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Temperley, Ciudad de Bolívar (estimation neutre, très incertaine). Temperley  ||  Ciudad de Bolívar",
+   "contexte": "⚠️ Peu ou pas de données pour : Colón (Santa Fe), Midland (estimation neutre, très incertaine). Colón (Santa Fe)  ||  Midland",
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-2",
-   "minute": "90'+1'"
+   "live_score": "0-0",
+   "minute": "18'"
   },
   {
    "league": "Argentine Primera B",
@@ -2878,13 +2839,13 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "1-2",
+   "minute": "28'"
   },
   {
-   "league": "NCAA Women's Soccer",
-   "home": "Milwaukee",
-   "away": "IU Indianapolis",
+   "league": "NCAA Men's Soccer",
+   "home": "Tulsa",
+   "away": "Charlotte",
    "status": "live",
    "conf": 0,
    "victoire": "Pas de pronostic",
@@ -2894,12 +2855,32 @@
    "over": "-",
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Milwaukee, IU Indianapolis (estimation neutre, très incertaine). Milwaukee  ||  IU Indianapolis",
+   "contexte": "⚠️ Peu ou pas de données pour : Tulsa, Charlotte (estimation neutre, très incertaine). Tulsa  ||  Charlotte",
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "5-2",
-   "minute": "81'"
+   "live_score": "0-0",
+   "minute": "20'"
+  },
+  {
+   "league": "NCAA Women's Soccer",
+   "home": "Wyoming",
+   "away": "Air Force",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Wyoming, Air Force (estimation neutre, très incertaine). Wyoming  ||  Air Force",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "21'"
   },
   {
    "league": "Ligue des nations (CONCACAF)",
@@ -2951,24 +2932,6 @@
    "contexte": "Face-à-face (1 confrontation) : Chapecoense 0V · 1N · Vasco da Gama 0V (scores : 1-1) - trop peu pour influer  ||  Chapecoense : repos 11 j | prochains : Remo (Brasileirao, 4 j), Cruzeiro (Brasileirao, 7 j), Palmeiras (Brasileirao, 10 j)  ||  Vasco da Gama : repos 10 j | prochains : Internacional (Brasileirao, 5 j), Red Bull Bragantino (Brasileirao, 8 j)",
    "day": "2026-11-14",
    "prio": 9
-  },
-  {
-   "league": "Guatemalan Liga Nacional",
-   "home": "Xelajú MC",
-   "away": "CD Guastatoya",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Xelajú MC, CD Guastatoya (estimation neutre, très incertaine). Face-à-face (8 confrontations) : Xelajú MC 3V · 3N · CD Guastatoya 2V (scores : 1-1 x2, 1-0, 2-2)  ||  Xelajú MC : prochains : Suchitepequez (Guatemalan Liga Nacional, 7 j), Comunicaciones (Guatemalan Liga Nacional, 14 j)  ||  CD Guastatoya : prochains : Comunicaciones (Guatemalan Liga Nacional, 7 j), Deportivo San Pedro (Guatemalan Liga Nacional, 14 j)",
-   "day": "2026-11-14",
-   "prio": 9,
-   "nopred": true
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -3072,60 +3035,6 @@
    "contexte": "⚠️ Peu ou pas de données pour : Basque Country (estimation neutre, très incertaine). Basque Country  ||  Venezuela : repos 39 j | prochains : Russia (Matchs amicaux internationaux, 3 j)",
    "day": "2026-11-14",
    "prio": 13
-  },
-  {
-   "league": "Argentine Nacional B",
-   "home": "Colón (Santa Fe)",
-   "away": "Midland",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Colón (Santa Fe), Midland (estimation neutre, très incertaine). Colón (Santa Fe)  ||  Midland",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "Tulsa",
-   "away": "Charlotte",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Tulsa, Charlotte (estimation neutre, très incertaine). Tulsa  ||  Charlotte",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Wyoming",
-   "away": "Air Force",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Wyoming, Air Force (estimation neutre, très incertaine). Wyoming  ||  Air Force",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true
   },
   {
    "league": "Argentine Nacional B",
@@ -3599,6 +3508,74 @@
    "prio": 9
   },
   {
+   "league": "La Liga 2",
+   "home": "Granada",
+   "away": "Las Palmas",
+   "status": "today",
+   "conf": 54,
+   "victoire": "Victoire Granada",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-15 | Buts attendus Granada 2.1 - Las Palmas 1.1 | 1/N/2 : 54/21/24% | base sur 12 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Granada 1V · 1N · Las Palmas 2V (scores : 0-2 x2, 2-1, 0-0)  ||  Granada : 6e/22 (23 pts en 12 m.) | repos 14 j | prochains : CD Sabadell (La Liga 2, 6 j)  ||  Las Palmas : 11e/22 (20 pts en 13 m.) | repos 6 j | prochains : Sporting Gijón (La Liga 2, 7 j), FC Andorra (La Liga 2, 13 j)",
+   "day": "2026-11-15",
+   "prio": 9
+  },
+  {
+   "league": "La Liga 2",
+   "home": "Eibar",
+   "away": "Cádiz",
+   "status": "today",
+   "conf": 59,
+   "victoire": "Victoire Eibar",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-11-15 | Buts attendus Eibar 1.9 - Cádiz 0.9 | 1/N/2 : 59/22/19% | base sur 12 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Eibar 2V · 1N · Cádiz 1V (scores : 1-0, 0-0, 0-1)  ||  Eibar : 5e/22 (23 pts en 12 m.) | repos 5 j | prochains : Girona (La Liga 2, 7 j), Burgos (La Liga 2, 13 j)  ||  Cádiz : 20e/22 (10 pts en 13 m.) | repos 8 j | prochains : Real Sociedad II (La Liga 2, 6 j)",
+   "day": "2026-11-15",
+   "prio": 9
+  },
+  {
+   "league": "La Liga 2",
+   "home": "Eldense",
+   "away": "CD Sabadell",
+   "status": "today",
+   "conf": 68,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (15%) · 0-1 (14%)",
+   "double_chance": "12 68%",
+   "corner": "N/D",
+   "over": "Under 2.5 72%",
+   "btts": "BTTS NON 63%",
+   "analyse": "2026-11-15 | Buts attendus Eldense 0.9 - CD Sabadell 0.9 | 1/N/2 : 34/32/33% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Eldense : 16e/22 (14 pts en 13 m.) | repos 6 j | prochains : Castellón (La Liga 2, 6 j), Girona (La Liga 2, 13 j)  ||  CD Sabadell : 12e/22 (18 pts en 13 m.) | repos 6 j | prochains : Utebo (Coupe du Roi, 3 j), Granada (La Liga 2, 6 j), Leganés (La Liga 2, 12 j)",
+   "day": "2026-11-15",
+   "prio": 9
+  },
+  {
+   "league": "Salvadoran Primera Division",
+   "home": "Internacional Santa Tecla",
+   "away": "Cacahuatique",
+   "status": "today",
+   "conf": 61,
+   "victoire": "Victoire Internacional Santa Tecla",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-15 | Buts attendus Internacional Santa Tecla 2.0 - Cacahuatique 0.9 | 1/N/2 : 61/21/18% | base sur 1 et 1 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Internacional Santa Tecla, Cacahuatique (estimation neutre, très incertaine). Face-à-face (4 confrontations) : Internacional Santa Tecla 2V · 1N · Cacahuatique 1V (scores : 0-0, 2-1, 0-5)  ||  Internacional Santa Tecla : repos 3 j | prochains : Isidro Metapán (Salvadoran Primera Division, 7 j)  ||  Cacahuatique : repos 4 j | prochains : CD FAS (Salvadoran Primera Division, 7 j)",
+   "day": "2026-11-15",
+   "prio": 9
+  },
+  {
    "league": "Club Friendly",
    "home": "FC Zorya Luhansk",
    "away": "FC Kharkiv",
@@ -3616,6 +3593,45 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-3",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Uruguay",
+   "home": "Deportivo Maldonado",
+   "away": "Cerro",
+   "status": "finished",
+   "conf": 58,
+   "victoire": "Victoire Deportivo Maldonado",
+   "score_exact": "1-0 (15%) · 2-0 (12%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 58%",
+   "analyse": "Resultat 0-1 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : Deportivo Maldonado 3V · 2N · Cerro 1V (scores : 0-0 x2, 1-2, 2-1)  ||  Deportivo Maldonado : repos 12 j  ||  Cerro : repos 14 j",
+   "day": "2026-11-14",
+   "prio": 12,
+   "live_score": "0-1",
+   "minute": "FT"
+  },
+  {
+   "league": "NCAA Women's Soccer",
+   "home": "Milwaukee",
+   "away": "IU Indianapolis",
+   "status": "finished",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Resultat 5-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Milwaukee, IU Indianapolis (estimation neutre, très incertaine). Milwaukee  ||  IU Indianapolis",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "5-2",
    "minute": "FT"
   },
   {
@@ -3654,6 +3670,46 @@
    "day": "2026-11-14",
    "prio": -1,
    "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Africa Cup of Nations Qualifying",
+   "home": "Angola",
+   "away": "South Sudan",
+   "status": "finished",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Angola, South Sudan (estimation neutre, très incertaine). Angola  ||  South Sudan",
+   "day": "2026-11-14",
+   "prio": -1,
+   "nopred": true,
+   "live_score": "2-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Northern Super League",
+   "home": "Montreal Roses FC",
+   "away": "AFC Toronto",
+   "status": "finished",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Montreal Roses FC, AFC Toronto (estimation neutre, très incertaine). Montreal Roses FC  ||  AFC Toronto",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-1",
    "minute": "FT"
   },
   {
@@ -3770,6 +3826,26 @@
    "btts": "-",
    "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
    "contexte": "⚠️ Peu ou pas de données pour : VVV-Venlo, FC Eindhoven (estimation neutre, très incertaine). VVV-Venlo  ||  FC Eindhoven",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Argentine Nacional B",
+   "home": "Temperley",
+   "away": "Ciudad de Bolívar",
+   "status": "finished",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Temperley, Ciudad de Bolívar (estimation neutre, très incertaine). Temperley  ||  Ciudad de Bolívar",
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
@@ -4277,101 +4353,6 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Bristol Rovers",
-   "away": "Chesterfield",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-14",
-   "prio": 9,
-   "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Colchester United",
-   "away": "Gillingham",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-14",
-   "prio": 9,
-   "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Crewe Alexandra",
-   "away": "Newport County",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (12%) · 0-1 (10%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 51%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-14",
-   "prio": 9,
-   "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Port Vale",
-   "away": "Accrington Stanley",
-   "status": "finished",
-   "conf": 71,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (12%)",
-   "double_chance": "12 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 54%",
-   "analyse": "Resultat 4-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-14",
-   "prio": 9,
-   "live_score": "4-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Rochdale",
-   "away": "York City",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-14",
-   "prio": 9,
-   "live_score": "0-1",
    "minute": "FT"
   }
  ]
