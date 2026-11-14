@@ -1,38 +1,230 @@
 {
- "date": "2026-11-14 23:12 UTC",
+ "date": "2026-11-14 23:44 UTC",
  "version": "V17",
  "stats": {
-  "n": 715,
-  "n_avant": 27,
+  "n": 717,
+  "n_avant": 29,
   "dc": 78,
   "over": 53,
   "btts": 53,
   "score": 17,
   "1x2": 60,
   "n_fav": 326,
-  "serre": 77,
-  "n_serre": 389,
+  "serre": 76,
+  "n_serre": 391,
   "base_dom": 46,
   "n_euro": 26,
   "dc_euro": 81,
-  "n_ctx": 9,
-  "brier_ctx": 0.62,
-  "brier_base": 0.621,
-  "n_h2h": 9,
-  "brier_h2h": 0.62,
-  "brier_noh2h": 0.621
+  "n_ctx": 10,
+  "brier_ctx": 0.635,
+  "brier_base": 0.637,
+  "n_h2h": 10,
+  "brier_h2h": 0.635,
+  "brier_noh2h": 0.637
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : bra.1 2, mex.1 1, uru.1 1, concacaf.nations.league 1, gua.1 1",
+  "Matchs trouvés aujourd'hui par compétition : bra.1 1, mex.1 1, uru.1 1, gua.1 1",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 124",
-  "Cartes à venir affichées : 40 (jours : 2026-11-14, 2026-11-15, 2026-11-16)",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 122",
+  "Cartes à venir affichées : 40 (jours : 2026-11-15, 2026-11-16)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929714\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual"
  ],
  "tickets": [
+  {
+   "v": 2,
+   "day": "2026-11-15",
+   "eligible": 22,
+   "tickets": [
+    {
+     "name": "Ticket 10 matchs (risqué)",
+     "rule": "60 à 79 %",
+     "target": 10,
+     "n": 10,
+     "legs": [
+      {
+       "id": "401882454",
+       "match": "Sevilla vs Atlético Madrid",
+       "league": "Spanish Liga F",
+       "time": "15:00",
+       "pick": "Double chance X2 (nul ou Atlético Madrid)",
+       "code": "X2",
+       "p": 76,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401883116",
+       "match": "Granada vs Las Palmas",
+       "league": "La Liga 2",
+       "time": "15:15",
+       "pick": "Double chance 1X (Granada ou nul)",
+       "code": "1X",
+       "p": 76,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401929773",
+       "match": "St. Vincent and the Grenadines vs Belize",
+       "league": "Ligue des nations (CONCACAF)",
+       "time": "00:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401861172",
+       "match": "Cyprus vs Montenegro",
+       "league": "Ligue des nations (UEFA)",
+       "time": "14:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401883137",
+       "match": "Eldense vs CD Sabadell",
+       "league": "La Liga 2",
+       "time": "17:30",
+       "pick": "Under 2.5 buts",
+       "code": "U25",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401931844",
+       "match": "Exeter City vs Portsmouth",
+       "league": "English Women's FA Cup",
+       "time": "13:00",
+       "pick": "Under 2.5 buts",
+       "code": "U25",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401886113",
+       "match": "Comerciantes Unidos vs Sport Boys",
+       "league": "Liga Perou",
+       "time": "18:00",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401883113",
+       "match": "Tenerife vs Ceuta",
+       "league": "La Liga 2",
+       "time": "13:00",
+       "pick": "Victoire Tenerife",
+       "code": "H",
+       "p": 70,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401929772",
+       "match": "Jamaica vs Mexico",
+       "league": "Ligue des nations (CONCACAF)",
+       "time": "01:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 70,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401934378",
+       "match": "Red Bull New York vs América",
+       "league": "Club Friendly",
+       "time": "00:30",
+       "pick": "Double chance X2 (nul ou América)",
+       "code": "X2",
+       "p": 70,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 3.8,
+     "status": "en cours"
+    },
+    {
+     "name": "Ticket 5 matchs (sûr)",
+     "rule": "80 % ou plus",
+     "target": 5,
+     "n": 5,
+     "legs": [
+      {
+       "id": "401906463",
+       "match": "New Zealand vs India",
+       "league": "Matchs amicaux internationaux",
+       "time": "03:10",
+       "pick": "Double chance 1X (New Zealand ou nul)",
+       "code": "1X",
+       "p": 94,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401861174",
+       "match": "Finland vs San Marino",
+       "league": "Ligue des nations (UEFA)",
+       "time": "17:00",
+       "pick": "Double chance 1X (Finland ou nul)",
+       "code": "1X",
+       "p": 94,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401932062",
+       "match": "Guadalajara vs FC Juárez",
+       "league": "Mexican Liga BBVA MX Femenil",
+       "time": "03:06",
+       "pick": "Double chance 1X (Guadalajara ou nul)",
+       "code": "1X",
+       "p": 92,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401933255",
+       "match": "Danubio vs Liverpool",
+       "league": "Liga Uruguay",
+       "time": "19:30",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 89,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401902860",
+       "match": "West Ham United vs Charlton Athletic",
+       "league": "English Women's Super League",
+       "time": "14:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 89,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 64.4,
+     "status": "en cours"
+    }
+   ]
+  },
   {
    "v": 2,
    "day": "2026-11-14",
@@ -2162,238 +2354,27 @@
      "status": "perdu"
     }
    ]
-  },
-  {
-   "v": 2,
-   "day": "2026-11-01",
-   "eligible": 23,
-   "tickets": [
-    {
-     "name": "Ticket 10 matchs (risqué)",
-     "rule": "60 à 79 %",
-     "target": 10,
-     "n": 10,
-     "legs": [
-      {
-       "id": "401878952",
-       "match": "Sint-Truidense vs OH Leuven",
-       "league": "Pro League",
-       "time": "15:00",
-       "pick": "Double chance 1X (Sint-Truidense ou nul)",
-       "code": "1X",
-       "p": 77,
-       "ok": false,
-       "score": "1-2"
-      },
-      {
-       "id": "401876915",
-       "match": "Guadalajara vs Atlante",
-       "league": "Liga MX",
-       "time": "01:07",
-       "pick": "Double chance 12 (pas de nul)",
-       "code": "12",
-       "p": 74,
-       "ok": true,
-       "score": "4-2"
-      },
-      {
-       "id": "401882823",
-       "match": "Elche vs Valencia",
-       "league": "La Liga",
-       "time": "17:30",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 73,
-       "ok": true,
-       "score": "0-1"
-      },
-      {
-       "id": "401885410",
-       "match": "Arouca vs C.D. Nacional",
-       "league": "Liga Portugal",
-       "time": "15:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 73,
-       "ok": false,
-       "score": "1-0"
-      },
-      {
-       "id": "761923",
-       "match": "Colorado Rapids vs Chicago Fire FC",
-       "league": "MLS",
-       "time": "01:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 72,
-       "ok": true,
-       "score": "2-4"
-      },
-      {
-       "id": "401875002",
-       "match": "Como vs Venezia",
-       "league": "Serie A",
-       "time": "11:30",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 72,
-       "ok": true,
-       "score": "1-0"
-      },
-      {
-       "id": "401878349",
-       "match": "Falkirk vs Celtic",
-       "league": "Scottish Premiership",
-       "time": "13:00",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 71,
-       "ok": true,
-       "score": "2-0"
-      },
-      {
-       "id": "401875560",
-       "match": "PEC Zwolle vs ADO Den Haag",
-       "league": "Eredivisie",
-       "time": "11:15",
-       "pick": "Double chance X2 (nul ou ADO Den Haag)",
-       "code": "X2",
-       "p": 71,
-       "ok": false,
-       "score": "1-0"
-      },
-      {
-       "id": "401876418",
-       "match": "Lyon vs Angers",
-       "league": "Ligue 1",
-       "time": "16:15",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 71,
-       "ok": true,
-       "score": "2-0"
-      },
-      {
-       "id": "401875558",
-       "match": "Telstar vs FC Utrecht",
-       "league": "Eredivisie",
-       "time": "13:30",
-       "pick": "BTTS OUI",
-       "code": "BY",
-       "p": 71,
-       "ok": true,
-       "score": "4-2"
-      }
-     ],
-     "combined": 4.0,
-     "status": "perdu"
-    },
-    {
-     "name": "Ticket 5 matchs (sûr)",
-     "rule": "80 % ou plus",
-     "target": 5,
-     "n": 5,
-     "legs": [
-      {
-       "id": "401888374",
-       "match": "Amed SFK vs Eyupspor",
-       "league": "Super Lig",
-       "time": "10:30",
-       "pick": "Double chance 1X (Amed SFK ou nul)",
-       "code": "1X",
-       "p": 97,
-       "ok": true,
-       "score": "5-1"
-      },
-      {
-       "id": "401875557",
-       "match": "FC Groningen vs Sparta Rotterdam",
-       "league": "Eredivisie",
-       "time": "15:45",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 94,
-       "ok": true,
-       "score": "2-3"
-      },
-      {
-       "id": "401876913",
-       "match": "América vs Toluca",
-       "league": "Liga MX",
-       "time": "03:10",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 93,
-       "ok": true,
-       "score": "2-2"
-      },
-      {
-       "id": "401888263",
-       "match": "Trabzonspor vs Gaziantep FK",
-       "league": "Super Lig",
-       "time": "13:00",
-       "pick": "Double chance 1X (Trabzonspor ou nul)",
-       "code": "1X",
-       "p": 91,
-       "ok": true,
-       "score": "2-0"
-      },
-      {
-       "id": "401882819",
-       "match": "Racing Santander vs Real Madrid",
-       "league": "La Liga",
-       "time": "15:15",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 91,
-       "ok": true,
-       "score": "0-3"
-      }
-     ],
-     "combined": 70.3,
-     "status": "gagné"
-    }
-   ]
   }
  ],
  "matches": [
   {
-   "league": "Ligue des nations (CONCACAF)",
-   "home": "Haiti",
-   "away": "United States",
-   "status": "live",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-14 | Buts attendus Haiti 1.6 - United States 1.8 | 1/N/2 : 33/22/44% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Haiti : repos 41 j | prochains : United States (Ligue des nations (CONCACAF), 3 j)  ||  United States : repos 39 j | prochains : Haiti (Ligue des nations (CONCACAF), 3 j)",
-   "day": "2026-11-14",
-   "prio": 2,
-   "live_score": "0-6",
-   "minute": "78'"
-  },
-  {
    "league": "Brasileirao",
-   "home": "Mirassol",
-   "away": "Atlético-MG",
+   "home": "Chapecoense",
+   "away": "Vasco da Gama",
    "status": "live",
-   "conf": 71,
+   "conf": 77,
    "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (10%)",
-   "double_chance": "12 71%",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 77%",
    "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-14 | Buts attendus Mirassol 1.3 - Atlético-MG 1.1 | 1/N/2 : 35/29/37% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Mirassol 0V · 1N · Atlético-MG 2V (scores : 2-2, 0-1, 1-3)  ||  Mirassol : repos 11 j | prochains : Fluminense (Brasileirao, 8 j)  ||  Atlético-MG : repos 10 j | prochains : Boca Juniors (Copa Sudamericana, 7 j), Corinthians (Brasileirao, 11 j)",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-14 | Buts attendus Chapecoense 1.3 - Vasco da Gama 1.8 | 1/N/2 : 28/23/49% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : Chapecoense 0V · 1N · Vasco da Gama 0V (scores : 1-1) - trop peu pour influer  ||  Chapecoense : repos 11 j | prochains : Remo (Brasileirao, 4 j), Cruzeiro (Brasileirao, 7 j), Palmeiras (Brasileirao, 10 j)  ||  Vasco da Gama : repos 10 j | prochains : Internacional (Brasileirao, 5 j), Red Bull Bragantino (Brasileirao, 8 j)",
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "80'"
+   "minute": "13'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2412,8 +2393,8 @@
    "day": "2026-11-14",
    "prio": 9,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "9'"
+   "live_score": "1-0",
+   "minute": "42'"
   },
   {
    "league": "Liga MX",
@@ -2432,7 +2413,7 @@
    "day": "2026-11-14",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "43'"
   },
   {
    "league": "Liga Uruguay",
@@ -2450,8 +2431,8 @@
    "contexte": "Face-à-face (4 confrontations) : Nacional 3V · 0N · Albion FC 1V (scores : 1-0 x2, 2-0, 2-3)  ||  Nacional : repos 13 j  ||  Albion FC : repos 12 j",
    "day": "2026-11-14",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "1-0",
+   "minute": "44'"
   },
   {
    "league": "USL Championship",
@@ -2470,8 +2451,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "4'"
+   "live_score": "0-1",
+   "minute": "36'"
   },
   {
    "league": "Mexican Liga BBVA MX Femenil",
@@ -2489,8 +2470,8 @@
    "contexte": "Tigres UANL : repos 7 j | prochains : América (Liga MX, 7 j)  ||  Pumas UNAM : repos 7 j | prochains : Monterrey (Liga MX, 7 j)",
    "day": "2026-11-14",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "11'"
+   "live_score": "0-1",
+   "minute": "43'"
   },
   {
    "league": "Copa Argentina",
@@ -2508,8 +2489,8 @@
    "contexte": "Banfield : repos 8 j  ||  Boca Juniors : repos 7 j | prochains : Atlético-MG (Copa Sudamericana, 7 j), Independiente Rivadavia (Liga Argentina, 11 j)",
    "day": "2026-11-14",
    "prio": 13,
-   "live_score": "0-1",
-   "minute": "53'"
+   "live_score": "0-3",
+   "minute": "85'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2528,8 +2509,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "3-1",
+   "minute": "76'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2549,7 +2530,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "36'"
   },
   {
    "league": "Argentine Primera B",
@@ -2568,28 +2549,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "52'"
-  },
-  {
-   "league": "NCAA Men's Soccer",
-   "home": "Tulsa",
-   "away": "Charlotte",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Tulsa, Charlotte (estimation neutre, très incertaine). Tulsa  ||  Charlotte",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "0-0",
-   "minute": "98'"
+   "live_score": "2-1",
+   "minute": "84'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2608,8 +2569,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "HT"
+   "live_score": "0-2",
+   "minute": "69'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2629,7 +2590,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-1",
-   "minute": "42'"
+   "minute": "55'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2648,8 +2609,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "HT"
+   "live_score": "2-1",
+   "minute": "67'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2669,7 +2630,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-1",
-   "minute": "6'"
+   "minute": "34'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2688,8 +2649,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "7'"
+   "live_score": "1-1",
+   "minute": "27'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2709,7 +2670,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "36'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2729,27 +2690,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "7'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Wyoming",
-   "away": "Air Force",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Wyoming, Air Force (estimation neutre, très incertaine). Wyoming  ||  Air Force",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "0-0",
-   "minute": "97'"
+   "minute": "34'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2768,42 +2709,7 @@
    "day": "2026-11-14",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "6'"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Chapecoense",
-   "away": "Vasco da Gama",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-11-14 | Buts attendus Chapecoense 1.3 - Vasco da Gama 1.8 | 1/N/2 : 28/23/49% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : Chapecoense 0V · 1N · Vasco da Gama 0V (scores : 1-1) - trop peu pour influer  ||  Chapecoense : repos 11 j | prochains : Remo (Brasileirao, 4 j), Cruzeiro (Brasileirao, 7 j), Palmeiras (Brasileirao, 10 j)  ||  Vasco da Gama : repos 10 j | prochains : Internacional (Brasileirao, 5 j), Red Bull Bragantino (Brasileirao, 8 j)",
-   "day": "2026-11-14",
-   "prio": 9
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Eastern Kentucky",
-   "away": "Abilene Christian",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Eastern Kentucky, Abilene Christian (estimation neutre, très incertaine). Eastern Kentucky  ||  Abilene Christian",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true
+   "minute": "37'"
   },
   {
    "league": "Matchs amicaux internationaux",
@@ -3457,6 +3363,98 @@
    "prio": 13
   },
   {
+   "league": "Dutch Vrouwen Eredivisie",
+   "home": "AZ Alkmaar",
+   "away": "Ajax Amsterdam",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-15 | Buts attendus AZ Alkmaar 1.4 - Ajax Amsterdam 1.5 | 1/N/2 : 35/25/40% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "AZ Alkmaar : 5e/18 (23 pts en 12 m.) | repos 7 j | prochains : Sparta Rotterdam (Eredivisie, 7 j), Sparta Prague (Ligue Europa, 11 j)  ||  Ajax Amsterdam : 3e/18 (25 pts en 12 m.) | repos 7 j | prochains : ADO Den Haag (Eredivisie, 7 j), FC Thun (Conference League, 11 j)",
+   "day": "2026-11-15",
+   "prio": 13
+  },
+  {
+   "league": "Dutch Vrouwen Eredivisie",
+   "home": "FC Twente",
+   "away": "PSV Eindhoven",
+   "status": "today",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-15 | Buts attendus FC Twente 1.6 - PSV Eindhoven 1.5 | 1/N/2 : 42/24/35% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "FC Twente : 4e/18 (24 pts en 12 m.) | repos 7 j | prochains : Willem II (Eredivisie, 7 j), SC Freiburg (Conference League, 11 j)  ||  PSV Eindhoven : 1e/18 (26 pts en 12 m.) | repos 7 j | prochains : NEC Nijmegen (Eredivisie, 6 j), Real Madrid (Ligue des champions, 9 j), Go Ahead Eagles (Eredivisie, 13 j)",
+   "day": "2026-11-15",
+   "prio": 13
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Mirassol",
+   "away": "Atlético-MG",
+   "status": "finished",
+   "conf": 71,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (12%) · 1-0 (10%)",
+   "double_chance": "12 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 52%",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (3 confrontations) : Mirassol 0V · 1N · Atlético-MG 2V (scores : 2-2, 0-1, 1-3)  ||  Mirassol : repos 11 j | prochains : Fluminense (Brasileirao, 8 j)  ||  Atlético-MG : repos 10 j | prochains : Boca Juniors (Copa Sudamericana, 7 j), Corinthians (Brasileirao, 11 j)",
+   "day": "2026-11-14",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "Haiti",
+   "away": "United States",
+   "status": "finished",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "Resultat 0-6 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Haiti : repos 41 j | prochains : United States (Ligue des nations (CONCACAF), 3 j)  ||  United States : repos 39 j | prochains : Haiti (Ligue des nations (CONCACAF), 3 j)",
+   "day": "2026-11-14",
+   "prio": 2,
+   "live_score": "0-6",
+   "minute": "FT"
+  },
+  {
+   "league": "NCAA Men's Soccer",
+   "home": "Tulsa",
+   "away": "Charlotte",
+   "status": "finished",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Tulsa, Charlotte (estimation neutre, très incertaine). Tulsa  ||  Charlotte",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
    "league": "Guatemalan Liga Nacional",
    "home": "Xelajú MC",
    "away": "CD Guastatoya",
@@ -3514,6 +3512,26 @@
    "prio": 13,
    "nopred": true,
    "live_score": "2-3",
+   "minute": "FT"
+  },
+  {
+   "league": "NCAA Women's Soccer",
+   "home": "Wyoming",
+   "away": "Air Force",
+   "status": "finished",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Wyoming, Air Force (estimation neutre, très incertaine). Wyoming  ||  Air Force",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
    "minute": "FT"
   },
   {
@@ -4151,86 +4169,6 @@
    "btts": "-",
    "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
    "contexte": "⚠️ Peu ou pas de données pour : FC Dordrecht, Heracles Almelo (estimation neutre, très incertaine). FC Dordrecht  ||  Heracles Almelo",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
-   "home": "RKC Waalwijk",
-   "away": "FC Den Bosch",
-   "status": "finished",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Peu ou pas de données pour : RKC Waalwijk, FC Den Bosch (estimation neutre, très incertaine). RKC Waalwijk  ||  FC Den Bosch",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "4-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
-   "home": "Roda JC Kerkrade",
-   "away": "FC Volendam",
-   "status": "finished",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Peu ou pas de données pour : Roda JC Kerkrade, FC Volendam (estimation neutre, très incertaine). Roda JC Kerkrade  ||  FC Volendam",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
-   "home": "VVV-Venlo",
-   "away": "FC Eindhoven",
-   "status": "finished",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "⚠️ Peu ou pas de données pour : VVV-Venlo, FC Eindhoven (estimation neutre, très incertaine). VVV-Venlo  ||  FC Eindhoven",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Argentine Nacional B",
-   "home": "Temperley",
-   "away": "Ciudad de Bolívar",
-   "status": "finished",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "⚠️ Peu ou pas de données pour : Temperley, Ciudad de Bolívar (estimation neutre, très incertaine). Temperley  ||  Ciudad de Bolívar",
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
