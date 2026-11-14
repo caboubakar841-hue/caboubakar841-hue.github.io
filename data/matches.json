@@ -1,8 +1,8 @@
 {
- "date": "2026-11-14 15:01 UTC",
+ "date": "2026-11-14 15:38 UTC",
  "version": "V17",
  "stats": {
-  "n": 671,
+  "n": 672,
   "n_avant": 0,
   "dc": 78,
   "over": 53,
@@ -11,16 +11,16 @@
   "1x2": 61,
   "n_fav": 309,
   "serre": 76,
-  "n_serre": 362,
+  "n_serre": 363,
   "base_dom": 46,
   "n_euro": 26,
   "dc_euro": 81
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 49, eng.4 9, uefa.nations 8, col.1 7, bra.2 7, eng.3 5, esp.2 4, bra.1 2, uru.1 2, concacaf.nations.league 2, gua.1 2, mex.1 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 48, eng.4 9, uefa.nations 8, col.1 7, bra.2 7, eng.3 5, esp.2 4, bra.1 2, uru.1 2, concacaf.nations.league 2, gua.1 2, mex.1 1",
   "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 176",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 175",
   "Cartes à venir affichées : 40 (jours : 2026-11-14, 2026-11-15, 2026-11-16)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929714\"}",
   "Compétitions sans nom : aucune",
@@ -2368,7 +2368,26 @@
    "day": "2026-11-14",
    "prio": 1,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "81'"
+  },
+  {
+   "league": "Matchs amicaux internationaux",
+   "home": "Palestine",
+   "away": "Iran",
+   "status": "live",
+   "conf": 68,
+   "victoire": "Victoire Palestine",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-14 | Buts attendus Palestine 2.6 - Iran 1.1 | 1/N/2 : 68/17/15% | base sur 3 et 2 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Iran (estimation neutre, très incertaine). Palestine : repos 43 j | prochains : Lebanon (Matchs amicaux internationaux, 3 j)  ||  Iran : repos 46 j | prochains : Iraq (Matchs amicaux internationaux, 3 j)",
+   "day": "2026-11-14",
+   "prio": 2,
+   "live_score": "0-0",
+   "minute": "34'"
   },
   {
    "league": "League One",
@@ -2386,8 +2405,8 @@
    "contexte": "Face-à-face (2 confrontations) : AFC Wimbledon 2V · 0N · Blackpool 0V (scores : 2-0, 4-1) - trop peu pour influer  ||  AFC Wimbledon : 18e/24 (13 pts en 13 m.) | repos 7 j | prochains : Leyton Orient (League One, 7 j), Barnsley (League One, 14 j)  ||  Blackpool : 19e/24 (12 pts en 12 m.) | repos 7 j | prochains : Wigan Athletic (League One, 7 j), Leicester City (League One, 10 j), Stevenage (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "1-0",
+   "minute": "38'"
   },
   {
    "league": "League One",
@@ -2405,8 +2424,8 @@
    "contexte": "Milton Keynes Dons : 12e/24 (18 pts en 13 m.) | repos 7 j | prochains : Mansfield Town (League One, 7 j), Notts County (League One, 14 j)  ||  Burton Albion : 15e/24 (17 pts en 14 m.) | repos 7 j | prochains : Luton Town (League One, 7 j), Bromley (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "1-0",
+   "minute": "37'"
   },
   {
    "league": "League One",
@@ -2425,7 +2444,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "38'"
   },
   {
    "league": "League One",
@@ -2443,8 +2462,8 @@
    "contexte": "Stockport County : 2e/24 (26 pts en 14 m.) | repos 6 j | prochains : Cambridge United (League One, 7 j), Leyton Orient (League One, 14 j)  ||  Reading : 6e/24 (22 pts en 14 m.) | repos 7 j | prochains : Bromley (League One, 7 j), Sheffield Wednesday (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "2-1",
+   "minute": "38'"
   },
   {
    "league": "League One",
@@ -2462,8 +2481,27 @@
    "contexte": "Wigan Athletic : 21e/24 (11 pts en 14 m.) | repos 7 j | prochains : Blackpool (League One, 7 j), Plymouth Argyle (League One, 14 j)  ||  Barnsley : 23e/24 (9 pts en 12 m.) | repos 7 j | prochains : Sheffield Wednesday (League One, 6 j), Bradford City (League One, 10 j), AFC Wimbledon (League One, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "1-0",
+   "minute": "38'"
+  },
+  {
+   "league": "League Two",
+   "home": "Bristol Rovers",
+   "away": "Chesterfield",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-14 | Buts attendus Bristol Rovers 1.6 - Chesterfield 1.5 | 1/N/2 : 40/24/36% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Bristol Rovers : 17e/24 (16 pts en 14 m.) | repos 8 j | prochains : Cheltenham Town (League Two, 7 j), Tranmere Rovers (League Two, 14 j)  ||  Chesterfield : 11e/24 (19 pts en 14 m.) | repos 7 j | prochains : Shrewsbury Town (League Two, 7 j), Swindon Town (League Two, 14 j)",
+   "day": "2026-11-14",
+   "prio": 9,
+   "live_score": "0-1",
+   "minute": "37'"
   },
   {
    "league": "League Two",
@@ -2482,7 +2520,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "38'"
   },
   {
    "league": "League Two",
@@ -2500,8 +2538,27 @@
    "contexte": "Crewe Alexandra : 5e/24 (22 pts en 14 m.) | repos 7 j | prochains : Gillingham (League Two, 7 j), Grimsby Town (League Two, 14 j)  ||  Newport County : 14e/24 (18 pts en 14 m.) | repos 7 j | prochains : Swindon Town (League Two, 7 j), Port Vale (League Two, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "0-2",
+   "minute": "38'"
+  },
+  {
+   "league": "League Two",
+   "home": "Port Vale",
+   "away": "Accrington Stanley",
+   "status": "live",
+   "conf": 71,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (12%) · 1-0 (12%)",
+   "double_chance": "12 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-14 | Buts attendus Port Vale 1.1 - Accrington Stanley 1.1 | 1/N/2 : 35/29/37% | base sur 12 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Port Vale : 19e/24 (15 pts en 12 m.) | repos 7 j | prochains : Barnet (League Two, 7 j), Northampton Town (League Two, 10 j), Newport County (League Two, 14 j)  ||  Accrington Stanley : 10e/24 (19 pts en 14 m.) | repos 7 j | prochains : Salford City (League Two, 7 j), Fleetwood Town (League Two, 14 j)",
+   "day": "2026-11-14",
+   "prio": 9,
+   "live_score": "2-0",
+   "minute": "37'"
   },
   {
    "league": "League Two",
@@ -2520,7 +2577,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "38'"
   },
   {
    "league": "League Two",
@@ -2538,8 +2595,8 @@
    "contexte": "Salford City : 1e/24 (31 pts en 14 m.) | repos 7 j | prochains : Accrington Stanley (League Two, 7 j), Gillingham (League Two, 14 j)  ||  Northampton Town : 21e/24 (14 pts en 13 m.) | repos 7 j | prochains : Rochdale (League Two, 7 j), Port Vale (League Two, 10 j), Walsall (League Two, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "2'"
+   "live_score": "0-1",
+   "minute": "38'"
   },
   {
    "league": "League Two",
@@ -2558,7 +2615,7 @@
    "day": "2026-11-14",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "38'"
   },
   {
    "league": "League Two",
@@ -2576,27 +2633,27 @@
    "contexte": "Swindon Town : 13e/24 (19 pts en 14 m.) | repos 7 j | prochains : Newport County (League Two, 7 j), Chesterfield (League Two, 14 j)  ||  Grimsby Town : 7e/24 (20 pts en 14 m.) | repos 6 j | prochains : Rotherham United (League Two, 7 j), Crewe Alexandra (League Two, 14 j)",
    "day": "2026-11-14",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "0-1",
+   "minute": "38'"
   },
   {
-   "league": "English Women's Super League",
-   "home": "Chelsea",
-   "away": "Manchester City",
+   "league": "La Liga 2",
+   "home": "Real Sociedad II",
+   "away": "Sporting Gijón",
    "status": "live",
-   "conf": 81,
+   "conf": 73,
    "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (7%) · 1-2 (6%)",
-   "double_chance": "12 81%",
+   "score_exact": "1-0 (11%) · 0-1 (10%)",
+   "double_chance": "12 73%",
    "corner": "N/D",
-   "over": "Over 2.5 82%",
-   "btts": "BTTS OUI 80%",
-   "analyse": "2026-11-14 | Buts attendus Chelsea 2.3 - Manchester City 2.2 | 1/N/2 : 44/19/37% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Chelsea : 5e/20 (16 pts en 10 m.) | repos 6 j | prochains : Leeds United (Premier League, 7 j), Nottingham Forest (Premier League, 13 j)  ||  Manchester City : 3e/20 (21 pts en 10 m.) | repos 7 j | prochains : Fulham (Premier League, 7 j), Napoli (Ligue des champions, 10 j)",
+   "over": "Under 2.5 55%",
+   "btts": "BTTS NON 50%",
+   "analyse": "2026-11-14 | Buts attendus Real Sociedad II 1.3 - Sporting Gijón 1.1 | 1/N/2 : 41/27/31% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Real Sociedad II 0V · 0N · Sporting Gijón 2V (scores : 0-1 x2) - trop peu pour influer  ||  Real Sociedad II : 18e/22 (12 pts en 13 m.) | repos 5 j | prochains : Cádiz (La Liga 2, 7 j), Real Valladolid (La Liga 2, 14 j)  ||  Sporting Gijón : 7e/22 (22 pts en 13 m.) | repos 6 j | prochains : Las Palmas (La Liga 2, 8 j)",
    "day": "2026-11-14",
-   "prio": 13,
-   "live_score": "1-0",
-   "minute": "70'"
+   "prio": 9,
+   "live_score": "0-1",
+   "minute": "22'"
   },
   {
    "league": "English Women's Super League",
@@ -2615,7 +2672,7 @@
    "day": "2026-11-14",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "38'"
   },
   {
    "league": "French Première Ligue",
@@ -2633,8 +2690,28 @@
    "contexte": "Le Havre AC : 18e/18 (2 pts en 10 m.) | repos 6 j | prochains : Troyes (Ligue 1, 6 j), Strasbourg (Ligue 1, 14 j)  ||  Paris FC : 3e/18 (20 pts en 10 m.) | repos 7 j | prochains : Angers (Ligue 1, 8 j), Brest (Ligue 1, 13 j)",
    "day": "2026-11-14",
    "prio": 13,
-   "live_score": "1-1",
-   "minute": "HT"
+   "live_score": "1-2",
+   "minute": "77'"
+  },
+  {
+   "league": "English National League",
+   "home": "AFC Hornchurch",
+   "away": "Tamworth",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : AFC Hornchurch, Tamworth (estimation neutre, très incertaine). AFC Hornchurch : repos 7 j  ||  Tamworth",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "1-0",
+   "minute": "37'"
   },
   {
    "league": "English National League",
@@ -2653,8 +2730,68 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
+   "live_score": "1-0",
+   "minute": "38'"
+  },
+  {
+   "league": "English National League",
+   "home": "Eastleigh",
+   "away": "AFC Fylde",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Eastleigh, AFC Fylde (estimation neutre, très incertaine). Eastleigh : repos 7 j  ||  AFC Fylde : repos 7 j",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "37'"
+  },
+  {
+   "league": "English National League",
+   "home": "Gateshead",
+   "away": "Barrow",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Gateshead, Barrow (estimation neutre, très incertaine). Gateshead  ||  Barrow : repos 7 j",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-1",
+   "minute": "36'"
+  },
+  {
+   "league": "English National League",
+   "home": "Harrogate Town",
+   "away": "Altrincham",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Harrogate Town, Altrincham (estimation neutre, très incertaine). Harrogate Town : repos 7 j  ||  Altrincham : repos 7 j",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "37'"
   },
   {
    "league": "English National League",
@@ -2674,7 +2811,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "37'"
   },
   {
    "league": "English National League",
@@ -2694,7 +2831,87 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "37'"
+  },
+  {
+   "league": "English National League",
+   "home": "Scunthorpe United",
+   "away": "Worthing",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Scunthorpe United, Worthing (estimation neutre, très incertaine). Scunthorpe United : repos 7 j  ||  Worthing",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-1",
+   "minute": "35'"
+  },
+  {
+   "league": "English National League",
+   "home": "Southend United",
+   "away": "Aldershot Town",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Southend United, Aldershot Town (estimation neutre, très incertaine). Southend United  ||  Aldershot Town : repos 7 j",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-1",
+   "minute": "36'"
+  },
+  {
+   "league": "English National League",
+   "home": "Sutton United",
+   "away": "Solihull Moors",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Sutton United, Solihull Moors (estimation neutre, très incertaine). Sutton United : repos 7 j  ||  Solihull Moors",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-1",
+   "minute": "36'"
+  },
+  {
+   "league": "English National League",
+   "home": "Yeovil Town",
+   "away": "Boreham Wood",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Yeovil Town, Boreham Wood (estimation neutre, très incertaine). Yeovil Town : repos 7 j  ||  Boreham Wood : repos 7 j",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "2-1",
+   "minute": "37'"
   },
   {
    "league": "Scottish Championship",
@@ -2713,8 +2930,28 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-0",
-   "minute": "2'"
+   "live_score": "2-0",
+   "minute": "38'"
+  },
+  {
+   "league": "Scottish Championship",
+   "home": "Livingston",
+   "away": "Greenock Morton",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Livingston, Greenock Morton (estimation neutre, très incertaine). Livingston  ||  Greenock Morton",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "1-0",
+   "minute": "37'"
   },
   {
    "league": "Scottish Championship",
@@ -2734,7 +2971,47 @@
    "prio": 13,
    "nopred": true,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "38'"
+  },
+  {
+   "league": "Scottish Championship",
+   "home": "Stenhousemuir",
+   "away": "Queen's Park",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Stenhousemuir, Queen's Park (estimation neutre, très incertaine). Stenhousemuir  ||  Queen's Park",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "37'"
+  },
+  {
+   "league": "Dutch Keuken Kampioen Divisie",
+   "home": "NAC Breda",
+   "away": "FC Emmen",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : NAC Breda, FC Emmen (estimation neutre, très incertaine). NAC Breda  ||  FC Emmen",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "0-0",
+   "minute": "7'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -2940,74 +3217,6 @@
    "contexte": "Haiti : repos 41 j | prochains : United States (Ligue des nations (CONCACAF), 3 j)  ||  United States : repos 39 j | prochains : Haiti (Ligue des nations (CONCACAF), 3 j)",
    "day": "2026-11-14",
    "prio": 2
-  },
-  {
-   "league": "Matchs amicaux internationaux",
-   "home": "Palestine",
-   "away": "Iran",
-   "status": "today",
-   "conf": 68,
-   "victoire": "Victoire Palestine",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 71%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-11-14 | Buts attendus Palestine 2.6 - Iran 1.1 | 1/N/2 : 68/17/15% | base sur 3 et 2 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Iran (estimation neutre, très incertaine). Palestine : repos 43 j | prochains : Lebanon (Matchs amicaux internationaux, 3 j)  ||  Iran : repos 46 j | prochains : Iraq (Matchs amicaux internationaux, 3 j)",
-   "day": "2026-11-14",
-   "prio": 2
-  },
-  {
-   "league": "League Two",
-   "home": "Bristol Rovers",
-   "away": "Chesterfield",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-11-14 | Buts attendus Bristol Rovers 1.6 - Chesterfield 1.5 | 1/N/2 : 40/24/36% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Bristol Rovers 0V · 0N · Chesterfield 2V (scores : 1-3, 2-3) - trop peu pour influer  ||  Bristol Rovers : 17e/24 (16 pts en 14 m.) | repos 8 j | prochains : Cheltenham Town (League Two, 7 j), Tranmere Rovers (League Two, 14 j)  ||  Chesterfield : 11e/24 (19 pts en 14 m.) | repos 7 j | prochains : Shrewsbury Town (League Two, 7 j), Swindon Town (League Two, 14 j)",
-   "day": "2026-11-14",
-   "prio": 9
-  },
-  {
-   "league": "League Two",
-   "home": "Port Vale",
-   "away": "Accrington Stanley",
-   "status": "today",
-   "conf": 71,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (12%) · 1-0 (12%)",
-   "double_chance": "12 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-14 | Buts attendus Port Vale 1.1 - Accrington Stanley 1.1 | 1/N/2 : 35/29/37% | base sur 12 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Port Vale 1V · 1N · Accrington Stanley 0V (scores : 2-2, 2-1) - trop peu pour influer  ||  Port Vale : 19e/24 (15 pts en 12 m.) | repos 7 j | prochains : Barnet (League Two, 7 j), Northampton Town (League Two, 10 j), Newport County (League Two, 14 j)  ||  Accrington Stanley : 10e/24 (19 pts en 14 m.) | repos 7 j | prochains : Salford City (League Two, 7 j), Fleetwood Town (League Two, 14 j)",
-   "day": "2026-11-14",
-   "prio": 9
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Real Sociedad II",
-   "away": "Sporting Gijón",
-   "status": "today",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (11%) · 0-1 (10%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS NON 50%",
-   "analyse": "2026-11-14 | Buts attendus Real Sociedad II 1.3 - Sporting Gijón 1.1 | 1/N/2 : 41/27/31% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Real Sociedad II 0V · 0N · Sporting Gijón 2V (scores : 0-1 x2) - trop peu pour influer  ||  Real Sociedad II : 18e/22 (12 pts en 13 m.) | repos 5 j | prochains : Cádiz (La Liga 2, 7 j), Real Valladolid (La Liga 2, 14 j)  ||  Sporting Gijón : 7e/22 (22 pts en 13 m.) | repos 6 j | prochains : Las Palmas (La Liga 2, 8 j)",
-   "day": "2026-11-14",
-   "prio": 9
   },
   {
    "league": "League Two",
@@ -3427,6 +3636,74 @@
    "prio": 12
   },
   {
+   "league": "Liga Uruguay",
+   "home": "Nacional",
+   "away": "Albion FC",
+   "status": "today",
+   "conf": 63,
+   "victoire": "Victoire Nacional",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-14 | Buts attendus Nacional 2.0 - Albion FC 1.0 | 1/N/2 : 63/18/19% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Nacional 3V · 0N · Albion FC 1V (scores : 1-0 x2, 2-0, 2-3)  ||  Nacional : repos 13 j  ||  Albion FC : repos 12 j",
+   "day": "2026-11-14",
+   "prio": 12
+  },
+  {
+   "league": "Spanish Liga F",
+   "home": "Alavés",
+   "away": "Eibar",
+   "status": "today",
+   "conf": 53,
+   "victoire": "Victoire Alavés",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-14 | Buts attendus Alavés 1.9 - Eibar 1.3 | 1/N/2 : 53/22/25% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Alavés : 12e/20 (13 pts en 12 m.) | repos 4 j | prochains : Deportivo (La Liga, 7 j), Real Madrid (La Liga, 14 j)  ||  Eibar : 4e/22 (23 pts en 12 m.) | repos 4 j | prochains : Cádiz (La Liga 2, 1 j), Girona (La Liga 2, 8 j), Burgos (La Liga 2, 14 j)",
+   "day": "2026-11-14",
+   "prio": 13
+  },
+  {
+   "league": "French Première Ligue",
+   "home": "Strasbourg",
+   "away": "Toulouse",
+   "status": "today",
+   "conf": 79,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (7%) · 1-2 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 77%",
+   "btts": "BTTS OUI 75%",
+   "analyse": "2026-11-14 | Buts attendus Strasbourg 2.1 - Toulouse 2.0 | 1/N/2 : 42/21/37% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Strasbourg : 13e/18 (10 pts en 10 m.) | repos 8 j | prochains : Brest (Ligue 1, 7 j), Le Havre AC (Ligue 1, 14 j)  ||  Toulouse : 12e/18 (13 pts en 10 m.) | repos 8 j | prochains : Lens (Ligue 1, 7 j)",
+   "day": "2026-11-14",
+   "prio": 13
+  },
+  {
+   "league": "English Women's Super League",
+   "home": "Brighton & Hove Albion",
+   "away": "Liverpool",
+   "status": "today",
+   "conf": 74,
+   "victoire": "Victoire Brighton & Hove Albion",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 90%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-14 | Buts attendus Brighton & Hove Albion 2.5 - Liverpool 0.8 | 1/N/2 : 74/16/10% | base sur 10 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Brighton & Hove Albion : 2e/20 (22 pts en 10 m.) | repos 6 j | prochains : Hull City (Premier League, 8 j), CSU Craiova (Conference League, 12 j)  ||  Liverpool : repos 6 j | prochains : Danubio (Liga Uruguay, 1 j), Manchester United (Premier League, 8 j), Club Brugge (Ligue des champions, 11 j)",
+   "day": "2026-11-14",
+   "prio": 13
+  },
+  {
    "league": "Club Friendly",
    "home": "FC Zorya Luhansk",
    "away": "FC Kharkiv",
@@ -3444,6 +3721,25 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-3",
+   "minute": "FT"
+  },
+  {
+   "league": "English Women's Super League",
+   "home": "Chelsea",
+   "away": "Manchester City",
+   "status": "finished",
+   "conf": 81,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (7%) · 1-2 (6%)",
+   "double_chance": "12 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 82%",
+   "btts": "BTTS OUI 80%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-14",
+   "prio": 13,
+   "live_score": "1-0",
    "minute": "FT"
   },
   {
@@ -4166,25 +4462,6 @@
    "day": "2026-11-13",
    "prio": 13,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Club Friendly",
-   "home": "TSV Hartberg",
-   "away": "Floridsdorfer AC",
-   "status": "finished",
-   "conf": 64,
-   "victoire": "Victoire TSV Hartberg",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 71%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC OK | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : Floridsdorfer AC (estimation neutre, très incertaine). ",
-   "day": "2026-11-13",
-   "prio": 13,
-   "live_score": "1-1",
    "minute": "FT"
   }
  ]
