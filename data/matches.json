@@ -1,8 +1,8 @@
 {
- "date": "2026-11-14 03:51 UTC",
+ "date": "2026-11-14 04:37 UTC",
  "version": "V17",
  "stats": {
-  "n": 665,
+  "n": 666,
   "n_avant": 0,
   "dc": 78,
   "over": 53,
@@ -11,16 +11,16 @@
   "1x2": 60,
   "n_fav": 305,
   "serre": 76,
-  "n_serre": 360,
+  "n_serre": 361,
   "base_dom": 46,
   "n_euro": 26,
   "dc_euro": 81
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 52, eng.4 10, uefa.nations 8, col.1 7, bra.2 7, fifa.friendly 6, eng.3 5, esp.2 5, uru.1 3, concacaf.nations.league 3, bra.1 2, gua.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 52, eng.4 10, uefa.nations 8, col.1 7, bra.2 7, fifa.friendly 6, eng.3 5, esp.2 5, uru.1 3, bra.1 2, concacaf.nations.league 2, gua.1 2",
   "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 199",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 198",
   "Cartes à venir affichées : 40 (jours : 2026-11-14, 2026-11-15, 2026-11-16)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929714\"}",
   "Compétitions sans nom : aucune",
@@ -90,8 +90,8 @@
        "pick": "Double chance 1X (Guatemala ou nul)",
        "code": "1X",
        "p": 72,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "2-3"
       },
       {
        "id": "401883135",
@@ -150,7 +150,7 @@
       }
      ],
      "combined": 3.8,
-     "status": "en cours"
+     "status": "perdu"
     },
     {
      "name": "Ticket 5 matchs (sûr)",
@@ -2352,28 +2352,9 @@
  ],
  "matches": [
   {
-   "league": "Ligue des nations (CONCACAF)",
-   "home": "Guatemala",
-   "away": "Canada",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : Nul ou Guatemala",
-   "score_exact": "1-0 (13%) · 0-0 (9%)",
-   "double_chance": "1X 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-14 | Buts attendus Guatemala 1.4 - Canada 1.0 | 1/N/2 : 46/27/27% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Guatemala : repos 39 j | prochains : Canada (Ligue des nations (CONCACAF), 3 j)  ||  Canada : repos 38 j | prochains : Guatemala (Ligue des nations (CONCACAF), 3 j)",
-   "day": "2026-11-14",
-   "prio": 2,
-   "live_score": "1-3",
-   "minute": "89'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "East Tennessee State",
-   "away": "Mercer",
+   "league": "Australian A-League Women",
+   "home": "Melbourne City",
+   "away": "Newcastle Jets ",
    "status": "live",
    "conf": 0,
    "victoire": "Pas de pronostic",
@@ -2383,12 +2364,32 @@
    "over": "-",
    "btts": "-",
    "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : East Tennessee State, Mercer (estimation neutre, très incertaine). East Tennessee State  ||  Mercer",
+   "contexte": "⚠️ Peu ou pas de données pour : Melbourne City, Newcastle Jets  (estimation neutre, très incertaine). Melbourne City  ||  Newcastle Jets ",
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "2-2",
-   "minute": "Pens"
+   "live_score": "0-0",
+   "minute": "37'"
+  },
+  {
+   "league": "Australian A-League Women",
+   "home": "Melbourne Victory ",
+   "away": "Adelaide United ",
+   "status": "live",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Melbourne Victory , Adelaide United  (estimation neutre, très incertaine). Melbourne Victory   ||  Adelaide United ",
+   "day": "2026-11-14",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "1-1",
+   "minute": "37'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
@@ -3071,6 +3072,25 @@
    "contexte": "Face-à-face (3 confrontations) : Mirassol 0V · 1N · Atlético-MG 2V (scores : 2-2, 0-1, 1-3)  ||  Mirassol : repos 11 j | prochains : Fluminense (Brasileirao, 8 j)  ||  Atlético-MG : repos 10 j | prochains : Boca Juniors (Copa Sudamericana, 7 j), Corinthians (Brasileirao, 11 j)",
    "day": "2026-11-14",
    "prio": 9
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "Guatemala",
+   "away": "Canada",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : Nul ou Guatemala",
+   "score_exact": "1-0 (13%) · 0-0 (9%)",
+   "double_chance": "1X 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 2-3 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-14",
+   "prio": 2,
+   "live_score": "2-3",
+   "minute": "FT"
   },
   {
    "league": "Liga Colombia",
@@ -3811,25 +3831,6 @@
    "day": "2026-11-12",
    "prio": 1,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue des nations (UEFA)",
-   "home": "Czechia",
-   "away": "Spain",
-   "status": "finished",
-   "conf": 63,
-   "victoire": "Victoire Spain",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-12",
-   "prio": 1,
-   "live_score": "0-2",
    "minute": "FT"
   }
  ]
