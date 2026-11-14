@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14 02:17 UTC",
+ "date": "2026-11-14 03:03 UTC",
  "version": "V17",
  "stats": {
   "n": 664,
@@ -18,9 +18,9 @@
  },
  "diag": [
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 52, eng.4 10, col.1 8, uefa.nations 8, fifa.friendly 7, bra.2 7, eng.3 5, esp.2 5, uru.1 3, concacaf.nations.league 3, bra.1 2, gua.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 52, eng.4 10, col.1 8, uefa.nations 8, bra.2 7, fifa.friendly 6, eng.3 5, esp.2 5, uru.1 3, concacaf.nations.league 3, bra.1 2, gua.1 2",
   "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 203",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 200",
   "Cartes à venir affichées : 40 (jours : 2026-11-14, 2026-11-15, 2026-11-16)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19267~e:401929714\"}",
   "Compétitions sans nom : aucune",
@@ -2367,27 +2367,8 @@
    "contexte": "Guatemala : repos 39 j | prochains : Canada (Ligue des nations (CONCACAF), 3 j)  ||  Canada : repos 38 j | prochains : Guatemala (Ligue des nations (CONCACAF), 3 j)",
    "day": "2026-11-14",
    "prio": 2,
-   "live_score": "0-0",
-   "minute": "18'"
-  },
-  {
-   "league": "Matchs amicaux internationaux",
-   "home": "Peru",
-   "away": "Bolivia",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "2026-11-14 | Buts attendus Peru 1.3 - Bolivia 1.4 | 1/N/2 : 37/26/38% | base sur 4 et 2 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Bolivia (estimation neutre, très incertaine). Peru : repos 38 j  ||  Bolivia : repos 44 j | prochains : Ecuador (Matchs amicaux internationaux, 4 j)",
-   "day": "2026-11-14",
-   "prio": 2,
-   "live_score": "1-0",
-   "minute": "53'"
+   "live_score": "0-3",
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2405,28 +2386,8 @@
    "contexte": "Internacional de Bogotá : repos 7 j  ||  Independiente Santa Fe : repos 5 j",
    "day": "2026-11-14",
    "prio": 12,
-   "live_score": "0-1",
-   "minute": "45'+3'"
-  },
-  {
-   "league": "USL Super League",
-   "home": "Lexington SC",
-   "away": "Fort Lauderdale United FC",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Lexington SC, Fort Lauderdale United FC (estimation neutre, très incertaine). Lexington SC  ||  Fort Lauderdale United FC",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "2-0",
-   "minute": "81'"
+   "live_score": "0-2",
+   "minute": "74'"
   },
   {
    "league": "NCAA Men's Soccer",
@@ -2445,48 +2406,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-3",
-   "minute": "HT"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Alcorn State",
-   "away": "Southern",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Alcorn State, Southern (estimation neutre, très incertaine). Alcorn State  ||  Southern",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "2-0",
-   "minute": "90'"
-  },
-  {
-   "league": "NCAA Women's Soccer",
-   "home": "Western Michigan",
-   "away": "Massachusetts",
-   "status": "live",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Western Michigan, Massachusetts (estimation neutre, très incertaine). Western Michigan  ||  Massachusetts",
-   "day": "2026-11-14",
-   "prio": 13,
-   "nopred": true,
-   "live_score": "2-0",
-   "minute": "78'"
+   "live_score": "1-4",
+   "minute": "77'"
   },
   {
    "league": "NCAA Women's Soccer",
@@ -2505,8 +2426,8 @@
    "day": "2026-11-14",
    "prio": 13,
    "nopred": true,
-   "live_score": "1-1",
-   "minute": "46'"
+   "live_score": "2-2",
+   "minute": "88'"
   },
   {
    "league": "Africa Cup of Nations Qualifying",
