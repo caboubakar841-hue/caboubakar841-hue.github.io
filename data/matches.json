@@ -1,5 +1,5 @@
 {
- "date": "2026-11-15 11:11 UTC",
+ "date": "2026-11-15 11:51 UTC",
  "version": "V17",
  "stats": {
   "n": 593,
@@ -26,7 +26,7 @@
   "Compétitions suivies : 73 dont 4 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 33, uefa.nations 8, esp.2 4, per.1 2, uru.1 2, slv.1 2, gua.1 2, concacaf.nations.league 1, fifa.friendly 1, mex.2 1",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 116",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 115",
   "Cartes à venir affichées : 40 (jours : 2026-11-15, 2026-11-16, 2026-11-17)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:8301~e:401933734\"}",
   "Compétitions sans nom : aucune",
@@ -2374,8 +2374,8 @@
    "day": "2026-11-15",
    "prio": 13,
    "nopred": true,
-   "live_score": "0-1",
-   "minute": "11'"
+   "live_score": "1-2",
+   "minute": "HT"
   },
   {
    "league": "Spanish Liga F",
@@ -2393,8 +2393,27 @@
    "contexte": "Real Sociedad : 5e/20 (22 pts en 12 m.) | repos 7 j | prochains : Racing Santander (La Liga, 7 j), Crystal Palace (Ligue Europa, 11 j), Sevilla (La Liga, 14 j)  ||  Athletic Club : 7e/20 (16 pts en 11 m.) | repos 8 j | prochains : Espanyol (La Liga, 5 j), Málaga (La Liga, 13 j)",
    "day": "2026-11-15",
    "prio": 13,
+   "live_score": "0-3",
+   "minute": "HT"
+  },
+  {
+   "league": "Dutch Vrouwen Eredivisie",
+   "home": "ADO Den Haag",
+   "away": "De Graafschap",
+   "status": "live",
+   "conf": 60,
+   "victoire": "Victoire ADO Den Haag",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-11-15 | Buts attendus ADO Den Haag 2.1 - De Graafschap 1.1 | 1/N/2 : 60/21/19% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : De Graafschap (estimation neutre, très incertaine). ADO Den Haag : 17e/18 (9 pts en 12 m.) | repos 8 j | prochains : Ajax Amsterdam (Eredivisie, 7 j), FC Utrecht (Eredivisie, 14 j)  ||  De Graafschap",
+   "day": "2026-11-15",
+   "prio": 13,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "35'"
   },
   {
    "league": "Indian Football League",
@@ -2414,7 +2433,7 @@
    "prio": 13,
    "nopred": true,
    "live_score": "1-1",
-   "minute": "40'"
+   "minute": "63'"
   },
   {
    "league": "Matchs amicaux internationaux",
@@ -3015,24 +3034,6 @@
    "prio": 13
   },
   {
-   "league": "Under-21 International Friendly",
-   "home": "Kazakhstan U21",
-   "away": "Belarus U21",
-   "status": "today",
-   "conf": 0,
-   "victoire": "Pas de pronostic",
-   "score_exact": "-",
-   "double_chance": "-",
-   "corner": "N/D",
-   "over": "-",
-   "btts": "-",
-   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
-   "contexte": "⚠️ Peu ou pas de données pour : Kazakhstan U21, Belarus U21 (estimation neutre, très incertaine). Kazakhstan U21  ||  Belarus U21",
-   "day": "2026-11-15",
-   "prio": 13,
-   "nopred": true
-  },
-  {
    "league": "Club Friendly",
    "home": "Chindia Targoviste",
    "away": "FCSB",
@@ -3049,23 +3050,6 @@
    "day": "2026-11-15",
    "prio": 13,
    "nopred": true
-  },
-  {
-   "league": "Dutch Vrouwen Eredivisie",
-   "home": "ADO Den Haag",
-   "away": "De Graafschap",
-   "status": "today",
-   "conf": 60,
-   "victoire": "Victoire ADO Den Haag",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-15 | Buts attendus ADO Den Haag 2.1 - De Graafschap 1.1 | 1/N/2 : 60/21/19% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : De Graafschap (estimation neutre, très incertaine). ADO Den Haag : 17e/18 (9 pts en 12 m.) | repos 8 j | prochains : Ajax Amsterdam (Eredivisie, 7 j), FC Utrecht (Eredivisie, 14 j)  ||  De Graafschap",
-   "day": "2026-11-15",
-   "prio": 13
   },
   {
    "league": "English Women's FA Cup",
@@ -3101,6 +3085,61 @@
    "day": "2026-11-15",
    "prio": 13,
    "nopred": true
+  },
+  {
+   "league": "Club Friendly",
+   "home": "Krasnodar",
+   "away": "Druzhba Maikop",
+   "status": "today",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic.",
+   "contexte": "⚠️ Peu ou pas de données pour : Krasnodar, Druzhba Maikop (estimation neutre, très incertaine). Krasnodar  ||  Druzhba Maikop",
+   "day": "2026-11-15",
+   "prio": 13,
+   "nopred": true
+  },
+  {
+   "league": "English Women's FA Cup",
+   "home": "Derby County",
+   "away": "Bolton",
+   "status": "today",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-15 | Buts attendus Derby County 1.6 - Bolton 1.5 | 1/N/2 : 41/24/35% | base sur 15 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Bolton (estimation neutre, très incertaine). Derby County : 23e/24 (10 pts en 15 m.) | repos 9 j | prochains : Southampton (Championship, 6 j), Wolverhampton Wanderers (Championship, 9 j), Watford (Championship, 13 j)  ||  Bolton",
+   "day": "2026-11-15",
+   "prio": 13
+  },
+  {
+   "league": "Under-21 International Friendly",
+   "home": "Kazakhstan U21",
+   "away": "Belarus U21",
+   "status": "finished",
+   "conf": 0,
+   "victoire": "Pas de pronostic",
+   "score_exact": "-",
+   "double_chance": "-",
+   "corner": "N/D",
+   "over": "-",
+   "btts": "-",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Kazakhstan U21, Belarus U21 (estimation neutre, très incertaine). Kazakhstan U21  ||  Belarus U21",
+   "day": "2026-11-15",
+   "prio": 13,
+   "nopred": true,
+   "live_score": "1-2",
+   "minute": "FT"
   },
   {
    "league": "Australian A-League Women",
@@ -3866,25 +3905,6 @@
    "day": "2026-11-14",
    "prio": 13,
    "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Copa Argentina",
-   "home": "Banfield",
-   "away": "Boca Juniors",
-   "status": "finished",
-   "conf": 65,
-   "victoire": "Victoire Boca Juniors",
-   "score_exact": "1-2 (9%) · 1-3 (8%)",
-   "double_chance": "X2 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 74%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "Resultat 0-3 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Banfield : repos 8 j  ||  Boca Juniors : repos 7 j | prochains : Atlético-MG (Copa Sudamericana, 7 j), Independiente Rivadavia (Liga Argentina, 11 j)",
-   "day": "2026-11-14",
-   "prio": 13,
-   "live_score": "0-3",
    "minute": "FT"
   }
  ]
