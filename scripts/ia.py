@@ -1,6 +1,7 @@
 # PRONO70 V17 - Pronostics calcules (modele de Poisson) a partir des VRAIS resultats ESPN
 # Aucun tirage aleatoire : tout decoule des buts marques/encaisses depuis LOOKBACK_DAYS jours.
 import json
+import time
 import re
 import math
 import os
@@ -109,6 +110,8 @@ DYN_MAX = 80             # nombre max de championnats decouverts gardes en memoi
 DISC_EVERY_MIN = 30      # la decouverte ne tourne qu'une fois toutes les 30 min, et seulement s'il manque des matchs
 LEAGUE_NAMES = {}        # noms de championnats lus dans les reponses ESPN
 ALL_SAMPLE = {}          # exemple brut du filet "tous les matchs" (affiche dans le diagnostic pour comprendre le format ESPN)
+HIDE_PARTIAL = False    # False : on masque les matchs sans AUCUNE donnee sur les deux equipes (remplaces par d'autres matchs)
+                        # True  : on masque aussi ceux ou une seule equipe est inconnue (ex. un grand club contre un club amateur)
 H2H_FILE = "data/h2h.json"
 H2H_MIN = 3             # il faut au moins 3 confrontations pour que le face-a-face influence le pronostic
 H2H_PRIOR = 20          # poids du modele face au face-a-face (en "matchs equivalents") : 20 = le face-a-face pese peu
@@ -370,14 +373,14 @@ def card_from(rec, status):
     c["status"] = status
     c["contexte"] = rec.get("ctx", "")
     c["day"] = rec["iso"][:10]
+    c["kickoff"] = rec["iso"]
     c["prio"] = rec_prio(rec)
     if rec.get("neutral"):
         c["contexte"] = ("⚠️ Peu ou pas de données pour : " + ", ".join(rec["neutral"]) +
                          " (estimation neutre, très incertaine). ") + c["contexte"]
-    if rec.get("nopred"):
-        c.update({"victoire": "Pas de pronostic", "score_exact": "-", "double_chance": "-", "over": "-", "btts": "-",
-                  "conf": 0, "nopred": True,
-                  "analyse": "Aucune donnée sur ces deux équipes : match affiché pour information, sans pronostic."})
+    if rec.get("nopred"):                        # aucune donnee : on affiche quand meme un pronostic, clairement signale
+        c["nopred"] = True
+        c["analyse"] = "Pas de données"
     if rec["slug"] in EURO_COMPS:
         c["contexte"] = "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). " + c["contexte"]
     c.pop("_iso", None)
@@ -605,6 +608,7 @@ def team_ctx(team, slug, kick, tabs, team_fx, team_games, absences):
 
 
 def main():
+    t0 = time.time()                         # budget de temps : le run doit finir bien avant la limite du workflow
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
     t = now.date()
@@ -627,7 +631,8 @@ def main():
     done_days = set(cache["days_done"])
     all_days = [t + timedelta(days=2 - k) for k in range(LOOKBACK_DAYS + 3)]      # t+2 ... t-LOOKBACK
     fresh = [d for d in all_days if d >= t - timedelta(days=1)]                   # toujours rafraichis
-    missing = [d for d in all_days if d < t - timedelta(days=1) and d.isoformat() not in done_days][:MAX_BACKFILL_DAYS]
+    max_missing = max(3, min(MAX_BACKFILL_DAYS, 2200 // max(len(ALL_COMPS), 1) - len(fresh) - 12))   # ~2200 requetes max par run
+    missing = [d for d in all_days if d < t - timedelta(days=1) and d.isoformat() not in done_days][:max_missing]
     try:
         stale = (now - datetime.fromisoformat(cache["fx_updated"])).total_seconds() > FIX_REFRESH_H * 3600
     except Exception:
@@ -657,7 +662,7 @@ def main():
         last_disc = None
     n_found = playable(fetched)
     n_new = 0
-    if n_found < MAX_MATCHES and (last_disc is None or (now - last_disc).total_seconds() > DISC_EVERY_MIN * 60):
+    if n_found < MAX_MATCHES and time.time() - t0 < 200 and (last_disc is None or (now - last_disc).total_seconds() > DISC_EVERY_MIN * 60):
         cands = [f"{cc}.{lv}" for lv in EXTRA_LEVELS for cc in EXTRA_COUNTRIES
                  if f"{cc}.{lv}" not in ALL_COMPS and cache["skip"].get(f"{cc}.{lv}", "") < now.isoformat()]
         jobs2 = [(sl_, d_) for sl_ in cands for d_ in (t, t + timedelta(days=1))]
@@ -843,7 +848,7 @@ def main():
         fresh = old and (now - datetime.fromisoformat(old["t"])).days < H2H_REFRESH_DAYS
         if not fresh and len(need) < H2H_MAX_PAIRS:
             need[k] = (sl, q["hid"], q["aid"])
-    if need:
+    if need and time.time() - t0 < 200:       # partie facultative : sautee si le run a deja pris trop de temps
         with ThreadPoolExecutor(max_workers=8) as ex:
             got = list(ex.map(lambda kv: (kv[0], fetch_pair(*kv[1], seasons)), need.items()))
         for k, games in got:
@@ -855,13 +860,18 @@ def main():
 
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
+    hidden_nodata = 0
     for slug, p in events:
         if slug not in LEAGUES and slug not in EURO_COMPS and slug not in INTL and not slug.startswith("all."):   # coupes nationales : contexte uniquement
             continue
         day = p["iso"][:10]
         rec = hist.get(p["id"])
+        if rec and (rec.get("nopred") or (HIDE_PARTIAL and rec.get("neutral"))) and p["state"] != "pre":
+            continue                             # match sans donnees (deja enregistre avant) : jamais affiche
         if p["state"] == "post" and day < limit and not rec:
             continue
+        if p["state"] == "pre" and parse_iso(p["iso"]) < now - timedelta(hours=3):
+            continue                             # annonce "a venir" depuis plus de 3 h apres le coup d'envoi : donnee perimee ou match reporte
         if p["state"] in ("pre", "in") and (day < (t - timedelta(days=1)).isoformat() or day > (t + timedelta(days=2)).isoformat()):
             continue
         refresh = bool(rec) and p["state"] == "pre" and rec.get("kind") == "avant"
@@ -873,8 +883,9 @@ def main():
                     continue                         # on ne recalcule pas apres coup un match sans donnees
                 m = thin_model(slug, p["home"], p["away"], min(day, today))   # a venir / en cours : on l'affiche quand meme
             nopred = all(m["gp"].get(tm, 0) == 0 for tm in (p["home"], p["away"]))   # aucune donnee sur aucune des deux equipes
-            if p["state"] == "post" and nopred:
-                continue                             # match fini sans aucune donnee : rien a evaluer, on n'encombre pas l'historique
+            if nopred or (HIDE_PARTIAL and m.get("neutral")):
+                hidden_nodata += 1                   # match sans donnees : on ne l'affiche pas, un autre match prend sa place
+                continue
             pr = pr0 = predict(m, p["home"], p["away"])
             ctx_text, base_p, noh2h_p = "", None, None
             if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
@@ -920,7 +931,7 @@ def main():
                 break
             ordered += sorted(upcoming[dd], key=order_key)
         today_cards = [card_from(rec, "today") for rec in ordered]
-    done_all = sorted((r for r in hist.values() if r.get("res")), key=lambda r: r["iso"], reverse=True)
+    done_all = sorted((r for r in hist.values() if r.get("res") and not r.get("nopred") and not (HIDE_PARTIAL and r.get("neutral"))), key=lambda r: r["iso"], reverse=True)
     done = [r for r in done_all if not r.get("neutral")]
     stats = {"n": len(done), "n_avant": sum(1 for r in done if r["kind"] == "avant")}
     if done:
@@ -964,12 +975,14 @@ def main():
     top = sorted(((k, v) for k, v in seen_today.items() if not k.startswith("all.")), key=lambda kv: -kv[1])[:12]
     diag = [f"Compétitions suivies : {len(ALL_COMPS)} dont {len(cache['dyn'])} découvertes automatiquement",
             "Matchs trouvés aujourd'hui par compétition : " + (", ".join(f"{k} {v}" for k, v in top) or "aucun"),
+            f"Matchs sans données masqués (remplacés par d'autres) : {hidden_nodata}",
             f"Matchs africains affichés (à venir / live) : {afr}",
             f"Matchs ajoutés par le filet « tous les matchs ESPN » : {n_all}",
             f"Cartes à venir affichées : {len(today_cards[:MAX_MATCHES])} (jours : {', '.join(sorted(upcoming)) or 'aucun'})",
             "Filet ESPN - format reçu : " + json.dumps(ALL_SAMPLE, ensure_ascii=False)[:300],
             "Compétitions sans nom : " + (", ".join(sorted({sl_ for sl_, _ in fresh_events if sl_.startswith("all.") and sl_ not in LEAGUE_NAMES})[:8]) or "aucune"),
             "Codes sans réponse : " + (", ".join(sorted(set(ALL_COMPS) - good_slugs)[:12]) or "aucun")]
+    diag.append(f"Durée du run : {int(time.time() - t0)} s")
     keep = sorted(hist.items(), key=lambda kv: kv[1]["iso"], reverse=True)[:600]
     os.makedirs("data", exist_ok=True)
     with open(HIST, "w", encoding="utf-8") as f:
@@ -994,7 +1007,7 @@ def main():
         json.dump(h2h_cache, f, ensure_ascii=False)
     with open(CACHE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False)
-    out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "stats": stats, "diag": diag, "tickets": [tk["days"][d] for d in sorted(tk["days"], reverse=True)], "matches": cards}
+    out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "ts": now.isoformat(), "stats": stats, "diag": diag, "tickets": [tk["days"][d] for d in sorted(tk["days"], reverse=True)], "matches": cards}
     with open("data/matches.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"FINAL: {len(live)} live, {len(today_cards)} a venir, {len(fin_cards)} termines | stats {stats}")
