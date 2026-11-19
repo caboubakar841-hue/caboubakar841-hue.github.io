@@ -31,9 +31,10 @@ table{width:100%;border-collapse:collapse;font-size:13px}td{padding:8px;border-b
 </style>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#00ff88">
-<style>#offline{display:none;background:#3a2a00;color:#ffcc66;border-radius:10px;padding:8px;margin-bottom:10px;font-size:12px;text-align:center}</style>
+<style>.card.nodata{border-left-color:#ff9a3c}.card.nodata .conf{background:#ff9a3c}#stale{display:none;background:#3a1010;color:#ff9a9a;border-radius:10px;padding:8px;margin-bottom:10px;font-size:12px;text-align:center}#offline{display:none;background:#3a2a00;color:#ffcc66;border-radius:10px;padding:8px;margin-bottom:10px;font-size:12px;text-align:center}</style>
 </head>
 <body>
+<div id="stale"></div>
 <div id="offline">📴 Hors ligne : affichage de la dernière version enregistrée. Les LIVE sont figés à ce moment-là.</div>
 <div class="header"><h1>PRONO70 V17 • Modèle de Poisson</h1><p id="dateInfo">Chargement...</p></div>
 <div class="filters">
@@ -46,21 +47,46 @@ table{width:100%;border-collapse:collapse;font-size:13px}td{padding:8px;border-b
 <div id="list"></div>
 <script>
 let D={matches:[],stats:{}},cur='today';
+// Statut "effectif" : un match annonce "a venir" dont le coup d'envoi est passe n'est plus affiche comme a venir
+function eff(m){
+  if(m.status!=='today'||!m.kickoff) return m.status;
+  const k=Date.parse(m.kickoff.replace('Z','+00:00'));
+  if(isNaN(k)||k>Date.now()) return 'today';
+  return (Date.now()-k)<165*60000?'live':'finished';
+}
+function ago(min){const h=Math.floor(min/60),r=Math.round(min%60);return h>0?h+' h '+r+' min':r+' min'}
+let loaded=false;
 async function load(){
   try{
-    D=await (await fetch('data/matches.json?v='+Date.now())).json();
+    const r=await fetch('data/matches.json?v='+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    D=await r.json();
+  }catch(e){
+    const st=document.getElementById('stale');
+    if(loaded){st.style.display='block';st.innerText='⚠️ Actualisation impossible pour le moment (réseau ou mise en ligne en cours) : dernières données affichées.'}
+    else{document.getElementById('list').innerHTML='<p style="text-align:center;color:#f55">Impossible de charger data/matches.json ('+e.message+'). Nouvel essai automatique...</p>'}
+    setTimeout(load,15000);
+    return;
+  }
+  try{
     offlineBanner();
-    document.getElementById('dateInfo').innerText=D.date+' • '+D.matches.length+' cartes • mise à jour auto';
-    ['today','live','finished'].forEach(s=>document.getElementById('c-'+s).innerText=D.matches.filter(m=>m.status===s).length);
+    D.matches.forEach(m=>{m.eff=eff(m);m.late=(m.eff!==m.status)});
+    const ts=Date.parse(D.ts||String(D.date).replace(' UTC','Z').replace(' ','T')),age=(Date.now()-ts)/60000,st=document.getElementById('stale');
+    document.getElementById('dateInfo').innerText=D.date+(isNaN(age)?'':' (il y a '+ago(age)+')')+' • '+D.matches.length+' cartes';
+    if(!isNaN(age)&&age>30){st.style.display='block';st.innerText='⚠️ Données non mises à jour depuis '+ago(age)+'. Les matchs affichés peuvent être déjà joués ou en cours.'}else{st.style.display='none'}
+    ['today','live','finished'].forEach(s=>document.getElementById('c-'+s).innerText=D.matches.filter(m=>m.eff===s).length);
     render();
-  }catch(e){document.getElementById('list').innerHTML='<p style="text-align:center;color:#f55">Erreur de chargement de data/matches.json</p>'}
+    loaded=true;
+  }catch(e){
+    document.getElementById('list').innerHTML='<p style="text-align:center;color:#f55">Erreur d\'affichage : '+e.message+'</p>';
+  }
 }
 function show(c){cur=c;document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('active'));document.getElementById('b-'+c).classList.add('active');render()}
 function card(m){
   const sc=m.live_score?m.live_score.split('-'):null;
   const big=sc?'<div class="score"><span class="t">'+m.home+'</span><span class="n">'+sc[0]+' - '+sc[1]+'</span><span class="t">'+m.away+'</span></div>'+(m.minute?'<div style="text-align:center;margin-bottom:8px"><span class="min">'+(m.status==='live'?'🔴 ':'')+m.minute+'</span></div>':''):'';
-  return '<div class="card '+m.status+(m.status==='finished'?' fin':'')+'"><div class="top"><span>'+(m.prio<0?'🌍 ':m.prio<=3?'⭐ ':'')+m.league+(m.day?' • '+m.day.slice(5):'')+'</span><span class="conf">'+(m.nopred?'—':m.conf+'%')+'</span></div>'+big+(sc?'':'<h3>'+m.home+' vs '+m.away+'</h3>')+
-  '<div class="grid"><div class="box">Victoire<b>'+m.victoire+'</b></div><div class="box">Score probable<b style="color:#fc0">'+m.score_exact+'</b></div><div class="box">Double chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div>'+(m.contexte?'<div class="analyse">🧭 '+m.contexte+'</div>':'')+'<div class="analyse">'+m.analyse+'</div></div>';
+  return '<div class="card '+m.eff+(m.eff==='finished'?' fin':'')+(m.nopred?' nodata':'')+'"><div class="top"><span>'+(m.prio<0?'🌍 ':m.prio<=3?'⭐ ':'')+m.league+(m.day?' • '+m.day.slice(5):'')+'</span><span class="conf">'+(m.nopred?'⚠️ ':'')+m.conf+'%'+'</span></div>'+big+(sc?'':'<h3>'+m.home+' vs '+m.away+'</h3>')+
+  (m.nopred?'<div class="analyse" style="color:#ffb35c;font-weight:bold">⚠️ PAS DE DONNÉES sur ces équipes : estimation générique, à ne pas utiliser pour parier.</div>':'')+(m.late?'<div class="analyse" style="color:#fc6">⏱ Coup d\'envoi passé : '+(m.eff==='live'?'match probablement en cours':'match probablement terminé')+' - score en attente de mise à jour.</div>':'')+'<div class="grid"><div class="box">Victoire<b>'+m.victoire+'</b></div><div class="box">Score probable<b style="color:#fc0">'+m.score_exact+'</b></div><div class="box">Double chance<b>'+m.double_chance+'</b></div><div class="box">Corners<b>'+m.corner+'</b></div><div class="box">Over/Under<b>'+m.over+'</b></div><div class="box">BTTS<b>'+m.btts+'</b></div></div>'+(m.contexte?'<div class="analyse">🧭 '+m.contexte+'</div>':'')+'<div class="analyse">'+m.analyse+'</div></div>';
 }
 function tk(d){return d.tickets.map(t=>{
  const odds=t.legs.reduce((a,l)=>a*100/l.p,1);
@@ -79,8 +105,8 @@ function render(){
     el.innerHTML='<div class="card"><table>'+r.map(x=>'<tr><td>'+x[0]+'</td><td>'+x[1]+'</td></tr>').join('')+'</table><div class="analyse">Si « Victoire/Nul/Défaite » ne dépasse pas nettement la référence, le modèle n\'apporte rien. Attendre au moins 100 matchs avant de conclure. Brier : plus bas = mieux ; si « avec contexte » n\'est pas plus bas que « sans » après 50 matchs, le contexte n\'aide pas.</div></div>'+dg;
     return;
   }
-  const f=D.matches.filter(m=>m.status===cur);
-  el.innerHTML=f.map(card).join('')||'<p style="text-align:center;margin-top:20px">Aucun match dans cette section</p>';
+  const f=D.matches.filter(m=>m.eff===cur);
+  el.innerHTML=f.map(m=>{try{return card(m)}catch(e){return '<div class="card"><div class="analyse">⚠️ Carte illisible : '+m.home+' vs '+m.away+' ('+e.message+')</div></div>'}}).join('')||'<p style="text-align:center;margin-top:20px">Aucun match dans cette section</p>';
 }
 function offlineBanner(){document.getElementById('offline').style.display=navigator.onLine?'none':'block'}
 window.addEventListener('online',offlineBanner);window.addEventListener('offline',offlineBanner);
