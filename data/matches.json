@@ -1,7 +1,7 @@
 {
- "date": "2026-11-19 20:00 UTC",
+ "date": "2026-11-19 20:01 UTC",
  "version": "V17",
- "ts": "2026-11-19T20:00:19.633405+00:00",
+ "ts": "2026-11-19T20:01:10.532294+00:00",
  "stats": {
   "n": 461,
   "n_avant": 68,
@@ -33,7 +33,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:19483~e:401916982\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, kor.1, sau.1, uefa.euro_qual",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2300,6 +2300,26 @@
    "minute": "30'"
   },
   {
+   "league": "UEFA Women's Champions League",
+   "home": "Barcelona",
+   "away": "Servette",
+   "status": "live",
+   "conf": 98,
+   "victoire": "Victoire Barcelona",
+   "score_exact": "6-1 (7%) · 7-1 (7%)",
+   "double_chance": "1X 99%",
+   "corner": "N/D",
+   "over": "Over 2.5 97%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-19 | Buts attendus Barcelona 6.6 - Servette 0.8 | 1/N/2 : 98/1/1% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Servette (estimation neutre, très incertaine). Barcelona : 1e/20 (33 pts en 12 m.) | repos 11 j | prochains : Villarreal (La Liga, 3 j), Sabah FK (Ligue des champions, 6 j), Deportivo (La Liga, 10 j)  ||  Servette",
+   "day": "2026-11-19",
+   "kickoff": "2026-11-19T20:00Z",
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "1'"
+  },
+  {
    "league": "Brasileirao",
    "home": "Vasco da Gama",
    "away": "Internacional",
@@ -2349,24 +2369,6 @@
    "btts": "BTTS NON 61%",
    "analyse": "2026-11-19 | Buts attendus Arsenal 3.3 - OL Lyonnes 0.5 | 1/N/2 : 89/8/3% | base sur 10 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : OL Lyonnes (estimation neutre, très incertaine). Arsenal : 1e/20 (27 pts en 10 m.) | repos 12 j | prochains : Newcastle United (Premier League, 2 j), Borussia Dortmund (Ligue des champions, 5 j), Manchester City (Premier League, 10 j)  ||  OL Lyonnes",
-   "day": "2026-11-19",
-   "kickoff": "2026-11-19T20:00Z",
-   "prio": 13
-  },
-  {
-   "league": "UEFA Women's Champions League",
-   "home": "Barcelona",
-   "away": "Servette",
-   "status": "today",
-   "conf": 98,
-   "victoire": "Victoire Barcelona",
-   "score_exact": "6-1 (7%) · 7-1 (7%)",
-   "double_chance": "1X 99%",
-   "corner": "N/D",
-   "over": "Over 2.5 97%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-19 | Buts attendus Barcelona 6.6 - Servette 0.8 | 1/N/2 : 98/1/1% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Servette (estimation neutre, très incertaine). Barcelona : 1e/20 (33 pts en 12 m.) | repos 11 j | prochains : Villarreal (La Liga, 3 j), Sabah FK (Ligue des champions, 6 j), Deportivo (La Liga, 10 j)  ||  Servette",
    "day": "2026-11-19",
    "kickoff": "2026-11-19T20:00Z",
    "prio": 13
@@ -3017,6 +3019,24 @@
    "contexte": "Face-à-face (8 confrontations) : Independiente del Valle 6V · 1N · Macará 1V (scores : 1-0 x2, 7-0, 1-1)  ||  Independiente del Valle : repos 12 j | prochains : Barcelona SC (Liga Equateur, 5 j), Universidad Católica (Quito) (Liga Equateur, 9 j)  ||  Macará : repos 12 j | prochains : Liga de Quito (Liga Equateur, 9 j)",
    "day": "2026-11-20",
    "kickoff": "2026-11-20T17:00Z",
+   "prio": 12
+  },
+  {
+   "league": "Liga Uruguay",
+   "home": "Cerro",
+   "away": "Nacional",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : Nul ou Nacional",
+   "score_exact": "1-1 (14%) · 0-1 (12%)",
+   "double_chance": "X2 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 55%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-11-20 | Buts attendus Cerro 1.1 - Nacional 1.4 | 1/N/2 : 25/30/45% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Cerro 1V · 3N · Nacional 4V (scores : 1-2 x2, 0-0 x2, 1-1)  ||  Cerro : repos 6 j  ||  Nacional : repos 6 j",
+   "day": "2026-11-20",
+   "kickoff": "2026-11-20T19:30Z",
    "prio": 12
   },
   {
