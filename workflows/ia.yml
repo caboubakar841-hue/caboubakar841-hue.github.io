@@ -20,6 +20,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -29,18 +31,24 @@ jobs:
         run: python scripts/ia.py
         continue-on-error: true
         timeout-minutes: 12
-      - name: Enregistrer les donnees (meme si le calcul a echoue : le message d'erreur est publie)
+      - name: Enregistrer les donnees
         run: |
           git config user.name "bot"
           git config user.email "bot@bot.com"
-          git add data/
-          git commit -m "data: mise a jour automatique" || exit 0
-          ok=0
+          mkdir -p data
+          rm -rf /tmp/data_new
+          cp -r data /tmp/data_new
           for i in 1 2 3 4; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then ok=1; break; fi
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p data
+            cp -r /tmp/data_new/. data/
+            git add data/
+            git commit -m "data: mise a jour automatique" || exit 0
+            if git push origin HEAD:main; then exit 0; fi
             sleep 5
           done
-          [ "$ok" = 1 ]
+          exit 1
       - name: Signaler l'echec du calcul
         if: steps.run.outcome == 'failure'
         run: exit 1
