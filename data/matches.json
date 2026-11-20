@@ -1,18 +1,18 @@
 {
- "date": "2026-11-20 20:23 UTC",
+ "date": "2026-11-20 20:45 UTC",
  "version": "V17",
- "ts": "2026-11-20T20:23:40.831379+00:00",
+ "ts": "2026-11-20T20:45:57.794865+00:00",
  "stats": {
   "n": 573,
   "n_avant": 56,
-  "dc": 77,
+  "dc": 78,
   "over": 51,
   "btts": 55,
   "score": 18,
-  "1x2": 58,
-  "n_fav": 276,
+  "1x2": 60,
+  "n_fav": 275,
   "serre": 75,
-  "n_serre": 297,
+  "n_serre": 298,
   "base_dom": 45,
   "n_ctx": 22,
   "brier_ctx": 0.598,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : ned.2 9, fra.2 5, uru.1 3, par.1 2, col.1 2, chi.1 2, eng.3 1, esp.1 1, esp.2 1, ita.2 1, ger.1 1, fra.1 1",
+  "Matchs trouvés aujourd'hui par compétition : ned.2 9, fra.2 4, uru.1 3, par.1 2, col.1 2, chi.1 2, eng.3 1, esp.1 1, esp.2 1, ita.2 1, ger.1 1, fra.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 0",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 12 s"
+  "Durée du run : 14 s"
  ],
  "tickets": [
   {
@@ -2256,7 +2256,7 @@
    "kickoff": "2026-11-20T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "21'"
+   "minute": "44'"
   },
   {
    "league": "Bundesliga",
@@ -2276,7 +2276,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 3,
    "live_score": "1-1",
-   "minute": "HT"
+   "minute": "54'"
   },
   {
    "league": "Ligue 1",
@@ -2296,7 +2296,7 @@
    "kickoff": "2026-11-20T19:45Z",
    "prio": 3,
    "live_score": "1-1",
-   "minute": "38'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -2315,8 +2315,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T20:00Z",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "24'"
+   "live_score": "1-2",
+   "minute": "45'"
   },
   {
    "league": "La Liga 2",
@@ -2336,7 +2336,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "45'+8'"
+   "minute": "49'"
   },
   {
    "league": "Serie B",
@@ -2356,7 +2356,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "58'"
   },
   {
    "league": "Ligue 2",
@@ -2375,8 +2375,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
-   "live_score": "3-0",
-   "minute": "63'"
+   "live_score": "4-1",
+   "minute": "86'"
   },
   {
    "league": "Ligue 2",
@@ -2396,7 +2396,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "66'"
+   "minute": "88'"
   },
   {
    "league": "Ligue 2",
@@ -2415,8 +2415,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "66'"
+   "live_score": "1-2",
+   "minute": "88'"
   },
   {
    "league": "Ligue 2",
@@ -2435,28 +2435,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "67'"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Red Star FC 93",
-   "away": "Pau",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (10%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-20 | Buts attendus Red Star FC 93 1.1 - Pau 1.3 | 1/N/2 : 32/23/45% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Red Star FC 93 1V · 0N · Pau 3V (scores : 1-4, 1-3, 3-0)  ||  Red Star FC 93 : 8e/18 (17 pts en 12 m.) | repos 5 j | prochains : Tremblay (Coupe de France, 8 j)  ||  Pau : 5e/18 (20 pts en 12 m.) | repos 6 j | prochains : Castanet (Coupe de France, 8 j), Boulogne (Ligue 2, 14 j)",
-   "day": "2026-11-20",
-   "kickoff": "2026-11-20T19:00Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "65'"
+   "live_score": "2-1",
+   "minute": "89'"
   },
   {
    "league": "Pro League",
@@ -2476,7 +2456,7 @@
    "kickoff": "2026-11-20T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "HT"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2496,7 +2476,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "0-4",
-   "minute": "61'"
+   "minute": "84'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2515,8 +2495,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
-   "live_score": "2-0",
-   "minute": "64'"
+   "live_score": "3-0",
+   "minute": "86'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2536,7 +2516,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "1-0",
-   "minute": "65'"
+   "minute": "87'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2555,8 +2535,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
-   "live_score": "1-1",
-   "minute": "66'"
+   "live_score": "1-2",
+   "minute": "88'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2575,8 +2555,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
-   "live_score": "3-0",
-   "minute": "65'"
+   "live_score": "5-1",
+   "minute": "88'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2595,8 +2575,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
-   "live_score": "2-0",
-   "minute": "64'"
+   "live_score": "2-1",
+   "minute": "86'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2615,8 +2595,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
-   "live_score": "0-0",
-   "minute": "63'"
+   "live_score": "1-0",
+   "minute": "86'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2636,7 +2616,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "1-0",
-   "minute": "65'"
+   "minute": "87'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2656,7 +2636,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "0-3",
-   "minute": "64'"
+   "minute": "87'"
   },
   {
    "league": "Première Ligue féminine (F)",
@@ -2675,8 +2655,28 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T20:00Z",
    "prio": 11,
+   "live_score": "1-0",
+   "minute": "45'"
+  },
+  {
+   "league": "Primera Paraguay",
+   "home": "Sportivo Ameliano",
+   "away": "Sportivo Luqueño",
+   "status": "live",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "2026-11-20 | Buts attendus Sportivo Ameliano 1.3 - Sportivo Luqueño 1.6 | 1/N/2 : 36/28/36% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Sportivo Ameliano 4V · 3N · Sportivo Luqueño 1V (scores : 2-2 x2, 1-0 x2, 2-0)  ||  Sportivo Ameliano : repos 12 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 5 j), Libertad (Primera Paraguay, 9 j)  ||  Sportivo Luqueño : repos 11 j | prochains : Club Olimpia (Primera Paraguay, 5 j), Deportivo Recoleta (Primera Paraguay, 9 j)",
+   "day": "2026-11-20",
+   "kickoff": "2026-11-20T20:30Z",
+   "prio": 12,
    "live_score": "0-0",
-   "minute": "23'"
+   "minute": "15'"
   },
   {
    "league": "Liga Uruguay",
@@ -2696,7 +2696,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "53'"
   },
   {
    "league": "Liga Uruguay",
@@ -2716,7 +2716,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "HT"
+   "minute": "53'"
   },
   {
    "league": "Liga Uruguay",
@@ -2736,7 +2736,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "60'"
   },
   {
    "league": "Liga Argentina",
@@ -2755,24 +2755,6 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Sportivo Ameliano",
-   "away": "Sportivo Luqueño",
-   "status": "today",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "2026-11-20 | Buts attendus Sportivo Ameliano 1.3 - Sportivo Luqueño 1.6 | 1/N/2 : 36/28/36% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Sportivo Ameliano 4V · 3N · Sportivo Luqueño 1V (scores : 2-2 x2, 1-0 x2, 2-0)  ||  Sportivo Ameliano : repos 12 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 5 j), Libertad (Primera Paraguay, 9 j)  ||  Sportivo Luqueño : repos 11 j | prochains : Club Olimpia (Primera Paraguay, 5 j), Deportivo Recoleta (Primera Paraguay, 9 j)",
-   "day": "2026-11-20",
-   "kickoff": "2026-11-20T20:30Z",
-   "prio": 12
   },
   {
    "league": "Liga Chili",
@@ -3454,6 +3436,24 @@
    "btts": "BTTS NON 53%",
    "analyse": "2026-11-21 | Buts attendus Southampton 2.6 - Derby County 0.7 | 1/N/2 : 78/14/8% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (2 confrontations) : Southampton 1V · 1N · Derby County 0V (scores : 1-1, 2-1) - trop peu pour influer  ||  Southampton : 4e/24 (28 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 14 j | prochains : Sheffield United (Championship, 3 j), Middlesbrough (Championship, 6 j)  ||  Derby County : 23e/24 (10 pts en 15 m.) | repos 15 j | prochains : Wolverhampton Wanderers (Championship, 3 j), Watford (Championship, 7 j)",
+   "day": "2026-11-21",
+   "kickoff": "2026-11-21T12:30Z",
+   "prio": 9
+  },
+  {
+   "league": "League One",
+   "home": "Blackpool",
+   "away": "Wigan Athletic",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : Nul ou Blackpool",
+   "score_exact": "1-1 (15%) · 1-0 (11%)",
+   "double_chance": "1X 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "2026-11-21 | Buts attendus Blackpool 1.4 - Wigan Athletic 1.0 | 1/N/2 : 43/32/25% | base sur 13 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : Blackpool 2V · 3N · Wigan Athletic 1V (scores : 1-1 x2, 2-1, 0-1)  ||  Blackpool : 20e/24 (12 pts en 13 m.) | repos 7 j | prochains : Leicester City (League One, 3 j), Stevenage (League One, 7 j), Luton Town (League One, 10 j)  ||  Wigan Athletic : 19e/24 (14 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Plymouth Argyle (League One, 7 j), Burton Albion (League One, 10 j)",
    "day": "2026-11-21",
    "kickoff": "2026-11-21T12:30Z",
    "prio": 9
