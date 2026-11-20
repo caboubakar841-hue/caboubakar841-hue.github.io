@@ -56,20 +56,36 @@ function eff(m){
 }
 function ago(min){const h=Math.floor(min/60),r=Math.round(min%60);return h>0?h+' h '+r+' min':r+' min'}
 let loaded=false;
+// Deux sources : le site publie (GitHub Pages) et le depot lui-meme (raw). On garde la plus recente.
+const RAW=(()=>{const hn=location.hostname,u=hn.split('.')[0],sg=location.pathname.split('/')[1];const repo=(sg&&!sg.includes('.'))?sg:hn;return 'https://raw.githubusercontent.com/'+u+'/'+repo+'/main/data/'})();
+async function getJSON(url){const r=await fetch(url+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
+const tsOf=d=>Date.parse((d&&d.ts)||String((d&&d.date)||'').replace(' UTC','Z').replace(' ','T'));
+async function pickData(){
+  const res=await Promise.allSettled([getJSON('data/matches.json'),getJSON(RAW+'matches.json')]);
+  const ok=res.filter(x=>x.status==='fulfilled'&&x.value&&x.value.matches).map(x=>x.value);
+  if(!ok.length) throw (res[0].reason||new Error('aucune source'));
+  return ok.sort((x,y)=>(tsOf(y)||0)-(tsOf(x)||0))[0];
+}
+async function anyJSON(name){
+  for(const u of [RAW+name,'data/'+name]){try{return await getJSON(u)}catch(e){}}
+  return null;
+}
 async function showErr(st){
   try{
-    const r=await fetch('data/last_error.json?v='+Date.now(),{cache:'no-store'});
-    if(!r.ok) return;
-    const j=await r.json();
-    const last=String(j.error).split('\n').filter(Boolean).slice(-1)[0];
-    st.innerText+=' Dernière erreur du script ('+String(j.t).slice(11,16)+' UTC) : '+last;
+    const run=await anyJSON('last_run.json');
+    if(run){
+      const hm=x=>String(x).slice(11,16);
+      const old=(Date.now()-Date.parse(run.start))/60000;
+      if(old>25) st.innerText+=' Le workflow GitHub n\'a plus démarré depuis '+hm(run.start)+' UTC (GitHub retarde ou a arrêté les lancements).';
+      else st.innerText+=' Dernier lancement : '+hm(run.start)+' UTC, '+(run.end?'terminé à '+hm(run.end):'NON terminé, interrompu à l\'étape « '+run.phase+' » après '+run.elapsed+' s')+'.';
+    }
+    const j=await anyJSON('last_error.json');
+    if(j){const last=String(j.error).split('\n').filter(Boolean).slice(-1)[0];st.innerText+=' Dernière erreur du script ('+String(j.t).slice(11,16)+' UTC) : '+last}
   }catch(e){}
 }
 async function load(){
   try{
-    const r=await fetch('data/matches.json?v='+Date.now(),{cache:'no-store'});
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    D=await r.json();
+    D=await pickData();
   }catch(e){
     const st=document.getElementById('stale');
     if(loaded){st.style.display='block';st.innerText='⚠️ Actualisation impossible pour le moment (réseau ou mise en ligne en cours) : dernières données affichées.'}
