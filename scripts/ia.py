@@ -35,6 +35,9 @@ LEAGUES = {
     "tur.1": "Super Lig", "sco.1": "Scottish Premiership",
     "gre.1": "Super League (GRE)", "aut.1": "Bundesliga (AUT)", "sui.1": "Super League (SUI)", "den.1": "Superliga (DEN)",
     "usa.1": "MLS", "bra.1": "Brasileirao", "arg.1": "Liga Argentina", "mex.1": "Liga MX",
+    "eng.w.1": "Women's Super League (F)", "esp.w.1": "Liga F (F)", "fra.w.1": "Première Ligue féminine (F)",
+    "ger.w.1": "Frauen-Bundesliga (F)", "ita.w.1": "Serie A féminine (F)", "usa.nwsl": "NWSL (F)",
+    "uefa.w.champions": "Ligue des champions féminine (F)",
     # championnats de REMPLISSAGE (affiches en dernier, seulement s'il reste de la place sous la limite de 40 matchs)
     "par.1": "Primera Paraguay", "col.1": "Liga Colombia", "bol.1": "Liga Bolivie",
     "afc.champions": "AFC Champions League", "afc.cup": "AFC Champions League Two",
@@ -72,12 +75,13 @@ AFRICAN_TEAMS = {  # selections africaines (noms ESPN) : leurs matchs passent TO
     "Gambia", "The Gambia", "Sierra Leone", "Liberia", "Togo", "Niger", "Chad", "Central African Republic", "Rwanda", "Burundi",
     "Ethiopia", "Malawi", "Botswana", "Lesotho", "Eswatini", "Swaziland", "Djibouti", "Somalia", "South Sudan", "Eritrea",
     "Seychelles", "Mauritius", "Sao Tome and Principe", "São Tomé and Príncipe"}
+WOMEN_CROSS = {"uefa.w.champions"}      # coupe d'Europe feminine : modele inter-championnats, avec les donnees FEMININES
 EURO_COMPS = {"uefa.champions", "uefa.europa", "uefa.europa.conf"}
 # ordre d'affichage : 0 = tout en haut. Coupes d'Europe, puis 5 grands championnats, puis le reste.
 PRIORITY = {"uefa.champions": 0, "uefa.europa": 1, "uefa.europa.conf": 2,
             "eng.1": 3, "esp.1": 3, "ita.1": 3, "ger.1": 3, "fra.1": 3,
             # remplissage : toujours apres tout le reste
-            "mex.1": 12, "par.1": 12, "col.1": 12, "bol.1": 12, "afc.champions": 12, "afc.cup": 12,
+            "mex.1": 12, "eng.w.1": 11, "esp.w.1": 11, "fra.w.1": 11, "ger.w.1": 11, "ita.w.1": 11, "usa.nwsl": 11, "uefa.w.champions": 4, "par.1": 12, "col.1": 12, "bol.1": 12, "afc.champions": 12, "afc.cup": 12,
             "per.1": 12, "uru.1": 12, "ecu.1": 12, "ven.1": 12, "chi.1": 12, "jpn.1": 12, "aus.1": 12, "kor.1": 12,
             "sau.1": 12, "conmebol.libertadores": 12, "conmebol.sudamericana": 12}
 for _k in INTL:
@@ -86,7 +90,8 @@ for _k in INTL:
 # championnat). Ordres de grandeur de la hierarchie europeenne, PAS des valeurs mesurees : ajuste-les si besoin.
 LEAGUE_STRENGTH = {"eng.1": 1.00, "esp.1": 0.98, "ger.1": 0.95, "ita.1": 0.95, "fra.1": 0.90, "por.1": 0.85, "ned.1": 0.85,
                    "bel.1": 0.78, "tur.1": 0.78, "sco.1": 0.72, "gre.1": 0.75, "aut.1": 0.75, "sui.1": 0.72, "den.1": 0.72,
-                   "eng.2": 0.75, "ger.2": 0.70, "esp.2": 0.70, "ita.2": 0.68, "fra.2": 0.66}
+                   "eng.2": 0.75, "ger.2": 0.70, "esp.2": 0.70, "ita.2": 0.68, "fra.2": 0.66,
+                   "eng.w.1": 0.95, "esp.w.1": 0.95, "fra.w.1": 0.90, "ger.w.1": 0.90, "ita.w.1": 0.80, "usa.nwsl": 0.90}
 NEUTRAL_STRENGTH = 0.6   # club d'un championnat non couvert (match europeen) : estimation neutre, tres incertaine
 # classement fiable seulement si la saison est comprise dans la fenetre d'historique (saisons europeennes)
 EURO_SEASON = {"eng.1", "eng.2", "eng.3", "eng.4", "esp.1", "esp.2", "ita.1", "ita.2", "ger.1", "ger.2", "fra.1", "fra.2",
@@ -126,6 +131,29 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 ERRORS = []
 
 
+WOMEN_RE = re.compile(r"\bwomen\b|women's|womens|\bfemin|\bféminin|\bfrauen\b|\bladies\b|nwsl|\bwsl\b|femenin|femminile|w-league", re.I)
+
+
+def is_women_name(name):
+    return bool(name and WOMEN_RE.search(str(name)))
+
+
+def is_women_slug(slug):
+    return ".w." in slug or slug == "usa.nwsl" or slug.startswith("fifa.w") or slug.startswith("uefa.w")
+
+
+def tag_women(ev):
+    """ESPN nomme 'Arsenal' aussi bien l'equipe masculine que feminine : on ajoute (F) pour ne JAMAIS melanger leurs donnees."""
+    try:
+        for c in (ev.get("competitions") or [{}])[0].get("competitors", []):
+            t_ = c.get("team") or {}
+            nm_ = t_.get("displayName")
+            if nm_ and not nm_.endswith("(F)") and not is_women_name(nm_):
+                t_["displayName"] = nm_ + " (F)"
+    except Exception:
+        pass
+
+
 def fetch(slug, day):
     for _ in range(2):
         try:
@@ -136,7 +164,11 @@ def fetch(slug, day):
                 LEAGUE_NAMES[slug] = j["leagues"][0]["name"]
             except Exception:
                 pass
-            return j.get("events", [])
+            evs_ = j.get("events", [])
+            if is_women_slug(slug) or is_women_name(LEAGUE_NAMES.get(slug)):
+                for e_ in evs_:
+                    tag_women(e_)
+            return evs_
         except Exception as e:
             code = getattr(getattr(e, "response", None), "status_code", "")
             ERRORS.append(f"{slug} {day} -> {type(e).__name__} {code} {str(e)[:120]}")
@@ -167,6 +199,9 @@ def fetch_all(day):
                 nm = names.get(lid) or (ev.get("league") or {}).get("name") or (comp0.get("league") or {}).get("name")
                 if nm:
                     LEAGUE_NAMES[slug] = nm
+                if is_women_name(nm) or any(is_women_name((c_.get("team") or {}).get("displayName"))
+                                            for c_ in comp0.get("competitors", [])):
+                    tag_women(ev)
                 if not ALL_SAMPLE:
                     ALL_SAMPLE.update({"haut": sorted(j.keys())[:12], "nb_leagues": len(j.get("leagues", [])),
                                        "event_cles": sorted(ev.keys())[:20], "uid": str(ev.get("uid"))})
@@ -535,7 +570,8 @@ def h2h_stats(games, home, away, hid, before_iso):
 
 
 def parse_iso(x):
-    return datetime.fromisoformat(x.replace("Z", "+00:00"))
+    d = datetime.fromisoformat(x.replace("Z", "+00:00"))
+    return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
 
 
 def days_between(a, b):
@@ -616,8 +652,8 @@ def main():
         cache = json.load(open(CACHE, encoding="utf-8"))
     except Exception:
         cache = {}
-    if cache.get("v") != 6:                  # v3 : nouveaux championnats
-        cache["days_done"], cache["v"] = [], 6
+    if cache.get("v") != 7:                  # v3 : nouveaux championnats
+        cache["days_done"], cache["v"] = [], 7
     cache.setdefault("days_done", [])
     cache.setdefault("results", {})
     cache.setdefault("fixtures", {})
@@ -770,7 +806,9 @@ def main():
     except Exception:
         hist = {}
     for k, r in hist.items():
-        r.setdefault("id", k)                # anciens enregistrements sans id
+        r.setdefault("id", k)
+    for k_ in [k for k, r in hist.items() if is_women_name(r.get("league")) and not str(r.get("home", "")).endswith("(F)")]:
+        del hist[k_]                             # anciens pronostics feminins faits avec des donnees masculines                # anciens enregistrements sans id
     mcache = {}
 
     intl_pool = [r for sl_ in INTL for r in results.get(sl_, [])]     # selections : tous les matchs, toutes competitions
@@ -790,14 +828,19 @@ def main():
     # --- matchs europeens : forces domestiques des deux clubs, ramenees a une echelle commune
     team_slug = {}
     for sl in LEAGUES:
+        if sl in WOMEN_CROSS:
+            continue                                  # competition inter-clubs : pas un championnat d'origine
         for h, a, *_ in results.get(sl, []):
             team_slug[h] = sl
             team_slug[a] = sl
     eu = [r for r in cache["results"].values() if r["slug"] in EURO_COMPS]
+    wu = [r for r in cache["results"].values() if r["slug"] in WOMEN_CROSS]
+    mu_w = (sum(r["gh"] for r in wu) / len(wu), sum(r["ga"] for r in wu) / len(wu)) if len(wu) >= 15 else (1.8, 1.3)
     mu_eu = (sum(r["gh"] for r in eu) / len(eu), sum(r["ga"] for r in eu) / len(eu)) if len(eu) >= 20 else (1.5, 1.2)
 
-    def euro_model(home, away, day):
+    def euro_model(home, away, day, mu=None):
         try:
+            mu = mu or mu_eu
             att, dfn, gp, neutral = {}, {}, {}, []
             for tm in (home, away):
                 sl = team_slug.get(tm)
@@ -812,7 +855,7 @@ def main():
                     else:                            # inconnu : estimation neutre, signalee
                         att[tm], dfn[tm], gp[tm] = NEUTRAL_STRENGTH, 1 / NEUTRAL_STRENGTH, 0
                         neutral.append(tm)
-            return {"mu_h": mu_eu[0], "mu_a": mu_eu[1], "att": att, "def": dfn, "gp": gp, "neutral": neutral}
+            return {"mu_h": mu[0], "mu_a": mu[1], "att": att, "def": dfn, "gp": gp, "neutral": neutral}
         except Exception:
             return None
 
@@ -861,64 +904,69 @@ def main():
     limit = (t - timedelta(days=BACKTEST_DAYS)).isoformat()
     live, upcoming = [], defaultdict(list)
     hidden_nodata = 0
+    loop_errors = []
     for slug, p in events:
-        if slug not in LEAGUES and slug not in EURO_COMPS and slug not in INTL and not slug.startswith("all."):   # coupes nationales : contexte uniquement
-            continue
-        day = p["iso"][:10]
-        rec = hist.get(p["id"])
-        if rec and (rec.get("nopred") or (HIDE_PARTIAL and rec.get("neutral"))) and p["state"] != "pre":
-            continue                             # match sans donnees (deja enregistre avant) : jamais affiche
-        if p["state"] == "post" and day < limit and not rec:
-            continue
-        if p["state"] == "pre" and parse_iso(p["iso"]) < now - timedelta(hours=3):
-            continue                             # annonce "a venir" depuis plus de 3 h apres le coup d'envoi : donnee perimee ou match reporte
-        if p["state"] in ("pre", "in") and (day < (t - timedelta(days=1)).isoformat() or day > (t + timedelta(days=2)).isoformat()):
-            continue
-        refresh = bool(rec) and p["state"] == "pre" and rec.get("kind") == "avant"
-        if not rec or refresh:               # modifiable jusqu'au coup d'envoi (contexte, absences), fige ensuite
-            cross = slug in EURO_COMPS or slug.startswith("all.")
-            m = euro_model(p["home"], p["away"], min(day, today)) if cross else model_before(slug, min(day, today))
-            if not m or (not cross and (m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES)):
-                if p["state"] == "post":
-                    continue                         # on ne recalcule pas apres coup un match sans donnees
-                m = thin_model(slug, p["home"], p["away"], min(day, today))   # a venir / en cours : on l'affiche quand meme
-            nopred = all(m["gp"].get(tm, 0) == 0 for tm in (p["home"], p["away"]))   # aucune donnee sur aucune des deux equipes
-            if nopred or (HIDE_PARTIAL and m.get("neutral")):
-                hidden_nodata += 1                   # match sans donnees : on ne l'affiche pas, un autre match prend sa place
+        try:
+            if slug not in LEAGUES and slug not in EURO_COMPS and slug not in INTL and not slug.startswith("all."):   # coupes nationales : contexte uniquement
                 continue
-            pr = pr0 = predict(m, p["home"], p["away"])
-            ctx_text, base_p, noh2h_p = "", None, None
-            if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
-                ah, dh, th = team_ctx(p["home"], team_slug.get(p["home"], slug), p["iso"], tabs, team_fx, team_games, absences)
-                aa, da, ta = team_ctx(p["away"], team_slug.get(p["away"], slug), p["iso"], tabs, team_fx, team_games, absences)
-                adj = (ah * da, aa * dh)
-                ctx_text = th + "  ||  " + ta
-                if abs(adj[0] - 1) > 1e-9 or abs(adj[1] - 1) > 1e-9:
-                    pr = predict(m, p["home"], p["away"], adj)
-                    base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]   # reference sans contexte, pour mesurer l'apport reel
-                hs = None
-                if p.get("hid") and p.get("aid") and p["state"] == "pre":
-                    hs = h2h_stats(h2h_cache.get(pair_of(slug, p), {}).get("games", []), p["home"], p["away"], p["hid"], p["iso"])
-                if hs:
-                    ctx_text = hs["text"] + "  ||  " + ctx_text
-                    if hs["n"] >= H2H_MIN:
-                        noh2h_p = [pr["p_h"], pr["p_d"], pr["p_a"]]   # pronostic AVANT face-a-face, pour mesurer son apport
-                        pr = predict(m, p["home"], p["away"], adj, (hs["n"], hs["hw"], hs["d"], hs["aw"]))
-                        if base_p is None:
-                            base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]
-            rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": ALL_COMPS.get(slug) or LEAGUE_NAMES.get(slug) or "Autre compétition", "home": p["home"], "away": p["away"],
-                                   "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
-                                   "kind": "avant" if p["state"] == "pre" else "retro", "res": None,
-                                   "ctx": ctx_text, "base_p": base_p, "noh2h_p": noh2h_p, "neutral": m.get("neutral", []), "nopred": nopred}
-        if p["state"] == "post" and "gh" in p and not rec.get("res"):
-            rec["res"] = [p["gh"], p["ga"]]
-            rec["eval"] = evaluate(rec)
-        if p["state"] == "in":
-            c = card_from(rec, "live")
-            c["live_score"], c["minute"] = f"{p['gh']}-{p['ga']}", p["detail"]
-            live.append(c)
-        elif p["state"] == "pre" and day >= today:
-            upcoming[day].append(rec)
+            day = p["iso"][:10]
+            rec = hist.get(p["id"])
+            if rec and (rec.get("nopred") or (HIDE_PARTIAL and rec.get("neutral"))) and p["state"] != "pre":
+                continue                             # match sans donnees (deja enregistre avant) : jamais affiche
+            if p["state"] == "post" and day < limit and not rec:
+                continue
+            if p["state"] == "pre" and parse_iso(p["iso"]) < now - timedelta(hours=3):
+                continue                             # annonce "a venir" depuis plus de 3 h apres le coup d'envoi : donnee perimee ou match reporte
+            if p["state"] in ("pre", "in") and (day < (t - timedelta(days=1)).isoformat() or day > (t + timedelta(days=2)).isoformat()):
+                continue
+            refresh = bool(rec) and p["state"] == "pre" and rec.get("kind") == "avant"
+            if not rec or refresh:               # modifiable jusqu'au coup d'envoi (contexte, absences), fige ensuite
+                cross = slug in EURO_COMPS or slug in WOMEN_CROSS or slug.startswith("all.")
+                m = (euro_model(p["home"], p["away"], min(day, today), mu_w if slug in WOMEN_CROSS else None)
+                     if cross else model_before(slug, min(day, today)))
+                if not m or (not cross and (m["gp"].get(p["home"], 0) < MIN_GAMES or m["gp"].get(p["away"], 0) < MIN_GAMES)):
+                    if p["state"] == "post":
+                        continue                         # on ne recalcule pas apres coup un match sans donnees
+                    m = thin_model(slug, p["home"], p["away"], min(day, today))   # a venir / en cours : on l'affiche quand meme
+                nopred = all(m["gp"].get(tm, 0) == 0 for tm in (p["home"], p["away"]))   # aucune donnee sur aucune des deux equipes
+                if nopred or (HIDE_PARTIAL and m.get("neutral")):
+                    hidden_nodata += 1                   # match sans donnees : on ne l'affiche pas, un autre match prend sa place
+                    continue
+                pr = pr0 = predict(m, p["home"], p["away"])
+                ctx_text, base_p, noh2h_p = "", None, None
+                if p["state"] in ("pre", "in"):  # le contexte n'a de sens que pour un match a venir (jamais apres coup)
+                    ah, dh, th = team_ctx(p["home"], team_slug.get(p["home"], slug), p["iso"], tabs, team_fx, team_games, absences)
+                    aa, da, ta = team_ctx(p["away"], team_slug.get(p["away"], slug), p["iso"], tabs, team_fx, team_games, absences)
+                    adj = (ah * da, aa * dh)
+                    ctx_text = th + "  ||  " + ta
+                    if abs(adj[0] - 1) > 1e-9 or abs(adj[1] - 1) > 1e-9:
+                        pr = predict(m, p["home"], p["away"], adj)
+                        base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]   # reference sans contexte, pour mesurer l'apport reel
+                    hs = None
+                    if p.get("hid") and p.get("aid") and p["state"] == "pre":
+                        hs = h2h_stats(h2h_cache.get(pair_of(slug, p), {}).get("games", []), p["home"], p["away"], p["hid"], p["iso"])
+                    if hs:
+                        ctx_text = hs["text"] + "  ||  " + ctx_text
+                        if hs["n"] >= H2H_MIN:
+                            noh2h_p = [pr["p_h"], pr["p_d"], pr["p_a"]]   # pronostic AVANT face-a-face, pour mesurer son apport
+                            pr = predict(m, p["home"], p["away"], adj, (hs["n"], hs["hw"], hs["d"], hs["aw"]))
+                            if base_p is None:
+                                base_p = [pr0["p_h"], pr0["p_d"], pr0["p_a"]]
+                rec = hist[p["id"]] = {"id": p["id"], "slug": slug, "league": ALL_COMPS.get(slug) or LEAGUE_NAMES.get(slug) or "Autre compétition", "home": p["home"], "away": p["away"],
+                                       "iso": p["iso"], "pr": pr, "gp": [m["gp"][p["home"]], m["gp"][p["away"]]],
+                                       "kind": "avant" if p["state"] == "pre" else "retro", "res": None,
+                                       "ctx": ctx_text, "base_p": base_p, "noh2h_p": noh2h_p, "neutral": m.get("neutral", []), "nopred": nopred}
+            if p["state"] == "post" and "gh" in p and not rec.get("res"):
+                rec["res"] = [p["gh"], p["ga"]]
+                rec["eval"] = evaluate(rec)
+            if p["state"] == "in":
+                c = card_from(rec, "live")
+                c["live_score"], c["minute"] = f"{p['gh']}-{p['ga']}", p["detail"]
+                live.append(c)
+            elif p["state"] == "pre" and day >= today:
+                upcoming[day].append(rec)
+        except Exception as e_:                  # un seul match mal forme ne doit pas bloquer toute la mise a jour
+            loop_errors.append(f"{slug} {p.get('home')} vs {p.get('away')} : {type(e_).__name__} {str(e_)[:80]}")
 
     today_cards, day_recs = [], []
     if upcoming:
@@ -975,6 +1023,7 @@ def main():
     top = sorted(((k, v) for k, v in seen_today.items() if not k.startswith("all.")), key=lambda kv: -kv[1])[:12]
     diag = [f"Compétitions suivies : {len(ALL_COMPS)} dont {len(cache['dyn'])} découvertes automatiquement",
             "Matchs trouvés aujourd'hui par compétition : " + (", ".join(f"{k} {v}" for k, v in top) or "aucun"),
+            f"Matchs ignorés car illisibles : {len(loop_errors)}" + (f" (ex. {loop_errors[0]})" if loop_errors else ""),
             f"Matchs sans données masqués (remplacés par d'autres) : {hidden_nodata}",
             f"Matchs africains affichés (à venir / live) : {afr}",
             f"Matchs ajoutés par le filet « tous les matchs ESPN » : {n_all}",
@@ -1013,5 +1062,32 @@ def main():
     print(f"FINAL: {len(live)} live, {len(today_cards)} a venir, {len(fin_cards)} termines | stats {stats}")
 
 
+ERRFILE = "data/last_error.json"
+
+
+def write_error(msg):
+    os.makedirs("data", exist_ok=True)
+    with open(ERRFILE, "w", encoding="utf-8") as f:
+        json.dump({"t": datetime.now(timezone.utc).isoformat(), "error": str(msg)[-1500:]}, f, ensure_ascii=False)
+
+
+def run_safely():
+    try:
+        main()
+    except SystemExit as e:
+        if e.code not in (None, 0):
+            write_error(e.code)
+        raise
+    except Exception:
+        import traceback
+        tb = traceback.format_exc()
+        print(tb)
+        write_error(tb)
+        raise SystemExit(1)
+    else:
+        if os.path.exists(ERRFILE):
+            os.remove(ERRFILE)
+
+
 if __name__ == "__main__":
-    main()
+    run_safely()
