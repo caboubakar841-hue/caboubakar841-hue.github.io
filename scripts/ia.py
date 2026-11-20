@@ -113,6 +113,7 @@ EXTRA_COUNTRIES = [
 EXTRA_LEVELS = (1, 2, 3, 4)
 DYN_MAX = 80             # nombre max de championnats decouverts gardes en memoire
 DISC_EVERY_MIN = 30      # la decouverte ne tourne qu'une fois toutes les 30 min, et seulement s'il manque des matchs
+DEADLINE = None
 LEAGUE_NAMES = {}        # noms de championnats lus dans les reponses ESPN
 ALL_SAMPLE = {}          # exemple brut du filet "tous les matchs" (affiche dans le diagnostic pour comprendre le format ESPN)
 HIDE_PARTIAL = False    # False : on masque les matchs sans AUCUNE donnee sur les deux equipes (remplaces par d'autres matchs)
@@ -155,6 +156,8 @@ def tag_women(ev):
 
 
 def fetch(slug, day):
+    if DEADLINE and time.time() > DEADLINE:
+        return None
     for _ in range(2):
         try:
             r = requests.get(BASE.format(slug=slug), params={"dates": f"{day:%Y%m%d}"}, headers=HEADERS, timeout=8)
@@ -176,6 +179,8 @@ def fetch(slug, day):
 
 
 def fetch_all(day):
+    if DEADLINE and time.time() > DEADLINE:
+        return []
     """Filet de securite : scoreboard 'tous les matchs de football' d'ESPN (competitions non listees comprises)."""
     url = "https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard"
     for params in ({"dates": f"{day:%Y%m%d}", "limit": 500}, {"dates": f"{day:%Y%m%d}"}):
@@ -509,6 +514,8 @@ def num(x):
 
 
 def fetch_schedule(slug, team_id, season):
+    if DEADLINE and time.time() > DEADLINE:
+        return None
     url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams/{team_id}/schedule"
     for _ in range(2):
         try:
@@ -644,9 +651,14 @@ def team_ctx(team, slug, kick, tabs, team_fx, team_games, absences):
 
 
 def main():
+    global DEADLINE
     t0 = time.time()                         # budget de temps : le run doit finir bien avant la limite du workflow
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
+    DEADLINE = t0 + 420                      # au-dela de 7 min : on n'envoie plus de nouvelles requetes (le run doit finir)
+    RUN.clear()
+    RUN.update({"start": now.isoformat(), "_t0": t0})
+    beat("demarrage")
     t = now.date()
     try:
         cache = json.load(open(CACHE, encoding="utf-8"))
@@ -678,6 +690,7 @@ def main():
     with ThreadPoolExecutor(max_workers=10) as ex:
         fetched = list(ex.map(lambda j: (j[0], j[1], fetch(*j)), jobs))
     ok = sum(1 for _, _, ev in fetched if ev is not None)
+    beat("donnees ESPN recuperees")
     print(f"ESPN: {ok}/{len(jobs)} requetes OK ({len(fresh)} jours frais, {len(missing)} jours d'historique)")
     for err in ERRORS[:5]:
         print("ERREUR ESPN:", err)
@@ -721,6 +734,7 @@ def main():
                 n_new += 1
         fetched = fetched + [x for x in disc if x[0] in cache["dyn"]]
         cache["disc_at"] = now.isoformat()
+    beat("decouverte et filet ESPN")
     print(f"Decouverte : {n_found} matchs connus, {n_new} nouveaux championnats ajoutes ({len(cache['dyn'])} au total)")
 
     good_slugs = {slug for slug, _, ev in fetched if ev is not None}   # un slug invalide est ignore
@@ -897,6 +911,7 @@ def main():
         for k, games in got:
             if games is not None:
                 h2h_cache[k] = {"t": now.isoformat(), "games": games}
+    beat("face-a-face")
     n_today = sum(1 for sl, q in cands if q["iso"][:10] == today)
     print(f"Face-a-face : {n_today} matchs du jour, {len(need)} paires interrogees, "
           f"{sum(1 for k in need if h2h_cache.get(k, {}).get('games'))} avec au moins une confrontation")
@@ -968,6 +983,7 @@ def main():
         except Exception as e_:                  # un seul match mal forme ne doit pas bloquer toute la mise a jour
             loop_errors.append(f"{slug} {p.get('home')} vs {p.get('away')} : {type(e_).__name__} {str(e_)[:80]}")
 
+    beat("calcul des pronostics termine")
     today_cards, day_recs = [], []
     if upcoming:
         days_sorted = sorted(upcoming)
@@ -1059,7 +1075,26 @@ def main():
     out = {"date": now.strftime("%Y-%m-%d %H:%M") + " UTC", "version": "V17", "ts": now.isoformat(), "stats": stats, "diag": diag, "tickets": [tk["days"][d] for d in sorted(tk["days"], reverse=True)], "matches": cards}
     with open("data/matches.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
+    beat("termine", final=True)
     print(f"FINAL: {len(live)} live, {len(today_cards)} a venir, {len(fin_cards)} termines | stats {stats}")
+
+
+RUNFILE = "data/last_run.json"
+RUN = {}
+
+
+def beat(phase, final=False):
+    """Ecrit l'etat du run : la page l'affiche si les donnees sont anciennes (le fichier est publie meme si le run est interrompu)."""
+    try:
+        RUN.update({"phase": phase, "t": datetime.now(timezone.utc).isoformat(),
+                    "elapsed": int(time.time() - RUN.get("_t0", time.time()))})
+        out_ = {k: v for k, v in RUN.items() if not k.startswith("_")}
+        out_["end"] = RUN["t"] if final else None
+        os.makedirs("data", exist_ok=True)
+        with open(RUNFILE, "w", encoding="utf-8") as f:
+            json.dump(out_, f, ensure_ascii=False)
+    except Exception:
+        pass
 
 
 ERRFILE = "data/last_error.json"
