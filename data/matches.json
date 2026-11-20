@@ -1,18 +1,18 @@
 {
- "date": "2026-11-20 20:17 UTC",
+ "date": "2026-11-20 20:23 UTC",
  "version": "V17",
- "ts": "2026-11-20T20:17:35.944863+00:00",
+ "ts": "2026-11-20T20:23:40.831379+00:00",
  "stats": {
-  "n": 574,
+  "n": 573,
   "n_avant": 56,
-  "dc": 78,
+  "dc": 77,
   "over": 51,
   "btts": 55,
   "score": 18,
   "1x2": 58,
-  "n_fav": 275,
-  "serre": 76,
-  "n_serre": 299,
+  "n_fav": 276,
+  "serre": 75,
+  "n_serre": 297,
   "base_dom": 45,
   "n_ctx": 22,
   "brier_ctx": 0.598,
@@ -25,14 +25,14 @@
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : ned.2 9, fra.2 5, uru.1 3, par.1 2, col.1 2, chi.1 2, eng.3 1, esp.1 1, esp.2 1, ita.2 1, ger.1 1, fra.1 1",
   "Matchs ignorés car illisibles : 0",
-  "Matchs sans données masqués (remplacés par d'autres) : 124",
+  "Matchs sans données masqués (remplacés par d'autres) : 0",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 156",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 0",
   "Cartes à venir affichées : 40 (jours : 2026-11-20, 2026-11-21, 2026-11-22)",
-  "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:770~e:401933535\"}",
+  "Filet ESPN - format reçu : {}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 23 s"
+  "Durée du run : 12 s"
  ],
  "tickets": [
   {
@@ -2256,7 +2256,7 @@
    "kickoff": "2026-11-20T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "15'"
+   "minute": "21'"
   },
   {
    "league": "Bundesliga",
@@ -2276,7 +2276,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 3,
    "live_score": "1-1",
-   "minute": "45'+3'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 1",
@@ -2296,7 +2296,7 @@
    "kickoff": "2026-11-20T19:45Z",
    "prio": 3,
    "live_score": "1-1",
-   "minute": "33'"
+   "minute": "38'"
   },
   {
    "league": "League One",
@@ -2316,7 +2316,7 @@
    "kickoff": "2026-11-20T20:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "17'"
+   "minute": "24'"
   },
   {
    "league": "La Liga 2",
@@ -2336,7 +2336,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "45'+2'"
+   "minute": "45'+8'"
   },
   {
    "league": "Serie B",
@@ -2356,7 +2356,7 @@
    "kickoff": "2026-11-20T19:30Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 2",
@@ -2376,7 +2376,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "57'"
+   "minute": "63'"
   },
   {
    "league": "Ligue 2",
@@ -2396,7 +2396,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "60'"
+   "minute": "66'"
   },
   {
    "league": "Ligue 2",
@@ -2416,7 +2416,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "60'"
+   "minute": "66'"
   },
   {
    "league": "Ligue 2",
@@ -2436,7 +2436,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "61'"
+   "minute": "67'"
   },
   {
    "league": "Ligue 2",
@@ -2456,7 +2456,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "59'"
+   "minute": "65'"
   },
   {
    "league": "Pro League",
@@ -2476,7 +2476,7 @@
    "kickoff": "2026-11-20T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "38'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2495,8 +2495,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
-   "live_score": "0-3",
-   "minute": "55'"
+   "live_score": "0-4",
+   "minute": "61'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2515,8 +2515,8 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
-   "live_score": "1-0",
-   "minute": "58'"
+   "live_score": "2-0",
+   "minute": "64'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2536,7 +2536,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "1-0",
-   "minute": "59'"
+   "minute": "65'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2556,7 +2556,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "1-1",
-   "minute": "60'"
+   "minute": "66'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2576,7 +2576,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "3-0",
-   "minute": "59'"
+   "minute": "65'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2596,7 +2596,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "2-0",
-   "minute": "58'"
+   "minute": "64'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2616,7 +2616,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "57'"
+   "minute": "63'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2636,7 +2636,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "1-0",
-   "minute": "58'"
+   "minute": "65'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2656,7 +2656,7 @@
    "kickoff": "2026-11-20T19:00Z",
    "prio": 10,
    "live_score": "0-3",
-   "minute": "58'"
+   "minute": "64'"
   },
   {
    "league": "Première Ligue féminine (F)",
@@ -2676,7 +2676,7 @@
    "kickoff": "2026-11-20T20:00Z",
    "prio": 11,
    "live_score": "0-0",
-   "minute": "17'"
+   "minute": "23'"
   },
   {
    "league": "Liga Uruguay",
@@ -2715,7 +2715,7 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T19:30Z",
    "prio": 12,
-   "live_score": "0-1",
+   "live_score": "0-2",
    "minute": "HT"
   },
   {
@@ -2863,24 +2863,6 @@
    "day": "2026-11-20",
    "kickoff": "2026-11-20T23:35Z",
    "prio": 12
-  },
-  {
-   "league": "Taca de Portugal",
-   "home": "FC Porto",
-   "away": "Paredes",
-   "status": "today",
-   "conf": 90,
-   "victoire": "Victoire FC Porto",
-   "score_exact": "3-0 (11%) · 4-0 (10%)",
-   "double_chance": "1X 97%",
-   "corner": "N/D",
-   "over": "Over 2.5 81%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-20 | Buts attendus FC Porto 3.8 - Paredes 0.7 | 1/N/2 : 90/7/3% | base sur 11 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Paredes (estimation neutre, très incertaine). FC Porto : 1e/18 (33 pts en 11 m.) | repos 12 j | match europeen proche : rotation possible | prochains : Feyenoord Rotterdam (Ligue des champions, 4 j), Sporting CP (Liga Portugal, 9 j)  ||  Paredes",
-   "day": "2026-11-20",
-   "kickoff": "2026-11-20T20:45Z",
-   "prio": 13
   },
   {
    "league": "Premier League",
@@ -3459,6 +3441,24 @@
    "prio": 9
   },
   {
+   "league": "Championship",
+   "home": "Southampton",
+   "away": "Derby County",
+   "status": "today",
+   "conf": 78,
+   "victoire": "Victoire Southampton",
+   "score_exact": "3-0 (11%) · 4-0 (7%)",
+   "double_chance": "1X 92%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS NON 53%",
+   "analyse": "2026-11-21 | Buts attendus Southampton 2.6 - Derby County 0.7 | 1/N/2 : 78/14/8% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Southampton 1V · 1N · Derby County 0V (scores : 1-1, 2-1) - trop peu pour influer  ||  Southampton : 4e/24 (28 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 14 j | prochains : Sheffield United (Championship, 3 j), Middlesbrough (Championship, 6 j)  ||  Derby County : 23e/24 (10 pts en 15 m.) | repos 15 j | prochains : Wolverhampton Wanderers (Championship, 3 j), Watford (Championship, 7 j)",
+   "day": "2026-11-21",
+   "kickoff": "2026-11-21T12:30Z",
+   "prio": 9
+  },
+  {
    "league": "Superliga (DEN)",
    "home": "AGF",
    "away": "Lyngby Boldklub",
@@ -3534,7 +3534,7 @@
    "contexte": "Al Ahli : repos 18 j | prochains : Al-Shamal (AFC Champions League, 3 j)  ||  Al Nassr : repos 18 j | prochains : Al Sadd (AFC Champions League, 4 j)",
    "day": "2026-11-20",
    "kickoff": "2026-11-20T17:30Z",
-   "prio": 13,
+   "prio": 9,
    "live_score": "3-1",
    "minute": "FT"
   },
@@ -3594,7 +3594,7 @@
    "contexte": "⚠️ Peu ou pas de données pour : Sporting Club Delhi (estimation neutre, très incertaine). East Bengal FC : repos 17 j | prochains : Al-Hussein SC (AFC Champions League Two, 4 j)  ||  Sporting Club Delhi",
    "day": "2026-11-20",
    "kickoff": "2026-11-20T11:30Z",
-   "prio": 13,
+   "prio": 9,
    "live_score": "2-2",
    "minute": "FT"
   },
@@ -3699,26 +3699,6 @@
    "minute": "FT"
   },
   {
-   "league": "Australian A-League Women",
-   "home": "Western Sydney ",
-   "away": "Wellington Phoenix",
-   "status": "finished",
-   "conf": 58,
-   "victoire": "Victoire Wellington Phoenix",
-   "score_exact": "1-2 (10%) · 1-3 (6%)",
-   "double_chance": "X2 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : Western Sydney  (estimation neutre, très incertaine). ",
-   "day": "2026-11-20",
-   "kickoff": "2026-11-20T05:50Z",
-   "prio": 13,
-   "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
    "league": "MLS",
    "home": "Seattle Sounders FC",
    "away": "Real Salt Lake",
@@ -3819,66 +3799,6 @@
    "minute": "FT"
   },
   {
-   "league": "UEFA Women's Champions League",
-   "home": "Arsenal",
-   "away": "OL Lyonnes",
-   "status": "finished",
-   "conf": 89,
-   "victoire": "Victoire Arsenal",
-   "score_exact": "3-0 (13%) · 4-0 (11%)",
-   "double_chance": "1X 97%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS NON 61%",
-   "analyse": "Resultat 0-2 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : OL Lyonnes (estimation neutre, très incertaine). ",
-   "day": "2026-11-19",
-   "kickoff": "2026-11-19T20:00Z",
-   "prio": 13,
-   "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "UEFA Women's Champions League",
-   "home": "Barcelona",
-   "away": "Servette",
-   "status": "finished",
-   "conf": 98,
-   "victoire": "Victoire Barcelona",
-   "score_exact": "6-1 (7%) · 7-1 (7%)",
-   "double_chance": "1X 99%",
-   "corner": "N/D",
-   "over": "Over 2.5 97%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "Resultat 6-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : Servette (estimation neutre, très incertaine). ",
-   "day": "2026-11-19",
-   "kickoff": "2026-11-19T20:00Z",
-   "prio": 13,
-   "live_score": "6-0",
-   "minute": "FT"
-  },
-  {
-   "league": "UEFA Women's Champions League",
-   "home": "Benfica",
-   "away": "Roma",
-   "status": "finished",
-   "conf": 91,
-   "victoire": "Victoire Benfica",
-   "score_exact": "4-1 (7%) · 3-1 (7%)",
-   "double_chance": "1X 97%",
-   "corner": "N/D",
-   "over": "Over 2.5 89%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "Resultat 2-3 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : Roma (estimation neutre, très incertaine). ",
-   "day": "2026-11-19",
-   "kickoff": "2026-11-19T20:00Z",
-   "prio": 13,
-   "live_score": "2-3",
-   "minute": "FT"
-  },
-  {
    "league": "Liga Uruguay",
    "home": "Boston River",
    "away": "Deportivo Maldonado",
@@ -3954,47 +3874,7 @@
    "contexte": "Celta Vigo : 11e/20 (13 pts en 12 m.) | repos 6 j | prochains : Real Madrid (La Liga, 2 j), AFC Bournemouth (Ligue Europa, 7 j), Villarreal (La Liga, 10 j)  ||  Espanyol : 13e/20 (12 pts en 12 m.) | repos 12 j | prochains : Athletic Club (La Liga, 1 j), Getafe (La Liga, 11 j)",
    "day": "2026-11-19",
    "kickoff": "2026-11-19T18:00Z",
-   "prio": 13,
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "UEFA Women's Champions League",
-   "home": "Austria Vienna",
-   "away": "Bayern Munich",
-   "status": "finished",
-   "conf": 84,
-   "victoire": "Victoire Bayern Munich",
-   "score_exact": "1-3 (8%) · 1-2 (8%)",
-   "double_chance": "X2 94%",
-   "corner": "N/D",
-   "over": "Over 2.5 74%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "Resultat 0-4 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-19",
-   "kickoff": "2026-11-19T17:45Z",
-   "prio": 13,
-   "live_score": "0-4",
-   "minute": "FT"
-  },
-  {
-   "league": "UEFA Women's Champions League",
-   "home": "Paris FC",
-   "away": "HB Køge",
-   "status": "finished",
-   "conf": 81,
-   "victoire": "Victoire Paris FC",
-   "score_exact": "2-1 (8%) · 3-1 (8%)",
-   "double_chance": "1X 93%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | calcule apres coup, sans voir le match",
-   "contexte": "⚠️ Peu ou pas de données pour : HB Køge (estimation neutre, très incertaine). ",
-   "day": "2026-11-19",
-   "kickoff": "2026-11-19T17:45Z",
-   "prio": 13,
+   "prio": 9,
    "live_score": "2-1",
    "minute": "FT"
   },
@@ -4214,7 +4094,7 @@
    "contexte": "⚠️ Peu ou pas de données pour : CD Samper (estimation neutre, très incertaine). CD Samper  ||  Valencia : 19e/20 (9 pts en 12 m.) | repos 8 j | prochains : Rayo Vallecano (La Liga, 3 j), Osasuna (La Liga, 11 j)",
    "day": "2026-11-18",
    "kickoff": "2026-11-18T19:30Z",
-   "prio": 13,
+   "prio": 9,
    "live_score": "0-3",
    "minute": "FT"
   },
@@ -4234,7 +4114,7 @@
    "contexte": "⚠️ Peu ou pas de données pour : CP Cacereño (estimation neutre, très incertaine). CP Cacereño  ||  Alavés : 12e/20 (13 pts en 12 m.) | repos 8 j | prochains : Deportivo (La Liga, 3 j), Real Madrid (La Liga, 10 j)",
    "day": "2026-11-18",
    "kickoff": "2026-11-18T18:00Z",
-   "prio": 13,
+   "prio": 9,
    "live_score": "1-1",
    "minute": "FT"
   },
@@ -4254,8 +4134,128 @@
    "contexte": "Levante : 17e/20 (11 pts en 12 m.) | repos 6 j | prochains : Elche (La Liga, 5 j), Racing Santander (La Liga, 9 j)  ||  Eibar : 5e/22 (24 pts en 13 m.) | repos 3 j | prochains : Girona (La Liga 2, 4 j), Burgos (La Liga 2, 10 j)",
    "day": "2026-11-18",
    "kickoff": "2026-11-18T17:00Z",
-   "prio": 13,
+   "prio": 9,
    "live_score": "0-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Indian Football League",
+   "home": "Bengaluru United FC",
+   "away": "Sreenidi Deccan FC",
+   "status": "finished",
+   "conf": 58,
+   "victoire": "Victoire Sreenidi Deccan FC",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Bengaluru United FC, Sreenidi Deccan FC (estimation neutre, très incertaine). Bengaluru United FC : repos 4 j | prochains : Samaleswari SC (Indian Football League, 6 j)  ||  Sreenidi Deccan FC : prochains : Chanmari FC (Indian Football League, 6 j), Gokulam Kerala FC (Indian Football League, 12 j)",
+   "day": "2026-11-18",
+   "kickoff": "2026-11-18T13:00Z",
+   "prio": 10,
+   "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "Nicaragua",
+   "away": "Montserrat",
+   "status": "finished",
+   "conf": 65,
+   "victoire": "Victoire Montserrat",
+   "score_exact": "1-2 (10%) · 1-3 (8%)",
+   "double_chance": "X2 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 2-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Nicaragua 2V · 0N · Montserrat 0V (scores : 3-0 x2) - trop peu pour influer  ||  Nicaragua : repos 4 j  ||  Montserrat : repos 4 j",
+   "day": "2026-11-18",
+   "kickoff": "2026-11-18T03:00Z",
+   "prio": 2,
+   "live_score": "2-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "Mexico",
+   "away": "Jamaica",
+   "status": "finished",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (10%) · 2-1 (7%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Mexico 0V · 2N · Jamaica 0V (scores : 1-1, 2-2) - trop peu pour influer  ||  Mexico : repos 3 j  ||  Jamaica : repos 3 j",
+   "day": "2026-11-18",
+   "kickoff": "2026-11-18T02:30Z",
+   "prio": 2,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Copa Colombia",
+   "home": "América de Cali",
+   "away": "Internacional de Bogotá",
+   "status": "finished",
+   "conf": 64,
+   "victoire": "Victoire América de Cali",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "América de Cali : repos 3 j | prochains : Atlético Bucaramanga (Liga Colombia, 3 j), Deportivo Cali (Liga Colombia, 7 j)  ||  Internacional de Bogotá : repos 4 j",
+   "day": "2026-11-18",
+   "kickoff": "2026-11-18T01:30Z",
+   "prio": 9,
+   "live_score": "1-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "El Salvador",
+   "away": "St. Martin",
+   "status": "finished",
+   "conf": 61,
+   "victoire": "Victoire St. Martin",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 67%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 3-1 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "El Salvador : repos 4 j  ||  St. Martin : repos 4 j",
+   "day": "2026-11-18",
+   "kickoff": "2026-11-18T01:00Z",
+   "prio": 2,
+   "live_score": "3-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue des nations (CONCACAF)",
+   "home": "French Guiana",
+   "away": "St. Vincent and the Grenadines",
+   "status": "finished",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (3 confrontations) : French Guiana 2V · 0N · St. Vincent and the Grenadines 1V (scores : 4-1, 3-2, 1-2)  ||  French Guiana : repos 3 j  ||  St. Vincent and the Grenadines : repos 3 j",
+   "day": "2026-11-18",
+   "kickoff": "2026-11-18T00:00Z",
+   "prio": 2,
+   "live_score": "1-0",
    "minute": "FT"
   }
  ]
