@@ -56,6 +56,15 @@ function eff(m){
 }
 function ago(min){const h=Math.floor(min/60),r=Math.round(min%60);return h>0?h+' h '+r+' min':r+' min'}
 let loaded=false;
+async function showErr(st){
+  try{
+    const r=await fetch('data/last_error.json?v='+Date.now(),{cache:'no-store'});
+    if(!r.ok) return;
+    const j=await r.json();
+    const last=String(j.error).split('\n').filter(Boolean).slice(-1)[0];
+    st.innerText+=' Dernière erreur du script ('+String(j.t).slice(11,16)+' UTC) : '+last;
+  }catch(e){}
+}
 async function load(){
   try{
     const r=await fetch('data/matches.json?v='+Date.now(),{cache:'no-store'});
@@ -73,7 +82,7 @@ async function load(){
     D.matches.forEach(m=>{m.eff=eff(m);m.late=(m.eff!==m.status)});
     const ts=Date.parse(D.ts||String(D.date).replace(' UTC','Z').replace(' ','T')),age=(Date.now()-ts)/60000,st=document.getElementById('stale');
     document.getElementById('dateInfo').innerText=D.date+(isNaN(age)?'':' (il y a '+ago(age)+')')+' • '+D.matches.length+' cartes';
-    if(!isNaN(age)&&age>30){st.style.display='block';st.innerText='⚠️ Données non mises à jour depuis '+ago(age)+'. Les matchs affichés peuvent être déjà joués ou en cours.'}else{st.style.display='none'}
+    if(!isNaN(age)&&age>30){st.style.display='block';st.innerText='⚠️ Données non mises à jour depuis '+ago(age)+'. Les matchs affichés peuvent être déjà joués ou en cours. Vérifie l\'onglet Actions sur GitHub.';showErr(st)}else{st.style.display='none'}
     ['today','live','finished'].forEach(s=>document.getElementById('c-'+s).innerText=D.matches.filter(m=>m.eff===s).length);
     render();
     loaded=true;
