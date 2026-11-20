@@ -5,7 +5,7 @@ on:
     paths-ignore: ['data/**']
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "3,13,23,33,43,53 * * * *"
 
 permissions:
   contents: write
@@ -34,7 +34,7 @@ jobs:
           git config user.name "bot"
           git config user.email "bot@bot.com"
           git add data/
-          git commit -m "data [skip ci]" || exit 0
+          git commit -m "data: mise a jour automatique" || exit 0
           ok=0
           for i in 1 2 3 4; do
             if git pull --rebase --autostash origin main && git push origin HEAD:main; then ok=1; break; fi
