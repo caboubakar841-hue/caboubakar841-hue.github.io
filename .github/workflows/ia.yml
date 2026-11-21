@@ -5,7 +5,7 @@ on:
     paths-ignore: ['data/**']
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "3,13,23,33,43,53 * * * *"
 
 permissions:
   contents: write
@@ -17,18 +17,38 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - run: pip install requests
-      - run: python scripts/ia.py
-      - run: |
+      - name: Calcul des pronostics
+        id: run
+        run: python scripts/ia.py
+        continue-on-error: true
+        timeout-minutes: 12
+      - name: Enregistrer les donnees
+        run: |
           git config user.name "bot"
           git config user.email "bot@bot.com"
-          git add data/
-          git commit -m "data [skip ci]" || exit 0
-          git pull --rebase
-          git push
+          mkdir -p data
+          rm -rf /tmp/data_new
+          cp -r data /tmp/data_new
+          for i in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p data
+            cp -r /tmp/data_new/. data/
+            git add data/
+            git commit -m "data: mise a jour automatique" || exit 0
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          exit 1
+      - name: Signaler l'echec du calcul
+        if: steps.run.outcome == 'failure'
+        run: exit 1
