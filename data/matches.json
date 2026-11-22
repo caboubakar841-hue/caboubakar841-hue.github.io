@@ -1,29 +1,29 @@
 {
- "date": "2026-11-22 21:49 UTC",
+ "date": "2026-11-22 21:57 UTC",
  "version": "V17",
- "ts": "2026-11-22T21:49:35.391976+00:00",
+ "ts": "2026-11-22T21:57:57.346316+00:00",
  "stats": {
-  "n": 668,
-  "n_avant": 324,
+  "n": 671,
+  "n_avant": 327,
   "dc": 81,
   "over": 52,
   "btts": 52,
   "score": 18,
   "1x2": 59,
-  "n_fav": 324,
+  "n_fav": 326,
   "serre": 76,
-  "n_serre": 344,
-  "base_dom": 43,
-  "n_ctx": 211,
-  "brier_ctx": 0.62,
-  "brier_base": 0.61,
-  "n_h2h": 182,
-  "brier_h2h": 0.623,
-  "brier_noh2h": 0.613
+  "n_serre": 345,
+  "base_dom": 44,
+  "n_ctx": 214,
+  "brier_ctx": 0.616,
+  "brier_base": 0.605,
+  "n_h2h": 185,
+  "brier_h2h": 0.618,
+  "brier_noh2h": 0.607
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : usa.1 2, bra.1 2, par.1 2, bol.1 2, per.1 2, chi.1 2, gua.1 2, esp.1 1, arg.1 1, mex.1 1, ecu.1 1, ven.1 1",
+  "Matchs trouvés aujourd'hui par compétition : usa.1 2, bra.1 2, par.1 2, bol.1 2, chi.1 2, gua.1 2, arg.1 1, mex.1 1, ecu.1 1, ven.1 1, slv.1 1, bra.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 98",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879233\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 2 s"
  ],
  "tickets": [
   {
@@ -2239,26 +2239,6 @@
  ],
  "matches": [
   {
-   "league": "La Liga",
-   "home": "Getafe",
-   "away": "Atlético Madrid",
-   "status": "live",
-   "conf": 61,
-   "victoire": "Victoire Atlético Madrid",
-   "score_exact": "0-1 (17%) · 0-2 (14%)",
-   "double_chance": "X2 86%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 62%",
-   "analyse": "2026-11-22 | Buts attendus Getafe 0.6 - Atlético Madrid 1.6 | 1/N/2 : 14/25/61% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Getafe 1V · 2N · Atlético Madrid 5V (scores : 0-1 x3, 0-3 x2, 1-1)  ||  Getafe : 15e/20 (12 pts en 12 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Iberia 1999 (Conference League, 4 j), Espanyol (La Liga, 8 j), Valencia (La Liga, 14 j)  ||  Atlético Madrid : 3e/20 (28 pts en 12 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Viking FK (Ligue des champions, 3 j), Elche (La Liga, 6 j), Barcelona (La Liga, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T20:00Z",
-   "prio": 3,
-   "live_score": "0-2",
-   "minute": "89'"
-  },
-  {
    "league": "MLS",
    "home": "Nashville SC",
    "away": "FC Cincinnati",
@@ -2276,7 +2256,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "24'"
+   "minute": "33'"
   },
   {
    "league": "Brasileirao",
@@ -2296,7 +2276,7 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "18'"
+   "minute": "26'"
   },
   {
    "league": "Salvadoran Primera Division",
@@ -2316,7 +2296,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+4'"
+   "minute": "HT"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2335,8 +2315,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "42'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Brazilian Serie B",
@@ -2356,7 +2336,7 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 10,
    "live_score": "1-0",
-   "minute": "16'"
+   "minute": "25'"
   },
   {
    "league": "Primera Paraguay",
@@ -2376,7 +2356,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Primera Paraguay",
@@ -2396,7 +2376,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Liga Bolivie",
@@ -2416,47 +2396,7 @@
    "kickoff": "2026-11-22T21:15Z",
    "prio": 12,
    "live_score": "3-0",
-   "minute": "35'"
-  },
-  {
-   "league": "Liga Perou",
-   "home": "Sport Huancayo",
-   "away": "Universitario",
-   "status": "live",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 70%",
-   "btts": "BTTS OUI 70%",
-   "analyse": "2026-11-22 | Buts attendus Sport Huancayo 2.1 - Universitario 1.6 | 1/N/2 : 39/22/39% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Sport Huancayo 1V · 2N · Universitario 5V (scores : 0-2 x3, 1-1 x2, 1-0)  ||  Sport Huancayo : repos 15 j  ||  Universitario : repos 14 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T20:00Z",
-   "prio": 12,
-   "live_score": "4-1",
-   "minute": "90'+1'"
-  },
-  {
-   "league": "Liga Perou",
-   "home": "Sporting Cristal",
-   "away": "Cienciano del Cusco",
-   "status": "live",
-   "conf": 64,
-   "victoire": "Victoire Sporting Cristal",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 70%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-22 | Buts attendus Sporting Cristal 2.6 - Cienciano del Cusco 1.1 | 1/N/2 : 64/19/17% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Sporting Cristal 4V · 2N · Cienciano del Cusco 2V (scores : 4-1, 4-2, 0-1)  ||  Sporting Cristal : repos 15 j  ||  Cienciano del Cusco : repos 15 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T20:00Z",
-   "prio": 12,
-   "live_score": "4-1",
-   "minute": "90'"
+   "minute": "43'"
   },
   {
    "league": "Liga Equateur",
@@ -2476,7 +2416,7 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "19'"
+   "minute": "27'"
   },
   {
    "league": "Liga Venezuela",
@@ -2496,7 +2436,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "12'"
   },
   {
    "league": "Liga Chili",
@@ -2516,7 +2456,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "44'"
+   "minute": "HT"
   },
   {
    "league": "Taca de Portugal",
@@ -2535,8 +2475,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T20:45Z",
    "prio": 13,
-   "live_score": "0-1",
-   "minute": "HT"
+   "live_score": "1-1",
+   "minute": "51'"
   },
   {
    "league": "Honduran Liga Nacional",
@@ -2556,7 +2496,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "45'+4'"
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
@@ -3279,6 +3219,46 @@
    "prio": 12
   },
   {
+   "league": "Liga Perou",
+   "home": "Sport Huancayo",
+   "away": "Universitario",
+   "status": "finished",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 70%",
+   "btts": "BTTS OUI 70%",
+   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Sport Huancayo 1V · 2N · Universitario 5V (scores : 0-2 x3, 1-1 x2, 1-0)  ||  Sport Huancayo : repos 15 j  ||  Universitario : repos 14 j",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T20:00Z",
+   "prio": 12,
+   "live_score": "4-1",
+   "minute": "FT"
+  },
+  {
+   "league": "La Liga",
+   "home": "Getafe",
+   "away": "Atlético Madrid",
+   "status": "finished",
+   "conf": 61,
+   "victoire": "Victoire Atlético Madrid",
+   "score_exact": "0-1 (17%) · 0-2 (14%)",
+   "double_chance": "X2 86%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 62%",
+   "analyse": "Resultat 0-3 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Getafe 1V · 2N · Atlético Madrid 5V (scores : 0-1 x3, 0-3 x2, 1-1)  ||  Getafe : 15e/20 (12 pts en 12 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Iberia 1999 (Conference League, 4 j), Espanyol (La Liga, 8 j), Valencia (La Liga, 14 j)  ||  Atlético Madrid : 3e/20 (28 pts en 12 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Viking FK (Ligue des champions, 3 j), Elche (La Liga, 6 j), Barcelona (La Liga, 10 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T20:00Z",
+   "prio": 3,
+   "live_score": "0-3",
+   "minute": "FT"
+  },
+  {
    "league": "La Liga 2",
    "home": "Burgos",
    "away": "Albacete",
@@ -3296,6 +3276,26 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 9,
    "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Perou",
+   "home": "Sporting Cristal",
+   "away": "Cienciano del Cusco",
+   "status": "finished",
+   "conf": 64,
+   "victoire": "Victoire Sporting Cristal",
+   "score_exact": "2-1 (8%) · 3-1 (7%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 70%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Sporting Cristal 4V · 2N · Cienciano del Cusco 2V (scores : 4-1, 4-2, 0-1)  ||  Sporting Cristal : repos 15 j  ||  Cienciano del Cusco : repos 15 j",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T20:00Z",
+   "prio": 12,
+   "live_score": "4-1",
    "minute": "FT"
   },
   {
@@ -4016,66 +4016,6 @@
    "kickoff": "2026-11-22T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Super League (GRE)",
-   "home": "Panetolikos",
-   "away": "Volos NFC",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (11%) · 1-0 (10%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS NON 51%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Panetolikos 1V · 2N · Volos NFC 5V (scores : 0-1 x3, 1-1, 1-0)  ||  Panetolikos : 10e/14 (9 pts en 10 m.) | repos 15 j | prochains : Iraklis (Super League (GRE), 6 j)  ||  Volos NFC : 14e/14 (3 pts en 10 m.) | repos 15 j | prochains : Asteras Tripoli (Super League (GRE), 6 j), PAOK (Super League (GRE), 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T15:00Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Superliga (DEN)",
-   "home": "Sønderjyske Fodbold",
-   "away": "Odense Boldklub",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 68%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (3 confrontations) : Sønderjyske Fodbold 1V · 1N · Odense Boldklub 1V (scores : 1-1, 1-0, 0-1)  ||  Sønderjyske Fodbold : 12e/12 (8 pts en 11 m.) | repos 14 j | prochains : Brøndby IF (Superliga (DEN), 5 j)  ||  Odense Boldklub : 8e/12 (14 pts en 12 m.) | repos 15 j | prochains : FC Nordsjælland (Superliga (DEN), 8 j), Brøndby IF (Superliga (DEN), 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T15:00Z",
-   "prio": 9,
-   "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Chili",
-   "home": "Huachipato",
-   "away": "Deportes Concepcion",
-   "status": "finished",
-   "conf": 70,
-   "victoire": "Serré : Nul ou Deportes Concepcion",
-   "score_exact": "0-0 (18%) · 0-1 (16%)",
-   "double_chance": "X2 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 76%",
-   "btts": "BTTS NON 68%",
-   "analyse": "Resultat 0-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : Huachipato 0V · 0N · Deportes Concepcion 1V (scores : 0-2) - trop peu pour influer  ||  Huachipato : repos 14 j | prochains : Universidad Católica (Liga Chili, 7 j), Ñublense (Liga Chili, 14 j)  ||  Deportes Concepcion : repos 15 j | prochains : Universidad de Chile (Liga Chili, 7 j), Deportes Limache (Liga Chili, 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T15:00Z",
-   "prio": 12,
-   "live_score": "0-0",
    "minute": "FT"
   }
  ]
