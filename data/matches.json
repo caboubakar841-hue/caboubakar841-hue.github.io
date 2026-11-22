@@ -1,7 +1,7 @@
 {
- "date": "2026-11-22 23:46 UTC",
+ "date": "2026-11-22 23:55 UTC",
  "version": "V17",
- "ts": "2026-11-22T23:46:46.360510+00:00",
+ "ts": "2026-11-22T23:55:02.817547+00:00",
  "stats": {
   "n": 682,
   "n_avant": 338,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879233\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "Brasileirao",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-22T22:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "55'"
+   "minute": "63'"
   },
   {
    "league": "Liga Argentina",
@@ -2350,8 +2350,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T22:00Z",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "86'"
+   "live_score": "3-1",
+   "minute": "90'+4'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-22T23:05Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "45'+1'"
   },
   {
    "league": "Liga MX",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-22T23:07Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "38'"
+   "minute": "45'+2'"
   },
   {
    "league": "Liga Bolivie",
@@ -2410,8 +2410,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "19'"
+   "live_score": "0-1",
+   "minute": "26'"
   },
   {
    "league": "Liga Chili",
@@ -2431,7 +2431,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "16'"
+   "minute": "25'"
   },
   {
    "league": "Serie A",
