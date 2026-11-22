@@ -70,15 +70,42 @@ async function anyJSON(name){
   for(const u of [RAW+name,'data/'+name]){try{return await getJSON(u)}catch(e){}}
   return null;
 }
+async function ghDiag(st){
+  try{
+    const m=RAW.match(/githubusercontent\.com\/([^/]+)\/([^/]+)\//);if(!m)return;
+    let c=null;try{c=JSON.parse(localStorage.getItem('ghdiag')||'null')}catch(e){}
+    if(c&&Date.now()-c.t<300000){st.innerText+=c.txt;return}          // 1 appel / 5 min maximum (limite GitHub : 60 par heure)
+    const api='https://api.github.com/repos/'+m[1]+'/'+m[2]+'/actions/runs?per_page=10';
+    const r=await fetch(api);if(!r.ok)return;
+    const runs=(await r.json()).workflow_runs||[];
+    const lab=x=>x.status!=='completed'?({in_progress:'EN COURS',queued:'EN ATTENTE'}[x.status]||x.status):({success:'réussi',failure:'ÉCHEC',cancelled:'annulé',timed_out:'DÉLAI DÉPASSÉ'}[x.conclusion]||x.conclusion);
+    const ev=e=>({schedule:'planifié',push:'push',workflow_dispatch:'manuel'}[e]||e);
+    const mine=runs.find(x=>!/pages build/i.test(x.name)),pg=runs.find(x=>/pages build/i.test(x.name));
+    let t='';
+    if(!mine){t=' Aucun run de ton workflow dans les derniers runs GitHub : le lancement automatique est arrêté.'}
+    else{
+      const age=Math.round((Date.now()-Date.parse(mine.created_at))/60000);
+      t=' Dernier run de ton workflow : '+ev(mine.event)+', il y a '+ago(age)+' → '+lab(mine);
+      if(mine.conclusion==='failure'){
+        try{const jr=await fetch(mine.jobs_url);const jj=await jr.json();const bad=(jj.jobs||[]).flatMap(j=>j.steps||[]).find(s=>s.conclusion==='failure');if(bad)t+=' (étape en échec : '+bad.name+')'}catch(e){}
+      }
+      t+='.';
+    }
+    if(pg){const a2=Math.round((Date.now()-Date.parse(pg.created_at))/60000);t+=' Dernière publication du site : il y a '+ago(a2)+' → '+lab(pg)+'.'}
+    try{localStorage.setItem('ghdiag',JSON.stringify({t:Date.now(),txt:t}))}catch(e){}
+    st.innerText+=t;
+  }catch(e){}
+}
 async function showErr(st){
   try{
     const run=await anyJSON('last_run.json');
     if(run){
       const hm=x=>String(x).slice(11,16);
       const old=(Date.now()-Date.parse(run.start))/60000;
-      if(old>25) st.innerText+=' Le workflow GitHub n\'a plus démarré depuis '+hm(run.start)+' UTC (GitHub retarde ou a arrêté les lancements).';
+      if(old>25) st.innerText+=' Aucune mise à jour enregistrée depuis '+hm(run.start)+' UTC.';
       else st.innerText+=' Dernier lancement : '+hm(run.start)+' UTC, '+(run.end?'terminé à '+hm(run.end):'NON terminé, interrompu à l\'étape « '+run.phase+' » après '+run.elapsed+' s')+'.';
     }
+    await ghDiag(st);
     const j=await anyJSON('last_error.json');
     if(j){const last=String(j.error).split('\n').filter(Boolean).slice(-1)[0];st.innerText+=' Dernière erreur du script ('+String(j.t).slice(11,16)+' UTC) : '+last}
   }catch(e){}
