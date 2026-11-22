@@ -1,7 +1,7 @@
 {
- "date": "2026-11-22 22:23 UTC",
+ "date": "2026-11-22 22:31 UTC",
  "version": "V17",
- "ts": "2026-11-22T22:23:12.792025+00:00",
+ "ts": "2026-11-22T22:31:32.234523+00:00",
  "stats": {
   "n": 671,
   "n_avant": 327,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879233\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2256,7 +2256,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "Brasileirao",
@@ -2296,7 +2296,7 @@
    "kickoff": "2026-11-22T22:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "22'"
+   "minute": "31'"
   },
   {
    "league": "Salvadoran Primera Division",
@@ -2316,7 +2316,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "65'"
+   "minute": "73'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2336,7 +2336,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "57'"
+   "minute": "66'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2375,8 +2375,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
-   "live_score": "0-1",
-   "minute": "61'"
+   "live_score": "1-1",
+   "minute": "70'"
   },
   {
    "league": "Primera Paraguay",
@@ -2395,8 +2395,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "62'"
+   "live_score": "1-2",
+   "minute": "70'"
   },
   {
    "league": "Liga Bolivie",
@@ -2416,7 +2416,7 @@
    "kickoff": "2026-11-22T21:15Z",
    "prio": 12,
    "live_score": "3-0",
-   "minute": "52'"
+   "minute": "61'"
   },
   {
    "league": "Liga Equateur",
@@ -2436,7 +2436,7 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "45'+8'"
+   "minute": "HT"
   },
   {
    "league": "Liga Venezuela",
@@ -2455,8 +2455,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "38'"
+   "live_score": "1-2",
+   "minute": "45'+2'"
   },
   {
    "league": "Liga Chili",
@@ -2476,7 +2476,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "56'"
+   "minute": "64'"
   },
   {
    "league": "Taca de Portugal",
@@ -2496,7 +2496,7 @@
    "kickoff": "2026-11-22T20:45Z",
    "prio": 13,
    "live_score": "1-2",
-   "minute": "77'"
+   "minute": "85'"
   },
   {
    "league": "Honduran Liga Nacional",
@@ -2516,7 +2516,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "63'"
+   "minute": "72'"
   },
   {
    "league": "Brasileirao",
