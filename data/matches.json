@@ -1,7 +1,7 @@
 {
- "date": "2026-11-22 21:24 UTC",
+ "date": "2026-11-22 21:32 UTC",
  "version": "V17",
- "ts": "2026-11-22T21:24:40.849010+00:00",
+ "ts": "2026-11-22T21:32:58.196615+00:00",
  "stats": {
   "n": 665,
   "n_avant": 321,
@@ -2256,7 +2256,7 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 3,
    "live_score": "0-2",
-   "minute": "65'"
+   "minute": "73'"
   },
   {
    "league": "Serie A",
@@ -2275,8 +2275,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T19:45Z",
    "prio": 3,
-   "live_score": "2-4",
-   "minute": "81'"
+   "live_score": "3-4",
+   "minute": "89'"
   },
   {
    "league": "Ligue 1",
@@ -2295,8 +2295,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T19:45Z",
    "prio": 3,
-   "live_score": "2-1",
-   "minute": "79'"
+   "live_score": "2-2",
+   "minute": "87'"
   },
   {
    "league": "La Liga 2",
@@ -2316,7 +2316,47 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "70'"
+   "minute": "78'"
+  },
+  {
+   "league": "MLS",
+   "home": "Nashville SC",
+   "away": "FC Cincinnati",
+   "status": "live",
+   "conf": 63,
+   "victoire": "Victoire Nashville SC",
+   "score_exact": "2-1 (8%) · 3-1 (7%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "2026-11-22 | Buts attendus Nashville SC 2.5 - FC Cincinnati 0.8 | 1/N/2 : 63/15/22% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Nashville SC 3V · 1N · FC Cincinnati 4V (scores : 2-0 x2, 1-2 x2, 0-1)  ||  Nashville SC : repos 15 j | prochains : FC Cincinnati (MLS, 6 j), FC Cincinnati (MLS, 10 j)  ||  FC Cincinnati : repos 3 j | prochains : Nashville SC (MLS, 6 j), Nashville SC (MLS, 10 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T21:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "7'"
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Fluminense",
+   "away": "Mirassol",
+   "status": "live",
+   "conf": 59,
+   "victoire": "Victoire Fluminense",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "12 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "2026-11-22 | Buts attendus Fluminense 2.0 - Mirassol 0.9 | 1/N/2 : 59/18/23% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : Fluminense 1V · 0N · Mirassol 2V (scores : 1-2, 1-0, 0-1)  ||  Fluminense : repos 3 j | prochains : Cruzeiro (Brasileirao, 5 j), Red Bull Bragantino (Brasileirao, 10 j)  ||  Mirassol : repos 8 j | prochains : Athletico-PR (Brasileirao, 7 j), Grêmio (Brasileirao, 10 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T21:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "1'"
   },
   {
    "league": "Salvadoran Primera Division",
@@ -2336,7 +2376,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "24'"
+   "minute": "32'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2356,7 +2396,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "17'"
+   "minute": "25'"
   },
   {
    "league": "Primera Paraguay",
@@ -2376,7 +2416,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "22'"
+   "minute": "30'"
   },
   {
    "league": "Primera Paraguay",
@@ -2396,7 +2436,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "22'"
+   "minute": "30'"
   },
   {
    "league": "Liga Bolivie",
@@ -2415,8 +2455,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:15Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "10'"
+   "live_score": "2-0",
+   "minute": "18'"
   },
   {
    "league": "Liga Perou",
@@ -2435,8 +2475,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T20:00Z",
    "prio": 12,
-   "live_score": "4-0",
-   "minute": "67'"
+   "live_score": "5-0",
+   "minute": "75'"
   },
   {
    "league": "Liga Perou",
@@ -2456,7 +2496,27 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 12,
    "live_score": "3-1",
-   "minute": "65'"
+   "minute": "74'"
+  },
+  {
+   "league": "Liga Equateur",
+   "home": "Liga de Quito",
+   "away": "Aucas",
+   "status": "live",
+   "conf": 79,
+   "victoire": "Serré : Nul ou Liga de Quito",
+   "score_exact": "1-0 (14%) · 0-0 (12%)",
+   "double_chance": "1X 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 62%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-22 | Buts attendus Liga de Quito 1.5 - Aucas 0.8 | 1/N/2 : 49/30/21% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Liga de Quito 3V · 3N · Aucas 2V (scores : 0-0 x2, 1-0 x2, 1-2)  ||  Liga de Quito : repos 14 j | prochains : Macará (Liga Equateur, 6 j), Independiente del Valle (Liga Equateur, 14 j)  ||  Aucas : repos 14 j | prochains : Barcelona SC (Liga Equateur, 6 j), Universidad Católica (Quito) (Liga Equateur, 14 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T21:30Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "2'"
   },
   {
    "league": "Liga Chili",
@@ -2476,7 +2536,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "19'"
+   "minute": "28'"
   },
   {
    "league": "Taca de Portugal",
@@ -2496,7 +2556,7 @@
    "kickoff": "2026-11-22T20:45Z",
    "prio": 13,
    "live_score": "0-1",
-   "minute": "38'"
+   "minute": "HT"
   },
   {
    "league": "Honduran Liga Nacional",
@@ -2516,43 +2576,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "24'"
-  },
-  {
-   "league": "MLS",
-   "home": "Nashville SC",
-   "away": "FC Cincinnati",
-   "status": "today",
-   "conf": 63,
-   "victoire": "Victoire Nashville SC",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "12 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-22 | Buts attendus Nashville SC 2.5 - FC Cincinnati 0.8 | 1/N/2 : 63/15/22% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Nashville SC 3V · 1N · FC Cincinnati 4V (scores : 2-0 x2, 1-2 x2, 0-1)  ||  Nashville SC : repos 15 j | prochains : FC Cincinnati (MLS, 6 j), FC Cincinnati (MLS, 10 j)  ||  FC Cincinnati : repos 3 j | prochains : Nashville SC (MLS, 6 j), Nashville SC (MLS, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:00Z",
-   "prio": 9
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Fluminense",
-   "away": "Mirassol",
-   "status": "today",
-   "conf": 59,
-   "victoire": "Victoire Fluminense",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-22 | Buts attendus Fluminense 2.0 - Mirassol 0.9 | 1/N/2 : 59/18/23% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Fluminense 1V · 0N · Mirassol 2V (scores : 1-2, 1-0, 0-1)  ||  Fluminense : repos 3 j | prochains : Cruzeiro (Brasileirao, 5 j), Red Bull Bragantino (Brasileirao, 10 j)  ||  Mirassol : repos 8 j | prochains : Athletico-PR (Brasileirao, 7 j), Grêmio (Brasileirao, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:30Z",
-   "prio": 9
+   "minute": "32'"
   },
   {
    "league": "Liga Argentina",
@@ -2660,24 +2684,6 @@
    "contexte": "Face-à-face (8 confrontations) : Metropolitanos 3V · 3N · Deportivo La Guaira 2V (scores : 2-1 x3, 2-2 x2, 0-0)  ||  Metropolitanos : repos 14 j  ||  Deportivo La Guaira : repos 14 j",
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:00Z",
-   "prio": 12
-  },
-  {
-   "league": "Liga Equateur",
-   "home": "Liga de Quito",
-   "away": "Aucas",
-   "status": "today",
-   "conf": 79,
-   "victoire": "Serré : Nul ou Liga de Quito",
-   "score_exact": "1-0 (14%) · 0-0 (12%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 62%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-22 | Buts attendus Liga de Quito 1.5 - Aucas 0.8 | 1/N/2 : 49/30/21% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Liga de Quito 3V · 3N · Aucas 2V (scores : 0-0 x2, 1-0 x2, 1-2)  ||  Liga de Quito : repos 14 j | prochains : Macará (Liga Equateur, 6 j), Independiente del Valle (Liga Equateur, 14 j)  ||  Aucas : repos 14 j | prochains : Barcelona SC (Liga Equateur, 6 j), Universidad Católica (Quito) (Liga Equateur, 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:30Z",
    "prio": 12
   },
   {
@@ -3236,6 +3242,60 @@
    "contexte": "Al-Quwa Al-Jawiya : repos 21 j  ||  Al-Gharafa : repos 21 j",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T18:15Z",
+   "prio": 12
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "Real Oruro",
+   "away": "Guabirá",
+   "status": "today",
+   "conf": 83,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (7%)",
+   "double_chance": "12 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 72%",
+   "analyse": "2026-11-23 | Buts attendus Real Oruro 2.3 - Guabirá 1.6 | 1/N/2 : 47/17/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : Real Oruro 0V · 0N · Guabirá 3V (scores : 1-3, 3-6, 1-4)  ||  Real Oruro : repos 16 j | prochains : Independiente Petrolero (Liga Bolivie, 4 j), ABB (Liga Bolivie, 8 j)  ||  Guabirá : repos 16 j | prochains : Universitario de Vinto (Liga Bolivie, 5 j), Real Tomayapo (Liga Bolivie, 8 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:00Z",
+   "prio": 12
+  },
+  {
+   "league": "Liga Uruguay",
+   "home": "Juventud",
+   "away": "Defensor Sporting",
+   "status": "today",
+   "conf": 54,
+   "victoire": "Victoire Juventud",
+   "score_exact": "1-0 (15%) · 2-0 (11%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 56%",
+   "analyse": "2026-11-23 | Buts attendus Juventud 1.5 - Defensor Sporting 0.9 | 1/N/2 : 54/23/23% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : Juventud 2V · 0N · Defensor Sporting 1V (scores : 2-1 x2, 0-1)  ||  Juventud : repos 7 j  ||  Defensor Sporting : repos 8 j",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:30Z",
+   "prio": 12
+  },
+  {
+   "league": "Primera Paraguay",
+   "home": "2 de Mayo",
+   "away": "Sportivo San Lorenzo",
+   "status": "today",
+   "conf": 70,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (14%) · 0-1 (12%)",
+   "double_chance": "12 70%",
+   "corner": "N/D",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-23 | Buts attendus 2 de Mayo 1.2 - Sportivo San Lorenzo 1.0 | 1/N/2 : 40/30/30% | base sur 15 et 16 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : 2 de Mayo 1V · 1N · Sportivo San Lorenzo 1V (scores : 1-1, 0-1, 2-1)  ||  2 de Mayo : repos 14 j | prochains : Libertad (Primera Paraguay, 2 j), Nacional Asunción (Primera Paraguay, 6 j)  ||  Sportivo San Lorenzo : repos 14 j | prochains : Sportivo Ameliano (Primera Paraguay, 2 j), Club Olimpia (Primera Paraguay, 6 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T21:00Z",
    "prio": 12
   },
   {
