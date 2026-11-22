@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: prono70
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,6 +50,13 @@ jobs:
             sleep 5
           done
           exit 1
+      - name: Programmer le prochain lancement (ne depend plus du planificateur GitHub)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run "$GITHUB_WORKFLOW" --ref main || true
+          sleep 480
       - name: Signaler l'echec du calcul
         if: steps.run.outcome == 'failure'
         run: exit 1
