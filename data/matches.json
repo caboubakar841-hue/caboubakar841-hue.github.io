@@ -1,7 +1,7 @@
 {
- "date": "2026-11-22 23:38 UTC",
+ "date": "2026-11-22 23:46 UTC",
  "version": "V17",
- "ts": "2026-11-22T23:38:22.409694+00:00",
+ "ts": "2026-11-22T23:46:46.360510+00:00",
  "stats": {
   "n": 682,
   "n_avant": 338,
@@ -28,13 +28,205 @@
   "Matchs sans données masqués (remplacés par d'autres) : 98",
   "Matchs africains affichés (à venir / live) : 0",
   "Matchs ajoutés par le filet « tous les matchs ESPN » : 59",
-  "Cartes à venir affichées : 40 (jours : 2026-11-22, 2026-11-23, 2026-11-24)",
+  "Cartes à venir affichées : 40 (jours : 2026-11-23, 2026-11-24)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879233\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
   "Durée du run : 3 s"
  ],
  "tickets": [
+  {
+   "v": 2,
+   "day": "2026-11-23",
+   "eligible": 24,
+   "tickets": [
+    {
+     "name": "Ticket 10 matchs (risqué)",
+     "rule": "60 à 79 %",
+     "target": 10,
+     "n": 10,
+     "legs": [
+      {
+       "id": "401875835",
+       "match": "Jong PSV vs Jong FC Utrecht",
+       "league": "Dutch Keuken Kampioen Divisie",
+       "time": "19:00",
+       "pick": "Double chance 1X (Jong PSV ou nul)",
+       "code": "1X",
+       "p": 76,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401933729",
+       "match": "Vancouver Whitecaps vs Real Salt Lake",
+       "league": "MLS",
+       "time": "01:30",
+       "pick": "Double chance 1X (Vancouver Whitecaps ou nul)",
+       "code": "1X",
+       "p": 74,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401930689",
+       "match": "Real Kashmir vs Dempo Sports Club",
+       "league": "Indian Football League",
+       "time": "13:00",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 74,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401912611",
+       "match": "Tractor vs Al Wasl",
+       "league": "AFC Champions League",
+       "time": "16:00",
+       "pick": "Double chance 1X (Tractor ou nul)",
+       "code": "1X",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401934683",
+       "match": "Albion FC vs Danubio",
+       "league": "Liga Uruguay",
+       "time": "22:30",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401933762",
+       "match": "Instituto (Córdoba) vs Huracán",
+       "league": "Liga Argentina",
+       "time": "01:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401882802",
+       "match": "Levante vs Elche",
+       "league": "La Liga",
+       "time": "20:00",
+       "pick": "Double chance 1X (Levante ou nul)",
+       "code": "1X",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401876686",
+       "match": "Nantes vs Grenoble",
+       "league": "Ligue 2",
+       "time": "19:45",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401888562",
+       "match": "Nacional Asunción vs Cerro Porteño",
+       "league": "Primera Paraguay",
+       "time": "23:15",
+       "pick": "Under 2.5 buts",
+       "code": "U25",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401912610",
+       "match": "Al-Shamal vs Al Ahli",
+       "league": "AFC Champions League",
+       "time": "16:00",
+       "pick": "Double chance 1X (Al-Shamal ou nul)",
+       "code": "1X",
+       "p": 71,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 4.0,
+     "status": "en cours"
+    },
+    {
+     "name": "Ticket 5 matchs (sûr)",
+     "rule": "80 % ou plus",
+     "target": 5,
+     "n": 5,
+     "legs": [
+      {
+       "id": "401933216",
+       "match": "Gimnasia y Tiro (Salta) vs Tristán Suárez",
+       "league": "Argentine Nacional B",
+       "time": "00:00",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 95,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401875836",
+       "match": "Jong Ajax vs Jong AZ",
+       "league": "Dutch Keuken Kampioen Divisie",
+       "time": "19:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 94,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401875009",
+       "match": "Monza vs Fiorentina",
+       "league": "Serie A",
+       "time": "19:45",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 92,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401930027",
+       "match": "Real Oruro vs Guabirá",
+       "league": "Liga Bolivie",
+       "time": "19:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 90,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401883110",
+       "match": "Ceuta vs Almería",
+       "league": "La Liga 2",
+       "time": "19:30",
+       "pick": "Double chance X2 (nul ou Almería)",
+       "code": "X2",
+       "p": 90,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 66.5,
+     "status": "en cours"
+    }
+   ]
+  },
   {
    "v": 2,
    "day": "2026-11-22",
@@ -2098,146 +2290,29 @@
      "status": "en cours"
     }
    ]
-  },
-  {
-   "v": 2,
-   "day": "2026-11-09",
-   "eligible": 2,
-   "tickets": [
-    {
-     "name": "Ticket 10 matchs (risqué)",
-     "rule": "60 à 79 %",
-     "target": 10,
-     "n": 8,
-     "legs": [
-      {
-       "id": "401878031",
-       "match": "Alianza FC vs Llaneros FC",
-       "league": "Liga Colombia",
-       "time": "01:15",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 73,
-       "ok": true,
-       "score": "1-2"
-      },
-      {
-       "id": "401888648",
-       "match": "Sportivo Luqueño vs 2 de Mayo",
-       "league": "Primera Paraguay",
-       "time": "22:30",
-       "pick": "Double chance X2 (nul ou 2 de Mayo)",
-       "code": "X2",
-       "p": 71,
-       "ok": false,
-       "score": "3-0"
-      },
-      {
-       "id": "401883140",
-       "match": "Las Palmas vs Eldense",
-       "league": "La Liga 2",
-       "time": "19:30",
-       "pick": "Double chance 1X (Las Palmas ou nul)",
-       "code": "1X",
-       "p": 71,
-       "ok": true,
-       "score": "2-0"
-      },
-      {
-       "id": "401921368",
-       "match": "Mushuc Runa vs Delfín",
-       "league": "Liga Equateur",
-       "time": "18:00",
-       "pick": "Double chance 1X (Mushuc Runa ou nul)",
-       "code": "1X",
-       "p": 70,
-       "ok": true,
-       "score": "2-1"
-      },
-      {
-       "id": "401876903",
-       "match": "Querétaro vs Puebla",
-       "league": "Liga MX",
-       "time": "00:00",
-       "pick": "Double chance 1X (Querétaro ou nul)",
-       "code": "1X",
-       "p": 70,
-       "ok": false,
-       "score": "0-2"
-      },
-      {
-       "id": "401883139",
-       "match": "CD Sabadell vs Real Sociedad II",
-       "league": "La Liga 2",
-       "time": "19:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 70,
-       "ok": false,
-       "score": "0-0"
-      },
-      {
-       "id": "401876902",
-       "match": "León vs Guadalajara",
-       "league": "Liga MX",
-       "time": "02:10",
-       "pick": "Double chance X2 (nul ou Guadalajara)",
-       "code": "X2",
-       "p": 70,
-       "ok": true,
-       "score": "1-1"
-      },
-      {
-       "id": "401888647",
-       "match": "Sportivo San Lorenzo vs Rubio Ñú",
-       "league": "Primera Paraguay",
-       "time": "20:00",
-       "pick": "Double chance X2 (nul ou Rubio Ñú)",
-       "code": "X2",
-       "p": 70,
-       "ok": true,
-       "score": "2-2"
-      }
-     ],
-     "combined": 6.2,
-     "status": "perdu"
-    },
-    {
-     "name": "Ticket 5 matchs (sûr)",
-     "rule": "80 % ou plus",
-     "target": 5,
-     "n": 2,
-     "legs": [
-      {
-       "id": "401886140",
-       "match": "Universitario vs Deportivo Moquegua",
-       "league": "Liga Perou",
-       "time": "01:30",
-       "pick": "Double chance 1X (Universitario ou nul)",
-       "code": "1X",
-       "p": 92,
-       "ok": true,
-       "score": "2-2"
-      },
-      {
-       "id": "401921367",
-       "match": "Técnico Universitario vs Manta F.C.",
-       "league": "Liga Equateur",
-       "time": "20:30",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 84,
-       "ok": true,
-       "score": "1-2"
-      }
-     ],
-     "combined": 77.6,
-     "status": "gagné"
-    }
-   ]
   }
  ],
  "matches": [
+  {
+   "league": "MLS",
+   "home": "Chicago Fire FC",
+   "away": "Charlotte FC",
+   "status": "live",
+   "conf": 85,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 77%",
+   "btts": "BTTS OUI 73%",
+   "analyse": "2026-11-22 | Buts attendus Chicago Fire FC 2.0 - Charlotte FC 2.0 | 1/N/2 : 43/15/42% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Chicago Fire FC 4V · 0N · Charlotte FC 4V (scores : 1-2, 0-2, 0-1)  ||  Chicago Fire FC : repos 15 j | prochains : Charlotte FC (MLS, 6 j), Charlotte FC (MLS, 10 j)  ||  Charlotte FC : repos 15 j | prochains : Chicago Fire FC (MLS, 6 j), Chicago Fire FC (MLS, 10 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T23:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "6'"
+  },
   {
    "league": "Brasileirao",
    "home": "Red Bull Bragantino",
@@ -2256,7 +2331,7 @@
    "kickoff": "2026-11-22T22:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "46'"
+   "minute": "55'"
   },
   {
    "league": "Liga Argentina",
@@ -2276,7 +2351,7 @@
    "kickoff": "2026-11-22T22:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "78'"
+   "minute": "86'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2296,7 +2371,7 @@
    "kickoff": "2026-11-22T23:05Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "Liga MX",
@@ -2316,7 +2391,7 @@
    "kickoff": "2026-11-22T23:07Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "Liga Bolivie",
@@ -2336,7 +2411,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "10'"
+   "minute": "19'"
   },
   {
    "league": "Liga Chili",
@@ -2356,25 +2431,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "8'"
-  },
-  {
-   "league": "MLS",
-   "home": "Chicago Fire FC",
-   "away": "Charlotte FC",
-   "status": "today",
-   "conf": 85,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 77%",
-   "btts": "BTTS OUI 73%",
-   "analyse": "2026-11-22 | Buts attendus Chicago Fire FC 2.0 - Charlotte FC 2.0 | 1/N/2 : 43/15/42% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Chicago Fire FC 4V · 0N · Charlotte FC 4V (scores : 1-2, 0-2, 0-1)  ||  Chicago Fire FC : repos 15 j | prochains : Charlotte FC (MLS, 6 j), Charlotte FC (MLS, 10 j)  ||  Charlotte FC : repos 15 j | prochains : Chicago Fire FC (MLS, 6 j), Chicago Fire FC (MLS, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T23:30Z",
-   "prio": 9
+   "minute": "16'"
   },
   {
    "league": "Serie A",
@@ -3074,6 +3131,24 @@
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-24 | Buts attendus Manchester City 1.9 - Napoli 1.5 | 1/N/2 : 46/23/31% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Face-à-face (1 confrontation) : Manchester City 1V · 0N · Napoli 0V (scores : 2-0) - trop peu pour influer  ||  Manchester City : 3e/20 (22 pts en 11 m.) | repos 3 j | prochains : Arsenal (Premier League, 5 j), Leeds United (Premier League, 8 j), Brentford (Premier League, 11 j)  ||  Napoli : 8e/20 (18 pts en 12 m.) | repos 3 j | prochains : Sassuolo (Serie A, 5 j), Lecce (Serie A, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T20:00Z",
+   "prio": 0
+  },
+  {
+   "league": "Ligue des champions",
+   "home": "RB Leipzig",
+   "away": "Lens",
+   "status": "today",
+   "conf": 69,
+   "victoire": "Victoire RB Leipzig",
+   "score_exact": "2-1 (8%) · 3-1 (8%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 81%",
+   "btts": "BTTS OUI 72%",
+   "analyse": "2026-11-24 | Buts attendus RB Leipzig 3.0 - Lens 1.4 | 1/N/2 : 69/15/16% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). RB Leipzig : 4e/18 (21 pts en 10 m.) | repos 3 j | prochains : SC Freiburg (Bundesliga, 5 j), Bayer Leverkusen (Coupe d'Allemagne, 8 j), Mainz (Bundesliga, 11 j)  ||  Lens : 11e/18 (14 pts en 11 m.) | repos 3 j | prochains : Angers (Ligue 1, 4 j), Le Havre AC (Ligue 1, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0
