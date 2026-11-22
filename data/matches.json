@@ -1,29 +1,29 @@
 {
- "date": "2026-11-22 21:32 UTC",
+ "date": "2026-11-22 21:41 UTC",
  "version": "V17",
- "ts": "2026-11-22T21:32:58.196615+00:00",
+ "ts": "2026-11-22T21:41:16.818605+00:00",
  "stats": {
-  "n": 665,
-  "n_avant": 321,
+  "n": 666,
+  "n_avant": 322,
   "dc": 81,
   "over": 52,
   "btts": 52,
   "score": 18,
   "1x2": 59,
-  "n_fav": 321,
+  "n_fav": 322,
   "serre": 76,
   "n_serre": 344,
   "base_dom": 43,
-  "n_ctx": 208,
-  "brier_ctx": 0.616,
-  "brier_base": 0.606,
-  "n_h2h": 180,
-  "brier_h2h": 0.621,
-  "brier_noh2h": 0.612
+  "n_ctx": 209,
+  "brier_ctx": 0.619,
+  "brier_base": 0.609,
+  "n_h2h": 181,
+  "brier_h2h": 0.624,
+  "brier_noh2h": 0.615
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : usa.1 2, bra.1 2, par.1 2, bol.1 2, per.1 2, chi.1 2, gua.1 2, esp.1 1, esp.2 1, ita.1 1, fra.1 1, arg.1 1",
+  "Matchs trouvés aujourd'hui par compétition : usa.1 2, bra.1 2, par.1 2, bol.1 2, per.1 2, chi.1 2, gua.1 2, esp.1 1, esp.2 1, fra.1 1, arg.1 1, mex.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 98",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879233\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2256,27 +2256,7 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 3,
    "live_score": "0-2",
-   "minute": "73'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Atalanta",
-   "away": "Internazionale",
-   "status": "live",
-   "conf": 69,
-   "victoire": "Victoire Internazionale",
-   "score_exact": "1-2 (10%) · 1-3 (8%)",
-   "double_chance": "X2 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "2026-11-22 | Buts attendus Atalanta 1.3 - Internazionale 2.4 | 1/N/2 : 14/17/69% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Atalanta 0V · 1N · Internazionale 7V (scores : 2-3 x2, 0-4 x2, 1-2)  ||  Atalanta : 12e/20 (14 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Borac Banja Luka (Conference League, 4 j), Lecce (Serie A, 8 j), Lazio (Serie A, 14 j)  ||  Internazionale : 3e/20 (28 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 3 j), Genoa (Serie A, 6 j), Genoa (Coupe d'Italie, 9 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T19:45Z",
-   "prio": 3,
-   "live_score": "3-4",
-   "minute": "89'"
+   "minute": "81'"
   },
   {
    "league": "Ligue 1",
@@ -2295,8 +2275,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T19:45Z",
    "prio": 3,
-   "live_score": "2-2",
-   "minute": "87'"
+   "live_score": "2-3",
+   "minute": "90'+6'"
   },
   {
    "league": "La Liga 2",
@@ -2316,7 +2296,7 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "78'"
+   "minute": "86'"
   },
   {
    "league": "MLS",
@@ -2335,8 +2315,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "7'"
+   "live_score": "0-1",
+   "minute": "16'"
   },
   {
    "league": "Brasileirao",
@@ -2356,7 +2336,7 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "9'"
   },
   {
    "league": "Salvadoran Primera Division",
@@ -2376,7 +2356,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "41'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2396,7 +2376,27 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "25'"
+   "minute": "34'"
+  },
+  {
+   "league": "Brazilian Serie B",
+   "home": "Atlético Goianiense",
+   "away": "Vila Nova",
+   "status": "live",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (15%) · 1-0 (13%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 65%",
+   "btts": "BTTS NON 60%",
+   "analyse": "2026-11-22 | Buts attendus Atlético Goianiense 1.2 - Vila Nova 0.9 | 1/N/2 : 36/27/37% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : Atlético Goianiense 1V · 1N · Vila Nova 4V (scores : 1-2 x2, 1-1, 0-1)  ||  Atlético Goianiense : repos 8 j | prochains : Vila Nova (Brazilian Serie B, 5 j)  ||  Vila Nova : repos 8 j | prochains : Atlético Goianiense (Brazilian Serie B, 5 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T21:30Z",
+   "prio": 10,
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "Primera Paraguay",
@@ -2416,7 +2416,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "39'"
   },
   {
    "league": "Primera Paraguay",
@@ -2436,7 +2436,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "Liga Bolivie",
@@ -2455,8 +2455,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T21:15Z",
    "prio": 12,
-   "live_score": "2-0",
-   "minute": "18'"
+   "live_score": "3-0",
+   "minute": "26'"
   },
   {
    "league": "Liga Perou",
@@ -2475,8 +2475,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T20:00Z",
    "prio": 12,
-   "live_score": "5-0",
-   "minute": "75'"
+   "live_score": "4-1",
+   "minute": "83'"
   },
   {
    "league": "Liga Perou",
@@ -2496,7 +2496,7 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 12,
    "live_score": "3-1",
-   "minute": "74'"
+   "minute": "82'"
   },
   {
    "league": "Liga Equateur",
@@ -2516,7 +2516,7 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "10'"
   },
   {
    "league": "Liga Chili",
@@ -2536,7 +2536,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "28'"
+   "minute": "36'"
   },
   {
    "league": "Taca de Portugal",
@@ -2576,7 +2576,7 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "40'"
   },
   {
    "league": "Liga Argentina",
@@ -2649,24 +2649,6 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9
-  },
-  {
-   "league": "Brazilian Serie B",
-   "home": "Atlético Goianiense",
-   "away": "Vila Nova",
-   "status": "today",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (15%) · 1-0 (13%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 65%",
-   "btts": "BTTS NON 60%",
-   "analyse": "2026-11-22 | Buts attendus Atlético Goianiense 1.2 - Vila Nova 0.9 | 1/N/2 : 36/27/37% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Atlético Goianiense 1V · 1N · Vila Nova 4V (scores : 1-2 x2, 1-1, 0-1)  ||  Atlético Goianiense : repos 8 j | prochains : Vila Nova (Brazilian Serie B, 5 j)  ||  Vila Nova : repos 8 j | prochains : Atlético Goianiense (Brazilian Serie B, 5 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:30Z",
-   "prio": 10
   },
   {
    "league": "Liga Venezuela",
@@ -3297,6 +3279,44 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T21:00Z",
    "prio": 12
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "Universitario de Vinto",
+   "away": "GV San José",
+   "status": "today",
+   "conf": 79,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "2026-11-23 | Buts attendus Universitario de Vinto 2.2 - GV San José 1.5 | 1/N/2 : 46/21/34% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Universitario de Vinto 1V · 1N · GV San José 3V (scores : 1-1, 1-4, 4-0)  ||  Universitario de Vinto : repos 14 j | prochains : Guabirá (Liga Bolivie, 5 j), Real Potosí (Liga Bolivie, 8 j)  ||  GV San José : repos 16 j | prochains : Real Potosí (Liga Bolivie, 5 j), San Antonio Bulo Bulo (Liga Bolivie, 10 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T21:15Z",
+   "prio": 12
+  },
+  {
+   "league": "Serie A",
+   "home": "Atalanta",
+   "away": "Internazionale",
+   "status": "finished",
+   "conf": 69,
+   "victoire": "Victoire Internazionale",
+   "score_exact": "1-2 (10%) · 1-3 (8%)",
+   "double_chance": "X2 86%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 66%",
+   "analyse": "Resultat 4-4 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Atalanta 0V · 1N · Internazionale 7V (scores : 2-3 x2, 0-4 x2, 1-2)  ||  Atalanta : 12e/20 (14 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Borac Banja Luka (Conference League, 4 j), Lecce (Serie A, 8 j), Lazio (Serie A, 14 j)  ||  Internazionale : 3e/20 (28 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 3 j), Genoa (Serie A, 6 j), Genoa (Coupe d'Italie, 9 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T19:45Z",
+   "prio": 3,
+   "live_score": "4-4",
+   "minute": "FT"
   },
   {
    "league": "Liga Equateur",
@@ -4076,26 +4096,6 @@
    "kickoff": "2026-11-22T14:30Z",
    "prio": 11,
    "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Premier League",
-   "home": "Hull City",
-   "away": "Brighton & Hove Albion",
-   "status": "finished",
-   "conf": 53,
-   "victoire": "Victoire Brighton & Hove Albion",
-   "score_exact": "0-1 (14%) · 0-2 (11%)",
-   "double_chance": "X2 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 54%",
-   "analyse": "Resultat 2-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Hull City : 14e/20 (11 pts en 10 m.) | repos 15 j | prochains : Crystal Palace (Premier League, 7 j), Nottingham Forest (Premier League, 10 j), AFC Bournemouth (Premier League, 13 j)  ||  Brighton & Hove Albion : 2e/20 (22 pts en 10 m.) | repos 14 j | match europeen proche : rotation possible | prochains : CSU Craiova (Conference League, 4 j), Newcastle United (Premier League, 7 j), AFC Bournemouth (Premier League, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T14:00Z",
-   "prio": 3,
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
