@@ -1,29 +1,29 @@
 {
- "date": "2026-11-22 23:30 UTC",
+ "date": "2026-11-22 23:38 UTC",
  "version": "V17",
- "ts": "2026-11-22T23:30:05.102348+00:00",
+ "ts": "2026-11-22T23:38:22.409694+00:00",
  "stats": {
-  "n": 680,
-  "n_avant": 336,
+  "n": 682,
+  "n_avant": 338,
   "dc": 80,
   "over": 53,
   "btts": 52,
   "score": 18,
   "1x2": 60,
-  "n_fav": 332,
+  "n_fav": 333,
   "serre": 75,
-  "n_serre": 348,
+  "n_serre": 349,
   "base_dom": 44,
-  "n_ctx": 221,
-  "brier_ctx": 0.615,
+  "n_ctx": 223,
+  "brier_ctx": 0.614,
   "brier_base": 0.605,
-  "n_h2h": 192,
-  "brier_h2h": 0.617,
-  "brier_noh2h": 0.608
+  "n_h2h": 194,
+  "brier_h2h": 0.616,
+  "brier_noh2h": 0.607
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : bra.1 2, usa.1 1, arg.1 1, mex.1 1, bol.1 1, ven.1 1, chi.1 1, gua.1 1",
+  "Matchs trouvés aujourd'hui par compétition : usa.1 1, bra.1 1, arg.1 1, mex.1 1, bol.1 1, chi.1 1, gua.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 98",
   "Matchs africains affichés (à venir / live) : 0",
@@ -2240,26 +2240,6 @@
  "matches": [
   {
    "league": "Brasileirao",
-   "home": "Fluminense",
-   "away": "Mirassol",
-   "status": "live",
-   "conf": 59,
-   "victoire": "Victoire Fluminense",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-22 | Buts attendus Fluminense 2.0 - Mirassol 0.9 | 1/N/2 : 59/18/23% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Fluminense 1V · 0N · Mirassol 2V (scores : 1-2, 1-0, 0-1)  ||  Fluminense : repos 3 j | prochains : Cruzeiro (Brasileirao, 5 j), Red Bull Bragantino (Brasileirao, 10 j)  ||  Mirassol : repos 8 j | prochains : Athletico-PR (Brasileirao, 7 j), Grêmio (Brasileirao, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:30Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "90'+7'"
-  },
-  {
-   "league": "Brasileirao",
    "home": "Red Bull Bragantino",
    "away": "Vasco da Gama",
    "status": "live",
@@ -2276,7 +2256,7 @@
    "kickoff": "2026-11-22T22:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "Liga Argentina",
@@ -2296,7 +2276,7 @@
    "kickoff": "2026-11-22T22:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "69'"
+   "minute": "78'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2316,7 +2296,7 @@
    "kickoff": "2026-11-22T23:05Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "21'"
+   "minute": "30'"
   },
   {
    "league": "Liga MX",
@@ -2336,7 +2316,7 @@
    "kickoff": "2026-11-22T23:07Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "22'"
+   "minute": "30'"
   },
   {
    "league": "Liga Bolivie",
@@ -2356,27 +2336,27 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "10'"
   },
   {
-   "league": "Liga Venezuela",
-   "home": "Metropolitanos",
-   "away": "Deportivo La Guaira",
+   "league": "Liga Chili",
+   "home": "Deportes Limache",
+   "away": "La Serena",
    "status": "live",
-   "conf": 75,
-   "victoire": "Serré : Nul ou Metropolitanos",
-   "score_exact": "2-1 (9%) · 2-2 (8%)",
-   "double_chance": "1X 75%",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 74%",
    "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-11-22 | Buts attendus Metropolitanos 2.0 - Deportivo La Guaira 1.3 | 1/N/2 : 48/26/25% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Metropolitanos 3V · 3N · Deportivo La Guaira 2V (scores : 2-1 x3, 2-2 x2, 0-0)  ||  Metropolitanos : repos 14 j  ||  Deportivo La Guaira : repos 14 j",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-22 | Buts attendus Deportes Limache 1.6 - La Serena 1.3 | 1/N/2 : 43/26/31% | base sur 11 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : Deportes Limache 1V · 1N · La Serena 1V (scores : 1-1, 1-0, 1-4)  ||  Deportes Limache : repos 14 j | prochains : Coquimbo Unido (Liga Chili, 6 j), Deportes Concepcion (Liga Chili, 14 j)  ||  La Serena : repos 15 j | prochains : Colo Colo (Liga Chili, 6 j), Audax Italiano (Liga Chili, 14 j)",
    "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:00Z",
+   "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
-   "live_score": "1-4",
-   "minute": "87'"
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "MLS",
@@ -2395,24 +2375,6 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9
-  },
-  {
-   "league": "Liga Chili",
-   "home": "Deportes Limache",
-   "away": "La Serena",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "2026-11-22 | Buts attendus Deportes Limache 1.6 - La Serena 1.3 | 1/N/2 : 43/26/31% | base sur 11 et 9 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Deportes Limache 1V · 1N · La Serena 1V (scores : 1-1, 1-0, 1-4)  ||  Deportes Limache : repos 14 j | prochains : Coquimbo Unido (Liga Chili, 6 j), Deportes Concepcion (Liga Chili, 14 j)  ||  La Serena : repos 15 j | prochains : Colo Colo (Liga Chili, 6 j), Audax Italiano (Liga Chili, 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T23:30Z",
-   "prio": 12
   },
   {
    "league": "Serie A",
@@ -3099,6 +3061,44 @@
    "prio": 0
   },
   {
+   "league": "Ligue des champions",
+   "home": "Manchester City",
+   "away": "Napoli",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-24 | Buts attendus Manchester City 1.9 - Napoli 1.5 | 1/N/2 : 46/23/31% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Face-à-face (1 confrontation) : Manchester City 1V · 0N · Napoli 0V (scores : 2-0) - trop peu pour influer  ||  Manchester City : 3e/20 (22 pts en 11 m.) | repos 3 j | prochains : Arsenal (Premier League, 5 j), Leeds United (Premier League, 8 j), Brentford (Premier League, 11 j)  ||  Napoli : 8e/20 (18 pts en 12 m.) | repos 3 j | prochains : Sassuolo (Serie A, 5 j), Lecce (Serie A, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T20:00Z",
+   "prio": 0
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Fluminense",
+   "away": "Mirassol",
+   "status": "finished",
+   "conf": 59,
+   "victoire": "Victoire Fluminense",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "12 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (3 confrontations) : Fluminense 1V · 0N · Mirassol 2V (scores : 1-2, 1-0, 0-1)  ||  Fluminense : repos 3 j | prochains : Cruzeiro (Brasileirao, 5 j), Red Bull Bragantino (Brasileirao, 10 j)  ||  Mirassol : repos 8 j | prochains : Athletico-PR (Brasileirao, 7 j), Grêmio (Brasileirao, 10 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T21:30Z",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
    "league": "Liga Equateur",
    "home": "Liga de Quito",
    "away": "Aucas",
@@ -3156,6 +3156,26 @@
    "kickoff": "2026-11-22T21:15Z",
    "prio": 12,
    "live_score": "4-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Venezuela",
+   "home": "Metropolitanos",
+   "away": "Deportivo La Guaira",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : Nul ou Metropolitanos",
+   "score_exact": "2-1 (9%) · 2-2 (8%)",
+   "double_chance": "1X 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "Resultat 1-5 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Metropolitanos 3V · 3N · Deportivo La Guaira 2V (scores : 2-1 x3, 2-2 x2, 0-0)  ||  Metropolitanos : repos 14 j  ||  Deportivo La Guaira : repos 14 j",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T21:00Z",
+   "prio": 12,
+   "live_score": "1-5",
    "minute": "FT"
   },
   {
@@ -3856,46 +3876,6 @@
    "kickoff": "2026-11-22T16:15Z",
    "prio": 3,
    "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Super Lig",
-   "home": "Trabzonspor",
-   "away": "Eyupspor",
-   "status": "finished",
-   "conf": 89,
-   "victoire": "Victoire Trabzonspor",
-   "score_exact": "3-0 (14%) · 4-0 (12%)",
-   "double_chance": "1X 98%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS NON 67%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (4 confrontations) : Trabzonspor 3V · 1N · Eyupspor 0V (scores : 1-0 x2, 0-0, 2-0)  ||  Trabzonspor : 2e/18 (25 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : CSKA Sofia (Conference League, 4 j), Goztepe (Super Lig, 8 j), Çorum FK (Super Lig, 14 j)  ||  Eyupspor : 18e/18 (3 pts en 11 m.) | repos 15 j | prochains : Istanbul Basaksehir (Super Lig, 7 j), Genclerbirligi (Super Lig, 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T16:00Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Austria Vienna",
-   "away": "RB Salzburg",
-   "status": "finished",
-   "conf": 70,
-   "victoire": "Victoire RB Salzburg",
-   "score_exact": "1-2 (11%) · 1-3 (8%)",
-   "double_chance": "12 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "Resultat 1-0 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Austria Vienna 1V · 0N · RB Salzburg 7V (scores : 1-3 x3, 0-1, 0-2)  ||  Austria Vienna : 9e/12 (8 pts en 11 m.) | repos 14 j | prochains : Wolfsberger (Bundesliga (AUT), 6 j), SK Sturm Graz (Bundesliga (AUT), 14 j)  ||  RB Salzburg : 2e/12 (27 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Ararat-Armenia (Ligue Europa, 4 j), LASK Linz (Bundesliga (AUT), 7 j), SC Rheindorf Altach (Bundesliga (AUT), 12 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T16:00Z",
-   "prio": 9,
-   "live_score": "1-0",
    "minute": "FT"
   }
  ]
