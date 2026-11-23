@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 23:48 UTC",
+ "date": "2026-11-23 23:56 UTC",
  "version": "V17",
- "ts": "2026-11-23T23:48:20.113431+00:00",
+ "ts": "2026-11-23T23:56:35.729402+00:00",
  "stats": {
   "n": 592,
   "n_avant": 372,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2454,8 +2454,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T22:30Z",
    "prio": 9,
-   "live_score": "1-2",
-   "minute": "54'"
+   "live_score": "1-3",
+   "minute": "62'"
   },
   {
    "league": "Brasileirao",
@@ -2475,7 +2475,7 @@
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Primera Paraguay",
@@ -2495,7 +2495,7 @@
    "kickoff": "2026-11-23T23:15Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "32'"
+   "minute": "40'"
   },
   {
    "league": "Liga Uruguay",
@@ -2515,7 +2515,7 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "60'"
+   "minute": "68'"
   },
   {
    "league": "Ligue des champions",
