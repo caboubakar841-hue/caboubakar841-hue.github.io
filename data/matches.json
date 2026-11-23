@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 01:51 UTC",
+ "date": "2026-11-23 02:00 UTC",
  "version": "V17",
- "ts": "2026-11-23T01:51:45.113057+00:00",
+ "ts": "2026-11-23T02:00:07.461006+00:00",
  "stats": {
   "n": 562,
   "n_avant": 342,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T01:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "20'"
   },
   {
    "league": "Liga Argentina",
@@ -2350,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T01:10Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "33'"
+   "live_score": "1-1",
+   "minute": "41'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T00:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "82'"
+   "minute": "90'"
   },
   {
    "league": "Liga MX",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T01:10Z",
    "prio": 12,
    "live_score": "1-1",
-   "minute": "41'"
+   "minute": "HT"
   },
   {
    "league": "Serie A",
