@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 21:43 UTC",
+ "date": "2026-11-23 21:51 UTC",
  "version": "V17",
- "ts": "2026-11-23T21:43:02.941487+00:00",
+ "ts": "2026-11-23T21:51:29.454803+00:00",
  "stats": {
   "n": 587,
   "n_avant": 367,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "3-0",
-   "minute": "75'"
+   "minute": "84'"
   },
   {
    "league": "La Liga",
@@ -2330,8 +2330,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
-   "live_score": "0-1",
-   "minute": "84'"
+   "live_score": "1-1",
+   "minute": "90'+3'"
   },
   {
    "league": "Liga Argentina",
@@ -2351,7 +2351,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 9,
    "live_score": "2-2",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "Primera Paraguay",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T21:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "Liga Bolivie",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T21:15Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "29'"
+   "minute": "38'"
   },
   {
    "league": "Brasileirao",
