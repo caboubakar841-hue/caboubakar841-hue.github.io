@@ -1,16 +1,16 @@
 {
- "date": "2026-11-23 20:03 UTC",
+ "date": "2026-11-23 20:11 UTC",
  "version": "V17",
- "ts": "2026-11-23T20:03:02.815432+00:00",
+ "ts": "2026-11-23T20:11:24.331732+00:00",
  "stats": {
-  "n": 575,
-  "n_avant": 355,
+  "n": 577,
+  "n_avant": 357,
   "dc": 79,
   "over": 53,
   "btts": 53,
   "score": 18,
-  "1x2": 59,
-  "n_fav": 276,
+  "1x2": 60,
+  "n_fav": 278,
   "serre": 74,
   "n_serre": 299,
   "base_dom": 45,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, afc.champions 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1",
+  "Matchs trouvés aujourd'hui par compétition : ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, esp.w.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 7 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "3'"
+   "minute": "11'"
   },
   {
    "league": "La Liga",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "10'"
   },
   {
    "league": "Serie A",
@@ -2351,7 +2351,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "18'"
+   "minute": "26'"
   },
   {
    "league": "La Liga 2",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "33'"
+   "minute": "42'"
   },
   {
    "league": "Ligue 2",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "18'"
+   "minute": "26'"
   },
   {
    "league": "Ligue 2",
@@ -2411,7 +2411,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "18'"
+   "minute": "26'"
   },
   {
    "league": "Liga Argentina",
@@ -2431,7 +2431,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "11'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2450,8 +2450,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-0",
+   "minute": "50'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2471,7 +2471,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "1-2",
-   "minute": "46'"
+   "minute": "54'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2511,7 +2511,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 11,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "54'"
   },
   {
    "league": "Liga Bolivie",
@@ -2531,47 +2531,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "HT"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Al Ittihad",
-   "away": "Pakhtakor",
-   "status": "live",
-   "conf": 55,
-   "victoire": "Victoire Al Ittihad",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-11-23 | Buts attendus Al Ittihad 2.1 - Pakhtakor 1.3 | 1/N/2 : 55/21/24% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al Ittihad : repos 21 j | prochains : Al Wasl (AFC Champions League, 14 j)  ||  Pakhtakor : repos 21 j | prochains : Tractor (AFC Champions League, 14 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T18:15Z",
-   "prio": 12,
-   "live_score": "2-0",
-   "minute": "90'"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Al-Quwa Al-Jawiya",
-   "away": "Al-Gharafa",
-   "status": "live",
-   "conf": 55,
-   "victoire": "Victoire Al-Quwa Al-Jawiya",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-11-23 | Buts attendus Al-Quwa Al-Jawiya 2.1 - Al-Gharafa 1.3 | 1/N/2 : 55/21/24% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al-Quwa Al-Jawiya : repos 21 j | prochains : Al Sadd (AFC Champions League, 14 j)  ||  Al-Gharafa : repos 21 j",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T18:15Z",
-   "prio": 12,
-   "live_score": "2-1",
-   "minute": "90'+2'"
+   "minute": "50'"
   },
   {
    "league": "Liga Uruguay",
@@ -2591,7 +2551,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "33'"
+   "minute": "41'"
   },
   {
    "league": "Brasileirao",
@@ -3312,6 +3272,46 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T21:00Z",
    "prio": 9
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Al Ittihad",
+   "away": "Pakhtakor",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire Al Ittihad",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Al Ittihad : repos 21 j | prochains : Al Wasl (AFC Champions League, 14 j)  ||  Pakhtakor : repos 21 j | prochains : Tractor (AFC Champions League, 14 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T18:15Z",
+   "prio": 12,
+   "live_score": "2-0",
+   "minute": "FT"
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Al-Quwa Al-Jawiya",
+   "away": "Al-Gharafa",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire Al-Quwa Al-Jawiya",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 67%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Al-Quwa Al-Jawiya : repos 21 j | prochains : Al Sadd (AFC Champions League, 14 j)  ||  Al-Gharafa : repos 21 j",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T18:15Z",
+   "prio": 12,
+   "live_score": "2-1",
+   "minute": "FT"
   },
   {
    "league": "Superliga (DEN)",
@@ -4071,46 +4071,6 @@
    "kickoff": "2026-11-22T19:45Z",
    "prio": 3,
    "live_score": "4-4",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Marseille",
-   "away": "Le Mans",
-   "status": "finished",
-   "conf": 62,
-   "victoire": "Victoire Marseille",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 68%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 2-3 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Marseille : 5e/18 (18 pts en 10 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Levski Sofia (Ligue Europa, 4 j), AJ Auxerre (Ligue 1, 7 j), Nice (Ligue 1, 14 j)  ||  Le Mans : 16e/18 (8 pts en 10 m.) | repos 14 j | prochains : Lille (Ligue 1, 6 j), Paris FC (Ligue 1, 13 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T19:45Z",
-   "prio": 3,
-   "live_score": "2-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Equateur",
-   "home": "Orense",
-   "away": "Mushuc Runa",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (9%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 52%",
-   "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Orense 4V · 2N · Mushuc Runa 2V (scores : 1-0, 2-2, 0-3)  ||  Orense : repos 14 j | prochains : Delfín (Liga Equateur, 5 j), Técnico Universitario (Liga Equateur, 14 j)  ||  Mushuc Runa : repos 13 j | prochains : Técnico Universitario (Liga Equateur, 8 j), Manta F.C. (Liga Equateur, 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T19:00Z",
-   "prio": 12,
-   "live_score": "2-3",
    "minute": "FT"
   }
  ]
