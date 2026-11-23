@@ -1,29 +1,29 @@
 {
- "date": "2026-11-23 20:52 UTC",
+ "date": "2026-11-23 21:01 UTC",
  "version": "V17",
- "ts": "2026-11-23T20:52:57.344646+00:00",
+ "ts": "2026-11-23T21:01:16.957965+00:00",
  "stats": {
-  "n": 578,
-  "n_avant": 358,
+  "n": 580,
+  "n_avant": 360,
   "dc": 79,
   "over": 53,
   "btts": 53,
   "score": 18,
   "1x2": 60,
-  "n_fav": 279,
+  "n_fav": 280,
   "serre": 74,
-  "n_serre": 299,
+  "n_serre": 300,
   "base_dom": 45,
-  "n_ctx": 238,
-  "brier_ctx": 0.611,
-  "brier_base": 0.602,
-  "n_h2h": 209,
-  "brier_h2h": 0.612,
-  "brier_noh2h": 0.604
+  "n_ctx": 240,
+  "brier_ctx": 0.612,
+  "brier_base": 0.604,
+  "n_h2h": 211,
+  "brier_h2h": 0.613,
+  "brier_noh2h": 0.606
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, bol.1 2, uru.1 2, ned.2 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, esp.w.1 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, esp.w.1 1, bol.1 1, ned.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -185,8 +185,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 94,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-0"
       },
       {
        "id": "401875009",
@@ -207,8 +207,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 90,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "0-3"
       },
       {
        "id": "401883110",
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "2-0",
-   "minute": "45'+8'"
+   "minute": "HT"
   },
   {
    "league": "La Liga",
@@ -2350,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3,
-   "live_score": "1-0",
-   "minute": "48'"
+   "live_score": "2-0",
+   "minute": "56'"
   },
   {
    "league": "La Liga 2",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
    "live_score": "2-2",
-   "minute": "58'"
+   "minute": "66'"
   },
   {
    "league": "Ligue 2",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "50'"
+   "minute": "58'"
   },
   {
    "league": "Ligue 2",
@@ -2411,7 +2411,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "47'"
+   "minute": "56'"
   },
   {
    "league": "Liga Argentina",
@@ -2435,26 +2435,6 @@
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
-   "home": "Jong Ajax",
-   "away": "Jong AZ",
-   "status": "live",
-   "conf": 50,
-   "victoire": "Victoire Jong AZ",
-   "score_exact": "1-2 (7%) · 2-3 (6%)",
-   "double_chance": "12 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 84%",
-   "btts": "BTTS OUI 80%",
-   "analyse": "2026-11-23 | Buts attendus Jong Ajax 2.2 - Jong AZ 2.4 | 1/N/2 : 32/17/50% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Jong Ajax 2V · 1N · Jong AZ 5V (scores : 1-2 x3, 1-1, 2-5)  ||  Jong Ajax : repos 3 j | prochains : Heracles Almelo (Dutch Keuken Kampioen Divisie, 4 j), FC Den Bosch (Dutch Keuken Kampioen Divisie, 13 j)  ||  Jong AZ : repos 3 j | prochains : TOP Oss (Dutch Keuken Kampioen Divisie, 4 j), RKC Waalwijk (Dutch Keuken Kampioen Divisie, 11 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:00Z",
-   "prio": 10,
-   "live_score": "3-0",
-   "minute": "90'+2'"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
    "home": "Vitesse",
    "away": "De Graafschap",
    "status": "live",
@@ -2471,7 +2451,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "0-1",
-   "minute": "87'"
+   "minute": "90'+5'"
   },
   {
    "league": "Liga F (F)",
@@ -2491,27 +2471,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 11,
    "live_score": "2-0",
-   "minute": "90'+5'"
-  },
-  {
-   "league": "Liga Bolivie",
-   "home": "Real Oruro",
-   "away": "Guabirá",
-   "status": "live",
-   "conf": 83,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (7%)",
-   "double_chance": "12 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 72%",
-   "analyse": "2026-11-23 | Buts attendus Real Oruro 2.3 - Guabirá 1.6 | 1/N/2 : 47/17/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Real Oruro 0V · 0N · Guabirá 3V (scores : 1-3, 3-6, 1-4)  ||  Real Oruro : repos 16 j | prochains : Independiente Petrolero (Liga Bolivie, 4 j), ABB (Liga Bolivie, 8 j)  ||  Guabirá : repos 16 j | prochains : Universitario de Vinto (Liga Bolivie, 5 j), Real Tomayapo (Liga Bolivie, 8 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:00Z",
-   "prio": 12,
-   "live_score": "0-2",
-   "minute": "90'+2'"
+   "minute": "90'+13'"
   },
   {
    "league": "Liga Uruguay",
@@ -2531,7 +2491,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "67'"
+   "minute": "75'"
   },
   {
    "league": "Brasileirao",
@@ -3252,6 +3212,46 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T21:00Z",
    "prio": 9
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "Real Oruro",
+   "away": "Guabirá",
+   "status": "finished",
+   "conf": 83,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (7%)",
+   "double_chance": "12 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 72%",
+   "analyse": "Resultat 0-3 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (3 confrontations) : Real Oruro 0V · 0N · Guabirá 3V (scores : 1-3, 3-6, 1-4)  ||  Real Oruro : repos 16 j | prochains : Independiente Petrolero (Liga Bolivie, 4 j), ABB (Liga Bolivie, 8 j)  ||  Guabirá : repos 16 j | prochains : Universitario de Vinto (Liga Bolivie, 5 j), Real Tomayapo (Liga Bolivie, 8 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:00Z",
+   "prio": 12,
+   "live_score": "0-3",
+   "minute": "FT"
+  },
+  {
+   "league": "Dutch Keuken Kampioen Divisie",
+   "home": "Jong Ajax",
+   "away": "Jong AZ",
+   "status": "finished",
+   "conf": 50,
+   "victoire": "Victoire Jong AZ",
+   "score_exact": "1-2 (7%) · 2-3 (6%)",
+   "double_chance": "12 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 84%",
+   "btts": "BTTS OUI 80%",
+   "analyse": "Resultat 3-0 | 1X2 RATE | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Jong Ajax 2V · 1N · Jong AZ 5V (scores : 1-2 x3, 1-1, 2-5)  ||  Jong Ajax : repos 3 j | prochains : Heracles Almelo (Dutch Keuken Kampioen Divisie, 4 j), FC Den Bosch (Dutch Keuken Kampioen Divisie, 13 j)  ||  Jong AZ : repos 3 j | prochains : TOP Oss (Dutch Keuken Kampioen Divisie, 4 j), RKC Waalwijk (Dutch Keuken Kampioen Divisie, 11 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:00Z",
+   "prio": 10,
+   "live_score": "3-0",
+   "minute": "FT"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -4011,46 +4011,6 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 3,
    "live_score": "0-3",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Burgos",
-   "away": "Albacete",
-   "status": "finished",
-   "conf": 53,
-   "victoire": "Victoire Burgos",
-   "score_exact": "1-0 (11%) · 2-0 (10%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS NON 51%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Burgos 3V · 2N · Albacete 3V (scores : 0-0, 1-1, 1-2)  ||  Burgos : 7e/22 (24 pts en 14 m.) | repos 9 j | prochains : Eibar (La Liga 2, 6 j)  ||  Albacete : 19e/22 (13 pts en 14 m.) | repos 6 j | prochains : Tenerife (La Liga 2, 6 j), Ceuta (La Liga 2, 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T20:00Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Perou",
-   "home": "Sporting Cristal",
-   "away": "Cienciano del Cusco",
-   "status": "finished",
-   "conf": 64,
-   "victoire": "Victoire Sporting Cristal",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 70%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Sporting Cristal 4V · 2N · Cienciano del Cusco 2V (scores : 4-1, 4-2, 0-1)  ||  Sporting Cristal : repos 15 j  ||  Cienciano del Cusco : repos 15 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T20:00Z",
-   "prio": 12,
-   "live_score": "4-1",
    "minute": "FT"
   }
  ]
