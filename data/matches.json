@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 02:25 UTC",
+ "date": "2026-11-23 02:33 UTC",
  "version": "V17",
- "ts": "2026-11-23T02:25:08.751262+00:00",
+ "ts": "2026-11-23T02:33:28.351191+00:00",
  "stats": {
   "n": 563,
   "n_avant": 343,
@@ -2310,8 +2310,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T01:30Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "44'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Liga Argentina",
@@ -2330,8 +2330,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T01:00Z",
    "prio": 9,
-   "live_score": "2-0",
-   "minute": "65'"
+   "live_score": "2-1",
+   "minute": "73'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2351,7 +2351,7 @@
    "kickoff": "2026-11-23T01:10Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "HT"
+   "minute": "52'"
   },
   {
    "league": "Liga MX",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T01:10Z",
    "prio": 12,
    "live_score": "1-1",
-   "minute": "55'"
+   "minute": "64'"
   },
   {
    "league": "Serie A",
