@@ -1,10 +1,10 @@
 {
- "date": "2026-11-23 22:49 UTC",
+ "date": "2026-11-23 22:58 UTC",
  "version": "V17",
- "ts": "2026-11-23T22:49:51.893075+00:00",
+ "ts": "2026-11-23T22:58:06.743197+00:00",
  "stats": {
-  "n": 590,
-  "n_avant": 370,
+  "n": 591,
+  "n_avant": 371,
   "dc": 79,
   "over": 53,
   "btts": 52,
@@ -12,18 +12,18 @@
   "1x2": 60,
   "n_fav": 283,
   "serre": 74,
-  "n_serre": 307,
+  "n_serre": 308,
   "base_dom": 45,
-  "n_ctx": 245,
-  "brier_ctx": 0.613,
+  "n_ctx": 246,
+  "brier_ctx": 0.614,
   "brier_base": 0.605,
-  "n_h2h": 216,
+  "n_h2h": 217,
   "brier_h2h": 0.615,
-  "brier_noh2h": 0.607
+  "brier_noh2h": 0.608
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : bra.1 2, par.1 2, bol.1 1, uru.1 1",
+  "Matchs trouvés aujourd'hui par compétition : bra.1 2, par.1 1, bol.1 1, uru.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 2 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2310,28 +2310,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T22:30Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "19'"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "2 de Mayo",
-   "away": "Sportivo San Lorenzo",
-   "status": "live",
-   "conf": 70,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (12%)",
-   "double_chance": "12 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 63%",
-   "btts": "BTTS NON 56%",
-   "analyse": "2026-11-23 | Buts attendus 2 de Mayo 1.2 - Sportivo San Lorenzo 1.0 | 1/N/2 : 38/30/32% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : 2 de Mayo 1V · 1N · Sportivo San Lorenzo 1V (scores : 1-1, 0-1, 2-1)  ||  2 de Mayo : repos 14 j | prochains : Libertad (Primera Paraguay, 2 j), Nacional Asunción (Primera Paraguay, 6 j)  ||  Sportivo San Lorenzo : repos 14 j | prochains : Sportivo Ameliano (Primera Paraguay, 2 j), Club Olimpia (Primera Paraguay, 6 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T21:00Z",
-   "prio": 12,
-   "live_score": "1-0",
-   "minute": "90'+2'"
+   "live_score": "0-2",
+   "minute": "27'"
   },
   {
    "league": "Liga Bolivie",
@@ -2351,7 +2331,7 @@
    "kickoff": "2026-11-23T21:15Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "80'"
+   "minute": "87'"
   },
   {
    "league": "Liga Uruguay",
@@ -2371,7 +2351,7 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "20'"
+   "minute": "28'"
   },
   {
    "league": "Brasileirao",
@@ -3092,6 +3072,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T10:00Z",
    "prio": 12
+  },
+  {
+   "league": "Primera Paraguay",
+   "home": "2 de Mayo",
+   "away": "Sportivo San Lorenzo",
+   "status": "finished",
+   "conf": 70,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (12%)",
+   "double_chance": "12 70%",
+   "corner": "N/D",
+   "over": "Under 2.5 63%",
+   "btts": "BTTS NON 56%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (3 confrontations) : 2 de Mayo 1V · 1N · Sportivo San Lorenzo 1V (scores : 1-1, 0-1, 2-1)  ||  2 de Mayo : repos 14 j | prochains : Libertad (Primera Paraguay, 2 j), Nacional Asunción (Primera Paraguay, 6 j)  ||  Sportivo San Lorenzo : repos 14 j | prochains : Sportivo Ameliano (Primera Paraguay, 2 j), Club Olimpia (Primera Paraguay, 6 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T21:00Z",
+   "prio": 12,
+   "live_score": "1-1",
+   "minute": "FT"
   },
   {
    "league": "Premier League",
@@ -3871,26 +3871,6 @@
    "kickoff": "2026-11-22T21:15Z",
    "prio": 12,
    "live_score": "4-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Venezuela",
-   "home": "Metropolitanos",
-   "away": "Deportivo La Guaira",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : Nul ou Metropolitanos",
-   "score_exact": "2-1 (9%) · 2-2 (8%)",
-   "double_chance": "1X 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "Resultat 1-5 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Metropolitanos 3V · 3N · Deportivo La Guaira 2V (scores : 2-1 x3, 2-2 x2, 0-0)  ||  Metropolitanos : repos 14 j  ||  Deportivo La Guaira : repos 14 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:00Z",
-   "prio": 12,
-   "live_score": "1-5",
    "minute": "FT"
   }
  ]
