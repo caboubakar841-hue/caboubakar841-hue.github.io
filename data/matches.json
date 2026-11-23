@@ -1,18 +1,18 @@
 {
- "date": "2026-11-23 00:03 UTC",
+ "date": "2026-11-23 00:11 UTC",
  "version": "V17",
- "ts": "2026-11-23T00:03:23.127618+00:00",
+ "ts": "2026-11-23T00:11:52.475795+00:00",
  "stats": {
-  "n": 557,
-  "n_avant": 339,
+  "n": 556,
+  "n_avant": 336,
   "dc": 79,
-  "over": 54,
+  "over": 53,
   "btts": 53,
   "score": 18,
   "1x2": 59,
   "n_fav": 269,
   "serre": 73,
-  "n_serre": 288,
+  "n_serre": 287,
   "base_dom": 45,
   "n_ctx": 224,
   "brier_ctx": 0.614,
@@ -27,12 +27,12 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 71",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 70",
   "Cartes à venir affichées : 40 (jours : 2026-11-23, 2026-11-24, 2026-11-25)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 15 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "23'"
+   "minute": "31'"
   },
   {
    "league": "Brasileirao",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-22T22:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "71'"
+   "minute": "80'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2352,6 +2352,26 @@
    "prio": 9,
    "live_score": "0-0",
    "minute": "HT"
+  },
+  {
+   "league": "Argentine Nacional B",
+   "home": "Gimnasia y Tiro (Salta)",
+   "away": "Tristán Suárez",
+   "status": "live",
+   "conf": 73,
+   "victoire": "Serré : Nul ou Tristán Suárez",
+   "score_exact": "0-0 (26%) · 0-1 (19%)",
+   "double_chance": "X2 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 84%",
+   "btts": "BTTS NON 75%",
+   "analyse": "2026-11-23 | Buts attendus Gimnasia y Tiro (Salta) 0.7 - Tristán Suárez 0.7 | 1/N/2 : 27/41/33% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Gimnasia y Tiro (Salta) 0V · 2N · Tristán Suárez 2V (scores : 1-1, 0-1, 1-2)  ||  Gimnasia y Tiro (Salta) : repos 7 j | prochains : Tristán Suárez (Argentine Nacional B, 6 j)  ||  Tristán Suárez : repos 7 j | prochains : Gimnasia y Tiro (Salta) (Argentine Nacional B, 6 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T00:00Z",
+   "prio": 10,
+   "live_score": "0-0",
+   "minute": "5'"
   },
   {
    "league": "Liga MX",
@@ -2391,7 +2411,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "35'"
+   "minute": "44'"
   },
   {
    "league": "Liga Chili",
@@ -2411,7 +2431,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "33'"
+   "minute": "41'"
   },
   {
    "league": "Serie A",
@@ -2682,24 +2702,6 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Argentine Nacional B",
-   "home": "Gimnasia y Tiro (Salta)",
-   "away": "Tristán Suárez",
-   "status": "today",
-   "conf": 73,
-   "victoire": "Serré : Nul ou Tristán Suárez",
-   "score_exact": "0-0 (26%) · 0-1 (19%)",
-   "double_chance": "X2 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 84%",
-   "btts": "BTTS NON 75%",
-   "analyse": "2026-11-23 | Buts attendus Gimnasia y Tiro (Salta) 0.7 - Tristán Suárez 0.7 | 1/N/2 : 27/41/33% | base sur 13 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Gimnasia y Tiro (Salta) 0V · 2N · Tristán Suárez 2V (scores : 1-1, 0-1, 1-2)  ||  Gimnasia y Tiro (Salta) : repos 7 j | prochains : Tristán Suárez (Argentine Nacional B, 6 j)  ||  Tristán Suárez : repos 7 j | prochains : Gimnasia y Tiro (Salta) (Argentine Nacional B, 6 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T00:00Z",
-   "prio": 10
   },
   {
    "league": "Indian Football League",
@@ -3129,6 +3131,24 @@
    "btts": "BTTS OUI 71%",
    "analyse": "2026-11-24 | Buts attendus RB Leipzig 2.9 - Lens 1.4 | 1/N/2 : 68/16/16% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). RB Leipzig : 4e/18 (21 pts en 10 m.) | repos 3 j | prochains : SC Freiburg (Bundesliga, 5 j), Bayer Leverkusen (Coupe d'Allemagne, 8 j), Mainz (Bundesliga, 11 j)  ||  Lens : 11e/18 (14 pts en 11 m.) | repos 3 j | prochains : Angers (Ligue 1, 4 j), Le Havre AC (Ligue 1, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T20:00Z",
+   "prio": 0
+  },
+  {
+   "league": "Ligue des champions",
+   "home": "Real Madrid",
+   "away": "PSV Eindhoven",
+   "status": "today",
+   "conf": 58,
+   "victoire": "Victoire Real Madrid",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-24 | Buts attendus Real Madrid 2.2 - PSV Eindhoven 1.3 | 1/N/2 : 58/20/22% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Real Madrid : 2e/20 (33 pts en 13 m.) | repos 3 j | prochains : Alavés (La Liga, 4 j), Real Sociedad (La Liga, 8 j), Athletic Club (La Liga, 12 j)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 3 j | prochains : Go Ahead Eagles (Eredivisie, 4 j), AZ Alkmaar (Eredivisie, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0
