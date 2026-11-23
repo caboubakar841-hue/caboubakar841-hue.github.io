@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 01:18 UTC",
+ "date": "2026-11-23 01:26 UTC",
  "version": "V17",
- "ts": "2026-11-23T01:18:23.542595+00:00",
+ "ts": "2026-11-23T01:26:40.597774+00:00",
  "stats": {
   "n": 559,
   "n_avant": 339,
@@ -27,12 +27,12 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 66",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 65",
   "Cartes à venir affichées : 40 (jours : 2026-11-23, 2026-11-24, 2026-11-25)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "Liga Argentina",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T01:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "17'"
+   "minute": "25'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T01:10Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "8'"
+   "minute": "16'"
   },
   {
    "league": "Liga Bolivie",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "90'+3'"
+   "minute": "90'+11'"
   },
   {
    "league": "Liga Chili",
@@ -2411,7 +2411,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "1-2",
-   "minute": "88'"
+   "minute": "90'+7'"
   },
   {
    "league": "Serie A",
