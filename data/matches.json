@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 19:54 UTC",
+ "date": "2026-11-23 20:03 UTC",
  "version": "V17",
- "ts": "2026-11-23T19:54:43.573283+00:00",
+ "ts": "2026-11-23T20:03:02.815432+00:00",
  "stats": {
   "n": 575,
   "n_avant": 355,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2294,6 +2294,46 @@
  ],
  "matches": [
   {
+   "league": "Premier League",
+   "home": "Brentford",
+   "away": "Everton",
+   "status": "live",
+   "conf": 74,
+   "victoire": "Serré : Nul ou Brentford",
+   "score_exact": "0-0 (12%) · 1-0 (11%)",
+   "double_chance": "1X 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-23 | Buts attendus Brentford 1.5 - Everton 0.8 | 1/N/2 : 41/33/26% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Brentford 1V · 4N · Everton 3V (scores : 1-1 x2, 0-1 x2, 1-3)  ||  Brentford : 10e/20 (14 pts en 10 m.) | repos 15 j | prochains : Manchester United (Premier League, 5 j), Arsenal (Premier League, 9 j), Manchester City (Premier League, 12 j)  ||  Everton : 7e/20 (16 pts en 10 m.) | repos 17 j | prochains : Liverpool (Premier League, 6 j), Aston Villa (Premier League, 9 j), Fulham (Premier League, 13 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T20:00Z",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "3'"
+  },
+  {
+   "league": "La Liga",
+   "home": "Levante",
+   "away": "Elche",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "2026-11-23 | Buts attendus Levante 1.7 - Elche 1.3 | 1/N/2 : 48/24/29% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Levante 1V · 0N · Elche 1V (scores : 0-2, 3-2) - trop peu pour influer  ||  Levante : 18e/20 (11 pts en 12 m.) | repos 11 j | prochains : Racing Santander (La Liga, 4 j), Rayo Vallecano (La Liga, 12 j)  ||  Elche : 19e/20 (10 pts en 12 m.) | repos 15 j | prochains : Atlético Madrid (La Liga, 5 j), Osasuna (La Liga, 13 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T20:00Z",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "1'"
+  },
+  {
    "league": "Serie A",
    "home": "Monza",
    "away": "Fiorentina",
@@ -2311,7 +2351,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "18'"
   },
   {
    "league": "La Liga 2",
@@ -2330,8 +2370,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "25'"
+   "live_score": "1-2",
+   "minute": "33'"
   },
   {
    "league": "Ligue 2",
@@ -2351,7 +2391,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "10'"
+   "minute": "18'"
   },
   {
    "league": "Ligue 2",
@@ -2371,7 +2411,27 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "10'"
+   "minute": "18'"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Gimnasia La Plata",
+   "away": "Newell's Old Boys",
+   "status": "live",
+   "conf": 70,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (13%) · 1-0 (12%)",
+   "double_chance": "12 70%",
+   "corner": "N/D",
+   "over": "Under 2.5 65%",
+   "btts": "BTTS NON 58%",
+   "analyse": "2026-11-23 | Buts attendus Gimnasia La Plata 1.0 - Newell's Old Boys 1.1 | 1/N/2 : 33/30/37% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : Gimnasia La Plata 1V · 1N · Newell's Old Boys 1V (scores : 0-2, 2-2, 1-0)  ||  Gimnasia La Plata : repos 18 j  ||  Newell's Old Boys : repos 16 j",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T20:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "2'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2411,7 +2471,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "1-2",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2431,7 +2491,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "44'"
+   "minute": "HT"
   },
   {
    "league": "Liga F (F)",
@@ -2491,7 +2551,7 @@
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "80'"
+   "minute": "90'"
   },
   {
    "league": "AFC Champions League",
@@ -2511,7 +2571,7 @@
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12,
    "live_score": "2-1",
-   "minute": "83'"
+   "minute": "90'+2'"
   },
   {
    "league": "Liga Uruguay",
@@ -2531,61 +2591,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "24'"
-  },
-  {
-   "league": "Premier League",
-   "home": "Brentford",
-   "away": "Everton",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : Nul ou Brentford",
-   "score_exact": "0-0 (12%) · 1-0 (11%)",
-   "double_chance": "1X 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-23 | Buts attendus Brentford 1.5 - Everton 0.8 | 1/N/2 : 41/33/26% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Brentford 1V · 4N · Everton 3V (scores : 1-1 x2, 0-1 x2, 1-3)  ||  Brentford : 10e/20 (14 pts en 10 m.) | repos 15 j | prochains : Manchester United (Premier League, 5 j), Arsenal (Premier League, 9 j), Manchester City (Premier League, 12 j)  ||  Everton : 7e/20 (16 pts en 10 m.) | repos 17 j | prochains : Liverpool (Premier League, 6 j), Aston Villa (Premier League, 9 j), Fulham (Premier League, 13 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T20:00Z",
-   "prio": 3
-  },
-  {
-   "league": "La Liga",
-   "home": "Levante",
-   "away": "Elche",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-23 | Buts attendus Levante 1.7 - Elche 1.3 | 1/N/2 : 48/24/29% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Levante 1V · 0N · Elche 1V (scores : 0-2, 3-2) - trop peu pour influer  ||  Levante : 18e/20 (11 pts en 12 m.) | repos 11 j | prochains : Racing Santander (La Liga, 4 j), Rayo Vallecano (La Liga, 12 j)  ||  Elche : 19e/20 (10 pts en 12 m.) | repos 15 j | prochains : Atlético Madrid (La Liga, 5 j), Osasuna (La Liga, 13 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T20:00Z",
-   "prio": 3
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Gimnasia La Plata",
-   "away": "Newell's Old Boys",
-   "status": "today",
-   "conf": 70,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (12%)",
-   "double_chance": "12 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 65%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-23 | Buts attendus Gimnasia La Plata 1.0 - Newell's Old Boys 1.1 | 1/N/2 : 33/30/37% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Gimnasia La Plata 1V · 1N · Newell's Old Boys 1V (scores : 0-2, 2-2, 1-0)  ||  Gimnasia La Plata : repos 18 j  ||  Newell's Old Boys : repos 16 j",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T20:00Z",
-   "prio": 9
+   "minute": "33'"
   },
   {
    "league": "Brasileirao",
@@ -3251,6 +3257,60 @@
    "contexte": "Face-à-face (7 confrontations) : Hibernian 4V · 2N · Dundee 1V (scores : 2-1 x2, 2-2, 1-4)  ||  Hibernian : 11e/12 (8 pts en 11 m.) | repos 3 j | prochains : Motherwell (Scottish Premiership, 4 j), Kilmarnock (Scottish Premiership, 8 j), Rangers (Scottish Premiership, 13 j)  ||  Dundee : 7e/12 (14 pts en 11 m.) | repos 3 j | prochains : Aberdeen (Scottish Premiership, 4 j), Celtic (Scottish Premiership, 8 j), Falkirk (Scottish Premiership, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
+   "prio": 9
+  },
+  {
+   "league": "Championship",
+   "home": "Wolverhampton Wanderers",
+   "away": "Derby County",
+   "status": "today",
+   "conf": 73,
+   "victoire": "Victoire Wolverhampton Wanderers",
+   "score_exact": "3-0 (10%) · 4-0 (6%)",
+   "double_chance": "1X 90%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS NON 52%",
+   "analyse": "2026-11-24 | Buts attendus Wolverhampton Wanderers 2.4 - Derby County 0.8 | 1/N/2 : 73/16/10% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Wolverhampton Wanderers : 4e/24 (31 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Lincoln City (Championship, 4 j), Southampton (Championship, 11 j)  ||  Derby County : 23e/24 (10 pts en 16 m.) | repos 3 j | prochains : Watford (Championship, 4 j), Middlesbrough (Championship, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T20:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Scottish Premiership",
+   "home": "Rangers",
+   "away": "Aberdeen",
+   "status": "today",
+   "conf": 63,
+   "victoire": "Victoire Rangers",
+   "score_exact": "3-0 (7%) · 4-0 (3%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 50%",
+   "btts": "BTTS NON 53%",
+   "analyse": "2026-11-24 | Buts attendus Rangers 1.8 - Aberdeen 0.9 | 1/N/2 : 63/20/17% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Rangers 6V · 1N · Aberdeen 1V (scores : 2-0 x2, 1-2, 3-0)  ||  Rangers : 1e/12 (29 pts en 11 m.) | repos 3 j | prochains : Falkirk (Scottish Premiership, 4 j), Dundee United (Scottish Premiership, 8 j), Hibernian (Scottish Premiership, 13 j)  ||  Aberdeen : 8e/12 (11 pts en 11 m.) | repos 3 j | prochains : Dundee (Scottish Premiership, 4 j), Heart of Midlothian (Scottish Premiership, 8 j), Dundee United (Scottish Premiership, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T20:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Chapecoense",
+   "away": "Palmeiras",
+   "status": "today",
+   "conf": 68,
+   "victoire": "Victoire Palmeiras",
+   "score_exact": "0-3 (9%) · 0-4 (5%)",
+   "double_chance": "X2 88%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-24 | Buts attendus Chapecoense 0.7 - Palmeiras 2.1 | 1/N/2 : 12/19/68% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : Chapecoense 0V · 0N · Palmeiras 1V (scores : 0-1) - trop peu pour influer  ||  Chapecoense : repos 3 j | prochains : Flamengo (Brasileirao, 8 j)  ||  Palmeiras : repos 3 j | prochains : Estudiantes de La Plata (Copa Libertadores, 4 j), Coritiba (Brasileirao, 8 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T21:00Z",
    "prio": 9
   },
   {
