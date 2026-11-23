@@ -1,29 +1,29 @@
 {
- "date": "2026-11-23 21:34 UTC",
+ "date": "2026-11-23 21:43 UTC",
  "version": "V17",
- "ts": "2026-11-23T21:34:42.356156+00:00",
+ "ts": "2026-11-23T21:43:02.941487+00:00",
  "stats": {
-  "n": 584,
-  "n_avant": 364,
-  "dc": 79,
-  "over": 54,
-  "btts": 53,
+  "n": 587,
+  "n_avant": 367,
+  "dc": 80,
+  "over": 53,
+  "btts": 52,
   "score": 18,
   "1x2": 60,
   "n_fav": 283,
   "serre": 74,
-  "n_serre": 301,
+  "n_serre": 304,
   "base_dom": 45,
-  "n_ctx": 242,
+  "n_ctx": 243,
   "brier_ctx": 0.613,
   "brier_base": 0.606,
-  "n_h2h": 213,
+  "n_h2h": 214,
   "brier_h2h": 0.615,
   "brier_noh2h": 0.608
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, eng.1 1, esp.1 1, ita.1 1, arg.1 1, bol.1 1, uru.1 1",
+  "Matchs trouvés aujourd'hui par compétition : bra.1 2, par.1 2, eng.1 1, esp.1 1, arg.1 1, bol.1 1, uru.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -131,8 +131,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-0"
       },
       {
        "id": "401888562",
@@ -196,8 +196,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 92,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-0"
       },
       {
        "id": "401930027",
@@ -223,7 +223,7 @@
       }
      ],
      "combined": 66.5,
-     "status": "en cours"
+     "status": "gagné"
     }
    ]
   },
@@ -2310,8 +2310,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
-   "live_score": "2-0",
-   "minute": "67'"
+   "live_score": "3-0",
+   "minute": "75'"
   },
   {
    "league": "La Liga",
@@ -2331,67 +2331,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-1",
-   "minute": "76'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Monza",
-   "away": "Fiorentina",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (7%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 76%",
-   "analyse": "2026-11-23 | Buts attendus Monza 2.0 - Fiorentina 2.0 | 1/N/2 : 38/23/38% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Monza 2V · 2N · Fiorentina 2V (scores : 1-1, 3-2, 0-1)  ||  Monza : 18e/20 (7 pts en 11 m.) | repos 15 j | prochains : AS Roma (Serie A, 6 j), Como (Serie A, 12 j)  ||  Fiorentina : 15e/20 (9 pts en 11 m.) | repos 15 j | prochains : Udinese (Serie A, 6 j), Cagliari (Serie A, 14 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:45Z",
-   "prio": 3,
-   "live_score": "3-0",
-   "minute": "90'"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Nantes",
-   "away": "Grenoble",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-23 | Buts attendus Nantes 1.5 - Grenoble 1.2 | 1/N/2 : 46/25/29% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Nantes : 14e/18 (12 pts en 11 m.) | repos 8 j | prochains : Nueillaubiers (Coupe de France, 6 j), Montpellier (Ligue 2, 12 j)  ||  Grenoble : 17e/18 (11 pts en 11 m.) | repos 11 j | prochains : Nimes (Coupe de France, 5 j), Guingamp (Ligue 2, 11 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:45Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "90'+2'"
-  },
-  {
-   "league": "Ligue 2",
-   "home": "Sochaux",
-   "away": "Dunkerque",
-   "status": "live",
-   "conf": 68,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (15%) · 1-0 (14%)",
-   "double_chance": "12 68%",
-   "corner": "N/D",
-   "over": "Under 2.5 70%",
-   "btts": "BTTS NON 62%",
-   "analyse": "2026-11-23 | Buts attendus Sochaux 0.9 - Dunkerque 1.0 | 1/N/2 : 32/32/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Sochaux : 16e/18 (11 pts en 11 m.) | repos 9 j | prochains : Saint-Die Kellermann (Coupe de France, 6 j), Dijon FCO (Ligue 2, 11 j)  ||  Dunkerque : 13e/18 (12 pts en 11 m.) | repos 9 j | prochains : Red Star FC 93 (Ligue 2, 12 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:45Z",
-   "prio": 9,
-   "live_score": "2-3",
-   "minute": "90'"
+   "minute": "84'"
   },
   {
    "league": "Liga Argentina",
@@ -2410,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T20:00Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "72'"
+   "live_score": "2-2",
+   "minute": "81'"
   },
   {
    "league": "Primera Paraguay",
@@ -2431,7 +2371,7 @@
    "kickoff": "2026-11-23T21:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "34'"
+   "minute": "43'"
   },
   {
    "league": "Liga Bolivie",
@@ -2451,7 +2391,7 @@
    "kickoff": "2026-11-23T21:15Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "21'"
+   "minute": "29'"
   },
   {
    "league": "Brasileirao",
@@ -3172,6 +3112,66 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T13:00Z",
    "prio": 10
+  },
+  {
+   "league": "Serie A",
+   "home": "Monza",
+   "away": "Fiorentina",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (7%) · 2-1 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 76%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : Monza 2V · 2N · Fiorentina 2V (scores : 1-1, 3-2, 0-1)  ||  Monza : 18e/20 (7 pts en 11 m.) | repos 15 j | prochains : AS Roma (Serie A, 6 j), Como (Serie A, 12 j)  ||  Fiorentina : 15e/20 (9 pts en 11 m.) | repos 15 j | prochains : Udinese (Serie A, 6 j), Cagliari (Serie A, 14 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:45Z",
+   "prio": 3,
+   "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue 2",
+   "home": "Sochaux",
+   "away": "Dunkerque",
+   "status": "finished",
+   "conf": 68,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (15%) · 1-0 (14%)",
+   "double_chance": "12 68%",
+   "corner": "N/D",
+   "over": "Under 2.5 70%",
+   "btts": "BTTS NON 62%",
+   "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Sochaux : 16e/18 (11 pts en 11 m.) | repos 9 j | prochains : Saint-Die Kellermann (Coupe de France, 6 j), Dijon FCO (Ligue 2, 11 j)  ||  Dunkerque : 13e/18 (12 pts en 11 m.) | repos 9 j | prochains : Red Star FC 93 (Ligue 2, 12 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:45Z",
+   "prio": 9,
+   "live_score": "2-3",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue 2",
+   "home": "Nantes",
+   "away": "Grenoble",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Nantes : 14e/18 (12 pts en 11 m.) | repos 8 j | prochains : Nueillaubiers (Coupe de France, 6 j), Montpellier (Ligue 2, 12 j)  ||  Grenoble : 17e/18 (11 pts en 11 m.) | repos 11 j | prochains : Nimes (Coupe de France, 5 j), Guingamp (Ligue 2, 11 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:45Z",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
   },
   {
    "league": "La Liga 2",
@@ -3911,66 +3911,6 @@
    "kickoff": "2026-11-22T21:00Z",
    "prio": 12,
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Rubio Ñú",
-   "away": "Libertad",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Libertad",
-   "score_exact": "1-2 (9%) · 1-3 (6%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (3 confrontations) : Rubio Ñú 2V · 0N · Libertad 1V (scores : 1-0, 3-0, 2-4)  ||  Rubio Ñú : repos 13 j | prochains : Nacional Asunción (Primera Paraguay, 3 j), Cerro Porteño (Primera Paraguay, 7 j)  ||  Libertad : repos 15 j | prochains : 2 de Mayo (Primera Paraguay, 3 j), Sportivo Ameliano (Primera Paraguay, 7 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:00Z",
-   "prio": 12,
-   "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Guatemalan Liga Nacional",
-   "home": "Cobán Imperial",
-   "away": "Deportivo San Pedro",
-   "status": "finished",
-   "conf": 50,
-   "victoire": "Victoire Cobán Imperial",
-   "score_exact": "2-1 (9%) · 1-0 (12%)",
-   "double_chance": "1X 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : Cobán Imperial 0V · 1N · Deportivo San Pedro 0V (scores : 1-1) - trop peu pour influer  ||  Cobán Imperial : repos 8 j | prochains : Aurora FC (Guatemalan Liga Nacional, 6 j)  ||  Deportivo San Pedro : repos 7 j | prochains : CD Guastatoya (Guatemalan Liga Nacional, 6 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:00Z",
-   "prio": 9,
-   "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Honduran Liga Nacional",
-   "home": "Platense",
-   "away": "CD Choloma",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Platense",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Peu ou pas de données pour : CD Choloma (estimation neutre, très incertaine). Platense : repos 16 j  ||  CD Choloma",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:00Z",
-   "prio": 13,
-   "live_score": "0-0",
    "minute": "FT"
   }
  ]
