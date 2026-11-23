@@ -1,24 +1,24 @@
 {
- "date": "2026-11-23 01:34 UTC",
+ "date": "2026-11-23 01:43 UTC",
  "version": "V17",
- "ts": "2026-11-23T01:34:55.869727+00:00",
+ "ts": "2026-11-23T01:43:18.710934+00:00",
  "stats": {
-  "n": 561,
-  "n_avant": 341,
+  "n": 562,
+  "n_avant": 342,
   "dc": 79,
-  "over": 53,
+  "over": 54,
   "btts": 53,
   "score": 18,
   "1x2": 60,
   "n_fav": 270,
   "serre": 73,
-  "n_serre": 291,
+  "n_serre": 292,
   "base_dom": 45,
-  "n_ctx": 229,
+  "n_ctx": 230,
   "brier_ctx": 0.613,
   "brier_base": 0.603,
-  "n_h2h": 200,
-  "brier_h2h": 0.615,
+  "n_h2h": 201,
+  "brier_h2h": 0.614,
   "brier_noh2h": 0.605
  },
  "diag": [
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 10 s"
  ],
  "tickets": [
   {
@@ -2295,23 +2295,23 @@
  "matches": [
   {
    "league": "MLS",
-   "home": "Chicago Fire FC",
-   "away": "Charlotte FC",
+   "home": "Vancouver Whitecaps",
+   "away": "Real Salt Lake",
    "status": "live",
-   "conf": 85,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 85%",
+   "conf": 60,
+   "victoire": "Victoire Vancouver Whitecaps",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 86%",
    "corner": "N/D",
-   "over": "Over 2.5 77%",
-   "btts": "BTTS OUI 73%",
-   "analyse": "2026-11-22 | Buts attendus Chicago Fire FC 2.0 - Charlotte FC 2.0 | 1/N/2 : 43/15/42% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Chicago Fire FC 4V · 0N · Charlotte FC 4V (scores : 1-2, 0-2, 0-1)  ||  Chicago Fire FC : repos 15 j | prochains : Charlotte FC (MLS, 6 j), Charlotte FC (MLS, 10 j)  ||  Charlotte FC : repos 15 j | prochains : Chicago Fire FC (MLS, 6 j), Chicago Fire FC (MLS, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T23:30Z",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-23 | Buts attendus Vancouver Whitecaps 2.1 - Real Salt Lake 1.0 | 1/N/2 : 60/14/26% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Vancouver Whitecaps 4V · 0N · Real Salt Lake 4V (scores : 1-2 x4, 2-1, 3-2)  ||  Vancouver Whitecaps : repos 15 j | prochains : Real Salt Lake (MLS, 5 j), Real Salt Lake (MLS, 10 j)  ||  Real Salt Lake : repos 3 j | prochains : Vancouver Whitecaps (MLS, 5 j), Vancouver Whitecaps (MLS, 10 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T01:30Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "90'+8'"
+   "live_score": "0-0",
+   "minute": "3'"
   },
   {
    "league": "Liga Argentina",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T01:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "33'"
+   "minute": "42'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2350,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T01:10Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "16'"
+   "live_score": "0-1",
+   "minute": "25'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T00:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "65'"
+   "minute": "73'"
   },
   {
    "league": "Liga MX",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T01:10Z",
    "prio": 12,
    "live_score": "1-1",
-   "minute": "24'"
+   "minute": "33'"
   },
   {
    "league": "Serie A",
@@ -2446,24 +2446,6 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "MLS",
-   "home": "Vancouver Whitecaps",
-   "away": "Real Salt Lake",
-   "status": "today",
-   "conf": 60,
-   "victoire": "Victoire Vancouver Whitecaps",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-23 | Buts attendus Vancouver Whitecaps 2.1 - Real Salt Lake 1.0 | 1/N/2 : 60/14/26% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Vancouver Whitecaps 4V · 0N · Real Salt Lake 4V (scores : 1-2 x4, 2-1, 3-2)  ||  Vancouver Whitecaps : repos 15 j | prochains : Real Salt Lake (MLS, 5 j), Real Salt Lake (MLS, 10 j)  ||  Real Salt Lake : repos 3 j | prochains : Vancouver Whitecaps (MLS, 5 j), Vancouver Whitecaps (MLS, 10 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T01:30Z",
-   "prio": 9
   },
   {
    "league": "Super League (GRE)",
@@ -3114,6 +3096,24 @@
    "prio": 9
   },
   {
+   "league": "MLS",
+   "home": "St. Louis CITY SC",
+   "away": "LAFC",
+   "status": "today",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (8%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 59%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-24 | Buts attendus St. Louis CITY SC 2.1 - LAFC 1.0 | 1/N/2 : 47/22/31% | base sur 16 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : St. Louis CITY SC 1V · 2N · LAFC 5V (scores : 0-3 x2, 0-2 x2, 0-0)  ||  St. Louis CITY SC : repos 16 j | prochains : LAFC (MLS, 5 j), LAFC (MLS, 9 j)  ||  LAFC : repos 16 j | prochains : St. Louis CITY SC (MLS, 5 j), St. Louis CITY SC (MLS, 9 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T01:00Z",
+   "prio": 9
+  },
+  {
    "league": "Liga Bolivie",
    "home": "San Antonio Bulo Bulo",
    "away": "Always Ready",
@@ -3150,6 +3150,26 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "Chicago Fire FC",
+   "away": "Charlotte FC",
+   "status": "finished",
+   "conf": 85,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 77%",
+   "btts": "BTTS OUI 73%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Chicago Fire FC 4V · 0N · Charlotte FC 4V (scores : 1-2, 0-2, 0-1)  ||  Chicago Fire FC : repos 15 j | prochains : Charlotte FC (MLS, 6 j), Charlotte FC (MLS, 10 j)  ||  Charlotte FC : repos 15 j | prochains : Chicago Fire FC (MLS, 6 j), Chicago Fire FC (MLS, 10 j)",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T23:30Z",
+   "prio": 9,
    "live_score": "1-2",
    "minute": "FT"
   },
@@ -3891,26 +3911,6 @@
    "kickoff": "2026-11-22T17:00Z",
    "prio": 3,
    "live_score": "5-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Super League (GRE)",
-   "home": "Olympiacos",
-   "away": "Iraklis",
-   "status": "finished",
-   "conf": 64,
-   "victoire": "Victoire Olympiacos",
-   "score_exact": "1-0 (17%) · 2-0 (15%)",
-   "double_chance": "1X 87%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 63%",
-   "analyse": "Resultat 6-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Olympiacos : 3e/14 (23 pts en 10 m.) | repos 14 j | match europeen proche : rotation possible | prochains : AC Milan (Ligue Europa, 4 j), Aris (Super League (GRE), 7 j), AEK Athens (Super League (GRE), 13 j)  ||  Iraklis : 9e/14 (10 pts en 10 m.) | repos 14 j | prochains : Panetolikos (Super League (GRE), 6 j), OFI Crete (Super League (GRE), 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T17:00Z",
-   "prio": 9,
-   "live_score": "6-2",
    "minute": "FT"
   }
  ]
