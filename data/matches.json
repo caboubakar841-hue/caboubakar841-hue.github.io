@@ -1,16 +1,16 @@
 {
- "date": "2026-11-23 17:49 UTC",
+ "date": "2026-11-23 17:57 UTC",
  "version": "V17",
- "ts": "2026-11-23T17:49:35.871096+00:00",
+ "ts": "2026-11-23T17:57:55.391874+00:00",
  "stats": {
-  "n": 570,
-  "n_avant": 350,
+  "n": 571,
+  "n_avant": 351,
   "dc": 79,
   "over": 53,
   "btts": 53,
   "score": 18,
-  "1x2": 60,
-  "n_fav": 273,
+  "1x2": 59,
+  "n_fav": 274,
   "serre": 73,
   "n_serre": 297,
   "base_dom": 45,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : afc.champions 5, ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, tur.1 1",
+  "Matchs trouvés aujourd'hui par compétition : afc.champions 4, ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, tur.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -2315,26 +2315,6 @@
   },
   {
    "league": "AFC Champions League",
-   "home": "Al Ain",
-   "away": "Esteghlal FC",
-   "status": "live",
-   "conf": 64,
-   "victoire": "Victoire Al Ain",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-23 | Buts attendus Al Ain 2.2 - Esteghlal FC 1.1 | 1/N/2 : 64/19/17% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al Ain : repos 21 j | prochains : Al Hilal (AFC Champions League, 14 j)  ||  Esteghlal FC : repos 20 j | prochains : Neftchi Fergana (AFC Champions League, 14 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T16:00Z",
-   "prio": 12,
-   "live_score": "1-1",
-   "minute": "89'"
-  },
-  {
-   "league": "AFC Champions League",
    "home": "Al-Shamal",
    "away": "Al Ahli",
    "status": "live",
@@ -2350,8 +2330,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12,
-   "live_score": "2-2",
-   "minute": "89'"
+   "live_score": "3-2",
+   "minute": "90'+7'"
   },
   {
    "league": "AFC Champions League",
@@ -2370,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12,
-   "live_score": "1-4",
-   "minute": "86'"
+   "live_score": "1-5",
+   "minute": "90'+5'"
   },
   {
    "league": "Serie A",
@@ -3092,6 +3072,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Al Ain",
+   "away": "Esteghlal FC",
+   "status": "finished",
+   "conf": 64,
+   "victoire": "Victoire Al Ain",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 64%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Al Ain : repos 21 j | prochains : Al Hilal (AFC Champions League, 14 j)  ||  Esteghlal FC : repos 20 j | prochains : Neftchi Fergana (AFC Champions League, 14 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T16:00Z",
+   "prio": 12,
+   "live_score": "1-1",
+   "minute": "FT"
   },
   {
    "league": "Super League (GRE)",
@@ -3871,26 +3871,6 @@
    "kickoff": "2026-11-22T19:00Z",
    "prio": 10,
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Pro League",
-   "home": "Lommel SK",
-   "away": "Standard Liege",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Lommel SK",
-   "score_exact": "2-1 (10%) · 1-0 (12%)",
-   "double_chance": "1X 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 1-2 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Lommel SK : 7e/18 (15 pts en 10 m.) | repos 15 j | prochains : Zulte-Waregem (Pro League, 6 j)  ||  Standard Liege : 8e/18 (14 pts en 10 m.) | repos 16 j | prochains : Club Brugge (Pro League, 7 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T18:15Z",
-   "prio": 9,
-   "live_score": "1-2",
    "minute": "FT"
   }
  ]
