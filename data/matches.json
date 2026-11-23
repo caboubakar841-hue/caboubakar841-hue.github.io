@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 22:58 UTC",
+ "date": "2026-11-23 23:06 UTC",
  "version": "V17",
- "ts": "2026-11-23T22:58:06.743197+00:00",
+ "ts": "2026-11-23T23:06:25.530084+00:00",
  "stats": {
   "n": 591,
   "n_avant": 371,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 6 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,27 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "27'"
+   "minute": "35'"
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Botafogo",
+   "away": "São Paulo",
+   "status": "live",
+   "conf": 70,
+   "victoire": "Serré : Nul ou Botafogo",
+   "score_exact": "0-0 (17%) · 1-0 (14%)",
+   "double_chance": "1X 70%",
+   "corner": "N/D",
+   "over": "Under 2.5 71%",
+   "btts": "BTTS NON 60%",
+   "analyse": "2026-11-23 | Buts attendus Botafogo 0.9 - São Paulo 1.0 | 1/N/2 : 33/37/30% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Botafogo 3V · 4N · São Paulo 1V (scores : 2-1 x2, 2-2 x2, 1-0)  ||  Botafogo : repos 5 j | prochains : Bahia (Brasileirao, 5 j), Santos (Brasileirao, 9 j)  ||  São Paulo : repos 4 j | prochains : Remo (Brasileirao, 3 j), Athletico-PR (Brasileirao, 9 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T23:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "5'"
   },
   {
    "league": "Liga Bolivie",
@@ -2330,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T21:15Z",
    "prio": 12,
-   "live_score": "2-0",
-   "minute": "87'"
+   "live_score": "3-0",
+   "minute": "90'+6'"
   },
   {
    "league": "Liga Uruguay",
@@ -2351,25 +2371,7 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "28'"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Botafogo",
-   "away": "São Paulo",
-   "status": "today",
-   "conf": 70,
-   "victoire": "Serré : Nul ou Botafogo",
-   "score_exact": "0-0 (17%) · 1-0 (14%)",
-   "double_chance": "1X 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 71%",
-   "btts": "BTTS NON 60%",
-   "analyse": "2026-11-23 | Buts attendus Botafogo 0.9 - São Paulo 1.0 | 1/N/2 : 33/37/30% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Botafogo 3V · 4N · São Paulo 1V (scores : 2-1 x2, 2-2 x2, 1-0)  ||  Botafogo : repos 5 j | prochains : Bahia (Brasileirao, 5 j), Santos (Brasileirao, 9 j)  ||  São Paulo : repos 4 j | prochains : Remo (Brasileirao, 3 j), Athletico-PR (Brasileirao, 9 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T23:00Z",
-   "prio": 9
+   "minute": "36'"
   },
   {
    "league": "Primera Paraguay",
@@ -3069,6 +3071,24 @@
    "btts": "BTTS OUI 60%",
    "analyse": "2026-11-24 | Buts attendus Daejeon Hana Citizen FC 1.7 - Beijing Guoan 1.3 | 1/N/2 : 45/24/31% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Daejeon Hana Citizen FC : repos 21 j | prochains : Johor Darul Ta'zim (AFC Champions League, 7 j)  ||  Beijing Guoan : repos 21 j | prochains : Ratchaburi FC (AFC Champions League, 7 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T10:00Z",
+   "prio": 12
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Kyoto Sanga",
+   "away": "Pohang Steelers",
+   "status": "today",
+   "conf": 61,
+   "victoire": "Victoire Kyoto Sanga",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-24 | Buts attendus Kyoto Sanga 2.0 - Pohang Steelers 1.0 | 1/N/2 : 61/21/18% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Kyoto Sanga : repos 3 j | prochains : Cerezo Osaka (J1 League, 4 j), Buriram United (AFC Champions League, 7 j), Tokyo Verdy 1969 (J1 League, 11 j)  ||  Pohang Steelers : repos 20 j | prochains : Shanghai Port FC (AFC Champions League, 7 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T10:00Z",
    "prio": 12
