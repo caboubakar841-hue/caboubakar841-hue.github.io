@@ -1,10 +1,10 @@
 {
- "date": "2026-11-23 23:06 UTC",
+ "date": "2026-11-23 23:14 UTC",
  "version": "V17",
- "ts": "2026-11-23T23:06:25.530084+00:00",
+ "ts": "2026-11-23T23:14:42.876389+00:00",
  "stats": {
-  "n": 591,
-  "n_avant": 371,
+  "n": 592,
+  "n_avant": 372,
   "dc": 79,
   "over": 53,
   "btts": 52,
@@ -12,18 +12,18 @@
   "1x2": 60,
   "n_fav": 283,
   "serre": 74,
-  "n_serre": 308,
+  "n_serre": 309,
   "base_dom": 45,
-  "n_ctx": 246,
-  "brier_ctx": 0.614,
-  "brier_base": 0.605,
-  "n_h2h": 217,
-  "brier_h2h": 0.615,
-  "brier_noh2h": 0.608
+  "n_ctx": 247,
+  "brier_ctx": 0.613,
+  "brier_base": 0.604,
+  "n_h2h": 218,
+  "brier_h2h": 0.614,
+  "brier_noh2h": 0.606
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : bra.1 2, par.1 1, bol.1 1, uru.1 1",
+  "Matchs trouvés aujourd'hui par compétition : bra.1 2, par.1 1, uru.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 24 s"
  ],
  "tickets": [
   {
@@ -2310,8 +2310,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T22:30Z",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "35'"
+   "live_score": "1-2",
+   "minute": "44'"
   },
   {
    "league": "Brasileirao",
@@ -2331,27 +2331,7 @@
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
-  },
-  {
-   "league": "Liga Bolivie",
-   "home": "Universitario de Vinto",
-   "away": "GV San José",
-   "status": "live",
-   "conf": 80,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-23 | Buts attendus Universitario de Vinto 2.2 - GV San José 1.4 | 1/N/2 : 49/20/30% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Universitario de Vinto 1V · 1N · GV San José 3V (scores : 1-1, 1-4, 4-0)  ||  Universitario de Vinto : repos 14 j | prochains : Guabirá (Liga Bolivie, 5 j), Real Potosí (Liga Bolivie, 8 j)  ||  GV San José : repos 16 j | prochains : Real Potosí (Liga Bolivie, 5 j), San Antonio Bulo Bulo (Liga Bolivie, 10 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T21:15Z",
-   "prio": 12,
-   "live_score": "3-0",
-   "minute": "90'+6'"
+   "minute": "13'"
   },
   {
    "league": "Liga Uruguay",
@@ -2371,7 +2351,7 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "36'"
+   "minute": "44'"
   },
   {
    "league": "Primera Paraguay",
@@ -2548,7 +2528,7 @@
    "over": "Over 2.5 71%",
    "btts": "BTTS OUI 58%",
    "analyse": "2026-11-24 | Buts attendus Slovan Bratislava 1.0 - Real Betis 2.7 | 1/N/2 : 12/15/73% | base sur 0 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Slovan Bratislava (estimation neutre, très incertaine). Slovan Bratislava : repos 21 j  ||  Real Betis : 4e/20 (27 pts en 13 m.) | repos 3 j | prochains : Rayo Vallecano (La Liga, 4 j), Atlético Madrid (La Liga, 12 j)",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Slovan Bratislava (estimation neutre, très incertaine). Slovan Bratislava : repos 21 j  ||  Real Betis : 4e/20 (27 pts en 13 m.) | repos 3 j | prochains : Rayo Vallecano (La Liga, 4 j), CD Extremadura (Coupe du Roi, 8 j), Atlético Madrid (La Liga, 12 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0
@@ -3092,6 +3072,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T10:00Z",
    "prio": 12
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "Universitario de Vinto",
+   "away": "GV San José",
+   "status": "finished",
+   "conf": 80,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (5 confrontations) : Universitario de Vinto 1V · 1N · GV San José 3V (scores : 1-1, 1-4, 4-0)  ||  Universitario de Vinto : repos 14 j | prochains : Guabirá (Liga Bolivie, 5 j), Real Potosí (Liga Bolivie, 8 j)  ||  GV San José : repos 16 j | prochains : Real Potosí (Liga Bolivie, 5 j), San Antonio Bulo Bulo (Liga Bolivie, 10 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T21:15Z",
+   "prio": 12,
+   "live_score": "3-0",
+   "minute": "FT"
   },
   {
    "league": "Primera Paraguay",
@@ -3871,26 +3871,6 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 10,
    "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Bolivie",
-   "home": "The Strongest",
-   "away": "Blooming",
-   "status": "finished",
-   "conf": 55,
-   "victoire": "Victoire The Strongest",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "1X 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : The Strongest 4V · 2N · Blooming 2V (scores : 3-1 x2, 1-1 x2, 1-0)  ||  The Strongest : repos 14 j | prochains : Aurora (Liga Bolivie, 7 j), Nacional Potosí (Liga Bolivie, 10 j)  ||  Blooming : repos 14 j | prochains : San Antonio Bulo Bulo (Liga Bolivie, 7 j), Always Ready (Liga Bolivie, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:15Z",
-   "prio": 12,
-   "live_score": "4-0",
    "minute": "FT"
   }
  ]
