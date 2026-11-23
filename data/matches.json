@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 20:11 UTC",
+ "date": "2026-11-23 20:19 UTC",
  "version": "V17",
- "ts": "2026-11-23T20:11:24.331732+00:00",
+ "ts": "2026-11-23T20:19:44.834217+00:00",
  "stats": {
   "n": 577,
   "n_avant": 357,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "20'"
   },
   {
    "league": "La Liga",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "10'"
+   "minute": "18'"
   },
   {
    "league": "Serie A",
@@ -2351,7 +2351,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "26'"
+   "minute": "34'"
   },
   {
    "league": "La Liga 2",
@@ -2370,8 +2370,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
-   "live_score": "1-2",
-   "minute": "42'"
+   "live_score": "2-2",
+   "minute": "45'+5'"
   },
   {
    "league": "Ligue 2",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "26'"
+   "minute": "35'"
   },
   {
    "league": "Ligue 2",
@@ -2411,7 +2411,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "26'"
+   "minute": "35'"
   },
   {
    "league": "Liga Argentina",
@@ -2431,7 +2431,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "19'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2451,7 +2451,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "1-0",
-   "minute": "50'"
+   "minute": "59'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2471,7 +2471,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "1-2",
-   "minute": "54'"
+   "minute": "63'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2491,7 +2491,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "53'"
   },
   {
    "league": "Liga F (F)",
@@ -2510,8 +2510,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:00Z",
    "prio": 11,
-   "live_score": "0-0",
-   "minute": "54'"
+   "live_score": "1-0",
+   "minute": "62'"
   },
   {
    "league": "Liga Bolivie",
@@ -2531,7 +2531,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "50'"
+   "minute": "58'"
   },
   {
    "league": "Liga Uruguay",
@@ -2551,7 +2551,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "41'"
+   "minute": "HT"
   },
   {
    "league": "Brasileirao",
