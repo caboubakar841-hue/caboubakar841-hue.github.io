@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 14:29 UTC",
+ "date": "2026-11-23 14:37 UTC",
  "version": "V17",
- "ts": "2026-11-23T14:29:07.508042+00:00",
+ "ts": "2026-11-23T14:37:27.260313+00:00",
  "stats": {
   "n": 567,
   "n_avant": 347,
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T13:00Z",
    "prio": 10,
    "live_score": "2-1",
-   "minute": "69'"
+   "minute": "78'"
   },
   {
    "league": "AFC Champions League",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T13:45Z",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "44'"
+   "minute": "HT"
   },
   {
    "league": "Serie A",
