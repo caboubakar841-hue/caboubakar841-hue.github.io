@@ -1,16 +1,16 @@
 {
- "date": "2026-11-23 21:01 UTC",
+ "date": "2026-11-23 21:09 UTC",
  "version": "V17",
- "ts": "2026-11-23T21:01:16.957965+00:00",
+ "ts": "2026-11-23T21:09:35.944727+00:00",
  "stats": {
-  "n": 580,
-  "n_avant": 360,
+  "n": 581,
+  "n_avant": 361,
   "dc": 79,
-  "over": 53,
+  "over": 54,
   "btts": 53,
   "score": 18,
   "1x2": 60,
-  "n_fav": 280,
+  "n_fav": 281,
   "serre": 74,
   "n_serre": 300,
   "base_dom": 45,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, esp.w.1 1, bol.1 1, ned.2 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, bol.1 1, ned.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "50'"
   },
   {
    "league": "Serie A",
@@ -2350,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3,
-   "live_score": "2-0",
-   "minute": "56'"
+   "live_score": "3-0",
+   "minute": "65'"
   },
   {
    "league": "La Liga 2",
@@ -2370,8 +2370,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
-   "live_score": "2-2",
-   "minute": "66'"
+   "live_score": "2-3",
+   "minute": "74'"
   },
   {
    "league": "Ligue 2",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "58'"
+   "minute": "67'"
   },
   {
    "league": "Ligue 2",
@@ -2410,8 +2410,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "56'"
+   "live_score": "1-3",
+   "minute": "65'"
   },
   {
    "league": "Liga Argentina",
@@ -2431,7 +2431,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2451,27 +2451,27 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "0-1",
-   "minute": "90'+5'"
+   "minute": "90'+13'"
   },
   {
-   "league": "Liga F (F)",
-   "home": "Espanyol (F)",
-   "away": "Valencia (F)",
+   "league": "Primera Paraguay",
+   "home": "2 de Mayo",
+   "away": "Sportivo San Lorenzo",
    "status": "live",
-   "conf": 54,
-   "victoire": "Victoire Espanyol (F)",
-   "score_exact": "1-0 (14%) · 2-0 (11%)",
-   "double_chance": "1X 80%",
+   "conf": 70,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (12%)",
+   "double_chance": "12 70%",
    "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-23 | Buts attendus Espanyol (F) 1.6 - Valencia (F) 0.9 | 1/N/2 : 54/25/20% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Espanyol (F) 1V · 1N · Valencia (F) 0V (scores : 1-0, 1-1) - trop peu pour influer  ||  Espanyol (F) : repos 9 j  ||  Valencia (F) : repos 8 j",
+   "over": "Under 2.5 63%",
+   "btts": "BTTS NON 56%",
+   "analyse": "2026-11-23 | Buts attendus 2 de Mayo 1.2 - Sportivo San Lorenzo 1.0 | 1/N/2 : 38/30/32% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : 2 de Mayo 1V · 1N · Sportivo San Lorenzo 1V (scores : 1-1, 0-1, 2-1)  ||  2 de Mayo : repos 14 j | prochains : Libertad (Primera Paraguay, 2 j), Nacional Asunción (Primera Paraguay, 6 j)  ||  Sportivo San Lorenzo : repos 14 j | prochains : Sportivo Ameliano (Primera Paraguay, 2 j), Club Olimpia (Primera Paraguay, 6 j)",
    "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:00Z",
-   "prio": 11,
-   "live_score": "2-0",
-   "minute": "90'+13'"
+   "kickoff": "2026-11-23T21:00Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "9'"
   },
   {
    "league": "Liga Uruguay",
@@ -2491,7 +2491,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "75'"
+   "minute": "83'"
   },
   {
    "league": "Brasileirao",
@@ -2528,24 +2528,6 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "2 de Mayo",
-   "away": "Sportivo San Lorenzo",
-   "status": "today",
-   "conf": 70,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (12%)",
-   "double_chance": "12 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 63%",
-   "btts": "BTTS NON 56%",
-   "analyse": "2026-11-23 | Buts attendus 2 de Mayo 1.2 - Sportivo San Lorenzo 1.0 | 1/N/2 : 38/30/32% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : 2 de Mayo 1V · 1N · Sportivo San Lorenzo 1V (scores : 1-1, 0-1, 2-1)  ||  2 de Mayo : repos 14 j | prochains : Libertad (Primera Paraguay, 2 j), Nacional Asunción (Primera Paraguay, 6 j)  ||  Sportivo San Lorenzo : repos 14 j | prochains : Sportivo Ameliano (Primera Paraguay, 2 j), Club Olimpia (Primera Paraguay, 6 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T21:00Z",
-   "prio": 12
   },
   {
    "league": "Liga Bolivie",
@@ -3214,6 +3196,24 @@
    "prio": 9
   },
   {
+   "league": "Indian Football League",
+   "home": "Samaleswari SC",
+   "away": "Bengaluru United FC",
+   "status": "today",
+   "conf": 68,
+   "victoire": "Victoire Bengaluru United FC",
+   "score_exact": "1-2 (9%) · 1-3 (8%)",
+   "double_chance": "X2 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "2026-11-24 | Buts attendus Samaleswari SC 1.1 - Bengaluru United FC 2.5 | 1/N/2 : 15/17/68% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Samaleswari SC : repos 5 j | prochains : Real Kashmir (Indian Football League, 7 j)  ||  Bengaluru United FC : repos 6 j",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T10:30Z",
+   "prio": 10
+  },
+  {
    "league": "Liga Bolivie",
    "home": "Real Oruro",
    "away": "Guabirá",
@@ -3231,6 +3231,26 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 12,
    "live_score": "0-3",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga F (F)",
+   "home": "Espanyol (F)",
+   "away": "Valencia (F)",
+   "status": "finished",
+   "conf": 54,
+   "victoire": "Victoire Espanyol (F)",
+   "score_exact": "1-0 (14%) · 2-0 (11%)",
+   "double_chance": "1X 80%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Espanyol (F) 1V · 1N · Valencia (F) 0V (scores : 1-0, 1-1) - trop peu pour influer  ||  Espanyol (F) : repos 9 j  ||  Valencia (F) : repos 8 j",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:00Z",
+   "prio": 11,
+   "live_score": "2-0",
    "minute": "FT"
   },
   {
@@ -3991,26 +4011,6 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 12,
    "live_score": "4-1",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga",
-   "home": "Getafe",
-   "away": "Atlético Madrid",
-   "status": "finished",
-   "conf": 61,
-   "victoire": "Victoire Atlético Madrid",
-   "score_exact": "0-1 (17%) · 0-2 (14%)",
-   "double_chance": "X2 86%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 62%",
-   "analyse": "Resultat 0-3 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Getafe 1V · 2N · Atlético Madrid 5V (scores : 0-1 x3, 0-3 x2, 1-1)  ||  Getafe : 15e/20 (12 pts en 12 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Iberia 1999 (Conference League, 4 j), Espanyol (La Liga, 8 j), Valencia (La Liga, 14 j)  ||  Atlético Madrid : 3e/20 (28 pts en 12 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Viking FK (Ligue des champions, 3 j), Elche (La Liga, 6 j), Barcelona (La Liga, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T20:00Z",
-   "prio": 3,
-   "live_score": "0-3",
    "minute": "FT"
   }
  ]
