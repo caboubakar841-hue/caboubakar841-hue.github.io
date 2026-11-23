@@ -1,16 +1,16 @@
 {
- "date": "2026-11-23 18:47 UTC",
+ "date": "2026-11-23 18:56 UTC",
  "version": "V17",
- "ts": "2026-11-23T18:47:56.218044+00:00",
+ "ts": "2026-11-23T18:56:23.241342+00:00",
  "stats": {
-  "n": 573,
-  "n_avant": 353,
+  "n": 574,
+  "n_avant": 354,
   "dc": 79,
   "over": 53,
   "btts": 53,
   "score": 18,
   "1x2": 59,
-  "n_fav": 275,
+  "n_fav": 276,
   "serre": 73,
   "n_serre": 298,
   "base_dom": 45,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, afc.champions 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, tur.1 1",
+  "Matchs trouvés aujourd'hui par compétition : ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, afc.champions 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, den.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -2294,26 +2294,6 @@
  ],
  "matches": [
   {
-   "league": "Super Lig",
-   "home": "Istanbul Basaksehir",
-   "away": "Çorum FK",
-   "status": "live",
-   "conf": 54,
-   "victoire": "Victoire Istanbul Basaksehir",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 71%",
-   "analyse": "2026-11-23 | Buts attendus Istanbul Basaksehir 2.3 - Çorum FK 1.5 | 1/N/2 : 54/20/26% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Istanbul Basaksehir : 9e/18 (17 pts en 11 m.) | repos 16 j | prochains : Eyupspor (Super Lig, 6 j), Fenerbahce (Super Lig, 12 j)  ||  Çorum FK : 11e/18 (16 pts en 11 m.) | repos 15 j | prochains : Kocaelispor (Super Lig, 6 j), Trabzonspor (Super Lig, 13 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T17:00Z",
-   "prio": 9,
-   "live_score": "3-2",
-   "minute": "88'"
-  },
-  {
    "league": "Superliga (DEN)",
    "home": "Brøndby IF",
    "away": "FC Midtjylland",
@@ -2330,8 +2310,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T18:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "45'+2'"
+   "live_score": "0-1",
+   "minute": "HT"
   },
   {
    "league": "AFC Champions League",
@@ -2351,7 +2331,7 @@
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "32'"
+   "minute": "41'"
   },
   {
    "league": "AFC Champions League",
@@ -2371,7 +2351,7 @@
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "40'"
   },
   {
    "league": "Serie A",
@@ -3092,6 +3072,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
+  },
+  {
+   "league": "Super Lig",
+   "home": "Istanbul Basaksehir",
+   "away": "Çorum FK",
+   "status": "finished",
+   "conf": 54,
+   "victoire": "Victoire Istanbul Basaksehir",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 71%",
+   "analyse": "Resultat 4-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Istanbul Basaksehir : 9e/18 (17 pts en 11 m.) | repos 16 j | prochains : Eyupspor (Super Lig, 6 j), Fenerbahce (Super Lig, 12 j)  ||  Çorum FK : 11e/18 (16 pts en 11 m.) | repos 15 j | prochains : Kocaelispor (Super Lig, 6 j), Trabzonspor (Super Lig, 13 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T17:00Z",
+   "prio": 9,
+   "live_score": "4-2",
+   "minute": "FT"
   },
   {
    "league": "AFC Champions League",
@@ -3871,26 +3871,6 @@
    "kickoff": "2026-11-22T19:00Z",
    "prio": 9,
    "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Athletico-PR",
-   "away": "Remo",
-   "status": "finished",
-   "conf": 61,
-   "victoire": "Victoire Athletico-PR",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "Resultat 4-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : Athletico-PR 1V · 0N · Remo 0V (scores : 2-1) - trop peu pour influer  ||  Athletico-PR : repos 4 j | prochains : Mirassol (Brasileirao, 7 j), São Paulo (Brasileirao, 10 j)  ||  Remo : repos 4 j | prochains : São Paulo (Brasileirao, 4 j), Corinthians (Brasileirao, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T19:00Z",
-   "prio": 9,
-   "live_score": "4-2",
    "minute": "FT"
   }
  ]
