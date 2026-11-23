@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 16:59 UTC",
+ "date": "2026-11-23 17:07 UTC",
  "version": "V17",
- "ts": "2026-11-23T16:59:11.307600+00:00",
+ "ts": "2026-11-23T17:07:41.994406+00:00",
  "stats": {
   "n": 570,
   "n_avant": 350,
@@ -25,14 +25,14 @@
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : afc.champions 5, ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, tur.1 1",
   "Matchs ignorés car illisibles : 0",
-  "Matchs sans données masqués (remplacés par d'autres) : 96",
+  "Matchs sans données masqués (remplacés par d'autres) : 84",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 54",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 47",
   "Cartes à venir affichées : 40 (jours : 2026-11-23, 2026-11-24, 2026-11-25)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 17 s"
  ],
  "tickets": [
   {
@@ -2294,6 +2294,26 @@
  ],
  "matches": [
   {
+   "league": "Super Lig",
+   "home": "Istanbul Basaksehir",
+   "away": "Çorum FK",
+   "status": "live",
+   "conf": 54,
+   "victoire": "Victoire Istanbul Basaksehir",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 71%",
+   "analyse": "2026-11-23 | Buts attendus Istanbul Basaksehir 2.3 - Çorum FK 1.5 | 1/N/2 : 54/20/26% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Istanbul Basaksehir : 9e/18 (17 pts en 11 m.) | repos 16 j | prochains : Eyupspor (Super Lig, 6 j), Fenerbahce (Super Lig, 12 j)  ||  Çorum FK : 11e/18 (16 pts en 11 m.) | repos 15 j | prochains : Kocaelispor (Super Lig, 6 j), Trabzonspor (Super Lig, 13 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T17:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "8'"
+  },
+  {
    "league": "AFC Champions League",
    "home": "Al Ain",
    "away": "Esteghlal FC",
@@ -2311,7 +2331,7 @@
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "AFC Champions League",
@@ -2331,7 +2351,7 @@
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "AFC Champions League",
@@ -2406,24 +2426,6 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Super Lig",
-   "home": "Istanbul Basaksehir",
-   "away": "Çorum FK",
-   "status": "today",
-   "conf": 54,
-   "victoire": "Victoire Istanbul Basaksehir",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 71%",
-   "analyse": "2026-11-23 | Buts attendus Istanbul Basaksehir 2.3 - Çorum FK 1.5 | 1/N/2 : 54/20/26% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Istanbul Basaksehir : 9e/18 (17 pts en 11 m.) | repos 16 j | prochains : Eyupspor (Super Lig, 6 j), Fenerbahce (Super Lig, 12 j)  ||  Çorum FK : 11e/18 (16 pts en 11 m.) | repos 15 j | prochains : Kocaelispor (Super Lig, 6 j), Trabzonspor (Super Lig, 13 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T17:00Z",
-   "prio": 9
   },
   {
    "league": "Superliga (DEN)",
@@ -3071,6 +3073,24 @@
    "contexte": "Virtus Entella : 17e/20 (10 pts en 12 m.) | repos 3 j | prochains : Ascoli (Serie B, 4 j), Empoli (Serie B, 12 j)  ||  Hellas Verona : 9e/20 (16 pts en 12 m.) | repos 4 j | prochains : Empoli (Serie B, 4 j), Palermo (Serie B, 12 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Championship",
+   "home": "Bristol City",
+   "away": "Wrexham",
+   "status": "today",
+   "conf": 71,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (12%) · 1-0 (12%)",
+   "double_chance": "12 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-24 | Buts attendus Bristol City 1.1 - Wrexham 1.1 | 1/N/2 : 35/29/36% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Bristol City 0V · 1N · Wrexham 1V (scores : 0-2, 2-2) - trop peu pour influer  ||  Bristol City : 18e/24 (18 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : West Bromwich Albion (Championship, 4 j), Swansea City (Championship, 11 j)  ||  Wrexham : 14e/24 (21 pts en 16 m.) | repos 3 j | prochains : Portsmouth (Championship, 4 j), Norwich City (Championship, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T19:45Z",
    "prio": 9
   },
   {
