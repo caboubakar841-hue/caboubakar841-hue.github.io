@@ -1,10 +1,10 @@
 {
- "date": "2026-11-23 01:01 UTC",
+ "date": "2026-11-23 01:10 UTC",
  "version": "V17",
- "ts": "2026-11-23T01:01:49.374426+00:00",
+ "ts": "2026-11-23T01:10:06.633057+00:00",
  "stats": {
-  "n": 557,
-  "n_avant": 337,
+  "n": 558,
+  "n_avant": 338,
   "dc": 79,
   "over": 53,
   "btts": 53,
@@ -12,14 +12,14 @@
   "1x2": 59,
   "n_fav": 269,
   "serre": 73,
-  "n_serre": 288,
+  "n_serre": 289,
   "base_dom": 45,
-  "n_ctx": 225,
-  "brier_ctx": 0.613,
-  "brier_base": 0.604,
-  "n_h2h": 196,
-  "brier_h2h": 0.615,
-  "brier_noh2h": 0.606
+  "n_ctx": 226,
+  "brier_ctx": 0.614,
+  "brier_base": 0.603,
+  "n_h2h": 197,
+  "brier_h2h": 0.616,
+  "brier_noh2h": 0.605
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -27,12 +27,12 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 68",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 67",
   "Cartes à venir affichées : 40 (jours : 2026-11-23, 2026-11-24, 2026-11-25)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2310,8 +2310,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "64'"
+   "live_score": "1-1",
+   "minute": "73'"
   },
   {
    "league": "Liga Argentina",
@@ -2330,8 +2330,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T01:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "1-0",
+   "minute": "9'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2351,7 +2351,7 @@
    "kickoff": "2026-11-22T23:05Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "88'"
+   "minute": "90'+6'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2374,26 +2374,6 @@
    "minute": "HT"
   },
   {
-   "league": "Liga MX",
-   "home": "Guadalajara",
-   "away": "Cruz Azul",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (10%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-22 | Buts attendus Guadalajara 1.9 - Cruz Azul 1.4 | 1/N/2 : 35/23/42% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Guadalajara 0V · 2N · Cruz Azul 6V (scores : 1-2 x3, 0-1 x2, 0-0)  ||  Guadalajara : repos 14 j  ||  Cruz Azul : repos 15 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T23:07Z",
-   "prio": 12,
-   "live_score": "1-0",
-   "minute": "90'+4'"
-  },
-  {
    "league": "Liga Bolivie",
    "home": "San Antonio Bulo Bulo",
    "away": "Always Ready",
@@ -2411,7 +2391,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "77'"
+   "minute": "85'"
   },
   {
    "league": "Liga Chili",
@@ -2431,7 +2411,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "1-2",
-   "minute": "71'"
+   "minute": "80'"
   },
   {
    "league": "Serie A",
@@ -3152,6 +3132,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0
+  },
+  {
+   "league": "Liga MX",
+   "home": "Guadalajara",
+   "away": "Cruz Azul",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (10%) · 2-1 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Guadalajara 0V · 2N · Cruz Azul 6V (scores : 1-2 x3, 0-1 x2, 0-0)  ||  Guadalajara : repos 14 j  ||  Cruz Azul : repos 15 j",
+   "day": "2026-11-22",
+   "kickoff": "2026-11-22T23:07Z",
+   "prio": 12,
+   "live_score": "1-0",
+   "minute": "FT"
   },
   {
    "league": "Brasileirao",
@@ -3927,26 +3927,6 @@
    "btts": "BTTS OUI 55%",
    "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
    "contexte": "Face-à-face (8 confrontations) : Liverpool 2V · 3N · Manchester United 3V (scores : 1-2 x2, 2-2 x2, 7-0)  ||  Liverpool : repos 2 j | match europeen proche : rotation possible | prochains : Club Brugge (Ligue des champions, 3 j), Everton (Premier League, 7 j), Sunderland (Premier League, 10 j)  ||  Manchester United : 19e/20 (8 pts en 10 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Sporting CP (Ligue des champions, 3 j), Brentford (Premier League, 6 j), Newcastle United (Premier League, 10 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T16:30Z",
-   "prio": 3,
-   "live_score": "4-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "Werder Bremen",
-   "away": "Hamburg SV",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Victoire Werder Bremen",
-   "score_exact": "2-1 (9%) · 3-1 (8%)",
-   "double_chance": "1X 89%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : Werder Bremen 1V · 0N · Hamburg SV 1V (scores : 2-3, 3-1) - trop peu pour influer  ||  Werder Bremen : 6e/18 (15 pts en 9 m.) | repos 15 j | prochains : Borussia Mönchengladbach (Bundesliga, 5 j), Eintracht Frankfurt (Bundesliga, 13 j)  ||  Hamburg SV : 11e/18 (12 pts en 9 m.) | repos 16 j | prochains : Bayern Munich (Bundesliga, 6 j), 1. FC Union Berlin (Bundesliga, 13 j)",
    "day": "2026-11-22",
    "kickoff": "2026-11-22T16:30Z",
    "prio": 3,
