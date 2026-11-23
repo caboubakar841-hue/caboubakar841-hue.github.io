@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 12:57 UTC",
+ "date": "2026-11-23 13:05 UTC",
  "version": "V17",
- "ts": "2026-11-23T12:57:23.826481+00:00",
+ "ts": "2026-11-23T13:05:45.833865+00:00",
  "stats": {
   "n": 567,
   "n_avant": 347,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2294,6 +2294,26 @@
  ],
  "matches": [
   {
+   "league": "Indian Football League",
+   "home": "Real Kashmir",
+   "away": "Dempo Sports Club",
+   "status": "live",
+   "conf": 55,
+   "victoire": "Victoire Dempo Sports Club",
+   "score_exact": "1-2 (9%) · 1-3 (6%)",
+   "double_chance": "X2 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-23 | Buts attendus Real Kashmir 0.9 - Dempo Sports Club 2.1 | 1/N/2 : 18/26/55% | base sur 3 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (3 confrontations) : Real Kashmir 1V · 2N · Dempo Sports Club 0V (scores : 2-0, 1-1, 2-2)  ||  Real Kashmir : repos 9 j | prochains : Samaleswari SC (Indian Football League, 8 j)  ||  Dempo Sports Club : repos 4 j | prochains : Nagaland United SC (Indian Football League, 7 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T13:00Z",
+   "prio": 10,
+   "live_score": "0-0",
+   "minute": "5'"
+  },
+  {
    "league": "Serie A",
    "home": "Monza",
    "away": "Fiorentina",
@@ -2508,24 +2528,6 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Indian Football League",
-   "home": "Real Kashmir",
-   "away": "Dempo Sports Club",
-   "status": "today",
-   "conf": 55,
-   "victoire": "Victoire Dempo Sports Club",
-   "score_exact": "1-2 (9%) · 1-3 (6%)",
-   "double_chance": "X2 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-23 | Buts attendus Real Kashmir 0.9 - Dempo Sports Club 2.1 | 1/N/2 : 18/26/55% | base sur 3 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Real Kashmir 1V · 2N · Dempo Sports Club 0V (scores : 2-0, 1-1, 2-2)  ||  Real Kashmir : repos 9 j | prochains : Samaleswari SC (Indian Football League, 8 j)  ||  Dempo Sports Club : repos 4 j | prochains : Nagaland United SC (Indian Football League, 7 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T13:00Z",
-   "prio": 10
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -3011,6 +3013,24 @@
    "contexte": "Face-à-face (8 confrontations) : St. Louis CITY SC 1V · 2N · LAFC 5V (scores : 0-3 x2, 0-2 x2, 0-0)  ||  St. Louis CITY SC : repos 16 j | prochains : LAFC (MLS, 5 j), LAFC (MLS, 9 j)  ||  LAFC : repos 16 j | prochains : St. Louis CITY SC (MLS, 5 j), St. Louis CITY SC (MLS, 9 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T01:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Serie B",
+   "home": "Juve Stabia",
+   "away": "Catanzaro",
+   "status": "today",
+   "conf": 79,
+   "victoire": "Serré : Nul ou Juve Stabia",
+   "score_exact": "1-1 (16%) · 1-0 (11%)",
+   "double_chance": "1X 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-11-24 | Buts attendus Juve Stabia 1.5 - Catanzaro 1.0 | 1/N/2 : 45/34/21% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Juve Stabia 1V · 3N · Catanzaro 0V (scores : 0-0, 2-0, 2-2)  ||  Juve Stabia : 11e/20 (16 pts en 12 m.) | repos 3 j | prochains : Carrarese (Serie B, 4 j), Benevento (Serie B, 11 j)  ||  Catanzaro : 20e/20 (9 pts en 12 m.) | repos 3 j | prochains : US Avellino (Serie B, 6 j), Cremonese (Serie B, 12 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T18:00Z",
    "prio": 9
   },
   {
