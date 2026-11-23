@@ -1,29 +1,29 @@
 {
- "date": "2026-11-23 21:09 UTC",
+ "date": "2026-11-23 21:18 UTC",
  "version": "V17",
- "ts": "2026-11-23T21:09:35.944727+00:00",
+ "ts": "2026-11-23T21:18:05.932791+00:00",
  "stats": {
-  "n": 581,
-  "n_avant": 361,
+  "n": 582,
+  "n_avant": 362,
   "dc": 79,
-  "over": 54,
+  "over": 53,
   "btts": 53,
   "score": 18,
   "1x2": 60,
   "n_fav": 281,
   "serre": 74,
-  "n_serre": 300,
+  "n_serre": 301,
   "base_dom": 45,
-  "n_ctx": 240,
+  "n_ctx": 241,
   "brier_ctx": 0.612,
   "brier_base": 0.604,
-  "n_h2h": 211,
-  "brier_h2h": 0.613,
-  "brier_noh2h": 0.606
+  "n_h2h": 212,
+  "brier_h2h": 0.614,
+  "brier_noh2h": 0.607
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, bol.1 1, ned.2 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, bol.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 2 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "2-0",
-   "minute": "HT"
+   "minute": "50'"
   },
   {
    "league": "La Liga",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "50'"
+   "minute": "59'"
   },
   {
    "league": "Serie A",
@@ -2351,7 +2351,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3,
    "live_score": "3-0",
-   "minute": "65'"
+   "minute": "73'"
   },
   {
    "league": "La Liga 2",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
    "live_score": "2-3",
-   "minute": "74'"
+   "minute": "83'"
   },
   {
    "league": "Ligue 2",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "67'"
+   "minute": "75'"
   },
   {
    "league": "Ligue 2",
@@ -2411,7 +2411,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-3",
-   "minute": "65'"
+   "minute": "73'"
   },
   {
    "league": "Liga Argentina",
@@ -2430,28 +2430,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T20:00Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "47'"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
-   "home": "Vitesse",
-   "away": "De Graafschap",
-   "status": "live",
-   "conf": 80,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "2026-11-23 | Buts attendus Vitesse 1.6 - De Graafschap 1.2 | 1/N/2 : 47/20/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Vitesse 2V · 0N · De Graafschap 2V (scores : 1-3, 2-0, 1-2)  ||  Vitesse : repos 3 j | prochains : FC Dordrecht (Dutch Keuken Kampioen Divisie, 4 j), VVV-Venlo (Dutch Keuken Kampioen Divisie, 11 j)  ||  De Graafschap : repos 3 j | prochains : Roda JC Kerkrade (Dutch Keuken Kampioen Divisie, 6 j), Jong PSV (Dutch Keuken Kampioen Divisie, 14 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:00Z",
-   "prio": 10,
-   "live_score": "0-1",
-   "minute": "90'+13'"
+   "live_score": "1-1",
+   "minute": "55'"
   },
   {
    "league": "Primera Paraguay",
@@ -2471,7 +2451,27 @@
    "kickoff": "2026-11-23T21:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "18'"
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "Universitario de Vinto",
+   "away": "GV San José",
+   "status": "live",
+   "conf": 80,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "2026-11-23 | Buts attendus Universitario de Vinto 2.2 - GV San José 1.4 | 1/N/2 : 49/20/30% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Universitario de Vinto 1V · 1N · GV San José 3V (scores : 1-1, 1-4, 4-0)  ||  Universitario de Vinto : repos 14 j | prochains : Guabirá (Liga Bolivie, 5 j), Real Potosí (Liga Bolivie, 8 j)  ||  GV San José : repos 16 j | prochains : Real Potosí (Liga Bolivie, 5 j), San Antonio Bulo Bulo (Liga Bolivie, 10 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T21:15Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "5'"
   },
   {
    "league": "Liga Uruguay",
@@ -2491,7 +2491,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "83'"
+   "minute": "90'+2'"
   },
   {
    "league": "Brasileirao",
@@ -2528,24 +2528,6 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Liga Bolivie",
-   "home": "Universitario de Vinto",
-   "away": "GV San José",
-   "status": "today",
-   "conf": 80,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-23 | Buts attendus Universitario de Vinto 2.2 - GV San José 1.4 | 1/N/2 : 49/20/30% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Universitario de Vinto 1V · 1N · GV San José 3V (scores : 1-1, 1-4, 4-0)  ||  Universitario de Vinto : repos 14 j | prochains : Guabirá (Liga Bolivie, 5 j), Real Potosí (Liga Bolivie, 8 j)  ||  GV San José : repos 16 j | prochains : Real Potosí (Liga Bolivie, 5 j), San Antonio Bulo Bulo (Liga Bolivie, 10 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T21:15Z",
-   "prio": 12
   },
   {
    "league": "Liga Uruguay",
@@ -3214,6 +3196,24 @@
    "prio": 10
   },
   {
+   "league": "Indian Football League",
+   "home": "Sreenidi Deccan FC",
+   "away": "Chanmari FC",
+   "status": "today",
+   "conf": 66,
+   "victoire": "Victoire Chanmari FC",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "2026-11-24 | Buts attendus Sreenidi Deccan FC 1.0 - Chanmari FC 2.3 | 1/N/2 : 15/19/66% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Sreenidi Deccan FC 1V · 0N · Chanmari FC 1V (scores : 1-2, 2-1) - trop peu pour influer  ||  Sreenidi Deccan FC : repos 6 j | prochains : Gokulam Kerala FC (Indian Football League, 6 j)  ||  Chanmari FC : repos 4 j | prochains : Mohammedan SC (Indian Football League, 7 j), Nagaland United SC (Indian Football League, 13 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T13:00Z",
+   "prio": 10
+  },
+  {
    "league": "Liga Bolivie",
    "home": "Real Oruro",
    "away": "Guabirá",
@@ -3291,6 +3291,26 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "3-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Dutch Keuken Kampioen Divisie",
+   "home": "Vitesse",
+   "away": "De Graafschap",
+   "status": "finished",
+   "conf": 80,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : Vitesse 2V · 0N · De Graafschap 2V (scores : 1-3, 2-0, 1-2)  ||  Vitesse : repos 3 j | prochains : FC Dordrecht (Dutch Keuken Kampioen Divisie, 4 j), VVV-Venlo (Dutch Keuken Kampioen Divisie, 11 j)  ||  De Graafschap : repos 3 j | prochains : Roda JC Kerkrade (Dutch Keuken Kampioen Divisie, 6 j), Jong PSV (Dutch Keuken Kampioen Divisie, 14 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:00Z",
+   "prio": 10,
+   "live_score": "0-1",
    "minute": "FT"
   },
   {
@@ -3991,26 +4011,6 @@
    "kickoff": "2026-11-22T20:45Z",
    "prio": 13,
    "live_score": "1-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Perou",
-   "home": "Sport Huancayo",
-   "away": "Universitario",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 70%",
-   "btts": "BTTS OUI 70%",
-   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Sport Huancayo 1V · 2N · Universitario 5V (scores : 0-2 x3, 1-1 x2, 1-0)  ||  Sport Huancayo : repos 15 j  ||  Universitario : repos 14 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T20:00Z",
-   "prio": 12,
-   "live_score": "4-1",
    "minute": "FT"
   }
  ]
