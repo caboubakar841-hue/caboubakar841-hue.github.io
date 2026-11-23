@@ -1,25 +1,25 @@
 {
- "date": "2026-11-23 03:32 UTC",
+ "date": "2026-11-23 03:40 UTC",
  "version": "V17",
- "ts": "2026-11-23T03:32:02.757720+00:00",
+ "ts": "2026-11-23T03:40:19.030495+00:00",
  "stats": {
-  "n": 566,
-  "n_avant": 346,
+  "n": 567,
+  "n_avant": 347,
   "dc": 79,
   "over": 53,
   "btts": 53,
   "score": 18,
   "1x2": 60,
-  "n_fav": 271,
+  "n_fav": 272,
   "serre": 74,
   "n_serre": 295,
   "base_dom": 45,
-  "n_ctx": 233,
-  "brier_ctx": 0.612,
-  "brier_base": 0.603,
-  "n_h2h": 204,
-  "brier_h2h": 0.614,
-  "brier_noh2h": 0.605
+  "n_ctx": 234,
+  "brier_ctx": 0.611,
+  "brier_base": 0.601,
+  "n_h2h": 205,
+  "brier_h2h": 0.612,
+  "brier_noh2h": 0.603
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -65,8 +65,8 @@
        "pick": "Double chance 1X (Vancouver Whitecaps ou nul)",
        "code": "1X",
        "p": 74,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-0"
       },
       {
        "id": "401930689",
@@ -2294,26 +2294,6 @@
  ],
  "matches": [
   {
-   "league": "MLS",
-   "home": "Vancouver Whitecaps",
-   "away": "Real Salt Lake",
-   "status": "live",
-   "conf": 60,
-   "victoire": "Victoire Vancouver Whitecaps",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-23 | Buts attendus Vancouver Whitecaps 2.1 - Real Salt Lake 1.0 | 1/N/2 : 60/14/26% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Vancouver Whitecaps 4V · 0N · Real Salt Lake 4V (scores : 1-2 x4, 2-1, 3-2)  ||  Vancouver Whitecaps : repos 15 j | prochains : Real Salt Lake (MLS, 5 j), Real Salt Lake (MLS, 10 j)  ||  Real Salt Lake : repos 3 j | prochains : Vancouver Whitecaps (MLS, 5 j), Vancouver Whitecaps (MLS, 10 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T01:30Z",
-   "prio": 9,
-   "live_score": "2-0",
-   "minute": "90'+3'"
-  },
-  {
    "league": "Serie A",
    "home": "Monza",
    "away": "Fiorentina",
@@ -3032,6 +3012,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T01:00Z",
    "prio": 9
+  },
+  {
+   "league": "MLS",
+   "home": "Vancouver Whitecaps",
+   "away": "Real Salt Lake",
+   "status": "finished",
+   "conf": 60,
+   "victoire": "Victoire Vancouver Whitecaps",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 86%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Vancouver Whitecaps 4V · 0N · Real Salt Lake 4V (scores : 1-2 x4, 2-1, 3-2)  ||  Vancouver Whitecaps : repos 15 j | prochains : Real Salt Lake (MLS, 5 j), Real Salt Lake (MLS, 10 j)  ||  Real Salt Lake : repos 3 j | prochains : Vancouver Whitecaps (MLS, 5 j), Vancouver Whitecaps (MLS, 10 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T01:30Z",
+   "prio": 9,
+   "live_score": "2-0",
+   "minute": "FT"
   },
   {
    "league": "Liga MX",
@@ -3811,26 +3811,6 @@
    "kickoff": "2026-11-22T17:30Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Girona",
-   "away": "Eibar",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (6%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Girona : 4e/22 (24 pts en 14 m.) | repos 8 j | prochains : Eldense (La Liga 2, 6 j), Real Valladolid (La Liga 2, 14 j)  ||  Eibar : 6e/22 (24 pts en 13 m.) | repos 7 j | prochains : Burgos (La Liga 2, 6 j), CD Sabadell (La Liga 2, 13 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T17:30Z",
-   "prio": 9,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
