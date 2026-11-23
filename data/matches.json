@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 23:31 UTC",
+ "date": "2026-11-23 23:40 UTC",
  "version": "V17",
- "ts": "2026-11-23T23:31:48.821174+00:00",
+ "ts": "2026-11-23T23:40:05.646000+00:00",
  "stats": {
   "n": 592,
   "n_avant": 372,
@@ -2475,7 +2475,7 @@
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Primera Paraguay",
@@ -2495,7 +2495,7 @@
    "kickoff": "2026-11-23T23:15Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "15'"
+   "minute": "23'"
   },
   {
    "league": "Liga Uruguay",
@@ -2515,7 +2515,7 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "52'"
   },
   {
    "league": "Ligue des champions",
