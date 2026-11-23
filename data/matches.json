@@ -1,38 +1,38 @@
 {
- "date": "2026-11-23 19:46 UTC",
+ "date": "2026-11-23 19:54 UTC",
  "version": "V17",
- "ts": "2026-11-23T19:46:22.186512+00:00",
+ "ts": "2026-11-23T19:54:43.573283+00:00",
  "stats": {
-  "n": 574,
-  "n_avant": 354,
+  "n": 575,
+  "n_avant": 355,
   "dc": 79,
   "over": 53,
   "btts": 53,
   "score": 18,
   "1x2": 59,
   "n_fav": 276,
-  "serre": 73,
-  "n_serre": 298,
+  "serre": 74,
+  "n_serre": 299,
   "base_dom": 45,
-  "n_ctx": 236,
-  "brier_ctx": 0.613,
-  "brier_base": 0.604,
-  "n_h2h": 207,
+  "n_ctx": 237,
+  "brier_ctx": 0.612,
+  "brier_base": 0.603,
+  "n_h2h": 208,
   "brier_h2h": 0.614,
-  "brier_noh2h": 0.606
+  "brier_noh2h": 0.605
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, afc.champions 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, den.1 1",
+  "Matchs trouvés aujourd'hui par compétition : ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, afc.champions 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 50",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 48",
   "Cartes à venir affichées : 40 (jours : 2026-11-23, 2026-11-24, 2026-11-25)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2294,6 +2294,26 @@
  ],
  "matches": [
   {
+   "league": "Serie A",
+   "home": "Monza",
+   "away": "Fiorentina",
+   "status": "live",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (7%) · 2-1 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 76%",
+   "analyse": "2026-11-23 | Buts attendus Monza 2.0 - Fiorentina 2.0 | 1/N/2 : 38/23/38% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : Monza 2V · 2N · Fiorentina 2V (scores : 1-1, 3-2, 0-1)  ||  Monza : 18e/20 (7 pts en 11 m.) | repos 15 j | prochains : AS Roma (Serie A, 6 j), Como (Serie A, 12 j)  ||  Fiorentina : 15e/20 (9 pts en 11 m.) | repos 15 j | prochains : Udinese (Serie A, 6 j), Cagliari (Serie A, 14 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:45Z",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "9'"
+  },
+  {
    "league": "La Liga 2",
    "home": "Ceuta",
    "away": "Almería",
@@ -2311,7 +2331,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "16'"
+   "minute": "25'"
   },
   {
    "league": "Ligue 2",
@@ -2331,7 +2351,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "10'"
   },
   {
    "league": "Ligue 2",
@@ -2350,28 +2370,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "2'"
-  },
-  {
-   "league": "Superliga (DEN)",
-   "home": "Brøndby IF",
-   "away": "FC Midtjylland",
-   "status": "live",
-   "conf": 80,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-23 | Buts attendus Brøndby IF 1.6 - FC Midtjylland 1.8 | 1/N/2 : 35/20/45% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Brøndby IF 3V · 1N · FC Midtjylland 4V (scores : 1-2 x2, 5-1, 2-0)  ||  Brøndby IF : 8e/12 (15 pts en 11 m.) | repos 15 j | prochains : Sønderjyske Fodbold (Superliga (DEN), 4 j), Odense Boldklub (Superliga (DEN), 13 j)  ||  FC Midtjylland : 1e/12 (26 pts en 12 m.) | repos 15 j | match europeen proche : rotation possible | prochains : Pafos (Conference League, 3 j), F.C. København (Superliga (DEN), 6 j), Silkeborg IF (Superliga (DEN), 13 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T18:00Z",
-   "prio": 9,
-   "live_score": "0-2",
-   "minute": "87'"
+   "live_score": "1-0",
+   "minute": "10'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2391,7 +2391,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "44'"
+   "minute": "HT"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2411,7 +2411,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "1-2",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2431,7 +2431,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "36'"
+   "minute": "44'"
   },
   {
    "league": "Liga F (F)",
@@ -2451,7 +2451,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 11,
    "live_score": "0-0",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "Liga Bolivie",
@@ -2471,7 +2471,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "AFC Champions League",
@@ -2491,7 +2491,7 @@
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "73'"
+   "minute": "80'"
   },
   {
    "league": "AFC Champions League",
@@ -2510,8 +2510,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "75'"
+   "live_score": "2-1",
+   "minute": "83'"
   },
   {
    "league": "Liga Uruguay",
@@ -2531,25 +2531,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "16'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Monza",
-   "away": "Fiorentina",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (7%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 76%",
-   "analyse": "2026-11-23 | Buts attendus Monza 2.0 - Fiorentina 2.0 | 1/N/2 : 38/23/38% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Monza 2V · 2N · Fiorentina 2V (scores : 1-1, 3-2, 0-1)  ||  Monza : 18e/20 (7 pts en 11 m.) | repos 15 j | prochains : AS Roma (Serie A, 6 j), Como (Serie A, 12 j)  ||  Fiorentina : 15e/20 (9 pts en 11 m.) | repos 15 j | prochains : Udinese (Serie A, 6 j), Cagliari (Serie A, 14 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:45Z",
-   "prio": 3
+   "minute": "24'"
   },
   {
    "league": "Premier League",
@@ -3252,6 +3234,44 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
+  },
+  {
+   "league": "Scottish Premiership",
+   "home": "Hibernian",
+   "away": "Dundee",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "2026-11-24 | Buts attendus Hibernian 1.4 - Dundee 1.6 | 1/N/2 : 41/25/34% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (7 confrontations) : Hibernian 4V · 2N · Dundee 1V (scores : 2-1 x2, 2-2, 1-4)  ||  Hibernian : 11e/12 (8 pts en 11 m.) | repos 3 j | prochains : Motherwell (Scottish Premiership, 4 j), Kilmarnock (Scottish Premiership, 8 j), Rangers (Scottish Premiership, 13 j)  ||  Dundee : 7e/12 (14 pts en 11 m.) | repos 3 j | prochains : Aberdeen (Scottish Premiership, 4 j), Celtic (Scottish Premiership, 8 j), Falkirk (Scottish Premiership, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T19:45Z",
+   "prio": 9
+  },
+  {
+   "league": "Superliga (DEN)",
+   "home": "Brøndby IF",
+   "away": "FC Midtjylland",
+   "status": "finished",
+   "conf": 80,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Brøndby IF 3V · 1N · FC Midtjylland 4V (scores : 1-2 x2, 5-1, 2-0)  ||  Brøndby IF : 8e/12 (15 pts en 11 m.) | repos 15 j | prochains : Sønderjyske Fodbold (Superliga (DEN), 4 j), Odense Boldklub (Superliga (DEN), 13 j)  ||  FC Midtjylland : 1e/12 (26 pts en 12 m.) | repos 15 j | match europeen proche : rotation possible | prochains : Pafos (Conference League, 3 j), F.C. København (Superliga (DEN), 6 j), Silkeborg IF (Superliga (DEN), 13 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T18:00Z",
+   "prio": 9,
+   "live_score": "0-2",
+   "minute": "FT"
   },
   {
    "league": "Super Lig",
@@ -4031,26 +4051,6 @@
    "kickoff": "2026-11-22T19:00Z",
    "prio": 12,
    "live_score": "2-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Rosario Central",
-   "away": "Gimnasia (Mendoza)",
-   "status": "finished",
-   "conf": 55,
-   "victoire": "Victoire Rosario Central",
-   "score_exact": "1-0 (13%) · 2-0 (11%)",
-   "double_chance": "1X 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS NON 53%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Rosario Central : repos 15 j  ||  Gimnasia (Mendoza) : repos 15 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T19:00Z",
-   "prio": 9,
-   "live_score": "3-1",
    "minute": "FT"
   }
  ]
