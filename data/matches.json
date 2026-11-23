@@ -1,29 +1,29 @@
 {
- "date": "2026-11-23 20:44 UTC",
+ "date": "2026-11-23 20:52 UTC",
  "version": "V17",
- "ts": "2026-11-23T20:44:40.500579+00:00",
+ "ts": "2026-11-23T20:52:57.344646+00:00",
  "stats": {
-  "n": 577,
-  "n_avant": 357,
+  "n": 578,
+  "n_avant": 358,
   "dc": 79,
   "over": 53,
   "btts": 53,
   "score": 18,
   "1x2": 60,
-  "n_fav": 278,
+  "n_fav": 279,
   "serre": 74,
   "n_serre": 299,
   "base_dom": 45,
-  "n_ctx": 237,
-  "brier_ctx": 0.612,
-  "brier_base": 0.603,
-  "n_h2h": 208,
-  "brier_h2h": 0.614,
-  "brier_noh2h": 0.605
+  "n_ctx": 238,
+  "brier_ctx": 0.611,
+  "brier_base": 0.602,
+  "n_h2h": 209,
+  "brier_h2h": 0.612,
+  "brier_noh2h": 0.604
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : ned.2 3, fra.2 2, bra.1 2, par.1 2, bol.1 2, uru.1 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, esp.w.1 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.2 2, bra.1 2, par.1 2, bol.1 2, uru.1 2, ned.2 2, eng.1 1, esp.1 1, esp.2 1, ita.1 1, arg.1 1, esp.w.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -54,8 +54,8 @@
        "pick": "Double chance 1X (Jong PSV ou nul)",
        "code": "1X",
        "p": 76,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-2"
       },
       {
        "id": "401933729",
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "2-0",
-   "minute": "44'"
+   "minute": "45'+8'"
   },
   {
    "league": "La Liga",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "Serie A",
@@ -2351,7 +2351,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "La Liga 2",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T19:30Z",
    "prio": 9,
    "live_score": "2-2",
-   "minute": "49'"
+   "minute": "58'"
   },
   {
    "league": "Ligue 2",
@@ -2390,8 +2390,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "HT"
+   "live_score": "1-0",
+   "minute": "50'"
   },
   {
    "league": "Ligue 2",
@@ -2411,7 +2411,7 @@
    "kickoff": "2026-11-23T19:45Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "Liga Argentina",
@@ -2431,7 +2431,7 @@
    "kickoff": "2026-11-23T20:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2450,28 +2450,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
-   "live_score": "2-0",
-   "minute": "84'"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
-   "home": "Jong PSV",
-   "away": "Jong FC Utrecht",
-   "status": "live",
-   "conf": 53,
-   "victoire": "Victoire Jong PSV",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "2026-11-23 | Buts attendus Jong PSV 1.8 - Jong FC Utrecht 1.3 | 1/N/2 : 53/24/24% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Jong PSV 5V · 2N · Jong FC Utrecht 1V (scores : 2-0 x2, 2-1, 1-0)  ||  Jong PSV : repos 3 j | prochains : MVV Maastricht (Dutch Keuken Kampioen Divisie, 4 j), De Graafschap (Dutch Keuken Kampioen Divisie, 14 j)  ||  Jong FC Utrecht : repos 3 j | prochains : Almere City (Dutch Keuken Kampioen Divisie, 4 j), Helmond Sport (Dutch Keuken Kampioen Divisie, 11 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T19:00Z",
-   "prio": 10,
-   "live_score": "3-2",
-   "minute": "88'"
+   "live_score": "3-0",
+   "minute": "90'+2'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2490,8 +2470,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10,
-   "live_score": "0-0",
-   "minute": "79'"
+   "live_score": "0-1",
+   "minute": "87'"
   },
   {
    "league": "Liga F (F)",
@@ -2510,8 +2490,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:00Z",
    "prio": 11,
-   "live_score": "1-0",
-   "minute": "87'"
+   "live_score": "2-0",
+   "minute": "90'+5'"
   },
   {
    "league": "Liga Bolivie",
@@ -2531,7 +2511,7 @@
    "kickoff": "2026-11-23T19:00Z",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "83'"
+   "minute": "90'+2'"
   },
   {
    "league": "Liga Uruguay",
@@ -2550,8 +2530,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:30Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "58'"
+   "live_score": "0-1",
+   "minute": "67'"
   },
   {
    "league": "Brasileirao",
@@ -3272,6 +3252,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T21:00Z",
    "prio": 9
+  },
+  {
+   "league": "Dutch Keuken Kampioen Divisie",
+   "home": "Jong PSV",
+   "away": "Jong FC Utrecht",
+   "status": "finished",
+   "conf": 53,
+   "victoire": "Victoire Jong PSV",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Jong PSV 5V · 2N · Jong FC Utrecht 1V (scores : 2-0 x2, 2-1, 1-0)  ||  Jong PSV : repos 3 j | prochains : MVV Maastricht (Dutch Keuken Kampioen Divisie, 4 j), De Graafschap (Dutch Keuken Kampioen Divisie, 14 j)  ||  Jong FC Utrecht : repos 3 j | prochains : Almere City (Dutch Keuken Kampioen Divisie, 4 j), Helmond Sport (Dutch Keuken Kampioen Divisie, 11 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T19:00Z",
+   "prio": 10,
+   "live_score": "3-2",
+   "minute": "FT"
   },
   {
    "league": "AFC Champions League",
@@ -4051,26 +4051,6 @@
    "kickoff": "2026-11-22T20:00Z",
    "prio": 12,
    "live_score": "4-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie A",
-   "home": "Atalanta",
-   "away": "Internazionale",
-   "status": "finished",
-   "conf": 69,
-   "victoire": "Victoire Internazionale",
-   "score_exact": "1-2 (10%) · 1-3 (8%)",
-   "double_chance": "X2 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "Resultat 4-4 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Atalanta 0V · 1N · Internazionale 7V (scores : 2-3 x2, 0-4 x2, 1-2)  ||  Atalanta : 12e/20 (14 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : Borac Banja Luka (Conference League, 4 j), Lecce (Serie A, 8 j), Lazio (Serie A, 14 j)  ||  Internazionale : 3e/20 (28 pts en 11 m.) | repos 14 j | match europeen proche : rotation possible | prochains : VfB Stuttgart (Ligue des champions, 3 j), Genoa (Serie A, 6 j), Genoa (Coupe d'Italie, 9 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T19:45Z",
-   "prio": 3,
-   "live_score": "4-4",
    "minute": "FT"
   }
  ]
