@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 16:09 UTC",
+ "date": "2026-11-23 16:17 UTC",
  "version": "V17",
- "ts": "2026-11-23T16:09:11.236352+00:00",
+ "ts": "2026-11-23T16:17:31.929388+00:00",
  "stats": {
   "n": 569,
   "n_avant": 349,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,7 @@
    "kickoff": "2026-11-23T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "50'"
+   "minute": "58'"
   },
   {
    "league": "AFC Champions League",
@@ -2331,7 +2331,7 @@
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "AFC Champions League",
@@ -2350,8 +2350,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "8'"
+   "live_score": "0-1",
+   "minute": "17'"
   },
   {
    "league": "AFC Champions League",
@@ -2371,7 +2371,7 @@
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "8'"
+   "minute": "17'"
   },
   {
    "league": "Serie A",
