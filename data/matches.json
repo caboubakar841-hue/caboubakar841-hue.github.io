@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 23:14 UTC",
+ "date": "2026-11-23 23:23 UTC",
  "version": "V17",
- "ts": "2026-11-23T23:14:42.876389+00:00",
+ "ts": "2026-11-23T23:23:21.332792+00:00",
  "stats": {
   "n": 592,
   "n_avant": 372,
@@ -28,13 +28,205 @@
   "Matchs sans données masqués (remplacés par d'autres) : 96",
   "Matchs africains affichés (à venir / live) : 0",
   "Matchs ajoutés par le filet « tous les matchs ESPN » : 48",
-  "Cartes à venir affichées : 40 (jours : 2026-11-23, 2026-11-24, 2026-11-25)",
+  "Cartes à venir affichées : 40 (jours : 2026-11-24, 2026-11-25)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 24 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
+  {
+   "v": 2,
+   "day": "2026-11-24",
+   "eligible": 28,
+   "tickets": [
+    {
+     "name": "Ticket 10 matchs (risqué)",
+     "rule": "60 à 79 %",
+     "target": 10,
+     "n": 10,
+     "legs": [
+      {
+       "id": "401899539",
+       "match": "Benevento vs Empoli",
+       "league": "Serie B",
+       "time": "19:00",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401899535",
+       "match": "Vicenza vs Carrarese",
+       "league": "Serie B",
+       "time": "19:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401841320",
+       "match": "Santos vs Grêmio",
+       "league": "Brasileirao",
+       "time": "00:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 73,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401878345",
+       "match": "Rangers vs Aberdeen",
+       "league": "Scottish Premiership",
+       "time": "20:00",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915295",
+       "match": "Arsenal vs Borussia Dortmund",
+       "league": "Ligue des champions",
+       "time": "20:00",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401880146",
+       "match": "Charlton Athletic vs Lincoln City",
+       "league": "Championship",
+       "time": "19:45",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401880148",
+       "match": "Bristol City vs Wrexham",
+       "league": "Championship",
+       "time": "19:45",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401899538",
+       "match": "Cesena vs Ascoli",
+       "league": "Serie B",
+       "time": "19:00",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401880829",
+       "match": "Stevenage vs Sheffield Wednesday",
+       "league": "League One",
+       "time": "19:45",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915296",
+       "match": "Como vs AEK Athens",
+       "league": "Ligue des champions",
+       "time": "20:00",
+       "pick": "Double chance 1X (Como ou nul)",
+       "code": "1X",
+       "p": 71,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 3.7,
+     "status": "en cours"
+    },
+    {
+     "name": "Ticket 5 matchs (sûr)",
+     "rule": "80 % ou plus",
+     "target": 5,
+     "n": 5,
+     "legs": [
+      {
+       "id": "401915299",
+       "match": "RB Leipzig vs Lens",
+       "league": "Ligue des champions",
+       "time": "20:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 93,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915300",
+       "match": "Galatasaray vs Aston Villa",
+       "league": "Ligue des champions",
+       "time": "17:45",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 91,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401881354",
+       "match": "Port Vale vs Northampton Town",
+       "league": "League Two",
+       "time": "19:45",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 91,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401912609",
+       "match": "Newcastle Jets vs Kashiwa Reysol",
+       "league": "AFC Champions League",
+       "time": "07:45",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 91,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401880141",
+       "match": "Wolverhampton Wanderers vs Derby County",
+       "league": "Championship",
+       "time": "20:00",
+       "pick": "Double chance 1X (Wolverhampton Wanderers ou nul)",
+       "code": "1X",
+       "p": 90,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 62.2,
+     "status": "en cours"
+    }
+   ]
+  },
   {
    "v": 2,
    "day": "2026-11-23",
@@ -2242,54 +2434,6 @@
      "status": "en cours"
     }
    ]
-  },
-  {
-   "v": 2,
-   "day": "2026-11-10",
-   "eligible": 0,
-   "tickets": [
-    {
-     "name": "Ticket 10 matchs (risqué)",
-     "rule": "60 à 79 %",
-     "target": 10,
-     "n": 2,
-     "legs": [
-      {
-       "id": "401877901",
-       "match": "Atlético Junior vs Cúcuta Deportivo",
-       "league": "Liga Colombia",
-       "time": "00:00",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 68,
-       "ok": true,
-       "score": "2-0"
-      },
-      {
-       "id": "401930004",
-       "match": "Aurora vs Universitario de Vinto",
-       "league": "Liga Bolivie",
-       "time": "00:30",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 67,
-       "ok": true,
-       "score": "1-1"
-      }
-     ],
-     "combined": 45.4,
-     "status": "gagné"
-    },
-    {
-     "name": "Ticket 5 matchs (sûr)",
-     "rule": "80 % ou plus",
-     "target": 5,
-     "n": 0,
-     "legs": [],
-     "combined": null,
-     "status": "en cours"
-    }
-   ]
   }
  ],
  "matches": [
@@ -2311,7 +2455,7 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "44'"
+   "minute": "45'+7'"
   },
   {
    "league": "Brasileirao",
@@ -2331,7 +2475,27 @@
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "13'"
+   "minute": "22'"
+  },
+  {
+   "league": "Primera Paraguay",
+   "home": "Nacional Asunción",
+   "away": "Cerro Porteño",
+   "status": "live",
+   "conf": 67,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (15%) · 1-0 (12%)",
+   "double_chance": "12 67%",
+   "corner": "N/D",
+   "over": "Under 2.5 69%",
+   "btts": "BTTS NON 61%",
+   "analyse": "2026-11-23 | Buts attendus Nacional Asunción 1.1 - Cerro Porteño 0.9 | 1/N/2 : 33/33/34% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Nacional Asunción 1V · 3N · Cerro Porteño 4V (scores : 1-3 x2, 0-0 x2, 2-2)  ||  Nacional Asunción : repos 16 j | prochains : Rubio Ñú (Primera Paraguay, 2 j), 2 de Mayo (Primera Paraguay, 6 j)  ||  Cerro Porteño : repos 15 j | prochains : Guaraní (Primera Paraguay, 2 j), Rubio Ñú (Primera Paraguay, 6 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T23:15Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "7'"
   },
   {
    "league": "Liga Uruguay",
@@ -2351,25 +2515,7 @@
    "kickoff": "2026-11-23T22:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "44'"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Nacional Asunción",
-   "away": "Cerro Porteño",
-   "status": "today",
-   "conf": 67,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (15%) · 1-0 (12%)",
-   "double_chance": "12 67%",
-   "corner": "N/D",
-   "over": "Under 2.5 69%",
-   "btts": "BTTS NON 61%",
-   "analyse": "2026-11-23 | Buts attendus Nacional Asunción 1.1 - Cerro Porteño 0.9 | 1/N/2 : 33/33/34% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Nacional Asunción 1V · 3N · Cerro Porteño 4V (scores : 1-3 x2, 0-0 x2, 2-2)  ||  Nacional Asunción : repos 16 j | prochains : Rubio Ñú (Primera Paraguay, 2 j), 2 de Mayo (Primera Paraguay, 6 j)  ||  Cerro Porteño : repos 15 j | prochains : Guaraní (Primera Paraguay, 2 j), Rubio Ñú (Primera Paraguay, 6 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T23:15Z",
-   "prio": 12
+   "minute": "HT"
   },
   {
    "league": "Ligue des champions",
@@ -3071,6 +3217,24 @@
    "contexte": "Kyoto Sanga : repos 3 j | prochains : Cerezo Osaka (J1 League, 4 j), Buriram United (AFC Champions League, 7 j), Tokyo Verdy 1969 (J1 League, 11 j)  ||  Pohang Steelers : repos 20 j | prochains : Shanghai Port FC (AFC Champions League, 7 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T10:00Z",
+   "prio": 12
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Cong An Ha Noi",
+   "away": "Vissel Kobe",
+   "status": "today",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-24 | Buts attendus Cong An Ha Noi 1.2 - Vissel Kobe 1.4 | 1/N/2 : 31/26/43% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Cong An Ha Noi : repos 21 j | prochains : Kashiwa Reysol (AFC Champions League, 7 j)  ||  Vissel Kobe : repos 4 j | prochains : JEF United Ichihara-Chiba (J1 League, 4 j), Newcastle Jets (AFC Champions League, 7 j), Sanfrecce Hiroshima (J1 League, 12 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T12:15Z",
    "prio": 12
   },
   {
