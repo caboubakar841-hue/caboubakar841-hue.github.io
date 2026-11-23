@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 10:52 UTC",
+ "date": "2026-11-23 11:00 UTC",
  "version": "V17",
- "ts": "2026-11-23T10:52:35.219169+00:00",
+ "ts": "2026-11-23T11:00:54.340298+00:00",
  "stats": {
   "n": 567,
   "n_avant": 347,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 6 s"
+  "Durée du run : 12 s"
  ],
  "tickets": [
   {
@@ -2306,7 +2306,7 @@
    "over": "Over 2.5 76%",
    "btts": "BTTS OUI 76%",
    "analyse": "2026-11-23 | Buts attendus Monza 2.0 - Fiorentina 2.0 | 1/N/2 : 38/23/38% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Monza 2V · 2N · Fiorentina 2V (scores : 1-1, 3-2, 0-1)  ||  Monza : 18e/20 (7 pts en 11 m.) | repos 15 j | prochains : AS Roma (Serie A, 6 j), Como (Serie A, 12 j)  ||  Fiorentina : 15e/20 (9 pts en 11 m.) | repos 15 j | prochains : Udinese (Serie A, 6 j)",
+   "contexte": "Face-à-face (6 confrontations) : Monza 2V · 2N · Fiorentina 2V (scores : 1-1, 3-2, 0-1)  ||  Monza : 18e/20 (7 pts en 11 m.) | repos 15 j | prochains : AS Roma (Serie A, 6 j), Como (Serie A, 12 j)  ||  Fiorentina : 15e/20 (9 pts en 11 m.) | repos 15 j | prochains : Udinese (Serie A, 6 j), Cagliari (Serie A, 14 j)",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:45Z",
    "prio": 3
@@ -2558,7 +2558,7 @@
    "over": "Over 2.5 60%",
    "btts": "BTTS OUI 61%",
    "analyse": "2026-11-23 | Buts attendus Jong PSV 1.8 - Jong FC Utrecht 1.3 | 1/N/2 : 53/24/24% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Jong PSV 5V · 2N · Jong FC Utrecht 1V (scores : 2-0 x2, 2-1, 1-0)  ||  Jong PSV : repos 3 j | prochains : MVV Maastricht (Dutch Keuken Kampioen Divisie, 4 j)  ||  Jong FC Utrecht : repos 3 j | prochains : Almere City (Dutch Keuken Kampioen Divisie, 4 j), Helmond Sport (Dutch Keuken Kampioen Divisie, 11 j)",
+   "contexte": "Face-à-face (8 confrontations) : Jong PSV 5V · 2N · Jong FC Utrecht 1V (scores : 2-0 x2, 2-1, 1-0)  ||  Jong PSV : repos 3 j | prochains : MVV Maastricht (Dutch Keuken Kampioen Divisie, 4 j), De Graafschap (Dutch Keuken Kampioen Divisie, 14 j)  ||  Jong FC Utrecht : repos 3 j | prochains : Almere City (Dutch Keuken Kampioen Divisie, 4 j), Helmond Sport (Dutch Keuken Kampioen Divisie, 11 j)",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10
@@ -2576,7 +2576,7 @@
    "over": "Over 2.5 55%",
    "btts": "BTTS OUI 56%",
    "analyse": "2026-11-23 | Buts attendus Vitesse 1.6 - De Graafschap 1.2 | 1/N/2 : 47/20/32% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Vitesse 2V · 0N · De Graafschap 2V (scores : 1-3, 2-0, 1-2)  ||  Vitesse : repos 3 j | prochains : FC Dordrecht (Dutch Keuken Kampioen Divisie, 4 j), VVV-Venlo (Dutch Keuken Kampioen Divisie, 11 j)  ||  De Graafschap : repos 3 j | prochains : Roda JC Kerkrade (Dutch Keuken Kampioen Divisie, 6 j)",
+   "contexte": "Face-à-face (4 confrontations) : Vitesse 2V · 0N · De Graafschap 2V (scores : 1-3, 2-0, 1-2)  ||  Vitesse : repos 3 j | prochains : FC Dordrecht (Dutch Keuken Kampioen Divisie, 4 j), VVV-Venlo (Dutch Keuken Kampioen Divisie, 11 j)  ||  De Graafschap : repos 3 j | prochains : Roda JC Kerkrade (Dutch Keuken Kampioen Divisie, 6 j), Jong PSV (Dutch Keuken Kampioen Divisie, 14 j)",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T19:00Z",
    "prio": 10
@@ -2612,7 +2612,7 @@
    "over": "Over 2.5 57%",
    "btts": "BTTS OUI 60%",
    "analyse": "2026-11-23 | Buts attendus Neftchi Fergana 1.4 - Al Hilal 1.5 | 1/N/2 : 36/24/40% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Neftchi Fergana : repos 21 j  ||  Al Hilal : repos 20 j",
+   "contexte": "Neftchi Fergana : repos 21 j | prochains : Esteghlal FC (AFC Champions League, 14 j)  ||  Al Hilal : repos 20 j | prochains : Al Ain (AFC Champions League, 14 j)",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T13:45Z",
    "prio": 12
@@ -2630,7 +2630,7 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 59%",
    "analyse": "2026-11-23 | Buts attendus Al Ain 2.2 - Esteghlal FC 1.1 | 1/N/2 : 64/19/17% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al Ain : repos 21 j  ||  Esteghlal FC : repos 20 j",
+   "contexte": "Al Ain : repos 21 j | prochains : Al Hilal (AFC Champions League, 14 j)  ||  Esteghlal FC : repos 20 j | prochains : Neftchi Fergana (AFC Champions League, 14 j)",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12
@@ -2648,7 +2648,7 @@
    "over": "Under 2.5 61%",
    "btts": "BTTS NON 55%",
    "analyse": "2026-11-23 | Buts attendus Al-Shamal 1.3 - Al Ahli 1.0 | 1/N/2 : 43/28/29% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al-Shamal : repos 20 j  ||  Al Ahli : repos 21 j",
+   "contexte": "Al-Shamal : repos 20 j | prochains : Al Qadsiah (AFC Champions League, 14 j)  ||  Al Ahli : repos 21 j",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12
@@ -2666,7 +2666,7 @@
    "over": "Over 2.5 63%",
    "btts": "BTTS OUI 63%",
    "analyse": "2026-11-23 | Buts attendus Tractor 1.9 - Al Wasl 1.4 | 1/N/2 : 50/22/27% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Tractor : repos 21 j  ||  Al Wasl : repos 21 j",
+   "contexte": "Tractor : repos 21 j | prochains : Pakhtakor (AFC Champions League, 14 j)  ||  Al Wasl : repos 21 j | prochains : Al Ittihad (AFC Champions League, 14 j)",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T16:00Z",
    "prio": 12
@@ -2684,7 +2684,7 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 64%",
    "analyse": "2026-11-23 | Buts attendus Al Ittihad 2.1 - Pakhtakor 1.3 | 1/N/2 : 55/21/24% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al Ittihad : repos 21 j  ||  Pakhtakor : repos 21 j",
+   "contexte": "Al Ittihad : repos 21 j | prochains : Al Wasl (AFC Champions League, 14 j)  ||  Pakhtakor : repos 21 j | prochains : Tractor (AFC Champions League, 14 j)",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12
@@ -2702,7 +2702,7 @@
    "over": "Over 2.5 67%",
    "btts": "BTTS OUI 64%",
    "analyse": "2026-11-23 | Buts attendus Al-Quwa Al-Jawiya 2.1 - Al-Gharafa 1.3 | 1/N/2 : 55/21/24% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al-Quwa Al-Jawiya : repos 21 j  ||  Al-Gharafa : repos 21 j",
+   "contexte": "Al-Quwa Al-Jawiya : repos 21 j | prochains : Al Sadd (AFC Champions League, 14 j)  ||  Al-Gharafa : repos 21 j",
    "day": "2026-11-23",
    "kickoff": "2026-11-23T18:15Z",
    "prio": 12
