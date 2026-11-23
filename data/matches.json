@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23 00:53 UTC",
+ "date": "2026-11-23 01:01 UTC",
  "version": "V17",
- "ts": "2026-11-23T00:53:29.074700+00:00",
+ "ts": "2026-11-23T01:01:49.374426+00:00",
  "stats": {
   "n": 557,
   "n_avant": 337,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879234\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2311,7 +2311,27 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "56'"
+   "minute": "64'"
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Instituto (Córdoba)",
+   "away": "Huracán",
+   "status": "live",
+   "conf": 59,
+   "victoire": "Victoire Instituto (Córdoba)",
+   "score_exact": "1-0 (13%) · 2-0 (11%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS NON 52%",
+   "analyse": "2026-11-23 | Buts attendus Instituto (Córdoba) 1.8 - Huracán 0.9 | 1/N/2 : 59/23/18% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Instituto (Córdoba) 0V · 1N · Huracán 1V (scores : 0-0, 0-1) - trop peu pour influer  ||  Instituto (Córdoba) : repos 15 j  ||  Huracán : repos 15 j",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T01:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "1'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2331,7 +2351,7 @@
    "kickoff": "2026-11-22T23:05Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "79'"
+   "minute": "88'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2351,7 +2371,7 @@
    "kickoff": "2026-11-23T00:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Liga MX",
@@ -2371,7 +2391,7 @@
    "kickoff": "2026-11-22T23:07Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "86'"
+   "minute": "90'+4'"
   },
   {
    "league": "Liga Bolivie",
@@ -2391,7 +2411,7 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "68'"
+   "minute": "77'"
   },
   {
    "league": "Liga Chili",
@@ -2410,8 +2430,8 @@
    "day": "2026-11-22",
    "kickoff": "2026-11-22T23:30Z",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "63'"
+   "live_score": "1-2",
+   "minute": "71'"
   },
   {
    "league": "Serie A",
@@ -2466,24 +2486,6 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Instituto (Córdoba)",
-   "away": "Huracán",
-   "status": "today",
-   "conf": 59,
-   "victoire": "Victoire Instituto (Córdoba)",
-   "score_exact": "1-0 (13%) · 2-0 (11%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-23 | Buts attendus Instituto (Córdoba) 1.8 - Huracán 0.9 | 1/N/2 : 59/23/18% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Instituto (Córdoba) 0V · 1N · Huracán 1V (scores : 0-0, 0-1) - trop peu pour influer  ||  Instituto (Córdoba) : repos 15 j  ||  Huracán : repos 15 j",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T01:00Z",
-   "prio": 9
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -3131,6 +3133,24 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Real Madrid : 2e/20 (33 pts en 13 m.) | repos 3 j | prochains : Alavés (La Liga, 4 j), Real Sociedad (La Liga, 8 j), Athletic Club (La Liga, 12 j)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 3 j | prochains : Go Ahead Eagles (Eredivisie, 4 j), AZ Alkmaar (Eredivisie, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
+   "prio": 0
+  },
+  {
+   "league": "Ligue des champions",
+   "home": "Bodo/Glimt",
+   "away": "LASK Linz",
+   "status": "today",
+   "conf": 64,
+   "victoire": "Victoire LASK Linz",
+   "score_exact": "1-2 (9%) · 1-3 (8%)",
+   "double_chance": "12 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "2026-11-24 | Buts attendus Bodo/Glimt 1.3 - LASK Linz 2.5 | 1/N/2 : 18/18/64% | base sur 0 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Bodo/Glimt (estimation neutre, très incertaine). Bodo/Glimt : repos 21 j  ||  LASK Linz : 3e/12 (22 pts en 11 m.) | repos 3 j | prochains : RB Salzburg (Bundesliga (AUT), 5 j), Rapid Vienna (Bundesliga (AUT), 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T17:45Z",
    "prio": 0
   },
   {
