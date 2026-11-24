@@ -1,10 +1,10 @@
 {
- "date": "2026-11-24 17:47 UTC",
+ "date": "2026-11-24 17:56 UTC",
  "version": "V17",
- "ts": "2026-11-24T17:47:45.207451+00:00",
+ "ts": "2026-11-24T17:56:03.489120+00:00",
  "stats": {
-  "n": 581,
-  "n_avant": 360,
+  "n": 582,
+  "n_avant": 361,
   "dc": 79,
   "over": 54,
   "btts": 53,
@@ -12,7 +12,7 @@
   "1x2": 60,
   "n_fav": 278,
   "serre": 74,
-  "n_serre": 303,
+  "n_serre": 304,
   "base_dom": 46,
   "n_ctx": 250,
   "brier_ctx": 0.618,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, eng.2 8, ita.2 6, eng.3 4, eng.4 2, sco.1 2, afc.champions 2, bra.1 1, col.1 1, afc.cup 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, eng.2 8, ita.2 6, eng.3 4, eng.4 2, sco.1 2, bra.1 1, col.1 1, afc.champions 1, afc.cup 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 71",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2455,7 +2455,7 @@
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "10'"
   },
   {
    "league": "Ligue des champions",
@@ -2475,27 +2475,7 @@
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
    "live_score": "0-0",
-   "minute": "2'"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Shabab Al Ahli",
-   "away": "Al Qadsiah",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-11-24 | Buts attendus Shabab Al Ahli 1.4 - Al Qadsiah 1.2 | 1/N/2 : 40/26/34% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Shabab Al Ahli : repos 21 j | prochains : Al Ahli (AFC Champions League, 14 j)  ||  Al Qadsiah : repos 22 j | prochains : Al-Shamal (AFC Champions League, 13 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T16:00Z",
-   "prio": 12,
-   "live_score": "1-5",
-   "minute": "87'"
+   "minute": "10'"
   },
   {
    "league": "AFC Champions League Two",
@@ -2515,7 +2495,7 @@
    "kickoff": "2026-11-24T16:00Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "87'"
+   "minute": "90'+6'"
   },
   {
    "league": "Ligue des champions",
@@ -3236,6 +3216,26 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Shabab Al Ahli",
+   "away": "Al Qadsiah",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "Resultat 1-5 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Shabab Al Ahli : repos 21 j | prochains : Al Ahli (AFC Champions League, 14 j)  ||  Al Qadsiah : repos 22 j | prochains : Al-Shamal (AFC Champions League, 13 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T16:00Z",
+   "prio": 12,
+   "live_score": "1-5",
+   "minute": "FT"
   },
   {
    "league": "AFC Champions League Two",
@@ -4015,26 +4015,6 @@
    "kickoff": "2026-11-23T13:45Z",
    "prio": 12,
    "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Indian Football League",
-   "home": "Real Kashmir",
-   "away": "Dempo Sports Club",
-   "status": "finished",
-   "conf": 55,
-   "victoire": "Victoire Dempo Sports Club",
-   "score_exact": "1-2 (9%) · 1-3 (6%)",
-   "double_chance": "X2 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "Resultat 3-1 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (3 confrontations) : Real Kashmir 1V · 2N · Dempo Sports Club 0V (scores : 2-0, 1-1, 2-2)  ||  Real Kashmir : repos 9 j | prochains : Samaleswari SC (Indian Football League, 8 j)  ||  Dempo Sports Club : repos 4 j | prochains : Nagaland United SC (Indian Football League, 7 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T13:00Z",
-   "prio": 10,
-   "live_score": "3-1",
    "minute": "FT"
   }
  ]
