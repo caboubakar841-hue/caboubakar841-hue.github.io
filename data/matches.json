@@ -1,18 +1,18 @@
 {
- "date": "2026-11-24 14:00 UTC",
+ "date": "2026-11-24 14:09 UTC",
  "version": "V17",
- "ts": "2026-11-24T14:00:47.000974+00:00",
+ "ts": "2026-11-24T14:09:06.373444+00:00",
  "stats": {
-  "n": 576,
-  "n_avant": 355,
-  "dc": 80,
+  "n": 578,
+  "n_avant": 357,
+  "dc": 79,
   "over": 54,
-  "btts": 52,
+  "btts": 53,
   "score": 18,
   "1x2": 60,
   "n_fav": 277,
   "serre": 74,
-  "n_serre": 299,
+  "n_serre": 301,
   "base_dom": 46,
   "n_ctx": 250,
   "brier_ctx": 0.618,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, eng.2 8, ita.2 6, afc.champions 5, eng.3 4, eng.4 2, sco.1 2, afc.cup 2, bra.1 1, col.1 1, ind.2 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, eng.2 8, ita.2 6, eng.3 4, afc.champions 3, eng.4 2, sco.1 2, afc.cup 2, bra.1 1, col.1 1, ind.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 71",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2455,7 +2455,7 @@
    "kickoff": "2026-11-24T13:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "50'"
   },
   {
    "league": "AFC Champions League",
@@ -2475,47 +2475,7 @@
    "kickoff": "2026-11-24T12:15Z",
    "prio": 12,
    "live_score": "3-1",
-   "minute": "85'"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Ratchaburi FC",
-   "away": "Johor Darul Ta'zim",
-   "status": "live",
-   "conf": 76,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 58%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "2026-11-24 | Buts attendus Ratchaburi FC 1.4 - Johor Darul Ta'zim 1.6 | 1/N/2 : 34/24/42% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Ratchaburi FC : repos 21 j | prochains : Beijing Guoan (AFC Champions League, 7 j)  ||  Johor Darul Ta'zim : repos 21 j | prochains : Daejeon Hana Citizen FC (AFC Champions League, 7 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T12:15Z",
-   "prio": 12,
-   "live_score": "1-1",
-   "minute": "86'"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Shanghai Port FC",
-   "away": "Buriram United",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "2026-11-24 | Buts attendus Shanghai Port FC 1.8 - Buriram United 1.3 | 1/N/2 : 48/23/29% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : Shanghai Port FC 0V · 0N · Buriram United 1V (scores : 0-2) - trop peu pour influer  ||  Shanghai Port FC : repos 21 j | prochains : Pohang Steelers (AFC Champions League, 7 j)  ||  Buriram United : repos 20 j | prochains : Kyoto Sanga (AFC Champions League, 7 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T12:15Z",
-   "prio": 12,
-   "live_score": "3-1",
-   "minute": "88'"
+   "minute": "90'+4'"
   },
   {
    "league": "AFC Champions League Two",
@@ -2535,7 +2495,7 @@
    "kickoff": "2026-11-24T13:45Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "16'"
+   "minute": "24'"
   },
   {
    "league": "Ligue des champions",
@@ -3256,6 +3216,46 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:00Z",
    "prio": 13
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Ratchaburi FC",
+   "away": "Johor Darul Ta'zim",
+   "status": "finished",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Ratchaburi FC : repos 21 j | prochains : Beijing Guoan (AFC Champions League, 7 j)  ||  Johor Darul Ta'zim : repos 21 j | prochains : Daejeon Hana Citizen FC (AFC Champions League, 7 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T12:15Z",
+   "prio": 12,
+   "live_score": "1-1",
+   "minute": "FT"
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Shanghai Port FC",
+   "away": "Buriram United",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (1 confrontation) : Shanghai Port FC 0V · 0N · Buriram United 1V (scores : 0-2) - trop peu pour influer  ||  Shanghai Port FC : repos 21 j | prochains : Pohang Steelers (AFC Champions League, 7 j)  ||  Buriram United : repos 20 j | prochains : Kyoto Sanga (AFC Champions League, 7 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T12:15Z",
+   "prio": 12,
+   "live_score": "3-1",
+   "minute": "FT"
   },
   {
    "league": "Indian Football League",
@@ -4015,46 +4015,6 @@
    "kickoff": "2026-11-23T01:10Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Argentina",
-   "home": "Instituto (Córdoba)",
-   "away": "Huracán",
-   "status": "finished",
-   "conf": 59,
-   "victoire": "Victoire Instituto (Córdoba)",
-   "score_exact": "1-0 (13%) · 2-0 (11%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS NON 52%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : Instituto (Córdoba) 0V · 1N · Huracán 1V (scores : 0-0, 0-1) - trop peu pour influer  ||  Instituto (Córdoba) : repos 15 j  ||  Huracán : repos 15 j",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T01:00Z",
-   "prio": 9,
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Argentine Nacional B",
-   "home": "Gimnasia y Tiro (Salta)",
-   "away": "Tristán Suárez",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : Nul ou Tristán Suárez",
-   "score_exact": "0-0 (26%) · 0-1 (19%)",
-   "double_chance": "X2 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 84%",
-   "btts": "BTTS NON 75%",
-   "analyse": "Resultat 0-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (4 confrontations) : Gimnasia y Tiro (Salta) 0V · 2N · Tristán Suárez 2V (scores : 1-1, 0-1, 1-2)  ||  Gimnasia y Tiro (Salta) : repos 7 j | prochains : Tristán Suárez (Argentine Nacional B, 6 j)  ||  Tristán Suárez : repos 7 j | prochains : Gimnasia y Tiro (Salta) (Argentine Nacional B, 6 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T00:00Z",
-   "prio": 10,
-   "live_score": "0-0",
    "minute": "FT"
   }
  ]
