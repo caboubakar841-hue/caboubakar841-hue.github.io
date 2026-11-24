@@ -1,25 +1,25 @@
 {
- "date": "2026-11-24 00:29 UTC",
+ "date": "2026-11-24 00:38 UTC",
  "version": "V17",
- "ts": "2026-11-24T00:29:52.801514+00:00",
+ "ts": "2026-11-24T00:38:11.296543+00:00",
  "stats": {
-  "n": 567,
-  "n_avant": 348,
+  "n": 568,
+  "n_avant": 349,
   "dc": 79,
   "over": 54,
   "btts": 52,
   "score": 18,
   "1x2": 60,
-  "n_fav": 273,
+  "n_fav": 274,
   "serre": 74,
   "n_serre": 294,
   "base_dom": 46,
-  "n_ctx": 245,
-  "brier_ctx": 0.616,
-  "brier_base": 0.607,
-  "n_h2h": 216,
-  "brier_h2h": 0.618,
-  "brier_noh2h": 0.61
+  "n_ctx": 246,
+  "brier_ctx": 0.617,
+  "brier_base": 0.609,
+  "n_h2h": 217,
+  "brier_h2h": 0.619,
+  "brier_noh2h": 0.611
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2439,26 +2439,6 @@
  "matches": [
   {
    "league": "Brasileirao",
-   "home": "Internacional",
-   "away": "Vitória",
-   "status": "live",
-   "conf": 51,
-   "victoire": "Victoire Internacional",
-   "score_exact": "1-0 (12%) · 2-0 (10%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS NON 51%",
-   "analyse": "2026-11-23 | Buts attendus Internacional 1.7 - Vitória 1.0 | 1/N/2 : 51/20/29% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Internacional 2V · 0N · Vitória 3V (scores : 1-2, 3-1, 1-0)  ||  Internacional : repos 4 j | prochains : Red Bull Bragantino (Brasileirao, 6 j), Cruzeiro (Brasileirao, 9 j)  ||  Vitória : repos 4 j | prochains : Santos (Brasileirao, 6 j), Vasco da Gama (Brasileirao, 9 j)",
-   "day": "2026-11-23",
-   "kickoff": "2026-11-23T22:30Z",
-   "prio": 9,
-   "live_score": "2-4",
-   "minute": "90'+5'"
-  },
-  {
-   "league": "Brasileirao",
    "home": "Botafogo",
    "away": "São Paulo",
    "status": "live",
@@ -2475,7 +2455,7 @@
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "66'"
+   "minute": "74'"
   },
   {
    "league": "Brasileirao",
@@ -2495,7 +2475,7 @@
    "kickoff": "2026-11-24T00:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "26'"
+   "minute": "34'"
   },
   {
    "league": "Primera Paraguay",
@@ -2515,7 +2495,7 @@
    "kickoff": "2026-11-23T23:15Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "55'"
+   "minute": "64'"
   },
   {
    "league": "Ligue des champions",
@@ -3098,14 +3078,14 @@
    "home": "Chapecoense",
    "away": "Palmeiras",
    "status": "today",
-   "conf": 68,
+   "conf": 69,
    "victoire": "Victoire Palmeiras",
    "score_exact": "0-3 (9%) · 0-4 (5%)",
    "double_chance": "X2 88%",
    "corner": "N/D",
    "over": "Over 2.5 54%",
    "btts": "BTTS NON 54%",
-   "analyse": "2026-11-24 | Buts attendus Chapecoense 0.7 - Palmeiras 2.1 | 1/N/2 : 12/19/68% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "analyse": "2026-11-24 | Buts attendus Chapecoense 0.7 - Palmeiras 2.1 | 1/N/2 : 12/19/69% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (1 confrontation) : Chapecoense 0V · 0N · Palmeiras 1V (scores : 0-1) - trop peu pour influer  ||  Chapecoense : repos 3 j | prochains : Flamengo (Brasileirao, 8 j)  ||  Palmeiras : repos 3 j | prochains : Estudiantes de La Plata (Copa Libertadores, 4 j), Coritiba (Brasileirao, 8 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T21:00Z",
@@ -3236,6 +3216,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T12:15Z",
    "prio": 12
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Internacional",
+   "away": "Vitória",
+   "status": "finished",
+   "conf": 51,
+   "victoire": "Victoire Internacional",
+   "score_exact": "1-0 (12%) · 2-0 (10%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS NON 51%",
+   "analyse": "Resultat 2-5 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (5 confrontations) : Internacional 2V · 0N · Vitória 3V (scores : 1-2, 3-1, 1-0)  ||  Internacional : repos 4 j | prochains : Red Bull Bragantino (Brasileirao, 6 j), Cruzeiro (Brasileirao, 9 j)  ||  Vitória : repos 4 j | prochains : Santos (Brasileirao, 6 j), Vasco da Gama (Brasileirao, 9 j)",
+   "day": "2026-11-23",
+   "kickoff": "2026-11-23T22:30Z",
+   "prio": 9,
+   "live_score": "2-5",
+   "minute": "FT"
   },
   {
    "league": "Liga Uruguay",
@@ -4015,26 +4015,6 @@
    "kickoff": "2026-11-22T21:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Equateur",
-   "home": "Liga de Quito",
-   "away": "Aucas",
-   "status": "finished",
-   "conf": 79,
-   "victoire": "Serré : Nul ou Liga de Quito",
-   "score_exact": "1-0 (14%) · 0-0 (12%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 62%",
-   "btts": "BTTS NON 57%",
-   "analyse": "Resultat 0-1 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Liga de Quito 3V · 3N · Aucas 2V (scores : 0-0 x2, 1-0 x2, 1-2)  ||  Liga de Quito : repos 14 j | prochains : Macará (Liga Equateur, 6 j), Independiente del Valle (Liga Equateur, 14 j)  ||  Aucas : repos 14 j | prochains : Barcelona SC (Liga Equateur, 6 j), Universidad Católica (Quito) (Liga Equateur, 14 j)",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T21:30Z",
-   "prio": 12,
-   "live_score": "0-1",
    "minute": "FT"
   }
  ]
