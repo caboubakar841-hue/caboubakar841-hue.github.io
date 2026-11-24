@@ -1,7 +1,7 @@
 {
- "date": "2026-11-24 12:53 UTC",
+ "date": "2026-11-24 13:02 UTC",
  "version": "V17",
- "ts": "2026-11-24T12:53:44.281308+00:00",
+ "ts": "2026-11-24T13:02:18.745696+00:00",
  "stats": {
   "n": 576,
   "n_avant": 355,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 9 s"
+  "Durée du run : 7 s"
  ],
  "tickets": [
   {
@@ -2438,6 +2438,26 @@
  ],
  "matches": [
   {
+   "league": "Indian Football League",
+   "home": "Sreenidi Deccan FC",
+   "away": "Chanmari FC",
+   "status": "live",
+   "conf": 61,
+   "victoire": "Victoire Chanmari FC",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-24 | Buts attendus Sreenidi Deccan FC 1.1 - Chanmari FC 2.1 | 1/N/2 : 18/20/61% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Sreenidi Deccan FC 1V · 0N · Chanmari FC 1V (scores : 1-2, 2-1) - trop peu pour influer  ||  Sreenidi Deccan FC : repos 6 j | prochains : Gokulam Kerala FC (Indian Football League, 6 j)  ||  Chanmari FC : repos 4 j | prochains : Mohammedan SC (Indian Football League, 7 j), Nagaland United SC (Indian Football League, 13 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T13:00Z",
+   "prio": 10,
+   "live_score": "0-0",
+   "minute": "2'"
+  },
+  {
    "league": "AFC Champions League",
    "home": "Cong An Ha Noi",
    "away": "Vissel Kobe",
@@ -2454,8 +2474,8 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T12:15Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "38'"
+   "live_score": "1-0",
+   "minute": "45'+2'"
   },
   {
    "league": "AFC Champions League",
@@ -2475,7 +2495,7 @@
    "kickoff": "2026-11-24T12:15Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "37'"
+   "minute": "45'+1'"
   },
   {
    "league": "AFC Champions League",
@@ -2494,8 +2514,8 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T12:15Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "37'"
+   "live_score": "1-1",
+   "minute": "45'+1'"
   },
   {
    "league": "Ligue des champions",
@@ -3074,24 +3094,6 @@
    "prio": 9
   },
   {
-   "league": "Indian Football League",
-   "home": "Sreenidi Deccan FC",
-   "away": "Chanmari FC",
-   "status": "today",
-   "conf": 61,
-   "victoire": "Victoire Chanmari FC",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "2026-11-24 | Buts attendus Sreenidi Deccan FC 1.1 - Chanmari FC 2.1 | 1/N/2 : 18/20/61% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Sreenidi Deccan FC 1V · 0N · Chanmari FC 1V (scores : 1-2, 2-1) - trop peu pour influer  ||  Sreenidi Deccan FC : repos 6 j | prochains : Gokulam Kerala FC (Indian Football League, 6 j)  ||  Chanmari FC : repos 4 j | prochains : Mohammedan SC (Indian Football League, 7 j), Nagaland United SC (Indian Football League, 13 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T13:00Z",
-   "prio": 10
-  },
-  {
    "league": "AFC Champions League Two",
    "home": "East Bengal FC",
    "away": "Al-Hussein SC",
@@ -3213,6 +3215,24 @@
    "btts": "BTTS OUI 59%",
    "analyse": "2026-11-24 | Buts attendus Fleetwood Town 1.9 - Leeds United U21 1.2 | 1/N/2 : 55/22/23% | base sur 16 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Leeds United U21 (estimation neutre, très incertaine). Fleetwood Town : 15e/24 (20 pts en 16 m.) | repos 3 j | prochains : Accrington Stanley (League Two, 4 j), Northampton Town (League Two, 7 j)  ||  Leeds United U21",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T19:00Z",
+   "prio": 13
+  },
+  {
+   "league": "English EFL Trophy",
+   "home": "Oxford United",
+   "away": "Tottenham Hotspur U21",
+   "status": "today",
+   "conf": 72,
+   "victoire": "Victoire Oxford United",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 88%",
+   "corner": "N/D",
+   "over": "Over 2.5 70%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "2026-11-24 | Buts attendus Oxford United 2.6 - Tottenham Hotspur U21 1.0 | 1/N/2 : 72/16/12% | base sur 14 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Tottenham Hotspur U21 (estimation neutre, très incertaine). Oxford United : 3e/24 (29 pts en 14 m.) | repos 3 j | prochains : Luton Town (League One, 4 j), Sheffield Wednesday (League One, 7 j), Peterborough United (League One, 11 j)  ||  Tottenham Hotspur U21",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:00Z",
    "prio": 13
