@@ -1,7 +1,7 @@
 {
- "date": "2026-11-24 05:13 UTC",
+ "date": "2026-11-24 05:22 UTC",
  "version": "V17",
- "ts": "2026-11-24T05:13:45.861894+00:00",
+ "ts": "2026-11-24T05:22:21.185905+00:00",
  "stats": {
   "n": 573,
   "n_avant": 352,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 16 s"
  ],
  "tickets": [
   {
@@ -2450,7 +2450,7 @@
    "over": "Over 2.5 76%",
    "btts": "BTTS OUI 74%",
    "analyse": "2026-11-24 | Buts attendus Galatasaray 2.2 - Aston Villa 1.8 | 1/N/2 : 48/20/31% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Galatasaray : 1e/18 (31 pts en 12 m.) | repos 3 j | prochains : Besiktas (Super Lig, 6 j), Caykur Rizespor (Super Lig, 10 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 3 j | prochains : Ipswich Town (Premier League, 4 j), Everton (Premier League, 8 j), Crystal Palace (Premier League, 11 j)",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Galatasaray : 1e/18 (31 pts en 12 m.) | repos 3 j | prochains : Besiktas (Super Lig, 6 j), Caykur Rizespor (Super Lig, 10 j), AEK Athens (Ligue des champions, 14 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 3 j | prochains : Ipswich Town (Premier League, 4 j), Everton (Premier League, 8 j), Crystal Palace (Premier League, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0
@@ -2486,7 +2486,7 @@
    "over": "Over 2.5 50%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-11-24 | Buts attendus Como 1.5 - AEK Athens 1.2 | 1/N/2 : 46/25/29% | base sur 12 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Como : 5e/20 (26 pts en 12 m.) | repos 3 j | prochains : Juventus (Serie A, 5 j), Cremonese (Coupe d'Italie, 8 j), Monza (Serie A, 11 j)  ||  AEK Athens : 3e/14 (23 pts en 10 m.) | repos 3 j | prochains : PAOK (Super League (GRE), 5 j), Olympiacos (Super League (GRE), 11 j)",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Como : 5e/20 (26 pts en 12 m.) | repos 3 j | prochains : Juventus (Serie A, 5 j), Cremonese (Coupe d'Italie, 8 j), Monza (Serie A, 11 j)  ||  AEK Athens : 3e/14 (23 pts en 10 m.) | repos 3 j | prochains : PAOK (Super League (GRE), 5 j), Olympiacos (Super League (GRE), 11 j), Galatasaray (Ligue des champions, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0
@@ -2504,7 +2504,7 @@
    "over": "Over 2.5 72%",
    "btts": "BTTS OUI 70%",
    "analyse": "2026-11-24 | Buts attendus Feyenoord Rotterdam 1.6 - FC Porto 2.1 | 1/N/2 : 28/21/51% | base sur 12 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Feyenoord Rotterdam : 5e/18 (22 pts en 12 m.) | repos 3 j | prochains : Ajax Amsterdam (Eredivisie, 5 j), Willem II (Eredivisie, 11 j)  ||  FC Porto : 1e/18 (30 pts en 10 m.) | repos 16 j | prochains : Sporting CP (Liga Portugal, 5 j), Santa Clara (Liga Portugal, 11 j)",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Feyenoord Rotterdam : 5e/18 (22 pts en 12 m.) | repos 3 j | prochains : Ajax Amsterdam (Eredivisie, 5 j), Willem II (Eredivisie, 11 j), Viking FK (Ligue des champions, 14 j)  ||  FC Porto : 1e/18 (30 pts en 10 m.) | repos 16 j | prochains : Sporting CP (Liga Portugal, 5 j), Santa Clara (Liga Portugal, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0
@@ -2522,7 +2522,7 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-24 | Buts attendus Manchester City 1.8 - Napoli 1.5 | 1/N/2 : 46/23/31% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Face-à-face (1 confrontation) : Manchester City 1V · 0N · Napoli 0V (scores : 2-0) - trop peu pour influer  ||  Manchester City : 3e/20 (22 pts en 11 m.) | repos 3 j | prochains : Arsenal (Premier League, 5 j), Leeds United (Premier League, 8 j), Brentford (Premier League, 11 j)  ||  Napoli : 8e/20 (18 pts en 12 m.) | repos 3 j | prochains : Sassuolo (Serie A, 5 j), Lecce (Serie A, 11 j)",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Face-à-face (1 confrontation) : Manchester City 1V · 0N · Napoli 0V (scores : 2-0) - trop peu pour influer  ||  Manchester City : 3e/20 (22 pts en 11 m.) | repos 3 j | prochains : Arsenal (Premier League, 5 j), Leeds United (Premier League, 8 j), Brentford (Premier League, 11 j)  ||  Napoli : 8e/20 (18 pts en 12 m.) | repos 3 j | prochains : Sassuolo (Serie A, 5 j), Lecce (Serie A, 11 j), Club Brugge (Ligue des champions, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0
@@ -2612,7 +2612,7 @@
    "over": "Under 2.5 57%",
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-24 | Buts attendus Juve Stabia 1.5 - Catanzaro 1.0 | 1/N/2 : 45/34/21% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Juve Stabia 1V · 3N · Catanzaro 0V (scores : 0-0, 2-0, 2-2)  ||  Juve Stabia : 11e/20 (16 pts en 12 m.) | repos 3 j | prochains : Carrarese (Serie B, 4 j), Benevento (Serie B, 11 j)  ||  Catanzaro : 20e/20 (9 pts en 12 m.) | repos 3 j | prochains : US Avellino (Serie B, 6 j), Cremonese (Serie B, 12 j)",
+   "contexte": "Face-à-face (4 confrontations) : Juve Stabia 1V · 3N · Catanzaro 0V (scores : 0-0, 2-0, 2-2)  ||  Juve Stabia : 11e/20 (16 pts en 12 m.) | repos 3 j | prochains : Carrarese (Serie B, 4 j), Benevento (Serie B, 11 j), Ascoli (Serie B, 14 j)  ||  Catanzaro : 20e/20 (9 pts en 12 m.) | repos 3 j | prochains : US Avellino (Serie B, 6 j), Cremonese (Serie B, 12 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T18:00Z",
    "prio": 9
@@ -2630,7 +2630,7 @@
    "over": "Under 2.5 51%",
    "btts": "BTTS OUI 50%",
    "analyse": "2026-11-24 | Buts attendus Benevento 1.6 - Empoli 1.0 | 1/N/2 : 53/25/23% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Benevento : 10e/20 (16 pts en 12 m.) | repos 3 j | prochains : Palermo (Serie B, 4 j), Juve Stabia (Serie B, 11 j)  ||  Empoli : 19e/20 (9 pts en 12 m.) | repos 3 j | prochains : Hellas Verona (Serie B, 4 j), Virtus Entella (Serie B, 12 j)",
+   "contexte": "Benevento : 10e/20 (16 pts en 12 m.) | repos 3 j | prochains : Palermo (Serie B, 4 j), Juve Stabia (Serie B, 11 j), Padova (Serie B, 14 j)  ||  Empoli : 19e/20 (9 pts en 12 m.) | repos 3 j | prochains : Hellas Verona (Serie B, 4 j), Virtus Entella (Serie B, 12 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:00Z",
    "prio": 9
@@ -2648,7 +2648,7 @@
    "over": "Under 2.5 63%",
    "btts": "BTTS NON 57%",
    "analyse": "2026-11-24 | Buts attendus Cesena 0.9 - Ascoli 1.3 | 1/N/2 : 27/29/44% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Cesena : 8e/20 (18 pts en 12 m.) | repos 4 j | prochains : Vicenza (Serie B, 4 j), Carrarese (Serie B, 11 j)  ||  Ascoli : 3e/20 (21 pts en 12 m.) | repos 3 j | prochains : Virtus Entella (Serie B, 4 j), Mantova (Serie B, 11 j)",
+   "contexte": "Cesena : 8e/20 (18 pts en 12 m.) | repos 4 j | prochains : Vicenza (Serie B, 4 j), Carrarese (Serie B, 11 j)  ||  Ascoli : 3e/20 (21 pts en 12 m.) | repos 3 j | prochains : Virtus Entella (Serie B, 4 j), Mantova (Serie B, 11 j), Juve Stabia (Serie B, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:00Z",
    "prio": 9
@@ -2684,7 +2684,7 @@
    "over": "Under 2.5 52%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-11-24 | Buts attendus Vicenza 1.3 - Carrarese 1.3 | 1/N/2 : 38/26/35% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Vicenza : 18e/20 (10 pts en 12 m.) | repos 3 j | prochains : Cesena (Serie B, 4 j), Padova (Serie B, 11 j)  ||  Carrarese : 15e/20 (13 pts en 12 m.) | repos 3 j | prochains : Juve Stabia (Serie B, 4 j), Cesena (Serie B, 11 j)",
+   "contexte": "Vicenza : 18e/20 (10 pts en 12 m.) | repos 3 j | prochains : Cesena (Serie B, 4 j), Padova (Serie B, 11 j), Mantova (Serie B, 14 j)  ||  Carrarese : 15e/20 (13 pts en 12 m.) | repos 3 j | prochains : Juve Stabia (Serie B, 4 j), Cesena (Serie B, 11 j), Pisa (Serie B, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:00Z",
    "prio": 9
@@ -2720,7 +2720,7 @@
    "over": "Under 2.5 61%",
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-24 | Buts attendus Bristol City 1.1 - Wrexham 1.1 | 1/N/2 : 35/29/36% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Bristol City 0V · 1N · Wrexham 1V (scores : 0-2, 2-2) - trop peu pour influer  ||  Bristol City : 18e/24 (18 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : West Bromwich Albion (Championship, 4 j), Swansea City (Championship, 11 j)  ||  Wrexham : 14e/24 (21 pts en 16 m.) | repos 3 j | prochains : Portsmouth (Championship, 4 j), Norwich City (Championship, 11 j)",
+   "contexte": "Face-à-face (2 confrontations) : Bristol City 0V · 1N · Wrexham 1V (scores : 0-2, 2-2) - trop peu pour influer  ||  Bristol City : 18e/24 (18 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : West Bromwich Albion (Championship, 4 j), Swansea City (Championship, 11 j)  ||  Wrexham : 14e/24 (21 pts en 16 m.) | repos 3 j | prochains : Portsmouth (Championship, 4 j), Norwich City (Championship, 11 j), Charlton Athletic (Championship, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
@@ -2738,7 +2738,7 @@
    "over": "Over 2.5 66%",
    "btts": "BTTS OUI 61%",
    "analyse": "2026-11-24 | Buts attendus Cardiff City 2.5 - Preston North End 1.0 | 1/N/2 : 57/21/22% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Cardiff City 1V · 2N · Preston North End 3V (scores : 0-2 x3, 0-0, 2-1)  ||  Cardiff City : 15e/24 (18 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Swansea City (Championship, 5 j), Lincoln City (Championship, 11 j)  ||  Preston North End : 24e/24 (9 pts en 16 m.) | repos 3 j | prochains : Norwich City (Championship, 4 j), Burnley (Championship, 12 j)",
+   "contexte": "Face-à-face (6 confrontations) : Cardiff City 1V · 2N · Preston North End 3V (scores : 0-2 x3, 0-0, 2-1)  ||  Cardiff City : 15e/24 (18 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Swansea City (Championship, 5 j), Lincoln City (Championship, 11 j), West Bromwich Albion (Championship, 14 j)  ||  Preston North End : 24e/24 (9 pts en 16 m.) | repos 3 j | prochains : Norwich City (Championship, 4 j), Burnley (Championship, 12 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
@@ -2756,7 +2756,7 @@
    "over": "Under 2.5 62%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-11-24 | Buts attendus Charlton Athletic 1.3 - Lincoln City 1.0 | 1/N/2 : 43/29/28% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Charlton Athletic : 19e/24 (17 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Blackburn Rovers (Championship, 4 j), Birmingham City (Championship, 11 j)  ||  Lincoln City : 20e/24 (15 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Wolverhampton Wanderers (Championship, 4 j), Cardiff City (Championship, 11 j)",
+   "contexte": "Charlton Athletic : 19e/24 (17 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Blackburn Rovers (Championship, 4 j), Birmingham City (Championship, 11 j), Wrexham (Championship, 14 j)  ||  Lincoln City : 20e/24 (15 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Wolverhampton Wanderers (Championship, 4 j), Cardiff City (Championship, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
@@ -2774,7 +2774,7 @@
    "over": "Over 2.5 59%",
    "btts": "BTTS OUI 56%",
    "analyse": "2026-11-24 | Buts attendus Middlesbrough 1.9 - Swansea City 1.1 | 1/N/2 : 61/19/19% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Middlesbrough 6V · 1N · Swansea City 1V (scores : 2-1 x2, 1-0 x2, 3-1)  ||  Middlesbrough : 1e/24 (32 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Southampton (Championship, 3 j), Derby County (Championship, 11 j)  ||  Swansea City : 8e/24 (27 pts en 16 m.) | repos 3 j | prochains : Cardiff City (Championship, 5 j), Bristol City (Championship, 11 j)",
+   "contexte": "Face-à-face (8 confrontations) : Middlesbrough 6V · 1N · Swansea City 1V (scores : 2-1 x2, 1-0 x2, 3-1)  ||  Middlesbrough : 1e/24 (32 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Southampton (Championship, 3 j), Derby County (Championship, 11 j), West Ham United (Championship, 14 j)  ||  Swansea City : 8e/24 (27 pts en 16 m.) | repos 3 j | prochains : Cardiff City (Championship, 5 j), Bristol City (Championship, 11 j), Bolton Wanderers (Championship, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
@@ -2792,7 +2792,7 @@
    "over": "Over 2.5 60%",
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-24 | Buts attendus Norwich City 1.8 - Queens Park Rangers 1.4 | 1/N/2 : 45/31/25% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Norwich City 3V · 4N · Queens Park Rangers 1V (scores : 1-1 x2, 0-0, 1-0)  ||  Norwich City : 11e/24 (24 pts en 16 m.) | repos 3 j | prochains : Preston North End (Championship, 4 j), Wrexham (Championship, 11 j)  ||  Queens Park Rangers : 7e/24 (27 pts en 16 m.) | repos 3 j | prochains : Sheffield United (Championship, 4 j), Stoke City (Championship, 11 j)",
+   "contexte": "Face-à-face (8 confrontations) : Norwich City 3V · 4N · Queens Park Rangers 1V (scores : 1-1 x2, 0-0, 1-0)  ||  Norwich City : 11e/24 (24 pts en 16 m.) | repos 3 j | prochains : Preston North End (Championship, 4 j), Wrexham (Championship, 11 j), Blackburn Rovers (Championship, 14 j)  ||  Queens Park Rangers : 7e/24 (27 pts en 16 m.) | repos 3 j | prochains : Sheffield United (Championship, 4 j), Stoke City (Championship, 11 j), Wolverhampton Wanderers (Championship, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
@@ -2810,7 +2810,7 @@
    "over": "Over 2.5 62%",
    "btts": "BTTS OUI 64%",
    "analyse": "2026-11-24 | Buts attendus Portsmouth 1.6 - West Ham United 1.6 | 1/N/2 : 38/23/38% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Portsmouth : 12e/24 (23 pts en 16 m.) | repos 3 j | prochains : Wrexham (Championship, 4 j), West Bromwich Albion (Championship, 11 j)  ||  West Ham United : 10e/24 (24 pts en 16 m.) | repos 3 j | prochains : Stoke City (Championship, 4 j), Sheffield United (Championship, 10 j)",
+   "contexte": "Portsmouth : 12e/24 (23 pts en 16 m.) | repos 3 j | prochains : Wrexham (Championship, 4 j), West Bromwich Albion (Championship, 11 j)  ||  West Ham United : 10e/24 (24 pts en 16 m.) | repos 3 j | prochains : Stoke City (Championship, 4 j), Sheffield United (Championship, 10 j), Middlesbrough (Championship, 14 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
@@ -2828,7 +2828,7 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 55%",
    "analyse": "2026-11-24 | Buts attendus Sheffield United 1.2 - Southampton 1.5 | 1/N/2 : 32/26/43% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Sheffield United 0V · 0N · Southampton 2V (scores : 1-2, 0-1) - trop peu pour influer  ||  Sheffield United : 9e/24 (25 pts en 16 m.) | repos 3 j | prochains : Queens Park Rangers (Championship, 4 j), West Ham United (Championship, 10 j)  ||  Southampton : 3e/24 (31 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Middlesbrough (Championship, 3 j), Wolverhampton Wanderers (Championship, 11 j)",
+   "contexte": "Face-à-face (2 confrontations) : Sheffield United 0V · 0N · Southampton 2V (scores : 1-2, 0-1) - trop peu pour influer  ||  Sheffield United : 9e/24 (25 pts en 16 m.) | repos 3 j | prochains : Queens Park Rangers (Championship, 4 j), West Ham United (Championship, 10 j), Millwall (Championship, 14 j)  ||  Southampton : 3e/24 (31 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Middlesbrough (Championship, 3 j), Wolverhampton Wanderers (Championship, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9
@@ -2972,7 +2972,7 @@
    "over": "Over 2.5 61%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-24 | Buts attendus Wolverhampton Wanderers 2.4 - Derby County 0.8 | 1/N/2 : 73/16/10% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Wolverhampton Wanderers : 4e/24 (31 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Lincoln City (Championship, 4 j), Southampton (Championship, 11 j)  ||  Derby County : 23e/24 (10 pts en 16 m.) | repos 3 j | prochains : Watford (Championship, 4 j), Middlesbrough (Championship, 11 j)",
+   "contexte": "Wolverhampton Wanderers : 4e/24 (31 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Lincoln City (Championship, 4 j), Southampton (Championship, 11 j), Queens Park Rangers (Championship, 14 j)  ||  Derby County : 23e/24 (10 pts en 16 m.) | repos 3 j | prochains : Watford (Championship, 4 j), Middlesbrough (Championship, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 9
