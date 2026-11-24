@@ -1,7 +1,7 @@
 {
- "date": "2026-11-24 18:12 UTC",
+ "date": "2026-11-24 18:21 UTC",
  "version": "V17",
- "ts": "2026-11-24T18:12:46.593243+00:00",
+ "ts": "2026-11-24T18:21:02.590475+00:00",
  "stats": {
   "n": 583,
   "n_avant": 362,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 2 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2455,7 +2455,7 @@
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
    "live_score": "0-0",
-   "minute": "26'"
+   "minute": "34'"
   },
   {
    "league": "Ligue des champions",
@@ -2475,7 +2475,7 @@
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
    "live_score": "0-0",
-   "minute": "27'"
+   "minute": "35'"
   },
   {
    "league": "Serie B",
@@ -2495,7 +2495,27 @@
    "kickoff": "2026-11-24T18:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "19'"
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Al Nassr",
+   "away": "Al Sadd",
+   "status": "live",
+   "conf": 65,
+   "victoire": "Victoire Al Nassr",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "2026-11-24 | Buts attendus Al Nassr 2.3 - Al Sadd 1.1 | 1/N/2 : 65/19/17% | base sur 3 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : Al Nassr 0V · 0N · Al Sadd 1V (scores : 1-2) - trop peu pour influer  ||  Al Nassr : repos 22 j | prochains : Al-Gharafa (AFC Champions League, 14 j)  ||  Al Sadd : repos 22 j | prochains : Al-Quwa Al-Jawiya (AFC Champions League, 13 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T18:15Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "6'"
   },
   {
    "league": "Ligue des champions",
@@ -3020,24 +3040,6 @@
    "prio": 9
   },
   {
-   "league": "AFC Champions League",
-   "home": "Al Nassr",
-   "away": "Al Sadd",
-   "status": "today",
-   "conf": 65,
-   "victoire": "Victoire Al Nassr",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "2026-11-24 | Buts attendus Al Nassr 2.3 - Al Sadd 1.1 | 1/N/2 : 65/19/17% | base sur 3 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : Al Nassr 0V · 0N · Al Sadd 1V (scores : 1-2) - trop peu pour influer  ||  Al Nassr : repos 22 j | prochains : Al-Gharafa (AFC Champions League, 14 j)  ||  Al Sadd : repos 22 j | prochains : Al-Quwa Al-Jawiya (AFC Champions League, 13 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T18:15Z",
-   "prio": 12
-  },
-  {
    "league": "Liga Colombia",
    "home": "Millonarios",
    "away": "Atlético Bucaramanga",
@@ -3215,6 +3217,24 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Sporting CP : 3e/18 (23 pts en 10 m.) | repos 18 j | prochains : FC Porto (Liga Portugal, 4 j), Maritimo (Liga Portugal, 9 j), AS Roma (Ligue des champions, 13 j)  ||  Manchester United : 19e/20 (8 pts en 11 m.) | repos 3 j | prochains : Brentford (Premier League, 3 j), Newcastle United (Premier League, 7 j), Coventry City (Premier League, 10 j)",
    "day": "2026-11-25",
    "kickoff": "2026-11-25T20:00Z",
+   "prio": 0
+  },
+  {
+   "league": "Ligue des champions",
+   "home": "Sabah FK",
+   "away": "Barcelona",
+   "status": "today",
+   "conf": 95,
+   "victoire": "Victoire Barcelona",
+   "score_exact": "1-5 (7%) · 1-6 (6%)",
+   "double_chance": "X2 98%",
+   "corner": "N/D",
+   "over": "Over 2.5 95%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "2026-11-25 | Buts attendus Sabah FK 1.0 - Barcelona 5.5 | 1/N/2 : 2/3/95% | base sur 0 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Sabah FK (estimation neutre, très incertaine). Sabah FK : repos 21 j | prochains : Villarreal (Ligue des champions, 13 j)  ||  Barcelona : 1e/20 (36 pts en 13 m.) | repos 3 j | prochains : Deportivo (La Liga, 4 j), Atlético Madrid (La Liga, 7 j), Celta Vigo (La Liga, 10 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T17:45Z",
    "prio": 0
   },
   {
