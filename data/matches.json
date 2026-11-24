@@ -1,7 +1,7 @@
 {
- "date": "2026-11-24 15:24 UTC",
+ "date": "2026-11-24 15:33 UTC",
  "version": "V17",
- "ts": "2026-11-24T15:24:40.539490+00:00",
+ "ts": "2026-11-24T15:33:09.183458+00:00",
  "stats": {
   "n": 580,
   "n_avant": 359,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2454,8 +2454,8 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T13:45Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "81'"
+   "live_score": "1-0",
+   "minute": "89'"
   },
   {
    "league": "Ligue des champions",
@@ -3125,24 +3125,6 @@
   },
   {
    "league": "English EFL Trophy",
-   "home": "Fleetwood Town",
-   "away": "Leeds United U21",
-   "status": "today",
-   "conf": 55,
-   "victoire": "Victoire Fleetwood Town",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-24 | Buts attendus Fleetwood Town 1.9 - Leeds United U21 1.2 | 1/N/2 : 55/22/23% | base sur 16 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Leeds United U21 (estimation neutre, très incertaine). Fleetwood Town : 15e/24 (20 pts en 16 m.) | repos 3 j | prochains : Accrington Stanley (League Two, 4 j), Northampton Town (League Two, 7 j)  ||  Leeds United U21",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T19:00Z",
-   "prio": 13
-  },
-  {
-   "league": "English EFL Trophy",
    "home": "Oxford United",
    "away": "Tottenham Hotspur U21",
    "status": "today",
@@ -3173,6 +3155,24 @@
    "btts": "BTTS OUI 61%",
    "analyse": "2026-11-24 | Buts attendus Salford City 2.5 - Sunderland U21 1.1 | 1/N/2 : 69/17/14% | base sur 16 et 0 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Peu ou pas de données pour : Sunderland U21 (estimation neutre, très incertaine). Salford City : 1e/24 (33 pts en 16 m.) | repos 3 j | prochains : Gillingham (League Two, 4 j), Tranmere Rovers (League Two, 11 j)  ||  Sunderland U21",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T19:00Z",
+   "prio": 13
+  },
+  {
+   "league": "English EFL Trophy",
+   "home": "Tranmere Rovers",
+   "away": "Everton U21",
+   "status": "today",
+   "conf": 58,
+   "victoire": "Victoire Tranmere Rovers",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 60%",
+   "analyse": "2026-11-24 | Buts attendus Tranmere Rovers 2.1 - Everton U21 1.2 | 1/N/2 : 58/21/21% | base sur 16 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Everton U21 (estimation neutre, très incertaine). Tranmere Rovers : 10e/24 (22 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Bristol Rovers (League Two, 4 j), Salford City (League Two, 11 j)  ||  Everton U21",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T19:00Z",
    "prio": 13
