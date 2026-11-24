@@ -1,7 +1,7 @@
 {
- "date": "2026-11-24 17:39 UTC",
+ "date": "2026-11-24 17:47 UTC",
  "version": "V17",
- "ts": "2026-11-24T17:39:22.800917+00:00",
+ "ts": "2026-11-24T17:47:45.207451+00:00",
  "stats": {
   "n": 581,
   "n_avant": 360,
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2438,6 +2438,46 @@
  ],
  "matches": [
   {
+   "league": "Ligue des champions",
+   "home": "Bodo/Glimt",
+   "away": "LASK Linz",
+   "status": "live",
+   "conf": 64,
+   "victoire": "Victoire LASK Linz",
+   "score_exact": "1-2 (9%) · 1-3 (8%)",
+   "double_chance": "12 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "2026-11-24 | Buts attendus Bodo/Glimt 1.3 - LASK Linz 2.5 | 1/N/2 : 18/18/64% | base sur 0 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Bodo/Glimt (estimation neutre, très incertaine). Bodo/Glimt : repos 21 j  ||  LASK Linz : 3e/12 (22 pts en 11 m.) | repos 3 j | prochains : RB Salzburg (Bundesliga (AUT), 5 j), Rapid Vienna (Bundesliga (AUT), 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T17:45Z",
+   "prio": 0,
+   "live_score": "0-0",
+   "minute": "2'"
+  },
+  {
+   "league": "Ligue des champions",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "status": "live",
+   "conf": 80,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 74%",
+   "analyse": "2026-11-24 | Buts attendus Galatasaray 2.2 - Aston Villa 1.8 | 1/N/2 : 48/20/31% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Galatasaray : 1e/18 (31 pts en 12 m.) | repos 3 j | prochains : Besiktas (Super Lig, 6 j), Caykur Rizespor (Super Lig, 10 j), AEK Athens (Ligue des champions, 14 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 3 j | prochains : Ipswich Town (Premier League, 4 j), Everton (Premier League, 8 j), Crystal Palace (Premier League, 11 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T17:45Z",
+   "prio": 0,
+   "live_score": "0-0",
+   "minute": "2'"
+  },
+  {
    "league": "AFC Champions League",
    "home": "Shabab Al Ahli",
    "away": "Al Qadsiah",
@@ -2454,8 +2494,8 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T16:00Z",
    "prio": 12,
-   "live_score": "1-4",
-   "minute": "79'"
+   "live_score": "1-5",
+   "minute": "87'"
   },
   {
    "league": "AFC Champions League Two",
@@ -2474,26 +2514,8 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T16:00Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "79'"
-  },
-  {
-   "league": "Ligue des champions",
-   "home": "Galatasaray",
-   "away": "Aston Villa",
-   "status": "today",
-   "conf": 80,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 74%",
-   "analyse": "2026-11-24 | Buts attendus Galatasaray 2.2 - Aston Villa 1.8 | 1/N/2 : 48/20/31% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Galatasaray : 1e/18 (31 pts en 12 m.) | repos 3 j | prochains : Besiktas (Super Lig, 6 j), Caykur Rizespor (Super Lig, 10 j), AEK Athens (Ligue des champions, 14 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 3 j | prochains : Ipswich Town (Premier League, 4 j), Everton (Premier League, 8 j), Crystal Palace (Premier League, 11 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T17:45Z",
-   "prio": 0
+   "live_score": "2-0",
+   "minute": "87'"
   },
   {
    "league": "Ligue des champions",
@@ -2601,24 +2623,6 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Real Madrid : 2e/20 (33 pts en 13 m.) | repos 3 j | prochains : Alavés (La Liga, 4 j), Real Sociedad (La Liga, 8 j), Athletic Club (La Liga, 12 j)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 3 j | prochains : Go Ahead Eagles (Eredivisie, 4 j), AZ Alkmaar (Eredivisie, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
-   "prio": 0
-  },
-  {
-   "league": "Ligue des champions",
-   "home": "Bodo/Glimt",
-   "away": "LASK Linz",
-   "status": "today",
-   "conf": 64,
-   "victoire": "Victoire LASK Linz",
-   "score_exact": "1-2 (9%) · 1-3 (8%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-24 | Buts attendus Bodo/Glimt 1.3 - LASK Linz 2.5 | 1/N/2 : 18/18/64% | base sur 0 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Bodo/Glimt (estimation neutre, très incertaine). Bodo/Glimt : repos 21 j  ||  LASK Linz : 3e/12 (22 pts en 11 m.) | repos 3 j | prochains : RB Salzburg (Bundesliga (AUT), 5 j), Rapid Vienna (Bundesliga (AUT), 11 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T17:45Z",
    "prio": 0
   },
   {
@@ -3193,6 +3197,42 @@
    "btts": "BTTS OUI 69%",
    "analyse": "2026-11-25 | Buts attendus Internazionale 2.5 - VfB Stuttgart 1.4 | 1/N/2 : 61/18/20% | base sur 12 et 10 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Internazionale : 3e/20 (29 pts en 12 m.) | repos 3 j | prochains : Genoa (Serie A, 3 j), Genoa (Coupe d'Italie, 6 j), Frosinone (Serie A, 10 j)  ||  VfB Stuttgart : 8e/18 (13 pts en 10 m.) | repos 4 j | prochains : Eintracht Frankfurt (Bundesliga, 3 j), Dynamo Dresden (Coupe d'Allemagne, 6 j), SV Elversberg (Bundesliga, 11 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T20:00Z",
+   "prio": 0
+  },
+  {
+   "league": "Ligue des champions",
+   "home": "Lille",
+   "away": "Bayern Munich",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (10%) · 2-1 (6%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 52%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-25 | Buts attendus Lille 1.1 - Bayern Munich 1.6 | 1/N/2 : 26/25/50% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Lille : 3e/18 (21 pts en 11 m.) | repos 4 j | prochains : Le Mans (Ligue 1, 3 j), AJ Auxerre (Ligue 1, 10 j)  ||  Bayern Munich : 2e/18 (22 pts en 10 m.) | repos 5 j | prochains : Hamburg SV (Bundesliga, 3 j), Hertha Berlin (Coupe d'Allemagne, 6 j), SC Paderborn 07 (Bundesliga, 9 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T20:00Z",
+   "prio": 0
+  },
+  {
+   "league": "Ligue des champions",
+   "home": "Paris Saint-Germain",
+   "away": "AS Roma",
+   "status": "today",
+   "conf": 79,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 73%",
+   "btts": "BTTS OUI 72%",
+   "analyse": "2026-11-25 | Buts attendus Paris Saint-Germain 1.8 - AS Roma 2.0 | 1/N/2 : 35/21/44% | base sur 11 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Paris Saint-Germain : 1e/18 (26 pts en 11 m.) | repos 4 j | prochains : Lorient (Ligue 1, 3 j), Toulouse (Ligue 1, 9 j), Aston Villa (Ligue des champions, 13 j)  ||  AS Roma : 2e/20 (30 pts en 12 m.) | repos 4 j | prochains : Monza (Serie A, 4 j), Bologna (Serie A, 9 j), Sporting CP (Ligue des champions, 13 j)",
    "day": "2026-11-25",
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0
