@@ -1,7 +1,7 @@
 {
- "date": "2026-11-24 18:21 UTC",
+ "date": "2026-11-24 18:29 UTC",
  "version": "V17",
- "ts": "2026-11-24T18:21:02.590475+00:00",
+ "ts": "2026-11-24T18:29:20.869969+00:00",
  "stats": {
   "n": 583,
   "n_avant": 362,
@@ -2455,7 +2455,7 @@
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
    "live_score": "0-0",
-   "minute": "34'"
+   "minute": "43'"
   },
   {
    "league": "Ligue des champions",
@@ -2475,7 +2475,7 @@
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
    "live_score": "0-0",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "Serie B",
@@ -2495,7 +2495,7 @@
    "kickoff": "2026-11-24T18:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "19'"
+   "minute": "28'"
   },
   {
    "league": "AFC Champions League",
@@ -2514,8 +2514,8 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T18:15Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "6'"
+   "live_score": "1-0",
+   "minute": "13'"
   },
   {
    "league": "Ligue des champions",
