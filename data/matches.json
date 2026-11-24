@@ -1,25 +1,25 @@
 {
- "date": "2026-11-24 00:04 UTC",
+ "date": "2026-11-24 00:13 UTC",
  "version": "V17",
- "ts": "2026-11-24T00:04:54.728648+00:00",
+ "ts": "2026-11-24T00:13:14.802963+00:00",
  "stats": {
-  "n": 572,
-  "n_avant": 372,
+  "n": 566,
+  "n_avant": 347,
   "dc": 80,
-  "over": 53,
+  "over": 54,
   "btts": 52,
   "score": 18,
   "1x2": 60,
-  "n_fav": 276,
+  "n_fav": 273,
   "serre": 74,
-  "n_serre": 296,
-  "base_dom": 45,
-  "n_ctx": 247,
-  "brier_ctx": 0.613,
-  "brier_base": 0.604,
-  "n_h2h": 218,
-  "brier_h2h": 0.614,
-  "brier_noh2h": 0.606
+  "n_serre": 293,
+  "base_dom": 46,
+  "n_ctx": 244,
+  "brier_ctx": 0.615,
+  "brier_base": 0.606,
+  "n_h2h": 215,
+  "brier_h2h": 0.617,
+  "brier_noh2h": 0.609
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 7 s"
  ],
  "tickets": [
   {
@@ -2454,8 +2454,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T22:30Z",
    "prio": 9,
-   "live_score": "1-3",
-   "minute": "69'"
+   "live_score": "2-3",
+   "minute": "79'"
   },
   {
    "league": "Brasileirao",
@@ -2475,7 +2475,27 @@
    "kickoff": "2026-11-23T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "50'"
+  },
+  {
+   "league": "Brasileirao",
+   "home": "Santos",
+   "away": "Grêmio",
+   "status": "live",
+   "conf": 59,
+   "victoire": "Victoire Santos",
+   "score_exact": "1-0 (12%) · 2-0 (12%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-24 | Buts attendus Santos 2.0 - Grêmio 0.7 | 1/N/2 : 59/20/21% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Santos 1V · 1N · Grêmio 3V (scores : 0-1 x2, 2-1, 1-1)  ||  Santos : repos 2 j | prochains : Vitória (Brasileirao, 6 j), Botafogo (Brasileirao, 9 j)  ||  Grêmio : repos 5 j | prochains : Corinthians (Brasileirao, 6 j), Mirassol (Brasileirao, 9 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T00:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "9'"
   },
   {
    "league": "Primera Paraguay",
@@ -2514,8 +2534,8 @@
    "day": "2026-11-23",
    "kickoff": "2026-11-23T22:30Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "77'"
+   "live_score": "1-1",
+   "minute": "85'"
   },
   {
    "league": "Ligue des champions",
@@ -2678,24 +2698,6 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0
-  },
-  {
-   "league": "Brasileirao",
-   "home": "Santos",
-   "away": "Grêmio",
-   "status": "today",
-   "conf": 59,
-   "victoire": "Victoire Santos",
-   "score_exact": "1-0 (12%) · 2-0 (12%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-24 | Buts attendus Santos 2.0 - Grêmio 0.7 | 1/N/2 : 59/20/21% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Santos 1V · 1N · Grêmio 3V (scores : 0-1 x2, 2-1, 1-1)  ||  Santos : repos 2 j | prochains : Vitória (Brasileirao, 6 j), Botafogo (Brasileirao, 9 j)  ||  Grêmio : repos 5 j | prochains : Corinthians (Brasileirao, 6 j), Mirassol (Brasileirao, 9 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T00:00Z",
-   "prio": 9
   },
   {
    "league": "MLS",
@@ -3233,6 +3235,24 @@
    "btts": "BTTS OUI 54%",
    "analyse": "2026-11-24 | Buts attendus Cong An Ha Noi 1.2 - Vissel Kobe 1.5 | 1/N/2 : 31/26/43% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Cong An Ha Noi : repos 21 j | prochains : Kashiwa Reysol (AFC Champions League, 7 j)  ||  Vissel Kobe : repos 4 j | prochains : JEF United Ichihara-Chiba (J1 League, 4 j), Newcastle Jets (AFC Champions League, 7 j), Sanfrecce Hiroshima (J1 League, 12 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T12:15Z",
+   "prio": 12
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Ratchaburi FC",
+   "away": "Johor Darul Ta'zim",
+   "status": "today",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "2026-11-24 | Buts attendus Ratchaburi FC 1.4 - Johor Darul Ta'zim 1.6 | 1/N/2 : 34/24/42% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Ratchaburi FC : repos 21 j | prochains : Beijing Guoan (AFC Champions League, 7 j)  ||  Johor Darul Ta'zim : repos 21 j | prochains : Daejeon Hana Citizen FC (AFC Champions League, 7 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T12:15Z",
    "prio": 12
