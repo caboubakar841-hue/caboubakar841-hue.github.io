@@ -1,16 +1,16 @@
 {
- "date": "2026-11-24 09:32 UTC",
+ "date": "2026-11-24 09:41 UTC",
  "version": "V17",
- "ts": "2026-11-24T09:32:48.626168+00:00",
+ "ts": "2026-11-24T09:41:05.847039+00:00",
  "stats": {
-  "n": 572,
-  "n_avant": 351,
+  "n": 573,
+  "n_avant": 352,
   "dc": 79,
   "over": 54,
   "btts": 52,
   "score": 18,
   "1x2": 60,
-  "n_fav": 274,
+  "n_fav": 275,
   "serre": 74,
   "n_serre": 298,
   "base_dom": 46,
@@ -23,7 +23,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, eng.2 8, afc.champions 8, ita.2 6, eng.3 4, eng.4 2, sco.1 2, afc.cup 2, ind.2 2, bra.1 1, col.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, eng.2 8, afc.champions 7, ita.2 6, eng.3 4, eng.4 2, sco.1 2, afc.cup 2, ind.2 2, bra.1 1, col.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 70",
   "Matchs africains affichés (à venir / live) : 0",
@@ -32,7 +32,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879237\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -207,8 +207,8 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 91,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401880141",
@@ -2438,26 +2438,6 @@
  ],
  "matches": [
   {
-   "league": "AFC Champions League",
-   "home": "Newcastle Jets",
-   "away": "Kashiwa Reysol",
-   "status": "live",
-   "conf": 65,
-   "victoire": "Victoire Kashiwa Reysol",
-   "score_exact": "1-2 (9%) · 1-3 (8%)",
-   "double_chance": "12 83%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 69%",
-   "analyse": "2026-11-24 | Buts attendus Newcastle Jets 1.4 - Kashiwa Reysol 2.6 | 1/N/2 : 18/17/65% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Newcastle Jets : repos 17 j | prochains : Vissel Kobe (AFC Champions League, 7 j)  ||  Kashiwa Reysol : repos 4 j | prochains : Sanfrecce Hiroshima (J1 League, 4 j), Cong An Ha Noi (AFC Champions League, 7 j), Avispa Fukuoka (J1 League, 12 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T07:45Z",
-   "prio": 12,
-   "live_score": "1-2",
-   "minute": "90'+1'"
-  },
-  {
    "league": "Ligue des champions",
    "home": "Galatasaray",
    "away": "Aston Villa",
@@ -3176,6 +3156,26 @@
    "day": "2026-11-24",
    "kickoff": "2026-11-24T13:45Z",
    "prio": 12
+  },
+  {
+   "league": "AFC Champions League",
+   "home": "Newcastle Jets",
+   "away": "Kashiwa Reysol",
+   "status": "finished",
+   "conf": 65,
+   "victoire": "Victoire Kashiwa Reysol",
+   "score_exact": "1-2 (9%) · 1-3 (8%)",
+   "double_chance": "12 83%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Newcastle Jets : repos 17 j | prochains : Vissel Kobe (AFC Champions League, 7 j)  ||  Kashiwa Reysol : repos 4 j | prochains : Sanfrecce Hiroshima (J1 League, 4 j), Cong An Ha Noi (AFC Champions League, 7 j), Avispa Fukuoka (J1 League, 12 j)",
+   "day": "2026-11-24",
+   "kickoff": "2026-11-24T07:45Z",
+   "prio": 12,
+   "live_score": "1-2",
+   "minute": "FT"
   },
   {
    "league": "MLS",
@@ -3955,26 +3955,6 @@
    "kickoff": "2026-11-22T23:30Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga MX",
-   "home": "Guadalajara",
-   "away": "Cruz Azul",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (10%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Guadalajara 0V · 2N · Cruz Azul 6V (scores : 1-2 x3, 0-1 x2, 0-0)  ||  Guadalajara : repos 14 j  ||  Cruz Azul : repos 15 j",
-   "day": "2026-11-22",
-   "kickoff": "2026-11-22T23:07Z",
-   "prio": 12,
-   "live_score": "1-0",
    "minute": "FT"
   }
  ]
