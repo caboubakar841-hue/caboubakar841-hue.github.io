@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 23:17 UTC",
+ "date": "2026-11-25 23:26 UTC",
  "version": "V17",
- "ts": "2026-11-25T23:17:53.333522+00:00",
+ "ts": "2026-11-25T23:26:12.847372+00:00",
  "stats": {
   "n": 646,
   "n_avant": 413,
@@ -30,13 +30,205 @@
   "Matchs sans données masqués (remplacés par d'autres) : 93",
   "Matchs africains affichés (à venir / live) : 0",
   "Matchs ajoutés par le filet « tous les matchs ESPN » : 59",
-  "Cartes à venir affichées : 40 (jours : 2026-11-25, 2026-11-26, 2026-11-27)",
+  "Cartes à venir affichées : 40 (jours : 2026-11-26, 2026-11-27)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
+  {
+   "v": 2,
+   "day": "2026-11-26",
+   "eligible": 12,
+   "tickets": [
+    {
+     "name": "Ticket 10 matchs (risqué)",
+     "rule": "60 à 79 %",
+     "target": 10,
+     "n": 10,
+     "legs": [
+      {
+       "id": "401915807",
+       "match": "FC Nordsjælland vs Panathinaikos",
+       "league": "Conference League",
+       "time": "20:00",
+       "pick": "Double chance X2 (nul ou Panathinaikos)",
+       "code": "X2",
+       "p": 74,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401841329",
+       "match": "São Paulo vs Remo",
+       "league": "Brasileirao",
+       "time": "23:00",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 72,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401936456",
+       "match": "C.D. Platense vs CD FAS",
+       "league": "Salvadoran Primera Division",
+       "time": "01:00",
+       "pick": "Double chance X2 (nul ou CD FAS)",
+       "code": "X2",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401934705",
+       "match": "Atlético Nacional vs Independiente Medellín",
+       "league": "Liga Colombia",
+       "time": "01:30",
+       "pick": "Double chance 12 (pas de nul)",
+       "code": "12",
+       "p": 71,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915519",
+       "match": "Celta Vigo vs AFC Bournemouth",
+       "league": "Ligue Europa",
+       "time": "17:45",
+       "pick": "Double chance X2 (nul ou AFC Bournemouth)",
+       "code": "X2",
+       "p": 70,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401921355",
+       "match": "Barcelona SC vs Independiente del Valle",
+       "league": "Liga Equateur",
+       "time": "00:00",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 69,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915801",
+       "match": "SC Freiburg vs FC Twente",
+       "league": "Conference League",
+       "time": "20:00",
+       "pick": "Double chance 1X (SC Freiburg ou nul)",
+       "code": "1X",
+       "p": 69,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915503",
+       "match": "OFI Crete vs Anderlecht",
+       "league": "Ligue Europa",
+       "time": "20:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 68,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401880728",
+       "match": "Doncaster Rovers vs Huddersfield Town",
+       "league": "League One",
+       "time": "20:00",
+       "pick": "Under 3.5 buts",
+       "code": "U35",
+       "p": 68,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915515",
+       "match": "TSG Hoffenheim vs SK Sturm Graz",
+       "league": "Ligue Europa",
+       "time": "20:00",
+       "pick": "Over 2.5 buts",
+       "code": "O25",
+       "p": 67,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 2.8,
+     "status": "en cours"
+    },
+    {
+     "name": "Ticket 5 matchs (sûr)",
+     "rule": "80 % ou plus",
+     "target": 5,
+     "n": 5,
+     "legs": [
+      {
+       "id": "401915504",
+       "match": "Crystal Palace vs Real Sociedad",
+       "league": "Ligue Europa",
+       "time": "20:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 94,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401931986",
+       "match": "Toluca vs Atlas",
+       "league": "Liga MX",
+       "time": "01:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 93,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915505",
+       "match": "NEC Nijmegen vs Stade Rennais",
+       "league": "Ligue Europa",
+       "time": "20:00",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 88,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401915811",
+       "match": "Heart of Midlothian vs AS Monaco",
+       "league": "Conference League",
+       "time": "17:45",
+       "pick": "Over 1.5 buts",
+       "code": "O15",
+       "p": 88,
+       "ok": null,
+       "score": null
+      },
+      {
+       "id": "401933757",
+       "match": "Boca Juniors vs Independiente Rivadavia",
+       "league": "Liga Argentina",
+       "time": "00:00",
+       "pick": "Double chance 1X (Boca Juniors ou nul)",
+       "code": "1X",
+       "p": 88,
+       "ok": null,
+       "score": null
+      }
+     ],
+     "combined": 59.9,
+     "status": "en cours"
+    }
+   ]
+  },
   {
    "v": 2,
    "day": "2026-11-25",
@@ -2411,198 +2603,6 @@
      "status": "perdu"
     }
    ]
-  },
-  {
-   "v": 2,
-   "day": "2026-11-12",
-   "eligible": 19,
-   "tickets": [
-    {
-     "name": "Ticket 10 matchs (risqué)",
-     "rule": "60 à 79 %",
-     "target": 10,
-     "n": 10,
-     "legs": [
-      {
-       "id": "401929777",
-       "match": "Bonaire vs Cuba",
-       "league": "Ligue des nations (CONCACAF)",
-       "time": "20:00",
-       "pick": "Double chance X2 (nul ou Cuba)",
-       "code": "X2",
-       "p": 73,
-       "ok": true,
-       "score": "1-7"
-      },
-      {
-       "id": "401875813",
-       "match": "Estudiantes de La Plata vs Independiente Rivadavia",
-       "league": "Argentine Supercopa",
-       "time": "23:00",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 73,
-       "ok": null,
-       "score": null
-      },
-      {
-       "id": "401861146",
-       "match": "Armenia vs Cyprus",
-       "league": "Ligue des nations (UEFA)",
-       "time": "17:00",
-       "pick": "Double chance 12 (pas de nul)",
-       "code": "12",
-       "p": 72,
-       "ok": false,
-       "score": "1-1"
-      },
-      {
-       "id": "401861152",
-       "match": "Montenegro vs Latvia",
-       "league": "Ligue des nations (UEFA)",
-       "time": "19:45",
-       "pick": "Under 3.5 buts",
-       "code": "U35",
-       "p": 72,
-       "ok": true,
-       "score": "2-1"
-      },
-      {
-       "id": "401916986",
-       "match": "Barcelona vs Arsenal",
-       "league": "UEFA Women's Champions League",
-       "time": "17:45",
-       "pick": "Over 2.5 buts",
-       "code": "O25",
-       "p": 71,
-       "ok": null,
-       "score": null
-      },
-      {
-       "id": "401930227",
-       "match": "Real Potosí vs Nacional Potosí",
-       "league": "Copa Bolivia",
-       "time": "23:00",
-       "pick": "Double chance 12 (pas de nul)",
-       "code": "12",
-       "p": 71,
-       "ok": null,
-       "score": null
-      },
-      {
-       "id": "401930994",
-       "match": "Academia Puerto Cabello vs Monagas SC",
-       "league": "Liga Venezuela",
-       "time": "22:00",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 71,
-       "ok": false,
-       "score": "0-1"
-      },
-      {
-       "id": "401878034",
-       "match": "Deportivo Pasto vs Atlético Junior",
-       "league": "Liga Colombia",
-       "time": "22:00",
-       "pick": "Double chance X2 (nul ou Atlético Junior)",
-       "code": "X2",
-       "p": 70,
-       "ok": true,
-       "score": "0-1"
-      },
-      {
-       "id": "401930962",
-       "match": "Uzbekistan vs Russia",
-       "league": "Matchs amicaux internationaux",
-       "time": "15:00",
-       "pick": "BTTS OUI",
-       "code": "BY",
-       "p": 70,
-       "ok": true,
-       "score": "2-3"
-      },
-      {
-       "id": "401933115",
-       "match": "Lithuania vs Suriname",
-       "league": "Matchs amicaux internationaux",
-       "time": "17:00",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 70,
-       "ok": false,
-       "score": "0-0"
-      }
-     ],
-     "combined": 3.4,
-     "status": "perdu"
-    },
-    {
-     "name": "Ticket 5 matchs (sûr)",
-     "rule": "80 % ou plus",
-     "target": 5,
-     "n": 5,
-     "legs": [
-      {
-       "id": "401916983",
-       "match": "Benfica vs Austria Vienna",
-       "league": "UEFA Women's Champions League",
-       "time": "20:00",
-       "pick": "Double chance 1X (Benfica ou nul)",
-       "code": "1X",
-       "p": 96,
-       "ok": null,
-       "score": null
-      },
-      {
-       "id": "401932063",
-       "match": "América vs Toluca",
-       "league": "Mexican Liga BBVA MX Femenil",
-       "time": "01:00",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 94,
-       "ok": null,
-       "score": null
-      },
-      {
-       "id": "401861150",
-       "match": "England vs Croatia",
-       "league": "Ligue des nations (UEFA)",
-       "time": "19:45",
-       "pick": "Over 1.5 buts",
-       "code": "O15",
-       "p": 93,
-       "ok": true,
-       "score": "2-1"
-      },
-      {
-       "id": "401929797",
-       "match": "Cayman Islands vs Guyana",
-       "league": "Ligue des nations (CONCACAF)",
-       "time": "19:00",
-       "pick": "Double chance X2 (nul ou Guyana)",
-       "code": "X2",
-       "p": 90,
-       "ok": true,
-       "score": "0-6"
-      },
-      {
-       "id": "401861149",
-       "match": "San Marino vs Belarus",
-       "league": "Ligue des nations (UEFA)",
-       "time": "19:45",
-       "pick": "Double chance X2 (nul ou Belarus)",
-       "code": "X2",
-       "p": 89,
-       "ok": true,
-       "score": "0-2"
-      }
-     ],
-     "combined": 68.3,
-     "status": "en cours"
-    }
-   ]
   }
  ],
  "matches": [
@@ -2624,7 +2624,27 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "13'"
+   "minute": "21'"
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Independiente Santa Fe",
+   "away": "Once Caldas",
+   "status": "live",
+   "conf": 52,
+   "victoire": "Victoire Independiente Santa Fe",
+   "score_exact": "1-0 (20%) · 2-0 (12%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Under 2.5 71%",
+   "btts": "BTTS NON 66%",
+   "analyse": "2026-11-25 | Buts attendus Independiente Santa Fe 1.2 - Once Caldas 0.7 | 1/N/2 : 52/29/19% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Independiente Santa Fe 5V · 2N · Once Caldas 1V (scores : 1-0 x3, 2-1 x2, 1-2)  ||  Independiente Santa Fe : repos 5 j  ||  Once Caldas : repos 4 j",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T23:20Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "6'"
   },
   {
    "league": "Copa Bolivia",
@@ -2644,25 +2664,7 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "17'"
-  },
-  {
-   "league": "Liga Colombia",
-   "home": "Independiente Santa Fe",
-   "away": "Once Caldas",
-   "status": "today",
-   "conf": 52,
-   "victoire": "Victoire Independiente Santa Fe",
-   "score_exact": "1-0 (20%) · 2-0 (12%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Under 2.5 71%",
-   "btts": "BTTS NON 66%",
-   "analyse": "2026-11-25 | Buts attendus Independiente Santa Fe 1.2 - Once Caldas 0.7 | 1/N/2 : 52/29/19% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Independiente Santa Fe 5V · 2N · Once Caldas 1V (scores : 1-0 x3, 2-1 x2, 1-2)  ||  Independiente Santa Fe : repos 5 j  ||  Once Caldas : repos 4 j",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T23:20Z",
-   "prio": 12
+   "minute": "25'"
   },
   {
    "league": "Ligue Europa",
@@ -3364,6 +3366,24 @@
    "contexte": "Face-à-face (8 confrontations) : Toluca 4V · 4N · Atlas 0V (scores : 0-0 x3, 4-1 x2, 3-2)  ||  Toluca : repos 4 j | prochains : Atlas (Liga MX, 3 j)  ||  Atlas : repos 5 j | prochains : Toluca (Liga MX, 3 j)",
    "day": "2026-11-26",
    "kickoff": "2026-11-26T01:00Z",
+   "prio": 12
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Atlético Nacional",
+   "away": "Independiente Medellín",
+   "status": "today",
+   "conf": 57,
+   "victoire": "Victoire Atlético Nacional",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "1X 87%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-11-26 | Buts attendus Atlético Nacional 2.0 - Independiente Medellín 1.0 | 1/N/2 : 57/29/13% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Atlético Nacional 4V · 4N · Independiente Medellín 0V (scores : 1-1 x2, 2-1 x2, 3-3)  ||  Atlético Nacional : repos 4 j  ||  Independiente Medellín : repos 5 j",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T01:30Z",
    "prio": 12
   },
   {
