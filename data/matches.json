@@ -1,27 +1,27 @@
 {
- "date": "2026-11-25 02:29 UTC",
+ "date": "2026-11-25 02:38 UTC",
  "version": "V17",
- "ts": "2026-11-25T02:29:37.738513+00:00",
+ "ts": "2026-11-25T02:38:36.603405+00:00",
  "stats": {
-  "n": 613,
-  "n_avant": 395,
+  "n": 612,
+  "n_avant": 379,
   "dc": 78,
   "over": 54,
   "btts": 53,
-  "score": 17,
+  "score": 18,
   "1x2": 61,
-  "n_fav": 289,
-  "serre": 73,
-  "n_serre": 324,
+  "n_fav": 290,
+  "serre": 72,
+  "n_serre": 322,
   "base_dom": 46,
   "n_euro": 7,
   "dc_euro": 86,
-  "n_ctx": 264,
-  "brier_ctx": 0.616,
-  "brier_base": 0.611,
-  "n_h2h": 229,
-  "brier_h2h": 0.618,
-  "brier_noh2h": 0.614
+  "n_ctx": 251,
+  "brier_ctx": 0.617,
+  "brier_base": 0.612,
+  "n_h2h": 216,
+  "brier_h2h": 0.619,
+  "brier_noh2h": 0.616
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 42 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2623,8 +2623,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T01:30Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "HT"
+   "live_score": "2-0",
+   "minute": "50'"
   },
   {
    "league": "Ligue des champions",
