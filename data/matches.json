@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 23:51 UTC",
+ "date": "2026-11-25 23:59 UTC",
  "version": "V17",
- "ts": "2026-11-25T23:51:21.538054+00:00",
+ "ts": "2026-11-25T23:59:37.606932+00:00",
  "stats": {
   "n": 646,
   "n_avant": 413,
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-25T23:20Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Copa Bolivia",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "45'+5'"
+   "minute": "HT"
   },
   {
    "league": "Ligue Europa",
