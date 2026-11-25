@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 23:43 UTC",
+ "date": "2026-11-25 23:51 UTC",
  "version": "V17",
- "ts": "2026-11-25T23:43:00.368348+00:00",
+ "ts": "2026-11-25T23:51:21.538054+00:00",
  "stats": {
   "n": 646,
   "n_avant": 413,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "Liga Colombia",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-25T23:20Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "22'"
+   "minute": "31'"
   },
   {
    "league": "Copa Bolivia",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "42'"
+   "minute": "45'+5'"
   },
   {
    "league": "Ligue Europa",
