@@ -1,16 +1,16 @@
 {
- "date": "2026-11-25 09:35 UTC",
+ "date": "2026-11-25 09:44 UTC",
  "version": "V17",
- "ts": "2026-11-25T09:35:53.515001+00:00",
+ "ts": "2026-11-25T09:44:12.033630+00:00",
  "stats": {
-  "n": 614,
-  "n_avant": 381,
+  "n": 615,
+  "n_avant": 382,
   "dc": 78,
   "over": 54,
   "btts": 53,
   "score": 18,
   "1x2": 61,
-  "n_fav": 290,
+  "n_fav": 291,
   "serre": 72,
   "n_serre": 324,
   "base_dom": 47,
@@ -25,7 +25,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, afc.cup 8, jpn.1 7, eng.2 4, ita.2 4, afc.champions 2, ind.2 2, bra.1 1, col.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, afc.cup 7, jpn.1 7, eng.2 4, ita.2 4, afc.champions 2, ind.2 2, bra.1 1, col.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 92",
   "Matchs africains affichés (à venir / live) : 0",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -133,8 +133,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "0-0"
       },
       {
        "id": "401915377",
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "AFC Champions League Two",
-   "home": "Melbourne Victory",
-   "away": "The Cong-Viettel FC",
-   "status": "live",
-   "conf": 64,
-   "victoire": "Victoire Melbourne Victory",
-   "score_exact": "3-0 (8%) · 4-0 (4%)",
-   "double_chance": "1X 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-25 | Buts attendus Melbourne Victory 1.9 - The Cong-Viettel FC 0.8 | 1/N/2 : 64/21/15% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : Melbourne Victory 0V · 1N · The Cong-Viettel FC 0V (scores : 1-1) - trop peu pour influer  ||  Melbourne Victory : repos 4 j | prochains : FC Seoul (AFC Champions League Two, 7 j), Sydney FC (A-League, 11 j)  ||  The Cong-Viettel FC : repos 21 j | prochains : Persib Bandung (AFC Champions League Two, 7 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T07:45Z",
-   "prio": 12,
-   "live_score": "0-0",
-   "minute": "90'+5'"
-  },
-  {
    "league": "Ligue des champions",
    "home": "Club Brugge",
    "away": "Liverpool",
@@ -3345,6 +3325,26 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1
+  },
+  {
+   "league": "AFC Champions League Two",
+   "home": "Melbourne Victory",
+   "away": "The Cong-Viettel FC",
+   "status": "finished",
+   "conf": 64,
+   "victoire": "Victoire Melbourne Victory",
+   "score_exact": "3-0 (8%) · 4-0 (4%)",
+   "double_chance": "1X 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (1 confrontation) : Melbourne Victory 0V · 1N · The Cong-Viettel FC 0V (scores : 1-1) - trop peu pour influer  ||  Melbourne Victory : repos 4 j | prochains : FC Seoul (AFC Champions League Two, 7 j), Sydney FC (A-League, 11 j)  ||  The Cong-Viettel FC : repos 21 j | prochains : Persib Bandung (AFC Champions League Two, 7 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T07:45Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "FT"
   },
   {
    "league": "MLS",
@@ -4120,26 +4120,6 @@
    "btts": "BTTS OUI 67%",
    "analyse": "Resultat 1-0 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Bodo/Glimt (estimation neutre, très incertaine). Bodo/Glimt : repos 21 j  ||  LASK Linz : 3e/12 (22 pts en 11 m.) | repos 3 j | prochains : RB Salzburg (Bundesliga (AUT), 5 j), Rapid Vienna (Bundesliga (AUT), 11 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T17:45Z",
-   "prio": 0,
-   "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue des champions",
-   "home": "Galatasaray",
-   "away": "Aston Villa",
-   "status": "finished",
-   "conf": 80,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 74%",
-   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Galatasaray : 1e/18 (31 pts en 12 m.) | repos 3 j | prochains : Besiktas (Super Lig, 6 j), Caykur Rizespor (Super Lig, 10 j), AEK Athens (Ligue des champions, 14 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 3 j | prochains : Ipswich Town (Premier League, 4 j), Everton (Premier League, 8 j), Crystal Palace (Premier League, 11 j)",
    "day": "2026-11-24",
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
