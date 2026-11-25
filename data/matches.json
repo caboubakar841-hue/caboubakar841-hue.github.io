@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 13:54 UTC",
+ "date": "2026-11-25 14:03 UTC",
  "version": "V17",
- "ts": "2026-11-25T13:54:53.708999+00:00",
+ "ts": "2026-11-25T14:03:13.571526+00:00",
  "stats": {
   "n": 625,
   "n_avant": 392,
@@ -27,14 +27,14 @@
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, afc.cup 7, eng.2 4, ita.2 4, bra.1 1, col.1 1, ind.2 1",
   "Matchs ignorés car illisibles : 0",
-  "Matchs sans données masqués (remplacés par d'autres) : 92",
+  "Matchs sans données masqués (remplacés par d'autres) : 93",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 71",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 72",
   "Cartes à venir affichées : 40 (jours : 2026-11-25, 2026-11-26, 2026-11-27)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-25T12:15Z",
    "prio": 12,
    "live_score": "3-1",
-   "minute": "81'"
+   "minute": "90'"
   },
   {
    "league": "AFC Champions League Two",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-25T13:45Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "Ligue des champions",
