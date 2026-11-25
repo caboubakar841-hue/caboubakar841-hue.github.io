@@ -1,10 +1,10 @@
 {
- "date": "2026-11-25 05:17 UTC",
+ "date": "2026-11-25 05:25 UTC",
  "version": "V17",
- "ts": "2026-11-25T05:17:19.852784+00:00",
+ "ts": "2026-11-25T05:25:40.915021+00:00",
  "stats": {
-  "n": 613,
-  "n_avant": 380,
+  "n": 614,
+  "n_avant": 381,
   "dc": 78,
   "over": 54,
   "btts": 53,
@@ -12,20 +12,20 @@
   "1x2": 61,
   "n_fav": 290,
   "serre": 72,
-  "n_serre": 323,
-  "base_dom": 46,
+  "n_serre": 324,
+  "base_dom": 47,
   "n_euro": 7,
   "dc_euro": 86,
-  "n_ctx": 252,
+  "n_ctx": 253,
   "brier_ctx": 0.617,
   "brier_base": 0.612,
-  "n_h2h": 217,
+  "n_h2h": 218,
   "brier_h2h": 0.619,
   "brier_noh2h": 0.616
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, afc.cup 8, jpn.1 7, eng.2 4, ita.2 4, afc.champions 2, ind.2 2, bra.1 1, col.1 1, usa.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, afc.cup 8, jpn.1 7, eng.2 4, ita.2 4, afc.champions 2, ind.2 2, bra.1 1, col.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 92",
   "Matchs africains affichés (à venir / live) : 0",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 6 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -111,8 +111,8 @@
        "pick": "Double chance 12 (pas de nul)",
        "code": "12",
        "p": 72,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-1"
       },
       {
        "id": "401912746",
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "MLS",
-   "home": "San Jose Earthquakes",
-   "away": "Houston Dynamo FC",
-   "status": "live",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (12%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 63%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-25 | Buts attendus San Jose Earthquakes 1.1 - Houston Dynamo FC 1.0 | 1/N/2 : 37/28/35% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : San Jose Earthquakes 3V · 2N · Houston Dynamo FC 3V (scores : 2-1 x2, 1-4, 1-2)  ||  San Jose Earthquakes : repos 17 j | prochains : Houston Dynamo FC (MLS, 4 j), Houston Dynamo FC (MLS, 8 j)  ||  Houston Dynamo FC : repos 17 j | prochains : San Jose Earthquakes (MLS, 4 j), San Jose Earthquakes (MLS, 8 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T03:00Z",
-   "prio": 9,
-   "live_score": "2-1",
-   "minute": "88'"
-  },
-  {
    "league": "Ligue des champions",
    "home": "Club Brugge",
    "away": "Liverpool",
@@ -3345,6 +3325,26 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T19:00Z",
    "prio": 13
+  },
+  {
+   "league": "MLS",
+   "home": "San Jose Earthquakes",
+   "away": "Houston Dynamo FC",
+   "status": "finished",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (12%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Under 2.5 63%",
+   "btts": "BTTS NON 57%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : San Jose Earthquakes 3V · 2N · Houston Dynamo FC 3V (scores : 2-1 x2, 1-4, 1-2)  ||  San Jose Earthquakes : repos 17 j | prochains : Houston Dynamo FC (MLS, 4 j), Houston Dynamo FC (MLS, 8 j)  ||  Houston Dynamo FC : repos 17 j | prochains : San Jose Earthquakes (MLS, 4 j), San Jose Earthquakes (MLS, 8 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T03:00Z",
+   "prio": 9,
+   "live_score": "2-1",
+   "minute": "FT"
   },
   {
    "league": "Liga Colombia",
@@ -4124,26 +4124,6 @@
    "kickoff": "2026-11-24T17:45Z",
    "prio": 0,
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "AFC Champions League",
-   "home": "Shabab Al Ahli",
-   "away": "Al Qadsiah",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 1-5 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Shabab Al Ahli : repos 21 j | prochains : Al Ahli (AFC Champions League, 14 j)  ||  Al Qadsiah : repos 22 j | prochains : Al-Shamal (AFC Champions League, 13 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T16:00Z",
-   "prio": 12,
-   "live_score": "1-5",
    "minute": "FT"
   }
  ]
