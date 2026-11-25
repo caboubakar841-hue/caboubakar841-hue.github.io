@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 03:11 UTC",
+ "date": "2026-11-25 03:20 UTC",
  "version": "V17",
- "ts": "2026-11-25T03:11:59.732411+00:00",
+ "ts": "2026-11-25T03:20:30.755243+00:00",
  "stats": {
   "n": 612,
   "n_avant": 379,
@@ -2607,6 +2607,26 @@
  ],
  "matches": [
   {
+   "league": "MLS",
+   "home": "San Jose Earthquakes",
+   "away": "Houston Dynamo FC",
+   "status": "live",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (12%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Under 2.5 63%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-25 | Buts attendus San Jose Earthquakes 1.1 - Houston Dynamo FC 1.0 | 1/N/2 : 37/28/35% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : San Jose Earthquakes 3V · 2N · Houston Dynamo FC 3V (scores : 2-1 x2, 1-4, 1-2)  ||  San Jose Earthquakes : repos 17 j | prochains : Houston Dynamo FC (MLS, 4 j), Houston Dynamo FC (MLS, 8 j)  ||  Houston Dynamo FC : repos 17 j | prochains : San Jose Earthquakes (MLS, 4 j), San Jose Earthquakes (MLS, 8 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T03:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "Delay"
+  },
+  {
    "league": "Liga Colombia",
    "home": "América de Cali",
    "away": "Deportivo Cali",
@@ -2624,7 +2644,7 @@
    "kickoff": "2026-11-25T01:30Z",
    "prio": 12,
    "live_score": "2-1",
-   "minute": "83'"
+   "minute": "90'+1'"
   },
   {
    "league": "Ligue des champions",
@@ -2787,24 +2807,6 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0
-  },
-  {
-   "league": "MLS",
-   "home": "San Jose Earthquakes",
-   "away": "Houston Dynamo FC",
-   "status": "today",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (12%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 63%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-25 | Buts attendus San Jose Earthquakes 1.1 - Houston Dynamo FC 1.0 | 1/N/2 : 37/28/35% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : San Jose Earthquakes 3V · 2N · Houston Dynamo FC 3V (scores : 2-1 x2, 1-4, 1-2)  ||  San Jose Earthquakes : repos 17 j | prochains : Houston Dynamo FC (MLS, 4 j), Houston Dynamo FC (MLS, 8 j)  ||  Houston Dynamo FC : repos 17 j | prochains : San Jose Earthquakes (MLS, 4 j), San Jose Earthquakes (MLS, 8 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T03:00Z",
-   "prio": 9
   },
   {
    "league": "Serie B",
@@ -3344,6 +3346,24 @@
    "contexte": "Real Potosí : repos 3 j | prochains : GV San José (Liga Bolivie, 3 j), Universitario de Vinto (Liga Bolivie, 6 j)  ||  Always Ready : repos 3 j | prochains : Bolívar (Liga Bolivie, 4 j), Blooming (Liga Bolivie, 7 j)",
    "day": "2026-11-25",
    "kickoff": "2026-11-25T23:00Z",
+   "prio": 13
+  },
+  {
+   "league": "English EFL Trophy",
+   "home": "Fleetwood Town",
+   "away": "Leeds United U21",
+   "status": "today",
+   "conf": 55,
+   "victoire": "Victoire Fleetwood Town",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "2026-11-25 | Buts attendus Fleetwood Town 1.9 - Leeds United U21 1.2 | 1/N/2 : 55/22/23% | base sur 16 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Leeds United U21 (estimation neutre, très incertaine). Fleetwood Town : 15e/24 (20 pts en 16 m.) | repos 4 j | prochains : Accrington Stanley (League Two, 3 j), Northampton Town (League Two, 6 j)  ||  Leeds United U21",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T19:00Z",
    "prio": 13
   },
   {
