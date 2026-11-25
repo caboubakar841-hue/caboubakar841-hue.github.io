@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 10:09 UTC",
+ "date": "2026-11-25 10:17 UTC",
  "version": "V17",
- "ts": "2026-11-25T10:09:07.435461+00:00",
+ "ts": "2026-11-25T10:17:24.348542+00:00",
  "stats": {
   "n": 615,
   "n_avant": 382,
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "AFC Champions League",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "J1 League",
@@ -2663,8 +2663,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "6'"
+   "live_score": "1-0",
+   "minute": "14'"
   },
   {
    "league": "J1 League",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "J1 League",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "J1 League",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "J1 League",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "13'"
   },
   {
    "league": "J1 League",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "Ligue des champions",
