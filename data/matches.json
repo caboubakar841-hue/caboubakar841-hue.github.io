@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 12:56 UTC",
+ "date": "2026-11-25 13:04 UTC",
  "version": "V17",
- "ts": "2026-11-25T12:56:13.743274+00:00",
+ "ts": "2026-11-25T13:04:34.836541+00:00",
  "stats": {
   "n": 625,
   "n_avant": 392,
@@ -2607,6 +2607,26 @@
  ],
  "matches": [
   {
+   "league": "Indian Football League",
+   "home": "Shillong Lajong FC",
+   "away": "Nagaland United SC",
+   "status": "live",
+   "conf": 51,
+   "victoire": "Victoire Nagaland United SC",
+   "score_exact": "1-2 (10%) · 0-1 (11%)",
+   "double_chance": "X2 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "2026-11-25 | Buts attendus Shillong Lajong FC 1.0 - Nagaland United SC 1.6 | 1/N/2 : 24/25/51% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Shillong Lajong FC : repos 6 j | prochains : Rajasthan United FC (Indian Football League, 4 j), Bengaluru United FC (Indian Football League, 14 j)  ||  Nagaland United SC : repos 6 j | prochains : Dempo Sports Club (Indian Football League, 5 j), Chanmari FC (Indian Football League, 12 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T13:00Z",
+   "prio": 10,
+   "live_score": "0-0",
+   "minute": "5'"
+  },
+  {
    "league": "AFC Champions League Two",
    "home": "Persib Bandung",
    "away": "FC Seoul",
@@ -2623,8 +2643,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T12:15Z",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "41'"
+   "live_score": "2-1",
+   "minute": "HT"
   },
   {
    "league": "Ligue des champions",
@@ -2949,24 +2969,6 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Indian Football League",
-   "home": "Shillong Lajong FC",
-   "away": "Nagaland United SC",
-   "status": "today",
-   "conf": 51,
-   "victoire": "Victoire Nagaland United SC",
-   "score_exact": "1-2 (10%) · 0-1 (11%)",
-   "double_chance": "X2 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-25 | Buts attendus Shillong Lajong FC 1.0 - Nagaland United SC 1.6 | 1/N/2 : 24/25/51% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Shillong Lajong FC : repos 6 j | prochains : Rajasthan United FC (Indian Football League, 4 j), Bengaluru United FC (Indian Football League, 14 j)  ||  Nagaland United SC : repos 6 j | prochains : Dempo Sports Club (Indian Football League, 5 j), Chanmari FC (Indian Football League, 12 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T13:00Z",
-   "prio": 10
   },
   {
    "league": "AFC Champions League Two",
@@ -3344,6 +3346,24 @@
    "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Viktoria Plzen (estimation neutre, très incertaine). Viktoria Plzen : repos 21 j  ||  Benfica : 2e/18 (27 pts en 10 m.) | repos 18 j | prochains : FC Famalicao (Liga Portugal, 4 j), C.D. Nacional (Liga Portugal, 9 j)",
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
+   "prio": 1
+  },
+  {
+   "league": "Ligue Europa",
+   "home": "Juventus",
+   "away": "Omonia Nicosia",
+   "status": "today",
+   "conf": 80,
+   "victoire": "Victoire Juventus",
+   "score_exact": "3-0 (11%) · 4-0 (7%)",
+   "double_chance": "1X 93%",
+   "corner": "N/D",
+   "over": "Over 2.5 68%",
+   "btts": "BTTS NON 52%",
+   "analyse": "2026-11-26 | Buts attendus Juventus 2.8 - Omonia Nicosia 0.7 | 1/N/2 : 80/13/7% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Omonia Nicosia (estimation neutre, très incertaine). Juventus : 6e/20 (21 pts en 12 m.) | repos 4 j | prochains : Como (Serie A, 3 j), Sassuolo (Coupe d'Italie, 7 j), Udinese (Serie A, 10 j)  ||  Omonia Nicosia : repos 21 j",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T20:00Z",
    "prio": 1
   },
   {
