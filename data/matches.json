@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25 10:17 UTC",
+ "date": "2026-11-25 10:25 UTC",
  "version": "V17",
- "ts": "2026-11-25T10:17:24.348542+00:00",
+ "ts": "2026-11-25T10:25:51.680340+00:00",
  "stats": {
   "n": 615,
   "n_avant": 382,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 9 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "17'"
+   "minute": "25'"
   },
   {
    "league": "AFC Champions League",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "17'"
+   "live_score": "1-0",
+   "minute": "25'"
   },
   {
    "league": "J1 League",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "14'"
+   "minute": "22'"
   },
   {
    "league": "J1 League",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "14'"
+   "minute": "22'"
   },
   {
    "league": "J1 League",
@@ -2703,8 +2703,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "14'"
+   "live_score": "0-1",
+   "minute": "22'"
   },
   {
    "league": "J1 League",
@@ -2723,8 +2723,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "14'"
+   "live_score": "1-0",
+   "minute": "23'"
   },
   {
    "league": "J1 League",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "13'"
+   "minute": "22'"
   },
   {
    "league": "J1 League",
@@ -2763,8 +2763,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "14'"
+   "live_score": "1-0",
+   "minute": "22'"
   },
   {
    "league": "Ligue des champions",
