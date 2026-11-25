@@ -1,16 +1,16 @@
 {
- "date": "2026-11-25 14:53 UTC",
+ "date": "2026-11-25 15:01 UTC",
  "version": "V17",
- "ts": "2026-11-25T14:53:35.377206+00:00",
+ "ts": "2026-11-25T15:01:53.511096+00:00",
  "stats": {
-  "n": 626,
-  "n_avant": 393,
+  "n": 627,
+  "n_avant": 394,
   "dc": 79,
   "over": 54,
   "btts": 53,
   "score": 18,
-  "1x2": 61,
-  "n_fav": 296,
+  "1x2": 62,
+  "n_fav": 297,
   "serre": 72,
   "n_serre": 330,
   "base_dom": 46,
@@ -25,7 +25,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, afc.cup 6, eng.2 4, ita.2 4, bra.1 1, col.1 1, ind.2 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.champions 9, afc.cup 6, eng.2 4, ita.2 4, bra.1 1, col.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 93",
   "Matchs africains affichés (à venir / live) : 0",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -89,8 +89,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401912753",
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "Indian Football League",
-   "home": "Shillong Lajong FC",
-   "away": "Nagaland United SC",
-   "status": "live",
-   "conf": 51,
-   "victoire": "Victoire Nagaland United SC",
-   "score_exact": "1-2 (10%) · 0-1 (11%)",
-   "double_chance": "X2 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-25 | Buts attendus Shillong Lajong FC 1.0 - Nagaland United SC 1.6 | 1/N/2 : 24/25/51% | base sur 4 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Shillong Lajong FC : repos 6 j | prochains : Rajasthan United FC (Indian Football League, 4 j), Bengaluru United FC (Indian Football League, 14 j)  ||  Nagaland United SC : repos 6 j | prochains : Dempo Sports Club (Indian Football League, 5 j), Chanmari FC (Indian Football League, 12 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T13:00Z",
-   "prio": 10,
-   "live_score": "1-2",
-   "minute": "90'+6'"
-  },
-  {
    "league": "AFC Champions League Two",
    "home": "FC Nasaf",
    "away": "Al-Khaldiya SC",
@@ -2643,8 +2623,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T13:45Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "50'"
+   "live_score": "1-0",
+   "minute": "58'"
   },
   {
    "league": "Ligue des champions",
@@ -3365,6 +3345,26 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T20:00Z",
    "prio": 1
+  },
+  {
+   "league": "Indian Football League",
+   "home": "Shillong Lajong FC",
+   "away": "Nagaland United SC",
+   "status": "finished",
+   "conf": 51,
+   "victoire": "Victoire Nagaland United SC",
+   "score_exact": "1-2 (10%) · 0-1 (11%)",
+   "double_chance": "X2 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Shillong Lajong FC : repos 6 j | prochains : Rajasthan United FC (Indian Football League, 4 j), Bengaluru United FC (Indian Football League, 14 j)  ||  Nagaland United SC : repos 6 j | prochains : Dempo Sports Club (Indian Football League, 5 j), Chanmari FC (Indian Football League, 12 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T13:00Z",
+   "prio": 10,
+   "live_score": "1-2",
+   "minute": "FT"
   },
   {
    "league": "AFC Champions League Two",
@@ -4144,26 +4144,6 @@
    "kickoff": "2026-11-24T19:45Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Scottish Premiership",
-   "home": "Hibernian",
-   "away": "Dundee",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (7 confrontations) : Hibernian 4V · 2N · Dundee 1V (scores : 2-1 x2, 2-2, 1-4)  ||  Hibernian : 11e/12 (8 pts en 11 m.) | repos 3 j | prochains : Motherwell (Scottish Premiership, 4 j), Kilmarnock (Scottish Premiership, 8 j), Rangers (Scottish Premiership, 13 j)  ||  Dundee : 7e/12 (14 pts en 11 m.) | repos 3 j | prochains : Aberdeen (Scottish Premiership, 4 j), Celtic (Scottish Premiership, 8 j), Falkirk (Scottish Premiership, 11 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T19:45Z",
-   "prio": 9,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
