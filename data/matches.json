@@ -1,40 +1,40 @@
 {
- "date": "2026-11-25 21:38 UTC",
+ "date": "2026-11-25 21:46 UTC",
  "version": "V17",
- "ts": "2026-11-25T21:38:06.557226+00:00",
+ "ts": "2026-11-25T21:46:25.266267+00:00",
  "stats": {
-  "n": 638,
-  "n_avant": 405,
+  "n": 640,
+  "n_avant": 407,
   "dc": 79,
   "over": 54,
   "btts": 53,
   "score": 18,
-  "1x2": 61,
-  "n_fav": 301,
+  "1x2": 62,
+  "n_fav": 302,
   "serre": 73,
-  "n_serre": 337,
+  "n_serre": 338,
   "base_dom": 46,
   "n_euro": 7,
   "dc_euro": 86,
-  "n_ctx": 260,
-  "brier_ctx": 0.617,
-  "brier_base": 0.612,
-  "n_h2h": 224,
-  "brier_h2h": 0.62,
+  "n_ctx": 262,
+  "brier_ctx": 0.615,
+  "brier_base": 0.611,
+  "n_h2h": 225,
+  "brier_h2h": 0.619,
   "brier_noh2h": 0.616
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.champions 7, eng.2 3, bra.1 1, col.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.champions 7, eng.2 1, bra.1 1, col.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 93",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 61",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 59",
   "Cartes à venir affichées : 40 (jours : 2026-11-25, 2026-11-26, 2026-11-27)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915380\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0,
    "live_score": "2-0",
-   "minute": "80'"
+   "minute": "89'"
   },
   {
    "league": "Ligue des champions",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0,
-   "live_score": "0-1",
-   "minute": "77'"
+   "live_score": "0-3",
+   "minute": "85'"
   },
   {
    "league": "Ligue des champions",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0,
    "live_score": "2-0",
-   "minute": "79'"
+   "minute": "88'"
   },
   {
    "league": "Ligue des champions",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0,
    "live_score": "2-1",
-   "minute": "81'"
+   "minute": "88'"
   },
   {
    "league": "Ligue des champions",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0,
    "live_score": "2-2",
-   "minute": "79'"
+   "minute": "87'"
   },
   {
    "league": "Ligue des champions",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0,
    "live_score": "0-1",
-   "minute": "78'"
+   "minute": "87'"
   },
   {
    "league": "Ligue des champions",
@@ -2743,48 +2743,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T20:00Z",
    "prio": 0,
-   "live_score": "1-2",
-   "minute": "79'"
-  },
-  {
-   "league": "Championship",
-   "home": "Burnley",
-   "away": "Birmingham City",
-   "status": "live",
-   "conf": 57,
-   "victoire": "Victoire Birmingham City",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 63%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "2026-11-25 | Buts attendus Burnley 1.2 - Birmingham City 2.0 | 1/N/2 : 22/21/57% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Burnley 1V · 1N · Birmingham City 0V (scores : 1-1, 3-0) - trop peu pour influer  ||  Burnley : 23e/24 (11 pts en 16 m.) | repos 3 j | prochains : Millwall (Championship, 3 j), Preston North End (Championship, 11 j), Southampton (Championship, 14 j)  ||  Birmingham City : 5e/24 (29 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Bolton Wanderers (Championship, 3 j), Charlton Athletic (Championship, 10 j), Watford (Championship, 13 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T19:45Z",
-   "prio": 9,
-   "live_score": "0-2",
-   "minute": "90'+2'"
-  },
-  {
-   "league": "Championship",
-   "home": "Watford",
-   "away": "Blackburn Rovers",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-25 | Buts attendus Watford 1.2 - Blackburn Rovers 1.4 | 1/N/2 : 30/26/44% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Watford 2V · 2N · Blackburn Rovers 4V (scores : 1-1 x2, 0-1 x2, 0-2)  ||  Watford : 20e/24 (15 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Derby County (Championship, 3 j), Millwall (Championship, 10 j), Birmingham City (Championship, 13 j)  ||  Blackburn Rovers : 13e/24 (22 pts en 16 m.) | repos 3 j | prochains : Charlton Athletic (Championship, 3 j), Bolton Wanderers (Championship, 10 j), Norwich City (Championship, 13 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T19:45Z",
-   "prio": 9,
-   "live_score": "0-1",
-   "minute": "90'+6'"
+   "live_score": "2-2",
+   "minute": "88'"
   },
   {
    "league": "Championship",
@@ -2803,8 +2763,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T20:00Z",
    "prio": 9,
-   "live_score": "2-0",
-   "minute": "79'"
+   "live_score": "2-1",
+   "minute": "88'"
   },
   {
    "league": "Brasileirao",
@@ -3547,6 +3507,46 @@
    "minute": "FT"
   },
   {
+   "league": "Championship",
+   "home": "Burnley",
+   "away": "Birmingham City",
+   "status": "finished",
+   "conf": 57,
+   "victoire": "Victoire Birmingham City",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 63%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Burnley 1V · 1N · Birmingham City 0V (scores : 1-1, 3-0) - trop peu pour influer  ||  Burnley : 23e/24 (11 pts en 16 m.) | repos 3 j | prochains : Millwall (Championship, 3 j), Preston North End (Championship, 11 j), Southampton (Championship, 14 j)  ||  Birmingham City : 5e/24 (29 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Bolton Wanderers (Championship, 3 j), Charlton Athletic (Championship, 10 j), Watford (Championship, 13 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T19:45Z",
+   "prio": 9,
+   "live_score": "0-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Championship",
+   "home": "Watford",
+   "away": "Blackburn Rovers",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Watford 2V · 2N · Blackburn Rovers 4V (scores : 1-1 x2, 0-1 x2, 0-2)  ||  Watford : 20e/24 (15 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Derby County (Championship, 3 j), Millwall (Championship, 10 j), Birmingham City (Championship, 13 j)  ||  Blackburn Rovers : 13e/24 (22 pts en 16 m.) | repos 3 j | prochains : Charlton Athletic (Championship, 3 j), Bolton Wanderers (Championship, 10 j), Norwich City (Championship, 13 j)",
+   "day": "2026-11-25",
+   "kickoff": "2026-11-25T19:45Z",
+   "prio": 9,
+   "live_score": "0-1",
+   "minute": "FT"
+  },
+  {
    "league": "Serie B",
    "home": "Mantova",
    "away": "Arezzo",
@@ -4284,46 +4284,6 @@
    "kickoff": "2026-11-24T20:00Z",
    "prio": 0,
    "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue des champions",
-   "home": "RB Leipzig",
-   "away": "Lens",
-   "status": "finished",
-   "conf": 68,
-   "victoire": "Victoire RB Leipzig",
-   "score_exact": "2-1 (8%) · 3-1 (8%)",
-   "double_chance": "12 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 80%",
-   "btts": "BTTS OUI 71%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). RB Leipzig : 4e/18 (21 pts en 10 m.) | repos 3 j | prochains : SC Freiburg (Bundesliga, 5 j), Bayer Leverkusen (Coupe d'Allemagne, 8 j), Mainz (Bundesliga, 11 j)  ||  Lens : 11e/18 (14 pts en 11 m.) | repos 3 j | prochains : Angers (Ligue 1, 4 j), Le Havre AC (Ligue 1, 11 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T20:00Z",
-   "prio": 0,
-   "live_score": "3-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue des champions",
-   "home": "Real Madrid",
-   "away": "PSV Eindhoven",
-   "status": "finished",
-   "conf": 58,
-   "victoire": "Victoire Real Madrid",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "Resultat 5-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). Real Madrid : 2e/20 (33 pts en 13 m.) | repos 3 j | prochains : Alavés (La Liga, 4 j), Real Sociedad (La Liga, 8 j), Athletic Club (La Liga, 12 j)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 3 j | prochains : Go Ahead Eagles (Eredivisie, 4 j), AZ Alkmaar (Eredivisie, 11 j)",
-   "day": "2026-11-24",
-   "kickoff": "2026-11-24T20:00Z",
-   "prio": 0,
-   "live_score": "5-1",
    "minute": "FT"
   }
  ]
