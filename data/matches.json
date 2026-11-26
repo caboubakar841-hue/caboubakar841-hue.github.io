@@ -1,7 +1,7 @@
 {
- "date": "2026-11-26 02:13 UTC",
+ "date": "2026-11-26 02:21 UTC",
  "version": "V17",
- "ts": "2026-11-26T02:13:12.909894+00:00",
+ "ts": "2026-11-26T02:21:31.899742+00:00",
  "stats": {
   "n": 645,
   "n_avant": 330,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915378\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 6 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-26T01:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "53'"
+   "minute": "62'"
   },
   {
    "league": "Salvadoran Primera Division",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-26T02:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "18'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-26T02:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "16'"
   },
   {
    "league": "Liga MX",
@@ -2683,8 +2683,8 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T01:00Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "51'"
+   "live_score": "2-0",
+   "minute": "60'"
   },
   {
    "league": "Liga Colombia",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-26T01:30Z",
    "prio": 12,
    "live_score": "1-1",
-   "minute": "41'"
+   "minute": "HT"
   },
   {
    "league": "Liga Equateur",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-26T00:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "51'"
   },
   {
    "league": "Ligue Europa",
