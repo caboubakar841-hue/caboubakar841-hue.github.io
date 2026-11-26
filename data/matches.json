@@ -1,7 +1,7 @@
 {
- "date": "2026-11-26 18:20 UTC",
+ "date": "2026-11-26 18:29 UTC",
  "version": "V17",
- "ts": "2026-11-26T18:20:58.585495+00:00",
+ "ts": "2026-11-26T18:29:16.840705+00:00",
  "stats": {
   "n": 658,
   "n_avant": 342,
@@ -25,7 +25,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.europa 18, uefa.europa.conf 17, eng.3 1, bra.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.europa 17, uefa.europa.conf 17, eng.3 1, bra.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 117",
   "Matchs africains affichés (à venir / live) : 1",
@@ -2608,26 +2608,6 @@
  "matches": [
   {
    "league": "Ligue Europa",
-   "home": "Besiktas",
-   "away": "Hapoel Be'er",
-   "status": "live",
-   "conf": 79,
-   "victoire": "Victoire Besiktas",
-   "score_exact": "3-1 (8%) · 2-1 (8%)",
-   "double_chance": "1X 92%",
-   "corner": "N/D",
-   "over": "Over 2.5 77%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-26 | Buts attendus Besiktas 3.1 - Hapoel Be'er 1.0 | 1/N/2 : 79/12/8% | base sur 12 et 0 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Hapoel Be'er (estimation neutre, très incertaine). Besiktas : 3e/18 (25 pts en 12 m.) | repos 4 j | prochains : Galatasaray (Super Lig, 4 j), Samsunspor (Super Lig, 10 j), Bayer Leverkusen (Ligue Europa, 14 j)  ||  Hapoel Be'er : repos 21 j | prochains : Juventus (Ligue Europa, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T17:45Z",
-   "prio": 1,
-   "live_score": "0-0",
-   "minute": "36'"
-  },
-  {
-   "league": "Ligue Europa",
    "home": "Celta Vigo",
    "away": "AFC Bournemouth",
    "status": "live",
@@ -2644,7 +2624,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "1-0",
-   "minute": "36'"
+   "minute": "44'"
   },
   {
    "league": "Ligue Europa",
@@ -2664,7 +2644,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "0-1",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "Ligue Europa",
@@ -2684,7 +2664,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "1-0",
-   "minute": "36'"
+   "minute": "44'"
   },
   {
    "league": "Ligue Europa",
@@ -2704,7 +2684,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "1-0",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "Ligue Europa",
@@ -2724,7 +2704,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "0-0",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "Ligue Europa",
@@ -2744,7 +2724,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "0-2",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "Ligue Europa",
@@ -2763,8 +2743,8 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
-   "live_score": "1-0",
-   "minute": "35'"
+   "live_score": "2-0",
+   "minute": "43'"
   },
   {
    "league": "Conference League",
@@ -2783,8 +2763,8 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
-   "live_score": "1-0",
-   "minute": "35'"
+   "live_score": "2-0",
+   "minute": "43'"
   },
   {
    "league": "Conference League",
@@ -2804,7 +2784,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "2-0",
-   "minute": "35'"
+   "minute": "44'"
   },
   {
    "league": "Conference League",
@@ -2824,7 +2804,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "1-1",
-   "minute": "31'"
+   "minute": "40'"
   },
   {
    "league": "Conference League",
@@ -2844,7 +2824,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "1-0",
-   "minute": "34'"
+   "minute": "42'"
   },
   {
    "league": "Conference League",
@@ -2864,7 +2844,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "0-0",
-   "minute": "36'"
+   "minute": "44'"
   },
   {
    "league": "Conference League",
@@ -2883,8 +2863,8 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
-   "live_score": "0-1",
-   "minute": "35'"
+   "live_score": "0-2",
+   "minute": "44'"
   },
   {
    "league": "Ligue Europa",
