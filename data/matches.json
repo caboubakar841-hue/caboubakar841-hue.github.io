@@ -1,27 +1,27 @@
 {
- "date": "2026-11-26 00:07 UTC",
+ "date": "2026-11-26 00:16 UTC",
  "version": "V17",
- "ts": "2026-11-26T00:07:53.415227+00:00",
+ "ts": "2026-11-26T00:16:12.751299+00:00",
  "stats": {
-  "n": 642,
-  "n_avant": 413,
-  "dc": 79,
+  "n": 641,
+  "n_avant": 326,
+  "dc": 80,
   "over": 54,
-  "btts": 53,
+  "btts": 54,
   "score": 19,
-  "1x2": 61,
-  "n_fav": 303,
-  "serre": 73,
-  "n_serre": 339,
+  "1x2": 60,
+  "n_fav": 312,
+  "serre": 74,
+  "n_serre": 329,
   "base_dom": 46,
   "n_euro": 12,
   "dc_euro": 75,
-  "n_ctx": 263,
-  "brier_ctx": 0.615,
-  "brier_base": 0.609,
-  "n_h2h": 226,
-  "brier_h2h": 0.619,
-  "brier_noh2h": 0.614
+  "n_ctx": 204,
+  "brier_ctx": 0.6,
+  "brier_base": 0.599,
+  "n_h2h": 168,
+  "brier_h2h": 0.599,
+  "brier_noh2h": 0.599
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "50'"
   },
   {
    "league": "Liga Argentina",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-26T00:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "15'"
   },
   {
    "league": "Liga Colombia",
@@ -2663,8 +2663,8 @@
    "day": "2026-11-25",
    "kickoff": "2026-11-25T23:20Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "45'+2'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Copa Bolivia",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-25T23:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "46'"
+   "minute": "55'"
   },
   {
    "league": "Ligue Europa",
