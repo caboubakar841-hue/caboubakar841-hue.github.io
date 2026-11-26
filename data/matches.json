@@ -1,7 +1,7 @@
 {
- "date": "2026-11-26 19:19 UTC",
+ "date": "2026-11-26 19:27 UTC",
  "version": "V17",
- "ts": "2026-11-26T19:19:00.316396+00:00",
+ "ts": "2026-11-26T19:27:23.414616+00:00",
  "stats": {
   "n": 658,
   "n_avant": 342,
@@ -29,12 +29,12 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 117",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 129",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 128",
   "Cartes à venir affichées : 40 (jours : 2026-11-26, 2026-11-27, 2026-11-28)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915378\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "49'"
   },
   {
    "league": "Ligue Europa",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
-   "live_score": "1-1",
-   "minute": "75'"
+   "live_score": "1-2",
+   "minute": "83'"
   },
   {
    "league": "Ligue Europa",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "0-2",
-   "minute": "75'"
+   "minute": "84'"
   },
   {
    "league": "Ligue Europa",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "1-0",
-   "minute": "75'"
+   "minute": "83'"
   },
   {
    "league": "Ligue Europa",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "2-3",
-   "minute": "76'"
+   "minute": "84'"
   },
   {
    "league": "Ligue Europa",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "2-0",
-   "minute": "77'"
+   "minute": "85'"
   },
   {
    "league": "Ligue Europa",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "2-2",
-   "minute": "74'"
+   "minute": "82'"
   },
   {
    "league": "Ligue Europa",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "4-0",
-   "minute": "76'"
+   "minute": "84'"
   },
   {
    "league": "Conference League",
@@ -2784,7 +2784,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "3-0",
-   "minute": "73'"
+   "minute": "82'"
   },
   {
    "league": "Conference League",
@@ -2804,7 +2804,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "4-0",
-   "minute": "73'"
+   "minute": "81'"
   },
   {
    "league": "Conference League",
@@ -2824,7 +2824,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "2-2",
-   "minute": "70'"
+   "minute": "79'"
   },
   {
    "league": "Conference League",
@@ -2844,7 +2844,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "1-0",
-   "minute": "75'"
+   "minute": "84'"
   },
   {
    "league": "Conference League",
@@ -2863,8 +2863,8 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
-   "live_score": "0-1",
-   "minute": "77'"
+   "live_score": "0-2",
+   "minute": "85'"
   },
   {
    "league": "Conference League",
@@ -2884,7 +2884,7 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 2,
    "live_score": "1-4",
-   "minute": "76'"
+   "minute": "84'"
   },
   {
    "league": "Ligue Europa",
