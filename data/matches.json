@@ -1,7 +1,7 @@
 {
- "date": "2026-11-26 16:16 UTC",
+ "date": "2026-11-26 16:24 UTC",
  "version": "V17",
- "ts": "2026-11-26T16:16:10.246020+00:00",
+ "ts": "2026-11-26T16:24:29.892656+00:00",
  "stats": {
   "n": 658,
   "n_avant": 342,
@@ -29,7 +29,7 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 117",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 135",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 134",
   "Cartes à venir affichées : 40 (jours : 2026-11-26, 2026-11-27, 2026-11-28)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915378\"}",
   "Compétitions sans nom : aucune",
