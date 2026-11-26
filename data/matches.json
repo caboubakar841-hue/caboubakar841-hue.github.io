@@ -1,31 +1,31 @@
 {
- "date": "2026-11-26 03:20 UTC",
+ "date": "2026-11-26 03:28 UTC",
  "version": "V17",
- "ts": "2026-11-26T03:20:20.555911+00:00",
+ "ts": "2026-11-26T03:28:40.994860+00:00",
  "stats": {
-  "n": 648,
-  "n_avant": 333,
+  "n": 649,
+  "n_avant": 334,
   "dc": 80,
   "over": 54,
   "btts": 54,
   "score": 19,
   "1x2": 61,
-  "n_fav": 315,
+  "n_fav": 316,
   "serre": 74,
   "n_serre": 333,
   "base_dom": 46,
   "n_euro": 12,
   "dc_euro": 75,
-  "n_ctx": 210,
-  "brier_ctx": 0.597,
-  "brier_base": 0.596,
-  "n_h2h": 174,
-  "brier_h2h": 0.596,
-  "brier_noh2h": 0.596
+  "n_ctx": 211,
+  "brier_ctx": 0.595,
+  "brier_base": 0.594,
+  "n_h2h": 175,
+  "brier_h2h": 0.594,
+  "brier_noh2h": 0.594
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.europa 18, uefa.europa.conf 18, afc.cup 6, eng.3 1, bra.1 1, mex.1 1, col.1 1, slv.1 1, gua.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.europa 18, uefa.europa.conf 18, afc.cup 6, eng.3 1, bra.1 1, mex.1 1, slv.1 1, gua.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 118",
   "Matchs africains affichés (à venir / live) : 0",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915378\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 10 s"
  ],
  "tickets": [
   {
@@ -89,8 +89,8 @@
        "pick": "Double chance 12 (pas de nul)",
        "code": "12",
        "p": 71,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-1"
       },
       {
        "id": "401915519",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-26T02:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "57'"
+   "minute": "65'"
   },
   {
    "league": "Guatemalan Liga Nacional",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T02:00Z",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "58'"
+   "live_score": "3-1",
+   "minute": "66'"
   },
   {
    "league": "Liga MX",
@@ -2664,27 +2664,7 @@
    "kickoff": "2026-11-26T03:10Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "7'"
-  },
-  {
-   "league": "Liga Colombia",
-   "home": "Atlético Nacional",
-   "away": "Independiente Medellín",
-   "status": "live",
-   "conf": 57,
-   "victoire": "Victoire Atlético Nacional",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "1X 87%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-26 | Buts attendus Atlético Nacional 2.0 - Independiente Medellín 1.0 | 1/N/2 : 57/29/13% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Atlético Nacional 4V · 4N · Independiente Medellín 0V (scores : 1-1 x2, 2-1 x2, 3-3)  ||  Atlético Nacional : repos 4 j  ||  Independiente Medellín : repos 5 j",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T01:30Z",
-   "prio": 12,
-   "live_score": "3-1",
-   "minute": "89'"
+   "minute": "16'"
   },
   {
    "league": "Ligue Europa",
@@ -3405,6 +3385,26 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:30Z",
    "prio": 3
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Atlético Nacional",
+   "away": "Independiente Medellín",
+   "status": "finished",
+   "conf": 57,
+   "victoire": "Victoire Atlético Nacional",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "1X 87%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Atlético Nacional 4V · 4N · Independiente Medellín 0V (scores : 1-1 x2, 2-1 x2, 3-3)  ||  Atlético Nacional : repos 4 j  ||  Independiente Medellín : repos 5 j",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T01:30Z",
+   "prio": 12,
+   "live_score": "3-1",
+   "minute": "FT"
   },
   {
    "league": "Liga MX",
@@ -4184,26 +4184,6 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "J1 League",
-   "home": "FC Tokyo",
-   "away": "Sanfrecce Hiroshima",
-   "status": "finished",
-   "conf": 55,
-   "victoire": "Victoire FC Tokyo",
-   "score_exact": "1-0 (13%) · 2-0 (12%)",
-   "double_chance": "1X 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 57%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : FC Tokyo 3V · 2N · Sanfrecce Hiroshima 3V (scores : 2-1 x3, 1-2, 1-1)  ||  FC Tokyo : repos 4 j | prochains : Yokohama F. Marinos (J1 League, 4 j), Kawasaki Frontale (J1 League, 9 j)  ||  Sanfrecce Hiroshima : repos 4 j | prochains : Kashiwa Reysol (J1 League, 3 j), Vissel Kobe (J1 League, 11 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T10:00Z",
-   "prio": 12,
-   "live_score": "2-2",
    "minute": "FT"
   }
  ]
