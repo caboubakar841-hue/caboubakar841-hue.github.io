@@ -1,7 +1,7 @@
 {
- "date": "2026-11-26 21:57 UTC",
+ "date": "2026-11-26 22:06 UTC",
  "version": "V17",
- "ts": "2026-11-26T21:57:47.459771+00:00",
+ "ts": "2026-11-26T22:06:13.458790+00:00",
  "stats": {
   "n": 668,
   "n_avant": 352,
@@ -25,7 +25,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : bra.1 1, uefa.europa.conf 1",
+  "Matchs trouvés aujourd'hui par compétition : bra.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 117",
   "Matchs africains affichés (à venir / live) : 1",
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "Conference League",
-   "home": "CSKA Sofia",
-   "away": "Trabzonspor",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Victoire Trabzonspor",
-   "score_exact": "1-2 (9%) · 1-3 (8%)",
-   "double_chance": "X2 89%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-11-26 | Buts attendus CSKA Sofia 0.9 - Trabzonspor 2.5 | 1/N/2 : 11/16/73% | base sur 0 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : CSKA Sofia (estimation neutre, très incertaine). CSKA Sofia : repos 21 j | prochains : KuPS Kuopio (Conference League, 14 j)  ||  Trabzonspor : 2e/18 (28 pts en 12 m.) | repos 4 j | prochains : Goztepe (Super Lig, 4 j), Çorum FK (Super Lig, 10 j), Jablonec (Conference League, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T20:00Z",
-   "prio": 2,
-   "live_score": "1-2",
-   "minute": "90'+6'"
-  },
-  {
    "league": "Brasileirao",
    "home": "São Paulo",
    "away": "Remo",
@@ -2654,7 +2634,7 @@
    "score_exact": "1-2 (8%) · 2-1 (8%)",
    "double_chance": "12 74%",
    "corner": "N/D",
-   "over": "Under 2.5 51%",
+   "over": "Under 2.5 52%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-11-27 | Buts attendus Ivory Coast 1.3 - Senegal 1.4 | 1/N/2 : 35/26/39% | base sur 1 et 1 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Ivory Coast : repos 55 j  ||  Senegal : repos 54 j",
@@ -3588,6 +3568,26 @@
   },
   {
    "league": "Conference League",
+   "home": "CSKA Sofia",
+   "away": "Trabzonspor",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Victoire Trabzonspor",
+   "score_exact": "1-2 (9%) · 1-3 (8%)",
+   "double_chance": "X2 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : CSKA Sofia (estimation neutre, très incertaine). CSKA Sofia : repos 21 j | prochains : KuPS Kuopio (Conference League, 14 j)  ||  Trabzonspor : 2e/18 (28 pts en 12 m.) | repos 4 j | prochains : Goztepe (Super Lig, 4 j), Çorum FK (Super Lig, 10 j), Jablonec (Conference League, 14 j)",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T20:00Z",
+   "prio": 2,
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Conference League",
    "home": "FC Nordsjælland",
    "away": "Panathinaikos",
    "status": "finished",
@@ -4124,26 +4124,6 @@
    "kickoff": "2026-11-26T02:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Guatemalan Liga Nacional",
-   "home": "Municipal",
-   "away": "Aurora FC",
-   "status": "finished",
-   "conf": 60,
-   "victoire": "Victoire Municipal",
-   "score_exact": "1-0 (17%) · 2-0 (13%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Under 2.5 60%",
-   "btts": "BTTS NON 62%",
-   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (5 confrontations) : Municipal 3V · 1N · Aurora FC 1V (scores : 2-1 x2, 0-1, 2-2)  ||  Municipal : repos 3 j | prochains : Suchitepequez (Guatemalan Liga Nacional, 3 j)  ||  Aurora FC : repos 3 j | prochains : Cobán Imperial (Guatemalan Liga Nacional, 3 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T02:00Z",
-   "prio": 9,
-   "live_score": "3-2",
    "minute": "FT"
   }
  ]
