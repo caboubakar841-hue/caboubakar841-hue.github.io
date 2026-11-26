@@ -1,31 +1,31 @@
 {
- "date": "2026-11-26 03:53 UTC",
+ "date": "2026-11-26 04:02 UTC",
  "version": "V17",
- "ts": "2026-11-26T03:53:45.348233+00:00",
+ "ts": "2026-11-26T04:02:13.202668+00:00",
  "stats": {
-  "n": 649,
-  "n_avant": 334,
+  "n": 650,
+  "n_avant": 335,
   "dc": 80,
   "over": 54,
   "btts": 54,
   "score": 19,
   "1x2": 61,
-  "n_fav": 316,
+  "n_fav": 317,
   "serre": 74,
   "n_serre": 333,
   "base_dom": 46,
   "n_euro": 12,
   "dc_euro": 75,
-  "n_ctx": 211,
-  "brier_ctx": 0.595,
-  "brier_base": 0.594,
-  "n_h2h": 175,
-  "brier_h2h": 0.594,
-  "brier_noh2h": 0.594
+  "n_ctx": 212,
+  "brier_ctx": 0.594,
+  "brier_base": 0.593,
+  "n_h2h": 176,
+  "brier_h2h": 0.592,
+  "brier_noh2h": 0.592
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.europa 18, uefa.europa.conf 18, afc.cup 6, eng.3 1, bra.1 1, mex.1 1, slv.1 1, gua.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.europa 18, uefa.europa.conf 18, afc.cup 6, eng.3 1, bra.1 1, mex.1 1, slv.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 118",
   "Matchs africains affichés (à venir / live) : 0",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915378\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,27 +2624,7 @@
    "kickoff": "2026-11-26T02:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "90'"
-  },
-  {
-   "league": "Guatemalan Liga Nacional",
-   "home": "Municipal",
-   "away": "Aurora FC",
-   "status": "live",
-   "conf": 60,
-   "victoire": "Victoire Municipal",
-   "score_exact": "1-0 (17%) · 2-0 (13%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Under 2.5 60%",
-   "btts": "BTTS NON 62%",
-   "analyse": "2026-11-26 | Buts attendus Municipal 1.6 - Aurora FC 0.7 | 1/N/2 : 60/24/16% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Municipal 3V · 1N · Aurora FC 1V (scores : 2-1 x2, 0-1, 2-2)  ||  Municipal : repos 3 j | prochains : Suchitepequez (Guatemalan Liga Nacional, 3 j)  ||  Aurora FC : repos 3 j | prochains : Cobán Imperial (Guatemalan Liga Nacional, 3 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T02:00Z",
-   "prio": 9,
-   "live_score": "3-2",
-   "minute": "90'+1'"
+   "minute": "90'+9'"
   },
   {
    "league": "Liga MX",
@@ -2664,7 +2644,7 @@
    "kickoff": "2026-11-26T03:10Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "41'"
+   "minute": "HT"
   },
   {
    "league": "Ligue Europa",
@@ -3385,6 +3365,26 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:30Z",
    "prio": 3
+  },
+  {
+   "league": "Guatemalan Liga Nacional",
+   "home": "Municipal",
+   "away": "Aurora FC",
+   "status": "finished",
+   "conf": 60,
+   "victoire": "Victoire Municipal",
+   "score_exact": "1-0 (17%) · 2-0 (13%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Under 2.5 60%",
+   "btts": "BTTS NON 62%",
+   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (5 confrontations) : Municipal 3V · 1N · Aurora FC 1V (scores : 2-1 x2, 0-1, 2-2)  ||  Municipal : repos 3 j | prochains : Suchitepequez (Guatemalan Liga Nacional, 3 j)  ||  Aurora FC : repos 3 j | prochains : Cobán Imperial (Guatemalan Liga Nacional, 3 j)",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T02:00Z",
+   "prio": 9,
+   "live_score": "3-2",
+   "minute": "FT"
   },
   {
    "league": "Liga Colombia",
@@ -4164,26 +4164,6 @@
    "kickoff": "2026-11-25T10:00Z",
    "prio": 12,
    "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "J1 League",
-   "home": "Fagiano Okayama",
-   "away": "Shimizu S-Pulse",
-   "status": "finished",
-   "conf": 53,
-   "victoire": "Victoire Fagiano Okayama",
-   "score_exact": "1-0 (14%) · 2-0 (11%)",
-   "double_chance": "1X 83%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 55%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (4 confrontations) : Fagiano Okayama 2V · 2N · Shimizu S-Pulse 0V (scores : 1-1 x2, 2-1, 2-0)  ||  Fagiano Okayama : repos 4 j | prochains : Kashima Antlers (J1 League, 3 j), Machida Zelvia (J1 League, 11 j)  ||  Shimizu S-Pulse : repos 5 j | prochains : Urawa Red Diamonds (J1 League, 3 j), V-Varen Nagasaki (J1 League, 10 j)",
-   "day": "2026-11-25",
-   "kickoff": "2026-11-25T10:00Z",
-   "prio": 12,
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
