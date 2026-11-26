@@ -1,7 +1,7 @@
 {
- "date": "2026-11-26 01:31 UTC",
+ "date": "2026-11-26 01:39 UTC",
  "version": "V17",
- "ts": "2026-11-26T01:31:21.992708+00:00",
+ "ts": "2026-11-26T01:39:47.871363+00:00",
  "stats": {
   "n": 644,
   "n_avant": 329,
@@ -25,16 +25,16 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : uefa.europa 18, uefa.europa.conf 18, afc.cup 6, mex.1 2, eng.3 1, bra.1 1, arg.1 1, col.1 1, ecu.1 1",
+  "Matchs trouvés aujourd'hui par compétition : uefa.europa 18, uefa.europa.conf 18, afc.cup 6, mex.1 2, slv.1 2, eng.3 1, bra.1 1, arg.1 1, col.1 1, ecu.1 1, gua.1 1",
   "Matchs ignorés car illisibles : 0",
-  "Matchs sans données masqués (remplacés par d'autres) : 5",
+  "Matchs sans données masqués (remplacés par d'autres) : 118",
   "Matchs africains affichés (à venir / live) : 0",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 0",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 138",
   "Cartes à venir affichées : 40 (jours : 2026-11-26, 2026-11-27, 2026-11-28)",
-  "Filet ESPN - format reçu : {}",
+  "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:775~e:401915378\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,27 @@
    "kickoff": "2026-11-26T00:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "69'"
+   "minute": "78'"
+  },
+  {
+   "league": "Salvadoran Primera Division",
+   "home": "C.D. Platense",
+   "away": "CD FAS",
+   "status": "live",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 53%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "2026-11-26 | Buts attendus C.D. Platense 1.1 - CD FAS 1.4 | 1/N/2 : 29/26/45% | base sur 19 et 18 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : C.D. Platense 2V · 2N · CD FAS 4V (scores : 1-4 x2, 0-0, 3-3)  ||  C.D. Platense : repos 4 j | prochains : CD FAS (Salvadoran Primera Division, 3 j)  ||  CD FAS : repos 4 j | prochains : C.D. Platense (Salvadoran Primera Division, 3 j)",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T01:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "38'"
   },
   {
    "league": "Liga MX",
@@ -2644,7 +2664,27 @@
    "kickoff": "2026-11-26T01:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "30'"
+   "minute": "39'"
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Atlético Nacional",
+   "away": "Independiente Medellín",
+   "status": "live",
+   "conf": 57,
+   "victoire": "Victoire Atlético Nacional",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "1X 87%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-11-26 | Buts attendus Atlético Nacional 2.0 - Independiente Medellín 1.0 | 1/N/2 : 57/29/13% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Atlético Nacional 4V · 4N · Independiente Medellín 0V (scores : 1-1 x2, 2-1 x2, 3-3)  ||  Atlético Nacional : repos 4 j  ||  Independiente Medellín : repos 5 j",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T01:30Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "Liga Equateur",
@@ -2664,7 +2704,7 @@
    "kickoff": "2026-11-26T00:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "21'"
+   "minute": "29'"
   },
   {
    "league": "Ligue Europa",
@@ -3225,6 +3265,42 @@
    "prio": 2
   },
   {
+   "league": "Salvadoran Primera Division",
+   "home": "Internacional Santa Tecla",
+   "away": "Águila",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (9%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 56%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-26 | Buts attendus Internacional Santa Tecla 1.6 - Águila 1.4 | 1/N/2 : 40/23/37% | base sur 18 et 18 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : Internacional Santa Tecla 2V · 1N · Águila 3V (scores : 2-0, 0-3, 0-1)  ||  Internacional Santa Tecla : repos 4 j | prochains : Águila (Salvadoran Primera Division, 3 j)  ||  Águila : repos 4 j | prochains : Internacional Santa Tecla (Salvadoran Primera Division, 3 j)",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T02:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Guatemalan Liga Nacional",
+   "home": "Municipal",
+   "away": "Aurora FC",
+   "status": "today",
+   "conf": 60,
+   "victoire": "Victoire Municipal",
+   "score_exact": "1-0 (17%) · 2-0 (13%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Under 2.5 60%",
+   "btts": "BTTS NON 62%",
+   "analyse": "2026-11-26 | Buts attendus Municipal 1.6 - Aurora FC 0.7 | 1/N/2 : 60/24/16% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Municipal 3V · 1N · Aurora FC 1V (scores : 2-1 x2, 0-1, 2-2)  ||  Municipal : repos 3 j | prochains : Suchitepequez (Guatemalan Liga Nacional, 3 j)  ||  Aurora FC : repos 3 j | prochains : Cobán Imperial (Guatemalan Liga Nacional, 3 j)",
+   "day": "2026-11-26",
+   "kickoff": "2026-11-26T02:00Z",
+   "prio": 9
+  },
+  {
    "league": "League One",
    "home": "Doncaster Rovers",
    "away": "Huddersfield Town",
@@ -3259,24 +3335,6 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Liga Colombia",
-   "home": "Atlético Nacional",
-   "away": "Independiente Medellín",
-   "status": "today",
-   "conf": 57,
-   "victoire": "Victoire Atlético Nacional",
-   "score_exact": "2-1 (9%) · 3-1 (6%)",
-   "double_chance": "1X 87%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-26 | Buts attendus Atlético Nacional 2.0 - Independiente Medellín 1.0 | 1/N/2 : 57/29/13% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Atlético Nacional 4V · 4N · Independiente Medellín 0V (scores : 1-1 x2, 2-1 x2, 3-3)  ||  Atlético Nacional : repos 4 j  ||  Independiente Medellín : repos 5 j",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T01:30Z",
-   "prio": 12
   },
   {
    "league": "Liga MX",
@@ -3369,24 +3427,6 @@
    "prio": 12
   },
   {
-   "league": "AFC Champions League Two",
-   "home": "PKR Svay Rieng",
-   "away": "Machida Zelvia",
-   "status": "today",
-   "conf": 70,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (12%)",
-   "double_chance": "12 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 65%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-26 | Buts attendus PKR Svay Rieng 1.0 - Machida Zelvia 1.1 | 1/N/2 : 33/30/37% | base sur 4 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : PKR Svay Rieng 0V · 0N · Machida Zelvia 1V (scores : 0-2) - trop peu pour influer  ||  PKR Svay Rieng : repos 21 j | prochains : Shanghai Shenhua FC (AFC Champions League Two, 7 j)  ||  Machida Zelvia : repos 5 j | prochains : Tokyo Verdy 1969 (J1 League, 3 j), Tampines Rovers FC (AFC Champions League Two, 7 j), Fagiano Okayama (J1 League, 10 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T12:15Z",
-   "prio": 12
-  },
-  {
    "league": "Liga Colombia",
    "home": "Independiente Santa Fe",
    "away": "Once Caldas",
@@ -3442,7 +3482,7 @@
    "contexte": "Real Potosí : repos 3 j | prochains : GV San José (Liga Bolivie, 3 j), Universitario de Vinto (Liga Bolivie, 6 j)  ||  Always Ready : repos 3 j | prochains : Bolívar (Liga Bolivie, 4 j), Blooming (Liga Bolivie, 7 j)",
    "day": "2026-11-25",
    "kickoff": "2026-11-25T23:00Z",
-   "prio": 9,
+   "prio": 13,
    "live_score": "0-0",
    "minute": "FT"
   },
@@ -3742,7 +3782,7 @@
    "contexte": "⚠️ Peu ou pas de données pour : Leeds United U21 (estimation neutre, très incertaine). Fleetwood Town : 15e/24 (20 pts en 16 m.) | repos 4 j | prochains : Accrington Stanley (League Two, 3 j), Northampton Town (League Two, 6 j)  ||  Leeds United U21",
    "day": "2026-11-25",
    "kickoff": "2026-11-25T19:00Z",
-   "prio": 9,
+   "prio": 13,
    "live_score": "2-1",
    "minute": "FT"
   },
