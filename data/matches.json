@@ -1,40 +1,40 @@
 {
- "date": "2026-11-27 21:35 UTC",
+ "date": "2026-11-27 21:43 UTC",
  "version": "V17",
- "ts": "2026-11-27T21:35:10.053077+00:00",
+ "ts": "2026-11-27T21:43:33.650669+00:00",
  "stats": {
-  "n": 662,
-  "n_avant": 281,
+  "n": 665,
+  "n_avant": 284,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
   "1x2": 61,
-  "n_fav": 321,
+  "n_fav": 323,
   "serre": 73,
-  "n_serre": 341,
+  "n_serre": 342,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 165,
-  "brier_ctx": 0.586,
-  "brier_base": 0.587,
-  "n_h2h": 143,
-  "brier_h2h": 0.591,
-  "brier_noh2h": 0.592
+  "n_ctx": 166,
+  "brier_ctx": 0.587,
+  "brier_base": 0.589,
+  "n_h2h": 144,
+  "brier_h2h": 0.593,
+  "brier_noh2h": 0.595
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : par.1 2, eng.1 1, eng.2 1, esp.1 1, ita.1 1, fra.1 1, por.1 1, bel.1 1, bra.1 1, col.1 1, bol.1 1, uru.1 1",
+  "Matchs trouvés aujourd'hui par compétition : par.1 2, eng.1 1, eng.2 1, esp.1 1, por.1 1, bra.1 1, col.1 1, bol.1 1, uru.1 1, ecu.1 1, bra.2 1, arg.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 149",
   "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 144",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 142",
   "Cartes à venir affichées : 40 (jours : 2026-11-27, 2026-11-28, 2026-11-29)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 11 s"
  ],
  "tickets": [
   {
@@ -78,8 +78,8 @@
        "pick": "Double chance 12 (pas de nul)",
        "code": "12",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "2-2"
       },
       {
        "id": "401936607",
@@ -160,7 +160,7 @@
       }
      ],
      "combined": 4.2,
-     "status": "en cours"
+     "status": "perdu"
     },
     {
      "name": "Ticket 5 matchs (sûr)",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
    "live_score": "3-1",
-   "minute": "77'"
+   "minute": "85'"
   },
   {
    "league": "La Liga",
@@ -2643,48 +2643,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
-   "live_score": "1-1",
-   "minute": "76'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Venezia",
-   "away": "Bologna",
-   "status": "live",
-   "conf": 54,
-   "victoire": "Victoire Bologna",
-   "score_exact": "0-1 (14%) · 0-2 (11%)",
-   "double_chance": "X2 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-27 | Buts attendus Venezia 0.9 - Bologna 1.6 | 1/N/2 : 21/25/54% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Venezia 0V · 0N · Bologna 2V (scores : 0-3, 0-1) - trop peu pour influer  ||  Venezia : 20e/20 (6 pts en 12 m.) | repos 5 j | prochains : Sassuolo (Serie A, 10 j)  ||  Bologna : 9e/20 (18 pts en 12 m.) | repos 5 j | prochains : AS Roma (Serie A, 7 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:45Z",
-   "prio": 3,
-   "live_score": "0-0",
-   "minute": "90'"
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Brest",
-   "away": "Paris FC",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "2026-11-27 | Buts attendus Brest 1.4 - Paris FC 1.3 | 1/N/2 : 39/26/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Brest 0V · 0N · Paris FC 2V (scores : 1-2, 0-4) - trop peu pour influer  ||  Brest : 5e/18 (18 pts en 11 m.) | repos 6 j | prochains : Stade Rennais (Ligue 1, 9 j)  ||  Paris FC : 2e/18 (23 pts en 11 m.) | repos 5 j | prochains : Le Mans (Ligue 1, 8 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:45Z",
-   "prio": 3,
-   "live_score": "1-0",
-   "minute": "90'+2'"
+   "live_score": "1-2",
+   "minute": "84'"
   },
   {
    "league": "Championship",
@@ -2703,8 +2663,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:00Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "78'"
+   "live_score": "2-0",
+   "minute": "86'"
   },
   {
    "league": "Liga Portugal",
@@ -2724,27 +2684,7 @@
    "kickoff": "2026-11-27T20:15Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "61'"
-  },
-  {
-   "league": "Pro League",
-   "home": "OH Leuven",
-   "away": "KV Kortrijk",
-   "status": "live",
-   "conf": 56,
-   "victoire": "Victoire OH Leuven",
-   "score_exact": "1-0 (16%) · 2-0 (13%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 65%",
-   "analyse": "2026-11-27 | Buts attendus OH Leuven 1.6 - KV Kortrijk 0.6 | 1/N/2 : 56/27/18% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : OH Leuven 2V · 2N · KV Kortrijk 2V (scores : 2-0, 2-3, 3-0)  ||  OH Leuven : 11e/18 (12 pts en 11 m.) | repos 5 j | prochains : Racing Genk (Pro League, 14 j)  ||  KV Kortrijk : 18e/18 (4 pts en 11 m.) | repos 5 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:45Z",
-   "prio": 9,
-   "live_score": "1-2",
-   "minute": "89'"
+   "minute": "69'"
   },
   {
    "league": "Primera Paraguay",
@@ -2763,8 +2703,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:30Z",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "46'"
+   "live_score": "2-1",
+   "minute": "55'"
   },
   {
    "league": "Liga Equateur",
@@ -2784,7 +2724,7 @@
    "kickoff": "2026-11-27T21:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "Women's International Friendly",
@@ -2804,7 +2744,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 13,
    "live_score": "4-2",
-   "minute": "73'"
+   "minute": "81'"
   },
   {
    "league": "Brasileirao",
@@ -3341,7 +3281,7 @@
    "over": "Under 2.5 57%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-28 | Buts attendus Le Mans 1.0 - Lille 1.4 | 1/N/2 : 28/27/45% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Le Mans : 13e/18 (11 pts en 11 m.) | repos 6 j | prochains : Paris FC (Ligue 1, 7 j)  ||  Lille : 3e/18 (21 pts en 11 m.) | repos 3 j | prochains : AJ Auxerre (Ligue 1, 7 j), VfB Stuttgart (Ligue des champions, 11 j)",
+   "contexte": "Le Mans : 13e/18 (11 pts en 11 m.) | repos 6 j | prochains : Paris FC (Ligue 1, 7 j)  ||  Lille : 4e/18 (21 pts en 11 m.) | repos 3 j | prochains : AJ Auxerre (Ligue 1, 7 j), VfB Stuttgart (Ligue des champions, 11 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3
@@ -3525,6 +3465,66 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
+  },
+  {
+   "league": "Serie A",
+   "home": "Venezia",
+   "away": "Bologna",
+   "status": "finished",
+   "conf": 54,
+   "victoire": "Victoire Bologna",
+   "score_exact": "0-1 (14%) · 0-2 (11%)",
+   "double_chance": "X2 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Venezia 0V · 0N · Bologna 2V (scores : 0-3, 0-1) - trop peu pour influer  ||  Venezia : 20e/20 (6 pts en 12 m.) | repos 5 j | prochains : Sassuolo (Serie A, 10 j)  ||  Bologna : 9e/20 (18 pts en 12 m.) | repos 5 j | prochains : AS Roma (Serie A, 7 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T19:45Z",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Brest",
+   "away": "Paris FC",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Over 2.5 50%",
+   "btts": "BTTS OUI 55%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Brest 0V · 0N · Paris FC 2V (scores : 1-2, 0-4) - trop peu pour influer  ||  Brest : 5e/18 (18 pts en 11 m.) | repos 6 j | prochains : Stade Rennais (Ligue 1, 9 j)  ||  Paris FC : 2e/18 (23 pts en 11 m.) | repos 5 j | prochains : Le Mans (Ligue 1, 8 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T19:45Z",
+   "prio": 3,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Pro League",
+   "home": "OH Leuven",
+   "away": "KV Kortrijk",
+   "status": "finished",
+   "conf": 56,
+   "victoire": "Victoire OH Leuven",
+   "score_exact": "1-0 (16%) · 2-0 (13%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 65%",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : OH Leuven 2V · 2N · KV Kortrijk 2V (scores : 2-0, 2-3, 3-0)  ||  OH Leuven : 11e/18 (12 pts en 11 m.) | repos 5 j | prochains : Racing Genk (Pro League, 14 j)  ||  KV Kortrijk : 18e/18 (4 pts en 11 m.) | repos 5 j",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T19:45Z",
+   "prio": 9,
+   "live_score": "2-2",
+   "minute": "FT"
   },
   {
    "league": "La Liga 2",
@@ -4264,66 +4264,6 @@
    "kickoff": "2026-11-26T20:00Z",
    "prio": 2,
    "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Conference League",
-   "home": "Inter D'Escaldes",
-   "away": "F.C. København",
-   "status": "finished",
-   "conf": 55,
-   "victoire": "Victoire F.C. København",
-   "score_exact": "1-2 (10%) · 1-3 (6%)",
-   "double_chance": "X2 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 56%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "Resultat 2-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Inter D'Escaldes (estimation neutre, très incertaine). Inter D'Escaldes : repos 21 j | prochains : Getafe (Conference League, 14 j)  ||  F.C. København : 2e/12 (26 pts en 13 m.) | repos 4 j | prochains : FC Midtjylland (Superliga (DEN), 3 j), AC Horsens (Superliga (DEN), 10 j), FC Lugano (Conference League, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T20:00Z",
-   "prio": 2,
-   "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Conference League",
-   "home": "KAA Gent",
-   "away": "Red Star Belgrade",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Victoire KAA Gent",
-   "score_exact": "3-0 (10%) · 4-0 (6%)",
-   "double_chance": "1X 91%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS NON 54%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Red Star Belgrade (estimation neutre, très incertaine). KAA Gent : 3e/18 (25 pts en 11 m.) | repos 4 j | prochains : Union St.-Gilloise (Pro League, 3 j), FC Thun (Conference League, 14 j)  ||  Red Star Belgrade : repos 21 j | prochains : Iberia 1999 (Conference League, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T20:00Z",
-   "prio": 2,
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Conference League",
-   "home": "SC Freiburg",
-   "away": "FC Twente",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). SC Freiburg : 3e/18 (22 pts en 10 m.) | repos 5 j | prochains : RB Leipzig (Bundesliga, 3 j), Kaiserslautern (Coupe d'Allemagne, 6 j), TSG Hoffenheim (Bundesliga, 9 j)  ||  FC Twente : 2e/18 (27 pts en 12 m.) | repos 4 j | prochains : NEC Nijmegen (Eredivisie, 3 j), Go Ahead Eagles (Eredivisie, 10 j), AGF (Conference League, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T20:00Z",
-   "prio": 2,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
