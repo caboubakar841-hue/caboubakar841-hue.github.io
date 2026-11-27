@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 23:06 UTC",
+ "date": "2026-11-27 23:15 UTC",
  "version": "V17",
- "ts": "2026-11-27T23:06:56.670000+00:00",
+ "ts": "2026-11-27T23:15:17.996267+00:00",
  "stats": {
   "n": 671,
   "n_avant": 289,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "7'"
+   "minute": "15'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "3'"
+   "minute": "12'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-27T22:00Z",
    "prio": 10,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "51'"
   },
   {
    "league": "Primera Paraguay",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "15'"
   },
   {
    "league": "Liga Bolivie",
@@ -2703,8 +2703,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "7'"
+   "live_score": "1-0",
+   "minute": "14'"
   },
   {
    "league": "Liga Equateur",
@@ -2723,8 +2723,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T21:30Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "77'"
+   "live_score": "2-0",
+   "minute": "86'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-27T22:00Z",
    "prio": 13,
    "live_score": "1-0",
-   "minute": "46'"
+   "minute": "55'"
   },
   {
    "league": "Liga Uruguay",
