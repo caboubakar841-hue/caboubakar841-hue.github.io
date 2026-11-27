@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 22:00 UTC",
+ "date": "2026-11-27 22:08 UTC",
  "version": "V17",
- "ts": "2026-11-27T22:00:18.271792+00:00",
+ "ts": "2026-11-27T22:08:33.648147+00:00",
  "stats": {
   "n": 669,
   "n_avant": 287,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,27 @@
    "kickoff": "2026-11-27T20:15Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "86'"
+   "minute": "90'+4'"
+  },
+  {
+   "league": "Argentine Nacional B",
+   "home": "Atlanta",
+   "away": "Ciudad de Bolívar",
+   "status": "live",
+   "conf": 52,
+   "victoire": "Victoire Atlanta",
+   "score_exact": "1-0 (20%) · 2-0 (12%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Under 2.5 72%",
+   "btts": "BTTS NON 68%",
+   "analyse": "2026-11-27 | Buts attendus Atlanta 1.2 - Ciudad de Bolívar 0.6 | 1/N/2 : 52/30/18% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Atlanta : repos 6 j  ||  Ciudad de Bolívar : repos 6 j",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T22:00Z",
+   "prio": 10,
+   "live_score": "0-0",
+   "minute": "4'"
   },
   {
    "league": "Primera Paraguay",
@@ -2643,8 +2663,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:30Z",
    "prio": 12,
-   "live_score": "2-1",
-   "minute": "71'"
+   "live_score": "3-1",
+   "minute": "80'"
   },
   {
    "league": "Liga Equateur",
@@ -2664,7 +2684,27 @@
    "kickoff": "2026-11-27T21:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "30'"
+   "minute": "38'"
+  },
+  {
+   "league": "Concacaf W Championship",
+   "home": "Jamaica",
+   "away": "Costa Rica",
+   "status": "live",
+   "conf": 60,
+   "victoire": "Victoire Jamaica",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-27 | Buts attendus Jamaica 2.2 - Costa Rica 1.2 | 1/N/2 : 60/20/20% | base sur 6 et 6 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Jamaica : repos 10 j  ||  Costa Rica : repos 10 j",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T22:00Z",
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "7'"
   },
   {
    "league": "Brasileirao",
@@ -2683,24 +2723,6 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T23:00Z",
    "prio": 9
-  },
-  {
-   "league": "Argentine Nacional B",
-   "home": "Atlanta",
-   "away": "Ciudad de Bolívar",
-   "status": "today",
-   "conf": 52,
-   "victoire": "Victoire Atlanta",
-   "score_exact": "1-0 (20%) · 2-0 (12%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Under 2.5 72%",
-   "btts": "BTTS NON 68%",
-   "analyse": "2026-11-27 | Buts attendus Atlanta 1.2 - Ciudad de Bolívar 0.6 | 1/N/2 : 52/30/18% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Atlanta : repos 6 j  ||  Ciudad de Bolívar : repos 6 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T22:00Z",
-   "prio": 10
   },
   {
    "league": "Brazilian Serie B",
@@ -2808,24 +2830,6 @@
    "contexte": "Peru : repos 14 j | prochains : Panama (Matchs amicaux internationaux, 12 j)  ||  Dominican Republic : repos 10 j",
    "day": "2026-11-27",
    "kickoff": "2026-11-27T21:00Z",
-   "prio": 13
-  },
-  {
-   "league": "Concacaf W Championship",
-   "home": "Jamaica",
-   "away": "Costa Rica",
-   "status": "today",
-   "conf": 60,
-   "victoire": "Victoire Jamaica",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-11-27 | Buts attendus Jamaica 2.2 - Costa Rica 1.2 | 1/N/2 : 60/20/20% | base sur 6 et 6 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Jamaica : repos 10 j  ||  Costa Rica : repos 10 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T22:00Z",
    "prio": 13
   },
   {
@@ -3382,6 +3386,42 @@
    "btts": "BTTS OUI 52%",
    "analyse": "2026-11-28 | Buts attendus Lincoln City 1.0 - Wolverhampton Wanderers 1.8 | 1/N/2 : 20/23/57% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Lincoln City : 21e/24 (15 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Cardiff City (Championship, 7 j), Stoke City (Championship, 11 j)  ||  Wolverhampton Wanderers : 4e/24 (34 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Southampton (Championship, 7 j), Queens Park Rangers (Championship, 10 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T12:30Z",
+   "prio": 9
+  },
+  {
+   "league": "Championship",
+   "home": "Preston North End",
+   "away": "Norwich City",
+   "status": "today",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "2026-11-28 | Buts attendus Preston North End 1.5 - Norwich City 2.0 | 1/N/2 : 28/26/46% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Preston North End 2V · 3N · Norwich City 3V (scores : 3-2, 0-4, 0-0)  ||  Preston North End : 22e/24 (12 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Burnley (Championship, 8 j), Portsmouth (Championship, 11 j)  ||  Norwich City : 11e/24 (25 pts en 17 m.) | repos 4 j | prochains : Wrexham (Championship, 7 j), Blackburn Rovers (Championship, 10 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T12:30Z",
+   "prio": 9
+  },
+  {
+   "league": "League One",
+   "home": "Milton Keynes Dons",
+   "away": "Notts County",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "2026-11-28 | Buts attendus Milton Keynes Dons 1.5 - Notts County 1.2 | 1/N/2 : 46/25/29% | base sur 15 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Milton Keynes Dons : 10e/24 (22 pts en 15 m.) | repos 7 j | prochains : Bradford City (League One, 3 j), Wycombe Wanderers (FA Cup, 6 j)  ||  Notts County : 19e/24 (14 pts en 13 m.) | repos 7 j | prochains : AFC Wimbledon (League One, 3 j), Guiseley (FA Cup, 9 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
