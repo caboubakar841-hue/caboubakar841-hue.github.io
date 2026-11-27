@@ -1,10 +1,10 @@
 {
- "date": "2026-11-27 10:29 UTC",
+ "date": "2026-11-27 10:37 UTC",
  "version": "V17",
- "ts": "2026-11-27T10:29:12.363817+00:00",
+ "ts": "2026-11-27T10:37:28.523565+00:00",
  "stats": {
-  "n": 645,
-  "n_avant": 267,
+  "n": 646,
+  "n_avant": 268,
   "dc": 80,
   "over": 54,
   "btts": 54,
@@ -12,16 +12,16 @@
   "1x2": 62,
   "n_fav": 314,
   "serre": 73,
-  "n_serre": 331,
+  "n_serre": 332,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 156,
-  "brier_ctx": 0.579,
-  "brier_base": 0.579,
-  "n_h2h": 134,
-  "brier_h2h": 0.584,
-  "brier_noh2h": 0.584
+  "n_ctx": 157,
+  "brier_ctx": 0.578,
+  "brier_base": 0.578,
+  "n_h2h": 135,
+  "brier_h2h": 0.583,
+  "brier_noh2h": 0.582
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 2 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -144,8 +144,8 @@
        "pick": "Double chance 12 (pas de nul)",
        "code": "12",
        "p": 72,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-0"
       },
       {
        "id": "401879225",
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "A-League",
-   "home": "Macarthur FC",
-   "away": "Melbourne City FC",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : Nul ou Macarthur FC",
-   "score_exact": "1-1 (13%) · 1-0 (11%)",
-   "double_chance": "1X 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "2026-11-27 | Buts attendus Macarthur FC 1.7 - Melbourne City FC 1.0 | 1/N/2 : 49/28/23% | base sur 5 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Macarthur FC 3V · 3N · Melbourne City FC 2V (scores : 1-1 x2, 1-6, 3-3)  ||  Macarthur FC : repos 5 j | prochains : Adelaide United FC (A-League, 14 j)  ||  Melbourne City FC : repos 20 j | prochains : Perth Glory FC (A-League, 14 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T08:40Z",
-   "prio": 12,
-   "live_score": "2-0",
-   "minute": "90'+1'"
-  },
-  {
    "league": "Women's International Friendly",
    "home": "Ivory Coast",
    "away": "Senegal",
@@ -3345,6 +3325,26 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T22:00Z",
    "prio": 13
+  },
+  {
+   "league": "A-League",
+   "home": "Macarthur FC",
+   "away": "Melbourne City FC",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : Nul ou Macarthur FC",
+   "score_exact": "1-1 (13%) · 1-0 (11%)",
+   "double_chance": "1X 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 52%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Macarthur FC 3V · 3N · Melbourne City FC 2V (scores : 1-1 x2, 1-6, 3-3)  ||  Macarthur FC : repos 5 j | prochains : Adelaide United FC (A-League, 14 j)  ||  Melbourne City FC : repos 20 j | prochains : Perth Glory FC (A-League, 14 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T08:40Z",
+   "prio": 12,
+   "live_score": "2-0",
+   "minute": "FT"
   },
   {
    "league": "Liga MX",
@@ -4124,26 +4124,6 @@
    "kickoff": "2026-11-26T10:00Z",
    "prio": 12,
    "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "AFC Champions League Two",
-   "home": "Kuching City",
-   "away": "Phnom Penh Crown FC",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : Kuching City 0V · 0N · Phnom Penh Crown FC 1V (scores : 1-2) - trop peu pour influer  ||  Kuching City : repos 21 j | prochains : Kitchee SC (AFC Champions League Two, 7 j)  ||  Phnom Penh Crown FC : repos 21 j | prochains : Gangwon FC (AFC Champions League Two, 7 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T10:00Z",
-   "prio": 12,
-   "live_score": "3-0",
    "minute": "FT"
   }
  ]
