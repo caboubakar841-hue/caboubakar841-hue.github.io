@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 01:59 UTC",
+ "date": "2026-11-27 02:08 UTC",
  "version": "V17",
- "ts": "2026-11-27T01:59:43.344355+00:00",
+ "ts": "2026-11-27T02:08:09.432067+00:00",
  "stats": {
   "n": 643,
   "n_avant": 265,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
