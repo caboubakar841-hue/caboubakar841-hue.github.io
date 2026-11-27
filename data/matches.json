@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 23:32 UTC",
+ "date": "2026-11-27 23:40 UTC",
  "version": "V17",
- "ts": "2026-11-27T23:32:03.867895+00:00",
+ "ts": "2026-11-27T23:40:27.727871+00:00",
  "stats": {
   "n": 672,
   "n_avant": 290,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 6 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "32'"
+   "minute": "40'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "28'"
+   "minute": "38'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-27T22:00Z",
    "prio": 10,
    "live_score": "0-1",
-   "minute": "68'"
+   "minute": "77'"
   },
   {
    "league": "Primera Paraguay",
@@ -2684,7 +2684,27 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "40'"
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Deportivo Cali",
+   "away": "Atlético Bucaramanga",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Serré : Nul ou Deportivo Cali",
+   "score_exact": "0-0 (12%) · 1-0 (12%)",
+   "double_chance": "1X 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 53%",
+   "analyse": "2026-11-27 | Buts attendus Deportivo Cali 1.5 - Atlético Bucaramanga 0.9 | 1/N/2 : 43/33/24% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Deportivo Cali 2V · 4N · Atlético Bucaramanga 2V (scores : 1-1 x2, 0-0 x2, 0-1)  ||  Deportivo Cali : repos 3 j | prochains : Atlético Bucaramanga (Liga Colombia, 4 j)  ||  Atlético Bucaramanga : repos 3 j | prochains : Deportivo Cali (Liga Colombia, 4 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T23:35Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "5'"
   },
   {
    "league": "Liga Bolivie",
@@ -2704,7 +2724,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
    "live_score": "1-1",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Liga Uruguay",
@@ -2724,7 +2744,7 @@
    "kickoff": "2026-11-27T23:30Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "2'"
+   "minute": "11'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2744,25 +2764,7 @@
    "kickoff": "2026-11-27T22:00Z",
    "prio": 13,
    "live_score": "3-0",
-   "minute": "71'"
-  },
-  {
-   "league": "Liga Colombia",
-   "home": "Deportivo Cali",
-   "away": "Atlético Bucaramanga",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : Nul ou Deportivo Cali",
-   "score_exact": "0-0 (12%) · 1-0 (12%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-27 | Buts attendus Deportivo Cali 1.5 - Atlético Bucaramanga 0.9 | 1/N/2 : 43/33/24% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Deportivo Cali 2V · 4N · Atlético Bucaramanga 2V (scores : 1-1 x2, 0-0 x2, 0-1)  ||  Deportivo Cali : repos 3 j | prochains : Atlético Bucaramanga (Liga Colombia, 4 j)  ||  Atlético Bucaramanga : repos 3 j | prochains : Deportivo Cali (Liga Colombia, 4 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:35Z",
-   "prio": 12
+   "minute": "80'"
   },
   {
    "league": "Women's International Friendly",
@@ -3464,6 +3466,24 @@
    "contexte": "Face-à-face (2 confrontations) : Samsunspor 1V · 1N · Genclerbirligi 0V (scores : 2-1, 1-1) - trop peu pour influer  ||  Samsunspor : 17e/18 (7 pts en 12 m.) | repos 7 j | prochains : Besiktas (Super Lig, 8 j)  ||  Genclerbirligi : 13e/18 (14 pts en 12 m.) | repos 7 j | prochains : Eyupspor (Super Lig, 8 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T13:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Serie B",
+   "home": "Ascoli",
+   "away": "Virtus Entella",
+   "status": "today",
+   "conf": 50,
+   "victoire": "Victoire Ascoli",
+   "score_exact": "1-0 (14%) · 2-0 (10%)",
+   "double_chance": "1X 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-28 | Buts attendus Ascoli 1.5 - Virtus Entella 0.9 | 1/N/2 : 50/26/23% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Ascoli : 5e/20 (21 pts en 13 m.) | repos 4 j | prochains : Mantova (Serie B, 7 j), Juve Stabia (Serie B, 10 j)  ||  Virtus Entella : 16e/20 (13 pts en 13 m.) | repos 4 j | prochains : Empoli (Serie B, 8 j), Catanzaro (Serie B, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T14:00Z",
    "prio": 9
   },
   {
