@@ -1,40 +1,40 @@
 {
- "date": "2026-11-27 20:45 UTC",
+ "date": "2026-11-27 20:53 UTC",
  "version": "V17",
- "ts": "2026-11-27T20:45:07.519168+00:00",
+ "ts": "2026-11-27T20:53:26.474224+00:00",
  "stats": {
-  "n": 654,
-  "n_avant": 274,
+  "n": 656,
+  "n_avant": 275,
   "dc": 80,
   "over": 54,
   "btts": 54,
   "score": 19,
   "1x2": 62,
-  "n_fav": 316,
+  "n_fav": 318,
   "serre": 73,
   "n_serre": 338,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 161,
-  "brier_ctx": 0.584,
-  "brier_base": 0.582,
-  "n_h2h": 139,
-  "brier_h2h": 0.59,
-  "brier_noh2h": 0.587
+  "n_ctx": 162,
+  "brier_ctx": 0.582,
+  "brier_base": 0.58,
+  "n_h2h": 140,
+  "brier_h2h": 0.588,
+  "brier_noh2h": 0.585
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : ned.2 3, par.1 2, ecu.1 2, fra.coupe_de_france 2, eng.1 1, eng.2 1, esp.1 1, esp.2 1, ita.1 1, ger.1 1, fra.1 1, ned.1 1",
+  "Matchs trouvés aujourd'hui par compétition : par.1 2, ecu.1 2, fra.coupe_de_france 2, ned.2 2, eng.1 1, eng.2 1, esp.1 1, esp.2 1, ita.1 1, ger.1 1, fra.1 1, ned.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 149",
   "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 148",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 147",
   "Cartes à venir affichées : 40 (jours : 2026-11-27, 2026-11-28, 2026-11-29)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "45'"
+   "minute": "HT"
   },
   {
    "league": "La Liga",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "Serie A",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "Bundesliga",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-27T19:30Z",
    "prio": 3,
    "live_score": "1-2",
-   "minute": "54'"
+   "minute": "62'"
   },
   {
    "league": "Ligue 1",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "50'"
   },
   {
    "league": "Championship",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'"
+   "minute": "HT"
   },
   {
    "league": "La Liga 2",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-27T19:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "58'"
+   "minute": "66'"
   },
   {
    "league": "Eredivisie",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "Liga Portugal",
@@ -2783,8 +2783,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:15Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "29'"
+   "live_score": "0-1",
+   "minute": "37'"
   },
   {
    "league": "Pro League",
@@ -2804,7 +2804,7 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2823,8 +2823,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
-   "live_score": "3-3",
-   "minute": "85'"
+   "live_score": "4-4",
+   "minute": "90'+3'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2844,27 +2844,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "3-2",
-   "minute": "83'"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
-   "home": "NAC Breda",
-   "away": "FC Den Bosch",
-   "status": "live",
-   "conf": 56,
-   "victoire": "Victoire NAC Breda",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-27 | Buts attendus NAC Breda 2.1 - FC Den Bosch 1.2 | 1/N/2 : 56/22/23% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : NAC Breda 2V · 1N · FC Den Bosch 1V (scores : 2-3, 2-0, 1-0)  ||  NAC Breda : repos 7 j | prochains : FC Volendam (Dutch Keuken Kampioen Divisie, 9 j), Jong AZ (Dutch Keuken Kampioen Divisie, 14 j)  ||  FC Den Bosch : repos 7 j | prochains : Jong Ajax (Dutch Keuken Kampioen Divisie, 9 j), Roda JC Kerkrade (Dutch Keuken Kampioen Divisie, 14 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:00Z",
-   "prio": 10,
-   "live_score": "6-2",
-   "minute": "85'"
+   "minute": "90'+2'"
   },
   {
    "league": "Primera Paraguay",
@@ -2884,7 +2864,7 @@
    "kickoff": "2026-11-27T20:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "15'"
+   "minute": "23'"
   },
   {
    "league": "Liga Equateur",
@@ -2904,27 +2884,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "79'"
-  },
-  {
-   "league": "Women's International Friendly",
-   "home": "Northern Ireland",
-   "away": "Greece",
-   "status": "live",
-   "conf": 60,
-   "victoire": "Victoire Northern Ireland",
-   "score_exact": "1-0 (15%) · 2-0 (13%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-27 | Buts attendus Northern Ireland 1.7 - Greece 0.7 | 1/N/2 : 60/24/16% | base sur 6 et 6 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Northern Ireland : repos 10 j  ||  Greece : repos 11 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:00Z",
-   "prio": 13,
-   "live_score": "0-1",
-   "minute": "86'"
+   "minute": "88'"
   },
   {
    "league": "Women's International Friendly",
@@ -2944,7 +2904,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 13,
    "live_score": "1-2",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "Brasileirao",
@@ -3665,6 +3625,46 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
+  },
+  {
+   "league": "Dutch Keuken Kampioen Divisie",
+   "home": "NAC Breda",
+   "away": "FC Den Bosch",
+   "status": "finished",
+   "conf": 56,
+   "victoire": "Victoire NAC Breda",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 6-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : NAC Breda 2V · 1N · FC Den Bosch 1V (scores : 2-3, 2-0, 1-0)  ||  NAC Breda : repos 7 j | prochains : FC Volendam (Dutch Keuken Kampioen Divisie, 9 j), Jong AZ (Dutch Keuken Kampioen Divisie, 14 j)  ||  FC Den Bosch : repos 7 j | prochains : Jong Ajax (Dutch Keuken Kampioen Divisie, 9 j), Roda JC Kerkrade (Dutch Keuken Kampioen Divisie, 14 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T19:00Z",
+   "prio": 10,
+   "live_score": "6-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Women's International Friendly",
+   "home": "Northern Ireland",
+   "away": "Greece",
+   "status": "finished",
+   "conf": 60,
+   "victoire": "Victoire Northern Ireland",
+   "score_exact": "1-0 (15%) · 2-0 (13%)",
+   "double_chance": "1X 84%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 58%",
+   "analyse": "Resultat 0-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T19:00Z",
+   "prio": 13,
+   "live_score": "0-2",
+   "minute": "FT"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -4424,46 +4424,6 @@
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue Europa",
-   "home": "Union St.-Gilloise",
-   "away": "Lech Poznan",
-   "status": "finished",
-   "conf": 84,
-   "victoire": "Victoire Union St.-Gilloise",
-   "score_exact": "3-0 (12%) · 4-0 (9%)",
-   "double_chance": "1X 95%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS NON 54%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Lech Poznan (estimation neutre, très incertaine). Union St.-Gilloise : 1e/18 (29 pts en 11 m.) | repos 4 j | prochains : KAA Gent (Pro League, 3 j), Lyon (Ligue Europa, 14 j)  ||  Lech Poznan : repos 21 j | prochains : Ferencvaros (Ligue Europa, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T17:45Z",
-   "prio": 1,
-   "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue Europa",
-   "home": "Viktoria Plzen",
-   "away": "Benfica",
-   "status": "finished",
-   "conf": 84,
-   "victoire": "Victoire Benfica",
-   "score_exact": "1-3 (8%) · 1-4 (7%)",
-   "double_chance": "X2 94%",
-   "corner": "N/D",
-   "over": "Over 2.5 83%",
-   "btts": "BTTS OUI 60%",
-   "analyse": "Resultat 4-0 | 1X2 RATE | DC RATE | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Viktoria Plzen (estimation neutre, très incertaine). Viktoria Plzen : repos 21 j | prochains : AFC Bournemouth (Ligue Europa, 14 j)  ||  Benfica : 2e/18 (27 pts en 10 m.) | repos 18 j | prochains : FC Famalicao (Liga Portugal, 4 j), C.D. Nacional (Liga Portugal, 9 j), OFI Crete (Ligue Europa, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T17:45Z",
-   "prio": 1,
-   "live_score": "4-0",
    "minute": "FT"
   }
  ]
