@@ -1,10 +1,10 @@
 {
- "date": "2026-11-27 20:19 UTC",
+ "date": "2026-11-27 20:28 UTC",
  "version": "V17",
- "ts": "2026-11-27T20:19:47.871085+00:00",
+ "ts": "2026-11-27T20:28:04.797948+00:00",
  "stats": {
-  "n": 653,
-  "n_avant": 273,
+  "n": 654,
+  "n_avant": 274,
   "dc": 80,
   "over": 54,
   "btts": 54,
@@ -12,20 +12,20 @@
   "1x2": 62,
   "n_fav": 316,
   "serre": 73,
-  "n_serre": 337,
+  "n_serre": 338,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 160,
-  "brier_ctx": 0.583,
+  "n_ctx": 161,
+  "brier_ctx": 0.584,
   "brier_base": 0.582,
-  "n_h2h": 138,
-  "brier_h2h": 0.588,
+  "n_h2h": 139,
+  "brier_h2h": 0.59,
   "brier_noh2h": 0.587
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 3, ned.2 3, par.1 2, ecu.1 2, eng.1 1, eng.2 1, esp.1 1, esp.2 1, ita.1 1, ger.1 1, fra.1 1, ned.1 1",
+  "Matchs trouvés aujourd'hui par compétition : ned.2 3, par.1 2, ecu.1 2, fra.coupe_de_france 2, eng.1 1, eng.2 1, esp.1 1, esp.2 1, ita.1 1, ger.1 1, fra.1 1, ned.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 149",
   "Matchs africains affichés (à venir / live) : 3",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "20'"
+   "minute": "28'"
   },
   {
    "league": "La Liga",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "18'"
+   "minute": "26'"
   },
   {
    "league": "Serie A",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "34'"
+   "minute": "42'"
   },
   {
    "league": "Bundesliga",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-27T19:30Z",
    "prio": 3,
    "live_score": "1-1",
-   "minute": "45'+4'"
+   "minute": "HT"
   },
   {
    "league": "Ligue 1",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "Championship",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "20'"
+   "minute": "28'"
   },
   {
    "league": "La Liga 2",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "56'"
+   "minute": "64'"
   },
   {
    "league": "Liga Portugal",
@@ -2784,7 +2784,7 @@
    "kickoff": "2026-11-27T20:15Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "12'"
   },
   {
    "league": "Pro League",
@@ -2804,27 +2804,7 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "33'"
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Grazer AK",
-   "away": "SC Rheindorf Altach",
-   "status": "live",
-   "conf": 71,
-   "victoire": "Serré : Nul ou Grazer AK",
-   "score_exact": "1-0 (13%) · 0-0 (11%)",
-   "double_chance": "1X 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-27 | Buts attendus Grazer AK 1.1 - SC Rheindorf Altach 1.1 | 1/N/2 : 40/31/29% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Grazer AK 4V · 3N · SC Rheindorf Altach 1V (scores : 2-1 x2, 2-2 x2, 1-0)  ||  Grazer AK : 11e/12 (7 pts en 11 m.) | repos 6 j | prochains : TSV Hartberg (Bundesliga (AUT), 8 j)  ||  SC Rheindorf Altach : 10e/12 (10 pts en 11 m.) | repos 5 j | prochains : RB Salzburg (Bundesliga (AUT), 7 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T18:30Z",
-   "prio": 9,
-   "live_score": "2-3",
-   "minute": "90'+4'"
+   "minute": "41'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2844,7 +2824,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "2-3",
-   "minute": "59'"
+   "minute": "68'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2863,8 +2843,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
-   "live_score": "1-2",
-   "minute": "58'"
+   "live_score": "2-2",
+   "minute": "66'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2883,8 +2863,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
-   "live_score": "4-1",
-   "minute": "60'"
+   "live_score": "4-2",
+   "minute": "68'"
   },
   {
    "league": "Liga Equateur",
@@ -2904,7 +2884,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "54'"
+   "minute": "62'"
   },
   {
    "league": "Women's International Friendly",
@@ -2924,7 +2904,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 13,
    "live_score": "0-1",
-   "minute": "61'"
+   "minute": "69'"
   },
   {
    "league": "Women's International Friendly",
@@ -2944,7 +2924,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 13,
    "live_score": "0-2",
-   "minute": "18'"
+   "minute": "26'"
   },
   {
    "league": "Brasileirao",
@@ -3665,6 +3645,26 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9
+  },
+  {
+   "league": "Bundesliga (AUT)",
+   "home": "Grazer AK",
+   "away": "SC Rheindorf Altach",
+   "status": "finished",
+   "conf": 71,
+   "victoire": "Serré : Nul ou Grazer AK",
+   "score_exact": "1-0 (13%) · 0-0 (11%)",
+   "double_chance": "1X 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 2-3 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Grazer AK 4V · 3N · SC Rheindorf Altach 1V (scores : 2-1 x2, 2-2 x2, 1-0)  ||  Grazer AK : 11e/12 (7 pts en 11 m.) | repos 6 j | prochains : TSV Hartberg (Bundesliga (AUT), 8 j)  ||  SC Rheindorf Altach : 10e/12 (10 pts en 11 m.) | repos 5 j | prochains : RB Salzburg (Bundesliga (AUT), 7 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T18:30Z",
+   "prio": 9,
+   "live_score": "2-3",
+   "minute": "FT"
   },
   {
    "league": "Superliga (DEN)",
@@ -4443,26 +4443,6 @@
    "day": "2026-11-26",
    "kickoff": "2026-11-26T17:45Z",
    "prio": 1,
-   "live_score": "4-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Conference League",
-   "home": "Ajax Amsterdam",
-   "away": "FC Thun",
-   "status": "finished",
-   "conf": 84,
-   "victoire": "Victoire Ajax Amsterdam",
-   "score_exact": "3-1 (8%) · 2-1 (7%)",
-   "double_chance": "1X 94%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : FC Thun (estimation neutre, très incertaine). Ajax Amsterdam : 3e/18 (25 pts en 12 m.) | repos 4 j | prochains : Feyenoord Rotterdam (Eredivisie, 3 j), FC Utrecht (Eredivisie, 10 j), Sint-Truidense (Conference League, 14 j)  ||  FC Thun : repos 21 j | prochains : KAA Gent (Conference League, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T17:45Z",
-   "prio": 2,
    "live_score": "4-0",
    "minute": "FT"
   }
