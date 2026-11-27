@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 03:40 UTC",
+ "date": "2026-11-27 03:48 UTC",
  "version": "V17",
- "ts": "2026-11-27T03:40:30.125997+00:00",
+ "ts": "2026-11-27T03:48:52.606254+00:00",
  "stats": {
   "n": 644,
   "n_avant": 266,
@@ -2623,8 +2623,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T03:10Z",
    "prio": 12,
-   "live_score": "0-1",
-   "minute": "29'"
+   "live_score": "0-2",
+   "minute": "38'"
   },
   {
    "league": "Women's International Friendly",
