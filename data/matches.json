@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 19:38 UTC",
+ "date": "2026-11-27 19:46 UTC",
  "version": "V17",
- "ts": "2026-11-27T19:38:18.285129+00:00",
+ "ts": "2026-11-27T19:46:33.033714+00:00",
  "stats": {
   "n": 652,
   "n_avant": 272,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 7 s"
  ],
  "tickets": [
   {
@@ -2607,6 +2607,26 @@
  ],
  "matches": [
   {
+   "league": "Serie A",
+   "home": "Venezia",
+   "away": "Bologna",
+   "status": "live",
+   "conf": 54,
+   "victoire": "Victoire Bologna",
+   "score_exact": "0-1 (14%) · 0-2 (11%)",
+   "double_chance": "X2 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-27 | Buts attendus Venezia 0.9 - Bologna 1.6 | 1/N/2 : 21/25/54% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Venezia 0V · 0N · Bologna 2V (scores : 0-3, 0-1) - trop peu pour influer  ||  Venezia : 20e/20 (6 pts en 12 m.) | repos 5 j | prochains : Sassuolo (Serie A, 10 j)  ||  Bologna : 9e/20 (18 pts en 12 m.) | repos 5 j | prochains : AS Roma (Serie A, 7 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T19:45Z",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "1'"
+  },
+  {
    "league": "Bundesliga",
    "home": "Werder Bremen",
    "away": "Borussia Mönchengladbach",
@@ -2624,7 +2644,27 @@
    "kickoff": "2026-11-27T19:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "16'"
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Brest",
+   "away": "Paris FC",
+   "status": "live",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Over 2.5 50%",
+   "btts": "BTTS OUI 55%",
+   "analyse": "2026-11-27 | Buts attendus Brest 1.4 - Paris FC 1.3 | 1/N/2 : 39/26/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Brest 0V · 0N · Paris FC 2V (scores : 1-2, 0-4) - trop peu pour influer  ||  Brest : 5e/18 (18 pts en 11 m.) | repos 6 j | prochains : Stade Rennais (Ligue 1, 9 j)  ||  Paris FC : 2e/18 (23 pts en 11 m.) | repos 5 j | prochains : Le Mans (Ligue 1, 8 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T19:45Z",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "1'"
   },
   {
    "league": "La Liga 2",
@@ -2644,7 +2684,7 @@
    "kickoff": "2026-11-27T19:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "15'"
   },
   {
    "league": "Eredivisie",
@@ -2663,8 +2703,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "34'"
+   "live_score": "0-1",
+   "minute": "43'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2684,7 +2724,7 @@
    "kickoff": "2026-11-27T18:30Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "52'"
+   "minute": "60'"
   },
   {
    "league": "Superliga (DEN)",
@@ -2704,7 +2744,7 @@
    "kickoff": "2026-11-27T18:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "78'"
+   "minute": "87'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2724,7 +2764,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "1-3",
-   "minute": "37'"
+   "minute": "45'+1'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2744,7 +2784,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "0-2",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2764,7 +2804,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "3-0",
-   "minute": "36'"
+   "minute": "45'"
   },
   {
    "league": "Liga Equateur",
@@ -2784,7 +2824,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "37'"
+   "minute": "45'"
   },
   {
    "league": "Women's International Friendly",
@@ -2804,43 +2844,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "36'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Venezia",
-   "away": "Bologna",
-   "status": "today",
-   "conf": 54,
-   "victoire": "Victoire Bologna",
-   "score_exact": "0-1 (14%) · 0-2 (11%)",
-   "double_chance": "X2 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-27 | Buts attendus Venezia 0.9 - Bologna 1.6 | 1/N/2 : 21/25/54% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Venezia 0V · 0N · Bologna 2V (scores : 0-3, 0-1) - trop peu pour influer  ||  Venezia : 20e/20 (6 pts en 12 m.) | repos 5 j | prochains : Sassuolo (Serie A, 10 j)  ||  Bologna : 9e/20 (18 pts en 12 m.) | repos 5 j | prochains : AS Roma (Serie A, 7 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:45Z",
-   "prio": 3
-  },
-  {
-   "league": "Ligue 1",
-   "home": "Brest",
-   "away": "Paris FC",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "2026-11-27 | Buts attendus Brest 1.4 - Paris FC 1.3 | 1/N/2 : 39/26/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Brest 0V · 0N · Paris FC 2V (scores : 1-2, 0-4) - trop peu pour influer  ||  Brest : 5e/18 (18 pts en 11 m.) | repos 6 j | prochains : Stade Rennais (Ligue 1, 9 j)  ||  Paris FC : 2e/18 (23 pts en 11 m.) | repos 5 j | prochains : Le Mans (Ligue 1, 8 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:45Z",
-   "prio": 3
+   "minute": "44'"
   },
   {
    "league": "Premier League",
@@ -3522,6 +3526,42 @@
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-28 | Buts attendus Le Mans 1.0 - Lille 1.4 | 1/N/2 : 28/27/45% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Le Mans : 13e/18 (11 pts en 11 m.) | repos 6 j | prochains : Paris FC (Ligue 1, 7 j)  ||  Lille : 3e/18 (21 pts en 11 m.) | repos 3 j | prochains : AJ Auxerre (Ligue 1, 7 j), VfB Stuttgart (Ligue des champions, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T19:45Z",
+   "prio": 3
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Nice",
+   "away": "Troyes",
+   "status": "today",
+   "conf": 59,
+   "victoire": "Victoire Nice",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 52%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "2026-11-28 | Buts attendus Nice 1.8 - Troyes 0.9 | 1/N/2 : 59/23/18% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Nice 2V · 0N · Troyes 0V (scores : 3-2, 1-0) - trop peu pour influer  ||  Nice : 8e/18 (17 pts en 11 m.) | repos 7 j | prochains : Marseille (Ligue 1, 8 j)  ||  Troyes : 14e/18 (11 pts en 11 m.) | repos 8 j | prochains : Lyon (Ligue 1, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T19:45Z",
+   "prio": 3
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Paris Saint-Germain",
+   "away": "Lorient",
+   "status": "today",
+   "conf": 52,
+   "victoire": "Victoire Paris Saint-Germain",
+   "score_exact": "1-0 (14%) · 2-0 (11%)",
+   "double_chance": "1X 83%",
+   "corner": "N/D",
+   "over": "Under 2.5 60%",
+   "btts": "BTTS NON 56%",
+   "analyse": "2026-11-28 | Buts attendus Paris Saint-Germain 1.6 - Lorient 0.8 | 1/N/2 : 52/31/17% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : Paris Saint-Germain 2V · 3N · Lorient 1V (scores : 2-1, 1-3, 0-0)  ||  Paris Saint-Germain : 1e/18 (26 pts en 11 m.) | repos 3 j | prochains : Toulouse (Ligue 1, 6 j), Aston Villa (Ligue des champions, 10 j)  ||  Lorient : 10e/18 (16 pts en 11 m.) | repos 6 j | prochains : Strasbourg (Ligue 1, 7 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3
