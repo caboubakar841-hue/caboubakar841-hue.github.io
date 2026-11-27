@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 22:25 UTC",
+ "date": "2026-11-27 22:33 UTC",
  "version": "V17",
- "ts": "2026-11-27T22:25:18.225947+00:00",
+ "ts": "2026-11-27T22:33:40.176603+00:00",
  "stats": {
   "n": 671,
   "n_avant": 289,
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T22:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "21'"
+   "minute": "29'"
   },
   {
    "league": "Liga Equateur",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-27T22:00Z",
    "prio": 13,
    "live_score": "1-0",
-   "minute": "24'"
+   "minute": "32'"
   },
   {
    "league": "Brasileirao",
