@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 14:13 UTC",
+ "date": "2026-11-27 14:22 UTC",
  "version": "V17",
- "ts": "2026-11-27T14:13:59.041177+00:00",
+ "ts": "2026-11-27T14:22:17.302634+00:00",
  "stats": {
   "n": 647,
   "n_avant": 268,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2606,6 +2606,26 @@
   }
  ],
  "matches": [
+  {
+   "league": "Saudi Pro League",
+   "home": "Al Qadsiah",
+   "away": "Al Fayha",
+   "status": "live",
+   "conf": 74,
+   "victoire": "Victoire Al Qadsiah",
+   "score_exact": "2-1 (9%) · 3-1 (8%)",
+   "double_chance": "1X 89%",
+   "corner": "N/D",
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-27 | Buts attendus Al Qadsiah 2.7 - Al Fayha 1.0 | 1/N/2 : 74/15/11% | base sur 5 et 0 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Al Fayha (estimation neutre, très incertaine). Al Qadsiah : repos 3 j | prochains : Al-Shamal (AFC Champions League, 10 j)  ||  Al Fayha",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T14:20Z",
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "2'"
+  },
   {
    "league": "Women's International Friendly",
    "home": "Ivory Coast",
