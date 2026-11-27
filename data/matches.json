@@ -1,27 +1,27 @@
 {
- "date": "2026-11-27 00:02 UTC",
+ "date": "2026-11-27 00:11 UTC",
  "version": "V17",
- "ts": "2026-11-27T00:02:54.863992+00:00",
+ "ts": "2026-11-27T00:11:22.862495+00:00",
  "stats": {
-  "n": 643,
-  "n_avant": 352,
-  "dc": 81,
+  "n": 642,
+  "n_avant": 264,
+  "dc": 80,
   "over": 54,
-  "btts": 53,
+  "btts": 54,
   "score": 19,
-  "1x2": 61,
-  "n_fav": 308,
-  "serre": 75,
-  "n_serre": 335,
+  "1x2": 62,
+  "n_fav": 313,
+  "serre": 74,
+  "n_serre": 329,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 215,
-  "brier_ctx": 0.593,
-  "brier_base": 0.593,
-  "n_h2h": 178,
-  "brier_h2h": 0.593,
-  "brier_noh2h": 0.594
+  "n_ctx": 154,
+  "brier_ctx": 0.579,
+  "brier_base": 0.579,
+  "n_h2h": 132,
+  "brier_h2h": 0.584,
+  "brier_noh2h": 0.584
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-26T23:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "Women's International Friendly",
