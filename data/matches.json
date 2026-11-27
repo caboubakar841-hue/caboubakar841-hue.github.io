@@ -1,16 +1,16 @@
 {
- "date": "2026-11-27 13:32 UTC",
+ "date": "2026-11-27 13:40 UTC",
  "version": "V17",
- "ts": "2026-11-27T13:32:20.047464+00:00",
+ "ts": "2026-11-27T13:40:41.889577+00:00",
  "stats": {
-  "n": 646,
+  "n": 647,
   "n_avant": 268,
   "dc": 80,
   "over": 54,
   "btts": 54,
   "score": 19,
   "1x2": 62,
-  "n_fav": 314,
+  "n_fav": 315,
   "serre": 73,
   "n_serre": 332,
   "base_dom": 47,
@@ -29,12 +29,12 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 151",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 168",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 167",
   "Cartes à venir affichées : 40 (jours : 2026-11-27, 2026-11-28, 2026-11-29)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 7 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -3327,6 +3327,26 @@
    "prio": 13
   },
   {
+   "league": "Women's International Friendly",
+   "home": "Cyprus",
+   "away": "Luxembourg",
+   "status": "finished",
+   "conf": 60,
+   "victoire": "Victoire Cyprus",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Over 2.5 53%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T09:00Z",
+   "prio": 13,
+   "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
    "league": "A-League",
    "home": "Macarthur FC",
    "away": "Melbourne City FC",
@@ -4104,26 +4124,6 @@
    "kickoff": "2026-11-26T12:15Z",
    "prio": 12,
    "live_score": "1-7",
-   "minute": "FT"
-  },
-  {
-   "league": "AFC Champions League Two",
-   "home": "Gangwon FC",
-   "away": "Kitchee SC",
-   "status": "finished",
-   "conf": 67,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (15%) · 1-0 (15%)",
-   "double_chance": "12 67%",
-   "corner": "N/D",
-   "over": "Under 2.5 73%",
-   "btts": "BTTS NON 65%",
-   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : Gangwon FC 0V · 1N · Kitchee SC 0V (scores : 0-0) - trop peu pour influer  ||  Gangwon FC : repos 21 j | prochains : Phnom Penh Crown FC (AFC Champions League Two, 7 j)  ||  Kitchee SC : repos 21 j | prochains : Kuching City (AFC Champions League Two, 7 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T10:00Z",
-   "prio": 12,
-   "live_score": "3-2",
    "minute": "FT"
   }
  ]
