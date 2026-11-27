@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27 20:36 UTC",
+ "date": "2026-11-27 20:45 UTC",
  "version": "V17",
- "ts": "2026-11-27T20:36:28.844557+00:00",
+ "ts": "2026-11-27T20:45:07.519168+00:00",
  "stats": {
   "n": 654,
   "n_avant": 274,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 25 s"
+  "Durée du run : 7 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "36'"
+   "minute": "45'"
   },
   {
    "league": "La Liga",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "35'"
+   "live_score": "1-0",
+   "minute": "43'"
   },
   {
    "league": "Serie A",
@@ -2683,8 +2683,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:30Z",
    "prio": 3,
-   "live_score": "1-1",
-   "minute": "HT"
+   "live_score": "1-2",
+   "minute": "54'"
   },
   {
    "league": "Ligue 1",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-27T20:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "37'"
+   "minute": "45'"
   },
   {
    "league": "La Liga 2",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-27T19:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "49'"
+   "minute": "58'"
   },
   {
    "league": "Eredivisie",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "72'"
+   "minute": "81'"
   },
   {
    "league": "Liga Portugal",
@@ -2784,7 +2784,7 @@
    "kickoff": "2026-11-27T20:15Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "21'"
+   "minute": "29'"
   },
   {
    "league": "Pro League",
@@ -2824,7 +2824,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "3-3",
-   "minute": "76'"
+   "minute": "85'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2844,7 +2844,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "3-2",
-   "minute": "75'"
+   "minute": "83'"
   },
   {
    "league": "Dutch Keuken Kampioen Divisie",
@@ -2863,8 +2863,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
-   "live_score": "5-2",
-   "minute": "77'"
+   "live_score": "6-2",
+   "minute": "85'"
   },
   {
    "league": "Primera Paraguay",
@@ -2884,7 +2884,7 @@
    "kickoff": "2026-11-27T20:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "7'"
+   "minute": "15'"
   },
   {
    "league": "Liga Equateur",
@@ -2904,7 +2904,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 12,
    "live_score": "0-2",
-   "minute": "71'"
+   "minute": "79'"
   },
   {
    "league": "Women's International Friendly",
@@ -2924,7 +2924,7 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 13,
    "live_score": "0-1",
-   "minute": "78'"
+   "minute": "86'"
   },
   {
    "league": "Women's International Friendly",
@@ -2943,8 +2943,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:00Z",
    "prio": 13,
-   "live_score": "0-2",
-   "minute": "35'"
+   "live_score": "1-2",
+   "minute": "43'"
   },
   {
    "league": "Brasileirao",
