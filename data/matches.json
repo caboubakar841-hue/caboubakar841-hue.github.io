@@ -1,31 +1,31 @@
 {
- "date": "2026-11-27 23:23 UTC",
+ "date": "2026-11-27 23:32 UTC",
  "version": "V17",
- "ts": "2026-11-27T23:23:40.982491+00:00",
+ "ts": "2026-11-27T23:32:03.867895+00:00",
  "stats": {
-  "n": 671,
-  "n_avant": 289,
+  "n": 672,
+  "n_avant": 290,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
   "1x2": 61,
-  "n_fav": 325,
+  "n_fav": 326,
   "serre": 73,
   "n_serre": 346,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 169,
-  "brier_ctx": 0.585,
-  "brier_base": 0.586,
-  "n_h2h": 147,
-  "brier_h2h": 0.59,
-  "brier_noh2h": 0.591
+  "n_ctx": 170,
+  "brier_ctx": 0.584,
+  "brier_base": 0.585,
+  "n_h2h": 148,
+  "brier_h2h": 0.589,
+  "brier_noh2h": 0.59
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : bra.1 1, par.1 1, col.1 1, bol.1 1, uru.1 1, ecu.1 1, bra.2 1, arg.2 1",
+  "Matchs trouvés aujourd'hui par compétition : bra.1 1, par.1 1, col.1 1, bol.1 1, uru.1 1, bra.2 1, arg.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 149",
   "Matchs africains affichés (à venir / live) : 3",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 8 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "23'"
+   "minute": "32'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "20'"
+   "minute": "28'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-27T22:00Z",
    "prio": 10,
    "live_score": "0-1",
-   "minute": "60'"
+   "minute": "68'"
   },
   {
    "league": "Primera Paraguay",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "23'"
+   "minute": "32'"
   },
   {
    "league": "Liga Bolivie",
@@ -2703,28 +2703,28 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "23'"
+   "live_score": "1-1",
+   "minute": "31'"
   },
   {
-   "league": "Liga Equateur",
-   "home": "Deportivo Cuenca",
-   "away": "Manta F.C.",
+   "league": "Liga Uruguay",
+   "home": "Liverpool",
+   "away": "Racing (Montevideo)",
    "status": "live",
-   "conf": 53,
-   "victoire": "Victoire Deportivo Cuenca",
-   "score_exact": "1-0 (14%) · 2-0 (10%)",
-   "double_chance": "12 79%",
+   "conf": 77,
+   "victoire": "Serré : Nul ou Liverpool",
+   "score_exact": "0-0 (14%) · 1-0 (10%)",
+   "double_chance": "1X 77%",
    "corner": "N/D",
-   "over": "Under 2.5 54%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-27 | Buts attendus Deportivo Cuenca 1.4 - Manta F.C. 1.0 | 1/N/2 : 53/21/26% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Deportivo Cuenca 4V · 0N · Manta F.C. 1V (scores : 2-0 x2, 1-0 x2, 1-2)  ||  Deportivo Cuenca : repos 6 j | prochains : Delfín (Liga Equateur, 9 j)  ||  Manta F.C. : repos 5 j | prochains : Mushuc Runa (Liga Equateur, 9 j)",
+   "over": "Under 2.5 63%",
+   "btts": "BTTS NON 51%",
+   "analyse": "2026-11-27 | Buts attendus Liverpool 1.5 - Racing (Montevideo) 0.9 | 1/N/2 : 36/40/23% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Liverpool 0V · 6N · Racing (Montevideo) 2V (scores : 2-2 x2, 1-1 x2, 0-0 x2)  ||  Liverpool : repos 2 j | prochains : Everton (Premier League, 2 j), Sunderland (Premier League, 5 j), Chelsea (Premier League, 8 j)  ||  Racing (Montevideo) : repos 7 j",
    "day": "2026-11-27",
-   "kickoff": "2026-11-27T21:30Z",
+   "kickoff": "2026-11-27T23:30Z",
    "prio": 12,
-   "live_score": "3-0",
-   "minute": "90'+4'"
+   "live_score": "0-0",
+   "minute": "2'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2743,26 +2743,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T22:00Z",
    "prio": 13,
-   "live_score": "2-0",
-   "minute": "63'"
-  },
-  {
-   "league": "Liga Uruguay",
-   "home": "Liverpool",
-   "away": "Racing (Montevideo)",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : Nul ou Liverpool",
-   "score_exact": "0-0 (14%) · 1-0 (10%)",
-   "double_chance": "1X 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 63%",
-   "btts": "BTTS NON 51%",
-   "analyse": "2026-11-27 | Buts attendus Liverpool 1.5 - Racing (Montevideo) 0.9 | 1/N/2 : 36/40/23% | base sur 14 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Liverpool 0V · 6N · Racing (Montevideo) 2V (scores : 2-2 x2, 1-1 x2, 0-0 x2)  ||  Liverpool : repos 2 j | prochains : Everton (Premier League, 2 j), Sunderland (Premier League, 5 j), Chelsea (Premier League, 8 j)  ||  Racing (Montevideo) : repos 7 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:30Z",
-   "prio": 12
+   "live_score": "3-0",
+   "minute": "71'"
   },
   {
    "league": "Liga Colombia",
@@ -3465,6 +3447,44 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T13:00Z",
    "prio": 9
+  },
+  {
+   "league": "Super Lig",
+   "home": "Samsunspor",
+   "away": "Genclerbirligi",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (8%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 55%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-28 | Buts attendus Samsunspor 1.4 - Genclerbirligi 1.4 | 1/N/2 : 37/25/38% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Samsunspor 1V · 1N · Genclerbirligi 0V (scores : 2-1, 1-1) - trop peu pour influer  ||  Samsunspor : 17e/18 (7 pts en 12 m.) | repos 7 j | prochains : Besiktas (Super Lig, 8 j)  ||  Genclerbirligi : 13e/18 (14 pts en 12 m.) | repos 7 j | prochains : Eyupspor (Super Lig, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T13:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Liga Equateur",
+   "home": "Deportivo Cuenca",
+   "away": "Manta F.C.",
+   "status": "finished",
+   "conf": 53,
+   "victoire": "Victoire Deportivo Cuenca",
+   "score_exact": "1-0 (14%) · 2-0 (10%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 54%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (5 confrontations) : Deportivo Cuenca 4V · 0N · Manta F.C. 1V (scores : 2-0 x2, 1-0 x2, 1-2)  ||  Deportivo Cuenca : repos 6 j | prochains : Delfín (Liga Equateur, 9 j)  ||  Manta F.C. : repos 5 j | prochains : Mushuc Runa (Liga Equateur, 9 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T21:30Z",
+   "prio": 12,
+   "live_score": "3-0",
+   "minute": "FT"
   },
   {
    "league": "Primera Paraguay",
@@ -4244,26 +4264,6 @@
    "kickoff": "2026-11-26T20:00Z",
    "prio": 1,
    "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue Europa",
-   "home": "Torreense",
-   "away": "Celtic",
-   "status": "finished",
-   "conf": 65,
-   "victoire": "Victoire Celtic",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 64%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Torreense (estimation neutre, très incertaine). Torreense : repos 21 j | prochains : Real Sociedad (Ligue Europa, 14 j)  ||  Celtic : 2e/12 (28 pts en 12 m.) | repos 5 j | prochains : Heart of Midlothian (Scottish Premiership, 3 j), Dundee (Scottish Premiership, 6 j), St Johnstone (Scottish Premiership, 9 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T20:00Z",
-   "prio": 1,
-   "live_score": "1-2",
    "minute": "FT"
   }
  ]
