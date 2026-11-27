@@ -1,9 +1,9 @@
 {
- "date": "2026-11-27 17:58 UTC",
+ "date": "2026-11-27 18:07 UTC",
  "version": "V17",
- "ts": "2026-11-27T17:58:51.581515+00:00",
+ "ts": "2026-11-27T18:07:07.208790+00:00",
  "stats": {
-  "n": 647,
+  "n": 648,
   "n_avant": 268,
   "dc": 80,
   "over": 54,
@@ -11,8 +11,8 @@
   "score": 19,
   "1x2": 62,
   "n_fav": 315,
-  "serre": 73,
-  "n_serre": 332,
+  "serre": 74,
+  "n_serre": 333,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
@@ -28,13 +28,13 @@
   "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 3, ned.2 3, ger.2 2, tur.1 2, par.1 2, bol.1 2, ecu.1 2, eng.1 1, eng.2 1, esp.1 1, esp.2 1, ita.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 149",
-  "Matchs africains affichés (à venir / live) : 4",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 153",
+  "Matchs africains affichés (à venir / live) : 3",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 151",
   "Cartes à venir affichées : 40 (jours : 2026-11-27, 2026-11-28, 2026-11-29)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:776~e:401915506\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T17:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "28'"
+   "minute": "36'"
   },
   {
    "league": "2. Bundesliga",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-27T17:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "28'"
+   "minute": "36'"
   },
   {
    "league": "Super Lig",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-27T17:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "HT"
+   "minute": "49'"
   },
   {
    "league": "Super Lig",
@@ -2683,8 +2683,28 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T17:00Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "HT"
+   "live_score": "1-2",
+   "minute": "48'"
+  },
+  {
+   "league": "Superliga (DEN)",
+   "home": "Sønderjyske Fodbold",
+   "away": "Brøndby IF",
+   "status": "live",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (7%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 75%",
+   "btts": "BTTS OUI 75%",
+   "analyse": "2026-11-27 | Buts attendus Sønderjyske Fodbold 1.9 - Brøndby IF 2.1 | 1/N/2 : 35/23/43% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (7 confrontations) : Sønderjyske Fodbold 2V · 2N · Brøndby IF 3V (scores : 0-2, 2-2, 2-0)  ||  Sønderjyske Fodbold : 11e/12 (8 pts en 12 m.) | repos 5 j | prochains : Viborg FF (Superliga (DEN), 10 j)  ||  Brøndby IF : 8e/12 (15 pts en 12 m.) | repos 4 j | prochains : Odense Boldklub (Superliga (DEN), 9 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T18:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "4'"
   },
   {
    "league": "Saudi Pro League",
@@ -2704,25 +2724,7 @@
    "kickoff": "2026-11-27T17:30Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "26'"
-  },
-  {
-   "league": "Women's International Friendly",
-   "home": "Ivory Coast",
-   "away": "Senegal",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "2026-11-27 | Buts attendus Ivory Coast 1.3 - Senegal 1.4 | 1/N/2 : 35/26/39% | base sur 1 et 1 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Ivory Coast : repos 55 j  ||  Senegal : repos 54 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T16:00Z",
-   "prio": -1
+   "minute": "35'"
   },
   {
    "league": "Bundesliga",
@@ -2813,24 +2815,6 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Superliga (DEN)",
-   "home": "Sønderjyske Fodbold",
-   "away": "Brøndby IF",
-   "status": "today",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 75%",
-   "btts": "BTTS OUI 75%",
-   "analyse": "2026-11-27 | Buts attendus Sønderjyske Fodbold 1.9 - Brøndby IF 2.1 | 1/N/2 : 35/23/43% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (7 confrontations) : Sønderjyske Fodbold 2V · 2N · Brøndby IF 3V (scores : 0-2, 2-2, 2-0)  ||  Sønderjyske Fodbold : 11e/12 (8 pts en 12 m.) | repos 5 j | prochains : Viborg FF (Superliga (DEN), 10 j)  ||  Brøndby IF : 8e/12 (15 pts en 12 m.) | repos 4 j | prochains : Odense Boldklub (Superliga (DEN), 9 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T18:00Z",
-   "prio": 9
   },
   {
    "league": "Bundesliga (AUT)",
@@ -3425,6 +3409,62 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3
+  },
+  {
+   "league": "Bundesliga",
+   "home": "SC Paderborn 07",
+   "away": "Schalke 04",
+   "status": "today",
+   "conf": 76,
+   "victoire": "Serré : Nul ou SC Paderborn 07",
+   "score_exact": "0-0 (20%) · 1-0 (19%)",
+   "double_chance": "1X 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 78%",
+   "btts": "BTTS NON 71%",
+   "analyse": "2026-11-28 | Buts attendus SC Paderborn 07 1.0 - Schalke 04 0.6 | 1/N/2 : 42/35/24% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "SC Paderborn 07 : 15e/18 (10 pts en 10 m.) | repos 7 j | prochains : Bayern Munich (Bundesliga, 6 j)  ||  Schalke 04 : 16e/18 (7 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Bundesliga, 8 j), Hamburg SV (Bundesliga, 13 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T14:30Z",
+   "prio": 3
+  },
+  {
+   "league": "Premier League",
+   "home": "Leeds United",
+   "away": "Coventry City",
+   "status": "today",
+   "conf": 66,
+   "victoire": "Victoire Leeds United",
+   "score_exact": "3-0 (8%) · 4-0 (4%)",
+   "double_chance": "1X 87%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS NON 55%",
+   "analyse": "2026-11-28 | Buts attendus Leeds United 2.0 - Coventry City 0.7 | 1/N/2 : 66/21/13% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Leeds United : 7e/20 (17 pts en 11 m.) | repos 7 j | prochains : Manchester City (Premier League, 4 j), Ipswich Town (Premier League, 7 j)  ||  Coventry City : 14e/20 (12 pts en 11 m.) | repos 7 j | prochains : Ipswich Town (Premier League, 3 j), Manchester United (Premier League, 7 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:00Z",
+   "prio": 3
+  },
+  {
+   "league": "Women's International Friendly",
+   "home": "Ivory Coast",
+   "away": "Senegal",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T16:00Z",
+   "prio": -1,
+   "live_score": "4-1",
+   "minute": "FT"
   },
   {
    "league": "Saudi Pro League",
@@ -4204,26 +4244,6 @@
    "kickoff": "2026-11-26T12:15Z",
    "prio": 12,
    "live_score": "0-3",
-   "minute": "FT"
-  },
-  {
-   "league": "AFC Champions League Two",
-   "home": "PKR Svay Rieng",
-   "away": "Machida Zelvia",
-   "status": "finished",
-   "conf": 70,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (12%)",
-   "double_chance": "12 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 65%",
-   "btts": "BTTS NON 58%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : PKR Svay Rieng 0V · 0N · Machida Zelvia 1V (scores : 0-2) - trop peu pour influer  ||  PKR Svay Rieng : repos 21 j | prochains : Shanghai Shenhua FC (AFC Champions League Two, 7 j)  ||  Machida Zelvia : repos 5 j | prochains : Tokyo Verdy 1969 (J1 League, 3 j), Tampines Rovers FC (AFC Champions League Two, 7 j), Fagiano Okayama (J1 League, 10 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T12:15Z",
-   "prio": 12,
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
