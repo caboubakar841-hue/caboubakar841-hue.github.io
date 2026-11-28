@@ -1,16 +1,16 @@
 {
- "date": "2026-11-28 17:52 UTC",
+ "date": "2026-11-28 18:00 UTC",
  "version": "V17",
- "ts": "2026-11-28T17:52:13.837548+00:00",
+ "ts": "2026-11-28T18:00:31.466852+00:00",
  "stats": {
-  "n": 740,
-  "n_avant": 358,
+  "n": 741,
+  "n_avant": 359,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
   "1x2": 62,
-  "n_fav": 351,
+  "n_fav": 352,
   "serre": 73,
   "n_serre": 389,
   "base_dom": 47,
@@ -25,11 +25,11 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 27, gua.1 6, fra.1 5, usa.1 4, bel.1 3, bol.1 3, ecu.1 3, esp.1 2, esp.2 2, ita.1 2, ita.2 2, ned.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 26, gua.1 6, fra.1 5, usa.1 4, bel.1 3, bol.1 3, ecu.1 3, esp.1 2, esp.2 2, ita.1 2, ita.2 2, ned.1 2",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 154",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 101",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 96",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
@@ -2623,8 +2623,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
-   "live_score": "1-1",
-   "minute": "22'"
+   "live_score": "1-2",
+   "minute": "30'"
   },
   {
    "league": "La Liga",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
-   "live_score": "0-2",
-   "minute": "21'"
+   "live_score": "1-2",
+   "minute": "30'"
   },
   {
    "league": "Serie A",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "22'"
+   "minute": "30'"
   },
   {
    "league": "Ligue 1",
@@ -2703,8 +2703,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:15Z",
    "prio": 3,
-   "live_score": "2-4",
-   "minute": "77'"
+   "live_score": "2-5",
+   "minute": "86'"
   },
   {
    "league": "La Liga 2",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "22'"
+   "minute": "30'"
   },
   {
    "league": "Serie B",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T16:15Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "82'"
+   "minute": "90'"
   },
   {
    "league": "Eredivisie",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "13'"
   },
   {
    "league": "Pro League",
@@ -2783,28 +2783,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:15Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "34'"
-  },
-  {
-   "league": "Super Lig",
-   "home": "Gaziantep FK",
-   "away": "Amed SFK",
-   "status": "live",
-   "conf": 60,
-   "victoire": "Victoire Amed SFK",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-28 | Buts attendus Gaziantep FK 1.1 - Amed SFK 2.0 | 1/N/2 : 19/21/60% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Gaziantep FK : 17e/18 (8 pts en 12 m.) | repos 7 j | prochains : Konyaspor (Super Lig, 7 j)  ||  Amed SFK : 4e/18 (23 pts en 12 m.) | repos 7 j | prochains : Alanyaspor (Super Lig, 7 j), Çorum FK (Super Lig, 13 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T16:00Z",
-   "prio": 9,
-   "live_score": "1-2",
-   "minute": "90'+6'"
+   "live_score": "2-1",
+   "minute": "42'"
   },
   {
    "league": "Scottish Premiership",
@@ -2824,7 +2804,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "15'"
   },
   {
    "league": "MLS",
@@ -2844,7 +2824,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "12'"
+   "minute": "20'"
   },
   {
    "league": "Liga Equateur",
@@ -2864,7 +2844,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "60'"
+   "minute": "68'"
   },
   {
    "league": "Women's International Friendly",
@@ -2903,8 +2883,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:30Z",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "61'"
+   "live_score": "1-0",
+   "minute": "69'"
   },
   {
    "league": "Saudi Pro League",
@@ -2924,7 +2904,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "22'"
+   "minute": "31'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3645,6 +3625,26 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:30Z",
    "prio": 13
+  },
+  {
+   "league": "Super Lig",
+   "home": "Gaziantep FK",
+   "away": "Amed SFK",
+   "status": "finished",
+   "conf": 60,
+   "victoire": "Victoire Amed SFK",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Gaziantep FK : 17e/18 (8 pts en 12 m.) | repos 7 j | prochains : Konyaspor (Super Lig, 7 j)  ||  Amed SFK : 4e/18 (23 pts en 12 m.) | repos 7 j | prochains : Alanyaspor (Super Lig, 7 j), Çorum FK (Super Lig, 13 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:00Z",
+   "prio": 9,
+   "live_score": "1-2",
+   "minute": "FT"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -4424,26 +4424,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Scottish Premiership",
-   "home": "St Mirren",
-   "away": "Kilmarnock",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "Resultat 1-4 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : St Mirren 2V · 2N · Kilmarnock 4V (scores : 0-2 x2, 2-2, 5-1)  ||  St Mirren : 12e/12 (8 pts en 12 m.) | repos 7 j | prochains : St Johnstone (Scottish Premiership, 4 j), Heart of Midlothian (Scottish Premiership, 7 j), Dundee United (Scottish Premiership, 14 j)  ||  Kilmarnock : 11e/12 (9 pts en 12 m.) | repos 7 j | prochains : Hibernian (Scottish Premiership, 4 j), Motherwell (Scottish Premiership, 7 j), Dundee (Scottish Premiership, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "1-4",
    "minute": "FT"
   }
  ]
