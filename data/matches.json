@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 08:51 UTC",
+ "date": "2026-11-28 09:00 UTC",
  "version": "V17",
- "ts": "2026-11-28T08:51:41.028134+00:00",
+ "ts": "2026-11-28T09:00:00.202736+00:00",
  "stats": {
-  "n": 673,
-  "n_avant": 293,
+  "n": 674,
+  "n_avant": 294,
   "dc": 80,
   "over": 54,
   "btts": 54,
@@ -12,16 +12,16 @@
   "1x2": 62,
   "n_fav": 326,
   "serre": 73,
-  "n_serre": 347,
+  "n_serre": 348,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 171,
-  "brier_ctx": 0.575,
-  "brier_base": 0.579,
-  "n_h2h": 149,
-  "brier_h2h": 0.579,
-  "brier_noh2h": 0.583
+  "n_ctx": 172,
+  "brier_ctx": 0.577,
+  "brier_base": 0.58,
+  "n_h2h": 150,
+  "brier_h2h": 0.58,
+  "brier_noh2h": 0.584
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "J1 League",
-   "home": "Kashiwa Reysol",
-   "away": "Sanfrecce Hiroshima",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (6%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-28 | Buts attendus Kashiwa Reysol 1.6 - Sanfrecce Hiroshima 1.8 | 1/N/2 : 27/27/46% | base sur 13 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Kashiwa Reysol 1V · 3N · Sanfrecce Hiroshima 4V (scores : 0-1 x2, 0-0 x2, 2-1)  ||  Kashiwa Reysol : repos 4 j | prochains : Cong An Ha Noi (AFC Champions League, 3 j), Avispa Fukuoka (J1 League, 8 j)  ||  Sanfrecce Hiroshima : repos 3 j | prochains : Vissel Kobe (J1 League, 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T07:00Z",
-   "prio": 12,
-   "live_score": "3-1",
-   "minute": "90'"
-  },
-  {
    "league": "A-League",
    "home": "Central Coast Mariners FC",
    "away": "Auckland FC",
@@ -2643,8 +2623,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T08:40Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "12'"
+   "live_score": "0-1",
+   "minute": "20'"
   },
   {
    "league": "Women's International Friendly",
@@ -2663,8 +2643,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T08:35Z",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "4'"
+   "live_score": "1-0",
+   "minute": "13'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3385,6 +3365,26 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
+  },
+  {
+   "league": "J1 League",
+   "home": "Kashiwa Reysol",
+   "away": "Sanfrecce Hiroshima",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (6%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Kashiwa Reysol 1V · 3N · Sanfrecce Hiroshima 4V (scores : 0-1 x2, 0-0 x2, 2-1)  ||  Kashiwa Reysol : repos 4 j | prochains : Cong An Ha Noi (AFC Champions League, 3 j), Avispa Fukuoka (J1 League, 8 j)  ||  Sanfrecce Hiroshima : repos 3 j | prochains : Vissel Kobe (J1 League, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T07:00Z",
+   "prio": 12,
+   "live_score": "3-1",
+   "minute": "FT"
   },
   {
    "league": "J1 League",
@@ -4164,26 +4164,6 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 13,
    "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Grazer AK",
-   "away": "SC Rheindorf Altach",
-   "status": "finished",
-   "conf": 71,
-   "victoire": "Serré : Nul ou Grazer AK",
-   "score_exact": "1-0 (13%) · 0-0 (11%)",
-   "double_chance": "1X 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 53%",
-   "analyse": "Resultat 2-3 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Grazer AK 4V · 3N · SC Rheindorf Altach 1V (scores : 2-1 x2, 2-2 x2, 1-0)  ||  Grazer AK : 11e/12 (7 pts en 11 m.) | repos 6 j | prochains : TSV Hartberg (Bundesliga (AUT), 8 j)  ||  SC Rheindorf Altach : 10e/12 (10 pts en 11 m.) | repos 5 j | prochains : RB Salzburg (Bundesliga (AUT), 7 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T18:30Z",
-   "prio": 9,
-   "live_score": "2-3",
    "minute": "FT"
   }
  ]
