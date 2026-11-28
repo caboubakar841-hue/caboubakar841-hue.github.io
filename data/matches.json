@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 09:24 UTC",
+ "date": "2026-11-28 09:33 UTC",
  "version": "V17",
- "ts": "2026-11-28T09:24:48.542291+00:00",
+ "ts": "2026-11-28T09:33:04.636935+00:00",
  "stats": {
   "n": 674,
   "n_avant": 294,
@@ -28,13 +28,13 @@
   "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 33, eng.4 12, eng.3 11, eng.2 10, gua.1 6, esp.2 5, ita.2 5, ger.1 5, fra.1 5, sco.1 5, esp.1 4, ger.2 4",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 149",
-  "Matchs africains affichés (à venir / live) : 3",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 137",
+  "Matchs africains affichés (à venir / live) : 2",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 136",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2623,8 +2623,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T08:40Z",
    "prio": 12,
-   "live_score": "1-2",
-   "minute": "44'"
+   "live_score": "2-2",
+   "minute": "HT"
   },
   {
    "league": "Women's International Friendly",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T08:35Z",
    "prio": 13,
    "live_score": "1-1",
-   "minute": "38'"
+   "minute": "45'+1'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -2662,24 +2662,6 @@
    "contexte": "Chinese Taipei : repos 14 j  ||  South Africa : repos 55 j",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
-   "prio": -1
-  },
-  {
-   "league": "Women's International Friendly",
-   "home": "Malawi",
-   "away": "Albania",
-   "status": "today",
-   "conf": 80,
-   "victoire": "Victoire Albania",
-   "score_exact": "0-3 (11%) · 0-4 (7%)",
-   "double_chance": "X2 93%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-28 | Buts attendus Malawi 0.7 - Albania 2.7 | 1/N/2 : 7/13/80% | base sur 0 et 6 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Malawi (estimation neutre, très incertaine). Malawi  ||  Albania : repos 13 j",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T07:00Z",
    "prio": -1
   },
   {
@@ -3367,6 +3349,24 @@
    "prio": 9
   },
   {
+   "league": "Championship",
+   "home": "Millwall",
+   "away": "Burnley",
+   "status": "today",
+   "conf": 52,
+   "victoire": "Victoire Millwall",
+   "score_exact": "2-1 (8%) · 3-1 (6%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 70%",
+   "btts": "BTTS OUI 68%",
+   "analyse": "2026-11-28 | Buts attendus Millwall 2.3 - Burnley 1.4 | 1/N/2 : 52/21/27% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Millwall 1V · 1N · Burnley 2V (scores : 0-2, 1-1, 1-0)  ||  Millwall : 18e/24 (18 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Watford (Championship, 7 j), Sheffield United (Championship, 10 j), Wolverhampton Wanderers (Championship, 14 j)  ||  Burnley : 23e/24 (11 pts en 17 m.) | repos 3 j | prochains : Preston North End (Championship, 8 j), Southampton (Championship, 11 j), Sheffield United (Championship, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:00Z",
+   "prio": 9
+  },
+  {
    "league": "J1 League",
    "home": "Kashiwa Reysol",
    "away": "Sanfrecce Hiroshima",
@@ -3384,6 +3384,26 @@
    "kickoff": "2026-11-28T07:00Z",
    "prio": 12,
    "live_score": "3-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Women's International Friendly",
+   "home": "Malawi",
+   "away": "Albania",
+   "status": "finished",
+   "conf": 80,
+   "victoire": "Victoire Albania",
+   "score_exact": "0-3 (11%) · 0-4 (7%)",
+   "double_chance": "X2 93%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 4-3 | 1X2 RATE | DC RATE | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "⚠️ Peu ou pas de données pour : Malawi (estimation neutre, très incertaine). ",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T07:00Z",
+   "prio": -1,
+   "live_score": "4-3",
    "minute": "FT"
   },
   {
@@ -4144,26 +4164,6 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "6-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Women's International Friendly",
-   "home": "Northern Ireland",
-   "away": "Greece",
-   "status": "finished",
-   "conf": 60,
-   "victoire": "Victoire Northern Ireland",
-   "score_exact": "1-0 (15%) · 2-0 (13%)",
-   "double_chance": "1X 84%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 58%",
-   "analyse": "Resultat 0-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:00Z",
-   "prio": 13,
-   "live_score": "0-2",
    "minute": "FT"
   }
  ]
