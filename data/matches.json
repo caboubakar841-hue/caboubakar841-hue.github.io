@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 03:42 UTC",
+ "date": "2026-11-28 03:51 UTC",
  "version": "V17",
- "ts": "2026-11-28T03:42:45.073195+00:00",
+ "ts": "2026-11-28T03:51:03.159872+00:00",
  "stats": {
-  "n": 666,
-  "n_avant": 286,
+  "n": 667,
+  "n_avant": 287,
   "dc": 80,
   "over": 54,
   "btts": 54,
@@ -12,16 +12,16 @@
   "1x2": 62,
   "n_fav": 323,
   "serre": 74,
-  "n_serre": 343,
+  "n_serre": 344,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 166,
-  "brier_ctx": 0.574,
-  "brier_base": 0.58,
-  "n_h2h": 144,
-  "brier_h2h": 0.578,
-  "brier_noh2h": 0.584
+  "n_ctx": 167,
+  "brier_ctx": 0.575,
+  "brier_base": 0.581,
+  "n_h2h": 145,
+  "brier_h2h": 0.579,
+  "brier_noh2h": 0.586
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 6 s"
+  "Durée du run : 36 s"
  ],
  "tickets": [
   {
@@ -2624,27 +2624,7 @@
    "kickoff": "2026-11-28T03:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "12'"
-  },
-  {
-   "league": "Liga Colombia",
-   "home": "Millonarios",
-   "away": "América de Cali",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (11%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-28 | Buts attendus Millonarios 1.3 - América de Cali 1.0 | 1/N/2 : 43/27/30% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Millonarios 3V · 2N · América de Cali 3V (scores : 2-1 x2, 0-0 x2, 0-1)  ||  Millonarios : repos 3 j | prochains : América de Cali (Liga Colombia, 4 j)  ||  América de Cali : repos 3 j | prochains : Millonarios (Liga Colombia, 4 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T01:40Z",
-   "prio": 12,
-   "live_score": "0-0",
-   "minute": "90'+6'"
+   "minute": "20'"
   },
   {
    "league": "Liga Bolivie",
@@ -2664,7 +2644,7 @@
    "kickoff": "2026-11-28T02:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "83'"
+   "minute": "90'+1'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -2769,7 +2749,7 @@
    "over": "Over 2.5 55%",
    "btts": "BTTS OUI 58%",
    "analyse": "2026-11-28 | Buts attendus FC Cologne 1.6 - SV Elversberg 1.3 | 1/N/2 : 45/25/31% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "FC Cologne : 14e/18 (10 pts en 10 m.) | repos 8 j | prochains : Holstein Kiel (Coupe d'Allemagne, 3 j), FC Augsburg (Bundesliga, 7 j)  ||  SV Elversberg : 9e/18 (13 pts en 10 m.) | repos 7 j | prochains : VfB Stuttgart (Bundesliga, 8 j)",
+   "contexte": "FC Cologne : 14e/18 (10 pts en 10 m.) | repos 8 j | prochains : Holstein Kiel (Coupe d'Allemagne, 3 j), FC Augsburg (Bundesliga, 7 j), RB Leipzig (Bundesliga, 14 j)  ||  SV Elversberg : 9e/18 (13 pts en 10 m.) | repos 7 j | prochains : VfB Stuttgart (Bundesliga, 8 j), SC Paderborn 07 (Bundesliga, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3
@@ -2805,7 +2785,7 @@
    "over": "Over 2.5 71%",
    "btts": "BTTS OUI 67%",
    "analyse": "2026-11-28 | Buts attendus Mainz 2.8 - 1. FC Union Berlin 1.1 | 1/N/2 : 52/25/23% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Mainz 0V · 4N · 1. FC Union Berlin 4V (scores : 1-2 x2, 1-1 x2, 0-0)  ||  Mainz : 13e/18 (10 pts en 10 m.) | repos 6 j | prochains : RB Leipzig (Bundesliga, 7 j)  ||  1. FC Union Berlin : 17e/18 (7 pts en 10 m.) | repos 7 j | prochains : Hamburg SV (Bundesliga, 7 j)",
+   "contexte": "Face-à-face (8 confrontations) : Mainz 0V · 4N · 1. FC Union Berlin 4V (scores : 1-2 x2, 1-1 x2, 0-0)  ||  Mainz : 13e/18 (10 pts en 10 m.) | repos 6 j | prochains : RB Leipzig (Bundesliga, 7 j)  ||  1. FC Union Berlin : 17e/18 (7 pts en 10 m.) | repos 7 j | prochains : Hamburg SV (Bundesliga, 7 j), VfB Stuttgart (Bundesliga, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3
@@ -2823,7 +2803,7 @@
    "over": "Under 2.5 78%",
    "btts": "BTTS NON 71%",
    "analyse": "2026-11-28 | Buts attendus SC Paderborn 07 1.0 - Schalke 04 0.6 | 1/N/2 : 42/35/24% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "SC Paderborn 07 : 15e/18 (10 pts en 10 m.) | repos 7 j | prochains : Bayern Munich (Bundesliga, 6 j)  ||  Schalke 04 : 16e/18 (7 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Bundesliga, 8 j), Hamburg SV (Bundesliga, 13 j)",
+   "contexte": "SC Paderborn 07 : 15e/18 (10 pts en 10 m.) | repos 7 j | prochains : Bayern Munich (Bundesliga, 6 j), SV Elversberg (Bundesliga, 14 j)  ||  Schalke 04 : 16e/18 (7 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Bundesliga, 8 j), Hamburg SV (Bundesliga, 13 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3
@@ -2841,7 +2821,7 @@
    "over": "Over 2.5 50%",
    "btts": "BTTS NON 55%",
    "analyse": "2026-11-28 | Buts attendus Leeds United 2.0 - Coventry City 0.7 | 1/N/2 : 66/21/13% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Leeds United : 7e/20 (17 pts en 11 m.) | repos 7 j | prochains : Manchester City (Premier League, 4 j), Ipswich Town (Premier League, 7 j)  ||  Coventry City : 15e/20 (12 pts en 11 m.) | repos 7 j | prochains : Ipswich Town (Premier League, 3 j), Manchester United (Premier League, 7 j)",
+   "contexte": "Leeds United : 7e/20 (17 pts en 11 m.) | repos 7 j | prochains : Manchester City (Premier League, 4 j), Ipswich Town (Premier League, 7 j), Liverpool (Premier League, 14 j)  ||  Coventry City : 15e/20 (12 pts en 11 m.) | repos 7 j | prochains : Ipswich Town (Premier League, 3 j), Manchester United (Premier League, 7 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3
@@ -2859,7 +2839,7 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 62%",
    "analyse": "2026-11-28 | Buts attendus Manchester United 1.3 - Brentford 2.0 | 1/N/2 : 31/19/50% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Manchester United 4V · 1N · Brentford 3V (scores : 2-1 x3, 0-4, 1-0)  ||  Manchester United : 19e/20 (8 pts en 11 m.) | repos 3 j | prochains : Newcastle United (Premier League, 4 j), Coventry City (Premier League, 7 j), RB Leipzig (Ligue des champions, 10 j)  ||  Brentford : 6e/20 (17 pts en 11 m.) | repos 5 j | prochains : Arsenal (Premier League, 4 j), Manchester City (Premier League, 7 j)",
+   "contexte": "Face-à-face (8 confrontations) : Manchester United 4V · 1N · Brentford 3V (scores : 2-1 x3, 0-4, 1-0)  ||  Manchester United : 19e/20 (8 pts en 11 m.) | repos 3 j | prochains : Newcastle United (Premier League, 4 j), Coventry City (Premier League, 7 j), RB Leipzig (Ligue des champions, 10 j)  ||  Brentford : 6e/20 (17 pts en 11 m.) | repos 5 j | prochains : Arsenal (Premier League, 4 j), Manchester City (Premier League, 7 j), Fulham (Premier League, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3
@@ -2877,7 +2857,7 @@
    "over": "Under 2.5 62%",
    "btts": "BTTS NON 59%",
    "analyse": "2026-11-28 | Buts attendus Málaga 0.8 - Athletic Club 1.4 | 1/N/2 : 21/27/52% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Málaga : 20e/20 (5 pts en 13 m.) | repos 6 j | prochains : Coria (Coupe du Roi, 5 j), Sevilla (La Liga, 9 j)  ||  Athletic Club : 8e/20 (16 pts en 12 m.) | repos 8 j | prochains : Numancia (Coupe du Roi, 3 j), Real Madrid (La Liga, 8 j), Rayo Vallecano (La Liga, 11 j)",
+   "contexte": "Málaga : 20e/20 (5 pts en 13 m.) | repos 6 j | prochains : Coria (Coupe du Roi, 5 j), Sevilla (La Liga, 9 j), Barcelona (La Liga, 14 j)  ||  Athletic Club : 8e/20 (16 pts en 12 m.) | repos 8 j | prochains : Numancia (Coupe du Roi, 3 j), Real Madrid (La Liga, 8 j), Rayo Vallecano (La Liga, 11 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:15Z",
    "prio": 3
@@ -2895,7 +2875,7 @@
    "over": "Over 2.5 62%",
    "btts": "BTTS OUI 58%",
    "analyse": "2026-11-28 | Buts attendus Angers 1.2 - Lens 1.9 | 1/N/2 : 18/17/65% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Angers 0V · 0N · Lens 6V (scores : 1-2 x2, 0-1 x2, 0-3)  ||  Angers : 17e/18 (8 pts en 11 m.) | repos 6 j | prochains : AS Monaco (Ligue 1, 7 j)  ||  Lens : 11e/18 (14 pts en 11 m.) | repos 4 j | prochains : Le Havre AC (Ligue 1, 7 j), Bodo/Glimt (Ligue des champions, 11 j)",
+   "contexte": "Face-à-face (6 confrontations) : Angers 0V · 0N · Lens 6V (scores : 1-2 x2, 0-1 x2, 0-3)  ||  Angers : 17e/18 (8 pts en 11 m.) | repos 6 j | prochains : AS Monaco (Ligue 1, 7 j), Strasbourg (Ligue 1, 14 j)  ||  Lens : 11e/18 (14 pts en 11 m.) | repos 4 j | prochains : Le Havre AC (Ligue 1, 7 j), Bodo/Glimt (Ligue des champions, 11 j), Nice (Ligue 1, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:15Z",
    "prio": 3
@@ -2931,7 +2911,7 @@
    "over": "Over 2.5 66%",
    "btts": "BTTS OUI 66%",
    "analyse": "2026-11-28 | Buts attendus Ipswich Town 1.8 - Aston Villa 1.6 | 1/N/2 : 41/23/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Ipswich Town 0V · 2N · Aston Villa 0V (scores : 2-2, 1-1) - trop peu pour influer  ||  Ipswich Town : 17e/20 (11 pts en 11 m.) | repos 7 j | prochains : Coventry City (Premier League, 3 j), Leeds United (Premier League, 7 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 4 j | prochains : Everton (Premier League, 4 j), Crystal Palace (Premier League, 7 j), Paris Saint-Germain (Ligue des champions, 10 j)",
+   "contexte": "Face-à-face (2 confrontations) : Ipswich Town 0V · 2N · Aston Villa 0V (scores : 2-2, 1-1) - trop peu pour influer  ||  Ipswich Town : 17e/20 (11 pts en 11 m.) | repos 7 j | prochains : Coventry City (Premier League, 3 j), Leeds United (Premier League, 7 j), Newcastle United (Premier League, 14 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 4 j | prochains : Everton (Premier League, 4 j), Crystal Palace (Premier League, 7 j), Paris Saint-Germain (Ligue des champions, 10 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3
@@ -2967,7 +2947,7 @@
    "over": "Over 2.5 66%",
    "btts": "BTTS OUI 63%",
    "analyse": "2026-11-28 | Buts attendus VfB Stuttgart 2.3 - Eintracht Frankfurt 1.2 | 1/N/2 : 55/21/24% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : VfB Stuttgart 3V · 2N · Eintracht Frankfurt 3V (scores : 1-3, 1-1, 2-1)  ||  VfB Stuttgart : 8e/18 (13 pts en 10 m.) | repos 3 j | prochains : Dynamo Dresden (Coupe d'Allemagne, 3 j), SV Elversberg (Bundesliga, 8 j), Lille (Ligue des champions, 11 j)  ||  Eintracht Frankfurt : 7e/18 (15 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Coupe d'Allemagne, 4 j), Werder Bremen (Bundesliga, 7 j)",
+   "contexte": "Face-à-face (8 confrontations) : VfB Stuttgart 3V · 2N · Eintracht Frankfurt 3V (scores : 1-3, 1-1, 2-1)  ||  VfB Stuttgart : 8e/18 (13 pts en 10 m.) | repos 3 j | prochains : Dynamo Dresden (Coupe d'Allemagne, 3 j), SV Elversberg (Bundesliga, 8 j), Lille (Ligue des champions, 11 j)  ||  Eintracht Frankfurt : 7e/18 (15 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Coupe d'Allemagne, 4 j), Werder Bremen (Bundesliga, 7 j), Borussia Mönchengladbach (Bundesliga, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3
@@ -3003,7 +2983,7 @@
    "over": "Over 2.5 70%",
    "btts": "BTTS OUI 67%",
    "analyse": "2026-11-28 | Buts attendus Le Havre AC 1.5 - Strasbourg 2.0 | 1/N/2 : 34/16/50% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Le Havre AC 3V · 0N · Strasbourg 3V (scores : 1-2, 3-1, 0-3)  ||  Le Havre AC : 18e/18 (2 pts en 11 m.) | repos 8 j | prochains : Lens (Ligue 1, 7 j)  ||  Strasbourg : 16e/18 (10 pts en 11 m.) | repos 7 j | prochains : Lorient (Ligue 1, 7 j)",
+   "contexte": "Face-à-face (6 confrontations) : Le Havre AC 3V · 0N · Strasbourg 3V (scores : 1-2, 3-1, 0-3)  ||  Le Havre AC : 18e/18 (2 pts en 11 m.) | repos 8 j | prochains : Lens (Ligue 1, 7 j), Le Mans (Ligue 1, 14 j)  ||  Strasbourg : 16e/18 (10 pts en 11 m.) | repos 7 j | prochains : Lorient (Ligue 1, 7 j), Angers (Ligue 1, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3
@@ -3021,7 +3001,7 @@
    "over": "Under 2.5 57%",
    "btts": "BTTS NON 52%",
    "analyse": "2026-11-28 | Buts attendus Le Mans 1.0 - Lille 1.4 | 1/N/2 : 29/27/44% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Le Mans : 13e/18 (11 pts en 11 m.) | repos 6 j | prochains : Paris FC (Ligue 1, 7 j)  ||  Lille : 4e/18 (21 pts en 11 m.) | repos 3 j | prochains : AJ Auxerre (Ligue 1, 7 j), VfB Stuttgart (Ligue des champions, 11 j)",
+   "contexte": "Le Mans : 13e/18 (11 pts en 11 m.) | repos 6 j | prochains : Paris FC (Ligue 1, 7 j), Le Havre AC (Ligue 1, 14 j)  ||  Lille : 4e/18 (21 pts en 11 m.) | repos 3 j | prochains : AJ Auxerre (Ligue 1, 7 j), VfB Stuttgart (Ligue des champions, 11 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3
@@ -3039,7 +3019,7 @@
    "over": "Over 2.5 52%",
    "btts": "BTTS OUI 50%",
    "analyse": "2026-11-28 | Buts attendus Nice 1.8 - Troyes 0.9 | 1/N/2 : 60/22/18% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Nice 2V · 0N · Troyes 0V (scores : 3-2, 1-0) - trop peu pour influer  ||  Nice : 8e/18 (17 pts en 11 m.) | repos 7 j | prochains : Marseille (Ligue 1, 8 j)  ||  Troyes : 14e/18 (11 pts en 11 m.) | repos 8 j | prochains : Lyon (Ligue 1, 8 j)",
+   "contexte": "Face-à-face (2 confrontations) : Nice 2V · 0N · Troyes 0V (scores : 3-2, 1-0) - trop peu pour influer  ||  Nice : 8e/18 (17 pts en 11 m.) | repos 7 j | prochains : Marseille (Ligue 1, 8 j), Lens (Ligue 1, 14 j)  ||  Troyes : 14e/18 (11 pts en 11 m.) | repos 8 j | prochains : Lyon (Ligue 1, 8 j), Brest (Ligue 1, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3
@@ -3057,7 +3037,7 @@
    "over": "Under 2.5 60%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-11-28 | Buts attendus Paris Saint-Germain 1.6 - Lorient 0.8 | 1/N/2 : 53/30/17% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Paris Saint-Germain 2V · 3N · Lorient 1V (scores : 2-1, 1-3, 0-0)  ||  Paris Saint-Germain : 1e/18 (26 pts en 11 m.) | repos 3 j | prochains : Toulouse (Ligue 1, 6 j), Aston Villa (Ligue des champions, 10 j)  ||  Lorient : 10e/18 (16 pts en 11 m.) | repos 6 j | prochains : Strasbourg (Ligue 1, 7 j)",
+   "contexte": "Face-à-face (6 confrontations) : Paris Saint-Germain 2V · 3N · Lorient 1V (scores : 2-1, 1-3, 0-0)  ||  Paris Saint-Germain : 1e/18 (26 pts en 11 m.) | repos 3 j | prochains : Toulouse (Ligue 1, 6 j), Aston Villa (Ligue des champions, 10 j), Paris FC (Ligue 1, 14 j)  ||  Lorient : 10e/18 (16 pts en 11 m.) | repos 6 j | prochains : Strasbourg (Ligue 1, 7 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3
@@ -3075,7 +3055,7 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 50%",
    "analyse": "2026-11-28 | Buts attendus Real Madrid 2.4 - Alavés 0.8 | 1/N/2 : 79/13/8% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Real Madrid 6V · 0N · Alavés 0V (scores : 1-0 x2, 2-1 x2, 5-0)  ||  Real Madrid : 2e/20 (33 pts en 13 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 4 j), Athletic Club (La Liga, 8 j), Arsenal (Ligue des champions, 11 j)  ||  Alavés : 9e/20 (16 pts en 13 m.) | repos 7 j | prochains : Gimnástica Torrelavega (Coupe du Roi, 3 j), Espanyol (La Liga, 6 j)",
+   "contexte": "Face-à-face (6 confrontations) : Real Madrid 6V · 0N · Alavés 0V (scores : 1-0 x2, 2-1 x2, 5-0)  ||  Real Madrid : 2e/20 (33 pts en 13 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 4 j), Athletic Club (La Liga, 8 j), Arsenal (Ligue des champions, 11 j)  ||  Alavés : 9e/20 (16 pts en 13 m.) | repos 7 j | prochains : Gimnástica Torrelavega (Coupe du Roi, 3 j), Espanyol (La Liga, 6 j), Levante (La Liga, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 3
@@ -3093,7 +3073,7 @@
    "over": "Over 2.5 57%",
    "btts": "BTTS OUI 58%",
    "analyse": "2026-11-28 | Buts attendus Dynamo Dresden 1.8 - St. Pauli 1.2 | 1/N/2 : 51/23/26% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Dynamo Dresden : 11e/18 (12 pts en 11 m.) | repos 6 j | prochains : VfB Stuttgart (Coupe d'Allemagne, 3 j), Arminia Bielefeld (2. Bundesliga, 6 j)  ||  St. Pauli : 10e/18 (13 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 8 j)",
+   "contexte": "Dynamo Dresden : 11e/18 (12 pts en 11 m.) | repos 6 j | prochains : VfB Stuttgart (Coupe d'Allemagne, 3 j), Arminia Bielefeld (2. Bundesliga, 6 j), Energie Cottbus (2. Bundesliga, 14 j)  ||  St. Pauli : 10e/18 (13 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 8 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9
@@ -3111,7 +3091,7 @@
    "over": "Over 2.5 76%",
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-28 | Buts attendus Hertha Berlin 3.5 - Karlsruher SC 0.7 | 1/N/2 : 82/15/3% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Hertha Berlin 2V · 2N · Karlsruher SC 0V (scores : 3-1 x2, 0-0, 2-2)  ||  Hertha Berlin : 1e/18 (31 pts en 11 m.) | repos 6 j | prochains : Bayern Munich (Coupe d'Allemagne, 3 j), Hannover 96 (2. Bundesliga, 7 j)  ||  Karlsruher SC : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 7 j)",
+   "contexte": "Face-à-face (4 confrontations) : Hertha Berlin 2V · 2N · Karlsruher SC 0V (scores : 3-1 x2, 0-0, 2-2)  ||  Hertha Berlin : 1e/18 (31 pts en 11 m.) | repos 6 j | prochains : Bayern Munich (Coupe d'Allemagne, 3 j), Hannover 96 (2. Bundesliga, 7 j), SV Darmstadt 98 (2. Bundesliga, 14 j)  ||  Karlsruher SC : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 7 j), TSV Eintracht Braunschweig (2. Bundesliga, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9
@@ -3129,7 +3109,7 @@
    "over": "Under 2.5 78%",
    "btts": "BTTS NON 70%",
    "analyse": "2026-11-28 | Buts attendus Holstein Kiel 0.8 - Kaiserslautern 0.8 | 1/N/2 : 31/34/35% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Holstein Kiel 1V · 1N · Kaiserslautern 2V (scores : 2-2, 1-2, 1-4)  ||  Holstein Kiel : 18e/18 (6 pts en 10 m.) | repos 7 j | prochains : FC Cologne (Coupe d'Allemagne, 3 j), Karlsruher SC (2. Bundesliga, 7 j)  ||  Kaiserslautern : 5e/18 (21 pts en 11 m.) | repos 6 j | prochains : SC Freiburg (Coupe d'Allemagne, 4 j), SpVgg Greuther Fürth (2. Bundesliga, 7 j), Arminia Bielefeld (2. Bundesliga, 13 j)",
+   "contexte": "Face-à-face (4 confrontations) : Holstein Kiel 1V · 1N · Kaiserslautern 2V (scores : 2-2, 1-2, 1-4)  ||  Holstein Kiel : 18e/18 (6 pts en 10 m.) | repos 7 j | prochains : FC Cologne (Coupe d'Allemagne, 3 j), Karlsruher SC (2. Bundesliga, 7 j), Hannover 96 (2. Bundesliga, 14 j)  ||  Kaiserslautern : 5e/18 (21 pts en 11 m.) | repos 6 j | prochains : SC Freiburg (Coupe d'Allemagne, 4 j), SpVgg Greuther Fürth (2. Bundesliga, 7 j), Arminia Bielefeld (2. Bundesliga, 13 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9
@@ -3147,7 +3127,7 @@
    "over": "Under 2.5 51%",
    "btts": "BTTS OUI 50%",
    "analyse": "2026-11-28 | Buts attendus Blackburn Rovers 1.6 - Charlton Athletic 1.0 | 1/N/2 : 53/25/23% | base sur 16 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Blackburn Rovers 0V · 1N · Charlton Athletic 1V (scores : 0-3, 2-2) - trop peu pour influer  ||  Blackburn Rovers : 13e/24 (24 pts en 16 m.) | repos 3 j | prochains : Bolton Wanderers (Championship, 7 j), Norwich City (Championship, 10 j)  ||  Charlton Athletic : 15e/24 (20 pts en 17 m.) | repos 4 j | prochains : Birmingham City (Championship, 7 j), Wrexham (Championship, 10 j)",
+   "contexte": "Face-à-face (2 confrontations) : Blackburn Rovers 0V · 1N · Charlton Athletic 1V (scores : 0-3, 2-2) - trop peu pour influer  ||  Blackburn Rovers : 13e/24 (24 pts en 16 m.) | repos 3 j | prochains : Bolton Wanderers (Championship, 7 j), Norwich City (Championship, 10 j), Derby County (Championship, 14 j)  ||  Charlton Athletic : 15e/24 (20 pts en 17 m.) | repos 4 j | prochains : Birmingham City (Championship, 7 j), Wrexham (Championship, 10 j), Swansea City (Championship, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
@@ -3165,7 +3145,7 @@
    "over": "Over 2.5 52%",
    "btts": "BTTS OUI 51%",
    "analyse": "2026-11-28 | Buts attendus Lincoln City 0.9 - Wolverhampton Wanderers 1.8 | 1/N/2 : 20/23/57% | base sur 17 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Lincoln City : 21e/24 (15 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Cardiff City (Championship, 7 j), Stoke City (Championship, 11 j)  ||  Wolverhampton Wanderers : 4e/24 (33 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Southampton (Championship, 7 j), Queens Park Rangers (Championship, 10 j)",
+   "contexte": "Lincoln City : 21e/24 (15 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Cardiff City (Championship, 7 j), Stoke City (Championship, 11 j)  ||  Wolverhampton Wanderers : 4e/24 (33 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Southampton (Championship, 7 j), Queens Park Rangers (Championship, 10 j), Millwall (Championship, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
@@ -3183,7 +3163,7 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 67%",
    "analyse": "2026-11-28 | Buts attendus Preston North End 1.5 - Norwich City 2.0 | 1/N/2 : 28/26/46% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Preston North End 2V · 3N · Norwich City 3V (scores : 3-2, 0-4, 0-0)  ||  Preston North End : 22e/24 (12 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Burnley (Championship, 8 j), Portsmouth (Championship, 11 j)  ||  Norwich City : 11e/24 (25 pts en 17 m.) | repos 4 j | prochains : Wrexham (Championship, 7 j), Blackburn Rovers (Championship, 10 j)",
+   "contexte": "Face-à-face (8 confrontations) : Preston North End 2V · 3N · Norwich City 3V (scores : 3-2, 0-4, 0-0)  ||  Preston North End : 22e/24 (12 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Burnley (Championship, 8 j), Portsmouth (Championship, 11 j), Middlesbrough (Championship, 14 j)  ||  Norwich City : 11e/24 (25 pts en 17 m.) | repos 4 j | prochains : Wrexham (Championship, 7 j), Blackburn Rovers (Championship, 10 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
@@ -3201,7 +3181,7 @@
    "over": "Over 2.5 51%",
    "btts": "BTTS OUI 54%",
    "analyse": "2026-11-28 | Buts attendus Milton Keynes Dons 1.5 - Notts County 1.2 | 1/N/2 : 46/25/29% | base sur 15 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Milton Keynes Dons : 10e/24 (22 pts en 15 m.) | repos 7 j | prochains : Bradford City (League One, 3 j), Wycombe Wanderers (FA Cup, 6 j)  ||  Notts County : 19e/24 (14 pts en 13 m.) | repos 7 j | prochains : AFC Wimbledon (League One, 3 j), Guiseley (FA Cup, 9 j)",
+   "contexte": "Milton Keynes Dons : 10e/24 (22 pts en 15 m.) | repos 7 j | prochains : Bradford City (League One, 3 j), Wycombe Wanderers (FA Cup, 6 j), Cambridge United (League One, 14 j)  ||  Notts County : 19e/24 (14 pts en 13 m.) | repos 7 j | prochains : AFC Wimbledon (League One, 3 j), Guiseley (FA Cup, 9 j), Plymouth Argyle (League One, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
@@ -3219,7 +3199,7 @@
    "over": "Over 2.5 52%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-11-28 | Buts attendus Peterborough United 1.3 - Cambridge United 1.4 | 1/N/2 : 47/20/33% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Peterborough United 5V · 0N · Cambridge United 1V (scores : 1-0 x3, 0-2, 5-0)  ||  Peterborough United : 22e/24 (13 pts en 14 m.) | repos 7 j | prochains : Leyton Orient (League One, 3 j), Oxford United (League One, 7 j)  ||  Cambridge United : 11e/24 (21 pts en 15 m.) | repos 7 j | prochains : Leicester City (League One, 3 j)",
+   "contexte": "Face-à-face (6 confrontations) : Peterborough United 5V · 0N · Cambridge United 1V (scores : 1-0 x3, 0-2, 5-0)  ||  Peterborough United : 22e/24 (13 pts en 14 m.) | repos 7 j | prochains : Leyton Orient (League One, 3 j), Oxford United (League One, 7 j), Barnsley (League One, 14 j)  ||  Cambridge United : 11e/24 (21 pts en 15 m.) | repos 7 j | prochains : Leicester City (League One, 3 j), Milton Keynes Dons (League One, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
@@ -3237,7 +3217,7 @@
    "over": "Under 2.5 52%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-11-28 | Buts attendus Bristol Rovers 1.4 - Tranmere Rovers 1.2 | 1/N/2 : 40/26/34% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Bristol Rovers 1V · 0N · Tranmere Rovers 1V (scores : 1-4, 2-1) - trop peu pour influer  ||  Bristol Rovers : 18e/24 (19 pts en 16 m.) | repos 7 j | prochains : Oldham Athletic (League Two, 3 j), Rotherham United (FA Cup, 7 j)  ||  Tranmere Rovers : 10e/24 (22 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Salford City (League Two, 7 j)",
+   "contexte": "Face-à-face (2 confrontations) : Bristol Rovers 1V · 0N · Tranmere Rovers 1V (scores : 1-4, 2-1) - trop peu pour influer  ||  Bristol Rovers : 18e/24 (19 pts en 16 m.) | repos 7 j | prochains : Oldham Athletic (League Two, 3 j), Rotherham United (FA Cup, 7 j), Accrington Stanley (League Two, 14 j)  ||  Tranmere Rovers : 10e/24 (22 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Salford City (League Two, 7 j), York City (League Two, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
@@ -3255,7 +3235,7 @@
    "over": "Under 2.5 74%",
    "btts": "BTTS NON 72%",
    "analyse": "2026-11-28 | Buts attendus Exeter City 1.2 - Crawley Town 0.5 | 1/N/2 : 55/30/15% | base sur 16 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Exeter City : 8e/24 (23 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Chesterfield (League Two, 3 j), Stevenage (FA Cup, 7 j)  ||  Crawley Town : 23e/24 (13 pts en 14 m.) | repos 4 j | prochains : Port Vale (League Two, 3 j), Walsall (League Two, 7 j)",
+   "contexte": "Exeter City : 8e/24 (23 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Chesterfield (League Two, 3 j), Stevenage (FA Cup, 7 j), Rochdale (League Two, 14 j)  ||  Crawley Town : 23e/24 (13 pts en 14 m.) | repos 4 j | prochains : Port Vale (League Two, 3 j), Walsall (League Two, 7 j), Newport County (League Two, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9
@@ -3273,7 +3253,7 @@
    "over": "Over 2.5 64%",
    "btts": "BTTS OUI 65%",
    "analyse": "2026-11-28 | Buts attendus Las Palmas 2.1 - FC Andorra 1.3 | 1/N/2 : 51/26/23% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Las Palmas 1V · 2N · FC Andorra 1V (scores : 2-0, 0-0, 1-1)  ||  Las Palmas : 9e/22 (23 pts en 15 m.) | repos 6 j | prochains : Albacete (Coupe du Roi, 3 j), Córdoba (La Liga 2, 9 j)  ||  FC Andorra : 21e/22 (11 pts en 14 m.) | repos 8 j | prochains : Ponferradina (Coupe du Roi, 3 j), Real Oviedo (La Liga 2, 7 j), Mallorca (La Liga 2, 11 j)",
+   "contexte": "Face-à-face (4 confrontations) : Las Palmas 1V · 2N · FC Andorra 1V (scores : 2-0, 0-0, 1-1)  ||  Las Palmas : 9e/22 (23 pts en 15 m.) | repos 6 j | prochains : Albacete (Coupe du Roi, 3 j), Córdoba (La Liga 2, 9 j), RC Celta Fortuna (La Liga 2, 14 j)  ||  FC Andorra : 21e/22 (11 pts en 14 m.) | repos 8 j | prochains : Ponferradina (Coupe du Roi, 3 j), Real Oviedo (La Liga 2, 7 j), Mallorca (La Liga 2, 11 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T13:00Z",
    "prio": 9
@@ -3291,7 +3271,7 @@
    "over": "Over 2.5 54%",
    "btts": "BTTS OUI 58%",
    "analyse": "2026-11-28 | Buts attendus Samsunspor 1.4 - Genclerbirligi 1.4 | 1/N/2 : 37/25/38% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Samsunspor 1V · 1N · Genclerbirligi 0V (scores : 2-1, 1-1) - trop peu pour influer  ||  Samsunspor : 17e/18 (7 pts en 12 m.) | repos 7 j | prochains : Besiktas (Super Lig, 8 j)  ||  Genclerbirligi : 13e/18 (14 pts en 12 m.) | repos 7 j | prochains : Eyupspor (Super Lig, 8 j)",
+   "contexte": "Face-à-face (2 confrontations) : Samsunspor 1V · 1N · Genclerbirligi 0V (scores : 2-1, 1-1) - trop peu pour influer  ||  Samsunspor : 17e/18 (7 pts en 12 m.) | repos 7 j | prochains : Besiktas (Super Lig, 8 j), Alanyaspor (Super Lig, 14 j)  ||  Genclerbirligi : 13e/18 (14 pts en 12 m.) | repos 7 j | prochains : Eyupspor (Super Lig, 8 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T13:00Z",
    "prio": 9
@@ -3309,7 +3289,7 @@
    "over": "Under 2.5 58%",
    "btts": "BTTS NON 54%",
    "analyse": "2026-11-28 | Buts attendus Ascoli 1.5 - Virtus Entella 0.9 | 1/N/2 : 50/26/23% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Ascoli : 5e/20 (21 pts en 13 m.) | repos 4 j | prochains : Mantova (Serie B, 7 j), Juve Stabia (Serie B, 10 j)  ||  Virtus Entella : 16e/20 (13 pts en 13 m.) | repos 4 j | prochains : Empoli (Serie B, 8 j), Catanzaro (Serie B, 11 j)",
+   "contexte": "Ascoli : 5e/20 (21 pts en 13 m.) | repos 4 j | prochains : Mantova (Serie B, 7 j), Juve Stabia (Serie B, 10 j), Pisa (Serie B, 14 j)  ||  Virtus Entella : 16e/20 (13 pts en 13 m.) | repos 4 j | prochains : Empoli (Serie B, 8 j), Catanzaro (Serie B, 11 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9
@@ -3327,7 +3307,7 @@
    "over": "Under 2.5 75%",
    "btts": "BTTS NON 65%",
    "analyse": "2026-11-28 | Buts attendus Carrarese 0.9 - Juve Stabia 0.8 | 1/N/2 : 35/36/29% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Carrarese 1V · 2N · Juve Stabia 1V (scores : 0-0, 1-2, 3-0)  ||  Carrarese : 13e/20 (16 pts en 13 m.) | repos 4 j | prochains : Cesena (Serie B, 7 j), Pisa (Serie B, 10 j)  ||  Juve Stabia : 14e/20 (16 pts en 13 m.) | repos 4 j | prochains : Benevento (Serie B, 7 j), Ascoli (Serie B, 10 j)",
+   "contexte": "Face-à-face (4 confrontations) : Carrarese 1V · 2N · Juve Stabia 1V (scores : 0-0, 1-2, 3-0)  ||  Carrarese : 13e/20 (16 pts en 13 m.) | repos 4 j | prochains : Cesena (Serie B, 7 j), Pisa (Serie B, 10 j)  ||  Juve Stabia : 14e/20 (16 pts en 13 m.) | repos 4 j | prochains : Benevento (Serie B, 7 j), Ascoli (Serie B, 10 j), Padova (Serie B, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9
@@ -3363,7 +3343,7 @@
    "over": "Over 2.5 62%",
    "btts": "BTTS NON 50%",
    "analyse": "2026-11-28 | Buts attendus Birmingham City 2.4 - Bolton Wanderers 0.8 | 1/N/2 : 73/17/11% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Birmingham City : 5e/24 (32 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Charlton Athletic (Championship, 7 j), Watford (Championship, 10 j)  ||  Bolton Wanderers : 19e/24 (18 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Blackburn Rovers (Championship, 7 j), Swansea City (Championship, 10 j), Wrexham (Championship, 13 j)",
+   "contexte": "Birmingham City : 5e/24 (32 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Charlton Athletic (Championship, 7 j), Watford (Championship, 10 j), Portsmouth (Championship, 14 j)  ||  Bolton Wanderers : 19e/24 (18 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Blackburn Rovers (Championship, 7 j), Swansea City (Championship, 10 j), Wrexham (Championship, 13 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
@@ -3381,10 +3361,30 @@
    "over": "Under 2.5 61%",
    "btts": "BTTS NON 56%",
    "analyse": "2026-11-28 | Buts attendus Derby County 1.2 - Watford 1.0 | 1/N/2 : 33/24/43% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Derby County 0V · 0N · Watford 4V (scores : 0-2 x2, 1-2, 2-3)  ||  Derby County : 24e/24 (10 pts en 17 m.) | repos 4 j | prochains : Middlesbrough (Championship, 7 j), Bristol City (Championship, 11 j)  ||  Watford : 20e/24 (15 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Millwall (Championship, 7 j), Birmingham City (Championship, 10 j)",
+   "contexte": "Face-à-face (4 confrontations) : Derby County 0V · 0N · Watford 4V (scores : 0-2 x2, 1-2, 2-3)  ||  Derby County : 24e/24 (10 pts en 17 m.) | repos 4 j | prochains : Middlesbrough (Championship, 7 j), Bristol City (Championship, 11 j), Blackburn Rovers (Championship, 14 j)  ||  Watford : 20e/24 (15 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Millwall (Championship, 7 j), Birmingham City (Championship, 10 j), Queens Park Rangers (Championship, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Millonarios",
+   "away": "América de Cali",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (11%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Millonarios 3V · 2N · América de Cali 3V (scores : 2-1 x2, 0-0 x2, 0-1)  ||  Millonarios : repos 3 j | prochains : América de Cali (Liga Colombia, 4 j)  ||  América de Cali : repos 3 j | prochains : Millonarios (Liga Colombia, 4 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T01:40Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "FT"
   },
   {
    "league": "Concacaf W Championship",
@@ -4164,26 +4164,6 @@
    "kickoff": "2026-11-27T17:00Z",
    "prio": 9,
    "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Women's International Friendly",
-   "home": "Ivory Coast",
-   "away": "Senegal",
-   "status": "finished",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T16:00Z",
-   "prio": -1,
-   "live_score": "4-1",
    "minute": "FT"
   }
  ]
