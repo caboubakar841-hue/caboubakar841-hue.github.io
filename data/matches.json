@@ -1,40 +1,40 @@
 {
- "date": "2026-11-28 18:25 UTC",
+ "date": "2026-11-28 18:33 UTC",
  "version": "V17",
- "ts": "2026-11-28T18:25:23.245409+00:00",
+ "ts": "2026-11-28T18:33:39.429610+00:00",
  "stats": {
-  "n": 743,
-  "n_avant": 361,
+  "n": 745,
+  "n_avant": 362,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
   "1x2": 62,
-  "n_fav": 354,
+  "n_fav": 355,
   "serre": 73,
-  "n_serre": 389,
+  "n_serre": 390,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 217,
-  "brier_ctx": 0.592,
-  "brier_base": 0.596,
-  "n_h2h": 180,
-  "brier_h2h": 0.585,
-  "brier_noh2h": 0.589
+  "n_ctx": 218,
+  "brier_ctx": 0.593,
+  "brier_base": 0.597,
+  "n_h2h": 181,
+  "brier_h2h": 0.586,
+  "brier_noh2h": 0.591
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 25, gua.1 6, fra.1 4, usa.1 4, bel.1 3, bol.1 3, ecu.1 3, esp.1 2, esp.2 2, ita.1 2, ned.1 2, por.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 24, gua.1 6, fra.1 4, usa.1 4, bel.1 3, bol.1 3, esp.1 2, esp.2 2, ita.1 2, ned.1 2, por.1 2, ecu.1 2",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 154",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 96",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 95",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 3,
    "live_score": "1-2",
-   "minute": "65'"
+   "minute": "74'"
   },
   {
    "league": "Bundesliga",
@@ -2707,6 +2707,26 @@
    "minute": "HT"
   },
   {
+   "league": "Serie B",
+   "home": "Palermo",
+   "away": "Benevento",
+   "status": "live",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 64%",
+   "analyse": "2026-11-28 | Buts attendus Palermo 1.9 - Benevento 1.4 | 1/N/2 : 50/22/28% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Palermo 1V · 1N · Benevento 0V (scores : 1-0, 1-1) - trop peu pour influer  ||  Palermo : 1e/20 (30 pts en 13 m.) | repos 4 j | prochains : Hellas Verona (Serie B, 8 j), Cremonese (Serie B, 11 j), Cesena (Serie B, 14 j)  ||  Benevento : 8e/20 (19 pts en 13 m.) | repos 4 j | prochains : Juve Stabia (Serie B, 7 j), Padova (Serie B, 10 j), Mantova (Serie B, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T18:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "2'"
+  },
+  {
    "league": "Eredivisie",
    "home": "PSV Eindhoven",
    "away": "Go Ahead Eagles",
@@ -2724,7 +2744,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "Liga Portugal",
@@ -2744,7 +2764,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "20'"
+   "minute": "29'"
   },
   {
    "league": "Pro League",
@@ -2764,7 +2784,7 @@
    "kickoff": "2026-11-28T17:15Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "48'"
+   "minute": "57'"
   },
   {
    "league": "Scottish Premiership",
@@ -2783,8 +2803,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "40'"
+   "live_score": "2-0",
+   "minute": "45'+3'"
   },
   {
    "league": "Super League (GRE)",
@@ -2804,7 +2824,27 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "24'"
+   "minute": "32'"
+  },
+  {
+   "league": "Bundesliga (AUT)",
+   "home": "Austria Lustenau",
+   "away": "Rapid Vienna",
+   "status": "live",
+   "conf": 70,
+   "victoire": "Victoire Rapid Vienna",
+   "score_exact": "1-3 (7%) · 1-2 (7%)",
+   "double_chance": "X2 92%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 66%",
+   "analyse": "2026-11-28 | Buts attendus Austria Lustenau 1.1 - Rapid Vienna 3.1 | 1/N/2 : 8/22/70% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Austria Lustenau 0V · 3N · Rapid Vienna 2V (scores : 1-1 x2, 3-3, 0-5)  ||  Austria Lustenau : 9e/12 (13 pts en 11 m.) | repos 7 j | prochains : Wolfsberger (Bundesliga (AUT), 8 j), TSV Hartberg (Bundesliga (AUT), 13 j)  ||  Rapid Vienna : 1e/12 (30 pts en 11 m.) | repos 7 j | prochains : LASK Linz (Bundesliga (AUT), 7 j), SV Josko Ried (Bundesliga (AUT), 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T18:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "2'"
   },
   {
    "league": "MLS",
@@ -2824,27 +2864,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "45'"
-  },
-  {
-   "league": "Liga Equateur",
-   "home": "Universidad Católica (Quito)",
-   "away": "Independiente del Valle",
-   "status": "live",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-28 | Buts attendus Universidad Católica (Quito) 1.5 - Independiente del Valle 1.3 | 1/N/2 : 33/28/38% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Universidad Católica (Quito) 1V · 3N · Independiente del Valle 4V (scores : 2-5, 1-1, 0-3)  ||  Universidad Católica (Quito) : repos 7 j | prochains : Aucas (Liga Equateur, 8 j)  ||  Independiente del Valle : repos 3 j | prochains : Liga de Quito (Liga Equateur, 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T16:30Z",
-   "prio": 12,
-   "live_score": "1-1",
-   "minute": "90'+3'"
+   "minute": "HT"
   },
   {
    "league": "Concacaf W Championship",
@@ -2864,7 +2884,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 13,
    "live_score": "1-0",
-   "minute": "25'"
+   "minute": "33'"
   },
   {
    "league": "Women's International Friendly",
@@ -2884,27 +2904,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 13,
    "live_score": "2-0",
-   "minute": "65'"
-  },
-  {
-   "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
-   "home": "Uzbekistan",
-   "away": "Papua New Guinea",
-   "status": "live",
-   "conf": 59,
-   "victoire": "Victoire Uzbekistan",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-11-28 | Buts attendus Uzbekistan 2.1 - Papua New Guinea 1.2 | 1/N/2 : 59/20/21% | base sur 5 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Uzbekistan : repos 11 j  ||  Papua New Guinea : repos 60 j",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T16:30Z",
-   "prio": 13,
-   "live_score": "3-0",
-   "minute": "90'+4'"
+   "minute": "74'"
   },
   {
    "league": "Saudi Pro League",
@@ -3051,42 +3051,6 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Serie B",
-   "home": "Palermo",
-   "away": "Benevento",
-   "status": "today",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "2026-11-28 | Buts attendus Palermo 1.9 - Benevento 1.4 | 1/N/2 : 50/22/28% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Palermo 1V · 1N · Benevento 0V (scores : 1-0, 1-1) - trop peu pour influer  ||  Palermo : 1e/20 (30 pts en 13 m.) | repos 4 j | prochains : Hellas Verona (Serie B, 8 j), Cremonese (Serie B, 11 j), Cesena (Serie B, 14 j)  ||  Benevento : 8e/20 (19 pts en 13 m.) | repos 4 j | prochains : Juve Stabia (Serie B, 7 j), Padova (Serie B, 10 j), Mantova (Serie B, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T18:30Z",
-   "prio": 9
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Austria Lustenau",
-   "away": "Rapid Vienna",
-   "status": "today",
-   "conf": 70,
-   "victoire": "Victoire Rapid Vienna",
-   "score_exact": "1-3 (7%) · 1-2 (7%)",
-   "double_chance": "X2 92%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "2026-11-28 | Buts attendus Austria Lustenau 1.1 - Rapid Vienna 3.1 | 1/N/2 : 8/22/70% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Austria Lustenau 0V · 3N · Rapid Vienna 2V (scores : 1-1 x2, 3-3, 0-5)  ||  Austria Lustenau : 9e/12 (13 pts en 11 m.) | repos 7 j | prochains : Wolfsberger (Bundesliga (AUT), 8 j), TSV Hartberg (Bundesliga (AUT), 13 j)  ||  Rapid Vienna : 1e/12 (30 pts en 11 m.) | repos 7 j | prochains : LASK Linz (Bundesliga (AUT), 7 j), SV Josko Ried (Bundesliga (AUT), 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T18:30Z",
-   "prio": 9
   },
   {
    "league": "2. Bundesliga",
@@ -3645,6 +3609,82 @@
    "day": "2026-11-29",
    "kickoff": "2026-11-29T11:30Z",
    "prio": 3
+  },
+  {
+   "league": "Premier League",
+   "home": "Everton",
+   "away": "Liverpool",
+   "status": "today",
+   "conf": 76,
+   "victoire": "Serré : Nul ou Liverpool",
+   "score_exact": "0-1 (16%) · 0-0 (11%)",
+   "double_chance": "X2 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 58%",
+   "analyse": "2026-11-29 | Buts attendus Everton 0.9 - Liverpool 1.2 | 1/N/2 : 24/28/48% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Everton 1V · 2N · Liverpool 5V (scores : 0-2 x2, 1-2 x2, 0-0)  ||  Everton : 9e/20 (16 pts en 11 m.) | repos 6 j | prochains : Aston Villa (Premier League, 3 j), Fulham (Premier League, 7 j)  ||  Liverpool : repos 2 j | prochains : Sunderland (Premier League, 3 j), Peñarol (Liga Uruguay, 4 j), Chelsea (Premier League, 6 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T12:00Z",
+   "prio": 3
+  },
+  {
+   "league": "La Liga",
+   "home": "Valencia",
+   "away": "Osasuna",
+   "status": "today",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (14%) · 0-1 (10%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 55%",
+   "analyse": "2026-11-29 | Buts attendus Valencia 1.3 - Osasuna 1.0 | 1/N/2 : 45/27/28% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Valencia 4V · 2N · Osasuna 2V (scores : 1-0 x3, 2-1, 1-2)  ||  Valencia : 17e/20 (12 pts en 13 m.) | repos 8 j | prochains : Real Jaen CF (Coupe du Roi, 4 j), Getafe (La Liga, 7 j)  ||  Osasuna : 14e/20 (15 pts en 13 m.) | repos 7 j | prochains : Amorebieta (Coupe du Roi, 4 j), Elche (La Liga, 7 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T13:00Z",
+   "prio": 3
+  },
+  {
+   "league": "Liga Equateur",
+   "home": "Universidad Católica (Quito)",
+   "away": "Independiente del Valle",
+   "status": "finished",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Universidad Católica (Quito) 1V · 3N · Independiente del Valle 4V (scores : 2-5, 1-1, 0-3)  ||  Universidad Católica (Quito) : repos 7 j | prochains : Aucas (Liga Equateur, 8 j)  ||  Independiente del Valle : repos 3 j | prochains : Liga de Quito (Liga Equateur, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:30Z",
+   "prio": 12,
+   "live_score": "1-1",
+   "minute": "FT"
+  },
+  {
+   "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
+   "home": "Uzbekistan",
+   "away": "Papua New Guinea",
+   "status": "finished",
+   "conf": 59,
+   "victoire": "Victoire Uzbekistan",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:30Z",
+   "prio": 13,
+   "live_score": "3-0",
+   "minute": "FT"
   },
   {
    "league": "Serie B",
@@ -4404,46 +4444,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Pro League",
-   "home": "KVC Westerlo",
-   "away": "RAAL La Louvière",
-   "status": "finished",
-   "conf": 70,
-   "victoire": "Victoire KVC Westerlo",
-   "score_exact": "3-1 (8%) · 2-1 (7%)",
-   "double_chance": "12 85%",
-   "corner": "N/D",
-   "over": "Over 2.5 84%",
-   "btts": "BTTS OUI 73%",
-   "analyse": "Resultat 0-2 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : KVC Westerlo 1V · 1N · RAAL La Louvière 0V (scores : 0-0, 2-1) - trop peu pour influer  ||  KVC Westerlo : 9e/18 (14 pts en 11 m.) | repos 8 j  ||  RAAL La Louvière : 17e/18 (7 pts en 11 m.) | repos 7 j | prochains : Antwerp (Pro League, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "0-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Scottish Premiership",
-   "home": "Aberdeen",
-   "away": "Dundee",
-   "status": "finished",
-   "conf": 84,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (10%) · 1-2 (8%)",
-   "double_chance": "12 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 67%",
-   "btts": "BTTS OUI 64%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Aberdeen 5V · 0N · Dundee 3V (scores : 2-1 x2, 2-3 x2, 4-1)  ||  Aberdeen : 8e/12 (11 pts en 12 m.) | repos 4 j | prochains : Heart of Midlothian (Scottish Premiership, 4 j), Dundee United (Scottish Premiership, 7 j), Falkirk (Scottish Premiership, 14 j)  ||  Dundee : 7e/12 (14 pts en 12 m.) | repos 4 j | prochains : Celtic (Scottish Premiership, 4 j), Falkirk (Scottish Premiership, 7 j), Kilmarnock (Scottish Premiership, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "2-0",
    "minute": "FT"
   }
  ]
