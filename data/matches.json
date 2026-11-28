@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 19:06 UTC",
+ "date": "2026-11-28 19:15 UTC",
  "version": "V17",
- "ts": "2026-11-28T19:06:49.653385+00:00",
+ "ts": "2026-11-28T19:15:09.595461+00:00",
  "stats": {
-  "n": 748,
-  "n_avant": 363,
+  "n": 749,
+  "n_avant": 364,
   "dc": 79,
   "over": 54,
   "btts": 55,
@@ -12,20 +12,20 @@
   "1x2": 62,
   "n_fav": 357,
   "serre": 73,
-  "n_serre": 391,
+  "n_serre": 392,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 219,
-  "brier_ctx": 0.592,
-  "brier_base": 0.595,
-  "n_h2h": 182,
-  "brier_h2h": 0.585,
-  "brier_noh2h": 0.589
+  "n_ctx": 220,
+  "brier_ctx": 0.591,
+  "brier_base": 0.594,
+  "n_h2h": 183,
+  "brier_h2h": 0.584,
+  "brier_noh2h": 0.588
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 20, gua.1 6, fra.1 4, usa.1 4, bel.1 3, bol.1 3, esp.1 2, esp.2 2, ned.1 2, por.1 2, ecu.1 2, chi.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 17, gua.1 6, fra.1 4, usa.1 4, bol.1 3, esp.1 2, esp.2 2, ned.1 2, por.1 2, bel.1 2, ecu.1 2, chi.1 2",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 155",
   "Matchs africains affichés (à venir / live) : 1",
@@ -2623,8 +2623,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:00Z",
    "prio": -1,
-   "live_score": "0-1",
-   "minute": "6'"
+   "live_score": "1-1",
+   "minute": "14'"
   },
   {
    "league": "Premier League",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-2",
-   "minute": "78'"
+   "minute": "87'"
   },
   {
    "league": "La Liga",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-3",
-   "minute": "76'"
+   "minute": "85'"
   },
   {
    "league": "Bundesliga",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-2",
-   "minute": "75'"
+   "minute": "84'"
   },
   {
    "league": "La Liga 2",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "78'"
+   "minute": "86'"
   },
   {
    "league": "Serie B",
@@ -2723,8 +2723,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
-   "live_score": "2-0",
-   "minute": "35'"
+   "live_score": "3-0",
+   "minute": "43'"
   },
   {
    "league": "Eredivisie",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "64'"
+   "minute": "73'"
   },
   {
    "league": "Liga Portugal",
@@ -2764,27 +2764,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
-  },
-  {
-   "league": "Pro League",
-   "home": "Cercle Brugge KSV",
-   "away": "KV Mechelen",
-   "status": "live",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (7%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "2026-11-28 | Buts attendus Cercle Brugge KSV 1.8 - KV Mechelen 1.2 | 1/N/2 : 44/27/28% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Cercle Brugge KSV 2V · 3N · KV Mechelen 3V (scores : 0-0 x2, 2-3 x2, 1-1)  ||  Cercle Brugge KSV : 14e/18 (10 pts en 10 m.) | repos 8 j | prochains : Waasland-Beveren (Pro League, 14 j)  ||  KV Mechelen : 12e/18 (12 pts en 11 m.) | repos 7 j",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:15Z",
-   "prio": 9,
-   "live_score": "3-1",
-   "minute": "90'"
+   "minute": "50'"
   },
   {
    "league": "Scottish Premiership",
@@ -2804,7 +2784,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "64'"
+   "minute": "72'"
   },
   {
    "league": "Super League (GRE)",
@@ -2824,7 +2804,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "46'"
+   "minute": "54'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2844,7 +2824,7 @@
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "35'"
+   "minute": "43'"
   },
   {
    "league": "MLS",
@@ -2864,7 +2844,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "67'"
+   "minute": "75'"
   },
   {
    "league": "Liga Bolivie",
@@ -2883,8 +2863,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "6'"
+   "live_score": "1-1",
+   "minute": "14'"
   },
   {
    "league": "Liga Equateur",
@@ -2904,7 +2884,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2924,7 +2904,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 13,
    "live_score": "2-0",
-   "minute": "HT"
+   "minute": "53'"
   },
   {
    "league": "Saudi Pro League",
@@ -2944,7 +2924,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 13,
    "live_score": "2-1",
-   "minute": "76'"
+   "minute": "84'"
   },
   {
    "league": "Serie A",
@@ -3121,7 +3101,7 @@
    "over": "Over 2.5 71%",
    "btts": "BTTS OUI 60%",
    "analyse": "2026-11-28 | Buts attendus Royal Charleroi SC 2.7 - Waasland-Beveren 1.0 | 1/N/2 : 72/16/12% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Royal Charleroi SC : 4e/18 (25 pts en 11 m.) | repos 7 j  ||  Waasland-Beveren : 11e/18 (13 pts en 11 m.) | repos 6 j | prochains : Cercle Brugge KSV (Pro League, 14 j)",
+   "contexte": "Royal Charleroi SC : 4e/18 (25 pts en 11 m.) | repos 7 j  ||  Waasland-Beveren : 12e/18 (13 pts en 11 m.) | repos 6 j | prochains : Cercle Brugge KSV (Pro League, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 9
@@ -3665,6 +3645,26 @@
    "day": "2026-11-29",
    "kickoff": "2026-11-29T14:05Z",
    "prio": 3
+  },
+  {
+   "league": "Pro League",
+   "home": "Cercle Brugge KSV",
+   "away": "KV Mechelen",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (7%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Cercle Brugge KSV 2V · 3N · KV Mechelen 3V (scores : 0-0 x2, 2-3 x2, 1-1)  ||  Cercle Brugge KSV : 14e/18 (10 pts en 10 m.) | repos 8 j | prochains : Waasland-Beveren (Pro League, 14 j)  ||  KV Mechelen : 12e/18 (12 pts en 11 m.) | repos 7 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:15Z",
+   "prio": 9,
+   "live_score": "3-1",
+   "minute": "FT"
   },
   {
    "league": "Serie A",
@@ -4444,26 +4444,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "5-0",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Salford City",
-   "away": "Gillingham",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Salford City",
-   "score_exact": "2-1 (8%) · 3-1 (6%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 58%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "Resultat 1-2 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Salford City 2V · 2N · Gillingham 4V (scores : 0-1 x2, 3-0, 1-3)  ||  Salford City : 1e/24 (33 pts en 16 m.) | repos 7 j | prochains : Tranmere Rovers (League Two, 7 j), Colchester United (League Two, 14 j)  ||  Gillingham : 11e/24 (21 pts en 16 m.) | repos 7 j | prochains : Swindon Town (League Two, 3 j), Oldham Athletic (League Two, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "1-2",
    "minute": "FT"
   }
  ]
