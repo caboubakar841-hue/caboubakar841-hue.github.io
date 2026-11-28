@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 15:05 UTC",
+ "date": "2026-11-28 15:14 UTC",
  "version": "V17",
- "ts": "2026-11-28T15:05:59.377732+00:00",
+ "ts": "2026-11-28T15:14:21.956449+00:00",
  "stats": {
   "n": 689,
   "n_avant": 308,
@@ -25,16 +25,16 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 31, eng.4 10, eng.3 9, eng.2 7, gua.1 6, ita.2 5, ger.1 5, fra.1 5, sco.1 5, esp.2 4, por.1 4, bel.1 4",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 30, eng.4 10, eng.3 9, eng.2 7, gua.1 6, ita.2 5, ger.1 5, fra.1 5, sco.1 5, esp.2 4, por.1 4, bel.1 4",
   "Matchs ignorés car illisibles : 0",
-  "Matchs sans données masqués (remplacés par d'autres) : 156",
+  "Matchs sans données masqués (remplacés par d'autres) : 140",
   "Matchs africains affichés (à venir / live) : 2",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 134",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 117",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 6 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": -1,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "54'"
   },
   {
    "league": "Premier League",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "Premier League",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "Serie A",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "46'"
+   "minute": "56'"
   },
   {
    "league": "Bundesliga",
@@ -2703,8 +2703,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
-   "live_score": "2-0",
-   "minute": "35'"
+   "live_score": "3-0",
+   "minute": "44'"
   },
   {
    "league": "Bundesliga",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "35'"
+   "minute": "44'"
   },
   {
    "league": "Bundesliga",
@@ -2743,8 +2743,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "35'"
+   "live_score": "0-1",
+   "minute": "44'"
   },
   {
    "league": "Bundesliga",
@@ -2763,8 +2763,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
-   "live_score": "1-0",
-   "minute": "35'"
+   "live_score": "2-0",
+   "minute": "44'"
   },
   {
    "league": "Championship",
@@ -2783,8 +2783,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "1-0",
+   "minute": "14'"
   },
   {
    "league": "Championship",
@@ -2804,7 +2804,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "Championship",
@@ -2824,7 +2824,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "Championship",
@@ -2844,7 +2844,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "Championship",
@@ -2864,7 +2864,27 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
+  },
+  {
+   "league": "Championship",
+   "home": "West Ham United",
+   "away": "Stoke City",
+   "status": "live",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-28 | Buts attendus West Ham United 1.9 - Stoke City 1.5 | 1/N/2 : 47/22/30% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "West Ham United : 13e/24 (24 pts en 17 m.) | repos 4 j | prochains : Sheffield United (Championship, 6 j), Middlesbrough (Championship, 10 j), Bristol City (Championship, 14 j)  ||  Stoke City : 3e/24 (35 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Queens Park Rangers (Championship, 7 j), Lincoln City (Championship, 11 j), West Bromwich Albion (Championship, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "Championship",
@@ -2883,8 +2903,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "4'"
+   "live_score": "1-0",
+   "minute": "14'"
   },
   {
    "league": "League One",
@@ -2904,7 +2924,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "League One",
@@ -2924,7 +2944,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "13'"
   },
   {
    "league": "League One",
@@ -2944,7 +2964,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "14'"
   },
   {
    "league": "League One",
@@ -2964,7 +2984,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "13'"
   },
   {
    "league": "League One",
@@ -2984,7 +3004,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "League One",
@@ -3004,7 +3024,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "15'"
   },
   {
    "league": "League One",
@@ -3024,7 +3044,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "15'"
   },
   {
    "league": "League One",
@@ -3044,7 +3064,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "15'"
   },
   {
    "league": "League One",
@@ -3063,8 +3083,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "5'"
+   "live_score": "1-1",
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3083,8 +3103,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "1-0",
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3104,7 +3124,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3124,7 +3144,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3144,7 +3164,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "13'"
   },
   {
    "league": "League Two",
@@ -3164,7 +3184,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3184,7 +3204,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "15'"
   },
   {
    "league": "League Two",
@@ -3203,8 +3223,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "0-1",
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3224,7 +3244,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3243,8 +3263,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "0-1",
+   "minute": "14'"
   },
   {
    "league": "League Two",
@@ -3263,8 +3283,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "5'"
+   "live_score": "1-0",
+   "minute": "14'"
   },
   {
    "league": "Serie B",
@@ -3284,7 +3304,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "53'"
   },
   {
    "league": "Serie B",
@@ -3303,8 +3323,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "46'"
+   "live_score": "2-0",
+   "minute": "56'"
   },
   {
    "league": "Serie B",
@@ -3324,7 +3344,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "46'"
+   "minute": "55'"
   },
   {
    "league": "Pro League",
@@ -3344,7 +3364,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "3'"
+   "minute": "13'"
   },
   {
    "league": "Scottish Premiership",
@@ -3364,7 +3384,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "16'"
   },
   {
    "league": "Scottish Premiership",
@@ -3383,8 +3403,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "3'"
+   "live_score": "1-0",
+   "minute": "12'"
   },
   {
    "league": "Scottish Premiership",
@@ -3404,7 +3424,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "3'"
+   "minute": "12'"
   },
   {
    "league": "Scottish Premiership",
@@ -3424,7 +3444,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "13'"
   },
   {
    "league": "Super League (GRE)",
@@ -3444,7 +3464,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "11'"
   },
   {
    "league": "Super League (GRE)",
@@ -3464,7 +3484,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "13'"
   },
   {
    "league": "Saudi Pro League",
@@ -3484,7 +3504,7 @@
    "kickoff": "2026-11-28T14:20Z",
    "prio": 13,
    "live_score": "1-1",
-   "minute": "44'"
+   "minute": "HT"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3719,24 +3739,6 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Championship",
-   "home": "West Ham United",
-   "away": "Stoke City",
-   "status": "today",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-28 | Buts attendus West Ham United 1.9 - Stoke City 1.5 | 1/N/2 : 47/22/30% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "West Ham United : 13e/24 (24 pts en 17 m.) | repos 4 j | prochains : Sheffield United (Championship, 6 j), Middlesbrough (Championship, 10 j), Bristol City (Championship, 14 j)  ||  Stoke City : 3e/24 (35 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Queens Park Rangers (Championship, 7 j), Lincoln City (Championship, 11 j), West Bromwich Albion (Championship, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9
   },
   {
    "league": "La Liga 2",
@@ -4202,6 +4204,24 @@
    "btts": "BTTS OUI 55%",
    "analyse": "2026-11-28 | Buts attendus Antigua GFC 2.0 - Deportivo Mixco 1.0 | 1/N/2 : 55/18/27% | base sur 19 et 18 matchs joues | modele Poisson, aucun aleatoire",
    "contexte": "Face-à-face (8 confrontations) : Antigua GFC 3V · 1N · Deportivo Mixco 4V (scores : 1-2 x3, 3-0, 1-1)  ||  Antigua GFC : repos 6 j  ||  Deportivo Mixco : repos 7 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T21:00Z",
+   "prio": 9
+  },
+  {
+   "league": "Guatemalan Liga Nacional",
+   "home": "Aurora FC",
+   "away": "Cobán Imperial",
+   "status": "today",
+   "conf": 51,
+   "victoire": "Victoire Aurora FC",
+   "score_exact": "2-1 (9%) · 3-1 (6%)",
+   "double_chance": "1X 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "2026-11-28 | Buts attendus Aurora FC 2.1 - Cobán Imperial 1.2 | 1/N/2 : 51/25/25% | base sur 18 et 19 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Aurora FC 1V · 2N · Cobán Imperial 2V (scores : 1-1, 0-2, 1-0)  ||  Aurora FC : repos 3 j  ||  Cobán Imperial : repos 6 j",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T21:00Z",
    "prio": 9
