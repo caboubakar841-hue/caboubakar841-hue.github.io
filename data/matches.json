@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 17:02 UTC",
+ "date": "2026-11-28 17:10 UTC",
  "version": "V17",
- "ts": "2026-11-28T17:02:39.528832+00:00",
+ "ts": "2026-11-28T17:10:56.344423+00:00",
  "stats": {
-  "n": 732,
-  "n_avant": 350,
+  "n": 734,
+  "n_avant": 352,
   "dc": 79,
   "over": 54,
   "btts": 55,
@@ -12,20 +12,20 @@
   "1x2": 61,
   "n_fav": 348,
   "serre": 73,
-  "n_serre": 384,
+  "n_serre": 386,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 210,
-  "brier_ctx": 0.596,
-  "brier_base": 0.599,
-  "n_h2h": 175,
+  "n_ctx": 212,
+  "brier_ctx": 0.595,
+  "brier_base": 0.598,
+  "n_h2h": 176,
   "brier_h2h": 0.59,
   "brier_noh2h": 0.593
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 28, gua.1 6, fra.1 5, esp.2 4, por.1 4, usa.1 4, esp.1 3, ned.1 3, bel.1 3, bol.1 3, ecu.1 3, ita.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 28, gua.1 6, fra.1 5, por.1 4, usa.1 4, esp.1 3, esp.2 3, ned.1 3, bel.1 3, bol.1 3, ecu.1 3, ita.1 2",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 154",
   "Matchs africains affichés (à venir / live) : 1",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 3,
    "live_score": "3-4",
-   "minute": "86'"
+   "minute": "90'+4'"
   },
   {
    "league": "Serie A",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "9'"
   },
   {
    "league": "Ligue 1",
@@ -2664,47 +2664,7 @@
    "kickoff": "2026-11-28T16:15Z",
    "prio": 3,
    "live_score": "1-1",
-   "minute": "45'+3'"
-  },
-  {
-   "league": "Championship",
-   "home": "West Ham United",
-   "away": "Stoke City",
-   "status": "live",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "2026-11-28 | Buts attendus West Ham United 1.9 - Stoke City 1.5 | 1/N/2 : 47/22/30% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "West Ham United : 13e/24 (24 pts en 17 m.) | repos 4 j | prochains : Sheffield United (Championship, 6 j), Middlesbrough (Championship, 10 j), Bristol City (Championship, 14 j)  ||  Stoke City : 3e/24 (35 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Queens Park Rangers (Championship, 7 j), Lincoln City (Championship, 11 j), West Bromwich Albion (Championship, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "90'+5'"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Albacete",
-   "away": "Tenerife",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (11%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-28 | Buts attendus Albacete 1.1 - Tenerife 1.2 | 1/N/2 : 35/26/40% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Albacete 2V · 1N · Tenerife 3V (scores : 1-1, 0-1, 0-2)  ||  Albacete : 20e/22 (13 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 6 j | prochains : Las Palmas (Coupe du Roi, 3 j), Ceuta (La Liga 2, 8 j), Almería (La Liga 2, 13 j)  ||  Tenerife : 14e/22 (19 pts en 14 m.) | repos 7 j | prochains : Eldense (Coupe du Roi, 4 j), Eldense (La Liga 2, 7 j), Granada (La Liga 2, 11 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:15Z",
-   "prio": 9,
-   "live_score": "4-0",
-   "minute": "89'"
+   "minute": "HT"
   },
   {
    "league": "La Liga 2",
@@ -2723,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
-   "live_score": "3-1",
-   "minute": "83'"
+   "live_score": "3-2",
+   "minute": "90'+1'"
   },
   {
    "league": "Serie B",
@@ -2763,8 +2723,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "73'"
+   "live_score": "1-0",
+   "minute": "81'"
   },
   {
    "league": "Liga Portugal",
@@ -2784,7 +2744,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "73'"
+   "minute": "81'"
   },
   {
    "league": "Liga Portugal",
@@ -2804,7 +2764,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "75'"
+   "minute": "83'"
   },
   {
    "league": "Super Lig",
@@ -2823,8 +2783,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "46'"
+   "live_score": "0-2",
+   "minute": "55'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2844,7 +2804,7 @@
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "46'"
+   "minute": "55'"
   },
   {
    "league": "Liga Equateur",
@@ -2864,7 +2824,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "32'"
+   "minute": "41'"
   },
   {
    "league": "Women's International Friendly",
@@ -2883,8 +2843,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:00Z",
    "prio": 13,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "1-0",
+   "minute": "10'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -2904,7 +2864,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "40'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3333,7 +3293,7 @@
    "over": "Over 2.5 66%",
    "btts": "BTTS OUI 62%",
    "analyse": "2026-11-28 | Buts attendus Real Valladolid 2.2 - Real Sociedad II 1.2 | 1/N/2 : 61/20/19% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Real Valladolid 1V · 0N · Real Sociedad II 1V (scores : 0-1, 1-0) - trop peu pour influer  ||  Real Valladolid : 13e/22 (19 pts en 15 m.) | repos 6 j | prochains : Zamora CF (Coupe du Roi, 4 j), Girona (La Liga 2, 8 j)  ||  Real Sociedad II : 19e/22 (13 pts en 14 m.) | repos 7 j | prochains : Leganés (La Liga 2, 7 j), Real Oviedo (La Liga 2, 14 j)",
+   "contexte": "Face-à-face (2 confrontations) : Real Valladolid 1V · 0N · Real Sociedad II 1V (scores : 0-1, 1-0) - trop peu pour influer  ||  Real Valladolid : 13e/22 (19 pts en 15 m.) | repos 6 j | prochains : Zamora CF (Coupe du Roi, 4 j), Girona (La Liga 2, 8 j)  ||  Real Sociedad II : 20e/22 (13 pts en 14 m.) | repos 7 j | prochains : Leganés (La Liga 2, 7 j), Real Oviedo (La Liga 2, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 9
@@ -3627,6 +3587,26 @@
    "prio": 12
   },
   {
+   "league": "La Liga 2",
+   "home": "Albacete",
+   "away": "Tenerife",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (13%) · 1-0 (11%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (6 confrontations) : Albacete 2V · 1N · Tenerife 3V (scores : 1-1, 0-1, 0-2)  ||  Albacete : 20e/22 (13 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 6 j | prochains : Las Palmas (Coupe du Roi, 3 j), Ceuta (La Liga 2, 8 j), Almería (La Liga 2, 13 j)  ||  Tenerife : 14e/22 (19 pts en 14 m.) | repos 7 j | prochains : Eldense (Coupe du Roi, 4 j), Eldense (La Liga 2, 7 j), Granada (La Liga 2, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:15Z",
+   "prio": 9,
+   "live_score": "4-0",
+   "minute": "FT"
+  },
+  {
    "league": "Premier League",
    "home": "Leeds United",
    "away": "Coventry City",
@@ -3760,6 +3740,26 @@
    "btts": "BTTS NON 55%",
    "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
    "contexte": "Face-à-face (8 confrontations) : West Bromwich Albion 4V · 1N · Bristol City 3V (scores : 2-0 x3, 1-2 x2, 0-2)  ||  West Bromwich Albion : 6e/24 (32 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Portsmouth (Championship, 7 j), Cardiff City (Championship, 10 j), Stoke City (Championship, 14 j)  ||  Bristol City : 16e/24 (19 pts en 17 m.) | repos 4 j | prochains : Swansea City (Championship, 7 j), Derby County (Championship, 11 j), West Ham United (Championship, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:00Z",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Championship",
+   "home": "West Ham United",
+   "away": "Stoke City",
+   "status": "finished",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (7%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "West Ham United : 13e/24 (24 pts en 17 m.) | repos 4 j | prochains : Sheffield United (Championship, 6 j), Middlesbrough (Championship, 10 j), Bristol City (Championship, 14 j)  ||  Stoke City : 3e/24 (35 pts en 17 m.) | enjeu fort (proche d'une zone cle) | repos 3 j | prochains : Queens Park Rangers (Championship, 7 j), Lincoln City (Championship, 11 j), West Bromwich Albion (Championship, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
@@ -4384,46 +4384,6 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "8-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Saudi Pro League",
-   "home": "Al Ettifaq",
-   "away": "Al Hilal",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 1-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Peu ou pas de données pour : Al Ettifaq (estimation neutre, très incertaine). Al Ettifaq  ||  Al Hilal : repos 5 j | prochains : Al Ain (AFC Champions League, 9 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:20Z",
-   "prio": 13,
-   "live_score": "1-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Serie A",
-   "home": "Frosinone",
-   "away": "Parma",
-   "status": "finished",
-   "conf": 62,
-   "victoire": "Victoire Frosinone",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Frosinone : 7e/20 (20 pts en 12 m.) | repos 6 j | prochains : Internazionale (Serie A, 7 j), Udinese (Serie A, 13 j)  ||  Parma : 17e/20 (8 pts en 12 m.) | repos 7 j | prochains : AC Milan (Serie A, 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:00Z",
-   "prio": 3,
-   "live_score": "3-0",
    "minute": "FT"
   }
  ]
