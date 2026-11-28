@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 16:29 UTC",
+ "date": "2026-11-28 16:37 UTC",
  "version": "V17",
- "ts": "2026-11-28T16:29:28.839822+00:00",
+ "ts": "2026-11-28T16:37:44.209350+00:00",
  "stats": {
   "n": 698,
   "n_avant": 316,
@@ -25,16 +25,16 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 30, eng.4 10, eng.3 9, eng.2 7, gua.1 6, fra.1 5, sco.1 5, esp.2 4, por.1 4, bel.1 4, usa.1 4, eng.1 3",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 29, eng.4 10, eng.3 9, eng.2 7, gua.1 6, fra.1 5, sco.1 5, esp.2 4, por.1 4, bel.1 4, usa.1 4, eng.1 3",
   "Matchs ignorés car illisibles : 0",
-  "Matchs sans données masqués (remplacés par d'autres) : 153",
+  "Matchs sans données masqués (remplacés par d'autres) : 154",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 127",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 128",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "3-0",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "Premier League",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "0-2",
-   "minute": "71'"
+   "minute": "79'"
   },
   {
    "league": "La Liga",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 3,
    "live_score": "2-4",
-   "minute": "53'"
+   "minute": "61'"
   },
   {
    "league": "Ligue 1",
@@ -2683,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:15Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "14'"
+   "live_score": "1-0",
+   "minute": "22'"
   },
   {
    "league": "Championship",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-2",
-   "minute": "69'"
+   "minute": "77'"
   },
   {
    "league": "Championship",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "70'"
+   "minute": "78'"
   },
   {
    "league": "Championship",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "73'"
+   "minute": "81'"
   },
   {
    "league": "Championship",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "71'"
+   "minute": "80'"
   },
   {
    "league": "Championship",
@@ -2784,7 +2784,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "68'"
+   "minute": "77'"
   },
   {
    "league": "Championship",
@@ -2804,7 +2804,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "62'"
+   "minute": "70'"
   },
   {
    "league": "Championship",
@@ -2824,7 +2824,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "67'"
+   "minute": "75'"
   },
   {
    "league": "League One",
@@ -2844,7 +2844,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "73'"
+   "minute": "81'"
   },
   {
    "league": "League One",
@@ -2863,8 +2863,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "69'"
+   "live_score": "0-3",
+   "minute": "77'"
   },
   {
    "league": "League One",
@@ -2884,7 +2884,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "League One",
@@ -2904,7 +2904,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "68'"
+   "minute": "76'"
   },
   {
    "league": "League One",
@@ -2924,7 +2924,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-3",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "League One",
@@ -2944,7 +2944,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "League One",
@@ -2963,8 +2963,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "73'"
+   "live_score": "1-2",
+   "minute": "81'"
   },
   {
    "league": "League One",
@@ -2984,7 +2984,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "71'"
+   "minute": "79'"
   },
   {
    "league": "League One",
@@ -3004,7 +3004,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "68'"
+   "minute": "76'"
   },
   {
    "league": "League Two",
@@ -3024,7 +3024,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "League Two",
@@ -3044,7 +3044,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-3",
-   "minute": "69'"
+   "minute": "77'"
   },
   {
    "league": "League Two",
@@ -3063,8 +3063,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "72'"
+   "live_score": "1-1",
+   "minute": "80'"
   },
   {
    "league": "League Two",
@@ -3083,8 +3083,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "72'"
+   "live_score": "3-1",
+   "minute": "80'"
   },
   {
    "league": "League Two",
@@ -3104,7 +3104,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "League Two",
@@ -3124,7 +3124,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "5-0",
-   "minute": "70'"
+   "minute": "78'"
   },
   {
    "league": "League Two",
@@ -3143,8 +3143,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "72'"
+   "live_score": "1-1",
+   "minute": "81'"
   },
   {
    "league": "League Two",
@@ -3163,8 +3163,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "71'"
+   "live_score": "0-3",
+   "minute": "79'"
   },
   {
    "league": "League Two",
@@ -3184,7 +3184,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "League Two",
@@ -3204,7 +3204,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "La Liga 2",
@@ -3223,8 +3223,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "57'"
+   "live_score": "3-0",
+   "minute": "65'"
   },
   {
    "league": "La Liga 2",
@@ -3244,7 +3244,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "3-1",
-   "minute": "50'"
+   "minute": "58'"
   },
   {
    "league": "Serie B",
@@ -3264,7 +3264,7 @@
    "kickoff": "2026-11-28T16:15Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "13'"
+   "minute": "21'"
   },
   {
    "league": "Eredivisie",
@@ -3284,7 +3284,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "Liga Portugal",
@@ -3304,7 +3304,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "Liga Portugal",
@@ -3324,7 +3324,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "49'"
   },
   {
    "league": "Pro League",
@@ -3343,8 +3343,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "69'"
+   "live_score": "0-2",
+   "minute": "77'"
   },
   {
    "league": "Super Lig",
@@ -3364,7 +3364,7 @@
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "Scottish Premiership",
@@ -3384,7 +3384,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "73'"
+   "minute": "82'"
   },
   {
    "league": "Scottish Premiership",
@@ -3404,7 +3404,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-6",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "Scottish Premiership",
@@ -3424,7 +3424,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "70'"
+   "minute": "78'"
   },
   {
    "league": "Scottish Premiership",
@@ -3444,7 +3444,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-4",
-   "minute": "71'"
+   "minute": "79'"
   },
   {
    "league": "Super League (GRE)",
@@ -3464,7 +3464,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "69'"
+   "minute": "77'"
   },
   {
    "league": "Super League (GRE)",
@@ -3484,7 +3484,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "71'"
+   "minute": "79'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -3504,7 +3504,47 @@
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "29'"
+   "minute": "37'"
+  },
+  {
+   "league": "Liga Equateur",
+   "home": "Universidad Católica (Quito)",
+   "away": "Independiente del Valle",
+   "status": "live",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 59%",
+   "analyse": "2026-11-28 | Buts attendus Universidad Católica (Quito) 1.5 - Independiente del Valle 1.3 | 1/N/2 : 33/28/38% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Universidad Católica (Quito) 1V · 3N · Independiente del Valle 4V (scores : 2-5, 1-1, 0-3)  ||  Universidad Católica (Quito) : repos 7 j | prochains : Aucas (Liga Equateur, 8 j)  ||  Independiente del Valle : repos 3 j | prochains : Liga de Quito (Liga Equateur, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:30Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "8'"
+  },
+  {
+   "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
+   "home": "Uzbekistan",
+   "away": "Papua New Guinea",
+   "status": "live",
+   "conf": 59,
+   "victoire": "Victoire Uzbekistan",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-28 | Buts attendus Uzbekistan 2.1 - Papua New Guinea 1.2 | 1/N/2 : 59/20/21% | base sur 5 et 4 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Uzbekistan : repos 11 j  ||  Papua New Guinea : repos 60 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:30Z",
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "6'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -4209,21 +4249,21 @@
    "prio": 10
   },
   {
-   "league": "Liga Equateur",
-   "home": "Universidad Católica (Quito)",
-   "away": "Independiente del Valle",
+   "league": "Liga Bolivie",
+   "home": "GV San José",
+   "away": "Real Potosí",
    "status": "today",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 72%",
+   "conf": 73,
+   "victoire": "Serré : Nul ou Real Potosí",
+   "score_exact": "0-1 (13%) · 0-0 (10%)",
+   "double_chance": "X2 73%",
    "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS OUI 59%",
-   "analyse": "2026-11-28 | Buts attendus Universidad Católica (Quito) 1.5 - Independiente del Valle 1.3 | 1/N/2 : 33/28/38% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Universidad Católica (Quito) 1V · 3N · Independiente del Valle 4V (scores : 2-5, 1-1, 0-3)  ||  Universidad Católica (Quito) : repos 7 j | prochains : Aucas (Liga Equateur, 8 j)  ||  Independiente del Valle : repos 3 j | prochains : Liga de Quito (Liga Equateur, 8 j)",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-28 | Buts attendus GV San José 1.0 - Real Potosí 1.4 | 1/N/2 : 27/28/46% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : GV San José 0V · 1N · Real Potosí 0V (scores : 0-0) - trop peu pour influer  ||  GV San José : repos 5 j | prochains : San Antonio Bulo Bulo (Liga Bolivie, 5 j), Always Ready (Liga Bolivie, 8 j)  ||  Real Potosí : repos 6 j | prochains : Universitario de Vinto (Liga Bolivie, 3 j), Blooming (Liga Bolivie, 9 j)",
    "day": "2026-11-28",
-   "kickoff": "2026-11-28T16:30Z",
+   "kickoff": "2026-11-28T19:00Z",
    "prio": 12
   },
   {
