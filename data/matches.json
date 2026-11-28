@@ -1,31 +1,31 @@
 {
- "date": "2026-11-28 17:19 UTC",
+ "date": "2026-11-28 17:27 UTC",
  "version": "V17",
- "ts": "2026-11-28T17:19:12.845279+00:00",
+ "ts": "2026-11-28T17:27:26.713356+00:00",
  "stats": {
-  "n": 736,
-  "n_avant": 354,
+  "n": 739,
+  "n_avant": 357,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
-  "1x2": 62,
-  "n_fav": 349,
+  "1x2": 61,
+  "n_fav": 350,
   "serre": 73,
-  "n_serre": 387,
+  "n_serre": 389,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 213,
+  "n_ctx": 215,
   "brier_ctx": 0.596,
   "brier_base": 0.599,
-  "n_h2h": 176,
-  "brier_h2h": 0.59,
+  "n_h2h": 178,
+  "brier_h2h": 0.589,
   "brier_noh2h": 0.593
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 28, gua.1 6, fra.1 5, por.1 4, usa.1 4, ned.1 3, bel.1 3, bol.1 3, ecu.1 3, esp.1 2, esp.2 2, ita.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 28, gua.1 6, fra.1 5, usa.1 4, bel.1 3, bol.1 3, ecu.1 3, esp.1 2, esp.2 2, ita.1 2, ita.2 2, ned.1 2",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 154",
   "Matchs africains affichés (à venir / live) : 1",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "17'"
+   "minute": "26'"
   },
   {
    "league": "Ligue 1",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:15Z",
    "prio": 3,
-   "live_score": "1-1",
-   "minute": "HT"
+   "live_score": "2-1",
+   "minute": "52'"
   },
   {
    "league": "Serie B",
@@ -2664,67 +2664,7 @@
    "kickoff": "2026-11-28T16:15Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "49'"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "Excelsior",
-   "away": "Telstar",
-   "status": "live",
-   "conf": 53,
-   "victoire": "Victoire Telstar",
-   "score_exact": "1-2 (9%) · 1-3 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 69%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "2026-11-28 | Buts attendus Excelsior 1.4 - Telstar 2.1 | 1/N/2 : 26/21/53% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Excelsior 0V · 2N · Telstar 0V (scores : 2-2 x2) - trop peu pour influer  ||  Excelsior : 14e/18 (11 pts en 12 m.) | repos 7 j | prochains : ADO Den Haag (Eredivisie, 8 j), PEC Zwolle (Eredivisie, 14 j)  ||  Telstar : 17e/18 (7 pts en 11 m.) | repos 7 j | prochains : FC Groningen (Eredivisie, 6 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:30Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "89'"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Arouca",
-   "away": "Rio Ave",
-   "status": "live",
-   "conf": 76,
-   "victoire": "Serré : Nul ou Arouca",
-   "score_exact": "0-0 (11%) · 1-0 (11%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-28 | Buts attendus Arouca 1.6 - Rio Ave 0.8 | 1/N/2 : 44/32/24% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Arouca 1V · 4N · Rio Ave 3V (scores : 0-1 x3, 1-1 x2, 2-2)  ||  Arouca : 6e/18 (17 pts en 10 m.) | repos 22 j | prochains : Braga (Liga Portugal, 7 j), Académico de Viseu (Liga Portugal, 13 j)  ||  Rio Ave : 16e/18 (7 pts en 10 m.) | repos 20 j | prochains : Casa Pia (Liga Portugal, 8 j), Maritimo (Liga Portugal, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:30Z",
-   "prio": 9,
-   "live_score": "0-0",
-   "minute": "89'"
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Moreirense",
-   "away": "Santa Clara",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (11%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-28 | Buts attendus Moreirense 0.7 - Santa Clara 1.6 | 1/N/2 : 26/25/49% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Moreirense 3V · 1N · Santa Clara 0V (scores : 1-0 x3, 1-1)  ||  Moreirense : 9e/18 (13 pts en 10 m.) | repos 21 j | prochains : Alverca (Liga Portugal, 9 j)  ||  Santa Clara : 4e/18 (20 pts en 10 m.) | repos 20 j | prochains : FC Porto (Liga Portugal, 7 j), Estoril (Liga Portugal, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:30Z",
-   "prio": 9,
-   "live_score": "0-2",
-   "minute": "90'+1'"
+   "minute": "57'"
   },
   {
    "league": "Pro League",
@@ -2743,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:15Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "1'"
+   "live_score": "1-0",
+   "minute": "9'"
   },
   {
    "league": "Super Lig",
@@ -2764,7 +2704,7 @@
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "63'"
+   "minute": "71'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2784,7 +2724,7 @@
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "63'"
+   "minute": "71'"
   },
   {
    "league": "Liga Equateur",
@@ -2804,7 +2744,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "45'+4'"
+   "minute": "HT"
   },
   {
    "league": "Women's International Friendly",
@@ -2824,7 +2764,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 13,
    "live_score": "1-0",
-   "minute": "18'"
+   "minute": "26'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -2844,7 +2784,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "45'+3'"
+   "minute": "HT"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3565,6 +3505,66 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 12
+  },
+  {
+   "league": "Eredivisie",
+   "home": "Excelsior",
+   "away": "Telstar",
+   "status": "finished",
+   "conf": 53,
+   "victoire": "Victoire Telstar",
+   "score_exact": "1-2 (9%) · 1-3 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "Resultat 1-0 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Excelsior 0V · 2N · Telstar 0V (scores : 2-2 x2) - trop peu pour influer  ||  Excelsior : 14e/18 (11 pts en 12 m.) | repos 7 j | prochains : ADO Den Haag (Eredivisie, 8 j), PEC Zwolle (Eredivisie, 14 j)  ||  Telstar : 17e/18 (7 pts en 11 m.) | repos 7 j | prochains : FC Groningen (Eredivisie, 6 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:30Z",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Arouca",
+   "away": "Rio Ave",
+   "status": "finished",
+   "conf": 76,
+   "victoire": "Serré : Nul ou Arouca",
+   "score_exact": "0-0 (11%) · 1-0 (11%)",
+   "double_chance": "1X 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 52%",
+   "analyse": "Resultat 0-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Arouca 1V · 4N · Rio Ave 3V (scores : 0-1 x3, 1-1 x2, 2-2)  ||  Arouca : 6e/18 (17 pts en 10 m.) | repos 22 j | prochains : Braga (Liga Portugal, 7 j), Académico de Viseu (Liga Portugal, 13 j)  ||  Rio Ave : 16e/18 (7 pts en 10 m.) | repos 20 j | prochains : Casa Pia (Liga Portugal, 8 j), Maritimo (Liga Portugal, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Moreirense",
+   "away": "Santa Clara",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (13%) · 1-0 (11%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 58%",
+   "analyse": "Resultat 0-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : Moreirense 3V · 1N · Santa Clara 0V (scores : 1-0 x3, 1-1)  ||  Moreirense : 9e/18 (13 pts en 10 m.) | repos 21 j | prochains : Alverca (Liga Portugal, 9 j)  ||  Santa Clara : 4e/18 (20 pts en 10 m.) | repos 20 j | prochains : FC Porto (Liga Portugal, 7 j), Estoril (Liga Portugal, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:30Z",
+   "prio": 9,
+   "live_score": "0-2",
+   "minute": "FT"
   },
   {
    "league": "La Liga",
@@ -4304,66 +4304,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Super League (GRE)",
-   "home": "Volos NFC",
-   "away": "Asteras Tripoli",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (14%) · 0-1 (10%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 57%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Volos NFC 4V · 1N · Asteras Tripoli 3V (scores : 2-1 x2, 0-0, 1-2)  ||  Volos NFC : 14e/14 (3 pts en 11 m.) | repos 6 j | prochains : PAOK (Super League (GRE), 8 j)  ||  Asteras Tripoli : 13e/14 (7 pts en 11 m.) | repos 5 j | prochains : Kifisia (Super League (GRE), 8 j), Levadiakos (Super League (GRE), 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "FC Cologne",
-   "away": "SV Elversberg",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "Resultat 5-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "FC Cologne : 14e/18 (10 pts en 10 m.) | repos 8 j | prochains : Holstein Kiel (Coupe d'Allemagne, 3 j), FC Augsburg (Bundesliga, 7 j), RB Leipzig (Bundesliga, 14 j)  ||  SV Elversberg : 9e/18 (13 pts en 10 m.) | repos 7 j | prochains : VfB Stuttgart (Bundesliga, 8 j), SC Paderborn 07 (Bundesliga, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:30Z",
-   "prio": 3,
-   "live_score": "5-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "Hamburg SV",
-   "away": "Bayern Munich",
-   "status": "finished",
-   "conf": 69,
-   "victoire": "Victoire Bayern Munich",
-   "score_exact": "1-2 (9%) · 1-3 (8%)",
-   "double_chance": "X2 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 72%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : Hamburg SV 0V · 1N · Bayern Munich 1V (scores : 0-5, 2-2) - trop peu pour influer  ||  Hamburg SV : 12e/18 (12 pts en 10 m.) | repos 6 j | prochains : 1. FC Union Berlin (Bundesliga, 7 j), Schalke 04 (Bundesliga, 13 j)  ||  Bayern Munich : 2e/18 (22 pts en 10 m.) | repos 3 j | prochains : Hertha Berlin (Coupe d'Allemagne, 3 j), SC Paderborn 07 (Bundesliga, 6 j), Slavia Prague (Ligue des champions, 10 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:30Z",
-   "prio": 3,
-   "live_score": "0-0",
    "minute": "FT"
   }
  ]
