@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 03:09 UTC",
+ "date": "2026-11-28 03:17 UTC",
  "version": "V17",
- "ts": "2026-11-28T03:09:01.780916+00:00",
+ "ts": "2026-11-28T03:17:19.182345+00:00",
  "stats": {
-  "n": 664,
-  "n_avant": 284,
+  "n": 665,
+  "n_avant": 285,
   "dc": 80,
   "over": 54,
   "btts": 54,
@@ -12,20 +12,20 @@
   "1x2": 61,
   "n_fav": 322,
   "serre": 74,
-  "n_serre": 342,
+  "n_serre": 343,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 165,
-  "brier_ctx": 0.575,
-  "brier_base": 0.581,
-  "n_h2h": 143,
-  "brier_h2h": 0.579,
-  "brier_noh2h": 0.586
+  "n_ctx": 166,
+  "brier_ctx": 0.574,
+  "brier_base": 0.58,
+  "n_h2h": 144,
+  "brier_h2h": 0.578,
+  "brier_noh2h": 0.584
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 33, eng.4 12, eng.3 11, eng.2 10, usa.1 6, gua.1 6, esp.2 5, ita.2 5, ger.1 5, fra.1 5, sco.1 5, jpn.1 5",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 33, eng.4 12, eng.3 11, eng.2 10, gua.1 6, esp.2 5, ita.2 5, ger.1 5, fra.1 5, sco.1 5, usa.1 5, jpn.1 5",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 151",
   "Matchs africains affichés (à venir / live) : 3",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 8 s"
  ],
  "tickets": [
   {
@@ -220,12 +220,12 @@
        "pick": "Over 1.5 buts",
        "code": "O15",
        "p": 90,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "1-0"
       }
      ],
      "combined": 67.7,
-     "status": "en cours"
+     "status": "perdu"
     }
    ]
   },
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "MLS",
-   "home": "Columbus Crew",
-   "away": "Inter Miami CF",
-   "status": "live",
-   "conf": 79,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (7%) · 2-1 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 74%",
-   "btts": "BTTS OUI 73%",
-   "analyse": "2026-11-28 | Buts attendus Columbus Crew 2.3 - Inter Miami CF 1.6 | 1/N/2 : 45/21/33% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Columbus Crew 2V · 2N · Inter Miami CF 4V (scores : 2-2 x2, 1-2, 2-3)  ||  Columbus Crew : repos 6 j | prochains : Inter Miami CF (MLS, 5 j)  ||  Inter Miami CF : repos 6 j | prochains : Columbus Crew (MLS, 5 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T01:00Z",
-   "prio": 9,
-   "live_score": "1-0",
-   "minute": "90'+5'"
-  },
-  {
    "league": "Liga Colombia",
    "home": "Millonarios",
    "away": "América de Cali",
@@ -2644,7 +2624,7 @@
    "kickoff": "2026-11-28T01:40Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "62'"
+   "minute": "71'"
   },
   {
    "league": "Liga Bolivie",
@@ -2664,7 +2644,7 @@
    "kickoff": "2026-11-28T02:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "49'"
+   "minute": "57'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2683,8 +2663,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T01:30Z",
    "prio": 13,
-   "live_score": "7-0",
-   "minute": "73'"
+   "live_score": "8-0",
+   "minute": "81'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3405,6 +3385,26 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
+  },
+  {
+   "league": "MLS",
+   "home": "Columbus Crew",
+   "away": "Inter Miami CF",
+   "status": "finished",
+   "conf": 79,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (7%) · 2-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 74%",
+   "btts": "BTTS OUI 73%",
+   "analyse": "Resultat 1-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Columbus Crew 2V · 2N · Inter Miami CF 4V (scores : 2-2 x2, 1-2, 2-3)  ||  Columbus Crew : repos 6 j | prochains : Inter Miami CF (MLS, 5 j)  ||  Inter Miami CF : repos 6 j | prochains : Columbus Crew (MLS, 5 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T01:00Z",
+   "prio": 9,
+   "live_score": "1-0",
+   "minute": "FT"
   },
   {
    "league": "Argentine Nacional B",
@@ -4184,26 +4184,6 @@
    "kickoff": "2026-11-27T14:20Z",
    "prio": 13,
    "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Women's International Friendly",
-   "home": "Cyprus",
-   "away": "Luxembourg",
-   "status": "finished",
-   "conf": 60,
-   "victoire": "Victoire Cyprus",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 53%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T09:00Z",
-   "prio": 13,
-   "live_score": "2-2",
    "minute": "FT"
   }
  ]
