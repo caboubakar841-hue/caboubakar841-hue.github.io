@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 08:43 UTC",
+ "date": "2026-11-28 08:51 UTC",
  "version": "V17",
- "ts": "2026-11-28T08:43:24.021690+00:00",
+ "ts": "2026-11-28T08:51:41.028134+00:00",
  "stats": {
   "n": 673,
   "n_avant": 293,
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T07:00Z",
    "prio": 12,
    "live_score": "3-1",
-   "minute": "82'"
+   "minute": "90'"
   },
   {
    "league": "A-League",
@@ -2644,7 +2644,27 @@
    "kickoff": "2026-11-28T08:40Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "3'"
+   "minute": "12'"
+  },
+  {
+   "league": "Women's International Friendly",
+   "home": "Australia",
+   "away": "Colombia",
+   "status": "live",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (11%) · 0-1 (11%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 51%",
+   "analyse": "2026-11-28 | Buts attendus Australia 1.2 - Colombia 1.2 | 1/N/2 : 37/28/35% | base sur 4 et 5 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Australia : repos 11 j  ||  Colombia : repos 10 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T08:35Z",
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "4'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
