@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 10:31 UTC",
+ "date": "2026-11-28 10:39 UTC",
  "version": "V17",
- "ts": "2026-11-28T10:31:28.479348+00:00",
+ "ts": "2026-11-28T10:39:42.060970+00:00",
  "stats": {
-  "n": 674,
-  "n_avant": 294,
+  "n": 675,
+  "n_avant": 295,
   "dc": 80,
   "over": 54,
   "btts": 54,
@@ -12,16 +12,16 @@
   "1x2": 62,
   "n_fav": 326,
   "serre": 73,
-  "n_serre": 348,
+  "n_serre": 349,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 172,
+  "n_ctx": 173,
   "brier_ctx": 0.577,
-  "brier_base": 0.58,
-  "n_h2h": 150,
-  "brier_h2h": 0.58,
-  "brier_noh2h": 0.584
+  "brier_base": 0.581,
+  "n_h2h": 151,
+  "brier_h2h": 0.581,
+  "brier_noh2h": 0.585
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "A-League",
-   "home": "Central Coast Mariners FC",
-   "away": "Auckland FC",
-   "status": "live",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (8%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "2026-11-28 | Buts attendus Central Coast Mariners FC 1.6 - Auckland FC 1.2 | 1/N/2 : 40/28/31% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Central Coast Mariners FC 1V · 2N · Auckland FC 2V (scores : 2-2 x2, 1-4, 1-2)  ||  Central Coast Mariners FC : repos 7 j | prochains : Brisbane Roar FC (A-League, 14 j)  ||  Auckland FC : repos 7 j | prochains : Sydney FC (A-League, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T08:40Z",
-   "prio": 12,
-   "live_score": "2-2",
-   "minute": "90'+2'"
-  },
-  {
    "league": "Women's International Friendly",
    "home": "Australia",
    "away": "Colombia",
@@ -2644,7 +2624,7 @@
    "kickoff": "2026-11-28T08:35Z",
    "prio": 13,
    "live_score": "3-1",
-   "minute": "87'"
+   "minute": "90'+5'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3365,6 +3345,26 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
+  },
+  {
+   "league": "A-League",
+   "home": "Central Coast Mariners FC",
+   "away": "Auckland FC",
+   "status": "finished",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (5 confrontations) : Central Coast Mariners FC 1V · 2N · Auckland FC 2V (scores : 2-2 x2, 1-4, 1-2)  ||  Central Coast Mariners FC : repos 7 j | prochains : Brisbane Roar FC (A-League, 14 j)  ||  Auckland FC : repos 7 j | prochains : Sydney FC (A-League, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T08:40Z",
+   "prio": 12,
+   "live_score": "2-3",
+   "minute": "FT"
   },
   {
    "league": "J1 League",
@@ -4144,26 +4144,6 @@
    "kickoff": "2026-11-27T19:00Z",
    "prio": 10,
    "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "Dutch Keuken Kampioen Divisie",
-   "home": "NAC Breda",
-   "away": "FC Den Bosch",
-   "status": "finished",
-   "conf": 56,
-   "victoire": "Victoire NAC Breda",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 6-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (4 confrontations) : NAC Breda 2V · 1N · FC Den Bosch 1V (scores : 2-3, 2-0, 1-0)  ||  NAC Breda : repos 7 j | prochains : FC Volendam (Dutch Keuken Kampioen Divisie, 9 j), Jong AZ (Dutch Keuken Kampioen Divisie, 14 j)  ||  FC Den Bosch : repos 7 j | prochains : Jong Ajax (Dutch Keuken Kampioen Divisie, 9 j), Roda JC Kerkrade (Dutch Keuken Kampioen Divisie, 14 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:00Z",
-   "prio": 10,
-   "live_score": "6-2",
    "minute": "FT"
   }
  ]
