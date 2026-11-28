@@ -1,31 +1,31 @@
 {
- "date": "2026-11-28 19:31 UTC",
+ "date": "2026-11-28 19:40 UTC",
  "version": "V17",
- "ts": "2026-11-28T19:31:48.229100+00:00",
+ "ts": "2026-11-28T19:40:04.164007+00:00",
  "stats": {
-  "n": 754,
-  "n_avant": 369,
+  "n": 757,
+  "n_avant": 372,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
   "1x2": 62,
-  "n_fav": 359,
+  "n_fav": 361,
   "serre": 73,
-  "n_serre": 395,
+  "n_serre": 396,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 223,
-  "brier_ctx": 0.591,
-  "brier_base": 0.594,
-  "n_h2h": 186,
-  "brier_h2h": 0.584,
-  "brier_noh2h": 0.587
+  "n_ctx": 226,
+  "brier_ctx": 0.588,
+  "brier_base": 0.59,
+  "n_h2h": 189,
+  "brier_h2h": 0.58,
+  "brier_noh2h": 0.584
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 12, gua.1 6, fra.1 4, usa.1 4, bol.1 3, ned.1 2, por.1 2, bel.1 2, ecu.1 2, chi.1 2, esp.1 1, esp.2 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 10, gua.1 6, fra.1 4, usa.1 3, bol.1 3, por.1 2, bel.1 2, ecu.1 2, chi.1 2, esp.1 1, esp.2 1, ita.1 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 155",
   "Matchs africains affichés (à venir / live) : 1",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": -1,
    "live_score": "1-1",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Serie B",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "HT"
+   "minute": "51'"
   },
   {
    "league": "2. Bundesliga",
@@ -2664,27 +2664,7 @@
    "kickoff": "2026-11-28T19:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "2'"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "PSV Eindhoven",
-   "away": "Go Ahead Eagles",
-   "status": "live",
-   "conf": 78,
-   "victoire": "Victoire PSV Eindhoven",
-   "score_exact": "3-1 (8%) · 2-1 (8%)",
-   "double_chance": "12 90%",
-   "corner": "N/D",
-   "over": "Over 2.5 83%",
-   "btts": "BTTS OUI 68%",
-   "analyse": "2026-11-28 | Buts attendus PSV Eindhoven 3.2 - Go Ahead Eagles 1.3 | 1/N/2 : 78/10/12% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : PSV Eindhoven 7V · 0N · Go Ahead Eagles 1V (scores : 3-0 x2, 5-2, 2-0)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 4 j | prochains : AZ Alkmaar (Eredivisie, 7 j), Atlético Madrid (Ligue des champions, 11 j)  ||  Go Ahead Eagles : 11e/18 (14 pts en 12 m.) | repos 6 j | prochains : FC Twente (Eredivisie, 8 j), Heerenveen (Eredivisie, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:45Z",
-   "prio": 9,
-   "live_score": "3-0",
-   "minute": "89'"
+   "minute": "10'"
   },
   {
    "league": "Liga Portugal",
@@ -2704,27 +2684,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "66'"
-  },
-  {
-   "league": "Scottish Premiership",
-   "home": "Motherwell",
-   "away": "Hibernian",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "2026-11-28 | Buts attendus Motherwell 1.3 - Hibernian 1.4 | 1/N/2 : 38/26/36% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Motherwell 4V · 2N · Hibernian 2V (scores : 2-1 x2, 0-3, 1-3)  ||  Motherwell : 11e/12 (9 pts en 12 m.) | repos 7 j | prochains : Falkirk (Scottish Premiership, 4 j), Kilmarnock (Scottish Premiership, 7 j)  ||  Hibernian : 10e/12 (11 pts en 12 m.) | repos 4 j | prochains : Kilmarnock (Scottish Premiership, 4 j), Rangers (Scottish Premiership, 9 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:45Z",
-   "prio": 9,
-   "live_score": "3-0",
-   "minute": "89'"
+   "minute": "75'"
   },
   {
    "league": "Super League (GRE)",
@@ -2744,7 +2704,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "2-2",
-   "minute": "70'"
+   "minute": "79'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2763,28 +2723,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
-   "live_score": "1-2",
-   "minute": "HT"
-  },
-  {
-   "league": "MLS",
-   "home": "Charlotte FC",
-   "away": "Chicago Fire FC",
-   "status": "live",
-   "conf": 55,
-   "victoire": "Victoire Charlotte FC",
-   "score_exact": "2-1 (8%) · 3-1 (7%)",
-   "double_chance": "12 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 77%",
-   "btts": "BTTS OUI 71%",
-   "analyse": "2026-11-28 | Buts attendus Charlotte FC 2.4 - Chicago Fire FC 1.6 | 1/N/2 : 55/14/31% | base sur 17 et 18 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Charlotte FC 4V · 0N · Chicago Fire FC 4V (scores : 2-0, 1-0, 4-3)  ||  Charlotte FC : repos 6 j | prochains : Chicago Fire FC (MLS, 4 j)  ||  Chicago Fire FC : repos 6 j | prochains : Charlotte FC (MLS, 4 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:30Z",
-   "prio": 9,
-   "live_score": "1-1",
-   "minute": "90'+1'"
+   "live_score": "1-3",
+   "minute": "52'"
   },
   {
    "league": "Liga Bolivie",
@@ -2804,7 +2744,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
    "live_score": "1-2",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Liga Equateur",
@@ -2824,7 +2764,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "32'"
+   "minute": "40'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2844,7 +2784,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 13,
    "live_score": "3-0",
-   "minute": "70'"
+   "minute": "78'"
   },
   {
    "league": "Serie A",
@@ -3567,6 +3507,46 @@
    "prio": 3
   },
   {
+   "league": "Eredivisie",
+   "home": "PSV Eindhoven",
+   "away": "Go Ahead Eagles",
+   "status": "finished",
+   "conf": 78,
+   "victoire": "Victoire PSV Eindhoven",
+   "score_exact": "3-1 (8%) · 2-1 (8%)",
+   "double_chance": "12 90%",
+   "corner": "N/D",
+   "over": "Over 2.5 83%",
+   "btts": "BTTS OUI 68%",
+   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : PSV Eindhoven 7V · 0N · Go Ahead Eagles 1V (scores : 3-0 x2, 5-2, 2-0)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 4 j | prochains : AZ Alkmaar (Eredivisie, 7 j), Atlético Madrid (Ligue des champions, 11 j)  ||  Go Ahead Eagles : 11e/18 (14 pts en 12 m.) | repos 6 j | prochains : FC Twente (Eredivisie, 8 j), Heerenveen (Eredivisie, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:45Z",
+   "prio": 9,
+   "live_score": "4-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Scottish Premiership",
+   "home": "Motherwell",
+   "away": "Hibernian",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 55%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Motherwell 4V · 2N · Hibernian 2V (scores : 2-1 x2, 0-3, 1-3)  ||  Motherwell : 11e/12 (9 pts en 12 m.) | repos 7 j | prochains : Falkirk (Scottish Premiership, 4 j), Kilmarnock (Scottish Premiership, 7 j)  ||  Hibernian : 10e/12 (11 pts en 12 m.) | repos 4 j | prochains : Kilmarnock (Scottish Premiership, 4 j), Rangers (Scottish Premiership, 9 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:45Z",
+   "prio": 9,
+   "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
    "league": "Premier League",
    "home": "Ipswich Town",
    "away": "Aston Villa",
@@ -3644,6 +3624,26 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "MLS",
+   "home": "Charlotte FC",
+   "away": "Chicago Fire FC",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire Charlotte FC",
+   "score_exact": "2-1 (8%) · 3-1 (7%)",
+   "double_chance": "12 86%",
+   "corner": "N/D",
+   "over": "Over 2.5 77%",
+   "btts": "BTTS OUI 71%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Charlotte FC 4V · 0N · Chicago Fire FC 4V (scores : 2-0, 1-0, 4-3)  ||  Charlotte FC : repos 6 j | prochains : Chicago Fire FC (MLS, 4 j)  ||  Chicago Fire FC : repos 6 j | prochains : Charlotte FC (MLS, 4 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:30Z",
+   "prio": 9,
+   "live_score": "2-1",
    "minute": "FT"
   },
   {
@@ -4304,66 +4304,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League One",
-   "home": "Wigan Athletic",
-   "away": "Plymouth Argyle",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : Wigan Athletic 0V · 1N · Plymouth Argyle 1V (scores : 1-1, 0-3) - trop peu pour influer  ||  Wigan Athletic : 17e/24 (17 pts en 16 m.) | repos 7 j | prochains : Burton Albion (League One, 3 j), Barnsley (FA Cup, 7 j), Luton Town (League One, 14 j)  ||  Plymouth Argyle : 10e/24 (23 pts en 16 m.) | repos 7 j | prochains : Bromley (League One, 3 j), Crewe Alexandra (FA Cup, 8 j), Notts County (League One, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League One",
-   "home": "Wycombe Wanderers",
-   "away": "Bradford City",
-   "status": "finished",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (10%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 60%",
-   "btts": "BTTS NON 54%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : Wycombe Wanderers 0V · 0N · Bradford City 2V (scores : 1-2 x2) - trop peu pour influer  ||  Wycombe Wanderers : 15e/24 (19 pts en 15 m.) | repos 4 j | prochains : Barnsley (League One, 3 j), Milton Keynes Dons (FA Cup, 6 j), Mansfield Town (League One, 14 j)  ||  Bradford City : 6e/24 (26 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Milton Keynes Dons (League One, 3 j), Wimborne Town (FA Cup, 6 j), AFC Wimbledon (League One, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Colchester United",
-   "away": "York City",
-   "status": "finished",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 53%",
-   "btts": "BTTS OUI 52%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Colchester United : 21e/24 (15 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Grimsby Town (League Two, 3 j), Mansfield Town (FA Cup, 7 j), Salford City (League Two, 14 j)  ||  York City : 6e/24 (24 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Shrewsbury Town (League Two, 3 j), Carlisle United (FA Cup, 7 j), Tranmere Rovers (League Two, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "2-1",
    "minute": "FT"
   }
  ]
