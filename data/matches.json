@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 03:17 UTC",
+ "date": "2026-11-28 03:25 UTC",
  "version": "V17",
- "ts": "2026-11-28T03:17:19.182345+00:00",
+ "ts": "2026-11-28T03:25:43.349497+00:00",
  "stats": {
   "n": 665,
   "n_avant": 285,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 8 s"
+  "Durée du run : 25 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T01:40Z",
    "prio": 12,
    "live_score": "0-0",
-   "minute": "71'"
+   "minute": "79'"
   },
   {
    "league": "Liga Bolivie",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T02:00Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "57'"
+   "minute": "66'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T01:30Z",
    "prio": 13,
    "live_score": "8-0",
-   "minute": "81'"
+   "minute": "90'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
