@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 01:36 UTC",
+ "date": "2026-11-28 01:45 UTC",
  "version": "V17",
- "ts": "2026-11-28T01:36:49.333065+00:00",
+ "ts": "2026-11-28T01:45:20.208628+00:00",
  "stats": {
   "n": 661,
   "n_avant": 281,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 15 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T01:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "20'"
+   "minute": "28'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
    "live_score": "0-1",
-   "minute": "72'"
+   "minute": "81'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2664,7 +2664,27 @@
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
    "live_score": "1-1",
-   "minute": "72'"
+   "minute": "80'"
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Millonarios",
+   "away": "América de Cali",
+   "status": "live",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (11%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-28 | Buts attendus Millonarios 1.3 - América de Cali 1.0 | 1/N/2 : 43/27/30% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Millonarios 3V · 2N · América de Cali 3V (scores : 2-1 x2, 0-0 x2, 0-1)  ||  Millonarios : repos 3 j | prochains : América de Cali (Liga Colombia, 4 j)  ||  América de Cali : repos 3 j | prochains : Millonarios (Liga Colombia, 4 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T01:40Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "5'"
   },
   {
    "league": "Liga Uruguay",
@@ -2684,7 +2704,27 @@
    "kickoff": "2026-11-27T23:30Z",
    "prio": 12,
    "live_score": "2-2",
-   "minute": "93'"
+   "minute": "101'"
+  },
+  {
+   "league": "Concacaf W Championship",
+   "home": "United States",
+   "away": "El Salvador",
+   "status": "live",
+   "conf": 77,
+   "victoire": "Victoire United States",
+   "score_exact": "2-1 (8%) · 3-1 (8%)",
+   "double_chance": "1X 90%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "2026-11-28 | Buts attendus United States 3.0 - El Salvador 1.0 | 1/N/2 : 77/13/10% | base sur 6 et 6 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "United States : repos 10 j  ||  El Salvador : repos 10 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T01:30Z",
+   "prio": 13,
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
