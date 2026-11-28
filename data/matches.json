@@ -1,27 +1,27 @@
 {
- "date": "2026-11-28 00:46 UTC",
+ "date": "2026-11-28 00:55 UTC",
  "version": "V17",
- "ts": "2026-11-28T00:46:47.171188+00:00",
+ "ts": "2026-11-28T00:55:01.803871+00:00",
  "stats": {
-  "n": 655,
-  "n_avant": 276,
+  "n": 657,
+  "n_avant": 278,
   "dc": 80,
   "over": 54,
   "btts": 55,
   "score": 18,
   "1x2": 61,
-  "n_fav": 319,
+  "n_fav": 320,
   "serre": 73,
-  "n_serre": 336,
+  "n_serre": 337,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 157,
-  "brier_ctx": 0.577,
-  "brier_base": 0.58,
-  "n_h2h": 135,
-  "brier_h2h": 0.582,
-  "brier_noh2h": 0.585
+  "n_ctx": 159,
+  "brier_ctx": 0.573,
+  "brier_base": 0.576,
+  "n_h2h": 137,
+  "brier_h2h": 0.577,
+  "brier_noh2h": 0.58
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -314,8 +314,8 @@
        "pick": "Double chance 1X (Independiente Petrolero ou nul)",
        "code": "1X",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "4-1"
       },
       {
        "id": "401875832",
@@ -379,8 +379,8 @@
        "pick": "Double chance X2 (nul ou Club Olimpia)",
        "code": "X2",
        "p": 91,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "1-2"
       },
       {
        "id": "401884720",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "87'"
+   "minute": "90'+5'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 10,
    "live_score": "2-0",
-   "minute": "85'"
+   "minute": "90'+3'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "41'"
+   "minute": "HT"
   },
   {
    "league": "Argentine Nacional B",
@@ -2684,27 +2684,7 @@
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "42'"
-  },
-  {
-   "league": "Primera Paraguay",
-   "home": "Sportivo Luqueño",
-   "away": "Club Olimpia",
-   "status": "live",
-   "conf": 79,
-   "victoire": "Victoire Club Olimpia",
-   "score_exact": "1-2 (11%) · 1-3 (8%)",
-   "double_chance": "X2 91%",
-   "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-27 | Buts attendus Sportivo Luqueño 0.9 - Club Olimpia 2.4 | 1/N/2 : 9/12/79% | base sur 16 et 16 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Sportivo Luqueño 0V · 0N · Club Olimpia 8V (scores : 0-1 x3, 1-3, 0-2)  ||  Sportivo Luqueño : repos 7 j | prochains : Deportivo Recoleta (Primera Paraguay, 2 j)  ||  Club Olimpia : repos 5 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 2 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:00Z",
-   "prio": 12,
-   "live_score": "1-2",
-   "minute": "89'"
+   "minute": "HT"
   },
   {
    "league": "Liga Colombia",
@@ -2723,28 +2703,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T23:35Z",
    "prio": 12,
-   "live_score": "1-0",
-   "minute": "50'"
-  },
-  {
-   "league": "Liga Bolivie",
-   "home": "Independiente Petrolero",
-   "away": "Real Oruro",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (10%) · 1-2 (6%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-27 | Buts attendus Independiente Petrolero 1.7 - Real Oruro 1.4 | 1/N/2 : 48/25/27% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (3 confrontations) : Independiente Petrolero 2V · 1N · Real Oruro 0V (scores : 0-0, 4-3, 3-0)  ||  Independiente Petrolero : repos 6 j | prochains : Aurora (Liga Bolivie, 6 j), The Strongest (Liga Bolivie, 10 j)  ||  Real Oruro : repos 4 j | prochains : ABB (Liga Bolivie, 4 j), Real Tomayapo (Liga Bolivie, 8 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:00Z",
-   "prio": 12,
-   "live_score": "4-1",
-   "minute": "89'"
+   "live_score": "1-1",
+   "minute": "59'"
   },
   {
    "league": "Liga Uruguay",
@@ -2763,8 +2723,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T23:30Z",
    "prio": 12,
-   "live_score": "0-1",
-   "minute": "59'"
+   "live_score": "1-1",
+   "minute": "67'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3485,6 +3445,46 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9
+  },
+  {
+   "league": "Primera Paraguay",
+   "home": "Sportivo Luqueño",
+   "away": "Club Olimpia",
+   "status": "finished",
+   "conf": 79,
+   "victoire": "Victoire Club Olimpia",
+   "score_exact": "1-2 (11%) · 1-3 (8%)",
+   "double_chance": "X2 91%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Sportivo Luqueño 0V · 0N · Club Olimpia 8V (scores : 0-1 x3, 1-3, 0-2)  ||  Sportivo Luqueño : repos 7 j | prochains : Deportivo Recoleta (Primera Paraguay, 2 j)  ||  Club Olimpia : repos 5 j | prochains : Sportivo San Lorenzo (Primera Paraguay, 2 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T23:00Z",
+   "prio": 12,
+   "live_score": "1-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "Independiente Petrolero",
+   "away": "Real Oruro",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (10%) · 1-2 (6%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 61%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (3 confrontations) : Independiente Petrolero 2V · 1N · Real Oruro 0V (scores : 0-0, 4-3, 3-0)  ||  Independiente Petrolero : repos 6 j | prochains : Aurora (Liga Bolivie, 6 j), The Strongest (Liga Bolivie, 10 j)  ||  Real Oruro : repos 4 j | prochains : ABB (Liga Bolivie, 4 j), Real Tomayapo (Liga Bolivie, 8 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T23:00Z",
+   "prio": 12,
+   "live_score": "4-1",
+   "minute": "FT"
   },
   {
    "league": "Argentine Nacional B",
@@ -4244,46 +4244,6 @@
    "kickoff": "2026-11-26T20:00Z",
    "prio": 1,
    "live_score": "4-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue Europa",
-   "home": "Lyon",
-   "away": "Lillestrom",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Victoire Lyon",
-   "score_exact": "3-0 (11%) · 4-0 (7%)",
-   "double_chance": "1X 93%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS NON 56%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). ⚠️ Peu ou pas de données pour : Lillestrom (estimation neutre, très incertaine). Lyon : 4e/18 (20 pts en 11 m.) | repos 5 j | prochains : AS Monaco (Ligue 1, 3 j), Troyes (Ligue 1, 10 j), Union St.-Gilloise (Ligue Europa, 14 j)  ||  Lillestrom : repos 21 j | prochains : Levski Sofia (Ligue Europa, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T20:00Z",
-   "prio": 1,
-   "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Ligue Europa",
-   "home": "NEC Nijmegen",
-   "away": "Stade Rennais",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 71%",
-   "btts": "BTTS OUI 71%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "⚠️ Coupe d'Europe : forces comparées via des coefficients de championnat estimés (moins fiable). NEC Nijmegen : 10e/18 (14 pts en 12 m.) | repos 5 j | prochains : FC Twente (Eredivisie, 3 j), Sparta Rotterdam (Eredivisie, 9 j), Ararat-Armenia (Ligue Europa, 14 j)  ||  Stade Rennais : 9e/18 (17 pts en 11 m.) | repos 4 j | prochains : Toulouse (Ligue 1, 3 j), Brest (Ligue 1, 10 j), Dinamo Zagreb (Ligue Europa, 14 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T20:00Z",
-   "prio": 1,
-   "live_score": "3-1",
    "minute": "FT"
   }
  ]
