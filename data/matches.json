@@ -1,27 +1,27 @@
 {
- "date": "2026-11-28 17:43 UTC",
+ "date": "2026-11-28 17:52 UTC",
  "version": "V17",
- "ts": "2026-11-28T17:43:56.804843+00:00",
+ "ts": "2026-11-28T17:52:13.837548+00:00",
  "stats": {
-  "n": 739,
-  "n_avant": 357,
+  "n": 740,
+  "n_avant": 358,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
-  "1x2": 61,
-  "n_fav": 350,
+  "1x2": 62,
+  "n_fav": 351,
   "serre": 73,
   "n_serre": 389,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 215,
-  "brier_ctx": 0.596,
-  "brier_base": 0.599,
-  "n_h2h": 178,
-  "brier_h2h": 0.589,
-  "brier_noh2h": 0.593
+  "n_ctx": 216,
+  "brier_ctx": 0.594,
+  "brier_base": 0.597,
+  "n_h2h": 179,
+  "brier_h2h": 0.587,
+  "brier_noh2h": 0.591
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -2623,8 +2623,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "14'"
+   "live_score": "1-1",
+   "minute": "22'"
   },
   {
    "league": "La Liga",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "0-2",
-   "minute": "13'"
+   "minute": "21'"
   },
   {
    "league": "Serie A",
@@ -2663,8 +2663,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:00Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "42'"
+   "live_score": "0-2",
+   "minute": "HT"
   },
   {
    "league": "Bundesliga",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "14'"
+   "minute": "22'"
   },
   {
    "league": "Ligue 1",
@@ -2703,8 +2703,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:15Z",
    "prio": 3,
-   "live_score": "2-2",
-   "minute": "69'"
+   "live_score": "2-4",
+   "minute": "77'"
   },
   {
    "league": "La Liga 2",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "14'"
+   "minute": "22'"
   },
   {
    "league": "Serie B",
@@ -2744,7 +2744,27 @@
    "kickoff": "2026-11-28T16:15Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "73'"
+   "minute": "82'"
+  },
+  {
+   "league": "Eredivisie",
+   "home": "PSV Eindhoven",
+   "away": "Go Ahead Eagles",
+   "status": "live",
+   "conf": 78,
+   "victoire": "Victoire PSV Eindhoven",
+   "score_exact": "3-1 (8%) · 2-1 (8%)",
+   "double_chance": "12 90%",
+   "corner": "N/D",
+   "over": "Over 2.5 83%",
+   "btts": "BTTS OUI 68%",
+   "analyse": "2026-11-28 | Buts attendus PSV Eindhoven 3.2 - Go Ahead Eagles 1.3 | 1/N/2 : 78/10/12% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : PSV Eindhoven 7V · 0N · Go Ahead Eagles 1V (scores : 3-0 x2, 5-2, 2-0)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 4 j | prochains : AZ Alkmaar (Eredivisie, 7 j), Atlético Madrid (Ligue des champions, 11 j)  ||  Go Ahead Eagles : 11e/18 (14 pts en 12 m.) | repos 6 j | prochains : FC Twente (Eredivisie, 8 j), Heerenveen (Eredivisie, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:45Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "5'"
   },
   {
    "league": "Pro League",
@@ -2764,7 +2784,7 @@
    "kickoff": "2026-11-28T17:15Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "25'"
+   "minute": "34'"
   },
   {
    "league": "Super Lig",
@@ -2783,28 +2803,28 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "88'"
+   "live_score": "1-2",
+   "minute": "90'+6'"
   },
   {
-   "league": "Bundesliga (AUT)",
-   "home": "Austria Vienna",
-   "away": "Wolfsberger",
+   "league": "Scottish Premiership",
+   "home": "Motherwell",
+   "away": "Hibernian",
    "status": "live",
-   "conf": 61,
-   "victoire": "Victoire Austria Vienna",
-   "score_exact": "1-0 (13%) · 2-0 (13%)",
-   "double_chance": "12 81%",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 74%",
    "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-28 | Buts attendus Austria Vienna 1.9 - Wolfsberger 0.7 | 1/N/2 : 61/19/20% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Austria Vienna 4V · 1N · Wolfsberger 3V (scores : 2-1 x2, 3-1, 1-0)  ||  Austria Vienna : 10e/12 (11 pts en 11 m.) | repos 6 j | prochains : SK Sturm Graz (Bundesliga (AUT), 8 j)  ||  Wolfsberger : 12e/12 (2 pts en 11 m.) | repos 6 j | prochains : Austria Lustenau (Bundesliga (AUT), 8 j)",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 55%",
+   "analyse": "2026-11-28 | Buts attendus Motherwell 1.3 - Hibernian 1.4 | 1/N/2 : 38/26/36% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Motherwell 4V · 2N · Hibernian 2V (scores : 2-1 x2, 0-3, 1-3)  ||  Motherwell : 11e/12 (9 pts en 12 m.) | repos 7 j | prochains : Falkirk (Scottish Premiership, 4 j), Kilmarnock (Scottish Premiership, 7 j)  ||  Hibernian : 10e/12 (11 pts en 12 m.) | repos 4 j | prochains : Kilmarnock (Scottish Premiership, 4 j), Rangers (Scottish Premiership, 9 j)",
    "day": "2026-11-28",
-   "kickoff": "2026-11-28T16:00Z",
+   "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
-   "live_score": "3-0",
-   "minute": "88'"
+   "live_score": "0-0",
+   "minute": "7'"
   },
   {
    "league": "MLS",
@@ -2823,8 +2843,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "3'"
+   "live_score": "1-0",
+   "minute": "12'"
   },
   {
    "league": "Liga Equateur",
@@ -2844,7 +2864,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "52'"
+   "minute": "60'"
   },
   {
    "league": "Women's International Friendly",
@@ -2864,7 +2884,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 13,
    "live_score": "1-0",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -2884,7 +2904,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "53'"
+   "minute": "61'"
   },
   {
    "league": "Saudi Pro League",
@@ -2904,7 +2924,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "14'"
+   "minute": "22'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3033,42 +3053,6 @@
    "prio": 3
   },
   {
-   "league": "Eredivisie",
-   "home": "PSV Eindhoven",
-   "away": "Go Ahead Eagles",
-   "status": "today",
-   "conf": 78,
-   "victoire": "Victoire PSV Eindhoven",
-   "score_exact": "3-1 (8%) · 2-1 (8%)",
-   "double_chance": "12 90%",
-   "corner": "N/D",
-   "over": "Over 2.5 83%",
-   "btts": "BTTS OUI 68%",
-   "analyse": "2026-11-28 | Buts attendus PSV Eindhoven 3.2 - Go Ahead Eagles 1.3 | 1/N/2 : 78/10/12% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : PSV Eindhoven 7V · 0N · Go Ahead Eagles 1V (scores : 3-0 x2, 5-2, 2-0)  ||  PSV Eindhoven : 1e/18 (28 pts en 12 m.) | repos 4 j | prochains : AZ Alkmaar (Eredivisie, 7 j), Atlético Madrid (Ligue des champions, 11 j)  ||  Go Ahead Eagles : 11e/18 (14 pts en 12 m.) | repos 6 j | prochains : FC Twente (Eredivisie, 8 j), Heerenveen (Eredivisie, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:45Z",
-   "prio": 9
-  },
-  {
-   "league": "Scottish Premiership",
-   "home": "Motherwell",
-   "away": "Hibernian",
-   "status": "today",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "2026-11-28 | Buts attendus Motherwell 1.3 - Hibernian 1.4 | 1/N/2 : 38/26/36% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Motherwell 4V · 2N · Hibernian 2V (scores : 2-1 x2, 0-3, 1-3)  ||  Motherwell : 11e/12 (9 pts en 12 m.) | repos 7 j | prochains : Falkirk (Scottish Premiership, 4 j), Kilmarnock (Scottish Premiership, 7 j)  ||  Hibernian : 10e/12 (11 pts en 12 m.) | repos 4 j | prochains : Kilmarnock (Scottish Premiership, 4 j), Rangers (Scottish Premiership, 9 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:45Z",
-   "prio": 9
-  },
-  {
    "league": "Liga Portugal",
    "home": "Académico de Viseu",
    "away": "Alverca",
@@ -3135,7 +3119,7 @@
    "over": "Over 2.5 76%",
    "btts": "BTTS OUI 66%",
    "analyse": "2026-11-28 | Buts attendus Austria Lustenau 1.1 - Rapid Vienna 3.1 | 1/N/2 : 8/22/70% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (5 confrontations) : Austria Lustenau 0V · 3N · Rapid Vienna 2V (scores : 1-1 x2, 3-3, 0-5)  ||  Austria Lustenau : 8e/12 (13 pts en 11 m.) | repos 7 j | prochains : Wolfsberger (Bundesliga (AUT), 8 j), TSV Hartberg (Bundesliga (AUT), 13 j)  ||  Rapid Vienna : 1e/12 (30 pts en 11 m.) | repos 7 j | prochains : LASK Linz (Bundesliga (AUT), 7 j), SV Josko Ried (Bundesliga (AUT), 14 j)",
+   "contexte": "Face-à-face (5 confrontations) : Austria Lustenau 0V · 3N · Rapid Vienna 2V (scores : 1-1 x2, 3-3, 0-5)  ||  Austria Lustenau : 9e/12 (13 pts en 11 m.) | repos 7 j | prochains : Wolfsberger (Bundesliga (AUT), 8 j), TSV Hartberg (Bundesliga (AUT), 13 j)  ||  Rapid Vienna : 1e/12 (30 pts en 11 m.) | repos 7 j | prochains : LASK Linz (Bundesliga (AUT), 7 j), SV Josko Ried (Bundesliga (AUT), 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9
@@ -3625,6 +3609,62 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T23:30Z",
    "prio": 12
+  },
+  {
+   "league": "Liga Chili",
+   "home": "Colo Colo",
+   "away": "La Serena",
+   "status": "today",
+   "conf": 67,
+   "victoire": "Victoire Colo Colo",
+   "score_exact": "2-1 (10%) · 3-1 (8%)",
+   "double_chance": "1X 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 71%",
+   "btts": "BTTS OUI 65%",
+   "analyse": "2026-11-28 | Buts attendus Colo Colo 2.4 - La Serena 1.3 | 1/N/2 : 67/19/15% | base sur 10 et 9 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Colo Colo 4V · 1N · La Serena 0V (scores : 1-1, 3-0, 3-1)  ||  Colo Colo : repos 6 j | prochains : Cobresal (Liga Chili, 8 j)  ||  La Serena : repos 6 j | prochains : Audax Italiano (Liga Chili, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T23:30Z",
+   "prio": 12
+  },
+  {
+   "league": "Women's International Friendly",
+   "home": "San Marino",
+   "away": "Liechtenstein",
+   "status": "today",
+   "conf": 76,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (8%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 59%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "2026-11-28 | Buts attendus San Marino 1.4 - Liechtenstein 1.7 | 1/N/2 : 32/24/44% | base sur 6 et 6 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "San Marino : repos 13 j  ||  Liechtenstein : repos 12 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:30Z",
+   "prio": 13
+  },
+  {
+   "league": "Bundesliga (AUT)",
+   "home": "Austria Vienna",
+   "away": "Wolfsberger",
+   "status": "finished",
+   "conf": 61,
+   "victoire": "Victoire Austria Vienna",
+   "score_exact": "1-0 (13%) · 2-0 (13%)",
+   "double_chance": "12 81%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS NON 58%",
+   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Austria Vienna 4V · 1N · Wolfsberger 3V (scores : 2-1 x2, 3-1, 1-0)  ||  Austria Vienna : 10e/12 (11 pts en 11 m.) | repos 6 j | prochains : SK Sturm Graz (Bundesliga (AUT), 8 j)  ||  Wolfsberger : 12e/12 (2 pts en 11 m.) | repos 6 j | prochains : Austria Lustenau (Bundesliga (AUT), 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:00Z",
+   "prio": 9,
+   "live_score": "4-1",
+   "minute": "FT"
   },
   {
    "league": "Eredivisie",
@@ -4404,26 +4444,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-4",
-   "minute": "FT"
-  },
-  {
-   "league": "Super League (GRE)",
-   "home": "Iraklis",
-   "away": "Panetolikos",
-   "status": "finished",
-   "conf": 67,
-   "victoire": "Victoire Iraklis",
-   "score_exact": "3-0 (8%) · 4-0 (4%)",
-   "double_chance": "1X 86%",
-   "corner": "N/D",
-   "over": "Over 2.5 55%",
-   "btts": "BTTS NON 52%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Iraklis : 10e/14 (10 pts en 11 m.) | repos 6 j | prochains : OFI Crete (Super League (GRE), 8 j), Aris (Super League (GRE), 14 j)  ||  Panetolikos : 9e/14 (12 pts en 11 m.) | repos 6 j | prochains : Atromitos (Super League (GRE), 9 j), Kalamata (Super League (GRE), 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "3-0",
    "minute": "FT"
   }
  ]
