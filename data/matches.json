@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 13:09 UTC",
+ "date": "2026-11-28 13:17 UTC",
  "version": "V17",
- "ts": "2026-11-28T13:09:35.678018+00:00",
+ "ts": "2026-11-28T13:17:53.541288+00:00",
  "stats": {
   "n": 676,
   "n_avant": 295,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 6 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T13:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "13'"
   },
   {
    "league": "Championship",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "40'"
+   "minute": "45'+3'"
   },
   {
    "league": "Championship",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "45'+2'"
   },
   {
    "league": "League One",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -2723,8 +2723,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "40'"
+   "live_score": "1-1",
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-3",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "40'"
+   "minute": "HT"
   },
   {
    "league": "La Liga 2",
@@ -2784,7 +2784,7 @@
    "kickoff": "2026-11-28T13:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "8'"
+   "minute": "16'"
   },
   {
    "league": "2. Bundesliga",
@@ -2803,8 +2803,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "51'"
+   "live_score": "1-0",
+   "minute": "60'"
   },
   {
    "league": "2. Bundesliga",
@@ -2823,8 +2823,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "48'"
+   "live_score": "2-0",
+   "minute": "56'"
   },
   {
    "league": "2. Bundesliga",
@@ -2843,8 +2843,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "49'"
+   "live_score": "1-0",
+   "minute": "58'"
   },
   {
    "league": "Super Lig",
@@ -2864,7 +2864,7 @@
    "kickoff": "2026-11-28T13:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "Women's International Friendly",
@@ -2884,7 +2884,7 @@
    "kickoff": "2026-11-28T11:35Z",
    "prio": 13,
    "live_score": "3-0",
-   "minute": "76'"
+   "minute": "84'"
   },
   {
    "league": "Saudi Pro League",
