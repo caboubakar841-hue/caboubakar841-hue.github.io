@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 18:58 UTC",
+ "date": "2026-11-28 19:06 UTC",
  "version": "V17",
- "ts": "2026-11-28T18:58:33.610057+00:00",
+ "ts": "2026-11-28T19:06:49.653385+00:00",
  "stats": {
   "n": 748,
   "n_avant": 363,
@@ -27,14 +27,14 @@
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
   "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 20, gua.1 6, fra.1 4, usa.1 4, bel.1 3, bol.1 3, esp.1 2, esp.2 2, ned.1 2, por.1 2, ecu.1 2, chi.1 2",
   "Matchs ignorés car illisibles : 0",
-  "Matchs sans données masqués (remplacés par d'autres) : 154",
+  "Matchs sans données masqués (remplacés par d'autres) : 155",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 92",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 91",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2607,6 +2607,26 @@
  ],
  "matches": [
   {
+   "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
+   "home": "Ghana",
+   "away": "Ecuador",
+   "status": "live",
+   "conf": 65,
+   "victoire": "Victoire Ecuador",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 62%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "2026-11-28 | Buts attendus Ghana 1.0 - Ecuador 2.2 | 1/N/2 : 16/19/65% | base sur 0 et 3 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "⚠️ Peu ou pas de données pour : Ghana (estimation neutre, très incertaine). Ghana  ||  Ecuador : repos 11 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T19:00Z",
+   "prio": -1,
+   "live_score": "0-1",
+   "minute": "6'"
+  },
+  {
    "league": "Premier League",
    "home": "Ipswich Town",
    "away": "Aston Villa",
@@ -2624,7 +2644,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-2",
-   "minute": "70'"
+   "minute": "78'"
   },
   {
    "league": "La Liga",
@@ -2644,7 +2664,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-3",
-   "minute": "68'"
+   "minute": "76'"
   },
   {
    "league": "Bundesliga",
@@ -2664,7 +2684,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-2",
-   "minute": "67'"
+   "minute": "75'"
   },
   {
    "league": "La Liga 2",
@@ -2684,7 +2704,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "70'"
+   "minute": "78'"
   },
   {
    "league": "Serie B",
@@ -2703,8 +2723,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "27'"
+   "live_score": "2-0",
+   "minute": "35'"
   },
   {
    "league": "Eredivisie",
@@ -2724,7 +2744,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "56'"
+   "minute": "64'"
   },
   {
    "league": "Liga Portugal",
@@ -2764,7 +2784,7 @@
    "kickoff": "2026-11-28T17:15Z",
    "prio": 9,
    "live_score": "3-1",
-   "minute": "81'"
+   "minute": "90'"
   },
   {
    "league": "Scottish Premiership",
@@ -2784,7 +2804,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "56'"
+   "minute": "64'"
   },
   {
    "league": "Super League (GRE)",
@@ -2804,7 +2824,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2823,8 +2843,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "27'"
+   "live_score": "1-1",
+   "minute": "35'"
   },
   {
    "league": "MLS",
@@ -2844,7 +2864,47 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "58'"
+   "minute": "67'"
+  },
+  {
+   "league": "Liga Bolivie",
+   "home": "GV San José",
+   "away": "Real Potosí",
+   "status": "live",
+   "conf": 73,
+   "victoire": "Serré : Nul ou Real Potosí",
+   "score_exact": "0-1 (13%) · 0-0 (10%)",
+   "double_chance": "X2 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 54%",
+   "analyse": "2026-11-28 | Buts attendus GV San José 1.0 - Real Potosí 1.4 | 1/N/2 : 27/28/46% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : GV San José 0V · 1N · Real Potosí 0V (scores : 0-0) - trop peu pour influer  ||  GV San José : repos 5 j | prochains : San Antonio Bulo Bulo (Liga Bolivie, 5 j), Always Ready (Liga Bolivie, 8 j)  ||  Real Potosí : repos 6 j | prochains : Universitario de Vinto (Liga Bolivie, 3 j), Blooming (Liga Bolivie, 9 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T19:00Z",
+   "prio": 12,
+   "live_score": "1-0",
+   "minute": "6'"
+  },
+  {
+   "league": "Liga Equateur",
+   "home": "Macará",
+   "away": "Liga de Quito",
+   "status": "live",
+   "conf": 78,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (11%)",
+   "double_chance": "12 78%",
+   "corner": "N/D",
+   "over": "Under 2.5 57%",
+   "btts": "BTTS NON 56%",
+   "analyse": "2026-11-28 | Buts attendus Macará 1.5 - Liga de Quito 0.8 | 1/N/2 : 49/22/29% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Macará 3V · 1N · Liga de Quito 4V (scores : 0-5, 1-2, 0-4)  ||  Macará : repos 8 j | prochains : Barcelona SC (Liga Equateur, 8 j)  ||  Liga de Quito : repos 6 j | prochains : Independiente del Valle (Liga Equateur, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T19:00Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "6'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2883,26 +2943,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 13,
-   "live_score": "1-1",
-   "minute": "68'"
-  },
-  {
-   "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
-   "home": "Ghana",
-   "away": "Ecuador",
-   "status": "today",
-   "conf": 65,
-   "victoire": "Victoire Ecuador",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 62%",
-   "btts": "BTTS OUI 56%",
-   "analyse": "2026-11-28 | Buts attendus Ghana 1.0 - Ecuador 2.2 | 1/N/2 : 16/19/65% | base sur 0 et 3 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Ghana (estimation neutre, très incertaine). Ghana  ||  Ecuador : repos 11 j",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T19:00Z",
-   "prio": -1
+   "live_score": "2-1",
+   "minute": "76'"
   },
   {
    "league": "Serie A",
@@ -3355,42 +3397,6 @@
    "prio": 10
   },
   {
-   "league": "Liga Bolivie",
-   "home": "GV San José",
-   "away": "Real Potosí",
-   "status": "today",
-   "conf": 73,
-   "victoire": "Serré : Nul ou Real Potosí",
-   "score_exact": "0-1 (13%) · 0-0 (10%)",
-   "double_chance": "X2 73%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-28 | Buts attendus GV San José 1.0 - Real Potosí 1.4 | 1/N/2 : 27/28/46% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : GV San José 0V · 1N · Real Potosí 0V (scores : 0-0) - trop peu pour influer  ||  GV San José : repos 5 j | prochains : San Antonio Bulo Bulo (Liga Bolivie, 5 j), Always Ready (Liga Bolivie, 8 j)  ||  Real Potosí : repos 6 j | prochains : Universitario de Vinto (Liga Bolivie, 3 j), Blooming (Liga Bolivie, 9 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T19:00Z",
-   "prio": 12
-  },
-  {
-   "league": "Liga Equateur",
-   "home": "Macará",
-   "away": "Liga de Quito",
-   "status": "today",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (13%) · 0-1 (11%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Under 2.5 57%",
-   "btts": "BTTS NON 56%",
-   "analyse": "2026-11-28 | Buts attendus Macará 1.5 - Liga de Quito 0.8 | 1/N/2 : 49/22/29% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Macará 3V · 1N · Liga de Quito 4V (scores : 0-5, 1-2, 0-4)  ||  Macará : repos 8 j | prochains : Barcelona SC (Liga Equateur, 8 j)  ||  Liga de Quito : repos 6 j | prochains : Independiente del Valle (Liga Equateur, 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T19:00Z",
-   "prio": 12
-  },
-  {
    "league": "Copa Libertadores",
    "home": "Palmeiras",
    "away": "Estudiantes de La Plata",
@@ -3604,6 +3610,60 @@
    "contexte": "Face-à-face (6 confrontations) : Sassuolo 0V · 0N · Napoli 6V (scores : 0-2 x3, 0-4, 1-6)  ||  Sassuolo : 18e/20 (8 pts en 12 m.) | repos 7 j | prochains : Juventus (Coupe d'Italie, 4 j), Venezia (Serie A, 8 j), Lecce (Serie A, 13 j)  ||  Napoli : 9e/20 (18 pts en 12 m.) | repos 5 j | prochains : Lecce (Serie A, 6 j), Club Brugge (Ligue des champions, 9 j)",
    "day": "2026-11-29",
    "kickoff": "2026-11-29T14:00Z",
+   "prio": 3
+  },
+  {
+   "league": "Ligue 1",
+   "home": "AJ Auxerre",
+   "away": "Marseille",
+   "status": "today",
+   "conf": 57,
+   "victoire": "Victoire Marseille",
+   "score_exact": "1-2 (9%) · 1-3 (7%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 74%",
+   "btts": "BTTS OUI 69%",
+   "analyse": "2026-11-29 | Buts attendus AJ Auxerre 1.5 - Marseille 2.3 | 1/N/2 : 27/15/57% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : AJ Auxerre 2V · 0N · Marseille 4V (scores : 0-1 x2, 0-2, 1-2)  ||  AJ Auxerre : 15e/18 (11 pts en 11 m.) | repos 8 j | prochains : Lille (Ligue 1, 6 j), Toulouse (Ligue 1, 12 j)  ||  Marseille : 6e/18 (18 pts en 11 m.) | repos 3 j | prochains : Nice (Ligue 1, 7 j), Celta Vigo (Ligue Europa, 11 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T14:00Z",
+   "prio": 3
+  },
+  {
+   "league": "Premier League",
+   "home": "Brighton & Hove Albion",
+   "away": "Newcastle United",
+   "status": "today",
+   "conf": 67,
+   "victoire": "Victoire Brighton & Hove Albion",
+   "score_exact": "2-1 (7%) · 3-1 (7%)",
+   "double_chance": "1X 87%",
+   "corner": "N/D",
+   "over": "Over 2.5 69%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-11-29 | Buts attendus Brighton & Hove Albion 2.9 - Newcastle United 0.8 | 1/N/2 : 67/20/13% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Brighton & Hove Albion 3V · 3N · Newcastle United 2V (scores : 1-1 x2, 0-0, 1-4)  ||  Brighton & Hove Albion : 2e/20 (22 pts en 11 m.) | repos 3 j | prochains : AFC Bournemouth (Premier League, 3 j), Nottingham Forest (Premier League, 6 j), AS Monaco (Conference League, 11 j)  ||  Newcastle United : 13e/20 (13 pts en 11 m.) | repos 8 j | prochains : Manchester United (Premier League, 3 j), Sunderland (Premier League, 7 j), Ipswich Town (Premier League, 13 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T14:05Z",
+   "prio": 3
+  },
+  {
+   "league": "Premier League",
+   "home": "Crystal Palace",
+   "away": "Hull City",
+   "status": "today",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-29 | Buts attendus Crystal Palace 1.1 - Hull City 1.6 | 1/N/2 : 27/25/48% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Crystal Palace : 20e/20 (7 pts en 11 m.) | repos 3 j | prochains : Chelsea (Premier League, 3 j), Aston Villa (Premier League, 6 j), Jagiellonia Bialystok (Ligue Europa, 11 j)  ||  Hull City : 11e/20 (14 pts en 11 m.) | repos 7 j | prochains : Nottingham Forest (Premier League, 3 j), AFC Bournemouth (Premier League, 6 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T14:05Z",
    "prio": 3
   },
   {
