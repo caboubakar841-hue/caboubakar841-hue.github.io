@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 12:19 UTC",
+ "date": "2026-11-28 12:28 UTC",
  "version": "V17",
- "ts": "2026-11-28T12:19:52.113991+00:00",
+ "ts": "2026-11-28T12:28:05.891308+00:00",
  "stats": {
   "n": 676,
   "n_avant": 295,
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "20'"
+   "minute": "28'"
   },
   {
    "league": "2. Bundesliga",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "19'"
+   "minute": "27'"
   },
   {
    "league": "2. Bundesliga",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T12:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "19'"
+   "minute": "27'"
   },
   {
    "league": "Women's International Friendly",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T11:35Z",
    "prio": 13,
    "live_score": "1-0",
-   "minute": "45'"
+   "minute": "HT"
   },
   {
    "league": "Saudi Pro League",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T12:15Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "4'"
+   "minute": "13'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
