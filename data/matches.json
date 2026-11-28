@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 15:39 UTC",
+ "date": "2026-11-28 15:47 UTC",
  "version": "V17",
- "ts": "2026-11-28T15:39:18.473811+00:00",
+ "ts": "2026-11-28T15:47:33.014464+00:00",
  "stats": {
   "n": 689,
   "n_avant": 308,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": -1,
    "live_score": "0-1",
-   "minute": "79'"
+   "minute": "87'"
   },
   {
    "league": "Premier League",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "39'"
+   "live_score": "2-0",
+   "minute": "45'+2'"
   },
   {
    "league": "Premier League",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "0-2",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "La Liga",
@@ -2683,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:15Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "23'"
+   "live_score": "0-1",
+   "minute": "32'"
   },
   {
    "league": "Serie A",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 3,
    "live_score": "3-0",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "Bundesliga",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "3-0",
-   "minute": "51'"
+   "minute": "59'"
   },
   {
    "league": "Bundesliga",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "51'"
+   "minute": "59'"
   },
   {
    "league": "Bundesliga",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-1",
-   "minute": "49'"
+   "minute": "58'"
   },
   {
    "league": "Bundesliga",
@@ -2783,8 +2783,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
-   "live_score": "3-0",
-   "minute": "48'"
+   "live_score": "4-0",
+   "minute": "56'"
   },
   {
    "league": "Championship",
@@ -2803,8 +2803,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "39'"
+   "live_score": "1-1",
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2824,7 +2824,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2844,7 +2844,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2864,7 +2864,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2884,7 +2884,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "Championship",
@@ -2904,7 +2904,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "40'"
   },
   {
    "league": "Championship",
@@ -2924,7 +2924,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "38'"
+   "minute": "45'+2'"
   },
   {
    "league": "League One",
@@ -2944,7 +2944,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -2964,7 +2964,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "38'"
+   "minute": "45'+1'"
   },
   {
    "league": "League One",
@@ -2984,7 +2984,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "League One",
@@ -3004,7 +3004,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "45'+1'"
   },
   {
    "league": "League One",
@@ -3023,8 +3023,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-2",
-   "minute": "39'"
+   "live_score": "1-2",
+   "minute": "45'+2'"
   },
   {
    "league": "League One",
@@ -3044,7 +3044,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "League One",
@@ -3064,7 +3064,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -3083,8 +3083,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "39'"
+   "live_score": "0-1",
+   "minute": "45'+2'"
   },
   {
    "league": "League One",
@@ -3104,7 +3104,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "League Two",
@@ -3124,7 +3124,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "League Two",
@@ -3143,8 +3143,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "39'"
+   "live_score": "0-2",
+   "minute": "45'+2'"
   },
   {
    "league": "League Two",
@@ -3163,8 +3163,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "39'"
+   "live_score": "0-1",
+   "minute": "45'+2'"
   },
   {
    "league": "League Two",
@@ -3184,7 +3184,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "45'+2'"
   },
   {
    "league": "League Two",
@@ -3204,7 +3204,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "39'"
+   "minute": "45'+2'"
   },
   {
    "league": "League Two",
@@ -3223,8 +3223,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "39'"
+   "live_score": "2-0",
+   "minute": "45'+3'"
   },
   {
    "league": "League Two",
@@ -3244,7 +3244,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3263,8 +3263,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "39'"
+   "live_score": "0-1",
+   "minute": "45'+2'"
   },
   {
    "league": "League Two",
@@ -3284,7 +3284,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "39'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3303,8 +3303,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "39'"
+   "live_score": "2-0",
+   "minute": "HT"
   },
   {
    "league": "La Liga 2",
@@ -3324,7 +3324,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "24'"
+   "minute": "32'"
   },
   {
    "league": "La Liga 2",
@@ -3344,7 +3344,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "22'"
+   "minute": "30'"
   },
   {
    "league": "Serie B",
@@ -3363,8 +3363,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "78'"
+   "live_score": "2-0",
+   "minute": "86'"
   },
   {
    "league": "Serie B",
@@ -3384,7 +3384,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "3-1",
-   "minute": "80'"
+   "minute": "88'"
   },
   {
    "league": "Serie B",
@@ -3403,8 +3403,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
-   "live_score": "2-1",
-   "minute": "80'"
+   "live_score": "2-2",
+   "minute": "89'"
   },
   {
    "league": "Eredivisie",
@@ -3424,7 +3424,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "Liga Portugal",
@@ -3444,7 +3444,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "8'"
+   "minute": "16'"
   },
   {
    "league": "Liga Portugal",
@@ -3464,7 +3464,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "8'"
+   "minute": "16'"
   },
   {
    "league": "Pro League",
@@ -3484,7 +3484,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "45'+1'"
   },
   {
    "league": "Scottish Premiership",
@@ -3503,8 +3503,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "40'"
+   "live_score": "1-0",
+   "minute": "HT"
   },
   {
    "league": "Scottish Premiership",
@@ -3523,8 +3523,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "1-3",
-   "minute": "38'"
+   "live_score": "1-4",
+   "minute": "45'+1'"
   },
   {
    "league": "Scottish Premiership",
@@ -3543,8 +3543,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "38'"
+   "live_score": "0-1",
+   "minute": "45'+1'"
   },
   {
    "league": "Scottish Premiership",
@@ -3563,8 +3563,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "38'"
+   "live_score": "1-1",
+   "minute": "45'+1'"
   },
   {
    "league": "Super League (GRE)",
@@ -3583,8 +3583,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "36'"
+   "live_score": "1-0",
+   "minute": "44'"
   },
   {
    "league": "Super League (GRE)",
@@ -3604,7 +3604,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "38'"
+   "minute": "45'+2'"
   },
   {
    "league": "Saudi Pro League",
@@ -3623,8 +3623,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:20Z",
    "prio": 13,
-   "live_score": "1-1",
-   "minute": "60'"
+   "live_score": "1-2",
+   "minute": "68'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
