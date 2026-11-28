@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 19:15 UTC",
+ "date": "2026-11-28 19:23 UTC",
  "version": "V17",
- "ts": "2026-11-28T19:15:09.595461+00:00",
+ "ts": "2026-11-28T19:23:28.943210+00:00",
  "stats": {
-  "n": 749,
-  "n_avant": 364,
+  "n": 751,
+  "n_avant": 366,
   "dc": 79,
   "over": 54,
   "btts": 55,
@@ -12,20 +12,20 @@
   "1x2": 62,
   "n_fav": 357,
   "serre": 73,
-  "n_serre": 392,
+  "n_serre": 394,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 220,
+  "n_ctx": 221,
   "brier_ctx": 0.591,
-  "brier_base": 0.594,
-  "n_h2h": 183,
-  "brier_h2h": 0.584,
-  "brier_noh2h": 0.588
+  "brier_base": 0.593,
+  "n_h2h": 184,
+  "brier_h2h": 0.583,
+  "brier_noh2h": 0.586
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 17, gua.1 6, fra.1 4, usa.1 4, bol.1 3, esp.1 2, esp.2 2, ned.1 2, por.1 2, bel.1 2, ecu.1 2, chi.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 12, gua.1 6, fra.1 4, usa.1 4, bol.1 3, esp.1 2, ned.1 2, por.1 2, bel.1 2, ecu.1 2, chi.1 2, esp.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 155",
   "Matchs africains affichés (à venir / live) : 1",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -2624,27 +2624,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": -1,
    "live_score": "1-1",
-   "minute": "14'"
-  },
-  {
-   "league": "Premier League",
-   "home": "Ipswich Town",
-   "away": "Aston Villa",
-   "status": "live",
-   "conf": 77,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "2026-11-28 | Buts attendus Ipswich Town 1.8 - Aston Villa 1.6 | 1/N/2 : 41/23/36% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Ipswich Town 0V · 2N · Aston Villa 0V (scores : 2-2, 1-1) - trop peu pour influer  ||  Ipswich Town : 17e/20 (11 pts en 11 m.) | repos 7 j | prochains : Coventry City (Premier League, 3 j), Leeds United (Premier League, 7 j), Newcastle United (Premier League, 14 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 4 j | prochains : Everton (Premier League, 4 j), Crystal Palace (Premier League, 7 j), Paris Saint-Germain (Ligue des champions, 10 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:30Z",
-   "prio": 3,
-   "live_score": "2-2",
-   "minute": "87'"
+   "minute": "22'"
   },
   {
    "league": "La Liga",
@@ -2664,7 +2644,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-3",
-   "minute": "85'"
+   "minute": "90'+3'"
   },
   {
    "league": "Bundesliga",
@@ -2684,27 +2664,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-2",
-   "minute": "84'"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Eibar",
-   "away": "Burgos",
-   "status": "live",
-   "conf": 79,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (8%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 50%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-28 | Buts attendus Eibar 1.6 - Burgos 1.0 | 1/N/2 : 46/21/32% | base sur 14 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Eibar 3V · 1N · Burgos 4V (scores : 0-1 x4, 1-0 x2, 2-1)  ||  Eibar : 8e/22 (24 pts en 14 m.) | repos 6 j | prochains : Sant Andreu (Coupe du Roi, 4 j), CD Sabadell (La Liga 2, 7 j), Castellón (La Liga 2, 11 j)  ||  Burgos : 5e/22 (27 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 6 j | prochains : Real Zaragoza (Coupe du Roi, 5 j), Cádiz (La Liga 2, 9 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:30Z",
-   "prio": 9,
-   "live_score": "3-0",
-   "minute": "86'"
+   "minute": "90'+2'"
   },
   {
    "league": "Serie B",
@@ -2724,7 +2684,7 @@
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "Eredivisie",
@@ -2744,7 +2704,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "73'"
+   "minute": "81'"
   },
   {
    "league": "Liga Portugal",
@@ -2764,7 +2724,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "50'"
+   "minute": "58'"
   },
   {
    "league": "Scottish Premiership",
@@ -2783,8 +2743,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
-   "live_score": "2-0",
-   "minute": "72'"
+   "live_score": "3-0",
+   "minute": "80'"
   },
   {
    "league": "Super League (GRE)",
@@ -2803,8 +2763,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "54'"
+   "live_score": "1-2",
+   "minute": "62'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2823,8 +2783,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "43'"
+   "live_score": "1-2",
+   "minute": "HT"
   },
   {
    "league": "MLS",
@@ -2844,7 +2804,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "75'"
+   "minute": "83'"
   },
   {
    "league": "Liga Bolivie",
@@ -2864,7 +2824,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
    "live_score": "1-1",
-   "minute": "14'"
+   "minute": "23'"
   },
   {
    "league": "Liga Equateur",
@@ -2883,8 +2843,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
-   "live_score": "0-0",
-   "minute": "14'"
+   "live_score": "0-1",
+   "minute": "23'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2904,7 +2864,7 @@
    "kickoff": "2026-11-28T18:00Z",
    "prio": 13,
    "live_score": "2-0",
-   "minute": "53'"
+   "minute": "61'"
   },
   {
    "league": "Saudi Pro League",
@@ -2923,8 +2883,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:30Z",
    "prio": 13,
-   "live_score": "2-1",
-   "minute": "84'"
+   "live_score": "3-1",
+   "minute": "90'+2'"
   },
   {
    "league": "Serie A",
@@ -3641,10 +3601,50 @@
    "over": "Under 2.5 50%",
    "btts": "BTTS OUI 53%",
    "analyse": "2026-11-29 | Buts attendus Crystal Palace 1.1 - Hull City 1.6 | 1/N/2 : 27/25/48% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Crystal Palace : 20e/20 (7 pts en 11 m.) | repos 3 j | prochains : Chelsea (Premier League, 3 j), Aston Villa (Premier League, 6 j), Jagiellonia Bialystok (Ligue Europa, 11 j)  ||  Hull City : 11e/20 (14 pts en 11 m.) | repos 7 j | prochains : Nottingham Forest (Premier League, 3 j), AFC Bournemouth (Premier League, 6 j)",
+   "contexte": "Crystal Palace : 20e/20 (7 pts en 11 m.) | repos 3 j | prochains : Chelsea (Premier League, 3 j), Aston Villa (Premier League, 6 j), Jagiellonia Bialystok (Ligue Europa, 11 j)  ||  Hull City : 12e/20 (14 pts en 11 m.) | repos 7 j | prochains : Nottingham Forest (Premier League, 3 j), AFC Bournemouth (Premier League, 6 j)",
    "day": "2026-11-29",
    "kickoff": "2026-11-29T14:05Z",
    "prio": 3
+  },
+  {
+   "league": "Premier League",
+   "home": "Ipswich Town",
+   "away": "Aston Villa",
+   "status": "finished",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 66%",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (2 confrontations) : Ipswich Town 0V · 2N · Aston Villa 0V (scores : 2-2, 1-1) - trop peu pour influer  ||  Ipswich Town : 17e/20 (11 pts en 11 m.) | repos 7 j | prochains : Coventry City (Premier League, 3 j), Leeds United (Premier League, 7 j), Newcastle United (Premier League, 14 j)  ||  Aston Villa : 12e/20 (14 pts en 11 m.) | repos 4 j | prochains : Everton (Premier League, 4 j), Crystal Palace (Premier League, 7 j), Paris Saint-Germain (Ligue des champions, 10 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:30Z",
+   "prio": 3,
+   "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "La Liga 2",
+   "home": "Eibar",
+   "away": "Burgos",
+   "status": "finished",
+   "conf": 79,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (9%) · 1-2 (8%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 50%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Eibar 3V · 1N · Burgos 4V (scores : 0-1 x4, 1-0 x2, 2-1)  ||  Eibar : 8e/22 (24 pts en 14 m.) | repos 6 j | prochains : Sant Andreu (Coupe du Roi, 4 j), CD Sabadell (La Liga 2, 7 j), Castellón (La Liga 2, 11 j)  ||  Burgos : 5e/22 (27 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 6 j | prochains : Real Zaragoza (Coupe du Roi, 5 j), Cádiz (La Liga 2, 9 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:30Z",
+   "prio": 9,
+   "live_score": "3-0",
+   "minute": "FT"
   },
   {
    "league": "Pro League",
@@ -4404,46 +4404,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "3-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Rochdale",
-   "away": "Barnet",
-   "status": "finished",
-   "conf": 78,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 78%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 66%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Rochdale : 22e/24 (15 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Cheltenham Town (League Two, 3 j), Newport County (FA Cup, 7 j), Exeter City (League Two, 14 j)  ||  Barnet : 2e/24 (30 pts en 15 m.) | repos 4 j | prochains : Rotherham United (League Two, 3 j), Plymouth Parkway (FA Cup, 8 j), Northampton Town (League Two, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Rotherham United",
-   "away": "Oldham Athletic",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (7%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 5-0 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Rotherham United : 24e/24 (13 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Barnet (League Two, 3 j), Bristol Rovers (FA Cup, 7 j), Walsall (League Two, 14 j)  ||  Oldham Athletic : 20e/24 (16 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Bristol Rovers (League Two, 3 j), Grimsby Town (FA Cup, 7 j), Gillingham (League Two, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "5-0",
    "minute": "FT"
   }
  ]
