@@ -1,10 +1,10 @@
 {
- "date": "2026-11-28 19:56 UTC",
+ "date": "2026-11-28 20:05 UTC",
  "version": "V17",
- "ts": "2026-11-28T19:56:47.017193+00:00",
+ "ts": "2026-11-28T20:05:09.167208+00:00",
  "stats": {
-  "n": 759,
-  "n_avant": 374,
+  "n": 760,
+  "n_avant": 375,
   "dc": 79,
   "over": 54,
   "btts": 55,
@@ -12,7 +12,7 @@
   "1x2": 62,
   "n_fav": 363,
   "serre": 73,
-  "n_serre": 396,
+  "n_serre": 397,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
@@ -25,7 +25,7 @@
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 9, gua.1 6, fra.1 4, usa.1 3, bol.1 3, por.1 2, bel.1 2, ecu.1 2, chi.1 2, esp.1 1, esp.2 1, ita.1 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 9, gua.1 6, fra.1 4, usa.1 3, bol.1 3, bel.1 2, ecu.1 2, chi.1 2, esp.1 1, esp.2 1, ita.1 1, ita.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 155",
   "Matchs africains affichés (à venir / live) : 1",
@@ -2627,6 +2627,26 @@
    "minute": "HT"
   },
   {
+   "league": "La Liga",
+   "home": "Real Madrid",
+   "away": "Alavés",
+   "status": "live",
+   "conf": 79,
+   "victoire": "Victoire Real Madrid",
+   "score_exact": "2-1 (10%) · 3-1 (8%)",
+   "double_chance": "1X 92%",
+   "corner": "N/D",
+   "over": "Over 2.5 65%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "2026-11-28 | Buts attendus Real Madrid 2.4 - Alavés 0.8 | 1/N/2 : 79/13/8% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (6 confrontations) : Real Madrid 6V · 0N · Alavés 0V (scores : 1-0 x2, 2-1 x2, 5-0)  ||  Real Madrid : 3e/20 (33 pts en 13 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 4 j), Athletic Club (La Liga, 8 j), Arsenal (Ligue des champions, 11 j)  ||  Alavés : 9e/20 (16 pts en 13 m.) | repos 7 j | prochains : Gimnástica Torrelavega (Coupe du Roi, 3 j), Espanyol (La Liga, 6 j), Levante (La Liga, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T20:00Z",
+   "prio": 3,
+   "live_score": "0-0",
+   "minute": "4'"
+  },
+  {
    "league": "Serie A",
    "home": "Internazionale",
    "away": "Genoa",
@@ -2644,7 +2664,7 @@
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "10'"
+   "minute": "18'"
   },
   {
    "league": "Ligue 1",
@@ -2663,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3,
-   "live_score": "0-0",
-   "minute": "7'"
+   "live_score": "0-1",
+   "minute": "16'"
   },
   {
    "league": "Ligue 1",
@@ -2684,7 +2704,7 @@
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "12'"
+   "minute": "20'"
   },
   {
    "league": "Ligue 1",
@@ -2704,7 +2724,7 @@
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "11'"
+   "minute": "20'"
   },
   {
    "league": "Ligue 1",
@@ -2724,7 +2744,27 @@
    "kickoff": "2026-11-28T19:45Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "19'"
+  },
+  {
+   "league": "La Liga 2",
+   "home": "Real Valladolid",
+   "away": "Real Sociedad II",
+   "status": "live",
+   "conf": 61,
+   "victoire": "Victoire Real Valladolid",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 62%",
+   "analyse": "2026-11-28 | Buts attendus Real Valladolid 2.2 - Real Sociedad II 1.2 | 1/N/2 : 61/20/19% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Real Valladolid 1V · 0N · Real Sociedad II 1V (scores : 0-1, 1-0) - trop peu pour influer  ||  Real Valladolid : 14e/22 (19 pts en 15 m.) | repos 6 j | prochains : Zamora CF (Coupe du Roi, 4 j), Girona (La Liga 2, 8 j)  ||  Real Sociedad II : 20e/22 (13 pts en 14 m.) | repos 7 j | prochains : Leganés (La Liga 2, 7 j), Real Oviedo (La Liga 2, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T20:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "5'"
   },
   {
    "league": "Serie B",
@@ -2744,7 +2784,7 @@
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "67'"
+   "minute": "76'"
   },
   {
    "league": "2. Bundesliga",
@@ -2764,27 +2804,27 @@
    "kickoff": "2026-11-28T19:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "26'"
+   "minute": "34'"
   },
   {
-   "league": "Liga Portugal",
-   "home": "Académico de Viseu",
-   "away": "Alverca",
+   "league": "Eredivisie",
+   "home": "SC Cambuur",
+   "away": "Sparta Rotterdam",
    "status": "live",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 73%",
+   "conf": 56,
+   "victoire": "Victoire SC Cambuur",
+   "score_exact": "2-1 (6%) · 3-1 (6%)",
+   "double_chance": "12 82%",
    "corner": "N/D",
-   "over": "Under 2.5 55%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "2026-11-28 | Buts attendus Académico de Viseu 1.2 - Alverca 1.3 | 1/N/2 : 32/27/41% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Académico de Viseu : 5e/18 (19 pts en 10 m.) | repos 20 j | prochains : FC Famalicao (Liga Portugal, 8 j), Arouca (Liga Portugal, 13 j)  ||  Alverca : 10e/18 (12 pts en 10 m.) | repos 21 j | prochains : Moreirense (Liga Portugal, 9 j)",
+   "over": "Over 2.5 86%",
+   "btts": "BTTS OUI 81%",
+   "analyse": "2026-11-28 | Buts attendus SC Cambuur 2.8 - Sparta Rotterdam 2.0 | 1/N/2 : 56/18/27% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : SC Cambuur 0V · 0N · Sparta Rotterdam 2V (scores : 0-3, 1-4) - trop peu pour influer  ||  SC Cambuur : 8e/18 (18 pts en 12 m.) | repos 7 j | prochains : Heerenveen (Eredivisie, 8 j)  ||  Sparta Rotterdam : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : NEC Nijmegen (Eredivisie, 7 j)",
    "day": "2026-11-28",
-   "kickoff": "2026-11-28T18:00Z",
+   "kickoff": "2026-11-28T20:00Z",
    "prio": 9,
-   "live_score": "1-2",
-   "minute": "90'+1'"
+   "live_score": "0-0",
+   "minute": "3'"
   },
   {
    "league": "Pro League",
@@ -2804,7 +2844,7 @@
    "kickoff": "2026-11-28T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "11'"
+   "minute": "20'"
   },
   {
    "league": "Pro League",
@@ -2824,7 +2864,7 @@
    "kickoff": "2026-11-28T19:45Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "10'"
+   "minute": "19'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2844,7 +2884,7 @@
    "kickoff": "2026-11-28T18:30Z",
    "prio": 9,
    "live_score": "2-3",
-   "minute": "68'"
+   "minute": "77'"
   },
   {
    "league": "MLS",
@@ -2864,7 +2904,7 @@
    "kickoff": "2026-11-28T19:30Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "16'"
+   "minute": "24'"
   },
   {
    "league": "Liga Bolivie",
@@ -2884,7 +2924,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
    "live_score": "1-2",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "Liga Equateur",
@@ -2907,58 +2947,24 @@
    "minute": "HT"
   },
   {
-   "league": "La Liga",
-   "home": "Real Madrid",
-   "away": "Alavés",
-   "status": "today",
+   "league": "Copa Libertadores",
+   "home": "Palmeiras",
+   "away": "Estudiantes de La Plata",
+   "status": "live",
    "conf": 79,
-   "victoire": "Victoire Real Madrid",
-   "score_exact": "2-1 (10%) · 3-1 (8%)",
-   "double_chance": "1X 92%",
+   "victoire": "Serré : Nul ou Estudiantes de La Plata",
+   "score_exact": "0-1 (20%) · 0-0 (19%)",
+   "double_chance": "X2 79%",
    "corner": "N/D",
-   "over": "Over 2.5 65%",
-   "btts": "BTTS OUI 50%",
-   "analyse": "2026-11-28 | Buts attendus Real Madrid 2.4 - Alavés 0.8 | 1/N/2 : 79/13/8% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Real Madrid 6V · 0N · Alavés 0V (scores : 1-0 x2, 2-1 x2, 5-0)  ||  Real Madrid : 3e/20 (33 pts en 13 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 4 j), Athletic Club (La Liga, 8 j), Arsenal (Ligue des champions, 11 j)  ||  Alavés : 9e/20 (16 pts en 13 m.) | repos 7 j | prochains : Gimnástica Torrelavega (Coupe du Roi, 3 j), Espanyol (La Liga, 6 j), Levante (La Liga, 14 j)",
+   "over": "Under 2.5 77%",
+   "btts": "BTTS NON 71%",
+   "analyse": "2026-11-28 | Buts attendus Palmeiras 0.6 - Estudiantes de La Plata 1.1 | 1/N/2 : 21/33/46% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Palmeiras : repos 4 j | prochains : Coritiba (Brasileirao, 4 j)  ||  Estudiantes de La Plata : repos 21 j",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
-   "prio": 3
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Real Valladolid",
-   "away": "Real Sociedad II",
-   "status": "today",
-   "conf": 61,
-   "victoire": "Victoire Real Valladolid",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "2026-11-28 | Buts attendus Real Valladolid 2.2 - Real Sociedad II 1.2 | 1/N/2 : 61/20/19% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Real Valladolid 1V · 0N · Real Sociedad II 1V (scores : 0-1, 1-0) - trop peu pour influer  ||  Real Valladolid : 14e/22 (19 pts en 15 m.) | repos 6 j | prochains : Zamora CF (Coupe du Roi, 4 j), Girona (La Liga 2, 8 j)  ||  Real Sociedad II : 20e/22 (13 pts en 14 m.) | repos 7 j | prochains : Leganés (La Liga 2, 7 j), Real Oviedo (La Liga 2, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T20:00Z",
-   "prio": 9
-  },
-  {
-   "league": "Eredivisie",
-   "home": "SC Cambuur",
-   "away": "Sparta Rotterdam",
-   "status": "today",
-   "conf": 56,
-   "victoire": "Victoire SC Cambuur",
-   "score_exact": "2-1 (6%) · 3-1 (6%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 86%",
-   "btts": "BTTS OUI 81%",
-   "analyse": "2026-11-28 | Buts attendus SC Cambuur 2.8 - Sparta Rotterdam 2.0 | 1/N/2 : 56/18/27% | base sur 12 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : SC Cambuur 0V · 0N · Sparta Rotterdam 2V (scores : 0-3, 1-4) - trop peu pour influer  ||  SC Cambuur : 8e/18 (18 pts en 12 m.) | repos 7 j | prochains : Heerenveen (Eredivisie, 8 j)  ||  Sparta Rotterdam : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : NEC Nijmegen (Eredivisie, 7 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T20:00Z",
-   "prio": 9
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "1'"
   },
   {
    "league": "Liga Portugal",
@@ -3193,24 +3199,6 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T23:00Z",
    "prio": 10
-  },
-  {
-   "league": "Copa Libertadores",
-   "home": "Palmeiras",
-   "away": "Estudiantes de La Plata",
-   "status": "today",
-   "conf": 79,
-   "victoire": "Serré : Nul ou Estudiantes de La Plata",
-   "score_exact": "0-1 (20%) · 0-0 (19%)",
-   "double_chance": "X2 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 77%",
-   "btts": "BTTS NON 71%",
-   "analyse": "2026-11-28 | Buts attendus Palmeiras 0.6 - Estudiantes de La Plata 1.1 | 1/N/2 : 21/33/46% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Palmeiras : repos 4 j | prochains : Coritiba (Brasileirao, 4 j)  ||  Estudiantes de La Plata : repos 21 j",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T20:00Z",
-   "prio": 12
   },
   {
    "league": "Liga Chili",
@@ -3625,6 +3613,98 @@
    "day": "2026-11-29",
    "kickoff": "2026-11-29T17:30Z",
    "prio": 3
+  },
+  {
+   "league": "Bundesliga",
+   "home": "Borussia Dortmund",
+   "away": "Bayer Leverkusen",
+   "status": "today",
+   "conf": 56,
+   "victoire": "Victoire Borussia Dortmund",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "1X 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 58%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "2026-11-29 | Buts attendus Borussia Dortmund 2.0 - Bayer Leverkusen 1.1 | 1/N/2 : 56/23/21% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Borussia Dortmund 4V · 2N · Bayer Leverkusen 2V (scores : 1-1 x2, 1-0, 2-0)  ||  Borussia Dortmund : 1e/18 (24 pts en 10 m.) | repos 5 j | prochains : Eintracht Frankfurt (Coupe d'Allemagne, 3 j), Schalke 04 (Bundesliga, 7 j), Internazionale (Ligue des champions, 10 j)  ||  Bayer Leverkusen : 5e/18 (19 pts en 10 m.) | repos 3 j | prochains : RB Leipzig (Coupe d'Allemagne, 3 j), Borussia Mönchengladbach (Bundesliga, 6 j), Besiktas (Ligue Europa, 11 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T18:30Z",
+   "prio": 3
+  },
+  {
+   "league": "Serie A",
+   "home": "Como",
+   "away": "Juventus",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (13%) · 0-1 (11%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 55%",
+   "analyse": "2026-11-29 | Buts attendus Como 1.3 - Juventus 1.0 | 1/N/2 : 45/23/32% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Como 2V · 0N · Juventus 2V (scores : 2-0 x2, 0-3, 1-2)  ||  Como : 5e/20 (26 pts en 12 m.) | repos 5 j | prochains : Cremonese (Coupe d'Italie, 3 j), Monza (Serie A, 6 j), Real Betis (Ligue des champions, 10 j)  ||  Juventus : 7e/20 (21 pts en 12 m.) | repos 3 j | prochains : Sassuolo (Coupe d'Italie, 4 j), Udinese (Serie A, 7 j), Hapoel Be'er (Ligue Europa, 11 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T19:45Z",
+   "prio": 3
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Lyon",
+   "away": "AS Monaco",
+   "status": "today",
+   "conf": 79,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-0 (16%) · 0-1 (13%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 64%",
+   "btts": "BTTS NON 62%",
+   "analyse": "2026-11-29 | Buts attendus Lyon 1.3 - AS Monaco 0.8 | 1/N/2 : 48/21/31% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Lyon 4V · 0N · AS Monaco 4V (scores : 1-2 x2, 3-1 x2, 0-2 x2)  ||  Lyon : 5e/18 (20 pts en 11 m.) | repos 3 j | prochains : Troyes (Ligue 1, 7 j), Union St.-Gilloise (Ligue Europa, 11 j)  ||  AS Monaco : 8e/18 (17 pts en 11 m.) | repos 3 j | prochains : Angers (Ligue 1, 6 j), Brighton & Hove Albion (Conference League, 11 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T19:45Z",
+   "prio": 3
+  },
+  {
+   "league": "La Liga",
+   "home": "Real Sociedad",
+   "away": "Sevilla",
+   "status": "today",
+   "conf": 52,
+   "victoire": "Victoire Real Sociedad",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "12 84%",
+   "corner": "N/D",
+   "over": "Over 2.5 70%",
+   "btts": "BTTS OUI 67%",
+   "analyse": "2026-11-29 | Buts attendus Real Sociedad 2.0 - Sevilla 1.6 | 1/N/2 : 52/16/33% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Real Sociedad 5V · 0N · Sevilla 3V (scores : 2-1 x4, 0-1 x2, 2-3)  ||  Real Sociedad : 5e/20 (22 pts en 13 m.) | repos 3 j | prochains : Real Madrid (La Liga, 3 j), Villarreal (La Liga, 6 j), Torreense (Ligue Europa, 11 j)  ||  Sevilla : 8e/20 (19 pts en 13 m.) | repos 8 j | prochains : Atlético Paso (Coupe du Roi, 4 j), Málaga (La Liga, 8 j), Elche (La Liga, 12 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T20:00Z",
+   "prio": 3
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Académico de Viseu",
+   "away": "Alverca",
+   "status": "finished",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Under 2.5 55%",
+   "btts": "BTTS OUI 50%",
+   "analyse": "Resultat 1-2 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Académico de Viseu : 5e/18 (19 pts en 10 m.) | repos 20 j | prochains : FC Famalicao (Liga Portugal, 8 j), Arouca (Liga Portugal, 13 j)  ||  Alverca : 10e/18 (12 pts en 10 m.) | repos 21 j | prochains : Moreirense (Liga Portugal, 9 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T18:00Z",
+   "prio": 9,
+   "live_score": "1-2",
+   "minute": "FT"
   },
   {
    "league": "Super League (GRE)",
@@ -4404,26 +4484,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "League One",
-   "home": "Sheffield Wednesday",
-   "away": "Reading",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (9%) · 1-2 (6%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 50%",
-   "btts": "BTTS OUI 53%",
-   "analyse": "Resultat 1-4 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Sheffield Wednesday : 4e/24 (27 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 4 j | prochains : Oxford United (League One, 3 j), Leicester City (League One, 12 j)  ||  Reading : 11e/24 (22 pts en 16 m.) | repos 7 j | prochains : Doncaster Rovers (League One, 3 j), Stockport County (FA Cup, 7 j), Burton Albion (League One, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "1-4",
    "minute": "FT"
   }
  ]
