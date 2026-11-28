@@ -1,27 +1,27 @@
 {
- "date": "2026-11-28 01:28 UTC",
+ "date": "2026-11-28 01:36 UTC",
  "version": "V17",
- "ts": "2026-11-28T01:28:24.215425+00:00",
+ "ts": "2026-11-28T01:36:49.333065+00:00",
  "stats": {
-  "n": 660,
-  "n_avant": 280,
+  "n": 661,
+  "n_avant": 281,
   "dc": 80,
   "over": 54,
-  "btts": 55,
+  "btts": 54,
   "score": 18,
   "1x2": 61,
   "n_fav": 322,
   "serre": 73,
-  "n_serre": 338,
+  "n_serre": 339,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 161,
-  "brier_ctx": 0.573,
-  "brier_base": 0.577,
-  "n_h2h": 139,
-  "brier_h2h": 0.577,
-  "brier_noh2h": 0.581
+  "n_ctx": 162,
+  "brier_ctx": 0.574,
+  "brier_base": 0.578,
+  "n_h2h": 140,
+  "brier_h2h": 0.578,
+  "brier_noh2h": 0.583
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 13 s"
+  "Durée du run : 15 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T01:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "12'"
+   "minute": "20'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
    "live_score": "0-1",
-   "minute": "64'"
+   "minute": "72'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2663,28 +2663,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
-   "live_score": "0-1",
-   "minute": "63'"
-  },
-  {
-   "league": "Liga Colombia",
-   "home": "Deportivo Cali",
-   "away": "Atlético Bucaramanga",
-   "status": "live",
-   "conf": 76,
-   "victoire": "Serré : Nul ou Deportivo Cali",
-   "score_exact": "0-0 (12%) · 1-0 (12%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 53%",
-   "analyse": "2026-11-27 | Buts attendus Deportivo Cali 1.5 - Atlético Bucaramanga 0.9 | 1/N/2 : 43/33/24% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Deportivo Cali 2V · 4N · Atlético Bucaramanga 2V (scores : 1-1 x2, 0-0 x2, 0-1)  ||  Deportivo Cali : repos 3 j | prochains : Atlético Bucaramanga (Liga Colombia, 4 j)  ||  Atlético Bucaramanga : repos 3 j | prochains : Deportivo Cali (Liga Colombia, 4 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:35Z",
-   "prio": 12,
    "live_score": "1-1",
-   "minute": "90'+2'"
+   "minute": "72'"
   },
   {
    "league": "Liga Uruguay",
@@ -2704,7 +2684,7 @@
    "kickoff": "2026-11-27T23:30Z",
    "prio": 12,
    "live_score": "2-2",
-   "minute": "90'+10'"
+   "minute": "93'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3425,6 +3405,26 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
+  },
+  {
+   "league": "Liga Colombia",
+   "home": "Deportivo Cali",
+   "away": "Atlético Bucaramanga",
+   "status": "finished",
+   "conf": 76,
+   "victoire": "Serré : Nul ou Deportivo Cali",
+   "score_exact": "0-0 (12%) · 1-0 (12%)",
+   "double_chance": "1X 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 53%",
+   "analyse": "Resultat 1-1 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : Deportivo Cali 2V · 4N · Atlético Bucaramanga 2V (scores : 1-1 x2, 0-0 x2, 0-1)  ||  Deportivo Cali : repos 3 j | prochains : Atlético Bucaramanga (Liga Colombia, 4 j)  ||  Atlético Bucaramanga : repos 3 j | prochains : Deportivo Cali (Liga Colombia, 4 j)",
+   "day": "2026-11-27",
+   "kickoff": "2026-11-27T23:35Z",
+   "prio": 12,
+   "live_score": "1-1",
+   "minute": "FT"
   },
   {
    "league": "Primera Paraguay",
@@ -4204,26 +4204,6 @@
    "kickoff": "2026-11-27T01:00Z",
    "prio": 12,
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Brasileirao",
-   "home": "São Paulo",
-   "away": "Remo",
-   "status": "finished",
-   "conf": 77,
-   "victoire": "Serré : Nul ou São Paulo",
-   "score_exact": "1-0 (15%) · 0-0 (11%)",
-   "double_chance": "1X 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 63%",
-   "btts": "BTTS NON 59%",
-   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (1 confrontation) : São Paulo 0V · 0N · Remo 1V (scores : 0-1) - trop peu pour influer  ||  São Paulo : repos 3 j | prochains : Athletico-PR (Brasileirao, 6 j)  ||  Remo : repos 4 j | prochains : Corinthians (Brasileirao, 6 j)",
-   "day": "2026-11-26",
-   "kickoff": "2026-11-26T23:00Z",
-   "prio": 9,
-   "live_score": "3-1",
    "minute": "FT"
   }
  ]
