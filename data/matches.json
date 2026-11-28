@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 08:35 UTC",
+ "date": "2026-11-28 08:43 UTC",
  "version": "V17",
- "ts": "2026-11-28T08:35:07.678922+00:00",
+ "ts": "2026-11-28T08:43:24.021690+00:00",
  "stats": {
   "n": 673,
   "n_avant": 293,
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,27 @@
    "kickoff": "2026-11-28T07:00Z",
    "prio": 12,
    "live_score": "3-1",
-   "minute": "74'"
+   "minute": "82'"
+  },
+  {
+   "league": "A-League",
+   "home": "Central Coast Mariners FC",
+   "away": "Auckland FC",
+   "status": "live",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (8%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 56%",
+   "analyse": "2026-11-28 | Buts attendus Central Coast Mariners FC 1.6 - Auckland FC 1.2 | 1/N/2 : 40/28/31% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (5 confrontations) : Central Coast Mariners FC 1V · 2N · Auckland FC 2V (scores : 2-2 x2, 1-4, 1-2)  ||  Central Coast Mariners FC : repos 7 j | prochains : Brisbane Roar FC (A-League, 14 j)  ||  Auckland FC : repos 7 j | prochains : Sydney FC (A-League, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T08:40Z",
+   "prio": 12,
+   "live_score": "0-0",
+   "minute": "3'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
