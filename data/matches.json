@@ -1,40 +1,40 @@
 {
- "date": "2026-11-28 19:23 UTC",
+ "date": "2026-11-28 19:31 UTC",
  "version": "V17",
- "ts": "2026-11-28T19:23:28.943210+00:00",
+ "ts": "2026-11-28T19:31:48.229100+00:00",
  "stats": {
-  "n": 751,
-  "n_avant": 366,
+  "n": 754,
+  "n_avant": 369,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
   "1x2": 62,
-  "n_fav": 357,
+  "n_fav": 359,
   "serre": 73,
-  "n_serre": 394,
+  "n_serre": 395,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 221,
+  "n_ctx": 223,
   "brier_ctx": 0.591,
-  "brier_base": 0.593,
-  "n_h2h": 184,
-  "brier_h2h": 0.583,
-  "brier_noh2h": 0.586
+  "brier_base": 0.594,
+  "n_h2h": 186,
+  "brier_h2h": 0.584,
+  "brier_noh2h": 0.587
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 12, gua.1 6, fra.1 4, usa.1 4, bol.1 3, esp.1 2, ned.1 2, por.1 2, bel.1 2, ecu.1 2, chi.1 2, esp.2 1",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 12, gua.1 6, fra.1 4, usa.1 4, bol.1 3, ned.1 2, por.1 2, bel.1 2, ecu.1 2, chi.1 2, esp.1 1, esp.2 1",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 155",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 91",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 89",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 3 s"
  ],
  "tickets": [
   {
@@ -89,8 +89,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": false,
+       "score": "2-3"
       },
       {
        "id": "401880135",
@@ -160,7 +160,7 @@
       }
      ],
      "combined": 4.4,
-     "status": "en cours"
+     "status": "perdu"
     },
     {
      "name": "Ticket 5 matchs (sûr)",
@@ -2624,47 +2624,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": -1,
    "live_score": "1-1",
-   "minute": "22'"
-  },
-  {
-   "league": "La Liga",
-   "home": "Elche",
-   "away": "Atlético Madrid",
-   "status": "live",
-   "conf": 52,
-   "victoire": "Victoire Atlético Madrid",
-   "score_exact": "0-1 (11%) · 0-2 (10%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS NON 51%",
-   "analyse": "2026-11-28 | Buts attendus Elche 0.9 - Atlético Madrid 1.7 | 1/N/2 : 25/24/52% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Elche 2V · 1N · Atlético Madrid 1V (scores : 0-2, 1-0, 1-1)  ||  Elche : 19e/20 (11 pts en 13 m.) | repos 5 j | prochains : FC Cartagena (Coupe du Roi, 3 j), Osasuna (La Liga, 8 j), Sevilla (La Liga, 13 j)  ||  Atlético Madrid : 3e/20 (31 pts en 13 m.) | repos 3 j | prochains : Barcelona (La Liga, 4 j), Real Betis (La Liga, 8 j), PSV Eindhoven (Ligue des champions, 11 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:30Z",
-   "prio": 3,
-   "live_score": "2-3",
-   "minute": "90'+3'"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "VfB Stuttgart",
-   "away": "Eintracht Frankfurt",
-   "status": "live",
-   "conf": 55,
-   "victoire": "Victoire VfB Stuttgart",
-   "score_exact": "2-1 (9%) · 3-1 (7%)",
-   "double_chance": "12 79%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "2026-11-28 | Buts attendus VfB Stuttgart 2.3 - Eintracht Frankfurt 1.2 | 1/N/2 : 55/21/24% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : VfB Stuttgart 3V · 2N · Eintracht Frankfurt 3V (scores : 1-3, 1-1, 2-1)  ||  VfB Stuttgart : 10e/18 (13 pts en 10 m.) | repos 3 j | prochains : Dynamo Dresden (Coupe d'Allemagne, 3 j), SV Elversberg (Bundesliga, 8 j), Lille (Ligue des champions, 11 j)  ||  Eintracht Frankfurt : 7e/18 (15 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Coupe d'Allemagne, 4 j), Werder Bremen (Bundesliga, 7 j), Borussia Mönchengladbach (Bundesliga, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:30Z",
-   "prio": 3,
-   "live_score": "2-2",
-   "minute": "90'+2'"
+   "minute": "31'"
   },
   {
    "league": "Serie B",
@@ -2687,6 +2647,26 @@
    "minute": "HT"
   },
   {
+   "league": "2. Bundesliga",
+   "home": "VfL Osnabruck",
+   "away": "Hannover 96",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Serré : Nul ou VfL Osnabruck",
+   "score_exact": "1-0 (15%) · 0-0 (11%)",
+   "double_chance": "1X 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 61%",
+   "btts": "BTTS NON 57%",
+   "analyse": "2026-11-28 | Buts attendus VfL Osnabruck 1.4 - Hannover 96 0.9 | 1/N/2 : 49/28/24% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (1 confrontation) : VfL Osnabruck 0V · 0N · Hannover 96 1V (scores : 0-7) - trop peu pour influer  ||  VfL Osnabruck : 12e/18 (12 pts en 11 m.) | repos 6 j | prochains : Energie Cottbus (2. Bundesliga, 6 j)  ||  Hannover 96 : 9e/18 (15 pts en 11 m.) | repos 7 j | prochains : Hertha Berlin (2. Bundesliga, 7 j), Holstein Kiel (2. Bundesliga, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T19:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "2'"
+  },
+  {
    "league": "Eredivisie",
    "home": "PSV Eindhoven",
    "away": "Go Ahead Eagles",
@@ -2703,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
-   "live_score": "2-0",
-   "minute": "81'"
+   "live_score": "3-0",
+   "minute": "89'"
   },
   {
    "league": "Liga Portugal",
@@ -2723,8 +2703,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "58'"
+   "live_score": "0-2",
+   "minute": "66'"
   },
   {
    "league": "Scottish Premiership",
@@ -2744,7 +2724,7 @@
    "kickoff": "2026-11-28T17:45Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "80'"
+   "minute": "89'"
   },
   {
    "league": "Super League (GRE)",
@@ -2763,8 +2743,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:00Z",
    "prio": 9,
-   "live_score": "1-2",
-   "minute": "62'"
+   "live_score": "2-2",
+   "minute": "70'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2804,7 +2784,7 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "83'"
+   "minute": "90'+1'"
   },
   {
    "league": "Liga Bolivie",
@@ -2823,8 +2803,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
-   "live_score": "1-1",
-   "minute": "23'"
+   "live_score": "1-2",
+   "minute": "31'"
   },
   {
    "league": "Liga Equateur",
@@ -2844,7 +2824,7 @@
    "kickoff": "2026-11-28T19:00Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "23'"
+   "minute": "32'"
   },
   {
    "league": "Concacaf W Championship",
@@ -2863,28 +2843,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T18:00Z",
    "prio": 13,
-   "live_score": "2-0",
-   "minute": "61'"
-  },
-  {
-   "league": "Saudi Pro League",
-   "home": "Al Ahli",
-   "away": "Al Taawoun",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (8%) · 2-1 (8%)",
-   "double_chance": "12 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 51%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-28 | Buts attendus Al Ahli 1.3 - Al Taawoun 1.4 | 1/N/2 : 35/26/39% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Al Ahli : repos 5 j | prochains : Shabab Al Ahli (AFC Champions League, 10 j)  ||  Al Taawoun : repos 3 j | prochains : Al-Rayyan SC (AFC Champions League Two, 11 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:30Z",
-   "prio": 13,
-   "live_score": "3-1",
-   "minute": "90'+2'"
+   "live_score": "3-0",
+   "minute": "70'"
   },
   {
    "league": "Serie A",
@@ -2989,28 +2949,10 @@
    "over": "Over 2.5 65%",
    "btts": "BTTS OUI 50%",
    "analyse": "2026-11-28 | Buts attendus Real Madrid 2.4 - Alavés 0.8 | 1/N/2 : 79/13/8% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (6 confrontations) : Real Madrid 6V · 0N · Alavés 0V (scores : 1-0 x2, 2-1 x2, 5-0)  ||  Real Madrid : 2e/20 (33 pts en 13 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 4 j), Athletic Club (La Liga, 8 j), Arsenal (Ligue des champions, 11 j)  ||  Alavés : 9e/20 (16 pts en 13 m.) | repos 7 j | prochains : Gimnástica Torrelavega (Coupe du Roi, 3 j), Espanyol (La Liga, 6 j), Levante (La Liga, 14 j)",
+   "contexte": "Face-à-face (6 confrontations) : Real Madrid 6V · 0N · Alavés 0V (scores : 1-0 x2, 2-1 x2, 5-0)  ||  Real Madrid : 3e/20 (33 pts en 13 m.) | repos 4 j | prochains : Real Sociedad (La Liga, 4 j), Athletic Club (La Liga, 8 j), Arsenal (Ligue des champions, 11 j)  ||  Alavés : 9e/20 (16 pts en 13 m.) | repos 7 j | prochains : Gimnástica Torrelavega (Coupe du Roi, 3 j), Espanyol (La Liga, 6 j), Levante (La Liga, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "VfL Osnabruck",
-   "away": "Hannover 96",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : Nul ou VfL Osnabruck",
-   "score_exact": "1-0 (15%) · 0-0 (11%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 61%",
-   "btts": "BTTS NON 57%",
-   "analyse": "2026-11-28 | Buts attendus VfL Osnabruck 1.4 - Hannover 96 0.9 | 1/N/2 : 49/28/24% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (1 confrontation) : VfL Osnabruck 0V · 0N · Hannover 96 1V (scores : 0-7) - trop peu pour influer  ||  VfL Osnabruck : 12e/18 (12 pts en 11 m.) | repos 6 j | prochains : Energie Cottbus (2. Bundesliga, 6 j)  ||  Hannover 96 : 9e/18 (15 pts en 11 m.) | repos 7 j | prochains : Hertha Berlin (2. Bundesliga, 7 j), Holstein Kiel (2. Bundesliga, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T19:30Z",
-   "prio": 9
   },
   {
    "league": "MLS",
@@ -3608,6 +3550,24 @@
   },
   {
    "league": "Premier League",
+   "home": "Fulham",
+   "away": "AFC Bournemouth",
+   "status": "today",
+   "conf": 72,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (15%) · 1-0 (9%)",
+   "double_chance": "12 72%",
+   "corner": "N/D",
+   "over": "Under 2.5 60%",
+   "btts": "BTTS NON 55%",
+   "analyse": "2026-11-29 | Buts attendus Fulham 1.1 - AFC Bournemouth 1.2 | 1/N/2 : 28/28/45% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Fulham 1V · 2N · AFC Bournemouth 5V (scores : 2-2 x2, 0-1 x2, 1-2)  ||  Fulham : 17e/20 (11 pts en 11 m.) | repos 8 j | prochains : Tottenham Hotspur (Premier League, 4 j), Everton (Premier League, 7 j), Brentford (Premier League, 13 j)  ||  AFC Bournemouth : 7e/20 (18 pts en 11 m.) | repos 3 j | prochains : Brighton & Hove Albion (Premier League, 3 j), Hull City (Premier League, 6 j), Viktoria Plzen (Ligue Europa, 11 j)",
+   "day": "2026-11-29",
+   "kickoff": "2026-11-29T14:05Z",
+   "prio": 3
+  },
+  {
+   "league": "Premier League",
    "home": "Ipswich Town",
    "away": "Aston Villa",
    "status": "finished",
@@ -3624,6 +3584,26 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 3,
    "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "La Liga",
+   "home": "Elche",
+   "away": "Atlético Madrid",
+   "status": "finished",
+   "conf": 52,
+   "victoire": "Victoire Atlético Madrid",
+   "score_exact": "0-1 (11%) · 0-2 (10%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS NON 51%",
+   "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : Elche 2V · 1N · Atlético Madrid 1V (scores : 0-2, 1-0, 1-1)  ||  Elche : 19e/20 (11 pts en 13 m.) | repos 5 j | prochains : FC Cartagena (Coupe du Roi, 3 j), Osasuna (La Liga, 8 j), Sevilla (La Liga, 13 j)  ||  Atlético Madrid : 3e/20 (31 pts en 13 m.) | repos 3 j | prochains : Barcelona (La Liga, 4 j), Real Betis (La Liga, 8 j), PSV Eindhoven (Ligue des champions, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:30Z",
+   "prio": 3,
+   "live_score": "2-3",
    "minute": "FT"
   },
   {
@@ -3644,6 +3624,46 @@
    "kickoff": "2026-11-28T17:30Z",
    "prio": 9,
    "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Bundesliga",
+   "home": "VfB Stuttgart",
+   "away": "Eintracht Frankfurt",
+   "status": "finished",
+   "conf": 55,
+   "victoire": "Victoire VfB Stuttgart",
+   "score_exact": "2-1 (9%) · 3-1 (7%)",
+   "double_chance": "12 79%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 63%",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (8 confrontations) : VfB Stuttgart 3V · 2N · Eintracht Frankfurt 3V (scores : 1-3, 1-1, 2-1)  ||  VfB Stuttgart : 10e/18 (13 pts en 10 m.) | repos 3 j | prochains : Dynamo Dresden (Coupe d'Allemagne, 3 j), SV Elversberg (Bundesliga, 8 j), Lille (Ligue des champions, 11 j)  ||  Eintracht Frankfurt : 7e/18 (15 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Coupe d'Allemagne, 4 j), Werder Bremen (Bundesliga, 7 j), Borussia Mönchengladbach (Bundesliga, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:30Z",
+   "prio": 3,
+   "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "Saudi Pro League",
+   "home": "Al Ahli",
+   "away": "Al Taawoun",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (8%) · 2-1 (8%)",
+   "double_chance": "12 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Al Ahli : repos 5 j | prochains : Shabab Al Ahli (AFC Champions League, 10 j)  ||  Al Taawoun : repos 3 j | prochains : Al-Rayyan SC (AFC Champions League Two, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:30Z",
+   "prio": 13,
+   "live_score": "3-1",
    "minute": "FT"
   },
   {
@@ -4344,66 +4364,6 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Crewe Alexandra",
-   "away": "Grimsby Town",
-   "status": "finished",
-   "conf": 82,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (10%) · 2-1 (8%)",
-   "double_chance": "12 82%",
-   "corner": "N/D",
-   "over": "Over 2.5 59%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "Resultat 2-3 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Crewe Alexandra 3V · 0N · Grimsby Town 5V (scores : 0-3 x2, 2-0 x2, 0-2)  ||  Crewe Alexandra : 8e/24 (24 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Accrington Stanley (League Two, 3 j), Plymouth Argyle (FA Cup, 8 j), Cheltenham Town (League Two, 14 j)  ||  Grimsby Town : 5e/24 (24 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Colchester United (League Two, 3 j), Oldham Athletic (FA Cup, 7 j), Chesterfield (League Two, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "2-3",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Fleetwood Town",
-   "away": "Accrington Stanley",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (10%) · 1-2 (6%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (4 confrontations) : Fleetwood Town 3V · 1N · Accrington Stanley 0V (scores : 2-1 x2, 1-1, 4-1)  ||  Fleetwood Town : 15e/24 (20 pts en 16 m.) | repos 7 j | prochains : Northampton Town (League Two, 3 j), Swindon Town (League Two, 14 j)  ||  Accrington Stanley : 14e/24 (20 pts en 16 m.) | repos 7 j | prochains : Crewe Alexandra (League Two, 3 j), Bristol Rovers (League Two, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "1-1",
-   "minute": "FT"
-  },
-  {
-   "league": "League Two",
-   "home": "Port Vale",
-   "away": "Newport County",
-   "status": "finished",
-   "conf": 72,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (12%) · 0-1 (11%)",
-   "double_chance": "12 72%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 53%",
-   "analyse": "Resultat 3-2 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : Port Vale 2V · 0N · Newport County 0V (scores : 4-1, 3-2) - trop peu pour influer  ||  Port Vale : 17e/24 (19 pts en 15 m.) | repos 4 j | prochains : Crawley Town (League Two, 3 j), Leyton Orient (FA Cup, 7 j), Shrewsbury Town (League Two, 14 j)  ||  Newport County : 10e/24 (22 pts en 16 m.) | enjeu fort (proche d'une zone cle) | repos 7 j | prochains : Walsall (League Two, 3 j), Rochdale (FA Cup, 7 j), Crawley Town (League Two, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:00Z",
-   "prio": 9,
-   "live_score": "3-2",
    "minute": "FT"
   }
  ]
