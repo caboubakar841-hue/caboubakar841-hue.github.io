@@ -1,16 +1,16 @@
 {
- "date": "2026-11-28 15:55 UTC",
+ "date": "2026-11-28 16:04 UTC",
  "version": "V17",
- "ts": "2026-11-28T15:55:49.169640+00:00",
+ "ts": "2026-11-28T16:04:09.661094+00:00",
  "stats": {
-  "n": 693,
-  "n_avant": 311,
+  "n": 694,
+  "n_avant": 312,
   "dc": 80,
   "over": 54,
   "btts": 54,
   "score": 18,
   "1x2": 62,
-  "n_fav": 335,
+  "n_fav": 336,
   "serre": 73,
   "n_serre": 358,
   "base_dom": 47,
@@ -29,12 +29,12 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 154",
   "Matchs africains affichés (à venir / live) : 1",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 130",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 129",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 5 s"
+  "Durée du run : 21 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "2-0",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "Premier League",
@@ -2663,8 +2663,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:15Z",
    "prio": 3,
-   "live_score": "1-3",
-   "minute": "40'"
+   "live_score": "1-4",
+   "minute": "45'+3'"
   },
   {
    "league": "Bundesliga",
@@ -2683,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
-   "live_score": "4-0",
-   "minute": "67'"
+   "live_score": "5-0",
+   "minute": "76'"
   },
   {
    "league": "Bundesliga",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "67'"
+   "minute": "75'"
   },
   {
    "league": "Bundesliga",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-1",
-   "minute": "66'"
+   "minute": "74'"
   },
   {
    "league": "Bundesliga",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "5-1",
-   "minute": "65'"
+   "minute": "73'"
   },
   {
    "league": "Championship",
@@ -2804,7 +2804,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "Championship",
@@ -2824,7 +2824,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "Championship",
@@ -2904,7 +2904,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "League One",
@@ -2944,7 +2944,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "League One",
@@ -2984,7 +2984,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "League One",
@@ -3004,7 +3004,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "League One",
@@ -3024,7 +3024,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "League One",
@@ -3084,7 +3084,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "League Two",
@@ -3124,7 +3124,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "League Two",
@@ -3144,7 +3144,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "League Two",
@@ -3164,7 +3164,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "League Two",
@@ -3204,7 +3204,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "League Two",
@@ -3244,7 +3244,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "League Two",
@@ -3264,7 +3264,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "HT"
+   "minute": "47'"
   },
   {
    "league": "La Liga 2",
@@ -3284,7 +3284,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "41'"
+   "minute": "HT"
   },
   {
    "league": "La Liga 2",
@@ -3304,27 +3304,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "39'"
-  },
-  {
-   "league": "Serie B",
-   "home": "Ascoli",
-   "away": "Virtus Entella",
-   "status": "live",
-   "conf": 50,
-   "victoire": "Victoire Ascoli",
-   "score_exact": "1-0 (14%) · 2-0 (10%)",
-   "double_chance": "1X 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 54%",
-   "analyse": "2026-11-28 | Buts attendus Ascoli 1.5 - Virtus Entella 0.9 | 1/N/2 : 50/26/23% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Ascoli : 5e/20 (21 pts en 13 m.) | repos 4 j | prochains : Mantova (Serie B, 7 j), Juve Stabia (Serie B, 10 j), Pisa (Serie B, 14 j)  ||  Virtus Entella : 16e/20 (13 pts en 13 m.) | repos 4 j | prochains : Empoli (Serie B, 8 j), Catanzaro (Serie B, 11 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:00Z",
-   "prio": 9,
-   "live_score": "2-0",
-   "minute": "90'+4'"
+   "minute": "45'+2'"
   },
   {
    "league": "Eredivisie",
@@ -3344,7 +3324,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "25'"
+   "minute": "34'"
   },
   {
    "league": "Liga Portugal",
@@ -3364,7 +3344,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "24'"
+   "minute": "33'"
   },
   {
    "league": "Liga Portugal",
@@ -3384,7 +3364,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "25'"
+   "minute": "34'"
   },
   {
    "league": "Pro League",
@@ -3407,6 +3387,26 @@
    "minute": "HT"
   },
   {
+   "league": "Super Lig",
+   "home": "Gaziantep FK",
+   "away": "Amed SFK",
+   "status": "live",
+   "conf": 60,
+   "victoire": "Victoire Amed SFK",
+   "score_exact": "1-2 (10%) · 1-3 (7%)",
+   "double_chance": "X2 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 60%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-11-28 | Buts attendus Gaziantep FK 1.1 - Amed SFK 2.0 | 1/N/2 : 19/21/60% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Gaziantep FK : 17e/18 (8 pts en 12 m.) | repos 7 j | prochains : Konyaspor (Super Lig, 7 j)  ||  Amed SFK : 4e/18 (23 pts en 12 m.) | repos 7 j | prochains : Alanyaspor (Super Lig, 7 j), Çorum FK (Super Lig, 13 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "4'"
+  },
+  {
    "league": "Scottish Premiership",
    "home": "Aberdeen",
    "away": "Dundee",
@@ -3424,7 +3424,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "Scottish Premiership",
@@ -3444,7 +3444,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-4",
-   "minute": "HT"
+   "minute": "46'"
   },
   {
    "league": "Scottish Premiership",
@@ -3527,6 +3527,26 @@
    "minute": "HT"
   },
   {
+   "league": "Bundesliga (AUT)",
+   "home": "Austria Vienna",
+   "away": "Wolfsberger",
+   "status": "live",
+   "conf": 61,
+   "victoire": "Victoire Austria Vienna",
+   "score_exact": "1-0 (13%) · 2-0 (13%)",
+   "double_chance": "12 81%",
+   "corner": "N/D",
+   "over": "Under 2.5 52%",
+   "btts": "BTTS NON 58%",
+   "analyse": "2026-11-28 | Buts attendus Austria Vienna 1.9 - Wolfsberger 0.7 | 1/N/2 : 61/19/20% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Austria Vienna 4V · 1N · Wolfsberger 3V (scores : 2-1 x2, 3-1, 1-0)  ||  Austria Vienna : 10e/12 (11 pts en 11 m.) | repos 6 j | prochains : SK Sturm Graz (Bundesliga (AUT), 8 j)  ||  Wolfsberger : 12e/12 (2 pts en 11 m.) | repos 6 j | prochains : Austria Lustenau (Bundesliga (AUT), 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T16:00Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "4'"
+  },
+  {
    "league": "Saudi Pro League",
    "home": "Al Ettifaq",
    "away": "Al Hilal",
@@ -3544,7 +3564,7 @@
    "kickoff": "2026-11-28T14:20Z",
    "prio": 13,
    "live_score": "1-3",
-   "minute": "77'"
+   "minute": "85'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3761,42 +3781,6 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Super Lig",
-   "home": "Gaziantep FK",
-   "away": "Amed SFK",
-   "status": "today",
-   "conf": 60,
-   "victoire": "Victoire Amed SFK",
-   "score_exact": "1-2 (10%) · 1-3 (7%)",
-   "double_chance": "X2 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 60%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-28 | Buts attendus Gaziantep FK 1.1 - Amed SFK 2.0 | 1/N/2 : 19/21/60% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Gaziantep FK : 17e/18 (8 pts en 12 m.) | repos 7 j | prochains : Konyaspor (Super Lig, 7 j)  ||  Amed SFK : 4e/18 (23 pts en 12 m.) | repos 7 j | prochains : Alanyaspor (Super Lig, 7 j), Çorum FK (Super Lig, 13 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T16:00Z",
-   "prio": 9
-  },
-  {
-   "league": "Bundesliga (AUT)",
-   "home": "Austria Vienna",
-   "away": "Wolfsberger",
-   "status": "today",
-   "conf": 61,
-   "victoire": "Victoire Austria Vienna",
-   "score_exact": "1-0 (13%) · 2-0 (13%)",
-   "double_chance": "12 81%",
-   "corner": "N/D",
-   "over": "Under 2.5 52%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-28 | Buts attendus Austria Vienna 1.9 - Wolfsberger 0.7 | 1/N/2 : 61/19/20% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Austria Vienna 4V · 1N · Wolfsberger 3V (scores : 2-1 x2, 3-1, 1-0)  ||  Austria Vienna : 10e/12 (11 pts en 11 m.) | repos 6 j | prochains : SK Sturm Graz (Bundesliga (AUT), 8 j)  ||  Wolfsberger : 12e/12 (2 pts en 11 m.) | repos 6 j | prochains : Austria Lustenau (Bundesliga (AUT), 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T16:00Z",
-   "prio": 9
   },
   {
    "league": "Serie B",
@@ -4267,6 +4251,42 @@
    "prio": 9
   },
   {
+   "league": "MLS",
+   "home": "FC Cincinnati",
+   "away": "Nashville SC",
+   "status": "today",
+   "conf": 51,
+   "victoire": "Victoire Nashville SC",
+   "score_exact": "1-2 (9%) · 1-3 (5%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 53%",
+   "analyse": "2026-11-28 | Buts attendus FC Cincinnati 1.0 - Nashville SC 1.8 | 1/N/2 : 29/20/51% | base sur 18 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : FC Cincinnati 4V · 1N · Nashville SC 3V (scores : 0-2 x2, 2-1 x2, 1-0)  ||  FC Cincinnati : repos 6 j | prochains : Nashville SC (MLS, 4 j)  ||  Nashville SC : repos 6 j | prochains : FC Cincinnati (MLS, 4 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T23:30Z",
+   "prio": 9
+  },
+  {
+   "league": "Brazilian Serie B",
+   "home": "Fortaleza",
+   "away": "Criciúma",
+   "status": "today",
+   "conf": 51,
+   "victoire": "Victoire Fortaleza",
+   "score_exact": "1-0 (20%) · 2-0 (12%)",
+   "double_chance": "1X 82%",
+   "corner": "N/D",
+   "over": "Under 2.5 74%",
+   "btts": "BTTS NON 69%",
+   "analyse": "2026-11-28 | Buts attendus Fortaleza 1.2 - Criciúma 0.6 | 1/N/2 : 51/31/18% | base sur 18 et 18 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (2 confrontations) : Fortaleza 2V · 0N · Criciúma 0V (scores : 3-2, 2-0) - trop peu pour influer  ||  Fortaleza : repos 6 j  ||  Criciúma : repos 6 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T23:00Z",
+   "prio": 10
+  },
+  {
    "league": "Serie A",
    "home": "Frosinone",
    "away": "Parma",
@@ -4284,6 +4304,26 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 3,
    "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Serie B",
+   "home": "Ascoli",
+   "away": "Virtus Entella",
+   "status": "finished",
+   "conf": 50,
+   "victoire": "Victoire Ascoli",
+   "score_exact": "1-0 (14%) · 2-0 (10%)",
+   "double_chance": "1X 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 54%",
+   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Ascoli : 5e/20 (21 pts en 13 m.) | repos 4 j | prochains : Mantova (Serie B, 7 j), Juve Stabia (Serie B, 10 j), Pisa (Serie B, 14 j)  ||  Virtus Entella : 16e/20 (13 pts en 13 m.) | repos 4 j | prochains : Empoli (Serie B, 8 j), Catanzaro (Serie B, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T14:00Z",
+   "prio": 9,
+   "live_score": "2-0",
    "minute": "FT"
   },
   {
@@ -5044,26 +5084,6 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Liga Bolivie",
-   "home": "Independiente Petrolero",
-   "away": "Real Oruro",
-   "status": "finished",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (10%) · 1-2 (6%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 61%",
-   "btts": "BTTS OUI 63%",
-   "analyse": "Resultat 4-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (3 confrontations) : Independiente Petrolero 2V · 1N · Real Oruro 0V (scores : 0-0, 4-3, 3-0)  ||  Independiente Petrolero : repos 6 j | prochains : Aurora (Liga Bolivie, 6 j), The Strongest (Liga Bolivie, 10 j)  ||  Real Oruro : repos 4 j | prochains : ABB (Liga Bolivie, 4 j), Real Tomayapo (Liga Bolivie, 8 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:00Z",
-   "prio": 12,
-   "live_score": "4-1",
    "minute": "FT"
   }
  ]
