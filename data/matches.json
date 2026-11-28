@@ -1,31 +1,31 @@
 {
- "date": "2026-11-28 17:10 UTC",
+ "date": "2026-11-28 17:19 UTC",
  "version": "V17",
- "ts": "2026-11-28T17:10:56.344423+00:00",
+ "ts": "2026-11-28T17:19:12.845279+00:00",
  "stats": {
-  "n": 734,
-  "n_avant": 352,
+  "n": 736,
+  "n_avant": 354,
   "dc": 79,
   "over": 54,
   "btts": 55,
   "score": 18,
-  "1x2": 61,
-  "n_fav": 348,
+  "1x2": 62,
+  "n_fav": 349,
   "serre": 73,
-  "n_serre": 386,
+  "n_serre": 387,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 212,
-  "brier_ctx": 0.595,
-  "brier_base": 0.598,
+  "n_ctx": 213,
+  "brier_ctx": 0.596,
+  "brier_base": 0.599,
   "n_h2h": 176,
   "brier_h2h": 0.59,
   "brier_noh2h": 0.593
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 28, gua.1 6, fra.1 5, por.1 4, usa.1 4, esp.1 3, esp.2 3, ned.1 3, bel.1 3, bol.1 3, ecu.1 3, ita.1 2",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 28, gua.1 6, fra.1 5, por.1 4, usa.1 4, ned.1 3, bel.1 3, bol.1 3, ecu.1 3, esp.1 2, esp.2 2, ita.1 2",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 154",
   "Matchs africains affichés (à venir / live) : 1",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 4 s"
  ],
  "tickets": [
   {
@@ -122,8 +122,8 @@
        "pick": "Double chance 12 (pas de nul)",
        "code": "12",
        "p": 73,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-4"
       },
       {
        "id": "401880131",
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "La Liga",
-   "home": "Málaga",
-   "away": "Athletic Club",
-   "status": "live",
-   "conf": 52,
-   "victoire": "Victoire Athletic Club",
-   "score_exact": "0-1 (16%) · 0-2 (11%)",
-   "double_chance": "X2 79%",
-   "corner": "N/D",
-   "over": "Under 2.5 62%",
-   "btts": "BTTS NON 59%",
-   "analyse": "2026-11-28 | Buts attendus Málaga 0.8 - Athletic Club 1.4 | 1/N/2 : 21/27/52% | base sur 13 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Málaga : 20e/20 (5 pts en 13 m.) | repos 6 j | prochains : Coria (Coupe du Roi, 5 j), Sevilla (La Liga, 9 j), Barcelona (La Liga, 14 j)  ||  Athletic Club : 8e/20 (16 pts en 12 m.) | repos 8 j | prochains : Numancia (Coupe du Roi, 3 j), Real Madrid (La Liga, 8 j), Rayo Vallecano (La Liga, 11 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:15Z",
-   "prio": 3,
-   "live_score": "3-4",
-   "minute": "90'+4'"
-  },
-  {
    "league": "Serie A",
    "home": "Torino",
    "away": "Lazio",
@@ -2644,7 +2624,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "Ligue 1",
@@ -2667,26 +2647,6 @@
    "minute": "HT"
   },
   {
-   "league": "La Liga 2",
-   "home": "Eldense",
-   "away": "Girona",
-   "status": "live",
-   "conf": 74,
-   "victoire": "Serré : Nul ou Girona",
-   "score_exact": "0-1 (13%) · 0-0 (9%)",
-   "double_chance": "X2 74%",
-   "corner": "N/D",
-   "over": "Under 2.5 56%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-28 | Buts attendus Eldense 1.0 - Girona 1.4 | 1/N/2 : 26/27/47% | base sur 15 et 15 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Eldense : 16e/22 (17 pts en 15 m.) | repos 7 j | prochains : Tenerife (Coupe du Roi, 4 j), Tenerife (La Liga 2, 7 j)  ||  Girona : 3e/22 (27 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 6 j | prochains : Huesca (Coupe du Roi, 3 j), Real Valladolid (La Liga 2, 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:15Z",
-   "prio": 9,
-   "live_score": "3-2",
-   "minute": "90'+1'"
-  },
-  {
    "league": "Serie B",
    "home": "Vicenza",
    "away": "Cesena",
@@ -2704,7 +2664,7 @@
    "kickoff": "2026-11-28T16:15Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "49'"
   },
   {
    "league": "Eredivisie",
@@ -2724,7 +2684,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "Liga Portugal",
@@ -2744,7 +2704,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "Liga Portugal",
@@ -2764,7 +2724,27 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "83'"
+   "minute": "90'+1'"
+  },
+  {
+   "league": "Pro League",
+   "home": "Cercle Brugge KSV",
+   "away": "KV Mechelen",
+   "status": "live",
+   "conf": 73,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "2-1 (8%) · 1-2 (7%)",
+   "double_chance": "12 73%",
+   "corner": "N/D",
+   "over": "Over 2.5 54%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "2026-11-28 | Buts attendus Cercle Brugge KSV 1.8 - KV Mechelen 1.2 | 1/N/2 : 44/27/28% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Cercle Brugge KSV 2V · 3N · KV Mechelen 3V (scores : 0-0 x2, 2-3 x2, 1-1)  ||  Cercle Brugge KSV : 14e/18 (10 pts en 10 m.) | repos 8 j | prochains : Waasland-Beveren (Pro League, 14 j)  ||  KV Mechelen : 12e/18 (12 pts en 11 m.) | repos 7 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T17:15Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "1'"
   },
   {
    "league": "Super Lig",
@@ -2784,7 +2764,7 @@
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "55'"
+   "minute": "63'"
   },
   {
    "league": "Bundesliga (AUT)",
@@ -2804,7 +2784,7 @@
    "kickoff": "2026-11-28T16:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "55'"
+   "minute": "63'"
   },
   {
    "league": "Liga Equateur",
@@ -2824,7 +2804,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "41'"
+   "minute": "45'+4'"
   },
   {
    "league": "Women's International Friendly",
@@ -2844,7 +2824,7 @@
    "kickoff": "2026-11-28T17:00Z",
    "prio": 13,
    "live_score": "1-0",
-   "minute": "10'"
+   "minute": "18'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -2864,7 +2844,7 @@
    "kickoff": "2026-11-28T16:30Z",
    "prio": 13,
    "live_score": "0-0",
-   "minute": "40'"
+   "minute": "45'+3'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3045,24 +3025,6 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Pro League",
-   "home": "Cercle Brugge KSV",
-   "away": "KV Mechelen",
-   "status": "today",
-   "conf": 73,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "2-1 (8%) · 1-2 (7%)",
-   "double_chance": "12 73%",
-   "corner": "N/D",
-   "over": "Over 2.5 54%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "2026-11-28 | Buts attendus Cercle Brugge KSV 1.8 - KV Mechelen 1.2 | 1/N/2 : 44/27/28% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Cercle Brugge KSV 2V · 3N · KV Mechelen 3V (scores : 0-0 x2, 2-3 x2, 1-1)  ||  Cercle Brugge KSV : 14e/18 (10 pts en 10 m.) | repos 8 j | prochains : Waasland-Beveren (Pro League, 14 j)  ||  KV Mechelen : 12e/18 (12 pts en 11 m.) | repos 7 j",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T17:15Z",
-   "prio": 9
   },
   {
    "league": "La Liga 2",
@@ -3293,7 +3255,7 @@
    "over": "Over 2.5 66%",
    "btts": "BTTS OUI 62%",
    "analyse": "2026-11-28 | Buts attendus Real Valladolid 2.2 - Real Sociedad II 1.2 | 1/N/2 : 61/20/19% | base sur 15 et 14 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (2 confrontations) : Real Valladolid 1V · 0N · Real Sociedad II 1V (scores : 0-1, 1-0) - trop peu pour influer  ||  Real Valladolid : 13e/22 (19 pts en 15 m.) | repos 6 j | prochains : Zamora CF (Coupe du Roi, 4 j), Girona (La Liga 2, 8 j)  ||  Real Sociedad II : 20e/22 (13 pts en 14 m.) | repos 7 j | prochains : Leganés (La Liga 2, 7 j), Real Oviedo (La Liga 2, 14 j)",
+   "contexte": "Face-à-face (2 confrontations) : Real Valladolid 1V · 0N · Real Sociedad II 1V (scores : 0-1, 1-0) - trop peu pour influer  ||  Real Valladolid : 14e/22 (19 pts en 15 m.) | repos 6 j | prochains : Zamora CF (Coupe du Roi, 4 j), Girona (La Liga 2, 8 j)  ||  Real Sociedad II : 20e/22 (13 pts en 14 m.) | repos 7 j | prochains : Leganés (La Liga 2, 7 j), Real Oviedo (La Liga 2, 14 j)",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 9
@@ -3587,6 +3549,44 @@
    "prio": 12
   },
   {
+   "league": "Copa Libertadores",
+   "home": "Palmeiras",
+   "away": "Estudiantes de La Plata",
+   "status": "today",
+   "conf": 79,
+   "victoire": "Serré : Nul ou Estudiantes de La Plata",
+   "score_exact": "0-1 (20%) · 0-0 (19%)",
+   "double_chance": "X2 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 77%",
+   "btts": "BTTS NON 71%",
+   "analyse": "2026-11-28 | Buts attendus Palmeiras 0.6 - Estudiantes de La Plata 1.1 | 1/N/2 : 21/33/46% | base sur 5 et 5 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Palmeiras : repos 4 j | prochains : Coritiba (Brasileirao, 4 j)  ||  Estudiantes de La Plata : repos 21 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T20:00Z",
+   "prio": 12
+  },
+  {
+   "league": "La Liga",
+   "home": "Málaga",
+   "away": "Athletic Club",
+   "status": "finished",
+   "conf": 52,
+   "victoire": "Victoire Athletic Club",
+   "score_exact": "0-1 (16%) · 0-2 (11%)",
+   "double_chance": "X2 79%",
+   "corner": "N/D",
+   "over": "Under 2.5 62%",
+   "btts": "BTTS NON 59%",
+   "analyse": "Resultat 3-4 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Málaga : 20e/20 (5 pts en 13 m.) | repos 6 j | prochains : Coria (Coupe du Roi, 5 j), Sevilla (La Liga, 9 j), Barcelona (La Liga, 14 j)  ||  Athletic Club : 8e/20 (16 pts en 12 m.) | repos 8 j | prochains : Numancia (Coupe du Roi, 3 j), Real Madrid (La Liga, 8 j), Rayo Vallecano (La Liga, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:15Z",
+   "prio": 3,
+   "live_score": "3-4",
+   "minute": "FT"
+  },
+  {
    "league": "La Liga 2",
    "home": "Albacete",
    "away": "Tenerife",
@@ -3604,6 +3604,26 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "4-0",
+   "minute": "FT"
+  },
+  {
+   "league": "La Liga 2",
+   "home": "Eldense",
+   "away": "Girona",
+   "status": "finished",
+   "conf": 74,
+   "victoire": "Serré : Nul ou Girona",
+   "score_exact": "0-1 (13%) · 0-0 (9%)",
+   "double_chance": "X2 74%",
+   "corner": "N/D",
+   "over": "Under 2.5 56%",
+   "btts": "BTTS NON 52%",
+   "analyse": "Resultat 3-2 | 1X2 RATE | DC RATE | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Eldense : 16e/22 (17 pts en 15 m.) | repos 7 j | prochains : Tenerife (Coupe du Roi, 4 j), Tenerife (La Liga 2, 7 j)  ||  Girona : 3e/22 (27 pts en 15 m.) | enjeu fort (proche d'une zone cle) | repos 6 j | prochains : Huesca (Coupe du Roi, 3 j), Real Valladolid (La Liga 2, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:15Z",
+   "prio": 9,
+   "live_score": "3-2",
    "minute": "FT"
   },
   {
@@ -4344,46 +4364,6 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "Mainz",
-   "away": "1. FC Union Berlin",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Mainz",
-   "score_exact": "2-1 (6%) · 3-1 (6%)",
-   "double_chance": "1X 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 71%",
-   "btts": "BTTS OUI 67%",
-   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Mainz 0V · 4N · 1. FC Union Berlin 4V (scores : 1-2 x2, 1-1 x2, 0-0)  ||  Mainz : 13e/18 (10 pts en 10 m.) | repos 6 j | prochains : RB Leipzig (Bundesliga, 7 j)  ||  1. FC Union Berlin : 17e/18 (7 pts en 10 m.) | repos 7 j | prochains : Hamburg SV (Bundesliga, 7 j), VfB Stuttgart (Bundesliga, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:30Z",
-   "prio": 3,
-   "live_score": "2-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "SC Paderborn 07",
-   "away": "Schalke 04",
-   "status": "finished",
-   "conf": 76,
-   "victoire": "Serré : Nul ou SC Paderborn 07",
-   "score_exact": "0-0 (20%) · 1-0 (19%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 78%",
-   "btts": "BTTS NON 71%",
-   "analyse": "Resultat 8-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "SC Paderborn 07 : 15e/18 (10 pts en 10 m.) | repos 7 j | prochains : Bayern Munich (Bundesliga, 6 j), SV Elversberg (Bundesliga, 14 j)  ||  Schalke 04 : 16e/18 (7 pts en 10 m.) | repos 7 j | prochains : Borussia Dortmund (Bundesliga, 8 j), Hamburg SV (Bundesliga, 13 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:30Z",
-   "prio": 3,
-   "live_score": "8-1",
    "minute": "FT"
   }
  ]
