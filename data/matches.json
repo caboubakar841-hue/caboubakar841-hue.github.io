@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 00:13 UTC",
+ "date": "2026-11-28 00:21 UTC",
  "version": "V17",
- "ts": "2026-11-28T00:13:35.722973+00:00",
+ "ts": "2026-11-28T00:21:51.802983+00:00",
  "stats": {
   "n": 655,
   "n_avant": 276,
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "54'"
+   "minute": "62'"
   },
   {
    "league": "Brazilian Serie B",
@@ -2643,8 +2643,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T23:00Z",
    "prio": 10,
-   "live_score": "0-0",
-   "minute": "52'"
+   "live_score": "1-0",
+   "minute": "60'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "7'"
+   "minute": "15'"
   },
   {
    "league": "Argentine Nacional B",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T00:00Z",
    "prio": 10,
    "live_score": "0-0",
-   "minute": "9'"
+   "minute": "17'"
   },
   {
    "league": "Primera Paraguay",
@@ -2703,8 +2703,8 @@
    "day": "2026-11-27",
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
-   "live_score": "0-1",
-   "minute": "56'"
+   "live_score": "1-2",
+   "minute": "65'"
   },
   {
    "league": "Liga Colombia",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-27T23:35Z",
    "prio": 12,
    "live_score": "1-0",
-   "minute": "38'"
+   "minute": "45'+1'"
   },
   {
    "league": "Liga Bolivie",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
    "live_score": "2-1",
-   "minute": "56'"
+   "minute": "64'"
   },
   {
    "league": "Liga Uruguay",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-27T23:30Z",
    "prio": 12,
    "live_score": "0-1",
-   "minute": "43'"
+   "minute": "HT"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
