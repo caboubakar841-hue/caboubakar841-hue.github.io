@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 15:31 UTC",
+ "date": "2026-11-28 15:39 UTC",
  "version": "V17",
- "ts": "2026-11-28T15:31:03.316261+00:00",
+ "ts": "2026-11-28T15:39:18.473811+00:00",
  "stats": {
   "n": 689,
   "n_avant": 308,
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": -1,
    "live_score": "0-1",
-   "minute": "70'"
+   "minute": "79'"
   },
   {
    "league": "Premier League",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Premier League",
@@ -2663,8 +2663,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
-   "live_score": "0-1",
-   "minute": "31'"
+   "live_score": "0-2",
+   "minute": "39'"
   },
   {
    "league": "La Liga",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "15'"
+   "minute": "23'"
   },
   {
    "league": "Serie A",
@@ -2703,8 +2703,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:00Z",
    "prio": 3,
-   "live_score": "2-0",
-   "minute": "72'"
+   "live_score": "3-0",
+   "minute": "81'"
   },
   {
    "league": "Bundesliga",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "3-0",
-   "minute": "HT"
+   "minute": "51'"
   },
   {
    "league": "Bundesliga",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "51'"
   },
   {
    "league": "Bundesliga",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-1",
-   "minute": "HT"
+   "minute": "49'"
   },
   {
    "league": "Bundesliga",
@@ -2784,7 +2784,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "3-0",
-   "minute": "HT"
+   "minute": "48'"
   },
   {
    "league": "Championship",
@@ -2804,7 +2804,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "30'"
+   "minute": "39'"
   },
   {
    "league": "Championship",
@@ -2824,7 +2824,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "39'"
   },
   {
    "league": "Championship",
@@ -2844,7 +2844,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Championship",
@@ -2864,7 +2864,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Championship",
@@ -2884,7 +2884,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "Championship",
@@ -2904,7 +2904,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "24'"
+   "minute": "32'"
   },
   {
    "league": "Championship",
@@ -2924,7 +2924,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "League One",
@@ -2944,7 +2944,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League One",
@@ -2964,7 +2964,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "League One",
@@ -2984,7 +2984,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League One",
@@ -3004,7 +3004,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "League One",
@@ -3024,7 +3024,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League One",
@@ -3044,7 +3044,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League One",
@@ -3063,8 +3063,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "31'"
+   "live_score": "0-1",
+   "minute": "39'"
   },
   {
    "league": "League One",
@@ -3084,7 +3084,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League One",
@@ -3103,8 +3103,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "31'"
+   "live_score": "1-2",
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3123,8 +3123,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "31'"
+   "live_score": "2-1",
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3144,7 +3144,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3164,7 +3164,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3184,7 +3184,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "League Two",
@@ -3203,8 +3203,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "30'"
+   "live_score": "1-1",
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3224,7 +3224,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3244,7 +3244,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3264,7 +3264,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3284,7 +3284,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "30'"
+   "minute": "39'"
   },
   {
    "league": "League Two",
@@ -3304,7 +3304,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "31'"
+   "minute": "39'"
   },
   {
    "league": "La Liga 2",
@@ -3324,7 +3324,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "16'"
+   "minute": "24'"
   },
   {
    "league": "La Liga 2",
@@ -3344,7 +3344,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "14'"
+   "minute": "22'"
   },
   {
    "league": "Serie B",
@@ -3364,7 +3364,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "70'"
+   "minute": "78'"
   },
   {
    "league": "Serie B",
@@ -3384,7 +3384,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "3-1",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "Serie B",
@@ -3404,7 +3404,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "72'"
+   "minute": "80'"
   },
   {
    "league": "Eredivisie",
@@ -3424,7 +3424,47 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "1'"
+   "minute": "9'"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Arouca",
+   "away": "Rio Ave",
+   "status": "live",
+   "conf": 76,
+   "victoire": "Serré : Nul ou Arouca",
+   "score_exact": "0-0 (11%) · 1-0 (11%)",
+   "double_chance": "1X 76%",
+   "corner": "N/D",
+   "over": "Under 2.5 58%",
+   "btts": "BTTS NON 52%",
+   "analyse": "2026-11-28 | Buts attendus Arouca 1.6 - Rio Ave 0.8 | 1/N/2 : 44/32/24% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Arouca 1V · 4N · Rio Ave 3V (scores : 0-1 x3, 1-1 x2, 2-2)  ||  Arouca : 6e/18 (17 pts en 10 m.) | repos 22 j | prochains : Braga (Liga Portugal, 7 j), Académico de Viseu (Liga Portugal, 13 j)  ||  Rio Ave : 16e/18 (7 pts en 10 m.) | repos 20 j | prochains : Casa Pia (Liga Portugal, 8 j), Maritimo (Liga Portugal, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "8'"
+  },
+  {
+   "league": "Liga Portugal",
+   "home": "Moreirense",
+   "away": "Santa Clara",
+   "status": "live",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "0-1 (13%) · 1-0 (11%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Under 2.5 59%",
+   "btts": "BTTS NON 58%",
+   "analyse": "2026-11-28 | Buts attendus Moreirense 0.7 - Santa Clara 1.6 | 1/N/2 : 26/25/49% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (4 confrontations) : Moreirense 3V · 1N · Santa Clara 0V (scores : 1-0 x3, 1-1)  ||  Moreirense : 9e/18 (13 pts en 10 m.) | repos 21 j | prochains : Alverca (Liga Portugal, 9 j)  ||  Santa Clara : 4e/18 (20 pts en 10 m.) | repos 20 j | prochains : FC Porto (Liga Portugal, 7 j), Estoril (Liga Portugal, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T15:30Z",
+   "prio": 9,
+   "live_score": "0-0",
+   "minute": "8'"
   },
   {
    "league": "Pro League",
@@ -3444,7 +3484,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "Scottish Premiership",
@@ -3464,7 +3504,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "32'"
+   "minute": "40'"
   },
   {
    "league": "Scottish Premiership",
@@ -3483,8 +3523,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "1-2",
-   "minute": "30'"
+   "live_score": "1-3",
+   "minute": "38'"
   },
   {
    "league": "Scottish Premiership",
@@ -3504,7 +3544,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "29'"
+   "minute": "38'"
   },
   {
    "league": "Scottish Premiership",
@@ -3524,7 +3564,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "29'"
+   "minute": "38'"
   },
   {
    "league": "Super League (GRE)",
@@ -3544,7 +3584,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "28'"
+   "minute": "36'"
   },
   {
    "league": "Super League (GRE)",
@@ -3564,7 +3604,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "30'"
+   "minute": "38'"
   },
   {
    "league": "Saudi Pro League",
@@ -3584,7 +3624,7 @@
    "kickoff": "2026-11-28T14:20Z",
    "prio": 13,
    "live_score": "1-1",
-   "minute": "52'"
+   "minute": "60'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3801,42 +3841,6 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T20:00Z",
    "prio": 3
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Arouca",
-   "away": "Rio Ave",
-   "status": "today",
-   "conf": 76,
-   "victoire": "Serré : Nul ou Arouca",
-   "score_exact": "0-0 (11%) · 1-0 (11%)",
-   "double_chance": "1X 76%",
-   "corner": "N/D",
-   "over": "Under 2.5 58%",
-   "btts": "BTTS NON 52%",
-   "analyse": "2026-11-28 | Buts attendus Arouca 1.6 - Rio Ave 0.8 | 1/N/2 : 44/32/24% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (8 confrontations) : Arouca 1V · 4N · Rio Ave 3V (scores : 0-1 x3, 1-1 x2, 2-2)  ||  Arouca : 6e/18 (17 pts en 10 m.) | repos 22 j | prochains : Braga (Liga Portugal, 7 j), Académico de Viseu (Liga Portugal, 13 j)  ||  Rio Ave : 16e/18 (7 pts en 10 m.) | repos 20 j | prochains : Casa Pia (Liga Portugal, 8 j), Maritimo (Liga Portugal, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:30Z",
-   "prio": 9
-  },
-  {
-   "league": "Liga Portugal",
-   "home": "Moreirense",
-   "away": "Santa Clara",
-   "status": "today",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "0-1 (13%) · 1-0 (11%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Under 2.5 59%",
-   "btts": "BTTS NON 58%",
-   "analyse": "2026-11-28 | Buts attendus Moreirense 0.7 - Santa Clara 1.6 | 1/N/2 : 26/25/49% | base sur 10 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Moreirense 3V · 1N · Santa Clara 0V (scores : 1-0 x3, 1-1)  ||  Moreirense : 9e/18 (13 pts en 10 m.) | repos 21 j | prochains : Alverca (Liga Portugal, 9 j)  ||  Santa Clara : 4e/18 (20 pts en 10 m.) | repos 20 j | prochains : FC Porto (Liga Portugal, 7 j), Estoril (Liga Portugal, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T15:30Z",
-   "prio": 9
   },
   {
    "league": "Super Lig",
@@ -4304,6 +4308,42 @@
    "contexte": "Face-à-face (1 confrontation) : Suchitepequez 0V · 0N · Municipal 1V (scores : 0-3) - trop peu pour influer  ||  Suchitepequez : repos 7 j  ||  Municipal : repos 3 j",
    "day": "2026-11-28",
    "kickoff": "2026-11-28T21:00Z",
+   "prio": 9
+  },
+  {
+   "league": "MLS",
+   "home": "Philadelphia Union",
+   "away": "New England Revolution",
+   "status": "today",
+   "conf": 59,
+   "victoire": "Victoire Philadelphia Union",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "12 85%",
+   "corner": "N/D",
+   "over": "Over 2.5 67%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "2026-11-28 | Buts attendus Philadelphia Union 2.1 - New England Revolution 1.3 | 1/N/2 : 59/15/27% | base sur 17 et 17 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (8 confrontations) : Philadelphia Union 5V · 0N · New England Revolution 3V (scores : 1-0 x2, 1-2 x2, 3-0)  ||  Philadelphia Union : repos 7 j | prochains : New England Revolution (MLS, 4 j)  ||  New England Revolution : repos 7 j | prochains : Philadelphia Union (MLS, 4 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T21:30Z",
+   "prio": 9
+  },
+  {
+   "league": "Liga Argentina",
+   "home": "Vélez Sarsfield",
+   "away": "Independiente",
+   "status": "today",
+   "conf": 77,
+   "victoire": "Serré : Nul ou Vélez Sarsfield",
+   "score_exact": "1-1 (16%) · 1-0 (9%)",
+   "double_chance": "1X 77%",
+   "corner": "N/D",
+   "over": "Under 2.5 51%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "2026-11-28 | Buts attendus Vélez Sarsfield 1.6 - Independiente 1.1 | 1/N/2 : 44/33/23% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
+   "contexte": "Face-à-face (7 confrontations) : Vélez Sarsfield 2V · 4N · Independiente 1V (scores : 1-1 x3, 0-0, 0-3)  ||  Vélez Sarsfield : repos 8 j  ||  Independiente : repos 7 j",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T23:00Z",
    "prio": 9
   },
   {
