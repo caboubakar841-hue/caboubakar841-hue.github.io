@@ -1,31 +1,31 @@
 {
- "date": "2026-11-28 13:51 UTC",
+ "date": "2026-11-28 13:59 UTC",
  "version": "V17",
- "ts": "2026-11-28T13:51:06.090446+00:00",
+ "ts": "2026-11-28T13:59:19.539442+00:00",
  "stats": {
-  "n": 676,
-  "n_avant": 295,
+  "n": 679,
+  "n_avant": 298,
   "dc": 80,
   "over": 54,
   "btts": 54,
   "score": 18,
   "1x2": 62,
-  "n_fav": 326,
+  "n_fav": 328,
   "serre": 73,
-  "n_serre": 350,
+  "n_serre": 351,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 173,
-  "brier_ctx": 0.577,
-  "brier_base": 0.581,
-  "n_h2h": 151,
-  "brier_h2h": 0.581,
-  "brier_noh2h": 0.585
+  "n_ctx": 175,
+  "brier_ctx": 0.575,
+  "brier_base": 0.578,
+  "n_h2h": 153,
+  "brier_h2h": 0.579,
+  "brier_noh2h": 0.582
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 33, eng.4 12, eng.3 11, eng.2 10, gua.1 6, esp.2 5, ita.2 5, ger.1 5, fra.1 5, sco.1 5, esp.1 4, ger.2 4",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 33, eng.4 12, eng.3 11, eng.2 10, gua.1 6, esp.2 5, ita.2 5, ger.1 5, fra.1 5, sco.1 5, esp.1 4, por.1 4",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 157",
   "Matchs africains affichés (à venir / live) : 2",
@@ -34,7 +34,7 @@
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -78,8 +78,8 @@
        "pick": "Double chance 1X (Dynamo Dresden ou nul)",
        "code": "1X",
        "p": 74,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "2-1"
       },
       {
        "id": "401882793",
@@ -176,8 +176,8 @@
        "pick": "Double chance 1X (Hertha Berlin ou nul)",
        "code": "1X",
        "p": 97,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "4-0"
       },
       {
        "id": "401885043",
@@ -187,8 +187,8 @@
        "pick": "Under 3.5 buts",
        "code": "U35",
        "p": 92,
-       "ok": null,
-       "score": null
+       "ok": true,
+       "score": "3-0"
       },
       {
        "id": "401884719",
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T13:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "62'"
+   "minute": "71'"
   },
   {
    "league": "Championship",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "61'"
+   "minute": "70'"
   },
   {
    "league": "Championship",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "63'"
+   "minute": "72'"
   },
   {
    "league": "League One",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "63'"
+   "minute": "71'"
   },
   {
    "league": "League One",
@@ -2724,7 +2724,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "65'"
+   "minute": "74'"
   },
   {
    "league": "League Two",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "1-3",
-   "minute": "64'"
+   "minute": "73'"
   },
   {
    "league": "League Two",
@@ -2764,7 +2764,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "64'"
+   "minute": "72'"
   },
   {
    "league": "La Liga 2",
@@ -2785,66 +2785,6 @@
    "prio": 9,
    "live_score": "0-1",
    "minute": "HT"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "Dynamo Dresden",
-   "away": "St. Pauli",
-   "status": "live",
-   "conf": 51,
-   "victoire": "Victoire Dynamo Dresden",
-   "score_exact": "2-1 (10%) · 3-1 (6%)",
-   "double_chance": "12 77%",
-   "corner": "N/D",
-   "over": "Over 2.5 57%",
-   "btts": "BTTS OUI 58%",
-   "analyse": "2026-11-28 | Buts attendus Dynamo Dresden 1.8 - St. Pauli 1.2 | 1/N/2 : 51/23/26% | base sur 11 et 10 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Dynamo Dresden : 11e/18 (12 pts en 11 m.) | repos 6 j | prochains : VfB Stuttgart (Coupe d'Allemagne, 3 j), Arminia Bielefeld (2. Bundesliga, 6 j), Energie Cottbus (2. Bundesliga, 14 j)  ||  St. Pauli : 10e/18 (13 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T12:00Z",
-   "prio": 9,
-   "live_score": "0-1",
-   "minute": "90'+3'"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "Hertha Berlin",
-   "away": "Karlsruher SC",
-   "status": "live",
-   "conf": 82,
-   "victoire": "Victoire Hertha Berlin",
-   "score_exact": "3-1 (7%) · 4-1 (6%)",
-   "double_chance": "1X 97%",
-   "corner": "N/D",
-   "over": "Over 2.5 76%",
-   "btts": "BTTS OUI 51%",
-   "analyse": "2026-11-28 | Buts attendus Hertha Berlin 3.5 - Karlsruher SC 0.7 | 1/N/2 : 82/15/3% | base sur 11 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Hertha Berlin 2V · 2N · Karlsruher SC 0V (scores : 3-1 x2, 0-0, 2-2)  ||  Hertha Berlin : 1e/18 (31 pts en 11 m.) | repos 6 j | prochains : Bayern Munich (Coupe d'Allemagne, 3 j), Hannover 96 (2. Bundesliga, 7 j), SV Darmstadt 98 (2. Bundesliga, 14 j)  ||  Karlsruher SC : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 7 j), TSV Eintracht Braunschweig (2. Bundesliga, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T12:00Z",
-   "prio": 9,
-   "live_score": "4-0",
-   "minute": "89'"
-  },
-  {
-   "league": "2. Bundesliga",
-   "home": "Holstein Kiel",
-   "away": "Kaiserslautern",
-   "status": "live",
-   "conf": 69,
-   "victoire": "Serré : Nul ou Kaiserslautern",
-   "score_exact": "0-0 (20%) · 0-1 (18%)",
-   "double_chance": "X2 69%",
-   "corner": "N/D",
-   "over": "Under 2.5 78%",
-   "btts": "BTTS NON 70%",
-   "analyse": "2026-11-28 | Buts attendus Holstein Kiel 0.8 - Kaiserslautern 0.8 | 1/N/2 : 31/34/35% | base sur 10 et 11 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Holstein Kiel 1V · 1N · Kaiserslautern 2V (scores : 2-2, 1-2, 1-4)  ||  Holstein Kiel : 18e/18 (6 pts en 10 m.) | repos 7 j | prochains : FC Cologne (Coupe d'Allemagne, 3 j), Karlsruher SC (2. Bundesliga, 7 j), Hannover 96 (2. Bundesliga, 14 j)  ||  Kaiserslautern : 5e/18 (21 pts en 11 m.) | repos 6 j | prochains : SC Freiburg (Coupe d'Allemagne, 4 j), SpVgg Greuther Fürth (2. Bundesliga, 7 j), Arminia Bielefeld (2. Bundesliga, 13 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T12:00Z",
-   "prio": 9,
-   "live_score": "3-0",
-   "minute": "90'+1'"
   },
   {
    "league": "Super Lig",
@@ -2884,7 +2824,7 @@
    "kickoff": "2026-11-28T12:15Z",
    "prio": 13,
    "live_score": "0-1",
-   "minute": "76'"
+   "minute": "84'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3605,6 +3545,66 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "Dynamo Dresden",
+   "away": "St. Pauli",
+   "status": "finished",
+   "conf": 51,
+   "victoire": "Victoire Dynamo Dresden",
+   "score_exact": "2-1 (10%) · 3-1 (6%)",
+   "double_chance": "12 77%",
+   "corner": "N/D",
+   "over": "Over 2.5 57%",
+   "btts": "BTTS OUI 58%",
+   "analyse": "Resultat 2-1 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
+   "contexte": "Dynamo Dresden : 11e/18 (12 pts en 11 m.) | repos 6 j | prochains : VfB Stuttgart (Coupe d'Allemagne, 3 j), Arminia Bielefeld (2. Bundesliga, 6 j), Energie Cottbus (2. Bundesliga, 14 j)  ||  St. Pauli : 10e/18 (13 pts en 10 m.) | repos 7 j | prochains : 1. FC Heidenheim 1846 (2. Bundesliga, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T12:00Z",
+   "prio": 9,
+   "live_score": "2-1",
+   "minute": "FT"
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "Hertha Berlin",
+   "away": "Karlsruher SC",
+   "status": "finished",
+   "conf": 82,
+   "victoire": "Victoire Hertha Berlin",
+   "score_exact": "3-1 (7%) · 4-1 (6%)",
+   "double_chance": "1X 97%",
+   "corner": "N/D",
+   "over": "Over 2.5 76%",
+   "btts": "BTTS OUI 51%",
+   "analyse": "Resultat 4-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : Hertha Berlin 2V · 2N · Karlsruher SC 0V (scores : 3-1 x2, 0-0, 2-2)  ||  Hertha Berlin : 1e/18 (31 pts en 11 m.) | repos 6 j | prochains : Bayern Munich (Coupe d'Allemagne, 3 j), Hannover 96 (2. Bundesliga, 7 j), SV Darmstadt 98 (2. Bundesliga, 14 j)  ||  Karlsruher SC : 16e/18 (9 pts en 11 m.) | repos 6 j | prochains : Holstein Kiel (2. Bundesliga, 7 j), TSV Eintracht Braunschweig (2. Bundesliga, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T12:00Z",
+   "prio": 9,
+   "live_score": "4-0",
+   "minute": "FT"
+  },
+  {
+   "league": "2. Bundesliga",
+   "home": "Holstein Kiel",
+   "away": "Kaiserslautern",
+   "status": "finished",
+   "conf": 69,
+   "victoire": "Serré : Nul ou Kaiserslautern",
+   "score_exact": "0-0 (20%) · 0-1 (18%)",
+   "double_chance": "X2 69%",
+   "corner": "N/D",
+   "over": "Under 2.5 78%",
+   "btts": "BTTS NON 70%",
+   "analyse": "Resultat 3-0 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : Holstein Kiel 1V · 1N · Kaiserslautern 2V (scores : 2-2, 1-2, 1-4)  ||  Holstein Kiel : 18e/18 (6 pts en 10 m.) | repos 7 j | prochains : FC Cologne (Coupe d'Allemagne, 3 j), Karlsruher SC (2. Bundesliga, 7 j), Hannover 96 (2. Bundesliga, 14 j)  ||  Kaiserslautern : 5e/18 (21 pts en 11 m.) | repos 6 j | prochains : SC Freiburg (Coupe d'Allemagne, 4 j), SpVgg Greuther Fürth (2. Bundesliga, 7 j), Arminia Bielefeld (2. Bundesliga, 13 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T12:00Z",
+   "prio": 9,
+   "live_score": "3-0",
+   "minute": "FT"
   },
   {
    "league": "Women's International Friendly",
@@ -4344,66 +4344,6 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 9,
    "live_score": "2-2",
-   "minute": "FT"
-  },
-  {
-   "league": "La Liga 2",
-   "home": "Leganés",
-   "away": "CD Sabadell",
-   "status": "finished",
-   "conf": 70,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-0 (14%) · 0-1 (12%)",
-   "double_chance": "12 70%",
-   "corner": "N/D",
-   "over": "Under 2.5 66%",
-   "btts": "BTTS NON 59%",
-   "analyse": "Resultat 0-0 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Leganés : 15e/22 (18 pts en 15 m.) | repos 7 j | prochains : Mirandés (Coupe du Roi, 5 j), Real Sociedad II (La Liga 2, 8 j)  ||  CD Sabadell : 14e/22 (19 pts en 15 m.) | repos 6 j | prochains : Sporting Gijón (Coupe du Roi, 5 j), Eibar (La Liga 2, 8 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:30Z",
-   "prio": 9,
-   "live_score": "0-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Bundesliga",
-   "home": "Werder Bremen",
-   "away": "Borussia Mönchengladbach",
-   "status": "finished",
-   "conf": 65,
-   "victoire": "Victoire Werder Bremen",
-   "score_exact": "3-1 (7%) · 2-1 (6%)",
-   "double_chance": "1X 87%",
-   "corner": "N/D",
-   "over": "Over 2.5 75%",
-   "btts": "BTTS OUI 65%",
-   "analyse": "Resultat 3-3 | 1X2 RATE | DC OK | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (8 confrontations) : Werder Bremen 2V · 4N · Borussia Mönchengladbach 2V (scores : 2-2 x3, 5-1, 1-4)  ||  Werder Bremen : 6e/18 (18 pts en 10 m.) | repos 5 j | prochains : Eintracht Frankfurt (Bundesliga, 8 j)  ||  Borussia Mönchengladbach : 18e/18 (4 pts en 10 m.) | repos 6 j | prochains : SV Darmstadt 98 (Coupe d'Allemagne, 4 j), Bayer Leverkusen (Bundesliga, 8 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:30Z",
-   "prio": 3,
-   "live_score": "3-3",
-   "minute": "FT"
-  },
-  {
-   "league": "Eredivisie",
-   "home": "FC Groningen",
-   "away": "Willem II",
-   "status": "finished",
-   "conf": 67,
-   "victoire": "Victoire FC Groningen",
-   "score_exact": "3-1 (7%) · 2-1 (7%)",
-   "double_chance": "12 84%",
-   "corner": "N/D",
-   "over": "Over 2.5 85%",
-   "btts": "BTTS OUI 77%",
-   "analyse": "Resultat 1-1 | 1X2 RATE | DC RATE | O/U RATE | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (2 confrontations) : FC Groningen 2V · 0N · Willem II 0V (scores : 2-0, 3-1) - trop peu pour influer  ||  FC Groningen : 12e/18 (12 pts en 12 m.) | repos 6 j | prochains : Telstar (Eredivisie, 7 j)  ||  Willem II : 18e/18 (3 pts en 12 m.) | repos 5 j | prochains : Feyenoord Rotterdam (Eredivisie, 8 j)",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:00Z",
-   "prio": 9,
-   "live_score": "1-1",
    "minute": "FT"
   }
  ]
