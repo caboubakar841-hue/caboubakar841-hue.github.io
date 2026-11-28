@@ -1,7 +1,7 @@
 {
- "date": "2026-11-28 14:07 UTC",
+ "date": "2026-11-28 14:15 UTC",
  "version": "V17",
- "ts": "2026-11-28T14:07:36.061400+00:00",
+ "ts": "2026-11-28T14:15:50.907416+00:00",
  "stats": {
   "n": 679,
   "n_avant": 298,
@@ -29,12 +29,12 @@
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 156",
   "Matchs africains affichés (à venir / live) : 2",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 138",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 137",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 3 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2624,7 +2624,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": -1,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "La Liga",
@@ -2644,7 +2644,7 @@
    "kickoff": "2026-11-28T13:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "HT"
+   "minute": "53'"
   },
   {
    "league": "Serie A",
@@ -2664,7 +2664,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "14'"
   },
   {
    "league": "Championship",
@@ -2684,7 +2684,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "79'"
+   "minute": "88'"
   },
   {
    "league": "Championship",
@@ -2704,7 +2704,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "78'"
+   "minute": "86'"
   },
   {
    "league": "Championship",
@@ -2723,8 +2723,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
-   "live_score": "1-0",
-   "minute": "80'"
+   "live_score": "1-1",
+   "minute": "88'"
   },
   {
    "league": "League One",
@@ -2744,7 +2744,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "80'"
+   "minute": "88'"
   },
   {
    "league": "League One",
@@ -2763,8 +2763,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "82'"
+   "live_score": "1-2",
+   "minute": "90'"
   },
   {
    "league": "League Two",
@@ -2784,7 +2784,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "1-3",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "League Two",
@@ -2804,7 +2804,7 @@
    "kickoff": "2026-11-28T12:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "81'"
+   "minute": "89'"
   },
   {
    "league": "La Liga 2",
@@ -2823,8 +2823,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T13:00Z",
    "prio": 9,
-   "live_score": "0-1",
-   "minute": "47'"
+   "live_score": "1-1",
+   "minute": "55'"
   },
   {
    "league": "Serie B",
@@ -2844,7 +2844,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "5'"
+   "minute": "13'"
   },
   {
    "league": "Serie B",
@@ -2864,7 +2864,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "Serie B",
@@ -2884,7 +2884,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "6'"
+   "minute": "14'"
   },
   {
    "league": "Super Lig",
@@ -2904,27 +2904,7 @@
    "kickoff": "2026-11-28T13:00Z",
    "prio": 9,
    "live_score": "3-0",
-   "minute": "49'"
-  },
-  {
-   "league": "Saudi Pro League",
-   "home": "Al Hazem",
-   "away": "Al Nassr",
-   "status": "live",
-   "conf": 50,
-   "victoire": "Victoire Al Nassr",
-   "score_exact": "1-2 (8%) · 1-3 (6%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 75%",
-   "btts": "BTTS OUI 73%",
-   "analyse": "2026-11-28 | Buts attendus Al Hazem 1.7 - Al Nassr 2.2 | 1/N/2 : 30/20/50% | base sur 0 et 4 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "⚠️ Peu ou pas de données pour : Al Hazem (estimation neutre, très incertaine). Al Hazem  ||  Al Nassr : repos 4 j | prochains : Al-Gharafa (AFC Champions League, 10 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T12:15Z",
-   "prio": 13,
-   "live_score": "0-1",
-   "minute": "90'+3'"
+   "minute": "58'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -3645,6 +3625,26 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9
+  },
+  {
+   "league": "Saudi Pro League",
+   "home": "Al Hazem",
+   "away": "Al Nassr",
+   "status": "finished",
+   "conf": 50,
+   "victoire": "Victoire Al Nassr",
+   "score_exact": "1-2 (8%) · 1-3 (6%)",
+   "double_chance": "12 80%",
+   "corner": "N/D",
+   "over": "Over 2.5 75%",
+   "btts": "BTTS OUI 73%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "⚠️ Peu ou pas de données pour : Al Hazem (estimation neutre, très incertaine). Al Hazem  ||  Al Nassr : repos 4 j | prochains : Al-Gharafa (AFC Champions League, 10 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T12:15Z",
+   "prio": 13,
+   "live_score": "0-1",
+   "minute": "FT"
   },
   {
    "league": "2. Bundesliga",
@@ -4424,26 +4424,6 @@
    "kickoff": "2026-11-27T19:45Z",
    "prio": 3,
    "live_score": "1-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Pro League",
-   "home": "OH Leuven",
-   "away": "KV Kortrijk",
-   "status": "finished",
-   "conf": 56,
-   "victoire": "Victoire OH Leuven",
-   "score_exact": "1-0 (16%) · 2-0 (13%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 65%",
-   "analyse": "Resultat 2-2 | 1X2 RATE | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Face-à-face (6 confrontations) : OH Leuven 2V · 2N · KV Kortrijk 2V (scores : 2-0, 2-3, 3-0)  ||  OH Leuven : 11e/18 (12 pts en 11 m.) | repos 5 j | prochains : Racing Genk (Pro League, 14 j)  ||  KV Kortrijk : 18e/18 (4 pts en 11 m.) | repos 5 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T19:45Z",
-   "prio": 9,
-   "live_score": "2-2",
    "minute": "FT"
   }
  ]
