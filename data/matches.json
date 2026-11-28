@@ -1,40 +1,40 @@
 {
- "date": "2026-11-28 15:47 UTC",
+ "date": "2026-11-28 15:55 UTC",
  "version": "V17",
- "ts": "2026-11-28T15:47:33.014464+00:00",
+ "ts": "2026-11-28T15:55:49.169640+00:00",
  "stats": {
-  "n": 689,
-  "n_avant": 308,
+  "n": 693,
+  "n_avant": 311,
   "dc": 80,
   "over": 54,
   "btts": 54,
   "score": 18,
   "1x2": 62,
-  "n_fav": 333,
+  "n_fav": 335,
   "serre": 73,
-  "n_serre": 356,
+  "n_serre": 358,
   "base_dom": 47,
   "n_euro": 21,
   "dc_euro": 86,
-  "n_ctx": 182,
+  "n_ctx": 183,
   "brier_ctx": 0.583,
   "brier_base": 0.585,
-  "n_h2h": 157,
+  "n_h2h": 158,
   "brier_h2h": 0.583,
   "brier_noh2h": 0.585
  },
  "diag": [
   "Compétitions suivies : 83 dont 7 découvertes automatiquement",
-  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 30, eng.4 10, eng.3 9, eng.2 7, gua.1 6, ita.2 5, ger.1 5, fra.1 5, sco.1 5, esp.2 4, por.1 4, bel.1 4",
+  "Matchs trouvés aujourd'hui par compétition : fra.coupe_de_france 30, eng.4 10, eng.3 9, eng.2 7, gua.1 6, ger.1 5, fra.1 5, sco.1 5, esp.2 4, por.1 4, bel.1 4, usa.1 4",
   "Matchs ignorés car illisibles : 0",
   "Matchs sans données masqués (remplacés par d'autres) : 154",
-  "Matchs africains affichés (à venir / live) : 2",
-  "Matchs ajoutés par le filet « tous les matchs ESPN » : 131",
+  "Matchs africains affichés (à venir / live) : 1",
+  "Matchs ajoutés par le filet « tous les matchs ESPN » : 130",
   "Cartes à venir affichées : 40 (jours : 2026-11-28, 2026-11-29, 2026-11-30)",
   "Filet ESPN - format reçu : {\"haut\": [\"events\", \"leagues\", \"provider\"], \"nb_leagues\": 1, \"event_cles\": [\"competitions\", \"date\", \"id\", \"links\", \"name\", \"season\", \"shortName\", \"status\", \"uid\", \"venue\"], \"uid\": \"s:600~l:700~e:401879225\"}",
   "Compétitions sans nom : aucune",
   "Codes sans réponse : afcon.qual, caf.nations.qual, fifa.worldq.playoffs, ger.w.1, ita.w.1, kor.1, sau.1, uefa.euro_qual, uefa.w.champions",
-  "Durée du run : 4 s"
+  "Durée du run : 5 s"
  ],
  "tickets": [
   {
@@ -2607,26 +2607,6 @@
  ],
  "matches": [
   {
-   "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
-   "home": "Chinese Taipei",
-   "away": "South Africa",
-   "status": "live",
-   "conf": 75,
-   "victoire": "Serré : pas de nul (12)",
-   "score_exact": "1-2 (9%) · 2-1 (7%)",
-   "double_chance": "12 75%",
-   "corner": "N/D",
-   "over": "Over 2.5 51%",
-   "btts": "BTTS OUI 54%",
-   "analyse": "2026-11-28 | Buts attendus Chinese Taipei 1.1 - South Africa 1.6 | 1/N/2 : 27/25/48% | base sur 2 et 1 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Chinese Taipei : repos 14 j  ||  South Africa : repos 55 j",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:00Z",
-   "prio": -1,
-   "live_score": "0-1",
-   "minute": "87'"
-  },
-  {
    "league": "Premier League",
    "home": "Leeds United",
    "away": "Coventry City",
@@ -2644,7 +2624,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "2-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Premier League",
@@ -2664,7 +2644,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 3,
    "live_score": "0-2",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "La Liga",
@@ -2683,28 +2663,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:15Z",
    "prio": 3,
-   "live_score": "0-1",
-   "minute": "32'"
-  },
-  {
-   "league": "Serie A",
-   "home": "Frosinone",
-   "away": "Parma",
-   "status": "live",
-   "conf": 62,
-   "victoire": "Victoire Frosinone",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "1X 81%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 61%",
-   "analyse": "2026-11-28 | Buts attendus Frosinone 2.2 - Parma 1.2 | 1/N/2 : 62/20/19% | base sur 12 et 12 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Frosinone : 7e/20 (20 pts en 12 m.) | repos 6 j | prochains : Internazionale (Serie A, 7 j), Udinese (Serie A, 13 j)  ||  Parma : 17e/20 (8 pts en 12 m.) | repos 7 j | prochains : AC Milan (Serie A, 8 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:00Z",
-   "prio": 3,
-   "live_score": "3-0",
-   "minute": "89'"
+   "live_score": "1-3",
+   "minute": "40'"
   },
   {
    "league": "Bundesliga",
@@ -2723,8 +2683,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
-   "live_score": "3-0",
-   "minute": "59'"
+   "live_score": "4-0",
+   "minute": "67'"
   },
   {
    "league": "Bundesliga",
@@ -2744,7 +2704,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-0",
-   "minute": "59'"
+   "minute": "67'"
   },
   {
    "league": "Bundesliga",
@@ -2764,7 +2724,7 @@
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
    "live_score": "0-1",
-   "minute": "58'"
+   "minute": "66'"
   },
   {
    "league": "Bundesliga",
@@ -2783,8 +2743,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:30Z",
    "prio": 3,
-   "live_score": "4-0",
-   "minute": "56'"
+   "live_score": "5-1",
+   "minute": "65'"
   },
   {
    "league": "Championship",
@@ -2804,7 +2764,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2824,7 +2784,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2864,7 +2824,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2884,7 +2844,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2904,7 +2864,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "40'"
+   "minute": "HT"
   },
   {
    "league": "Championship",
@@ -2924,7 +2884,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -2964,7 +2924,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -2984,7 +2944,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -3003,8 +2963,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
-   "live_score": "0-0",
-   "minute": "45'+1'"
+   "live_score": "0-1",
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -3024,7 +2984,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -3044,7 +3004,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -3084,7 +3044,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League One",
@@ -3104,7 +3064,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-2",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3124,7 +3084,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3144,7 +3104,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-2",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3164,7 +3124,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3184,7 +3144,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3204,7 +3164,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3224,7 +3184,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "45'+3'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3264,7 +3224,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "League Two",
@@ -3324,7 +3284,7 @@
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "32'"
+   "minute": "41'"
   },
   {
    "league": "La Liga 2",
@@ -3343,8 +3303,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T15:15Z",
    "prio": 9,
-   "live_score": "1-1",
-   "minute": "30'"
+   "live_score": "2-1",
+   "minute": "39'"
   },
   {
    "league": "Serie B",
@@ -3364,47 +3324,7 @@
    "kickoff": "2026-11-28T14:00Z",
    "prio": 9,
    "live_score": "2-0",
-   "minute": "86'"
-  },
-  {
-   "league": "Serie B",
-   "home": "Carrarese",
-   "away": "Juve Stabia",
-   "status": "live",
-   "conf": 71,
-   "victoire": "Serré : Nul ou Carrarese",
-   "score_exact": "0-0 (19%) · 1-0 (15%)",
-   "double_chance": "1X 71%",
-   "corner": "N/D",
-   "over": "Under 2.5 75%",
-   "btts": "BTTS NON 65%",
-   "analyse": "2026-11-28 | Buts attendus Carrarese 0.9 - Juve Stabia 0.8 | 1/N/2 : 35/36/29% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Face-à-face (4 confrontations) : Carrarese 1V · 2N · Juve Stabia 1V (scores : 0-0, 1-2, 3-0)  ||  Carrarese : 13e/20 (16 pts en 13 m.) | repos 4 j | prochains : Cesena (Serie B, 7 j), Pisa (Serie B, 10 j)  ||  Juve Stabia : 14e/20 (16 pts en 13 m.) | repos 4 j | prochains : Benevento (Serie B, 7 j), Ascoli (Serie B, 10 j), Padova (Serie B, 14 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:00Z",
-   "prio": 9,
-   "live_score": "3-1",
-   "minute": "88'"
-  },
-  {
-   "league": "Serie B",
-   "home": "Empoli",
-   "away": "Hellas Verona",
-   "status": "live",
-   "conf": 52,
-   "victoire": "Victoire Hellas Verona",
-   "score_exact": "1-2 (10%) · 1-3 (6%)",
-   "double_chance": "12 76%",
-   "corner": "N/D",
-   "over": "Over 2.5 56%",
-   "btts": "BTTS OUI 57%",
-   "analyse": "2026-11-28 | Buts attendus Empoli 1.2 - Hellas Verona 1.8 | 1/N/2 : 25/24/52% | base sur 13 et 13 matchs joues | modele Poisson, aucun aleatoire",
-   "contexte": "Empoli : 20e/20 (9 pts en 13 m.) | repos 4 j | prochains : Virtus Entella (Serie B, 8 j), Sudtirol (Serie B, 11 j)  ||  Hellas Verona : 11e/20 (16 pts en 13 m.) | repos 4 j | prochains : Palermo (Serie B, 8 j), US Avellino (Serie B, 11 j)",
-   "day": "2026-11-28",
-   "kickoff": "2026-11-28T14:00Z",
-   "prio": 9,
-   "live_score": "2-2",
-   "minute": "89'"
+   "minute": "90'+4'"
   },
   {
    "league": "Eredivisie",
@@ -3424,7 +3344,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "17'"
+   "minute": "25'"
   },
   {
    "league": "Liga Portugal",
@@ -3444,7 +3364,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "16'"
+   "minute": "24'"
   },
   {
    "league": "Liga Portugal",
@@ -3464,7 +3384,7 @@
    "kickoff": "2026-11-28T15:30Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "16'"
+   "minute": "25'"
   },
   {
    "league": "Pro League",
@@ -3484,7 +3404,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "Scottish Premiership",
@@ -3524,7 +3444,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-4",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "Scottish Premiership",
@@ -3544,7 +3464,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-1",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "Scottish Premiership",
@@ -3564,7 +3484,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-1",
-   "minute": "45'+1'"
+   "minute": "HT"
   },
   {
    "league": "Super League (GRE)",
@@ -3584,7 +3504,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "1-0",
-   "minute": "44'"
+   "minute": "HT"
   },
   {
    "league": "Super League (GRE)",
@@ -3604,7 +3524,7 @@
    "kickoff": "2026-11-28T15:00Z",
    "prio": 9,
    "live_score": "0-0",
-   "minute": "45'+2'"
+   "minute": "HT"
   },
   {
    "league": "Saudi Pro League",
@@ -3623,8 +3543,8 @@
    "day": "2026-11-28",
    "kickoff": "2026-11-28T14:20Z",
    "prio": 13,
-   "live_score": "1-2",
-   "minute": "68'"
+   "live_score": "1-3",
+   "minute": "77'"
   },
   {
    "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
@@ -4347,6 +4267,86 @@
    "prio": 9
   },
   {
+   "league": "Serie A",
+   "home": "Frosinone",
+   "away": "Parma",
+   "status": "finished",
+   "conf": 62,
+   "victoire": "Victoire Frosinone",
+   "score_exact": "2-1 (10%) · 3-1 (7%)",
+   "double_chance": "1X 81%",
+   "corner": "N/D",
+   "over": "Over 2.5 66%",
+   "btts": "BTTS OUI 61%",
+   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Frosinone : 7e/20 (20 pts en 12 m.) | repos 6 j | prochains : Internazionale (Serie A, 7 j), Udinese (Serie A, 13 j)  ||  Parma : 17e/20 (8 pts en 12 m.) | repos 7 j | prochains : AC Milan (Serie A, 8 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T14:00Z",
+   "prio": 3,
+   "live_score": "3-0",
+   "minute": "FT"
+  },
+  {
+   "league": "Serie B",
+   "home": "Carrarese",
+   "away": "Juve Stabia",
+   "status": "finished",
+   "conf": 71,
+   "victoire": "Serré : Nul ou Carrarese",
+   "score_exact": "0-0 (19%) · 1-0 (15%)",
+   "double_chance": "1X 71%",
+   "corner": "N/D",
+   "over": "Under 2.5 75%",
+   "btts": "BTTS NON 65%",
+   "analyse": "Resultat 3-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | pronostic fige avant match",
+   "contexte": "Face-à-face (4 confrontations) : Carrarese 1V · 2N · Juve Stabia 1V (scores : 0-0, 1-2, 3-0)  ||  Carrarese : 13e/20 (16 pts en 13 m.) | repos 4 j | prochains : Cesena (Serie B, 7 j), Pisa (Serie B, 10 j)  ||  Juve Stabia : 14e/20 (16 pts en 13 m.) | repos 4 j | prochains : Benevento (Serie B, 7 j), Ascoli (Serie B, 10 j), Padova (Serie B, 14 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T14:00Z",
+   "prio": 9,
+   "live_score": "3-1",
+   "minute": "FT"
+  },
+  {
+   "league": "Serie B",
+   "home": "Empoli",
+   "away": "Hellas Verona",
+   "status": "finished",
+   "conf": 52,
+   "victoire": "Victoire Hellas Verona",
+   "score_exact": "1-2 (10%) · 1-3 (6%)",
+   "double_chance": "12 76%",
+   "corner": "N/D",
+   "over": "Over 2.5 56%",
+   "btts": "BTTS OUI 57%",
+   "analyse": "Resultat 2-2 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
+   "contexte": "Empoli : 20e/20 (9 pts en 13 m.) | repos 4 j | prochains : Virtus Entella (Serie B, 8 j), Sudtirol (Serie B, 11 j)  ||  Hellas Verona : 11e/20 (16 pts en 13 m.) | repos 4 j | prochains : Palermo (Serie B, 8 j), US Avellino (Serie B, 11 j)",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T14:00Z",
+   "prio": 9,
+   "live_score": "2-2",
+   "minute": "FT"
+  },
+  {
+   "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
+   "home": "Chinese Taipei",
+   "away": "South Africa",
+   "status": "finished",
+   "conf": 75,
+   "victoire": "Serré : pas de nul (12)",
+   "score_exact": "1-2 (9%) · 2-1 (7%)",
+   "double_chance": "12 75%",
+   "corner": "N/D",
+   "over": "Over 2.5 51%",
+   "btts": "BTTS OUI 54%",
+   "analyse": "Resultat 0-1 | 1X2 OK | DC OK | O/U RATE | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
+   "contexte": "",
+   "day": "2026-11-28",
+   "kickoff": "2026-11-28T14:00Z",
+   "prio": -1,
+   "live_score": "0-1",
+   "minute": "FT"
+  },
+  {
    "league": "La Liga",
    "home": "Real Betis",
    "away": "Rayo Vallecano",
@@ -5064,86 +5064,6 @@
    "kickoff": "2026-11-27T23:00Z",
    "prio": 12,
    "live_score": "4-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Brazilian Serie B",
-   "home": "Vila Nova",
-   "away": "Atlético Goianiense",
-   "status": "finished",
-   "conf": 51,
-   "victoire": "Victoire Vila Nova",
-   "score_exact": "1-0 (17%) · 2-0 (11%)",
-   "double_chance": "1X 77%",
-   "corner": "N/D",
-   "over": "Under 2.5 64%",
-   "btts": "BTTS NON 60%",
-   "analyse": "Resultat 2-0 | 1X2 OK | DC OK | O/U OK | BTTS OK | Score OK | pronostic fige avant match",
-   "contexte": "Face-à-face (6 confrontations) : Vila Nova 4V · 1N · Atlético Goianiense 1V (scores : 2-1 x2, 1-1, 1-0)  ||  Vila Nova : repos 5 j  ||  Atlético Goianiense : repos 5 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:00Z",
-   "prio": 10,
-   "live_score": "2-0",
-   "minute": "FT"
-  },
-  {
-   "league": "Women's International Friendly",
-   "home": "Bolivia",
-   "away": "Uruguay",
-   "status": "finished",
-   "conf": 79,
-   "victoire": "Victoire Uruguay",
-   "score_exact": "1-2 (8%) · 1-3 (8%)",
-   "double_chance": "X2 92%",
-   "corner": "N/D",
-   "over": "Over 2.5 73%",
-   "btts": "BTTS OUI 55%",
-   "analyse": "Resultat 0-8 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | calcule apres coup, sans voir le match",
-   "contexte": "",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T23:00Z",
-   "prio": 13,
-   "live_score": "0-8",
-   "minute": "FT"
-  },
-  {
-   "league": "Argentine Nacional B",
-   "home": "Atlanta",
-   "away": "Ciudad de Bolívar",
-   "status": "finished",
-   "conf": 52,
-   "victoire": "Victoire Atlanta",
-   "score_exact": "1-0 (20%) · 2-0 (12%)",
-   "double_chance": "1X 82%",
-   "corner": "N/D",
-   "over": "Under 2.5 72%",
-   "btts": "BTTS NON 68%",
-   "analyse": "Resultat 0-1 | 1X2 RATE | DC RATE | O/U OK | BTTS OK | Score RATE | pronostic fige avant match",
-   "contexte": "Atlanta : repos 6 j  ||  Ciudad de Bolívar : repos 6 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T22:00Z",
-   "prio": 10,
-   "live_score": "0-1",
-   "minute": "FT"
-  },
-  {
-   "league": "Concacaf W Championship",
-   "home": "Jamaica",
-   "away": "Costa Rica",
-   "status": "finished",
-   "conf": 60,
-   "victoire": "Victoire Jamaica",
-   "score_exact": "2-1 (10%) · 3-1 (7%)",
-   "double_chance": "12 80%",
-   "corner": "N/D",
-   "over": "Over 2.5 66%",
-   "btts": "BTTS OUI 62%",
-   "analyse": "Resultat 3-0 | 1X2 OK | DC OK | O/U OK | BTTS RATE | Score RATE | pronostic fige avant match",
-   "contexte": "Jamaica : repos 10 j  ||  Costa Rica : repos 10 j",
-   "day": "2026-11-27",
-   "kickoff": "2026-11-27T22:00Z",
-   "prio": 13,
-   "live_score": "3-0",
    "minute": "FT"
   }
  ]
